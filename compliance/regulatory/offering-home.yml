@@ -16,12 +16,12 @@ metadata:
   ms.author: robmazz
   ms.date: 11/30/2020
   localization_priority: Normal
-  ms.openlocfilehash: 6dabbb8599288d0291934135ef208b52b9ec0003
-  ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+  ms.openlocfilehash: 95c5b020d516d5fc7ccce6978c6f4cf0ad590b5f
+  ms.sourcegitcommit: 98b2d08699e942b4d4f3d7960df6e8e85030f5ec
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 11/30/2020
-  ms.locfileid: "49506996"
+  ms.lasthandoff: 12/01/2020
+  ms.locfileid: "49527122"
 conceptualContent:
   title: Compliance-Angebote für Microsoft 365, Azure Cloud Services und andere Microsoft-Dienste
   summary: Microsoft bietet Compliance-Angebote, damit Ihre Organisation nationale, regionale und branchenspezifische Anforderungen für die Erfassung und Verwendung von Daten einhalten kann.
@@ -305,6 +305,8 @@ additionalContent:
         url: offering-tisax-germany.md
     - title: Regional
       links:
+      - text: ABS OSPAR (Singapur)
+        url: offering-abs-ospar.md
       - text: Kanadische Datenschutzgesetze
         url: offering-canadian-privacy-laws.md
       - text: Cyber Essentials Plus (Vereinigtes Königreich)
