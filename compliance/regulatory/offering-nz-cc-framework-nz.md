@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d573e78ddf0f6f4b9845635a37f8dc8f82350066
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: db1168d494fd5a8d0a31176ccccdff72dd096f1d
+ms.sourcegitcommit: c697549cdc5785e163bd6147cf0d95ba61b078fe
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506961"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49528891"
 ---
 # <a name="new-zealand-government-cloud-computing-security-and-privacy-considerations"></a>New Zealand Government Cloud Computing-Sicherheits-und Datenschutzüberlegungen
 
@@ -39,7 +39,7 @@ Um Agenturen bei der Analyse und Evaluierung von Microsoft Enterprise Cloud-Dien
 
 Erfahren Sie, wie Sie Ihre NZ CC Framework-Bereitstellung mit unserem Azure Security and Compliance Blueprint beschleunigen: [herunterladen der Azure-Antwort auf das NZ CC-Framework](https://gallery.technet.microsoft.com/Response-to-GCIO-Cloud-e117bbb9)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Eingeschlossene Microsoft-Clouddienste
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft Cloud Services im Leistungsumfang
 
 - [Azure und Azure Government](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
@@ -65,8 +65,7 @@ Wenn Ihre Agentur im Rahmen des [neuseeländischen Informations Sicherheitshandb
 - [NZ Government ICT Strategy 2015](https://www.ict.govt.nz/strategy-and-action-plan/strategy/)
 - [NZ Government Requirements for Cloud Computing](https://aka.ms/NZ-Cloud-Requirements)
 - [Cloud Computing: Überlegungen zu Sicherheit und Datenschutz (ISPC)](https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/cloud-services/)
-- [Microsoft Online Services-Nutzungsbedingungen](https://aka.ms/Online-Services-Terms)
-- [Office 365: e-Mail-Integration und Referenzarchitektur](https://download.microsoft.com/download/8/5/9/859CDCEE-D293-47D8-9B6A-670B108B48E1/Microsoft_Office_365_white_paper_EN_US.pdf) (zusätzliche Microsoft NZ-Anleitungen für die Einführung in Cloud Services)
+- [Nutzungsbedingungen für Microsoft-Onlinedienste](https://aka.ms/Online-Services-Terms)
 - [Compliance im Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="microsoft-responses-to-cloud-computing-ipsc"></a>Antworten von Microsoft auf "Cloud Computing"
