@@ -16,18 +16,18 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 0e04239b8dcbe50d054ec02f2164a301c775aaac
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 4766d0152e2ee5b372157dd56f28690161f04045
+ms.sourcegitcommit: 5ebe2ba746bba2d5058dcc0469a67e81fa3a8dce
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49509525"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49559851"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>Health Insurance Portability and Accountability (HIPAA) & HITECH Acts
 
 ## <a name="hipaa-and-the-hitech-act-overview"></a>HIPAA und der HITECH Act (Übersicht)
 
-Der Health Insurance Portability and Accountability Act (HIPAA) ist ein US-Gesundheitsgesetz, das Anforderungen für die Nutzung, Offenlegung und Wahrung individuell identifizierbarer Gesundheitsinformationen festlegt. Sie gilt für erfasste Entitäten – Ärzte Büros, Krankenhäuser, Krankenversicherer und andere Gesundheitsunternehmen – mit Zugriff auf geschützte Integritätsinformationen von Patienten (Phi) sowie mit Geschäftspartnern wie Cloud Service und IT-Anbietern, die Phi in Ihrem Auftrag verarbeiten. (Die meisten betroffenen Entitäten führen selbst keine Funktionen wie Anspruchs- oder Datenverarbeitung aus, sondern verlassen sich dafür auf Geschäftspartner.)
+Der Health Insurance Portability and Accountability Act (HIPAA) ist ein US-Gesundheitsgesetz, das Anforderungen für die Nutzung, Offenlegung und Wahrung individuell identifizierbarer Gesundheitsinformationen festlegt. Sie gilt für erfasste Entitäten, Arztpraxen, Krankenhäuser, Krankenversicherer und andere Unternehmen im Gesundheitswesen, die Zugriff auf geschützte Integritätsinformationen (Phi) von Patienten sowie auf Geschäftspartner wie Cloud Service und IT-Anbieter haben, die Phi in Ihrem Auftrag verarbeiten. (Die meisten betroffenen Entitäten führen selbst keine Funktionen wie Anspruchs- oder Datenverarbeitung aus, sondern verlassen sich dafür auf Geschäftspartner.)
 
 Das Gesetz regelt die Nutzung und Verbreitung von PHI in vier allgemeinen Bereichen:
 
@@ -45,7 +45,7 @@ Die endgültige Richtlinie zur Benachrichtigung bei HITECH-Verletzungen (HITECH 
 
 ## <a name="microsoft-and-hipaa-and-the-hitech-act"></a>Microsoft und HIPAA sowie der HITECH Act
 
-Die HIPAA-Bestimmungen erfordern, dass betroffene Unternehmen und deren Geschäftspartner – in diesem Fall Microsoft, wenn es Dienste einschließlich Clouddiensten für betroffene Unternehmen bereitstellt – Verträge abschließen, um sicherzustellen, dass diese Geschäftspartner PHI angemessen schützen. Diese Verträge oder Baas klären und begrenzen, wie der Geschäftspartner Phi verarbeiten kann, und legen jede Partei fest, welche Sicherheits-und Datenschutzbestimmungen in HIPAA und im HITECH Act dargelegt sind. Sobald eine Baa vorhanden ist, können Microsoft-Kunden – verdeckte Entitäten – ihre Dienste zum Verarbeiten und Speichern von Phi verwenden.
+HIPAA-Verordnungen erfordern, dass abgedeckte Entitäten und Ihre Geschäftspartner, in diesem Fall Microsoft, wenn Sie Dienste bereitstellt, einschließlich Cloud-Dienste, für erfasste Entitäten Verträge abschließen, um sicherzustellen, dass diese Geschäftspartner Phi angemessen schützen können. Diese Verträge oder Baas klären und begrenzen, wie der Geschäftspartner Phi verarbeiten kann, und legen jede Partei fest, welche Sicherheits-und Datenschutzbestimmungen in HIPAA und im HITECH Act dargelegt sind. Sobald eine Baa vorhanden ist, können Microsoft-Kunden (verdeckte Entitäten) ihre Dienste zum Verarbeiten und Speichern von Phi verwenden.
 
 Derzeit gibt es keine offizielle Zertifizierung für HIPAA- oder HITECH Act-Compliance. Allerdings wurden für die im BAA abgedeckten Microsoft-Dienste Audits für die ISO/IEC 27001-Zertifizierung von Microsoft durch akkreditierte, unabhängige Prüfer durchgeführt.
 
@@ -57,8 +57,9 @@ Wenn Sie erfahren möchten, wie die Microsoft-Cloud Kunden dabei unterstützt, H
 
 - [Azure und Azure Government](https://aka.ms/AzureCompliance)
 - Microsoft Cloud App Security
-- [Microsoft Cloud for Healthcare](https://aka.ms/MicrosoftCloudforHealthcareCompliance)
-- Microsoft Microsoft Healthcare Bot-Dienst
+- [Microsoft Cloud für Healthcare](https://aka.ms/MicrosoftCloudforHealthcareCompliance)
+- Microsoft Healthcare Bot-Dienst
+- Microsoft Managed Desktop
 - Microsoft Stream
 - Microsoft Professional Services: Premier und On-Premises für Azure, Dynamics 365, Intune und Medium Business- und Enterprise-Kunden von Microsoft 365 for Business
 - [Dynamics 365 und Dynamics 365 U.S. Government](https://aka.ms/d365-compliance-list)
@@ -71,9 +72,7 @@ Wenn Sie erfahren möchten, wie die Microsoft-Cloud Kunden dabei unterstützt, H
 
 ## <a name="accelerate-your-deployment-of-hipaahitrust-solutions-on-azure"></a>Beschleunigen Sie die Bereitstellung von HIPAA/HITRUST-Lösungen auf Azure
 
-Nutzen Sie die Vorteile der Cloud für Gesundheitsdatenlösungen mit der Azure-Blaupause für Sicherheit und Compliance – HIPAA/HITRUST-Gesundheitsdaten und AI. Diese Blaupause bietet Tools und Anleitungen, die Ihnen bei den ersten Schritten der Erstellung von HIPAA/HITRUST-Lösungen helfen.
-
-[Beginnen Sie mit der Verwendung der Azure HIPAA/HITRUST-Blaupause](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust-9-2)
+Beginnen Sie mit dem Nutzen der Cloud für Integritätsdaten Lösungen mit dem [Azure Security and Compliance Blueprint: HIPAA/HITRUST-Integritätsdaten und AI](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust-9-2). Diese Blaupause bietet Tools und Anleitungen, die Ihnen bei den ersten Schritten der Erstellung von HIPAA/HITRUST-Lösungen helfen.
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
@@ -105,9 +104,9 @@ Um Kunden bei dieser Aufgabe zu unterstützen, hat Microsoft die folgenden Leitf
 - [Praktischer Leitfaden zum Entwerfen von sicheren Gesundheitslösungen mit Microsoft Azure](https://aka.ms/azureindustrysecurity) hilft Ihnen, besser zu verstehen, was für die erfolgreiche, sichere Einführung eines Clouddiensts nötig ist.
 - [Die Behandlung der HIPAA-Sicherheits- und Datenschutzanforderungen in der Microsoft-Cloud](https://smb.blob.core.windows.net/smbproduction/Content/Microsoft_Cloud_Healthcare_HIPAA_Security_Privacy.pdf) bietet einen kurzen Überblick über die Vorschriften. Außerdem wird eine detaillierte Analyse der Funktionsweise von Cloud-Diensten von Microsoft mit Methoden erstellt, die diesen Anforderungen entsprechen, sowie Anleitungen zum Erstellen von Compliance-fähigen Lösungen.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance-Manager, um Ihr Risiko einzuschätzen
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
 
-Der [Microsoft Compliance-Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) ist ein Feature im [Microsoft 365 Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center), mit dem Sie die Compliance-Position Ihres Unternehmens verstehen und Maßnahmen zur Risikominderung ergreifen können. Der Compliance Manager bietet eine Premium-Vorlage zum Erstellen einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance-Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
+[Microsoft Compliance Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center, die Ihnen](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen in Compliance Manager erstellen](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="resources"></a>Ressourcen
 
