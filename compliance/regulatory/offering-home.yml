@@ -3,7 +3,7 @@ title: Microsoft Compliance-Angebote
 summary: Erfahren Sie, wie Microsoft-Produkte und-Dienste Ihre Organisation bei der Erfüllung gesetzlicher Compliance-Standards unterstützen.
 brand: m365
 metadata:
-  title: Compliance-Angebote für Microsoft 365, Azure Cloud Services und andere Microsoft-Dienste.
+  title: Compliance-Angebote für Microsoft 365, Azure und andere Microsoft-Dienste.
   description: Erfahren Sie, wie Microsoft-Produkte und-Dienste Ihre Organisation bei der Erfüllung gesetzlicher Compliance-Standards unterstützen.
   services: service
   ms.service: O365-seccomp
@@ -16,14 +16,14 @@ metadata:
   ms.author: robmazz
   ms.date: 11/30/2020
   localization_priority: Normal
-  ms.openlocfilehash: 95c5b020d516d5fc7ccce6978c6f4cf0ad590b5f
-  ms.sourcegitcommit: 98b2d08699e942b4d4f3d7960df6e8e85030f5ec
+  ms.openlocfilehash: 46592794abb76821595c95cea2d66cd529d727c5
+  ms.sourcegitcommit: 7651cdc4af88278aef02114b4331d8d379f10def
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 12/01/2020
-  ms.locfileid: "49527122"
+  ms.lasthandoff: 12/03/2020
+  ms.locfileid: "49568651"
 conceptualContent:
-  title: Compliance-Angebote für Microsoft 365, Azure Cloud Services und andere Microsoft-Dienste
+  title: Compliance-Angebote für Microsoft 365, Azure und andere Microsoft-Dienste
   summary: Microsoft bietet Compliance-Angebote, damit Ihre Organisation nationale, regionale und branchenspezifische Anforderungen für die Erfassung und Verwendung von Daten einhalten kann.
   items:
   - title: Global
@@ -260,8 +260,8 @@ conceptualContent:
       text: TRUCS (China)
 additionalContent:
   sections:
-  - title: Compliance-Angebote speziell für Azure Cloud Services
-    summary: Compliance-Angebote speziell für Azure Cloud-Dienste, damit Ihre Organisation nationale, regionale und branchenspezifische Anforderungen zur Erfassung und Verwendung von Daten einhalten kann.
+  - title: Compliance-Angebote speziell für Azure
+    summary: Compliance-Angebote speziell für Azure, damit Ihre Organisation nationale, regionale und branchenspezifische Anforderungen zur Erfassung und Verwendung von Daten einhalten kann.
     items:
     - title: Global
       links:

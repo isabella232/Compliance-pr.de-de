@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 46de9832d4ba155e0e500462b7c82fad16a3bda2
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 05458ef4c0ef85a00939f53698639ef1be9174ff
+ms.sourcegitcommit: 7651cdc4af88278aef02114b4331d8d379f10def
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507326"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49568661"
 ---
 # <a name="criminal-justice-information-services-cjis-security-policy"></a>Sicherheitsrichtlinie für Strafverfolgungs-Informationsdienste (CJIS)
 
@@ -31,7 +31,7 @@ Die Abteilung Strafjustiz-Informationsdienste (CJIS) des US Federal Bureau of In
 
 Die CJIS-Sicherheitsrichtlinie integriert Präsidenten-und FBI-Direktiven, Bundesgesetze und die Entscheidungen des Beratenden Entscheidungsgremiums der Strafverfolgungsbehörden sowie Anweisungen des National Institute of Standards and Technology (NIST). Die Richtlinie wird regelmäßig aktualisiert, um die sich entwickelnden Sicherheitsanforderungen widerzuspiegeln.
 
-Die CJIS-Sicherheitsrichtlinie definiert 13 Bereiche, die private Auftragnehmer wie Anbieter von Cloud-Diensten bewerten müssen, um festzustellen, ob die Verwendung von Cloud-Diensten mit den CJIS-Anforderungen übereinstimmen kann. Diese Bereiche entsprechen eng dem NIST 800-53, das ist auch die Grundlage für das Federal Risk and Authorization Management Program ([FedRAMP (Office 365)](offering-FedRAMP.md)), ein Programm, unter dem Microsoft für seine Regierung Cloud-Angebote zertifiziert wurde.
+Die CJIS-Sicherheitsrichtlinie definiert 13 Bereiche, die private Auftragnehmer wie Anbieter von Cloud-Diensten bewerten müssen, um festzustellen, ob die Verwendung von Cloud-Diensten mit den CJIS-Anforderungen übereinstimmen kann. Diese Bereiche entsprechen eng mit NIST 800-53, was auch die Grundlage für das [Federal Risk and Authorization Management Program (FedRAMP)](offering-FedRAMP.md)ist, ein Programm, unter dem Microsoft für seine staatlichen Cloud-Angebote zertifiziert wurde.
 
 Darüber hinaus müssen alle privaten Auftragnehmer, die CJI verarbeiten, den CJIS-Sicherheits Nachtrag unterzeichnen, eine vom US-Generalstaatsanwalt genehmigte einheitliche Vereinbarung, die die Sicherheit und Vertraulichkeit von CJI gewährleistet, die für die Sicherheitsrichtlinie erforderlich ist. Außerdem wird der Auftragnehmer verpflichtet, ein Sicherheitsprogramm in Einklang mit Bundes-und Landesgesetzen,-Verordnungen und-Standards beizubehalten und die Verwendung von CJI auf die Zwecke zu beschränken, für die eine Regierungsbehörde Sie bereitgestellt hat.
 
@@ -45,11 +45,11 @@ Erfahren Sie mehr über die Vorteile der CJIS-Sicherheitsrichtlinie in der Micro
 
 Erfahren Sie, wie Sie Ihre CJIS-Sicherheitsrichtlinie mit unserem Azure Security and Compliance Blueprint beschleunigen: [Laden Sie die CJIS-Implementierungsrichtlinien für Microsoft Government Cloud Services herunter](https://gallery.technet.microsoft.com/CJIS-Implementation-62af7c27) .
 
-## <a name="microsoft-in-scope-cloud-services"></a>Eingeschlossene Microsoft-Clouddienste
+## <a name="microsoft-in-scope-cloud-services"></a>In-Scope-Cloud-Dienste von Microsoft
 
-- [Azure-Regierung](https://aka.ms/AzureCompliance)
-- [Dynamics 365 U.S. Government](https://aka.ms/d365-compliance-list)
-- [Office 365 US-Regierung](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- [Azure-Regierung](https://docs.microsoft.com/azure/azure-government/documentation-government-welcome)
+- [Dynamics 365 U.S. Government](https://docs.microsoft.com/power-platform/admin/microsoft-dynamics-365-government#certifications-and-accreditations)
+- [Office 365 US-Regierung](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc#us-government-community-compliance)
 - Power BI-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365-Plan bzw. einer -Anwendungssuite enthalten
 
 ## <a name="audits-reports-and-certificates"></a>Prüfungen, Berichte und Zertifikate
@@ -80,9 +80,9 @@ Microsoft unterzeichnet eine Informations Vereinbarung mit einer staatlichen CJI
 
 [CJIS-Sicherheitsrichtlinie](https://aka.ms/cjis-security-policy) umfasst die Vorsichtsmaßnahmen, die Ihre Agentur zum Schutz von CJI ergreifen muss. Darüber hinaus können Sie mit Ihrem Microsoft-Konto Vertreter Kontakt mit denjenigen aufnehmen, die mit den Anforderungen Ihrer Gerichtsbarkeit vertraut sind.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance-Manager, um Ihr Risiko einzuschätzen
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
 
-Der [Microsoft Compliance-Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) ist ein Feature im [Microsoft 365 Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center), mit dem Sie die Compliance-Position Ihres Unternehmens verstehen und Maßnahmen zur Risikominderung ergreifen können. Der Compliance Manager bietet eine Premium-Vorlage zum Erstellen einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance-Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
+[Microsoft Compliance Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center, die Ihnen](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen in Compliance Manager erstellen](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="resources"></a>Ressourcen
 
