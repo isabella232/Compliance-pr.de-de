@@ -1,11 +1,10 @@
 ---
 title: Microsoft 365 for Enterprise Business Continuity Management-Minderungsmaßnahmen
 description: Einige Beispiele für Risikominderungen für Microsoft 365-Dienstvorfallszenarien.
-author: chrfox
-ms.author: chrfox
+author: robmazz
+ms.author: robmazz
 manager: laurawi
 ms.reviewer: sosstah
-ms.date: ''
 audience: ITPro
 ms.topic: article
 f1.keywords:
@@ -17,12 +16,12 @@ ms.collection:
 - Strat_O365_Enterprise
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: fd7f68e8cb0f86bcbe842885a1f69c678fd156b6
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: b31ee58d4e9a60232d7d5df4ff1bf4f16b6266cf
+ms.sourcegitcommit: 693bc6b1b51a5a9c9ff1758fa7f7ca3a204f147e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506853"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49574747"
 ---
 # <a name="service-incident-mitigation-strategies"></a>Strategien zur Schadensbegrenzung bei Dienstvorfällen
 

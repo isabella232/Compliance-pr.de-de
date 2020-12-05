@@ -1,13 +1,12 @@
 ---
 title: Enterprise Business Continuity Management Plan – Proben und Benutzerschulungen
 description: informieren Sie sich über die Vorteile einer regelmäßigen Schulung und Praxis Ihres Geschäftskontinuitätsplans.
-author: chrfox
-ms.author: chrfox
+author: robmazz
+ms.author: robmazz
 manager: laurawi
 ms.reviewer: sosstah
 f1.keywords:
 - NOCSH
-ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -17,12 +16,12 @@ ms.collection:
 - Strat_O365_Enterprise
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: d981655420390209e4977e05ed25b516a34855d9
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 7eb4be06eef8ded455f906b7b9757365bfe03010
+ms.sourcegitcommit: 693bc6b1b51a5a9c9ff1758fa7f7ca3a204f147e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506874"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49574817"
 ---
 # <a name="train-for-business-continuity-in-your-organization"></a>Kontinuierliche Schulung für Geschäftskontinuität in Ihrer Organisation
 

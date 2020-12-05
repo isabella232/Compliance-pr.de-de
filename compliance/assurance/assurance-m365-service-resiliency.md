@@ -1,13 +1,12 @@
 ---
 title: Integrierte Dienstausfall Sicherheit in Microsoft 365
 description: Beschreibung der Ausfallsicherheit von Microsoft 365-Diensten
-author: chrfox
-ms.author: chrfox
+author: robmazz
+ms.author: robmazz
 manager: laurawi
 ms.reviewer: sosstah
 f1.keywords:
 - NOCSH
-ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -17,12 +16,12 @@ ms.collection:
 - Strat_O365_Enterprise
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 3ef398ef41516d6598bdec9b6e537b37577ef864
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: ee9c7d898af13b9a1db95913a98be09eea8cd27f
+ms.sourcegitcommit: 693bc6b1b51a5a9c9ff1758fa7f7ca3a204f147e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506710"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49574757"
 ---
 # <a name="built-in-service-resiliency-in-microsoft-365"></a>Integrierte Dienstausfall Sicherheit in Microsoft 365
 
@@ -36,17 +35,17 @@ Um die Ausfallzeiten – geplant oder unerwartet – zu minimieren, sind Microso
 
 ## <a name="activeactive-design"></a>Aktiv/Aktiv-Ausführung
 
-In Microsoft 365 streben wir danach, dass alle Dienste in einer aktiven/aktiven Ausführung entwickelt und betrieben werden, was die Resilienz erhöht. Dies bedeutet, dass immer mehrere Instanzen eines Diensts ausgeführt werden, die auf Benutzeranforderungen reagieren und in geografisch verteilten Rechenzentren gehostet werden. Der gesamte Benutzerdatenverkehr wird über den Microsoft Front Door-Dienst durchgeführt. Er wird automatisch an die optimal lokalisierte Instanz des Diensts und zu allen Dienstfehlern geleitet, um die Auswirkungen auf die Kunden zu verhindern oder zu verringern.
+In Microsoft 365 fahren wir damit, alle Dienste in einem aktiv/aktiv-Design zu entwerfen und zu betreiben, das die Ausfallsicherheit erhöht. Dies bedeutet, dass immer mehrere Instanzen eines Diensts ausgeführt werden, die auf Benutzeranforderungen reagieren und in geografisch verteilten Rechenzentren gehostet werden. Der gesamte Benutzerdatenverkehr wird über den Microsoft Front Door-Dienst durchgeführt. Er wird automatisch an die optimal lokalisierte Instanz des Diensts und zu allen Dienstfehlern geleitet, um die Auswirkungen auf die Kunden zu verhindern oder zu verringern.
 
 ## <a name="reduce-incident-scope"></a>Reduzieren des Vorfallumfangs
 
 Der Umfang eines Dienstvorfalls wird anhand des Schweregrads, der Dauer und der Anzahl der Kunden ermittelt. Wir sind bestrebt, den Umfang aller Vorfälle zu begrenzen durch:
 
 - mehrere Instanzen jedes Dienstes voneinander getrennt zu haben
-- die kontrollierte, abgestufte Bereitstellung von Updates mit Hilfe von Validierungsringen, so dass alle Probleme, die sich aus dem Update ergeben könnten, frühzeitig im Bereitstellungsprozess erkannt und behoben werden können. Auf diese Weise wird die Regression des Updates gegebenenfalls in einer kleinen Gruppe innerhalb von Microsoft (innerer Ring) durchgeführt, bevor es in größeren Gruppen bereitgestellt wird, z. B. in allen 140 000 Microsoft-Mitarbeitern (Ring 2), dann in Early Adopter Ringen (Ring 3) und schließlich an alle Kunden weltweit (Ring 4).
-- Verbesserungen bei der Überwachung durch Automatisierung. Microsoft 365 ist sehr umfangreich, und die Verfügbarkeit des SLA-Ziels ist hoch. Am Anfang eines Dienstvorfalls, wenn Menschen an der Erkennung und Reaktion beteiligt sein mussten, konnten wir nicht schnell genug reagieren, um SLAs zu erfüllen. Die Automatisierung ist der Schlüssel für die schnelle und effektive Erkennung und Reaktion von Dienstvorfällen. Je früher wir etwas wissen, desto schneller lässt es sich beheben.
+- die kontrollierte, abgestufte Bereitstellung von Updates mit Hilfe von Validierungsringen, so dass alle Probleme, die sich aus dem Update ergeben könnten, frühzeitig im Bereitstellungsprozess erkannt und behoben werden können. Dies ermöglicht eine Regression des Updates, falls erforderlich, und tritt zunächst in einer kleinen Gruppe innerhalb von Microsoft (Innenring) auf, bevor es für größere Gruppen wie alle 140.000 Microsoft-Mitarbeiter (Ring 2), dann für Early Adopter-Ringe (Ring 3) und letztlich für alle Kunden weltweit (Ring 4) bereitgestellt wird.
+- Verbesserungen bei der Überwachung durch Automatisierung. Microsoft 365 ist ein großer Dienst, und die SLA-Ziel Verfügbarkeit ist hoch. Am Anfang eines Dienstvorfalls, wenn Menschen an der Erkennung und Reaktion beteiligt sein mussten, konnten wir nicht schnell genug reagieren, um SLAs zu erfüllen. Die Automatisierung ist der Schlüssel für die schnelle und effektive Erkennung und Reaktion von Dienstvorfällen. Je früher wir etwas wissen, desto schneller lässt es sich beheben.
 
-Zusammen mit den in der Microsoft 365-Dienstearchitektur integrierten Aktiv/Aktiv-Funktionen mindern diese Maßnahmen den Schweregrad, die Dauer und die Anzahl der betroffenen Kunden während eines Dienstvorfalls.  
+Zusammen mit den Active/Active-Funktionen, die in die Microsoft 365-Dienstarchitektur integriert sind, verringern diese Bemühungen den Schweregrad, die Dauer und die Anzahl betroffener Kunden während eines Dienst Vorfalls.  
 
 ## <a name="fault-isolation"></a>Fehlerisolation
 
