@@ -1,15 +1,15 @@
 ---
 title: Anträge betroffener Personen für Azure DevOps im Rahmen der DSGVO und des CCPA
+description: Erfahren Sie, wie Microsoft-Tools zum Exportieren oder Löschen von personenbezogenen Daten verwendet werden, die während einer authentifizierten Sitzung von Azure DevOps Services erfasst wurden.
 keywords: Visual Studio Team Services, VSTS, Azure DevOps-Dokumentation, Datenschutz, DSGVO, CCPA
 localization_priority: Priority
 audience: itpro
 ms.prod: devops
 ms.topic: article
-ms.date: 06/11/2018
 author: robmazz
+ms.author: robmazz
 f1.keywords:
 - NOCSH
-ms.author: robmazz
 manager: laurawi
 ms.collection:
 - GDPR
@@ -18,14 +18,13 @@ ms.collection:
 ms.workload:
 - multiple
 titleSuffix: Microsoft GDPR
-description: Erfahren Sie, wie Microsoft-Tools zum Exportieren oder Löschen von personenbezogenen Daten verwendet werden, die während einer authentifizierten Sitzung von Azure DevOps Services erfasst wurden.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f2c8e0f91af1b2779ac8f5af08c555976a757a24
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 9918046fc0e76bdfbccd5e199f4e576c77f4ca67
+ms.sourcegitcommit: 693bc6b1b51a5a9c9ff1758fa7f7ca3a204f147e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49509056"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49574827"
 ---
 # <a name="azure-devops-services-data-subject-requests-for-the-gdpr-and-ccpa"></a>Anträge betroffener Personen für Azure DevOps Services im Rahmen der DSGVO und des CCPA
 

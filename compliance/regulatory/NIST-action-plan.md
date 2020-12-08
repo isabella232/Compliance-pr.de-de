@@ -6,7 +6,6 @@ author: BrendaCarter
 localization_priority: Priority
 ms.prod: microsoft-365-enterprise
 ms.topic: article
-ms.date: 09/14/2018
 f1.keywords:
 - NOCSH
 ms.author: bcarter
@@ -16,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d33b96755eb5afd59bad307a47079b511e0d1203
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: a74bbe03596d63cbd7f24bec7f23cbabf88390c1
+ms.sourcegitcommit: 693bc6b1b51a5a9c9ff1758fa7f7ca3a204f147e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506942"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49574777"
 ---
 # <a name="microsoft-365-nist-800-53-action-plan--top-priorities-for-your-first-30-days-90-days-and-beyond"></a>Aktionsplan für Microsoft 365 NIST 800-53 – Die wichtigsten Prioritäten für die ersten 30 Tage, 90 Tage und danach
 
@@ -48,8 +47,8 @@ Die folgenden Maßnahmen können schnell umgesetzt werden und führen lediglich 
 |**Bereich**|**Aufgaben**|
 |:-----|:-----|
 |Überblick über die zu erfüllenden NIST 800-53-Anforderungen und Hinzuziehung eines Microsoft Advisory Partner|•   Hinzuziehung eines Microsoft-Partners zwecks Durchführung einer Lückenanalyse der NIST 800-53-Compliance Ihres Unternehmens sowie Aufstellung einer Roadmap für die Implementierung von Compliance <br>•   Verwenden Sie die Anleitungen in [Microsoft Compliance Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager), um Richtlinien und Verfahren sowohl für die Zugriffskontrolle als auch für die Freigabe von Informationen zu definieren und zu dokumentieren, die Zweck, Umfang, Rollen, Verantwortlichkeiten, Koordination zwischen Organisationseinheiten und Compliance betreffen.|
-|Kennenlernen und Verstehen der integrierten tiefgreifenden Verteidigungsstrategie von Microsoft 365|•   Bewerten und verwalten Sie Ihre Compliance-Risiken, indem Sie mit dem [Compliance Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) eine NIST 800-53-Bewertung Ihres Unternehmens durchführen.  Richten Sie Microsoft 365-Sicherheitskontrollen zur Verwaltung und Minderung von Risiken für die Ergebnisse der Bewertung aus. <br>•   Verwendung der [Microsoft-Sicherheitsbewertung](/security/office-365-security/office-365-secure-score.md), um die Nutzung der Microsoft 365-Sicherheitsfunktionen im Zeitverlauf sowohl in Office 365 als auch auf Windows 10-Desktops zu verfolgen <br>• Kennenlernen der Technologien und Strategien von Microsoft, mit denen [Office 365-Datenverschlüsselung](https://docs.microsoft.com/microsoft-365/compliance/encryption) bereitgestellt wird, sowie Strategien zum [Schutz vor Denial-of-Service-Angriffen](https://docs.microsoft.com/office365/enterprise/office-365-defending-against-denial-of-service-attacks-overview) in der Microsoft-Cloud|
-|Schützen des Benutzer- und Administratorzugriffs auf Office 365|• Einrichten einer [strikten Verwaltung von Anmeldeinformationen](https://docs.microsoft.com/azure/security/azure-ad-secure-steps#step-1---strengthen-your-credentials), um Benutzeranmeldeinformationen zu schützen <br> •  Kennenlernen der [empfohlenen Identitäts- und Gerätezugriffsrichtlinien](https://docs.microsoft.com/microsoft-365/security/office-365-security/microsoft-365-policies-configurations) für Office 365-Dienste<br> •   Verwenden der [Office 365-Administratorrollen](https://support.office.com/article/understanding-administrative-roles-52f29955-6a60-435f-aba9-eb69c898606a), um rollenbasierten Zugriff auf Verwaltungsfunktionen zu implementieren und die Trennung von Verwaltungsaufgaben zu ermöglichen. Hinweis: Viele Administratorrollen in Office 365 verfügen über eine entsprechende Rolle in Exchange Online, SharePoint Online und Skype for Business Online. Segmentieren von Berechtigungen, um sicherzustellen, dass ein einzelner Administrator nicht über mehr Zugriffsrechte verfügt als notwendig.|
+|Kennenlernen und Verstehen der integrierten tiefgreifenden Verteidigungsstrategie von Microsoft 365|•   Bewerten und verwalten Sie Ihre Compliance-Risiken, indem Sie mit dem [Compliance Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) eine NIST 800-53-Bewertung Ihres Unternehmens durchführen.  Richten Sie Microsoft 365-Sicherheitskontrollen zur Verwaltung und Minderung von Risiken für die Ergebnisse der Bewertung aus. <br>•   Verwendung der [Microsoft-Sicherheitsbewertung](/microsoft-365/security/mtp/microsoft-secure-score), um die Nutzung der Microsoft 365-Sicherheitsfunktionen im Zeitverlauf sowohl in Office 365 als auch auf Windows 10-Desktops zu verfolgen. <br>•    Kennenlernen der Technologien und Strategien von Microsoft, mit denen [Office 365-Datenverschlüsselung](https://docs.microsoft.com/microsoft-365/compliance/encryption) bereitgestellt wird, sowie Strategien zum [Schutz vor Denial-of-Service-Angriffen](https://docs.microsoft.com/office365/enterprise/office-365-defending-against-denial-of-service-attacks-overview) in der Microsoft-Cloud.|
+|Schützen des Benutzer- und Administratorzugriffs auf Office 365.|• Einrichten einer [strikten Verwaltung von Anmeldeinformationen](https://docs.microsoft.com/azure/security/azure-ad-secure-steps#step-1---strengthen-your-credentials), um Benutzeranmeldeinformationen zu schützen <br> •  Kennenlernen der [empfohlenen Identitäts- und Gerätezugriffsrichtlinien](https://docs.microsoft.com/microsoft-365/security/office-365-security/microsoft-365-policies-configurations) für Office 365-Dienste<br> •   Verwenden der [Office 365-Administratorrollen](https://support.office.com/article/understanding-administrative-roles-52f29955-6a60-435f-aba9-eb69c898606a), um rollenbasierten Zugriff auf Verwaltungsfunktionen zu implementieren und die Trennung von Verwaltungsaufgaben zu ermöglichen. Hinweis: Viele Administratorrollen in Office 365 verfügen über eine entsprechende Rolle in Exchange Online, SharePoint Online und Skype for Business Online. Segmentieren von Berechtigungen, um sicherzustellen, dass ein einzelner Administrator nicht über mehr Zugriffsrechte verfügt als notwendig.|
 |Sicherstellen, dass der gesamte Zugriff auf das System entsprechend den Prüfungs- und Verantwortlichkeitsrichtlinien der Organisation geprüft werden kann|Aktivieren der [Überwachungsprotokollierung](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) und der [Postfachüberwachung](https://docs.microsoft.com/microsoft-365/compliance/enable-mailbox-auditing) (für alle Exchange-Postfächer) zur Überwachung von Office 365 auf potenziell böswillige Aktivitäten sowie als Grundlage für die forensische Analyse von Datenschutzverletzungen.|
 |||
 
