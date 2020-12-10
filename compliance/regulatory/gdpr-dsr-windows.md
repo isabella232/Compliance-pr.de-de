@@ -8,20 +8,21 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
-ms.author: daniha
-author: DaniHalfin
-manager: dansimp
+ms.author: robmazz
+author: robmaz
+manager: laurawi
+ms.reviewer: delinat
 audience: itpro
 ms.collection:
 - GDPR
 - M365-security-compliance
 - MS-Compliance
-ms.openlocfilehash: 196796cbbfe7755f2639ed5acc163cce130d98d8
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 895dbe3b4fb0c272da22302a8e455da681b0ea88
+ms.sourcegitcommit: b366fb7c148b4da40f8c5d8ff41adbff0bcb850e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507051"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "49585370"
 ---
 # <a name="data-processor-service-for-windows-enterprise-data-subject-requests-for-the-gdpr-and-ccpa"></a>Anträge betroffener Personen zum Datenauftragsverarbeiterdienst für Windows Enterprise im Rahmen der DSGVO und des CCPA 
 
@@ -30,17 +31,17 @@ ms.locfileid: "49507051"
 
 ## <a name="introduction-to-data-subject-requests-dsrs"></a>Einführung in Anträge betroffener Personen 
 
-Die europäische Datenschutz-Grundverordnung (DSGVO) gewährt Personen (die in den Bestimmungen als _betroffene Personen_ bezeichnet werden) Berechtigungen zum Verwalten der personenbezogenen Daten, die von einem Arbeitgeber oder von einer anderen Art von Behörde oder Organisation (als _Datenverantwortlicher_ oder nur _Verantwortlicher_ bezeichnet) erfasst werden. Personenbezogene Daten werden in der DSGVO allgemein als alle Daten definiert, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen. Die DSGVO erteilt betroffenen Personen bestimmte Rechte für ihre personenbezogenen Daten; dazu gehören das Kopieren der personenbezogenen Daten, das Anfordern von Korrekturen, das Einschränken der Verarbeitung, das Löschen oder das Erhalten in einem elektronischen Format, damit sie zu einem anderen Datenverantwortlichen bewegt werden können. Ein formaler Antrag einer betroffenen Person an einen Datenverantwortlichen im Hinblick auf eine bestimmte Aktion für deren persönliche Daten wird als _Antrag einer betroffenen Person_ bezeichnet. 
+Die Datenschutz-Grundverordnung (DSGVO) der EU räumt natürlichen Personen (in der Verordnung als _betroffene Personen_ bezeichnet) das Recht ein, vom Arbeitgeber oder einer anderen Einrichtung oder Organisation (_Datenverantwortlicher_ oder _Verantwortlicher_) erhobene personenbezogene Daten zu verwalten. Personenbezogene Daten sind in der DSGVO allgemein als Daten definiert, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen. Die DSGVO gewährt betroffenen Personen bestimmte Rechte an ihren personenbezogenen Daten, z. B. das Recht auf Erhalt einer Kopie dieser personenbezogenen Daten, das Recht auf Korrektur der Daten, das Recht auf Einschränkung der Bearbeitung dieser Daten und das Recht auf Empfang dieser Daten in einem elektronischen Format, sodass sie an einen anderen Verantwortlichen übermittelt werden können. Ein von einer betroffenen Person formal gestellter Antrag an den Verantwortlichen, bestimmte Maßnahmen im Zusammenhang mit den personenbezogenen Daten der betroffenen Person zu ergreifen, wird als _Antrag einer betroffenen Person_ bezeichnet. 
 
-In ähnlicher Weise sieht der California Consumer Privacy Act (CCPA) Datenschutzrechte und -pflichten für kalifornische Verbraucher vor, einschließlich der Rechte, die den Rechten der betroffenen Person der DSGVO ähneln, wie beispielsweise das Recht, ihre persönlichen Daten zu löschen, darauf zuzugreifen und sie zu empfangen (Portabilität). Die CCPA sieht auch bestimmte Offenlegungen, Schutz vor Diskriminierung bei der Wahl von Ausübungsrechten und Deaktivierungs-/Aktivierungsanforderungen für bestimmte Datenübertragungen vor, die als „Verkäufe“ klassifiziert sind. Verkäufe werden allgemein so definiert, dass sie den Austausch von Daten für einen Wertgegenstand umfassen. Weitere Informationen zum CCPA finden Sie im [California Consumer Privacy Act](https://docs.microsoft.com/microsoft-365/compliance/offering-ccpa) und in den [häufig gestellten Fragen zum California Consumer Privacy Act](https://docs.microsoft.com/microsoft-365/compliance/ccpa-faq).
+In ähnlicher Weise bietet der California Consumer Privacy Act (CCPA) den kalifornischen Verbrauchern Datenschutzrechte und -pflichten, einschließlich von Rechten, die den Rechten von betroffenen Personen der DSGVO entsprechen, wie z. B. das Recht auf Löschung, Zugriff und Empfang (Portabilität) der persönlichen Informationen. Das CCPA ermöglicht außerdem bestimmte Offenlegungen, Schutz vor Diskriminierung bei der Wahl von Ausübungsrechten und Deaktivierungs-/Aktivierungsanforderungen für bestimmte Datentransfers, die als "Verkäufe" eingestuft werden. Die Definition von "Verkäufe" umfasst die Freigabe von Daten für eine angemessene Gegenleistung. Weitere Informationen zum CCPA finden Sie im ["California Consumer Privacy Act](https://docs.microsoft.com/microsoft-365/compliance/offering-ccpa) und in den [häufig gestellten Fragen zum California Consumer Privacy Act](https://docs.microsoft.com/microsoft-365/compliance/ccpa-faq).
 
 In diesem Leitfaden wird erläutert, wie Microsoft-Produkte, -Dienste und -Verwaltungstools verwendet werden können, um als Reaktion auf Anträge betroffener Personen unseren als Datenverantwortliche handelnden Kunden dabei zu helfen, personenbezogene Daten zu finden und auf diese zu reagieren. Dies umfasst das Suchen, den Zugriff und die Reaktion auf personenbezogene Daten, die in der Microsoft-Cloud gespeichert sind. Im Folgenden finden Sie eine kurze Übersicht der in diesem Leitfaden beschriebenen Prozesse: 
 
 1. **Zugriff** – rufen Sie personenbezogene Daten ab, die sich in der Microsoft-Cloud befinden, und erstellen Sie eine Kopie, die der betroffenen Person zur Verfügung gestellt werden kann, sofern dies beantragt wurde. 
 2. **Löschung** – entfernen Sie personenbezogene Daten, die sich in der Microsoft-Cloud befinden, dauerhaft. 
-3. **Export** – Stellen Sie der betroffenen Person eine elektronische Kopie (in einem maschinenlesbaren Format) personenbezogener Daten zur Verfügung. Personenbezogene Daten im Rahmen des CCPA sind alle Informationen, die sich auf eine identifizierte oder identifizierbare Person beziehen.
+3. **Export** – stellen Sie der betroffenen Person eine elektronische Kopie (in einem maschinenlesbaren Format) ihrer personenbezogenen Daten zur Verfügung. Personenbezogene Informationen gemäß CCPA sind alle Informationen, die eine identifizierte oder identifizierbare Person betreffen.
 
-Personenbezogene Daten im Rahmen des CCPA sind alle Informationen, die sich auf eine identifizierte oder identifizierbare Person beziehen. Es gibt keinen Unterschied zwischen den privaten, öffentlichen oder beruflichen Rollen einer Person. Der definierte Begriff „personenbezogene Informationen“ stimmt in etwa mit „personenbezogenen Daten“ unter DSGVO überein. Die CCPA enthält jedoch auch Familien- und Haushaltsdaten. Weitere Informationen zum CCPA finden Sie im [California Consumer Privacy Act](https://docs.microsoft.com/microsoft-365/compliance/offering-ccpa) und in den [häufig gestellten Fragen zum California Consumer Privacy Act](https://docs.microsoft.com/microsoft-365/compliance/ccpa-faq).
+Personenbezogene Informationen gemäß CCPA sind alle Informationen, die eine identifizierte oder identifizierbare Person betreffen. Es wird nicht zwischen privaten, öffentlichen oder beruflichen Rollen einer Person unterschieden. Der definierte Begriff "personenbezogene Informationen" entspricht in etwa dem Begriff "personenbezogene Daten" unter der DSGVO. Allerdings umfasst das CCPA auch Familien- und Haushaltsdaten. Weitere Informationen zum CCPA finden Sie im ["California Consumer Privacy Act](https://docs.microsoft.com/microsoft-365/compliance/offering-ccpa) und in den [häufig gestellten Fragen zum California Consumer Privacy Act](https://docs.microsoft.com/microsoft-365/compliance/ccpa-faq).
 
 In jedem Abschnitt dieses Leitfadens werden die Prozesse beschrieben, die ein als Datenverantwortlicher handelndes Unternehmen nutzen kann, um auf einen Antrag einer betroffenen Person bezüglich ihrer personenbezogenen Daten in der Microsoft-Cloud zu reagieren. 
 
@@ -56,7 +57,7 @@ In der nachfolgenden Liste finden Sie Definitionen von Begriffen, die für diese
 
 * _Kundendaten_: Alle Daten, einschließlich aller Text-, Sound-, Video- oder Bilddateien, die Microsoft vom Kunden oder im Auftrag des Kunden durch Nutzung von Enterprise-Diensten bereitgestellt werden. 
 
-* _Windows-Diagnosedaten_ – Wichtige technische Daten von Windows-Geräten zum Gerät und zur Leistung von Windows und verwandter Software. Sie werden verwendet, um Windows auf dem neuesten Stand, sicher, zuverlässig und leistungsfähig zu halten und Windows durch die aggregierte Analyse der Verwendung von Windows zu verbessern. Einige Beispiele für Windows-Diagnosedaten sind die Art der verwendeten Hardware, die mit ihrer jeweiligen Verwendung installierten Anwendungen und Informationen zur Zuverlässigkeit der Gerätetreiber. Einige Windows-Komponenten und -Apps stellen eine direkte Verbindung zu Microsoft-Diensten her, aber die Daten, die sie austauschen, sind keine Windows-Diagnosedaten. Das Austauschen des Standorts eines Benutzers gegen lokales Wetter oder Nachrichten ist beispielsweise kein Beispiel für Windows-Diagnosedaten. 
+* _Windows-Diagnosedaten_: Wichtige technische Daten von Windows-Geräten über das Gerät sowie die Leistung von Windows und verwandter Software. Sie werden verwendet, um Windows auf dem neuesten Stand, sicher, zuverlässig und leistungsfähig zu halten sowie Windows durch die aggregierte Analyse der Nutzung von Windows zu verbessern. Einige Beispiele für Windows-Diagnosedaten sind der Typ der verwendeten Hardware, die installierten Anwendungen mit ihrer jeweiligen Nutzung sowie Informationen zur Zuverlässigkeit von Gerätetreibern. Einige Windows-Komponenten und Apps bauen eine direkte Verbindung mit Microsoft-Diensten auf, aber bei den ausgetauschten Daten handelt es sich nicht um Windows-Diagnosedaten. So handelt es sich beispielsweise beim Erfassen des Standorts eines Benutzers für den lokalen Wetterbericht oder Nachrichten nicht um Windows-Diagnosedaten. 
 
 ## <a name="how-to-use-this-guide"></a>Verwenden dieses Leitfadens 
 
@@ -67,7 +68,7 @@ Bei Verwendung von Geräten, die beim Datenauftragsverarbeiterdienst für Window
 Microsoft bietet Ihnen die Möglichkeit, auf Windows-Diagnosedaten, die mit der Nutzung des Datenauftragsverarbeiterdiensts für Windows Enterprise durch den Benutzer in Verbindung stehen, zuzugreifen, sie zu löschen und zu exportieren.
 
 >[!IMPORTANT]
->Die Möglichkeit, Windows-Diagnosedaten zu korrigieren, wird nicht unterstützt. Windows-Diagnosedaten stellen tatsächliche Aktionen dar, die innerhalb von Windows durchgeführt wurden, und Änderungen an diesen Daten würden die historische Erfassung von Aktionen kompromittieren und das Sicherheitsrisiko erhöhen sowie die Zuverlässigkeit beschädigen. Alle in diesem Dokument behandelten Daten gelten als Windows-Diagnosedaten. 
+>Die Möglichkeit zur Berichtigung von Windows-Diagnosedaten wird nicht unterstützt. Windows-Diagnosedaten stellen tatsächliche Aktionen dar, die innerhalb von Windows durchgeführt wurden, und Änderungen an diesen Daten würden die historische Erfassung von Aktionen kompromittieren und das Sicherheitsrisiko erhöhen sowie die Zuverlässigkeit beschädigen. Alle in diesem Dokument behandelten Daten werden als Windows-Diagnosedaten betrachtet. 
 
 ## <a name="executing-dsrs-against-windows-diagnostic-data"></a>Ausführen von DSRs an Windows-Diagnosedaten 
 
@@ -75,28 +76,28 @@ Microsoft bietet die Möglichkeit, auf bestimmte Windows-Diagnosedaten über das
 
 ### <a name="step-1-access"></a>Schritt 1: Zugriff 
 
-Der Mandantenadministrator ist die einzige Person in Ihrem Unternehmen, die auf Windows-Diagnosedaten zugreifen kann, die mit der Verwendung eines Datenverarbeitungsdienstes durch einen bestimmten Benutzer für ein in Windows Enterprise registriertes Gerät verbunden sind. Die für eine Zugriffsanforderung abgerufenen Daten werden über den Export in einem maschinenlesbaren Format bereitgestellt und in Dateien bereitgestellt, mit denen der Benutzer erkennen kann, welchen Geräten und Diensten die Daten zugeordnet sind. Wie bereits erwähnt, enthalten die abgerufenen Daten keine Daten, die die Sicherheit oder Stabilität des Windows-Geräts beeinträchtigen könnten. 
+Der Mandantenadministrator ist die einzige Person in Ihrer Organisation, die auf Windows-Diagnosedaten zugreifen kann, die sich auf die Verwendung eines beim Datenauftragsverarbeiterdienst für Windows Enterprise registrierten Geräts durch einen bestimmten Benutzer beziehen. Die für einen Zugriffsantrag abgerufenen Daten werden mittels Export in einem maschinell lesbaren Format sowie in Dateien bereitgestellt, durch die der Benutzer erkennen kann, welchen Geräten und Diensten die Daten zugeordnet sind. Die abgerufenen Daten enthalten keine Daten, welche die Sicherheit oder Stabilität des Windows-Geräts beeinträchtigen könnten. 
 
-Microsoft bietet ein Portal-Erlebnis, das dem Mandantenadministrator des Unternehmenskunden die Möglichkeit bietet, DSR-Zugriffsanforderungen zu verwalten. [Azure DSR, Teil 2, Schritt 3: Exportieren](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure#step-3-export), beschreibt, wie eine DSR-Zugriffsanforderung über den Export über das Azure-Portal ausgeführt wird.
+Microsoft stellt eine Portal-Erfahrung bereit, über die der Mandantenadministrator des Unternehmenskunden Zugriffsanträge betroffener Personen verwalten kann. [Azure-DSR, Teil 2, Schritt 3: Export](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure#step-3-export), beschreibt, wie ein DSR-Zugriffsantrag mittels Export über das Azure-Portal durchzuführen ist.
 
 ### <a name="step-2-delete"></a>Schritt 2: Löschung 
 
 Microsoft bietet eine Möglichkeit zum Ausführen benutzerbasierter DSR-Löschungsanträge, basierend auf dem Azure Active Directory-Objekt eines bestimmten Benutzers.
 
-Für benutzerbasierte Löschanträge bietet Microsoft eine Portalerfahrung, die dem Mandantenadministrator des Unternehmenskunden die Möglichkeit bietet, DSR-Löschungsanträge zu verwalten. [Azure DSR, Teil 1, Schritt 5: Löschen](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure#step-5-delete), beschreibt, wie ein DSR-Löschantrag über das Azure-Portal ausgeführt wird. 
+Für benutzerbasierte Löschungsanträge stellt Microsoft eine Portalerfahrung bereit, über die der Mandantenadministrator des Unternehmenskunden Löschungsanträge betroffener Personen verwalten kann. [Azure-DSR, Teil 1, Schritt 5: Löschung](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure#step-5-delete), beschreibt, wie ein DSR-Löschungsantrag über das Azure-Portal durchzuführen ist. 
 
-Microsoft bietet die Möglichkeit, Benutzer direkt über eine bereits vorhandene Anwendungsprogrammierschnittstelle (API) zu löschen, wodurch wiederum Kundendaten gelöscht werden. Details sind in der [API-Referenzdokumentation beschrieben](https://docs.microsoft.com/graph/api/directory-deleteditems-delete). 
+Microsoft bietet die Möglichkeit, Benutzer direkt über eine bereits vorhandene Anwendungsprogrammierschnittstelle (API) zu löschen, wodurch wiederum Kundendaten gelöscht werden. Details werden in der [Referenzdokumentation der API](https://docs.microsoft.com/graph/api/directory-deleteditems-delete) beschrieben. 
 
 >[!IMPORTANT]  
->Das Löschen der gesammelten Daten stoppt die weitere Sammlung nicht. Befolgen Sie zum Deaktivieren der Datenerfassung das in der [Referenzdokumentation des jeweiligen Dienstes](https://docs.microsoft.com/windows/privacy/configure-windows-diagnostic-data-in-your-organization#enterprise-management) beschriebene Verfahren.
+>Durch das Löschen von gesammelten Daten wird die weitere Sammlung nicht beendet. Um die Datensammlung zu beenden, befolgen Sie das in der [jeweiligen Referenzdokumentation des entsprechenden Diensts](https://docs.microsoft.com/windows/privacy/configure-windows-diagnostic-data-in-your-organization#enterprise-management) beschriebene Verfahren.
  
  Darüber hinaus erfordern benutzerbasierte Löschungsanträge, dass das Benutzerkonto selbst gelöscht wird. 
 
 ### <a name="step-3-export"></a>Schritt 3: Export 
 
-Der Mandantenadministrator ist die einzige Person in Ihrer Organisation, die auf Windows-Diagnosedaten zugreifen kann, die mit der Verwendung eines Datenprozessordienstes durch einen bestimmten Benutzer für ein in Windows Enterprise registriertes Gerät verbunden sind. Die für eine Exportanträge abgerufenen Daten werden in einem maschinenlesbaren Format bereitgestellt und in Dateien bereitgestellt, mit denen der Benutzer erkennen kann, welchen Geräten und Diensten die Daten zugeordnet sind. Wie bereits erwähnt, enthalten die abgerufenen Daten keine Daten, die die Sicherheit oder Stabilität des Windows-Geräts beeinträchtigen könnten. [Azure DSR, Teil 2, Schritt 3: Exportieren](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure#step-3-export), beschreibt, wie ein DSR-Exportantrag über das Azure-Portal ausgeführt wird. 
+Der Mandantenadministrator ist die einzige Person in Ihrer Organisation, die auf Windows-Diagnosedaten zugreifen kann, die sich auf die Verwendung eines beim Datenauftragsverarbeiterdienst für Windows Enterprise registrierten Geräts durch einen bestimmten Benutzer beziehen. Die für einen Exportantrag abgerufenen Daten werden in einem maschinell lesbaren Format bereitgestellt und in Dateien bereitgestellt, durch die der Benutzer erkennen kann, welchen Geräten und Diensten die Daten zugeordnet sind. Die abgerufenen Daten enthalten keine Daten, welche die Sicherheit oder Stabilität des Windows-Geräts beeinträchtigen könnten. [Azure-DSR, Teil 2, Schritt 3: Export](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure#step-3-export), beschreibt, wie ein DSR-Exportantrag über das Azure-Portal durchzuführen ist. 
 
-Microsoft bietet die Möglichkeit, Kundendaten direkt über eine bereits vorhandene Anwendungsprogrammierschnittstelle (API) zu exportieren. Details sind in der [API-Referenzdokumentation](https://docs.microsoft.com/graph/api/user-exportpersonaldata) beschrieben.
+Microsoft bietet die Möglichkeit, Kundendaten direkt über eine bereits vorhandene Anwendungsprogrammierschnittstelle (API) zu exportieren. Details werden in der [Referenzdokumentation der API](https://docs.microsoft.com/graph/api/user-exportpersonaldata) beschrieben.
 
 ## <a name="notify-about-exporting-or-deleting-issues"></a>Benachrichtigung über Probleme beim Exportieren oder Löschen 
 
