@@ -19,14 +19,19 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 801bac11d7f9ee377aaa4082bdab8dde533ce177
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: f2e55701f5825a5edb42e69d23f0ce7553f7ba17
+ms.sourcegitcommit: fc1da22cf40dfd807c182d3f6df967eee192eacd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506734"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49669736"
 ---
 # <a name="exchange-online-data-resiliency-in-microsoft-365"></a>Exchange Online Datenausfall Sicherheit in Microsoft 365
+
+> [!IMPORTANT]
+>  Da wir weiterhin auf unterschiedliche Arten für die Aufbewahrung von Postfachinhalten investieren, kündigen wir den Ruhestand In-Place hält in der Exchange-Verwaltungskonsole (EAC) in Exchange Online an. Ab dem 1. Juli 2020 können Sie keine neuen In-Place-Haltestatus erstellen. Sie können jedoch weiterhin In-Place-Aufbewahrungen in der Exchange-Verwaltungskonsole oder mithilfe des Cmdlets " **MailboxSearch** " in Exchange Online PowerShell verwalten. Ab dem 1. Oktober 2020 können Sie jedoch In-Place-Haltestatus nicht verwalten. Sie können Sie nur in der Exchange-Verwaltungskonsole oder mithilfe des Cmdlets **Remove-MailboxSearch** entfernen. Das Verwenden von In-Place in Exchange Server-und Exchange-hybridbereitstellungen wird weiterhin unterstützt. Weitere Informationen zum Ruhestand von In-Place in Exchange Online finden Sie unter [Retirement of Legacy eDiscovery Tools](https://docs.microsoft.com/microsoft-365/compliance/legacy-ediscovery-retirement).
+
+Bei einem Compliance-Archiv bleiben sämtliche Postfachinhalte einschließlich gelöschter Elemente und Originalversionen geänderter Elemente erhalten. Alle diese Postfachelemente werden bei einer [Compliance-eDiscovery](https://docs.microsoft.com/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery)-Suche zurückgegeben. Wenn Sie ein In-Place Speicherplatz für das Postfach eines Benutzers aufbewahren, werden die Inhalte im entsprechenden Archivpostfach (sofern Sie aktiviert sind) auch in die Warteschleife gestellt und in einer eDiscovery-Suche zurückgegeben.
 
 Es gibt zwei Arten von Beschädigungen, die sich auf eine Exchange-Datenbank auswirken können: physikalische Beschädigungen, die in der Regel durch Hardware (insbesondere Speicherhardware) und logische Beschädigungen verursacht werden, die aufgrund anderer Faktoren auftreten. Im Allgemeinen gibt es zwei Arten von logischen Beschädigungen, die in einer Exchange-Datenbank auftreten können:
 

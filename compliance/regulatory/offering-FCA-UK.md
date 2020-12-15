@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 17c43992f813ba8f0b5b3e9400fadb29eb4174d5
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: fe7572c8b9f5d8d73d09e57c873a092a97c3226c
+ms.sourcegitcommit: fc1da22cf40dfd807c182d3f6df967eee192eacd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506778"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49669756"
 ---
 # <a name="united-kingdom-financial-conduct-authority-fca"></a>Financial Conduct Authority (FCA) des Vereinigten Königreichs
 
@@ -45,7 +45,7 @@ Erfahren Sie, wie Azure die FCA-Compliance in britischen Banken ermöglicht: [Mi
 
 [Herunterladen von Microsoft Approach to FCA finalisierte Cloud Guidance](https://go.microsoft.com/fwlink/p/?linkid=2101561)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft Cloud Services im Leistungsumfang
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft-Clouddienste im Leistungsumfang
 
 - [Azure](https://aka.ms/AzureCompliance)
 - Intune
@@ -54,8 +54,6 @@ Erfahren Sie, wie Azure die FCA-Compliance in britischen Banken ermöglicht: [Mi
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
 **Kann ich Microsoft-Antworten zu diesem Framework im Compliance-Prozess meiner Organisation verwenden?**
-
-Ja. Obwohl Microsoft-Antworten auf dieses Framework jedoch von Drittanbietern als konform bestätigt werden, sind Kunden dafür verantwortlich, die Kompatibilität von Lösungen zu überprüfen, die Sie in Azure oder Power BI implementiert haben.
 
 Ja. Obwohl Microsoft-Antworten auf dieses Framework jedoch von Drittanbietern als konform bestätigt werden, sind Kunden dafür verantwortlich, die Kompatibilität von Lösungen zu überprüfen, die Sie in Azure oder Power BI implementiert haben.
 
