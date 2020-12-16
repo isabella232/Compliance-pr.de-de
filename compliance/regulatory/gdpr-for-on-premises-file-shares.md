@@ -13,12 +13,12 @@ localization_priority: Priority
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
 ms.collection: MS-Compliance
-ms.openlocfilehash: 5a3b192e4c374dac4248300627e5659a1b5f66fd
-ms.sourcegitcommit: 18c7e403d6ffbc9afa323fadc04c673dbb7bd391
+ms.openlocfilehash: b750fcc6bceec12a13b909e65dc6283b8938c6da
+ms.sourcegitcommit: fc1da22cf40dfd807c182d3f6df967eee192eacd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49620760"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49669726"
 ---
 # <a name="gdpr-for-on-premises-windows-server-file-shares"></a>DSGVO für lokale Windows Server-Dateifreigaben
 
@@ -56,6 +56,6 @@ Die empfohlene Vorgehensweise für  Dateifreigaben umfasst die folgenden Schritt
 
     -   Verwenden Sie den Azure Information Protection-Scanner, um personenbezogene Daten für Anfragen von betroffenen Personen zu finden. Sie können auch eine SharePoint Server-Suche konfigurieren, um Dateifreigaben zu durchsuchen.
 
-Weitere Informationen über die Verwendung des Azure Information Protection-Scanners zum Suchen und Beschriften von personenbezogenen Daten finden Sie im [Deploy AIP Scanner](<https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner).
+Weitere Informationen über die Verwendung des Azure Information Protection-Scanners zum Suchen und Beschriften von personenbezogenen Daten finden Sie unter [Deploy AIP Scanner](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner) (Bereitstellen des AIP-Scanners).
 
 Informationen über die Konfiguration des Scanners für Bedingungen und die Verwendung der vertraulichen Datentypen für die Verhinderung von Datenverlust in Office 365 finden Sie unter [So konfigurieren Sie Bedingungen für die automatische und empfohlene Klassifizierung von Azure Information Protection](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-classification). Beachten Sie, dass neue vertrauliche Datentypen in Office 365 nicht sofort für die Verwendung mit dem Scanner zur Verfügung stehen und dass benutzerdefinierte vertrauliche Datentypen nicht mit dem Scanner verwendet werden können.
