@@ -17,18 +17,18 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9655c915bb7478e585ba477cd878b0367261dcfb
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 7be8b0dce164dc14ff70ca3bc91b805e84eb0363
+ms.sourcegitcommit: fc1da22cf40dfd807c182d3f6df967eee192eacd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49509116"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49669746"
 ---
 # <a name="microsoft-support-and-professional-services-data-subject-requests-for-the-gdpr-and-ccpa"></a>Microsoft-Support und Professional Services für Anträge betroffener Personen für die DSGVO und den CCPA
 
 ## <a name="introduction-to-microsoft-professional-services"></a>Einführung in Microsoft Professional Services
 
-Microsoft Professional Services umfasst eine heterogene Gruppe aus technischen Architekten, Technikern, Beratern und Supportmitarbeitern, welche die Mission von Microsoft unterstützen, Kunden zu befähigen, mehr zu tun und mehr zu erreichen. Unser Professional Services-Team umfasst insgesamt mehr als 21.000 Berater, Berater für digitale Angelegenheiten, Premier-Support, Techniker und Vertriebsmitarbeiter in 191 Ländern, die 46 unterschiedliche Sprachen sprechen, mehrere Millionen Engagements pro Monat absolvieren und vor Ort oder über Telefon, Internet, Community und automatisierte Tools mit Kunden und Partnern interagieren. Die Organisation liefert umfangreiche Kenntnisse über das gesamte Spektrum des Microsoft-Portfolios hinweg, wofür ein weites Partnernetzwerk, technische Communitys, Tools, Diagnosen und Kanäle genutzt werden, die uns mit unseren Unternehmenskunden verbinden.
+Microsoft Professional Services umfasst eine heterogene Gruppe aus technischen Architekten, Technikern, Beratern und Supportmitarbeitern, welche die Mission von Microsoft unterstützen, Kunden zu befähigen, mehr zu tun und mehr zu erreichen. Unser Professional Services-Team umfasst insgesamt mehr als 21.000 Berater, Berater für digitale Angelegenheiten, Premier-Support, Techniker und Vertriebsmitarbeiter in 191 Ländern, die 46 unterschiedliche Sprachen sprechen, mehrere Millionen Engagements pro Monat absolvieren und vor Ort oder über Telefon, Internet, Community und automatisierte Tools mit Kunden und Partnern interagieren. Die Organisation liefert umfangreiche Kenntnisse über das gesamte Spektrum des Microsoft-Portfolios hinweg, wofür ein weites Partnernetzwerk, technische Communitys, Tools, Diagnosen und Kanäle genutzt werden, die uns mit unseren Unternehmenskunden verbinden.
 
 Weitere Informationen zu Microsoft Professional Services erhalten Sie unter der [Webseite Microsoft Professional Services Security Documentation ](https://www.microsoft.com/de-DE/professionalservices/overview). Microsoft Professional Services nimmt seine Verpflichtungen im Rahmen der Datenschutz-Grundverordnung (DSGVO) ernst. Die Informationen in diesem Dokument dienen zur Beantwortung von Kundenfragen, wie die Support- und Beratungsangebote von Microsoft den Data Subject Request(DSR)-Verpflichtungen im Rahmen der DSGVO gerecht werden und Kunden in dieser Hinsicht unterstützen.
 
@@ -82,11 +82,15 @@ Dieser Leitfaden behandelt vier Szenarien, die für einen Kunden relevant sein k
 
 Wenn ein Kunde Support- oder Beratungsdienste von Microsoft nutzt, erfasst der Microsoft-Support automatisch die personenbezogenen Daten des Kundenkontakts (z. B. Premier-CSM, globaler Administrator, IT-Administrator) oder ruft diese aus Firmendatensätzen ab. Dies beinhaltet wahrscheinlich den Namen, die E-Mail-Adresse, die Telefonnummer und andere personenbezogene Daten der Person, welche die Support- oder Beratungsdienste nutzt.
 
-Die personenbezogenen Daten des Kundenkontakts sind Teil der Geschäftsbeziehung von Microsoft mit dem Kunden, und Microsoft ist der Datenverantwortliche. Microsoft reagiert auf Anträge betroffener Personen seitens des Kundenkontakts im Hinblick auf personenbezogene Daten, unabhängig davon, ob sie sich immer noch im Besitz der Organisation befinden.
+Die personenbezogenen Daten des Kundenkontakts sind Teil der Geschäftsbeziehung von Microsoft mit dem Kunden, und Microsoft ist der Data Controller, außer wenn die Daten bei der Bereitstellung von technischem Support erhoben werden. Microsoft reagiert auf Anträge betroffener Personen seitens des Kundenkontakts im Hinblick auf personenbezogene Daten, unabhängig davon, ob sie sich immer noch im Besitz der Organisation befinden.
+
+Wenn die personenbezogenen Daten des Kundenkontakts im Rahmen der Bereitstellung von technischem Support gesammelt werden, ist Microsoft der Auftragsverarbeiter.
 
 Kunden müssen wissen, dass Anträge betroffener Personen nur die personenbezogenen Daten des Kundenkontakts abdecken und keine Änderungen oder Löschungen an Daten des Kunden vorgenommen werden, die im Rahmen des Engagements übermittelt wurden (z. B. Transkripte, Fallbeschreibungen, Dateien, Arbeitsergebnis), da Microsoft der Datenauftragsverarbeiter ist. Zudem werden zur Beibehaltung historischer Datensätze des Engagements keinerlei Änderungen an geschlossenen Engagements vorgenommen, einschließlich des Datensatzes desjenigen, der das Engagement eröffnet hat.
 
-Bei Eingang einer Anfrage eines Kundenkontakts zu einem Antrag einer betroffenen Person, leiten Microsoft-Mitarbeiter den Kundenkontakt zum [Datenschutz-Support-Center von Microsoft](https://go.microsoft.com/fwlink/?LinkId=321116) weiter. Dies ist der primäre Eingabemechanismus von Microsoft für Anfragen und Beschwerden im Bereich des Datenschutzes. Bei Eingang einer Anfrage identifiziert das Datenschutz-Support-Center, dass diese Teil eines kommerziellen oder Organisationskontos ist, und reagiert entsprechend.
+Bei Eingang einer Anfrage eines Kundenkontakts zu einem Antrag einer betroffenen Person, bei dem Microsoft der Data Controller ist, leiten Microsoft-Mitarbeiter den Kundenkontakt zum [Privacy Response Center](https://go.microsoft.com/fwlink/?LinkId=321116) weiter. Dies ist der primäre Eingabemechanismus von Microsoft für Anfragen und Beschwerden im Bereich des Datenschutzes. Bei Eingang einer Anfrage identifiziert das Privacy Response Center, dass diese Teil eines kommerziellen oder Organisationskontos ist, und reagiert entsprechend.
+
+Wann Microsoft der Auftragsverarbeiter ist, finden Sie unter <b>Antrag einer betroffenen Person für vom Kunden bereitgestellte Daten: Kommerzieller Support</b> weiter unten.
 
 Damit auf Seiten des Kunden keine Betriebsunterbrechung entsteht, bearbeitet Microsoft Anträge betroffener Personen in Verbindung mit einem Engagement erst dann, wenn ein Ersatzkontakt bestätigt wurde. Nach Bestätigung eines neuen Kontakts ersetzt Microsoft den alten Kontakt in offenen Engagements durch den neuen Kontakt.
 
@@ -94,7 +98,7 @@ Kunden können wählen, Änderungen an ihren während Professional Service-Engag
 
 ***Beispiel zur Veranschaulichung** _
 
-John ist IT-Admin für einen Office 365-Enterprise-Kunden mit einem offenen Support-Engagement und zwei geschlossenen Engagements. Jetzt verlässt John das Unternehmen und möchte, dass seine Daten gelöscht werden. John wendet sich an das Privacy Response Center (PRC), das ihn als IT-Admin identifiziert. John wird informiert, dass sein Name nicht aus den früheren (geschlossenen) Engagements oder aus etwaigen Daten in dem offenen Engagement gelöscht werden kann. Das PRC kann John jedoch als Kontakt für das aktuell offene Ticket ersetzen, sofern er einen Ersatzkontakt benennt. John teilt Microsoft mit, dass Jane sein Ersatzkontakt ist, woraufhin Microsoft die Änderung in allen Support-Systemen vornimmt.
+John ist Projektmanager für einen O365 Enterprise-Kunden mit einem offenen Beratungsengagement und zwei geschlossenen Engagements. Jetzt verlässt John seine Firma und möchte, dass seine Daten gelöscht werden. John kontaktiert das Privacy Response Center, das ihn als Projektmanager identifiziert. John wird informiert, dass sein Name nicht aus den vorherigen (geschlossenen) Engagements oder aus Daten in den offenen Engagements gelöscht werden kann. Allerdings wird das Privacy Response Center John als Kontakt im aktuellen offenen Engagement ersetzen, wenn er einen Ersatzkontakt benennt. John lässt Microsoft wissen, dass Jane sein Ersatzkontakt ist, und Microsoft nimmt die Änderung über alle Systeme hinweg vor.
 
 ## <a name="dsr-for-an-end-user-engaging-microsoft"></a>Antrag einer betroffenen Person für einen Endbenutzer gegenüber Microsoft
 
@@ -112,9 +116,9 @@ Marianne ist eine Angestellte des Enterprise-Kunden Contoso, der ihr ein Dynamic
 
 _Wie ein Kunde, der einen Antrag von einem Mitarbeiter oder einer anderen betroffenen Person zur Ausübung ihrer Rechte erhalten hat, wobei die personenbezogenen Daten dieser betroffenen Person während eines Support-Engagements vom Microsoft-Support erfasst wurden, Unterstützung von Microsoft erhält.*
 
-Wenn ein Kunde den Microsoft-Support nutzt, sammelt Microsoft Support-Daten des Kunden, um die Probleme zu beheben, die zum Engagement des Microsoft-Supports geführt haben. Diese Support-Daten umfassen die Interaktion von Microsoft mit dem Kunden (z. B. Chats, Telefonate, E-Mails, Webübermittlungen) sowie alle Inhaltsdateien, die der Kunde an Microsoft sendet oder die Microsoft – mit der Erlaubnis des Kunden – aus der IT-Umgebung oder aus Onlinediensten extrahiert hat, um das Problem zu beheben. Im Fall von Premier-Support würde dies auch alle Daten beinhalten, die wir von Ihnen erfassen, um zukünftige Probleme proaktiv zu vermeiden. Nicht dazu zählen jedoch Kundenkontaktinformationen oder andere Informationen aus der Geschäftsbeziehung zwischen Microsoft und dem Kunden, z. B. Abrechnungsdatensätze.
+Wenn ein Kunde den Microsoft-Support nutzt, sammelt Microsoft Support-Daten des Kunden, um die Probleme zu beheben, die zum Engagement des Microsoft-Supports geführt haben. Diese Support-Daten umfassen die Interaktion von Microsoft mit dem Kunden (z. B. Chats, Telefonate, E-Mails, Webübermittlungen) sowie alle Inhaltsdateien, die der Kunde an Microsoft sendet oder die Microsoft – mit der Erlaubnis des Kunden – aus der IT-Umgebung oder aus Onlinediensten extrahiert hat, um das Problem zu beheben. Im Fall von Premier-Support würde dies auch alle Daten beinhalten, die wir von Ihnen erfassen, um zukünftige Probleme proaktiv zu vermeiden. Nicht dazu zählen jedoch Informationen aus der Geschäftsbeziehung zwischen Microsoft und dem Kunden, z. B. Abrechnungsdatensätze.
 
-Für alle Supportdaten ist Microsoft der Datenauftragsverarbeiter. Als solcher reagiert Microsoft nicht auf direkte Anträge von betroffenen Personen im Hinblick auf Supportdaten, die übermittelt wurden, als sie mit einem gewerblichen Microsoft-Kunden verknüpft waren. Microsoft unterstützt den Kunden über die normalen Support-Kanäle bei der Reaktion auf Anträge betroffener Personen.
+Für alle Support- und Kontaktdaten, die im Rahmen des Supports gesammelt wurden, ist Microsoft der Auftragsverarbeiter. Als solcher reagiert Microsoft nicht auf direkte Anträge von betroffenen Personen im Hinblick auf Supportdaten, die übermittelt wurden, als sie mit einem gewerblichen Microsoft-Kunden verknüpft waren. Microsoft unterstützt den Kunden über die normalen Support-Kanäle bei der Reaktion auf Anträge betroffener Personen.
 
 ## <a name="step-1-discover"></a>Schritt 1: Ermittlung
 
@@ -134,10 +138,10 @@ Während er relevante Daten ausfindig macht und sich die Unterstützung von Micr
 
 Um bestimmte Engagements zu identifizieren, müssen Kunden Engagement-übergreifend suchen. Bei Premier-Kunden hat der Contract Service Manager ("CSM") für einen Kunden Einblick in alle Supportanfragen, die unter diesem Vertragsplan erstellt werden. Bei Nicht-Premier-Kunden sind entsprechende Portale für den Support im Rahmen von Engagements verfügbar, z. B. über Supportbereiche von Onlinediensten.
 
-![Suchen in SMC](../media/Prof-Serv-DSR-Doc-Final_image3.png)Der CSM kann das Portal unter „Support.Microsoft.Com“ ([https://support.microsoft.com/\<local language code\>/premier](https://support.microsoft.com/%3clocal%20language%20code%3e/premier)) („SMC“) aufrufen sowie Supportanfragen auswählen und prüfen. (Hinweis: Ersetzen Sie das Sprachkürzel in der URL durch Ihr lokales Sprachkürzel).
+Der CSM kann das Portal unter [Services Hub](https://serviceshub.microsoft.com/support/contactsupport) aufrufen und die Verwaltung aller Supportanfragen auswählen.
 
 >[!IMPORTANT]
->Zusätzlich zum Fallverlauf der Supportfälle in SMC besitzen Kunden möglicherweise auch personenbezogene Daten eines Endbenutzers in Dateien, die von Microsoft während eines Support-Engagements erfasst (oder mit Erlaubnis des Kunden aus dem Onlinedienst entfernt) wurden. Beispiele hierfür sind Kopien der Exchange-Postfächer des Kunden, Azure-VMs oder Datenbanken. Diese personenbezogenen Daten sind im Fallverlauf, d. h. im Ticket, für ein bestimmtes Engagement möglicherweise nicht erwähnt. Um diese Daten überprüfen zu können, muss der Kundenkontakt ein Kontakt mit spezifischer Authentifizierung (über AAD oder MSA) sein, der eine URL für einen Arbeitsbereich im Data Transfer and Management Tool (DTM) des Microsoft-Supports erhalten hat. Ein Kundenkontakt hat zwar Zugriff auf die Dateien, es ist aber keine Übersicht verfügbar, und SMC gibt nicht an, ob Dateien vorhanden sind.
+>Zusätzlich zum Fallverlauf in Services Hub besitzen Kunden möglicherweise auch personenbezogene Daten eines Endbenutzers in Dateien, die von Microsoft während eines Support-Engagements erfasst (oder mit Erlaubnis des Kunden aus dem Onlinedienst entfernt) wurden. Beispiele hierfür sind Kopien der Exchange-Postfächer des Kunden, Azure-VMs oder Datenbanken. Diese personenbezogenen Daten sind im Fallverlauf, d. h. im Ticket, für ein bestimmtes Engagement möglicherweise nicht erwähnt. Um diese Daten überprüfen zu können, muss der Kundenkontakt ein Kontakt mit spezifischer Authentifizierung (über AAD oder MSA) sein, der eine URL für einen Arbeitsbereich im Data Transfer and Management Tool (DTM) des Microsoft-Supports erhalten hat. Ein Kundenkontakt hat zwar Zugriff auf die Dateien, es ist aber keine Übersicht verfügbar, und Services Hub gibt nicht an, ob Dateien vorhanden sind.
 
 Nachdem Kunden alle relevanten Daten in den ausgewählten Supporttickets identifiziert haben, können sie entscheiden, ob sie die Löschung von allen Elementen im Zusammenhang mit einem Ticket anfordern oder den Antrag der betroffenen Person selektiv auf einzelne Instanzen personenbezogener Daten anwenden.
 
@@ -171,13 +175,13 @@ Nachfolgend finden Sie einige wichtige Hinweise, wie das Löschen für den Micro
 
 Auf alle Daten bei Microsoft wird eine Richtlinie zur Aufbewahrung und Löschung angewendet, die je nach Risiko und anderen Faktoren variiert.
 
-Kunden können die Löschung der personenbezogenen Daten einer betroffenen Person universell für alle Supportsysteme über Ihren TAM oder durch Übermittlung einer Supportanforderung in SMC oder einem gleichwertigen System beantragen. Sie _müssen* darauf hinweisen, dass dies eine Anforderung zur Unterstützung bei einem Antrag einer betroffenen Person gemäß der DSGVO ist.
+Kunden können die Löschung der personenbezogenen Daten einer betroffenen Person universell für alle Supportsysteme über Ihren TAM oder durch Übermittlung einer Supportanforderung in Services Hub oder einem gleichwertigen System beantragen. Sie _müssen* darauf hinweisen, dass dies eine Anforderung zur Unterstützung bei einem Antrag einer betroffenen Person gemäß der DSGVO ist.
 
 *Option A – Microsoft-Support-übergreifender Antrag einer betroffenen Person durch den Kunden*. Bei einem systemübergreifenden Antrag einer betroffenen Person muss der Kunde die personenbezogenen Daten bereitstellen, die Microsoft benötigt, um die erforderlichen Daten ermitteln zu können (z. B. E-Mail-Adresse, Telefonnummer). Microsoft korreliert oder recherchiert keine Datensätze und sucht nur direkt nach den vom Kunden bereitgestellten Kennzeichnern. Wenn Daten gefunden werden, löscht Microsoft alle Engagements und alle zugehörigen Daten.
 
 > Wichtiger Hinweis: **Dies kann dazu führen, dass historische Datensätze, die für die Organisation des Kunden wichtig sind, verloren gehen.
 
-*Option B – spezifische Kundenengagements*. Für spezifische Engagements, die der Kunde identifiziert hat und löschen lassen möchte, dürfen Sie keine Tickets aus SMC löschen. Dies kann sonst dazu führen, dass personenbezogene Daten in Protokollen und nachgelagerten Systemen verbleiben und nicht innerhalb des erforderlichen Zeitrahmens gelöscht werden. Identifizieren Sie stattdessen das Ticket oder die personenbezogenen Daten in dem Ticket, die gelöscht werden müssen, und wenden Sie sich an den Microsoft-Support, um sich beim Löschen dieser Daten unterstützen zu lassen.
+*Option B – spezifische Kundenengagements*. Für spezifische Engagements, die der Kunde identifiziert hat und löschen lassen möchte, dürfen Sie keine Tickets aus Services Hub löschen. Dies kann sonst dazu führen, dass personenbezogene Daten in Protokollen und nachgelagerten Systemen verbleiben und nicht innerhalb des erforderlichen Zeitrahmens gelöscht werden. Identifizieren Sie stattdessen das Ticket oder die personenbezogenen Daten in dem Ticket, die gelöscht werden müssen, und wenden Sie sich an den Microsoft-Support, um sich beim Löschen dieser Daten unterstützen zu lassen.
 
 ### <a name="microsoft-support-data-transfer-and-management-tool-dtm-instructions"></a>Anweisungen zum Data Transfer and Management Tool (DTM) des Microsoft-Supports
 
@@ -198,7 +202,7 @@ Hinweis: Exportierte Daten dürfen kein geistiges Eigentum von Microsoft oder an
 
 John ist ein Premier-CSM für den Enterprise-Kunden Contoso, der Office 365 für den E-Mail-Verkehr seiner Mitarbeiter nutzt und Azure zum Hosten einer Contoso SQL-Datenbank. Contoso verfügt über mehrere offene und geschlossene Tickets. Vor kurzem hat der Microsoft-Support mit Erlaubnis von Contoso eine Kopie der SQL-Datenbank zwecks Support und Problembehandlung in DTM verschoben.
 
-John erhält einen Antrag einer betroffenen Person von Jane, in dem sie die Löschung all ihrer Daten anfordert. John geht in SMC und durchsucht Engagements, um festzustellen, dass Jane Probleme mit dem E-Mail-Konto hatte und daher in zwei Tickets mit Name und E-Mail-Adresse erwähnt wurde. Er kontaktiert seinen TAM, teilt ihm den Namen und die E-Mail-Adresse von Jane als Kennzeichner mit und beantragt, dass diese beiden Tickets zusammen mit allen Downstream-Daten, die möglicherweise außerhalb dieser Tickets generiert wurden, gelöscht werden.
+John erhält einen Antrag einer betroffenen Person von Jane, in dem sie die Löschung all ihrer Daten anfordert. John ruft Services Hub auf und durchsucht die Engagements, um festzustellen, dass Jane Probleme mit dem E-Mail-Konto hatte und daher in zwei Tickets mit Name und E-Mail-Adresse erwähnt wurde. Er kontaktiert seinen TAM, teilt ihm den Namen und die E-Mail-Adresse von Jane als Kennzeichner mit und beantragt, dass diese beiden Tickets zusammen mit allen Downstream-Daten, die möglicherweise außerhalb dieser Tickets generiert wurden, gelöscht werden.
 
 Außerdem vermutet er, dass es ein Chatgespräch mit Supportmitarbeitern gab, in dem er Jane erwähnt hat, weshalb er die Löschung dieses Chatprotokolls fordert.
 
