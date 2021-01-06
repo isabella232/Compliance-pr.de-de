@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 33ce1796ffa8fbf2e77dee49f682fb68c90b8111
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 3bd95648e9ae36f5ccaab25bd504524e7d1e4afa
+ms.sourcegitcommit: 7864222909b7d8d0b1dbdbbdee66f5697dac7940
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49509625"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49757820"
 ---
 # <a name="us-department-of-defense-dod-provisional-authorization-at-impact-levels-2-4-and-5"></a>US Department of Defense (DoD) provisorische Autorisierung auf Impact Levels 2, 4 und 5
 
@@ -59,7 +59,7 @@ Basierend auf FedRAMP-Autorisierungen gewährte DISA Cloud Service Support eine 
 
 Impact Level 2 umfasst nicht kontrollierte nicht klassifizierte Informationen – Daten, die für eine öffentliche Veröffentlichung autorisiert sind. Außerdem werden andere nicht klassifizierte Informationen behandelt, die zwar nicht als "unternehmenskritisch" eingestuft werden, aber dennoch eine minimale Zugriffssteuerung erfordern. Mit dieser Autorisierung können US-Bundesregierung-Kunden nicht vertrauliche Informationen und grundlegende Verteidigungsanwendungen und Websites im Rahmen von Microsoft Cloud-Diensten bereitstellen.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Eingeschlossene Microsoft-Clouddienste
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft-Clouddienste im Leistungsumfang
 
 ### <a name="covered-services-for-dod-impact-level-5"></a>Abgedeckte Dienste für DoD-Impact Level 5
 
@@ -69,6 +69,7 @@ Impact Level 2 umfasst nicht kontrollierte nicht klassifizierte Informationen �
 ### <a name="covered-services-for-dod-impact-level-4"></a>Abgedeckte Dienste für DoD-Impact Level 4
 
 - [Azure-Regierung](https://aka.ms/AzureCompliance)
+- [Dynamics 365 U.S. Government](https://aka.ms/d365-compliance-list)
 - [Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 
 ### <a name="covered-services-for-dod-impact-level-2"></a>Abgedeckte Dienste für DoD-Impact Level 2
