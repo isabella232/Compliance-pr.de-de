@@ -16,19 +16,19 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 66441638d7e9cb881422ba4243d936152bcd9eed
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 317a5bf64a5d10099b3fcf73190bb6e20ffc2999
+ms.sourcegitcommit: 7864222909b7d8d0b1dbdbbdee66f5697dac7940
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507135"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49757840"
 ---
 # <a name="breach-notification-under-the-gdpr"></a>Informationspflicht bei Verletzung des Schutzes personenbezogener Daten im Rahmen der Datenschutz-Grundverordnung (DSGVO)
 
 Als Datenauftragsverarbeiter stellt Office 365 sicher, dass unsere Kunden in ihrer Rolle als Datenverantwortliche die Anforderungen an Benachrichtigungen im Fall von Datenschutzverletzungen im Rahmen der DSGVO einhalten. Zu diesem Zweck sind wir bestrebt, Folgendes zu tun:
 
-- Unseren Kunden eine Möglichkeit zu bieten, einen dedizierten Datenschutzkontakt anzugeben, der im Falle einer Verletzung benachrichtigt wird. Kunden können diesen Kontakt in Azure Active Directory angeben.
-- Kunden innerhalb von 72 Stunden über eine Verletzung des Schutzes personenbezogener Daten zu benachrichtigen. Die Benachrichtigung erfolgt per E-Mail an den Kontakt, der von dem Kunden angegeben wurde.
+- Bereitstellung der Möglichkeit für Kunden, einen speziellen Ansprechpartner für den Datenschutz festzulegen, der im Falle einer Datenschutzverletzung benachrichtigt wird.  Kunden können diesen Kontakt über die Rolleneinstellungen des Datenschutzlesers für das Nachrichtencenter angeben.
+- Benachrichtigung der Kunden über eine Verletzung des Schutzes personenbezogener Daten innerhalb von 72 Stunden nach Bekanntwerden einer Verletzung. Benachrichtigungen werden im Nachrichtencenter veröffentlicht, das über das Microsoft 365 Admin Center zugänglich ist. Zusätzlich werden E-Mail-Benachrichtigungen an bestimmte Kontakte gesendet, die anzeigen, dass ein neuer Beitrag im Nachrichtencenter veröffentlicht wurde.
 - Die erste Benachrichtigung umfasst mindestens eine Beschreibung der Art der Verletzung, eine Schätzung der Auswirkungen auf die Benutzer und Schritte zur Minderung der Auswirkungen (falls zutreffend). Wenn unsere Untersuchung zum Zeitpunkt der ersten Benachrichtigung nicht abgeschlossen ist, werden wir in unserer ersten Benachrichtigung nächste Schritte und Zeitrahmen für die nachfolgende Kommunikation aufführen.
 
 Microsoft ist sich bewusst, dass es in den Aufgabenbereich von Datenverantwortlichen fällt, Risikobewertungen durchzuführen und zu bestimmen, ob eine Verletzung die Benachrichtigung der Datenschutzbehörde des Kunden erfordert. Unsere Benachrichtigung an Kunden enthält die Informationen, die zur Durchführung dieser Bewertung erforderlich sind. Microsoft wird Kunden daher über eine Verletzung des Schutzes personenbezogener Daten benachrichtigen, außer in Fällen, in denen personenbezogene Daten als unverständlich gelten (z. B. verschlüsselte Daten, bei denen die Integrität der Schlüssel bestätigt wurde).

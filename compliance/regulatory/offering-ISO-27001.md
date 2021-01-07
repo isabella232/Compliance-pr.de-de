@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f58caebee758c9e4d4d1159ebd701c09df81e018
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 94ce3e8dbbb210c645fb2f64ed29e441eb9956bf
+ms.sourcegitcommit: 58741a8e28c354bd806418b7263f0db98bf83eac
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507291"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49759690"
 ---
 # <a name="isoiec-270012013-information-security-management-standards"></a>ISO/IEC 27001:2013 Information Security Management Standards
 
@@ -117,7 +117,7 @@ Das [Vertrauensstellungsportal](https://docs.microsoft.com/microsoft-365/complia
 
 Ja. Der jährliche Zertifizierungsprozess nach ISO/IEC 27001 für die Microsoft Cloud Infrastructure and Operations-Gruppe umfasst eine Überprüfung der Ausfallsicherheit im Betrieb. Klicken Sie auf den unten stehenden Link, um das aktuelle Zertifikat in der Vorschau anzuzeigen.
 
-- Microsoft Azure: [ISO/IEC 27001:2013-Zertifikat für Microsoft Cloud Infrastructure and Operations](https://www.bsigroup.com/Our-services/Management-system-certification/Certificate-and-Client-Directory-Search/Certificate-Client-Directory-Search-Results/?searchkey=company%3dMicrosoft&licencenumber=IS%20533913)
+- Microsoft Azure: [ISO/IEC 27001:2013-Zertifikat für Microsoft Cloud Infrastructure and Operations](https://www.bsigroup.com/en-US/our-services/Management-system-certification/Certificate-and-Client-Directory-Search/Certificate-Client-Directory-Search-Results/?searchkey=licence%3d%26company%3dMicrosoft&licencenumber=IS%20552878)
 - Azure Deutschland
 
 **Wo beginne ich mit dem Complianceprozess im Hinblick auf ISO/IEC 27001 für meine eigene Organisation?**
