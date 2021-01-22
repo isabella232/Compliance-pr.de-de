@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: Microsoft Compliance-Angebote
-summary: Erfahren Sie, wie Microsoft-Produkte und-Dienste Ihre Organisation bei der Erfüllung gesetzlicher Compliance-Standards unterstützen.
+summary: Erfahren Sie, wie Produkte und Dienste von Microsoft Ihre Organisation dabei unterstützen, gesetzliche Compliancestandards zu erfüllen.
 brand: m365
 metadata:
-  title: Compliance-Angebote für Microsoft 365, Azure und andere Microsoft-Dienste.
-  description: Erfahren Sie, wie Microsoft-Produkte und-Dienste Ihre Organisation bei der Erfüllung gesetzlicher Compliance-Standards unterstützen.
+  title: Complianceangebote für Microsoft 365, Azure und andere Microsoft-Dienste.
+  description: Erfahren Sie, wie Produkte und Dienste von Microsoft Ihre Organisation dabei unterstützen, gesetzliche Compliancestandards zu erfüllen.
   services: service
   ms.service: O365-seccomp
   ms.subservice: subservice
@@ -16,15 +16,15 @@ metadata:
   ms.author: robmazz
   ms.date: 11/30/2020
   localization_priority: Normal
-  ms.openlocfilehash: 82d7c9b4c39d4916a81d08abb34c3d8bc6d65b31
-  ms.sourcegitcommit: db4bd64256f52087d450c2f7fd4632718aa2c33d
+  ms.openlocfilehash: 55a5d3691e7b27f5823eb07662dc7b44f09e2870
+  ms.sourcegitcommit: 81bd5a6603e899ddbb7c580cf4f55a4636959bbd
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 12/08/2020
-  ms.locfileid: "49588699"
+  ms.lasthandoff: 01/22/2021
+  ms.locfileid: "49924848"
 conceptualContent:
-  title: Compliance-Angebote für Microsoft 365, Azure und andere Microsoft-Dienste
-  summary: Microsoft bietet Compliance-Angebote, damit Ihre Organisation nationale, regionale und branchenspezifische Anforderungen für die Erfassung und Verwendung von Daten einhalten kann.
+  title: Complianceangebote für Microsoft 365, Azure und andere Microsoft-Dienste
+  summary: Microsoft bietet Complianceangebote, mit deren Hilfe Ihre Organisation nationale, regionale und branchenspezifische Anforderungen für die Erfassung und Verwendung von Daten einhalten kann.
   items:
   - title: Global
     links:
@@ -70,7 +70,7 @@ conceptualContent:
       text: DoE 10 CFR Abschnitt 810
     - url: offering-ear.md
       itemType: reference
-      text: Ear (US Export ADM. Reg.)
+      text: EAR (US Export Adm. Reg.)
     - url: offering-fedramp.md
       itemType: reference
       text: FedRAMP
@@ -110,7 +110,7 @@ conceptualContent:
       text: AMF und ACPR (Frankreich)
     - url: offering-cftc-1-31-us.md
       itemType: reference
-      text: CFTC 1,31 (USA)
+      text: CFTC 1.31 (US)
     - url: offering-eba-eu.md
       itemType: reference
       text: EBA (EU)
@@ -194,9 +194,9 @@ conceptualContent:
     - url: offering-ccpa.md
       itemType: reference
       text: CCPA (US-California)
-    - url: offering-ccsl-irap-australia.md
+    - url: offering-irap-australia.md
       itemType: reference
-      text: IRAP/CCSL (Australien)
+      text: IRAP (Australien)
     - url: offering-cs-mark-gold-japan.md
       itemType: reference
       text: CS Mark Gold (Japan)
@@ -260,8 +260,8 @@ conceptualContent:
       text: TRUCS (China)
 additionalContent:
   sections:
-  - title: Compliance-Angebote speziell für Azure
-    summary: Compliance-Angebote speziell für Azure, damit Ihre Organisation nationale, regionale und branchenspezifische Anforderungen zur Erfassung und Verwendung von Daten einhalten kann.
+  - title: Complianceangebote speziell für Azure
+    summary: Complianceangebote speziell für Azure, mit deren Hilfe Ihre Organisation nationale, regionale und branchenspezifische Anforderungen für die Erfassung und Verwendung von Daten einhalten kann.
     items:
     - title: Global
       links:
@@ -297,7 +297,7 @@ additionalContent:
         url: offering-nerc-cip.md
       - text: PCI/DSS
         url: offering-pci-dss.md
-      - text: SEC Regulations Sci
+      - text: SEC Regulations SCI
         url: offering-sec-reg-sci.md
       - text: Shared Assessments
         url: offering-shared-assessments.md
