@@ -250,8 +250,8 @@
           items:
             - name: APRA (Australien)
               href: offering-APRA-Australia.md
-            - name: IRAP/CCSL (Australien)
-              href: offering-CCSL-IRAP-Australia.md
+            - name: IRAP (Australien)
+              href: offering-IRAP-Australia.md
             - name: NZ CC Netzwerk (Neuseeland)
               href: offering-nz-cc-framework-nz.md
         - name: Europa
@@ -368,7 +368,7 @@
           href: gdpr-for-office-servers.md
         - name: DSGVO für SharePoint Server
           href: gdpr-for-sharepoint-server.md
-        - name: DSGVO für Exchange-Server
+        - name: DSGVO für Exchange Server
           href: gdpr-for-exchange-server.md
         - name: DSGVO für Skype for Business Server & Lync-Server
           href: gdpr-for-skype-for-business-server.md
