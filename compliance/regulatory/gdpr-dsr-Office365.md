@@ -17,12 +17,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 774ab44b1683a0becd7fcf86b6ea90df83a4a1fe
-ms.sourcegitcommit: 5ebe2ba746bba2d5058dcc0469a67e81fa3a8dce
+ms.openlocfilehash: b22af83dbae8c251f6bba1928011fceaa4bba072
+ms.sourcegitcommit: 8af471ad10420ee5fce98d2eb0d69a6d2b992f08
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49559871"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49937050"
 ---
 # <a name="office-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>Anträge betroffener Personen für Office 365 im Rahmen der DSGVO und des CCPA
 
@@ -118,7 +118,10 @@ Anwendungen, bei denen die Inhaltssuche verwendet werden kann, um Kundendaten zu
 - Word
 
 > [!NOTE]
-> Das eDiscovery-Tool für die Inhaltssuche ist in [Office 365, das von 21Vianet (China) betrieben wird,](https://docs.microsoft.com/microsoft-365/admin/services-in-china/services-in-china) nicht verfügbar. Dies bedeutet, dass Sie dieses Tool nicht verwenden können, um Kundendaten in den in Tabelle 1 dargestellten Office 365-Anwendungen zu suchen und zu exportieren. Sie können jedoch das direkte eDiscovery-Tool in Exchange Online verwenden, um nach Inhalten in Benutzerpostfächern zu suchen. Sie können auch das eDiscovery Center in SharePoint Online verwenden, um nach Inhalten auf SharePoint-Websites und in OneDrive-Konten zu suchen. Alternativ können Sie einen Dokumentbesitzer bitten, Ihnen beim Suchen und Ändern oder Löschen von Inhalten zu helfen oder diese bei Bedarf zu exportieren. Weitere Informationen finden Sie unter:</br><br> * [Erstellen einer Compliance-eDiscovery-Suche](https://docs.microsoft.com/exchange/create-in-place-ediscovery-search-exchange-2013-help)<br> * [Einrichten eines eDiscovery Center in SharePoint Online](https://support.office.com/article/Set-up-an-eDiscovery-Center-in-SharePoint-Online-A18F8975-AA7F-43B4-A7D6-001D14744D8E)
+> Das eDiscovery-Tool für die Inhaltssuche ist in [Office 365, das von 21Vianet (China) betrieben wird,](https://docs.microsoft.com/microsoft-365/admin/services-in-china/services-in-china) nicht verfügbar. Dies bedeutet, dass Sie dieses Tool nicht verwenden können, um Kundendaten in den in Tabelle 1 dargestellten Office 365-Anwendungen zu suchen und zu exportieren. Sie können jedoch das direkte eDiscovery-Tool in Exchange Online verwenden, um nach Inhalten in Benutzerpostfächern zu suchen. Sie können auch das eDiscovery Center in SharePoint Online verwenden, um nach Inhalten auf SharePoint-Websites und in OneDrive-Konten zu suchen. Alternativ können Sie einen Dokumentbesitzer bitten, Ihnen beim Suchen und Ändern oder Löschen von Inhalten zu helfen oder diese bei Bedarf zu exportieren. Weitere Informationen finden Sie unter:
+> 
+> * [Erstellen einer In-Situ-eDiscovery-Suche](https://docs.microsoft.com/exchange/create-in-place-ediscovery-search-exchange-2013-help)
+> * [Einrichten eines eDiscovery Center in SharePoint Online](https://support.office.com/article/Set-up-an-eDiscovery-Center-in-SharePoint-Online-A18F8975-AA7F-43B4-A7D6-001D14744D8E)
 
 ### <a name="using-content-search-to-find-personal-data"></a>Verwenden der Inhaltssuche zum Suchen nach personenbezogenen Daten
 
@@ -169,10 +172,10 @@ In der folgenden Tabelle werden einige Bedingungen aufgelistet, die Sie verwende
 
 ***Tabelle 2: Bereich der Suche durch Verwenden von Bedingungen eingrenzen** _
 
-| _ *Bedingung** | **Beschreibung** | **Beispiel für einen Bedingungswert** |
+| Bedingung | Beschreibung | Beispiel für einen Bedingungswert |
 | :--- | :--- |:--- |
 | Dateityp | Die Erweiterung eines Dokuments oder einer Datei. Verwenden Sie diese Bedingung zum Suchen nach Office-Dokumenten und -Dateien, die von Office 365-Anwendungen erstellt wurden. Verwenden Sie diese Bedingungen bei der Suche nach Dokumenten, die sich auf SharePoint Online-Websites und in OneDrive for Business-Konten befinden.<br/>Die entsprechende Dokumenteigenschaft ist der Dateityp. <br/>Eine vollständige Liste der Dateierweiterungen, nach denen Sie suchen können, finden Sie unter „Standardmäßig durchforstete Dateinamenerweiterungen und analysierte Dateitypen in SharePoint“](https://technet.microsoft.com/library/jj219530.aspx).|&nbsp;&bull;&nbsp;&nbsp;csv: Sucht nach durch Trennzeichen getrennten Dateien (CSV-Dateien); Excel-Dateien können im CSV-Format gespeichert werden, und CSV-Dateien können ganz einfach in Excel importiert werden.<br><br>&bull;&nbsp;&nbsp;docx: sucht nach Word-Dateien <br><br>&bull;&nbsp;&nbsp;mpp: sucht nach Projektdateien<br/><br>&bull;&nbsp;&nbsp;one: sucht nach OneNote-Dateien <br><br>&bull;&nbsp;&nbsp;pdf: Sucht nach Dateien, die in einem PDF-Format gespeichert sind. <br><br>&bull;&nbsp;&nbsp;pptx: sucht nach PowerPoint-Dateien <br><br>&bull;&nbsp;&nbsp;xlxs: sucht nach Excel-Dateien <br><br>&bull;&nbsp;&nbsp;vsd: sucht nach Visio-Dateien <br><br>&bull;&nbsp;&nbsp;wmv: sucht nach Windows Media Video-Dateien <br>|
-| Nachrichtentyp | Der E-Mail-Nachrichtentyp, nach dem gesucht wird. Verwenden Sie diese Bedingung, um Postfächer nach Kontakten (Personen), Besprechungsaufgaben (Kalender) oder Skype for Business-Unterhaltungen zu durchsuchen. Die entsprechende E-Mail-Eigenschaft ist *Art*.|&bull;&nbsp;&nbsp;*contacts: sucht in der Liste „Meine Kontakte (Personen)“ eines Postfachs <br><br>&bull;&nbsp;&nbsp;* email: sucht nach E-Mail-Nachrichten <br><br>&bull;&nbsp;&nbsp;*im: sucht nach Skype for Business-Unterhaltungen <br><br>&bull;&nbsp;&nbsp;* meetings: durchsucht Termine und Besprechungsanfragen (Kalender) <br><br>&bull;&nbsp;&nbsp;*tasks: Sucht in der Liste „Meine Aufgaben“ (Aufgaben); dieser Wert gibt auch Aufgaben zurück, die in Microsoft To-Do erstellt wurden.<br>|
+| Nachrichtentyp | Der E-Mail-Nachrichtentyp, nach dem gesucht wird. Verwenden Sie diese Bedingung, um Postfächer nach Kontakten (Personen), Besprechungsaufgaben (Kalender) oder Skype for Business-Unterhaltungen zu durchsuchen. Die entsprechende E-Mail-Eigenschaft lautet _Art *.|&bull;&nbsp;&nbsp;*contacts: sucht in der Liste „Meine Kontakte (Personen)“ eines Postfachs <br><br>&bull;&nbsp;&nbsp;* email: sucht nach E-Mail-Nachrichten <br><br>&bull;&nbsp;&nbsp;*im: sucht nach Skype for Business-Unterhaltungen <br><br>&bull;&nbsp;&nbsp;* meetings: durchsucht Termine und Besprechungsanfragen (Kalender) <br><br>&bull;&nbsp;&nbsp;*tasks: Sucht in der Liste „Meine Aufgaben“ (Aufgaben); dieser Wert gibt auch Aufgaben zurück, die in Microsoft To-Do erstellt wurden.<br>|
 | Compliancetag |Die Beschriftung, die einer E-Mail-Nachricht oder einem Dokument zugewiesen wird. Beschriftungen werden verwendet, um E-Mails und Dokumente für die Datenkontrolle zu klassifizieren, die durch diese Beschriftung definiert wird, und um Aufbewahrungsregeln durchzusetzen. Verwenden Sie diese Bedingung, um nach Elementen suchen, denen automatisch oder manuell eine Beschriftung zugewiesen wurde.<br/>Dies ist eine nützliche Bedingung für Untersuchungen im Rahmen von Anträgen betroffener Personen, da Ihr Unternehmen möglicherweise Bezeichnungen verwendet, um Inhalte zu klassifizieren, die im Zusammenhang mit Datenschutz stehen, bzw. Inhalte, die personenbezogene Daten oder vertrauliche Informationen enthalten. Weitere Informationen finden Sie im Abschnitt „Verwenden der Inhaltssuche zum Auffinden aller Inhalte, denen eine bestimmte Bezeichnung zugewiesen wurde“ unter [Informationen zu Aufbewahrungsrichtlinien und Aufbewahrungsbezeichnungen](https://docs.microsoft.com/microsoft-365/compliance/labels)|compliancetag="personenbezogene Daten"|
 ||||
 
@@ -208,7 +211,9 @@ _*_GUI_*_
 
 In diesem Beispiel werden Excel- oder Word-Dateien auf SharePoint Online-Websites und in OneDrive for Business-Konten wiedergegeben, die die angegebene Mitarbeiter-ID oder das Geburtsdatum enthalten.
 
+```
 (98765 OR "01-20-1990") AND (filetype="xlxs" OR filetype="docx")
+```
 
 _*_GUI_*_
 
@@ -294,14 +299,14 @@ Endbenutzer können auf SharePoint Online-Benutzerprofildaten mithilfe der Delve
 
 Eine andere Möglichkeit für Benutzer, auf ihre SharePoint-Profildaten zuzugreifen, besteht darin, zur Seite **Profil bearbeiten** in ihrem OneDrive for Business-Konto zu navigieren, auf das über den Pfad **EditProfile.aspx** unter der OneDrive for Business-URL zugegriffen werden kann. Für den Benutzer <strong>user1@contoso.com</strong> befindet sich das OneDrive for Business-Konto des Benutzers unter:
 
-```URL
-`https://contoso-my.sharepoint.com/personal/user1\_contoso\_com/\_layouts/15/OneDrive.aspx`
+```http
+https://contoso-my.sharepoint.com/personal/user1\_contoso\_com/\_layouts/15/OneDrive.aspx
 ```
 
 Die URL für die Seite „Profil bearbeiten“ wäre:
 
-```URL
-`https://contoso-my.sharepoint.com/personal/user1\_contoso\_com/\_layouts/15/EditProfile.aspx`
+```http
+https://contoso-my.sharepoint.com/personal/user1\_contoso\_com/\_layouts/15/EditProfile.aspx
 ```
 
 In Azure Active Directory erstellte Eigenschaften können in SharePoint Online nicht geändert werden. Benutzer können jedoch zur Seite **Konto** wechseln, indem sie ihr **Foto** in der Office 365-Kopfzeile und dann **Mein Konto** auswählen. Zum Ändern der Eigenschaften müssen Benutzer möglicherweise mit ihren Administratoren zusammenarbeiten, um Benutzerprofileigenschaften zu ermitteln, auf diese zuzugreifen oder sie zu berichtigen.
@@ -679,7 +684,6 @@ In diesem Abschnitt wird erläutert, wie Sie die In-App-Funktionalität in den e
 - [Bookings](#bookings)
 - [Listings](#listings)
 - [Connections](#connections)
-- [Invoicing](#invoicing)
 
 #### <a name="bookings"></a>Bookings
 
@@ -1394,11 +1398,11 @@ Da die meisten Office-Dokumente auf einer SharePoint Online- oder OneDrive for B
 2. Speichern Sie das Dokument an einem lokalen Speicherort (z. B. einem Dateiserver oder einer Dateifreigabe) oder einem anderen Ort, außer an Ihrem Office 365-Mandanten in der Microsoft-Cloud.
 3. Dauerhafte Löschung des Originaldokuments aus Office 365. Dies ist ein 3-stufiger Prozess:
 
-    a. Löschen Sie die Original-Kopie des Dokuments. Wenn Sie ein Dokument von einer Website löschen, wird es in den Papierkorb der Website (auch bezeichnet als *Standardpapierkorb*) verschoben.
+   1.  Die Originalkopie des Dokuments löschen. Wenn Sie ein Dokument aus einer Website löschen, wird es an den Website-Papierkorb (auch *Papierkorb der ersten Stufe* genannt) gesendet.
 
-    b. Gehen Sie zum Papierkorb der Website und löschen Sie diese Kopie des Dokuments. Wenn Sie ein Dokument aus dem Papierkorb der Website löschen, wird es an den Papierkorb der Websitesammlung gesendet (auch als *endgültiger Papierkorb* bezeichnet). Siehe [Eine Datei, einen Ordner oder einen Link aus einer SharePoint-Dokumentbibliothek löschen](https://support.microsoft.com/office/delete-a-file-folder-or-link-from-a-sharepoint-document-library-71f3c90a-0d24-4d80-8b66-f88234b79a52).
+   1.  Gehen Sie zum Papierkorb der Website und löschen Sie diese Kopie des Dokuments. Wenn Sie ein Dokument aus dem Website-Papierkorb löschen, wird es an den Papierkorb der Website-Sammlung (auch *Papierkorb der zweiten Stufe* genannt) gesendet. Siehe [Löschen einer Datei, eines Ordners oder eines Links aus einer SharePoint-Dokumentbibliothek](https://support.microsoft.com/office/delete-a-file-folder-or-link-from-a-sharepoint-document-library-71f3c90a-0d24-4d80-8b66-f88234b79a52).
 
-    c. Rufen Sie den Papierkorb der Websitesammlung auf und löschen Sie diese Kopie des Dokuments, wodurch diese dauerhaft aus Office 365 entfernt wird. Siehe [Löschen von Elementen aus dem Papierkorb der Websitesammlung](https://support.microsoft.com/office/delete-items-from-the-site-collection-recycle-bin-dd5c00c2-aef6-4458-9d04-80b185077653).
+   1.  Rufen Sie den Papierkorb der Websitesammlung auf und löschen Sie diese Kopie des Dokuments, wodurch diese dauerhaft aus Office 365 entfernt wird. Siehe [Löschen von Elementen aus dem Papierkorb der Websitesammlung](https://support.microsoft.com/office/delete-items-from-the-site-collection-recycle-bin-dd5c00c2-aef6-4458-9d04-80b185077653).
 
 4. Wenn die Einschränkung nicht mehr gültig ist, kann die Kopie des Dokuments, das lokal gespeichert wurde, wieder auf die Website in Office 365 hochgeladen werden.
 
@@ -1470,7 +1474,7 @@ Benutzer können die folgenden Informationen in Delve löschen:
 
 ### <a name="myanalytics"></a>MyAnalytics
 
-MyAnalytics stellt den Benutzern Statistiken zur Verfügung, die ihnen dabei helfen, zu sehen, wie sie ihre Zeit bei der Arbeit verbringen. Um Ihren Benutzern zu helfen, die Daten, die ihnen in ihrem persönlichen Dashboard angezeigt werden und wie diese Daten berechnet werden, besser zu verstehen, verweisen Sie Ihre Benutzer auf das Hilfethema [MyAnalytics – Persönliches Dashboard](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2).
+MyAnalytics stellt den Anwendern Statistiken zur Verfügung, die ihnen helfen zu verstehen, wie sie ihre Zeit bei der Arbeit verbringen. Um Ihren Anwendern zu helfen, die Daten besser zu verstehen, die ihnen in ihrem persönlichen Dashboard präsentiert werden und wie diese Daten berechnet werden, leiten Sie Ihre Anwender zum [persönlichen Dashboard von MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2).
 
 #### <a name="access-and-export"></a>Zugriff und Export
 
