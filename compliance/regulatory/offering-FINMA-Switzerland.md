@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 054d6a9f86e1d696472ee2091bc5b98c4312f5b5
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 3dfd4993428de2884c1d7ea4d149da28f833508d
+ms.sourcegitcommit: 8af471ad10420ee5fce98d2eb0d69a6d2b992f08
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506774"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49936949"
 ---
 # <a name="financial-market-supervisory-authority-finma-switzerland"></a>Finanzmarktaufsichtsbehörde (FINMA) Schweiz
 
@@ -35,7 +35,7 @@ Die FINMA hat das [Rundschreiben 2018/3 „Outsourcing – Banken und Versichere
 
 Um Finanzinstitute in der Schweiz bei der Auslagerung von Geschäftsfunktionen in die Cloud zu unterstützen, hat Microsoft die Publikation [Eine Compliance-Checkliste für Finanzinstitute in der Schweiz](https://aka.ms/FinServ-Guide-Switzerland) veröffentlicht. Durch die Überprüfung und Vervollständigung der Checkliste können Finanzunternehmen Microsoft Business-Clouddienste mit der Gewissheit einführen, dass sie die geltenden gesetzlichen Anforderungen erfüllen.
 
-Wenn Schweizerische Finanzinstitute Geschäftsaktivitäten auslagern, müssen sie den Anforderungen der Eidgenössischen Finanzmarktaufsicht (FINMA) nachkommen und sich zusätzlicher Anforderungen und Richtlinien bewusst sein, zu denen u. a. jene des Schweizerischen Nationalbankgesetzes, der Schweizerischen Nationalbankverordnung und des Schweizerischen Versicherungsaufsichtsgesetzes zählen.
+Wenn Schweizerische Finanzinstitute Geschäftsaktivitäten auslagern, müssen sie den Anforderungen der Eidgenössischen Finanzmarktaufsicht (FINMA) nachkommen und sich anderer Anforderungen und Richtlinien bewusst sein, zu denen u. a. jene des Schweizerischen Nationalbankgesetzes, der Schweizerischen Nationalbankverordnung und des Schweizerischen Versicherungsaufsichtsgesetzes zählen.
 
 Die Microsoft-Checkliste unterstützt Schweizerische Finanzunternehmen bei der Durchführung von Due-Diligence-Prüfungen von Microsoft Business-Clouddiensten und umfasst:
 
@@ -69,5 +69,4 @@ Ja. In Teil 2 der Compliance-Prüfliste sind diese Bedingungen sowie die Abschni
 - [Microsoft Compliance-Programm für Finanzdienstleiter](https://aka.ms/FSCP-Print)
 - [Microsoft Clouddienste für Unternehmen und Finanzdienstleistungen](https://servicetrust.microsoft.com/viewpage/financialservicesoverview)
 - [Finanzdienstleister-Compliance in Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
-- [Azure Financial Services Cloud Risikobewertungstool](https://aka.ms/FFIEC-CSDT)
 - [Compliance im Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
