@@ -1,6 +1,6 @@
 ---
 title: Datenresilienz in Microsoft 365
-description: In diesem Artikel erfahren Sie mehr über den Entwurf und die Grundsätze der Datenausfall Sicherheit und-Wiederherstellung in Microsoft 365.
+description: In diesem Artikel erfahren Sie mehr über den Entwurf und die Prinzipien der Datenresilienz und -wiederherstellung in Microsoft 365.
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -19,43 +19,43 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 07fa3f2bd473383840aae75d1e14c66ca19d51b3
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 361400bf6330fb82d34f384d17e4d4ee438ccf08
+ms.sourcegitcommit: b06fa9f1b230fd5e470817486ea51f460f28b691
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506754"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50012901"
 ---
-# <a name="data-resiliency-in-microsoft-365"></a>Datenausfall Sicherheit in Microsoft 365
+# <a name="data-resiliency-in-microsoft-365"></a>Datenresilienz in Microsoft 365
 
-In Anbetracht des komplexen Charakters von Cloud-Computing ist Microsoft sich bewusst, dass es sich nicht um einen Fall handelt, in dem die Dinge schief gehen, sondern eher wenn. Wir entwerfen unsere Cloud-Dienste, um die Zuverlässigkeit zu maximieren und die negativen Auswirkungen auf die Kunden zu minimieren, wenn es schief geht. Wir haben uns über die herkömmliche Strategie hinweggesetzt, sich auf komplexe physische Infrastrukturen zu verlassen, und wir haben Redundanz direkt in unsere Cloud-Dienste integriert. Wir verwenden eine Kombination aus weniger komplexer physischer Infrastruktur und intelligenter Software, die Datensicherheit in unseren Diensten aufbaut und hohe Verfügbarkeit für unsere Kunden bietet. 
+Angesichts des komplexen Charakters von Cloud Computing ist Microsoft der Meinung, dass es nicht darum geht, ob etwas schief geht, sondern wann. Wir entwerfen unsere Clouddienste, um die Zuverlässigkeit zu maximieren und die negativen Auswirkungen auf Kunden zu minimieren, wenn etwas schief geht. Wir haben uns über die herkömmliche Strategie der Basierten auf komplexe physische Infrastruktur hinaus bewegt und Redundanz direkt in unsere Clouddienste integrierte. Wir verwenden eine Kombination aus weniger komplexerer physischer Infrastruktur und intelligenterer Software, die Datenresilienz in unsere Dienste einf?pft und unseren Kunden hohe Verfügbarkeit bietet.
 
-## <a name="resiliency-and-recoverability-are-built-in"></a>Ausfallsicherheit und Wiederherstellbarkeit sind integriert 
+## <a name="resiliency-and-recoverability-are-built-in"></a>Resilienz und Wiederherstellbarkeit sind integrierte
 
-Das Erstellen von Ausfallsicherheit und Wiederherstellung beginnt mit der Annahme, dass die zugrunde liegende Infrastruktur und die Prozesse zu einem bestimmten Zeitpunkt fehlschlagen: Hardware (Infrastruktur) schlägt fehl, der Mensch wird Fehler machen, und Software hat Bugs. Es wäre zwar falsch zu sagen, dass Softwareentwickler nicht über diese Dinge vor der Cloud nachdachten, wie diese Probleme in einer typischen IT-Implementierung behandelt wurden, war jedoch vor der Cloud sehr unterschiedlich:
+Der Aufbau von Resilienz und Wiederherstellung beginnt mit der Annahme, dass die zugrunde liegende Infrastruktur und die zugrunde liegenden Prozesse zu einem bestimmten Zeitpunkt fehlschlagen: Hardware (Infrastruktur) wird fehlschlagen, Menschen machen Fehler, und die Software hat Fehler. Es wäre zwar falsch zu sagen, dass Softwareentwickler vor der Cloud nicht über diese Dinge nachdenkten, aber wie diese Probleme in einer typischen IT-Implementierung behandelt wurden, war vor der Cloud anders:
 
-- Zunächst waren Hardware-und Infrastruktur Schutz relevant. Dies bedeutet, dass Rechenzentren mit einer Zuverlässigkeit von 99,99% erhebliche Strom-und Netzwerkredundanz erforderlich machten und Server mit hardwarebasiertem Clustering, dualen Netzteilen, dualen Netzwerkschnittstellen und ähnlichem implementiert wurden. 
-- Zweitens war Prozess von größter Bedeutung. Betriebsteams behielten strenge Verfahren, Wechsel Fenster wurden verwendet, und es gab häufig einen erheblichen Overhead im Projektmanagement. 
-- Drittens erfolgte die Bereitstellung in einem Gletscher Tempo. Die Bereitstellung von Code ohne Besitz der Quelle bedeutete, auf Patch-Versionen zu warten, und Hauptversions Versionen betrafen Hardwareaustausch und erhebliche Investitionen. Darüber hinaus war das Zurücksetzen des Problems die einzige Möglichkeit, ein Problem zu beheben. Daher würden die meisten IT-Organisationen nur Hauptversionen bereitstellen, um zu verhindern, dass die Arbeit auf dem neuesten Stand ist. 
-- Schließlich war die Skalierung der bereitgestellten Systeme sowie die Ebene ihrer Vernetzung historisch viel kleiner als jetzt. 
+- Zunächst waren Hardware- und Infrastrukturschutz erheblich. Diese Struktur bedeutete, dass Rechenzentren mit einer Zuverlässigkeit von 99,99 % erhebliche Energie- und Netzwerkredundanz erforderten, und Server wurden mit hardwarebasiertem Clustering, dualen Netzteilen, dualen Netzwerkschnittstellen und deren Implementierung implementiert.
+- Zweitens war der Prozess äußerst wichtig. Betriebsteams verwalteten strenge Verfahren, Änderungsfenster wurden eingesetzt, und es gab häufig einen erheblichen Mehraufwand für das Projektmanagement.
+- Die dritte Bereitstellung erfolgte in einem besonderen Tempo. Das Bereitstellen von Code ohne die Quelle bedeutete warten auf Patchversionen, und Hauptversionsversionen setzten Hardwareersetzung und erhebliche Investitionen ein. Darüber hinaus war die einzige Möglichkeit, ein Problem zu beheben, das Rollback. Daher würden die meisten IT-Organisationen nur Hauptversionen bereitstellen, um die Arbeit zu vermeiden, um auf dem neuesten Stand zu bleiben.
+- Schließlich war das Ausmaß der bereitgestellten Systeme und die Ebene ihrer Verbundenheit in der Vergangenheit viel kleiner als jetzt.
 
-Kunden erwarten heute kontinuierliche Innovationen von Microsoft ohne Kompromisse bei der Qualität, und dies ist einer der Gründe, warum die Dienste und Software von Microsoft mit Flexibilität und Wiederherstellbarkeit entwickelt werden. 
+Kunden erwarten heutzutage kontinuierliche Innovationen von Microsoft, ohne die Qualität zu kompromittieren. Dies ist einer der Gründe, warum die Dienste und Software von Microsoft unter Bedenken von Resilienz und Wiederherstellbarkeit erstellt werden.
 
-## <a name="microsoft-365-data-resiliency-principles"></a>Microsoft 365-Prinzipien für Datensicherheit
+## <a name="microsoft-365-data-resiliency-principles"></a>Prinzipien der Datenresilienz von Microsoft 365
 
-Ausfallsicherheit bezieht sich auf die Möglichkeit, dass ein Cloud-basierter Dienst bestimmten Arten von Fehlern Stand halten kann und dennoch aus Sicht der Kunden voll funktionsfähig bleibt. Datenausfall Sicherheit bedeutet, dass wichtige Kundendaten unabhängig von den auftretenden Fehlern in Microsoft 365 intakt bleiben und nicht betroffen sind. Zu diesem Zweck wurden Microsoft 365-Dienste um fünf spezifische Ausfall Sicherheitsprinzipien entwickelt:
+Resilienz bezieht sich auf die Fähigkeit eines cloudbasierten Diensts, bestimmte Arten von Fehlern zu überstehen und dennoch aus Sicht der Kunden voll funktionsfähig zu bleiben. Datenresilienz bedeutet, dass kritische Kundendaten unabhängig davon, welche Fehler in Microsoft 365 auftreten, intakt bleiben und nicht betroffen sind. Zu diesem Zweck wurden Microsoft 365-Dienste auf fünf spezifische Resilienzprinzipien ausgelegt:
 
-- Es gibt wichtige und nicht kritische Daten. Nicht kritische Daten (beispielsweise, ob eine Nachricht gelesen wurde) können in Szenarien mit seltenen Fehlern gelöscht werden. Wichtige Daten (beispielsweise Kundendaten wie e-Mail-Nachrichten) sollten unter extremen Kosten geschützt werden. Als Entwurfsziel sind zugestellte e-Mail-Nachrichten immer kritisch und Dinge wie, ob eine Nachricht gelesen wurde, sind nicht kritisch. 
-- Kopien von Kundendaten müssen in unterschiedliche Fehler Zonen oder so viele fehlerdomänen wie möglich aufgeteilt werden (beispielsweise Rechenzentren, zugänglich für einzelne Anmeldeinformationen (Prozess, Server oder Operator)), um die Ausfall Isolierung bereitzustellen. 
-- Kritische Kundendaten müssen auf fehlerhafte Teile von Atomarität, Konsistenz, Isolierung, Lebensdauer (ACID) überwacht werden. 
-- Kundendaten müssen vor Beschädigung geschützt sein. Es muss aktiv gescannt oder überwacht, repariert und wiederhergestellt werden. 
-- Die meisten Datenverluste resultieren aus Kundenaktionen, sodass Kunden sich selbst über eine GUI erholen können, mit der Sie versehentlich gelöschte Elemente wiederherstellen können. 
- 
-Durch den Aufbau unserer Cloud-Dienste für diese Prinzipien, gepaart mit robustem testen und Validierung, kann Microsoft 365 die Anforderungen von Kunden erfüllen und übertreffen und gleichzeitig eine Plattform für kontinuierliche Innovationen und Verbesserungen sicherstellen. 
+- Es gibt kritische und nicht kritische Daten. Nicht kritische Daten (z. B. ob eine Nachricht gelesen wurde) können in seltenen Fehlerszenarien gelöscht werden. Kritische Daten (z. B. Kundendaten wie E-Mail-Nachrichten) sollten mit äußersten Kosten geschützt werden. Als Entwurfsziel sind zugestellte E-Mail-Nachrichten immer wichtig, und Dinge wie die Frage, ob eine Nachricht gelesen wurde, sind unkritisch.
+- Kopien von Kundendaten müssen in verschiedene Fehlerzonen oder so viele Fehlerdomänen wie möglich unterteilt werden (z. B. Rechenzentren, auf die durch einzelne Anmeldeinformationen (Prozess, Server oder Operator) zugegriffen werden kann), um eine Fehlerisolation zu ermöglichen. 
+- Kritische Kundendaten müssen darauf überwacht werden, dass sie einen Teil von Atomarität, Konsistenz, Isolation, Isolierung (Isolierung, Isolierung) nicht erreichen.
+- Kundendaten müssen vor Beschädigungen geschützt werden. Sie muss aktiv überprüft oder überwacht, repariert und wiederherstellbar sein.
+- Die meisten Datenverluste werden durch Kundenaktionen erzielt, sodass Kunden die Wiederherstellung selbst mithilfe einer GUI durchführen können, mit der sie versehentlich gelöschte Elemente wiederherstellen können.
 
-## <a name="related-links"></a>Links zu verwandten Themen
+Durch die Entwicklung unserer Clouddienste nach diesen Prinzipien in Verbindung mit robusten Tests und Validierungen kann Microsoft 365 die Anforderungen von Kunden erfüllen und übertreffen und gleichzeitig eine Plattform für kontinuierliche Innovation und Verbesserung sicherstellen.
+
+## <a name="related-articles"></a>Verwandte Artikel
 
 - [Umgang mit Datenbeschädigung](assurance-dealing-with-data-corruption.md)
 - [Schutz vor Schadsoftware und Ransomware](assurance-malware-and-ransomware-protection.md)
 - [Überwachung und Selbstreparatur](assurance-monitoring-and-self-healing.md)
-- [Exchange-Datenausfall Sicherheit](assurance-exchange-data-resiliency.md)
+- [Ausfallsicherheit von Exchange-Daten](assurance-exchange-data-resiliency.md)
