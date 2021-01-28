@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 68d9a7a3906ae848dacc515a00464f15ca9d09fb
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 3688ffe46405e6c8eea8f6896a94d8470151bb4d
+ms.sourcegitcommit: b06fa9f1b230fd5e470817486ea51f460f28b691
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49509396"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50012971"
 ---
 # <a name="nen-7510"></a>NEN 7510
 
@@ -31,7 +31,7 @@ Organisationen in den Niederlanden, die Gesundheitsdaten von Patienten verarbeit
 
 ## <a name="microsoft-and-nen-75102011"></a>Microsoft und NEN 7510:2011
 
-Microsoft hat seine aktuellen Zertifizierungen und Erklärungen analysiert und einen [NEN 7510-Abdeckungsbericht](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=3285c45c-921c-49ad-b881-be43e0b70490&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Compliance_Guides) erstellt und auf der Service Trust Platform bereitgestellt. In diesem Bericht werden die Zertifizierungen und Erklärungen den NEN 7510-Kontrollen zugeordnet, für die Microsoft als Clouddienstanbieter verantwortlich ist. Anhand dieses Dokuments können Kunden ermitteln, welche zusätzlichen Kontrollen sie implementieren müssen, um sicherzustellen, dass ihre Verwendung von Microsoft Cloud Services für die Speicherung oder Verarbeitung von Patientendaten die Anforderungen von NEN 7510 erfüllt.
+Microsoft hat seine aktuellen Zertifizierungen und Erklärungen analysiert und einen [NEN 7510-Abdeckungsbericht](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=3285c45c-921c-49ad-b881-be43e0b70490&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Compliance_Guides) erstellt und auf der Service Trust Platform bereitgestellt. In diesem Bericht werden die Zertifizierungen und Erklärungen den NEN 7510-Kontrollen zugeordnet, für die Microsoft als Clouddienstanbieter verantwortlich ist. Anhand dieses Dokuments können Kunden ermitteln, welche anderen Kontrollen sie implementieren müssen, um sicherzustellen, dass ihre Verwendung von Microsoft Cloud Services für die Speicherung oder Verarbeitung von Patientendaten die Anforderungen von NEN 7510 erfüllt.
 
 So können Sie Ihre NEN 7510-Implementierung mithilfe der Azure Security and Compliance Blueprints beschleunigen: [Microsoft Cloud: Azure und Office 365 NEN7510-2011 Standardabdeckung Benutzerhandbuch herunterladen](https://aka.ms/Azure-NEN7510-2011)
 
@@ -49,15 +49,15 @@ So können Sie Ihre NEN 7510-Implementierung mithilfe der Azure Security and Co
 
 **Sind Kunden, die Microsoft Cloud Services nutzen, konform mit NEN 7510?**
 
-Für den Nachweis der NEN-Konformität ist die Gesundheitsorganisation (Kunde) verantwortlich. Bei der Nutzung eines Anbieters von Cloud-Diensten verlangen Kunden in der Regel Zusicherungen vom Anbieter und fügen ihre eigenen (zusätzlichen) technologischen und organisatorischen Entscheidungen, Wahlmöglichkeiten und Prozesse hinzu. Das führt zu einer Gesamtbeurteilung durch Kunden bezüglich der Einhaltung der NEN 7510, die für eine externe Überprüfung oder Zertifizierung eingereicht werden kann. Der NEN 7510-Abdeckungsbericht gibt Erkenntnisse darüber, welche NEN 7510-Kontrollen von Microsoft Cloud Services abgedeckt werden, deckt aber als solche nicht die End-to-End-Compliance ab.
+Für den Nachweis der NEN-Konformität ist die Gesundheitsorganisation (der „Kunde“) verantwortlich. Wenn ein Kunde mit einem Clouddienstanbieter zusammenarbeitet, fordert er in der Regel einen Nachweis vom Anbieter und muss eigene (andere) technische und betriebliche Funktionen, Auswahlmöglichkeiten und Prozesse einrichten. Das führt zu einer Gesamtbeurteilung durch Kunden bezüglich der Einhaltung der NEN 7510, die für eine externe Überprüfung oder Zertifizierung eingereicht werden kann. Der NEN 7510-Abdeckungsbericht gibt Erkenntnisse darüber, welche NEN 7510-Kontrollen von Microsoft Cloud Services abgedeckt werden, deckt aber als solche nicht die End-to-End-Compliance ab.
 
-**Ist Microsoft konform mit NEN 7510?**
+**Hat Microsoft Compliance mit NEN 7510 erzielt?**
 
-Die Verantwortung für die Compliance mit NEN 7510 liegt bei niederländischen Organisationen im Gesundheitswesen. Das Unternehmen muss ein Managementsystem für Informationssicherheit einrichten und Risiken mit entsprechenden technischen und betrieblichen Maßnahmen entgegenwirken. Für Microsoft in seiner Rolle als Anbieter von Cloud-Diensten ist die Einhaltung der NEN 7510 weder das Ziel, noch technisch machbar. Wenn Kunden Microsoft Cloud Services implementieren oder nutzen, können diese Dienste in den Anwendungsbereich einer NEN 7510-Evaluierung fallen. Die Organisation muss jedoch ihre eigenen (zusätzlichen) Kontrollen, Wahlmöglichkeiten und Prozesse hinzufügen, die Teil der NEN 7510-Gesamtbewertung sind. Ziel des Berichts ist der Nachweis, dass eine Organisation des Gesundheitswesens Microsoft Cloud Services auf eine Weise nutzen kann, die mit NEN 7510 konform ist.
+Die Verantwortung für die Compliance mit NEN 7510 liegt bei niederländischen Organisationen im Gesundheitswesen. Das Unternehmen muss ein Managementsystem für Informationssicherheit einrichten und Risiken mit entsprechenden technischen und betrieblichen Maßnahmen entgegenwirken. Für Microsoft in seiner Rolle als Clouddienstanbieter ist Compliance mit NEN 7510 weder das Ziel noch technisch machbar. Wenn Kunden Microsoft Cloud Services implementieren oder nutzen, können diese Dienste in den Anwendungsbereich einer NEN 7510-Evaluierung fallen. Die Organisation muss jedoch ihre eigenen (anderen) Kontrollen, Wahlmöglichkeiten und Prozesse hinzufügen, die Teil der NEN 7510-Gesamtbewertung sind. Ziel des Berichts ist der Nachweis, dass eine Organisation des Gesundheitswesens Microsoft Cloud Services auf eine Weise nutzen kann, die mit NEN 7510 konform ist.
 
-**Der Bericht weist keine 100-prozentige Abdeckung nach. Kann NEN 7510-Compliance nicht erzielt werden?**
+**Der Bericht weist keine 100-prozentige Abdeckung nach. Kann die NEN 7510-Compliance nicht erzielt werden?**
 
-Die Microsoft Cloud Services bieten viele Kontrollen, die Organisationen im niederländischen Gesundheitswesen bei der Einhaltung von NEN 7510 unterstützen. Eine Organisation muss diese Herstellerzusicherungen jedoch durch ihre eigenen Implementierungsentscheidungen, zusätzliche Technologiekontrollen und Verwaltungsprozesse ergänzen. Der Bericht weist bereits eine direkte 94-prozentige Abdeckung der gesamten Liste der anwendbaren Kontrollen auf. Für die verbleibenden Kontrollen stellt Microsoft im Bericht Anweisungen zur Verfügung, wie Compliance mit diesen Kontrollen nachgewiesen werden kann.
+Die Microsoft Cloud Services bieten viele Kontrollen, die Organisationen im niederländischen Gesundheitswesen bei der Einhaltung von NEN 7510 unterstützen. Das Unternehmen muss diese Anbieterzusicherungen trotzdem mit eigenen Implementierungsoptionen, anderen technologischen Kontrollen und Verwaltungsprozessen erweitern. Der Bericht weist bereits eine direkte 94-prozentige Abdeckung der gesamten Liste der anwendbaren Kontrollen auf. Für die verbleibenden Kontrollen stellt Microsoft im Bericht Anweisungen zur Verfügung, wie Compliance mit diesen Kontrollen nachgewiesen werden kann.
 
 > [!NOTE]
 > Die Implementierung der vollständigen Kontrollliste ist nicht der primäre Zweck von NEN 7510 (allerdings ist die umfassende Abdeckung der Microsoft-Onlinedienste hilfreich). NEN 7510 ordnet die Implementierung eines risikobasierten Informationssicherheitssystems an, mit dessen Hilfe eine Organisation ermitteln kann, welche Kontrollen für sie relevant sind.

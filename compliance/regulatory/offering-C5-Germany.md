@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 5d73dfe71ea0872e02e516e0c952d017ded22150
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 172b031f4193a24a36126d3aabfadb02f3f20247
+ms.sourcegitcommit: b06fa9f1b230fd5e470817486ea51f460f28b691
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507002"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50013001"
 ---
 # <a name="cloud-computing-compliance-controls-catalog-c5"></a>Cloud Computing Compliance Controls Catalog (C5)
 
@@ -31,7 +31,7 @@ Im Jahr 2016 erstellte das Bundesamt für Sicherheit in der Informationstechnik
 
 Ziel des C5-Katalogs ist ein einheitlicher Sicherheitsrahmen für die Zertifizierung von Clouddienstanbietern und die Zusicherung für Kunden, dass ihre Daten sicher verwaltet werden.
 
-C5 basiert auf international anerkannten IT-Sicherheitsstandards wie ISO/IEC 27001:2013, der Cloud Security Alliance Cloud Controls Matrix 3.0.1 und den BSI-eigenen IT-Grundschutzkatalogen. Der Katalog besteht aus 114 Anforderungen in 17 Bereichen – z. B. der Organisation von Informationssicherheit und physischer Sicherheit – mit Sicherheitsanforderungen, die für alle Clouddienstanbieter gelten, und zusätzlichen Anforderungen für die Verarbeitung streng vertraulicher Daten und für Situationen, die hohe Verfügbarkeit erfordern.
+C5 basiert auf international anerkannten IT-Sicherheitsstandards wie ISO/IEC 27001:2013, der Cloud Security Alliance Cloud Controls Matrix 3.0.1 und den BSI-eigenen IT-Grundschutzkatalogen. Der Katalog besteht aus 114 Anforderungen in 17 Bereichen – z. B. der Organisation von Informationssicherheit und physischer Sicherheit – mit Sicherheitsanforderungen, die für alle Clouddienstanbieter gelten, und andere Anforderungen für die Verarbeitung streng vertraulicher Daten und für Situationen, die hohe Verfügbarkeit erfordern.
 
 Das BSI legt auch großen Wert auf Transparenz. Als Teil einer Prüfung muss der Cloudanbieter eine detaillierte Systembeschreibung beifügen und Umgebungsparameter wie Gerichtsbarkeit und Datenverarbeitungsstandort, Bereitstellung von Diensten und andere für die Clouddienste ausgestellte Zertifizierungen sowie Informationen über die Offenlegungspflichten des Cloudanbieters gegenüber Behörden offenlegen. Aufgrund der geschaffenen Transparenz wird dem Kunden die Entscheidung erleichtert, ob Clouddienste den gesetzlichen Vorschriften (zum Beispiel im Datenschutz), den eigenen Richtlinien oder auch der Gefährdungslage bezüglich Wirtschaftsspionage entsprechen.
 

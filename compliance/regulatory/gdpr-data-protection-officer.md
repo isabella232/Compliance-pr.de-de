@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: f41583c07ec5a8d1c711444b43daf0fd8de754ea
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 127528f40f5939b8fe0a5585cee7a212d35af82e
+ms.sourcegitcommit: b06fa9f1b230fd5e470817486ea51f460f28b691
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507230"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50012931"
 ---
 # <a name="microsofts-data-protection-officer"></a>Datenschutzbeauftragter von Microsoft
 
@@ -34,11 +34,11 @@ Bewerber für die Rolle eines Datenschutzbeauftragten müssen über mindestens s
 
 ## <a name="nature-of-the-role"></a>Art der Rolle
 
-Der Datenschutzbeauftragter ist ordnungsgemäß und zeitnah in alle grundlegenden Angelegenheiten einzubeziehen, die mit dem Schutz personenbezogener Daten im Zusammenhang stehen. Dies erfolgt zum Teil durch die Rolle als Datenschutzbeauftragter bei der Überprüfung von und Beratung zu allen von Microsoft generierten Bewertungen der Auswirkungen auf den Datenschutz. Da das Programm zur Bewertung der Auswirkungen auf den Datenschutz derart konzipiert ist, dass die gesamte Verarbeitung personenbezogener Daten bei Microsoft erfasst wird, verfügt der Datenschutzbeauftragte über unternehmensübergreifende Einsicht in die Verpflichtungen von Microsoft gemäß der DSGVO im Hinblick auf die Verarbeitung personenbezogener Daten durch Microsoft sowie über die Möglichkeit, Microsoft bezüglich dieser zu informieren und zu beraten. Dieser Mechanismus ermöglicht dem Datenschutzbeauftragten auch die Überwachung der Einhaltung der geltenden Datenschutzbestimmungen, einschließlich der DSGVO, durch Microsoft sowie der internen Richtlinien und Kontrollen von Microsoft. 
+Der Datenschutzbeauftragter ist ordnungsgemäß und zeitnah in alle grundlegenden Angelegenheiten einzubeziehen, die mit dem Schutz personenbezogener Daten im Zusammenhang stehen. Dies erfolgt zum Teil durch die Rolle als Datenschutzbeauftragter bei der Überprüfung von und Beratung zu allen von Microsoft generierten Bewertungen der Auswirkungen auf den Datenschutz. Da das Programm zur Bewertung der Auswirkungen auf den Datenschutz derart konzipiert ist, dass die gesamte Verarbeitung personenbezogener Daten bei Microsoft erfasst wird, verfügt der Datenschutzbeauftragte über unternehmensübergreifende Einsicht in die Verpflichtungen von Microsoft gemäß der DSGVO im Hinblick auf die Verarbeitung personenbezogener Daten durch Microsoft sowie über die Möglichkeit, Microsoft bezüglich dieser zu informieren und zu beraten. Dieser Mechanismus ermöglicht dem Datenschutzbeauftragten auch die Überwachung der Einhaltung der geltenden Datenschutzbestimmungen durch Microsoft, einschließlich der DSGVO, und der internen Richtlinien und Kontrollen von Microsoft. 
 
 ## <a name="position-of-the-data-protection-officer"></a>Position des Datenschutzbeauftragten
 
-Der DSB der Europäischen Union berichtet direkt an den CPO (Chief Privacy Officer) von Microsoft, eine Führungskraft in der Abteilung für Unternehmens- und Rechtsangelegenheiten von Microsoft. Die DSB-Rolle führt diese Aufgaben eigenverantwortlich auf unabhängige, unvoreingenommene Weise aus. Über die Organisation des CPO hat der Datenschutzbeauftragte Zugang zu Schulungsressourcen und Kundenresonanzen, die für die Durchführung seiner Aufgaben notwendig sind. Der DSB ist durch eine Geheimhaltungsvereinbarung der Vertraulichkeit bezüglich seiner Aufgaben verpflichtet.  
+Der DSB der Europäischen Union berichtet direkt an den CPO (Chief Privacy Officer) von Microsoft, eine Führungskraft in der Abteilung für Unternehmens- und Rechtsangelegenheiten von Microsoft. Die DSB-Rolle führt diese Aufgaben eigenverantwortlich auf unabhängige, unvoreingenommene Weise aus. Über die Organisation des CPO hat der Datenschutzbeauftragte Zugang zu Schulungsressourcen und Kundenresonanzen, die für die Durchführung seiner Aufgaben notwendig sind. Der DSB ist durch die Verwendung einer Geheimhaltungsvereinbarung der Vertraulichkeit bezüglich seiner Aufgaben verpflichtet.  
 
 ## <a name="contact"></a>Kontakt
 
