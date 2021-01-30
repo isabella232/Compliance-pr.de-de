@@ -80,10 +80,10 @@
       href: assurance-security-incident-management.md
     - name: 'Verwaltung von Sicherheitsvorfällen: Vorbereitungen'
       href: assurance-sim-preparation.md
-    - name: 'Verwaltung von Sicherheitsvorfällen: Eindämmung, Beseitigung und Wiederherstellung'
-      href: assurance-sim-containment-eradication-recovery.md
     - name: 'Verwaltung von Sicherheitsvorfällen: Erkennung und Analyse'
       href: assurance-sim-detection-analysis.md
+    - name: 'Verwaltung von Sicherheitsvorfällen: Eindämmung, Beseitigung und Wiederherstellung'
+      href: assurance-sim-containment-eradication-recovery.md
     - name: 'Verwaltung von Sicherheitsvorfällen: Aktivitäten nach dem Vorfall'
       href: assurance-sim-post-incident-activity.md
 - name: Netzwerksicherheit
@@ -132,6 +132,8 @@
       href: assurance-monitoring-and-self-healing.md
     - name: Exchange Online-Datenresilienz
       href: assurance-exchange-data-resiliency.md
+    - name: SharePoint- und OneDrive-Datenresilienz
+      href: assurance-sharepoint-onedrive-data-resiliency.md
     - name: Enterprise Business Continuity-Verwaltung (EBCM) mit Clouddiensten
       href: assurance-understanding-ebcm-with-cloud-services.md
     - name: EBCM-Verantwortlichkeit von Kunden und Cloudpartnern
