@@ -17,12 +17,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 - MS-Compliance
-ms.openlocfilehash: d1d0acae943bf0a0af4b6f81f948208e4bd58ef6
-ms.sourcegitcommit: b06fa9f1b230fd5e470817486ea51f460f28b691
+ms.openlocfilehash: 220084ee9cd808d896a475a324c4bd55e58414e1
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50012921"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121064"
 ---
 # <a name="data-processor-service-for-windows-enterprise-breach-notification-under-the-gdpr"></a>Benachrichtigung des Datenauftragsverarbeiterdiensts für Windows Enterprise über eine Datenschutzverletzung gemäß DSGVO
 
@@ -35,11 +35,11 @@ Sicherheit ist in den Microsoft-Datenauftragsverarbeiterdienst für Windows Ente
 
 |**Stage**|**Beschreibung**|
 |:------- |:------------- |
-| **_1: Erkennung_* _ | Erste Anzeichen für einen potenziellen Vorfall. |
-| _*_2: Analyse_*_ | Ein abrufbereites Mitglied des Teams für die Reaktion auf Sicherheitsvorfälle analysiert die Auswirkungen und den Schweregrad des Ereignisses. Basierend auf den Nachweisen kann die Analyse zu einer Eskalation an das Sicherheitsteam führen. |
-| _*_3: Diagnose_*_ | Sicherheitsexperten führen eine technische oder forensische Untersuchung durch und ermitteln Strategien für Eindämmung, Risikominderung und Abhilfe. Wenn das Sicherheitsteam der Meinung ist, dass möglicherweise Kundendaten gegenüber einer unbefugten Personen offengelegt wurden, wird parallel der Prozess zur Benachrichtigung des Kunden über den Sicherheitsvorfall in Gang gesetzt. |
-| _*_4: Stabilisierung und Wiederherstellung_*_ | Das Team für die Reaktion auf Sicherheitsvorfälle erstellt einen Wiederherstellungsplan, um das Problem zu mindern. Schritte zur Eindämmung der Auswirkungen, wie die Isolierung der betroffenen Systeme, können sofort und parallel zur Diagnose ausgeführt werden. Zudem können längerfristige Maßnahmen zur Risikominderung geplant werden, die umgesetzt werden, sobald die unmittelbare Gefahr gebannt ist. |
-| _*_5: Abschluss und nachträgliche Analyse_*_ | Das Team für die Reaktion auf Sicherheitsvorfälle erstellt eine nachträgliche Analyse mit den Details des Vorfalls, anhand derer Richtlinien, Verfahren und Prozesse geprüft werden sollen, um ein erneutes Auftreten des Ereignisses zu verhindern. |
+| ***1: Erkennung*** | Erste Anzeichen für einen potenziellen Vorfall. |
+| ***2: Analyse*** | Ein abrufbereites Mitglied des Teams für die Reaktion auf Sicherheitsvorfälle analysiert die Auswirkungen und den Schweregrad des Ereignisses. Basierend auf den Nachweisen kann die Analyse zu einer Eskalation an das Sicherheitsteam führen. |
+| ***3: Diagnose*** | Sicherheitsexperten führen eine technische oder forensische Untersuchung durch und ermitteln Strategien für Eindämmung, Risikominderung und Abhilfe. Wenn das Sicherheitsteam der Meinung ist, dass möglicherweise Kundendaten gegenüber einer unbefugten Personen offengelegt wurden, wird parallel der Prozess zur Benachrichtigung des Kunden über den Sicherheitsvorfall in Gang gesetzt. |
+| ***4: Stabilisierung und Wiederherstellung*** | Das Team für die Reaktion auf Sicherheitsvorfälle erstellt einen Wiederherstellungsplan, um das Problem zu mindern. Schritte zur Eindämmung der Auswirkungen, wie die Isolierung der betroffenen Systeme, können sofort und parallel zur Diagnose ausgeführt werden. Zudem können längerfristige Maßnahmen zur Risikominderung geplant werden, die umgesetzt werden, sobald die unmittelbare Gefahr gebannt ist. |
+| ***5: Abschluss und nachträgliche Analyse*** | Das Team für die Reaktion auf Sicherheitsvorfälle erstellt eine nachträgliche Analyse mit den Details des Vorfalls, anhand derer Richtlinien, Verfahren und Prozesse geprüft werden sollen, um ein erneutes Auftreten des Ereignisses zu verhindern. |
 
 Die Erkennungsprozesse, die der Datenauftragsverarbeiterdienst von Microsoft für Windows Enterprise verwendet, sind darauf ausgelegt, Ereignisse zu erkennen, die die Vertraulichkeit, Integrität und Verfügbarkeit des Datenauftragsverarbeiterdiensts für Windows Enterprise gefährden. Verschiedene Ereignisse können eine Untersuchung auslösen:
 
@@ -54,16 +54,16 @@ Die Erkennungsprozesse, die der Datenauftragsverarbeiterdienst von Microsoft fü
 
  Microsoft weist der Untersuchung geeignete Prioritäts- und Schweregrade zu, indem die funktionellen Auswirkungen, die Wiederherstellbarkeit und die Beeinträchtigung von Daten durch den Vorfall bestimmt werden. Sowohl Prioritäten als auch Schweregrade können sich im Verlauf der Untersuchung aufgrund neuer Erkenntnisse und Schlussfolgerungen ändern. Sicherheitsereignisse, die ein unmittelbares oder bestätigtes Risiko für Kundendaten darstellen, werden als Ereignisse mit hohem Schweregrad behandelt, den deren Behebung rund um die Uhr gearbeitet wird. Der Datenauftragsverarbeiterdienst von Microsoft für Windows Enterprise kategorisiert die Auswirkungen des Vorfalls auf die Informationen in die folgenden Kategorien von Datenschutzverletzungen:
 
-| _ *Kategorie** | **Definition** |
+| **Kategorie** | **Definition** |
 |:------------ |:-------------- |
-| **_Keine_* _ | Es wurden keine Daten entfernt, geändert, gelöscht oder anderweitig kompromittiert. |
-| _*_Datenschutzverletzung_*_ | Es wurde auf vertrauliche personenbezogene Daten von Steuerzahlern, Mitarbeitern, Begünstigten etc. zugegriffen oder diese wurden entfernt. |
-| _*_Verletzung des Schutzes unternehmenseigener Daten_*_ | Es wurde auf nicht klassifizierte, unternehmenseigene Daten, z. B. geschützte kritische Infrastrukturdaten (Protected Critical Infrastructure Information, PCII), zugegriffen oder diese wurden entfernt. |
-| _*_Integritätsverlust_*_ | Vertrauliche oder unternehmenseigene Daten wurden geändert oder gelöscht. |
+| ***Keine*** | Es wurden keine Daten entfernt, geändert, gelöscht oder anderweitig kompromittiert. |
+| ***Datenschutzverletzung*** | Es wurde auf vertrauliche personenbezogene Daten von Steuerzahlern, Mitarbeitern, Begünstigten etc. zugegriffen oder diese wurden entfernt. |
+| ***Verletzung des Schutzes unternehmenseigener Daten*** | Es wurde auf nicht klassifizierte, unternehmenseigene Daten, z. B. geschützte kritische Infrastrukturdaten (Protected Critical Infrastructure Information, PCII), zugegriffen oder diese wurden entfernt. |
+| ***Integritätsverlust*** | Vertrauliche oder unternehmenseigene Daten wurden geändert oder gelöscht. |
 
 Das Sicherheitsreaktionsteam arbeitet mit Sicherheitstechnikern und Sicherheitsexperten (Subject Matter Experts, SMEs) des Datenauftragsverarbeiterdiensts von Microsoft für Windows Enterprise zusammen, um das Ereignis basierend auf Fakten aus den gewonnenen Erkenntnissen zu klassifizieren. Ein Sicherheitsereignis kann wie folgt klassifiziert werden:
 
-- _*Falsch positiv**: Ein Ereignis, das die Erkennungskriterien erfüllt, aber als Bestandteil einer normalen Geschäftspraxis gilt und möglicherweise gefiltert werden muss. Das Serviceteam ermittelt die Ursache für falsch positive Ergebnisse und behebt sie systematisch, indem Erkennungsquellen verwendet und bei Bedarf optimiert werden.
+- **Falsch positives Ergebnis:** Ein Ereignis, das die Erkennungskriterien erfüllt, aber als Bestandteil einer normalen Geschäftspraxis gilt und möglicherweise gefiltert werden muss. Das Serviceteam ermittelt die Ursache für falsch positive Ergebnisse und behebt sie systematisch, indem Erkennungsquellen verwendet und bei Bedarf optimiert werden.
 - **Sicherheitsvorfall:** Ein Vorfall, bei dem ein unrechtmäßiger Zugriff auf Kundendaten oder Supportdaten, die auf Geräten oder in Einrichtungen von Microsoft gespeichert sind, bzw. ein nicht autorisierter Zugriff auf diese Geräte oder Einrichtungen erfolgt ist, der zu Verlust, Offenlegung oder Änderung von Kundendaten oder Supportdaten geführt hat.
 - **Meldepflichtiger Sicherheitsvorfall (Customer-Reportable Security Incident, CRSI)**: Unrechtmäßiger oder nicht autorisierter Zugriff auf Systeme, Geräte oder Anlagen von Microsoft bzw. deren Verwendung, der bzw. die zu Offenlegung, Änderung oder Verlust von Kundendaten geführt hat.
 - **Datenschutzverletzung:** Ein Untertyp von Sicherheitsvorfällen im Zusammenhang mit personenbezogenen Daten. Die Verfahren gleichen denen bei Sicherheitsvorfällen.
@@ -87,7 +87,7 @@ Der Benachrichtigungsprozess nach einem deklarierten CRSI wird so rasch wie mög
 
  Der Microsoft-Datenauftragsverarbeiterdienst für Windows Enterprise bietet Kunden ausführliche Informationen, sodass sie interne Untersuchungen ausführen können und die Erfüllung von Verpflichtungen gegenüber Endbenutzern erleichtert wird, ohne den Benachrichtigungsprozess übermäßig zu verzögern.
 
-Die Benachrichtigung zu einer Verletzung des Schutzes personenbezogener Daten wird dem Kunden auf einem von Microsoft gewählten Weg übermittelt, möglicherweise auch per E-Mail. Die Benachrichtigung über eine Datenschutzverletzung wird der Liste der Sicherheitskontakte bereitgestellt, die im Azure Security Center hinterlegt ist und die mithilfe der [Implementierungsrichtlinien](https://docs.microsoft.com/azure/security-center/security-center-provide-security-contact-details) konfiguriert werden kann. Wenn keine Kontaktinformationen im Azure Security Center bereitgestellt werden, erfolgt die Benachrichtigung an einen oder mehrere Administratoren in einem Azure-Abonnement. Um sicherzustellen, dass die Benachrichtigung erfolgreich zugestellt werden kann, muss der Kunde dafür sorgen, dass die administrativen Kontaktinformationen in dem jeweiligen Abonnement und Onlinedienst-Portal korrekt sind.
+Die Benachrichtigung zu einer Verletzung des Schutzes personenbezogener Daten wird dem Kunden auf einem von Microsoft gewählten Weg übermittelt, möglicherweise auch per E-Mail. Die Benachrichtigung über eine Datenschutzverletzung wird der Liste der Sicherheitskontakte bereitgestellt, die im Azure Security Center hinterlegt ist und die mithilfe der [Implementierungsrichtlinien](/azure/security-center/security-center-provide-security-contact-details) konfiguriert werden kann. Wenn keine Kontaktinformationen im Azure Security Center bereitgestellt werden, erfolgt die Benachrichtigung an einen oder mehrere Administratoren in einem Azure-Abonnement. Um sicherzustellen, dass die Benachrichtigung erfolgreich zugestellt werden kann, muss der Kunde dafür sorgen, dass die administrativen Kontaktinformationen in dem jeweiligen Abonnement und Onlinedienst-Portal korrekt sind.
 
 Das Team des Datenauftragsverarbeiterdiensts für Windows Enterprise kann auch entscheiden, zusätzliches Microsoft-Personal wie den Kundendienst und die Account Manager (AM) oder Technical Account Manager (TAM) des Kunden zu benachrichtigen. Diese Personen stehen häufig in enger Beziehung zum Kunden und können eine schnellere Problembehebung realisieren.
 
