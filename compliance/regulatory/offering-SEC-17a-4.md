@@ -1,6 +1,6 @@
 ---
-title: Securities and Exchange Commission (sec) Rule 17a-4 (f) Vereinigte Staaten
-description: Eine unabhängige Bewertungs Firma hat bestätigt, dass Azure und Office 365 Finanzunternehmen bei der Erfüllung der SEC-Regel 17a-4 (f) Datensatzaufbewahrung und unveränderliche Speicheranforderungen unterstützen können.
+title: Securities and Exchange Commission (SEC) Rule 17a-4(f) United States
+description: Ein unabhängiges Bewertungsunternehmen hat überprüft, ob Azure und Office 365 Finanzunternehmen dabei helfen können, die Anforderungen der SEC-Regel 17a-4(f) zur Aufbewahrung von Datensätzen und unveränderlichen Speicheranforderungen zu erfüllen.
 keywords: Microsoft 365, Compliance, Angebote
 localization_priority: None
 ms.prod: microsoft-365-enterprise
@@ -16,74 +16,74 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 8f47359d23aa9399f36053e1ea6b1df91e181d59
-ms.sourcegitcommit: fc1da22cf40dfd807c182d3f6df967eee192eacd
+ms.openlocfilehash: f877bbec76cc0d760f2f908975b3818b88551829
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49669766"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121204"
 ---
-# <a name="securities-and-exchange-commission-sec-rule-17a-4f-united-states"></a>Securities and Exchange Commission (sec) Rule 17a-4 (f) Vereinigte Staaten
+# <a name="securities-and-exchange-commission-sec-rule-17a-4f-united-states"></a>Securities and Exchange Commission (SEC) Rule 17a-4(f) United States
 
-## <a name="about-sec-rule-17a-4f"></a>Informationen zur sec-Regel 17a-4 (f)
+## <a name="about-sec-rule-17a-4f"></a>Informationen zur SEC-Regel 17a-4(f)
 
-Die [US Securities and Exchange Commission (sec)](https://www.sec.gov/) ist eine unabhängige Agentur der US-Bundesregierung und des primären Aufsichtsrats und Regulators von US Securities Markets. Er übt Durchsetzungsbefugnisse auf Bundes Wertpapierrecht aus, schlägt neue Wertpapier Regelungen vor und überwacht die Marktregulierung der Wertpapier Industrie.
+Die [US Securities and Exchange Commission (SEC)](https://www.sec.gov/) ist eine unabhängige Agentur der US-Regierung und der primären Aufsicht und Regulierungsbehörde der US-Wertpapiermarkt. Sie führt die Durchsetzungsbehörde über bundesgesetzliche Wertpapiergesetze, führt neue Wertpapierregeln durch und beaufsichtigt die Marktbestimmungen der Wertpapierbranche.
 
-In der SEC werden strenge und explizite Anforderungen für regulierte Entitäten definiert, die sich für die Aufbewahrung von Büchern und Datensätzen auf elektronischen Speichermedien entscheiden. Sie hat [17 CFR 240.17 a-3](https://www.govinfo.gov/app/details/CFR-2012-title17-vol3/CFR-2012-title17-vol3-sec240-17a-3) und [17 CFR 240.17 a-4](https://www.ecfr.gov/cgi-bin/text-idx?mc=true&node=pt17.4.240&rgn=div5#se17.4.240_117a_64) zum Regulieren der Archivierung (einschließlich Aufbewahrungszeiträume) für Wertpapierbroker-Händler eingerichtet. Später [änderte](https://www.sec.gov/rules/interp/34-47806.htm) die SEC 17 CFR 240.17 a-4 Paragraph (f) mit zwei Interpretations Freigaben, um zu ermöglichen, dass Bücher und Aufzeichnungen auf elektronischen Speichermedien aufbewahrt werden, solange bestimmte Bedingungen erfüllt wurden.
+Die SEC definiert strenge und explizite Anforderungen für regulierte Entitäten, die bücher und Datensätze auf elektronischen Speichermedien beibehalten. Sie hat [17 CFR 240.17a-3](https://www.govinfo.gov/app/details/CFR-2012-title17-vol3/CFR-2012-title17-vol3-sec240-17a-3) und [17 CFR 240.17a-4](https://www.ecfr.gov/cgi-bin/text-idx?mc=true&node=pt17.4.240&rgn=div5#se17.4.240_117a_64) eingerichtet, um die Aufzeichnung von Wertpapierbrokern, einschließlich Aufbewahrungszeiträumen, zu regeln. Später hat die [SEC](https://www.sec.gov/rules/interp/34-47806.htm) 17 CFR 240.17a-4 Absatz (f) geändert und zwei interpretative Veröffentlichungen ausstellen, um die Aufbewahrung von Büchern und Datensätzen auf elektronischen Speichermedien zu ermöglichen, solange bestimmte Bedingungen erfüllt sind.
 
-Ein elektronisches Speichersystem erfüllt diese Bedingungen, wenn es die Änderung oder Löschung von Datensätzen für den erforderlichen Aufbewahrungszeitraum verhindert. Die Aufbewahrungszeiträume variieren je nach Datensatztypen von drei bis sechs Jahren, wobei die sofortige Barrierefreiheit für die ersten zwei Jahre beauftragt ist. Darüber hinaus muss für eine der Interpretations Versionen festgelegt werden, dass das Speichersystem Datensätze über den von der SEC festgelegten Aufbewahrungszeitraum hinaus aufbewahren kann, um Vorladungen, Rechtliche Aufbewahrungspflicht oder andere solche Anforderungen einzuhalten.
+Ein elektronisches Speichersystem erfüllt diese Bedingungen, wenn es die Änderung oder Löschung von Datensätzen für den erforderlichen Aufbewahrungszeitraum verhindert. Aufbewahrungszeiträume variieren je nach Datensatztyp zwischen drei und sechs Jahren, mit sofortiger Barrierefreiheit für die ersten beiden Jahre. Darüber hinaus erfordert eine der interpretationsfähigen Veröffentlichungen, dass das Speichersystem in der Lage ist, Datensätze über den vom SEC festgelegten Aufbewahrungszeitraum hinaus zu speichern, um Vorladungen, gesetzliche Aufbewahrungspflichten oder andere derartige Anforderungen zu erfüllen.
 
-## <a name="microsoft-and-sec-rule-17a-4f"></a>Microsoft-und sec-Regel 17a-4 (f)
+## <a name="microsoft-and-sec-rule-17a-4f"></a>Microsoft und sec Rule 17a-4(f)
 
-Kunden von Finanzdienstleistungen, die eine der am stärksten regulierten Branchen der Welt darstellen, unterliegen komplexen Bestimmungen wie der Beibehaltung von Finanztransaktionen und der damit verbundenen Kommunikation in einem nicht löschbaren und nicht veränderbaren Zustand. Zu den Bestimmungen gehört Regel 17a-4 (f) der US-Sicherheits-und Exchange-Kommission (sec), die strenge Anforderungen für regulierte Entitäten festlegt, die Bücher und Aufzeichnungen auf elektronischen Speichermedien speichern. Gespeicherte Datensätze müssen manipulationssicher sein, sodass Sie erst nach Ablauf des festgelegten Aufbewahrungszeitraums geändert oder gelöscht werden können.
+Finanzdienstleister, die eine der am stärksten regulierten Branchen der Welt darstellen, unterliegen komplexen Bestimmungen wie der Aufbewahrung von Finanztransaktionen und verwandter Kommunikation in einem nicht änderbaren und nicht änderbaren Zustand. Zu den wichtigsten Bestimmungen gehört Regel 17a-4(f) der US Security and Exchange Commission (SEC), die strenge Anforderungen für regulierte Entitäten vorschreiben, die Bücher und Datensätze auf elektronischen Speichermedien beibehalten. Gespeicherte Datensätze müssen manipulationssicher sein, ohne dass sie nach dem festgelegten Aufbewahrungszeitraum geändert oder gelöscht werden können.
 
-Microsoft Azure unveränderlicher BLOB-Speicher mit Richtlinien Sperre und Microsoft Office 365 mit Aufbewahrungs Sperre können Finanzinstituten dabei helfen, die unveränderlichen Speicheranforderungen der SEC-Regel 17a-4 (f) zu erfüllen.
+Microsoft Azure Immutable Blob Storage mit Richtliniensperre und Microsoft Office 365 mit Erhaltungssperre kann Finanzinstituten dabei helfen, die unveränderlichen Speicheranforderungen der SEC-Regel 17a-4(f) zu erfüllen.
 
-Zur Bewertung von Azure und Office 365 Compliance mit der SEC-Regel 17a-4 (f) behielt Microsoft eine unabhängige Bewertungs Firma, die sich auf die Verwaltung von Datensätzen und die Information Governance spezialisiert hat. Im Ergebnisbericht für:
+Zur Bewertung der Compliance von Azure und Office 365 mit der SEC-Regel 17a-4(f) hat Microsoft ein unabhängiges Bewertungsunternehmen, cohasset Associates, beibehalten, das sich auf Datensatzverwaltung und Informationsverwaltung spezialisiert hat. Im resultierenden Bericht für:
 
-- **Azure**: [SEC 17a-4 (f) Compliance Assessment: Microsoft Azure Speicher](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=19b08fd4-d276-43e8-9461-715981d0ea20&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_GRC_Assessment_Reports), validierte der Benutzer, dass [Azure unveränderlicher BLOB-Speicher](https://docs.microsoft.com/azure/storage/blobs/storage-blob-immutable-storage) mit der Richtlinien Sperroption, wenn zeitbasierte BLOBs in einem nicht löschbaren und nicht wiederbeschreibbaren (Worm)-Format aufbewahrt werden, die unveränderlichen Speicheranforderungen der SEC-Regel erfüllt. Jedes BLOB (Record) wird vor der Änderung, Überschreibung oder Löschung geschützt, bis der erforderliche Aufbewahrungszeitraum abgelaufen ist und alle zugehörigen rechtlichen Aufbewahrungspflichten freigegeben wurden. Software Anbieter und Partner mit vertraulichen Arbeitslasten können jetzt auf Azure unveränderlichen BLOB-Speicher als Onestop-Cloud-Lösung für die Aufbewahrung von Datensätzen und den unveränderlichen Speicher zurückgreifen. Finanzinstitute können jetzt Ihre eigenen Anwendungen erstellen, indem Sie diese Funktionen nutzen und gleichzeitig kompatibel bleiben.
-- **Microsoft 365**: für [SEC 17a-4 (f)-](https://docs.microsoft.com/microsoft-365/compliance/retention-regulatory-requirements#sec-17a-4f-finra-4511c-and-cftc-131c-d) Anforderungen hat der Benutzer bestätigt, dass Microsoft 365 Archivierungsfunktionen enthält, mit denen regulierte Kunden, einschließlich Broker-Dealern, Daten so speichern können, dass Sie die Anforderungen an die Datensatzaufbewahrung erfüllen. Mithilfe von Aufbewahrungsfunktionen in Microsoft 365 können Sie eine Vielzahl von Daten, einschließlich e-Mail, Voicemail, freigegebene Dokumente, Sofortnachrichten und Daten von Drittanbietern, beibehalten. Die Archivierung in Microsoft 365 ermöglicht es Kunden insbesondere, globale oder granulare Messaging-Aufbewahrungsrichtlinien festzulegen, um Daten für einen bestimmten Zeitraum und darüber hinaus in einem nicht wiederbeschreibbaren, nicht löschbaren Format zu speichern.
+- **Azure**: [SEC 17a-4(f) Compliance-Bewertung: Microsoft Azure Storage](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=19b08fd4-d276-43e8-9461-715981d0ea20&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_GRC_Assessment_Reports), Cohasset hat überprüft, ob Azure [Immutable Blob Storage](/azure/storage/blobs/storage-blob-immutable-storage) mit der Richtliniensperrenoption, wenn es verwendet wird, um zeitbasierte Blobs in einem nicht beschreibbaren und nicht beschreibbaren (WORM)-Format zu speichern, den unveränderlichen Speicheranforderungen der SEC-Regel entspricht. Jedes Blob (Datensatz) ist vor Änderung, Überschreiben oder Löschen geschützt, bis der erforderliche Aufbewahrungszeitraum abgelaufen ist und alle zugehörigen gesetzlichen Aufbewahrungsaufbewahrungen freigegeben wurden. Softwareanbieter und Partner mit vertraulichen Workloads können sich jetzt auf Azure Immutable Blob Storage als Eine-Top-Shop-Cloudlösung für die Datensatzaufbewahrung und den unveränderlichen Speicher verlassen. Finanzinstitute können jetzt ihre eigenen Anwendungen erstellen, die diese Features nutzen und gleichzeitig konform bleiben.
+- **Microsoft 365**: Für sec [17a-4(f)-Anforderungen](/microsoft-365/compliance/retention-regulatory-requirements#sec-17a-4f-finra-4511c-and-cftc-131c-d) hat Cohasset überprüft, dass Microsoft 365 Archivierungsfeatures umfasst, mit denen regulierte Kunden, einschließlich Brokerhändlern, Daten so speichern können, dass sie die Anforderungen der SEC für die Datensatzaufbewahrung erfüllen können. Aufbewahrungsfeatures in Microsoft 365 helfen, eine vielzahl von Daten zu erhalten, einschließlich E-Mail, Voicemail, freigegebene Dokumente, Chatnachrichten und Drittanbieterdaten. Insbesondere mit der Archivierung in Microsoft 365 können Kunden globale oder differenzierte Aufbewahrungsrichtlinien für Messaging festlegen, um Daten für einen definierten Zeitraum und darüber hinaus in einem nicht umschreibbaren, nicht auslöschbaren Format zu speichern.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft-Clouddienste im Leistungsumfang
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft Cloud Services im Leistungsumfang
 
 - [Azure](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
 - [Office 365](https://aka.ms/Office365ComplianceOfferings)
 
 ## <a name="audits-reports-and-certificates"></a>Prüfungen, Berichte und Zertifikate
 
-### <a name="azure--sec-rule-17"></a>Azure & sec-Regel 17
+### <a name="azure--sec-rule-17"></a>Azure & SEC Rule 17
 
-[SEC 17a-4 (f) & CFTC 1,31 (c-d) Compliance Assessment of Azure Storage](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=19b08fd4-d276-43e8-9461-715981d0ea20&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_GRC_Assessment_Reports)
+[SEC 17a-4(f) & CFTC 1.31 (c-d) & von Azure Storage](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=19b08fd4-d276-43e8-9461-715981d0ea20&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_GRC_Assessment_Reports)
 
-### <a name="office-365--sec-rule-17"></a>Office 365 & sec-Regel 17
+### <a name="office-365--sec-rule-17"></a>Office 365 & SEC Rule 17
 
-[SEC 17a-4 (f) Compliance Assessment: Microsoft Security & Compliance Center mit SharePoint, OneDrive, Teams, Exchange und Skype for Business](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=9fa8349d-a0c9-47d9-93ad-472aa0fa44ec&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
+[SEC 17a-4(f) Compliance-Bewertung: Microsoft Security & Compliance Center mit SharePoint, OneDrive, Teams, Exchange und Skype for Business](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=9fa8349d-a0c9-47d9-93ad-472aa0fa44ec&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
 
 ## <a name="how-to-implement"></a>Implementierung
 
-### <a name="financial-services-regulation"></a>Finanz dienstleistungsverordnung
+### <a name="financial-services-regulation"></a>Regulierung für Finanzdienstleistungen
 
-Compliance-Map der wichtigsten US-regulatorischen Grundsätze für Cloud Computing und Microsoft Online Services. [Weitere Informationen](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5b483567-00b0-4d86-96ae-ee887dadb61c&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
+Compliancezuordnung wichtiger us-rechtlicher Prinzipien für Cloud Computing und Microsoft-Onlinedienste. [Weitere Informationen](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5b483567-00b0-4d86-96ae-ee887dadb61c&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
 
-### <a name="risk-assessment--compliance-guide"></a>Risikobewertung & Compliance-Leitfaden
+### <a name="risk-assessment--compliance-guide"></a>Leitfaden zur Risikobewertung & Compliance
 
-Erstellen eines steuerungsmodells für die Risikobewertung von Microsoft-Cloud-Diensten und Regulierer-Benachrichtigungen. [Weitere Informationen](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
+Erstellen sie ein Steuerungsmodell für die Risikobewertung von Microsoft Cloud Services und eine Benachrichtigung der Regulierungsbehörde. [Weitere Informationen](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
 
-### <a name="financial-use-cases"></a>Finanz Anwendungsfälle
+### <a name="financial-use-cases"></a>Finanzielle Verwendungsfälle
 
-Verwenden Sie Groß-/Kleinschreibung, Lernprogramme und andere Ressourcen, um Azure-Lösungen für Finanzdienstleistungen zu erstellen. [Weitere Informationen](https://docs.microsoft.com/azure/industry/financial/)
+Verwenden Sie Fallübersichten, Lernprogramme und andere Ressourcen zum Erstellen von Azure-Lösungen für Finanzdienstleistungen. [Weitere Informationen](/azure/industry/financial/)
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
 
-[Microsoft Compliance Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center, die Ihnen](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen in Compliance Manager erstellen](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
+[Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center, die Ihnen](/microsoft-365/compliance/microsoft-365-compliance-center) hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen in Compliance Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="resources"></a>Ressourcen
 
 - [Archivierung in Microsoft Office 365, Datenaufbewahrung und Regel 17a-4](https://www.microsoft.com/microsoft-365/blog/2015/11/10/office-365-exchange-online-archiving-now-meets-sec-rule-17a-4-requirements/)
 - [Compliance Microsoft Financial Services](https://download.microsoft.com/download/6/4/7/64707E3E-6D3E-45D0-8207-A0EA3201B4A6/Microsoft%20Cloud%20-%20Financial%20Services%20Compliance%20Program%20\(Print\).pdf)
-- [Compliance-Programm Microsoft Business Cloud Services and Financial Services](https://servicetrust.microsoft.com/viewpage/financialservicesoverview)
+- [Complianceprogramm Microsoft Business Cloud Services und Finanzdienstleistungen](https://servicetrust.microsoft.com/viewpage/financialservicesoverview)
 - [Finanzdienstleister-Compliance in Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
 - [Azure Financial Services Cloud Risikobewertungstool](https://servicetrust.microsoft.com/ViewPage/FFIECBlueprint?command=Download&downloadType=Document&downloadId=079a1973-711a-428f-9312-9ddd290cff7b&docTab=c726d5c0-2d1e-11e8-a485-57140ec19669_PaaS)
-- [Microsoft Office 365-Aufbewahrungsrichtlinien](https://docs.microsoft.com/office365/securitycompliance/retention-policies)
-- [Microsoft Financial Services-Community](https://techcommunity.microsoft.com/t5/financial-services/ct-p/FinancialServices)
+- [Microsoft Office 365-Aufbewahrungsrichtlinien](/office365/securitycompliance/retention-policies)
+- [Microsoft Financial Services Community](https://techcommunity.microsoft.com/t5/financial-services/ct-p/FinancialServices)
 - [Compliance im Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)

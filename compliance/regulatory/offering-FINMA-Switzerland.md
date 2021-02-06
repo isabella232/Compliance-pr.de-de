@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3dfd4993428de2884c1d7ea4d149da28f833508d
-ms.sourcegitcommit: 8af471ad10420ee5fce98d2eb0d69a6d2b992f08
+ms.openlocfilehash: 9aca1e5019967db6f73de245cd75ceba88e62e64
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49936949"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120874"
 ---
 # <a name="financial-market-supervisory-authority-finma-switzerland"></a>Finanzmarktaufsichtsbehörde (FINMA) Schweiz
 
@@ -52,7 +52,7 @@ Die Microsoft-Checkliste unterstützt Schweizerische Finanzunternehmen bei der D
 
 - [Compliance-Checkliste: Schweiz](https://aka.ms/FinServ-Guide-Switzerland): Finanzunternehmen können sich bei der Durchführung von Risikobewertungen von Microsoft Business-Clouddiensten unterstützen lassen.
 - [Leitfaden für Risikobewertung und Compliance](https://aka.ms/RiskGovernanceGuide): Erstellen Sie ein Governance-Modell für die Risikobewertung von Microsoft-Clouddiensten und die Benachrichtigung der Aufsichtsbehörden.
-- [Anwendungsfälle in der Finanzbranche](https://docs.microsoft.com/azure/industry/financial/): Verwenden Sie Fallübersichten, Lernprogramme und andere Ressourcen, um Azure-Lösungen für Finanzdienstleistungen zu entwickeln.
+- [Anwendungsfälle in der Finanzbranche](/azure/industry/financial/): Verwenden Sie Fallübersichten, Lernprogramme und andere Ressourcen, um Azure-Lösungen für Finanzdienstleistungen zu entwickeln.
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 

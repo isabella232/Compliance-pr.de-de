@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6a9bf00ea9fe791f72f73df1d1ccb16d6bd256ed
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 7cb696db772f0bffda701c7ecadbb768c2575343
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49509445"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120154"
 ---
 # <a name="financial-supervision-authority-knf-poland"></a>Polnische Finanzaufsichtsbehörde (KNF)
 
@@ -60,7 +60,7 @@ Die Microsoft-Checkliste unterstützt polnische Finanzunternehmen bei der Durchf
 
 - [Compliance-Checkliste: Polen](https://aka.ms/FinServ-Guide-Poland): Finanzunternehmen können sich bei der Durchführung von Risikobewertungen von Microsoft Business Cloud Services unterstützen lassen.
 - [Leitfaden für Risikobewertung und Compliance](https://aka.ms/RiskGovernanceGuide): Erstellen Sie ein Governance-Modell für die Risikobewertung von Microsoft Cloud Services und die Benachrichtigung der Aufsichtsbehörden.
-- [Finanzielle Anwendungsfälle](https://docs.microsoft.com/azure/industry/financial/): Verwenden Sie Fallübersichten, Lernprogramme und andere Ressourcen, um Azure-Lösungen für Finanzdienstleistungen zu entwickeln.
+- [Finanzielle Anwendungsfälle](/azure/industry/financial/): Verwenden Sie Fallübersichten, Lernprogramme und andere Ressourcen, um Azure-Lösungen für Finanzdienstleistungen zu entwickeln.
 - [Datenschutz in Microsoft-Cloud](https://aka.ms/MCSPrivacy): Informieren Sie sich über die Datenschutzgrundsätze und -standards von Microsoft sowie über die Datenschutzgesetze in Polen.
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen

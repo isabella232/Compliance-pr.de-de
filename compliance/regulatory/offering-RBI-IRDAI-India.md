@@ -1,6 +1,6 @@
 ---
-title: Reserve Bank of India (RBI) und Insurance Regulatory and Development Authority of India (irdai)
-description: Microsoft hat Leitlinien veröffentlicht, um Finanzinstituten in Indien bei der Cloud-Einführung zu helfen.
+title: Reserve Bank of India (RBI) und Insurance Regulatory and Development Authority of India (IRDAI)
+description: Microsoft hat Anleitungen veröffentlicht, um Finanzinstituten in Indien bei der Einführung der Cloud zu helfen.
 keywords: Microsoft 365, Compliance, Angebote
 localization_priority: None
 ms.prod: microsoft-365-enterprise
@@ -16,37 +16,37 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 919961df3c19a414fe43af0a6d3ffc719b2efd09
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 6d94152e51345631b2fe1650f9324183d3fd300e
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506921"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50119984"
 ---
-# <a name="reserve-bank-of-india-rbi-and-insurance-regulatory-and-development-authority-of-india-irdai"></a>Reserve Bank of India (RBI) und Insurance Regulatory and Development Authority of India (irdai)
+# <a name="reserve-bank-of-india-rbi-and-insurance-regulatory-and-development-authority-of-india-irdai"></a>Reserve Bank of India (RBI) und Insurance Regulatory and Development Authority of India (IRDAI)
 
-## <a name="about-rbi-and-irdai"></a>Informationen zu RBI und irdai
+## <a name="about-rbi-and-irdai"></a>Informationen zu RBI und IRDAI
 
-Die [Reserve Bank of India](https://www.rbi.org.in/) (RBI), Indiens zentrale Bank Institution, die [Versicherungsaufsichtsbehörde für die Regulierung und Entwicklung Indiens](https://www.irdai.gov.in/Defaulthome.aspx?page=H1) (irdai) und das [Ministerium für Elektronik und Informationstechnologie](https://meity.gov.in/content/information-technology-act) (MeitY) umfassen drei der wichtigsten Aufsichtsbehörden für die Finanzbranche, die Banken, Versicherungsorganisationen und Marktinfrastruktur Einrichtungen beaufsichtigen. Ihre Richtlinien umfassen Outsourcing-und Risikomanagement-Richtlinien und Anforderungen für die Einhaltung von Datenschutzregeln für vertrauliche Daten.
+Die [Reserve Bank of India](https://www.rbi.org.in/) (RBI), die zentrale Bankaufsichtsbehörde Indiens, die Insurance Regulatory and Development Authority of [India](https://www.irdai.gov.in/Defaulthome.aspx?page=H1) (IRDAI) und das Ministeriums für Elektronik und [Informationstechnologie](https://meity.gov.in/content/information-technology-act) (MeitY) umfassen drei der wichtigsten Regulierungsbehörden der Finanzbranche, die Banken, Versicherungsorganisationen und Marktinfrastruktureinrichtungen beaufsichtigen. Zu ihren Direktiven gehören Richtlinien für Outsourcing und Risikomanagement sowie Anforderungen für die Einhaltung von Datenschutzregeln für vertrauliche Daten.
 
-Leitfaden für Outsourcing und Risikomanagement umfasst Folgendes:
+Die Anleitungen zu Outsourcing und Risikomanagement umfassen:
 
-- [Guidelines on Managing Risk and Code of Conduct in Outsourcing of Financial Services by Banks](https://rbidocs.rbi.org.in/rdocs/notification/PDFs/73713.pdf) (RBI) befassen sich mit den Risiken, denen regulierte Banken beim Outsourcing von Finanzdienstleistungen ausgesetzt wären, und helfen sicherzustellen, dass das Outsourcing die Aufsichtsrolle der RBI nicht behindert. Die RBI erfordert keine vorherige Genehmigung für Banken, die Finanzdienstleistungen auslagern möchten; wichtige Bankfunktionen wie interne Audit-und Compliance-Funktionen sollten jedoch nicht ausgelagert werden.
-- [Richtlinien zu Informationssicherheit, elektronischem Bankwesen, Technologierisiko Management und Cyber-Betrug](https://rbidocs.rbi.org.in/rdocs/content/PDFs/GBS300411F.pdf) (RBI). Finanzinstitute müssen Outsourcing-Vereinbarungen melden, in denen Umfang und Art der Aktivitäten signifikant sind oder eine umfassende Datenfreigabe mit Dienstleistern außerhalb Indiens erfordern. Diese Anleitung gilt insbesondere, wenn Betriebsdaten außerhalb von Indien gespeichert oder verarbeitet werden.
-- [Outsourcing von Aktivitäten durch die indische Versicherungsaufsicht](https://www.irdai.gov.in/ADMINCMS/cms/frmGeneral_Layout.aspx?page=PageNo3149&flag=1) (irdai). Jedes Jahr müssen Versicherungsorganisationen das Outsourcing an irdai von bestimmten Unterstützungsfunktionen der Kernaktivitäten innerhalb von 45 Tagen nach Abschluss des Geschäftsjahres melden. (Auf der Seite 7 in der Microsoft- [Prüfliste](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) wird beschrieben, was "Unterstützungsfunktionen von Kernaktivitäten" darstellt.
+- Richtlinien für die Verwaltung von Risiken und Verhaltensregeln [beim Outsourcing](https://rbidocs.rbi.org.in/rdocs/notification/PDFs/73713.pdf) von Finanzdienstleistungen durch Banken (RBI) adressieren die Risiken, die regulierten Banken beim Outsourcing von Finanzdienstleistungen ausgesetzt wären, und tragen dazu bei, dass das Outsourcing die Aufsichtsrolle der RBI nicht beeinträchtigt. Die RBI erfordert keine vorherige Genehmigung für Banken, die Finanzdienstleistungen auslagern wollen; Kernfunktionen des Bankgeschäfts, z. B. interne Überwachung und Compliancefunktionen, sollten jedoch nicht ausgelagert werden.
+- [Richtlinien für Informationssicherheit, elektronisches Bankwesen, Technologierisikomanagement](https://rbidocs.rbi.org.in/rdocs/content/PDFs/GBS300411F.pdf) und Cyberbedrohungen (RBI). Finanzinstitute müssen Outsourcingvereinbarungen melden, bei denen Umfang und Art der Aktivitäten erheblich sind oder eine umfassende Datenfreigabe mit Dienstanbietern außerhalb Indiens erfordern. Dieser Leitfaden gilt insbesondere, wenn Betriebsdaten außerhalb Indiens gespeichert oder verarbeitet werden.
+- [Outsourcing von Aktivitäten nach der iRDAI (Indisch-Regulierung).](https://www.irdai.gov.in/ADMINCMS/cms/frmGeneral_Layout.aspx?page=PageNo3149&flag=1) Jedes Jahr müssen Versicherungsorganisationen innerhalb von 45 Tagen nach Ende des Geschäftsjahrs das Outsourcing bestimmter Supportfunktionen der Kernaktivitäten an IRDAI melden. (Auf Seite 7 in der [Microsoft-Prüfliste](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) wird beschrieben, was "Unterstützungsfunktionen von Kernaktivitäten" bilden.
 
-Finanzunternehmen, die Cloud-Dienste verwenden, müssen auch die Datenschutzregeln einhalten, einschließlich der [Informationstechnologie (angemessene Sicherheitsmethoden und-Verfahren sowie vertrauliche Informationen zu personenbezogenen Daten oder Informationen), 2011](https://meity.gov.in/sites/upload_files/dit/files/GSR313E_10511\(1\).pdf) (MeitY). Entwickelt zur Stärkung der indischen Datenschutz Gesetze Regeln diese Regeln den Schutz und Umgang mit vertraulichen personenbezogenen Daten.
+Finanzunternehmen, die Clouddienste nutzen, müssen auch Datenschutzregeln einhalten, einschließlich der Informationstechnologieregeln (angemessene Sicherheitspraktiken und -verfahren und vertrauliche personenbezogene Daten oder [Informationen), 2011](https://meity.gov.in/sites/upload_files/dit/files/GSR313E_10511\(1\).pdf) (MeitY). Diese Regeln wurden entwickelt, um die Datenschutzgesetze Indiens zu stärken. Diese Regeln regeln den Schutz und die Handhabung vertraulicher personenbezogener Daten.
 
-## <a name="microsoft-rbi-and-irdai"></a>Microsoft, RBI und irdai
+## <a name="microsoft-rbi-and-irdai"></a>Microsoft, RBI und IRDAI
 
-Zur Unterstützung von Finanzinstituten in Indien, in denen Geschäftsfunktionen für die Cloud ausgelagert werden, hat Microsoft eine Compliance-Checkliste für Finanzinstitute in Indien veröffentlicht. Durch das überprüfen und Abschließen der [Prüfliste](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)können Finanzorganisationen Microsoft Business Cloud-Dienste mit der Gewissheit einführen, dass Sie die geltenden behördlichen Anforderungen erfüllen.
+Um Finanzinstitute in Indien bei der Auslagerung von Geschäftsfunktionen in die Cloud zu unterstützen, hat Microsoft eine Compliancecheckliste für Finanzinstitute in Indien veröffentlicht. Durch Überprüfen und [](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)Abschließen der Prüfliste können Finanzorganisationen Microsoft Business Cloud Services mit der Sicherheit übernehmen, dass sie die geltenden gesetzlichen Vorschriften einhalten.
 
-Wenn indische Finanzinstitute Geschäftsaktivitäten in die Cloud auslagern, müssen Sie den Richtlinien der Reserve Bank of India folgen, um Risiken zu managen und die Probleme zu beheben, die sich aus der Nutzung der Informationstechnologie ergeben. Sie müssen auch die Datenschutz-und Datenschutzanforderungen erfüllen, die vom Ministerium für Elektronik und Informationstechnologie (MeitY) festgelegt wurden. Darüber hinaus müssen die Versicherungsorganisationen Outsourcing-Richtlinien folgen, die von der "Insurance Regulatory and Development Authority of India" (irdai) veröffentlicht wurden.
+Wenn chinesische Finanzinstitute Geschäftsaktivitäten in die Cloud auslagern, müssen sie die Richtlinien der Reserve Bank of India für die Verwaltung von Risiken und die Behandlung der Probleme befolgen, die sich aus der Verwendung der Informationstechnologie ergeben. Sie müssen außerdem die Vom Ministeriums für Elektronik und Informationstechnologie (MeitY) festgelegten Datensicherheits- und Datenschutzanforderungen erfüllen. Darüber hinaus müssen Versicherungsorganisationen die von der Insurance Regulatory and Development Authority of India (IRDAI) veröffentlichten Outsourcingrichtlinien befolgen.
 
-Die Microsoft-Prüfliste hilft Finanzunternehmen in Indien, die Due-Diligence-Bewertungen von Microsoft Business Cloud Services durchführen, und umfasst Folgendes:
+Die Microsoft-Checkliste hilft Finanzunternehmen in Indien, die Due-Diligence-Bewertungen von Microsoft Business Cloud Services durchführen, und umfasst:
 
 - Eine Übersicht über die aufsichtsrechtliche Landschaft für den Kontext.
-- Eine Checkliste, in der die zu behandel enden Probleme und Karten Microsoft Azure, Microsoft Dynamics 365 und Microsoft Office 365-Dienste gegen diese regulatorischen Verpflichtungen dargelegt werden. Die Checkliste dazu verwendet werden, die Compliance anhand eines regulatorischen Rahmens zu messen und eine interne Struktur für die Dokumentation der Compliance bereitzustellen; sie kann Kunden auch bei der Durchführung ihrer eigenen Risikobewertungen von Microsoft Business-Clouddiensten unterstützen.
+- Eine Prüfliste, in der die zu behebende Probleme aufgeführt werden, und die Microsoft Azure-, Microsoft Dynamics 365- und Microsoft Office 365-Dienste diesen behördlichen Verpflichtungen zu ordnet. Die Checkliste dazu verwendet werden, die Compliance anhand eines regulatorischen Rahmens zu messen und eine interne Struktur für die Dokumentation der Compliance bereitzustellen; sie kann Kunden auch bei der Durchführung ihrer eigenen Risikobewertungen von Microsoft Business-Clouddiensten unterstützen.
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft-Clouddienste im Leistungsumfang
 
@@ -56,19 +56,19 @@ Die Microsoft-Prüfliste hilft Finanzunternehmen in Indien, die Due-Diligence-Be
 
 ## <a name="how-to-implement"></a>Implementierung
 
-- [Compliance-Checkliste für Indien](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides): Finanzunternehmen können Unterstützung bei der Durchführung von Risikobewertungen von Microsoft Business Cloud Services erhalten.
-- [Leitfaden für Risikobewertung und Compliance](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers): Erstellen Sie ein Governance-Modell für die Risikobewertung von Microsoft Cloud Services und die Benachrichtigung der Aufsichtsbehörden.
-- [Finanzielle Anwendungsfälle für Azure](https://docs.microsoft.com/azure/industry/financial/): Verwenden von Fallübersichten, Lernprogrammen und anderen Ressourcen zum Erstellen von Azure-Lösungen für Finanzdienstleistungen.
+- [Compliancecheckliste für Indien:](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)Finanzunternehmen erhalten Unterstützung bei der Durchführung von Risikobewertungen von Microsoft Business Cloud Services.
+- [Leitfaden für Risikobewertung und Compliance](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers): Erstellen Sie ein Governance-Modell für die Risikobewertung von Microsoft-Clouddiensten und die Benachrichtigung der Aufsichtsbehörden.
+- [Finanzielle Verwendungsfälle für Azure:](/azure/industry/financial/)Verwenden Sie Fallübersichten, Lernprogramme und andere Ressourcen zum Erstellen von Azure-Lösungen für Finanzdienstleistungen.
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
-**Gibt es verbindliche Bedingungen, die in den Vertrag mit dem Cloud-Dienstanbieter aufgenommen werden müssen?**
+**Gibt es verbindliche Bedingungen, die in den Vertrag mit dem Clouddienstanbieter aufgenommen werden müssen?**
 
-Ja. In den oben genannten Richtlinien sind einige spezifische Punkte aufgeführt, die Finanzinstitute in Ihre Cloud-Dienstleistungsverträge einbeziehen müssen. Teil 2 der [Prüfliste](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) (Seite 70) ordnet diese gegen die Abschnitte in den Microsoft-Vertragsdokumenten an, in denen Sie behandelt werden.
+Ja. Die oben genannten Richtlinien enthalten einige spezifische Punkte, die Finanzinstitute in ihre Clouddienstverträge integrieren müssen. Teil 2 der [Prüfliste](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) (Seite 70) ordnet diese den Abschnitten in den Microsoft-Vertragsdokumenten zu, an die sie adressiert sind.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance-Manager, um Ihr Risiko einzuschätzen
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
 
-Der [Microsoft Compliance-Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) ist ein Feature im [Microsoft 365 Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center), mit dem Sie die Compliance-Position Ihres Unternehmens verstehen und Maßnahmen zur Risikominderung ergreifen können. Der Compliance Manager bietet eine Premium-Vorlage zum Erstellen einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance-Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
+[Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center, die Ihnen](/microsoft-365/compliance/microsoft-365-compliance-center) hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen in Compliance Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="resources"></a>Ressourcen
 

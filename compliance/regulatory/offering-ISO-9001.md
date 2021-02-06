@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3bfbddcf9518e86c747315b4eac472ac42365ede
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 2ecf4d029b1c69e4ce7da1244d71d47433eb3873
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49509495"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120144"
 ---
 # <a name="iso-90012015-quality-management-systems-standards"></a>ISO 9001:2015 Standards für Qualitätsmanagementsysteme
 
@@ -33,7 +33,7 @@ ISO 9001:2015 ist ein internationaler Standard, in dem die Kriterien für ein Q
 
 Ein unabhängiges externes Auditunternehmen führte eine strenge Überprüfung von Microsoft Azure und verschiedenen anderen Microsoft-Onlinediensten auf die Einhaltung der Qualitätsmanagementgrundsätze der ISO 9001:2015 durch. Die Zertifizierung des externen Auditunternehmens ist verfügbar und stellt einen unabhängigen Nachweis dafür dar, dass Azure und die abgedeckten Microsoft-Onlinedienste die Anforderungen der ISO 9001:2015 erfüllen.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft-Clouddienste im Leistungsumfang
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft Cloud Services im Leistungsumfang
 
 - [Azure und Azure Government und Azure Deutschland](https://aka.ms/AzureCompliance)
 - Microsoft Cloud App-Sicherheit
@@ -63,7 +63,7 @@ Dieses Standardverfahren stellt Anweisungen und Tools bereit, mit denen Clouddie
 
 **Wo erhalte ich die ISO 9001:2015-Prüfberichte und Umfangserklärungen für Microsoft-Dienste?**
 
-Das [Vertrauensstellungsportal](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-service-trust-portal) stellt unabhängig geprüfte Complianceberichte zur Verfügung. Sie können über das Portal Berichte anfordern, sodass Ihre Prüfer die Ergebnisse der Clouddienste von Microsoft mit Ihren eigenen gesetzlichen und regulatorischen Anforderungen vergleichen können. Sowohl der [Microsoft Azure ISO 9001-Bewertungsbericht für GJ17](https://www.microsoft.com/?ref=aka) als auch das [Microsoft Azure ISO 9001-Zertifikat für GJ17](https://www.microsoft.com/?ref=aka) sind verfügbar.
+Das [Vertrauensstellungsportal](/microsoft-365/compliance/get-started-with-service-trust-portal) stellt unabhängig geprüfte Complianceberichte zur Verfügung. Sie können über das Portal Berichte anfordern, sodass Ihre Prüfer die Ergebnisse der Clouddienste von Microsoft mit Ihren eigenen gesetzlichen und regulatorischen Anforderungen vergleichen können. Sowohl der [Microsoft Azure ISO 9001-Bewertungsbericht für GJ17](https://www.microsoft.com/?ref=aka) als auch das [Microsoft Azure ISO 9001-Zertifikat für GJ17](https://www.microsoft.com/?ref=aka) sind verfügbar.
 
 **Führt Microsoft jährliche Tests auf Infrastrukturfehler durch?**
 

@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f84f4a57afd968a428cd345dd521a3bd83cea238
-ms.sourcegitcommit: 8af471ad10420ee5fce98d2eb0d69a6d2b992f08
+ms.openlocfilehash: c753092f26df4a0d8ebcb5fc2a7921cee9e79f93
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49937030"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120924"
 ---
 # <a name="european-banking-authority-eba"></a>Europäische Bankenaufsichtsbehörde (EBA)
 
@@ -54,7 +54,7 @@ Für Finanzinstitute in der EU hat Microsoft außerdem einen [Leitfaden zur Risi
 ## <a name="how-to-implement"></a>Implementierung
 
 - [Antwort auf die EBA-Leitlinie](https://aka.ms/FinServ-Guide-EuBankAuth): Microsoft-Leitlinie zur Unterstützung von Finanzinstituten in der EU bei der Umsetzung der EBA-Empfehlungen für die Einführung von Clouds.
-- [Finanzielle Anwendungsfälle](https://docs.microsoft.com/azure/industry/financial/): Verwenden Sie Fallübersichten, Lernprogramme und andere Ressourcen, um Azure-Lösungen für Finanzdienstleistungen zu entwickeln.
+- [Finanzielle Anwendungsfälle](/azure/industry/financial/): Verwenden Sie Fallübersichten, Lernprogramme und andere Ressourcen, um Azure-Lösungen für Finanzdienstleistungen zu entwickeln.
 - [Programm zur finanziellen Compliance](https://aka.ms/FSCP-Print): Finanzinstitute können sich bei der Einschätzung der Risiken bei der Nutzung von Microsoft Cloud Services unterstützen lassen.
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen

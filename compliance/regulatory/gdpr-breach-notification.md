@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 0fc7f7bd383610252fbfe42207cef77b59203531
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: f1171e8d5bcac53ad9ddb699a541c0e25494b238
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507266"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121084"
 ---
 # <a name="gdpr-breach-notification"></a>Benachrichtigung über DSGVO-Verstöße
 
@@ -55,7 +55,7 @@ Die anfängliche Benachrichtigung umfasst eine Beschreibung der Art der Datensch
 Details zur Benachrichtigung über Datenschutzverletzungen für bestimmte Microsoft-Produkte und -Dienste finden Sie nachstehend.
   
 1. **[Office 365](gdpr-breach-Office365.md)**  
-    Microsoft investiert umfassend in Systeme, Prozesse und Mitarbeiter, um die Wahrscheinlichkeit von Verletzungen des Schutzes personenbezogener Daten zu verringern, und Verletzungen, wenn sie auftreten, schnell zu erkennen und ihre Auswirkungen zu mindern. Weitere Details finden Sie unter [Office 365-Investitionen in Datensicherheit](https://docs.microsoft.com/microsoft-365/compliance/gdpr-breach-office365#office-365-investments-in-data-security).
+    Microsoft investiert umfassend in Systeme, Prozesse und Mitarbeiter, um die Wahrscheinlichkeit von Verletzungen des Schutzes personenbezogener Daten zu verringern, und Verletzungen, wenn sie auftreten, schnell zu erkennen und ihre Auswirkungen zu mindern. Weitere Details finden Sie unter [Office 365-Investitionen in Datensicherheit](/microsoft-365/compliance/gdpr-breach-office365#office-365-investments-in-data-security).
 
     Möglicherweise stellt ein Kunde eine Datenschutzverletzung fest und möchte Microsoft informieren. Benachrichtigen Sie in diesem Fall den Microsoft-Support, der dann Kontakt mit den Entwicklungsteams aufnimmt, um weitere Informationen zu erhalten.
 
@@ -64,20 +64,20 @@ Details zur Benachrichtigung über Datenschutzverletzungen für bestimmte Micros
 
     - *Erkennung von Datenschutzverletzungen*: Da sowohl Microsoft als auch der Kunde Sicherheitsverpflichtungen haben, basieren die Azure-Dienste auf einem Modell der gemeinsamen Verantwortung, um sicherheitstechnische und geschäftliche Verantwortlichkeiten zu definieren. Microsoft überwacht und reagiert nicht auf Sicherheitsvorfälle im Zuständigkeitsbereich des Kunden. Im Fall von Datenschutzverletzungen können Kunden mit dem [Kundensupport](https://azure.microsoft.com/support/options/) von Azure zusammenarbeiten, sofern entsprechende Dienstverträge bestehen. Microsoft Azure bietet außerdem verschiedene Dienste (z. B. [Azure Security Center](https://azure.microsoft.com/services/security-center/)), die Kunden dabei unterstützen, Maßnahmen und Prozesse für die Reaktion auf Sicherheitsvorfälle zu entwickeln und zu verwalten.
 
-        Eine Liste der Ereignisse, die eine Untersuchung einer Datenschutzverletzung in Microsoft Azure auslösen, finden Sie unter [Erkennung potenzieller Sicherheitsverletzungen](https://docs.microsoft.com/microsoft-365/compliance/gdpr-breach-azure-dynamics#detection-of-potential-breaches). Die Seite [Azure und Benachrichtigungen bei Sicherheitsverletzungen im Rahmen der DSGVO](gdpr-breach-azure-dynamics.md) enthält weitere Informationen dazu, wie Microsoft Sicherheitsvorfälle in Azure untersucht, verwaltet und darauf reagiert.
+        Eine Liste der Ereignisse, die eine Untersuchung einer Datenschutzverletzung in Microsoft Azure auslösen, finden Sie unter [Erkennung potenzieller Sicherheitsverletzungen](/microsoft-365/compliance/gdpr-breach-azure-dynamics#detection-of-potential-breaches). Die Seite [Azure und Benachrichtigungen bei Sicherheitsverletzungen im Rahmen der DSGVO](gdpr-breach-azure-dynamics.md) enthält weitere Informationen dazu, wie Microsoft Sicherheitsvorfälle in Azure untersucht, verwaltet und darauf reagiert.
 
     - *Reaktion auf Datenschutzverletzungen*: Microsoft bestimmt geeignete Prioritäts- und Schweregrade einer Datenschutzverletzung durch eine Untersuchung der funktionellen Auswirkungen, der Wiederherstellbarkeit und der Beeinträchtigung von Daten durch den Vorfall. Die Prioritäten und Schweregrade können sich im Verlauf der Untersuchung aufgrund neuer Erkenntnisse und Schlussfolgerungen ändern.
-    Das Microsoft-Team für die Reaktion auf Sicherheitsvorfälle arbeitet eng mit weltweit tätigen Rechtsberatern zusammen, um sicherzustellen, dass die Forensik unter Einhaltung der gesetzlichen Verpflichtungen und Zusagen gegenüber dem Kunden ausgeführt wird. Diese Prozesse sind unter [Reaktion auf Datenschutzverletzungen in Azure](https://docs.microsoft.com/microsoft-365/compliance/gdpr-breach-azure-dynamics#azures-data-breach-response)detailliert beschrieben.
+    Das Microsoft-Team für die Reaktion auf Sicherheitsvorfälle arbeitet eng mit weltweit tätigen Rechtsberatern zusammen, um sicherzustellen, dass die Forensik unter Einhaltung der gesetzlichen Verpflichtungen und Zusagen gegenüber dem Kunden ausgeführt wird. Diese Prozesse sind unter [Reaktion auf Datenschutzverletzungen in Azure](/microsoft-365/compliance/gdpr-breach-azure-dynamics#azures-data-breach-response)detailliert beschrieben.
 
     - *Kundenbenachrichtigung*: Microsoft Azure benachrichtigt Kunden und Aufsichtsbehörden bei Bedarf über Datenschutzverstöße. Ab dem Zeitpunkt, an dem wir eine Datenschutzverletzung deklarieren, vergehen nicht mehr als 72 Stunden, bis wir unsere Kunden informieren, mit Ausnahme der folgenden Situationen:
 
         - Microsoft ist der Meinung, dass eine Benachrichtigung das Risiko für andere Kunden erhöht.
         - Im Verlauf des 72-Stunden-Zeitlimits ergeben sich möglicherweise neue Erkenntnisse zum Vorfall. Diese Details werden Ihnen bei im Verlauf der Untersuchung bereitgestellt.
 
-        Weitere Details finden Sie unter [Kundenbenachrichtigung](https://docs.microsoft.com/microsoft-365/compliance/gdpr-breach-azure-dynamics#customer-notification).
+        Weitere Details finden Sie unter [Kundenbenachrichtigung](/microsoft-365/compliance/gdpr-breach-azure-dynamics#customer-notification).
 
 3. **[Microsoft-Support und Professional Services](gdpr-breach-Microsoft-Support-Professional-Services.md)**  
-    Aufgrund der Arbeitsweise von Professional Services fallen einige Datenschutzvorfälle in den Zuständigkeitsbereich des Kunden. Wenn Microsoft Professional Services einen Datenschutzvorfall identifiziert, wird der dokumentierte, standardmäßige Reaktionsplan der Branche befolgt, der unter [Umfang und Grenzen des Prozesses für die Reaktion auf Datenschutzverletzungen](https://docs.microsoft.com/microsoft-365/compliance/gdpr-breach-microsoft-support-professional-services#scope--limits-of-data-protection-incident-response-process) beschrieben ist.
+    Aufgrund der Arbeitsweise von Professional Services fallen einige Datenschutzvorfälle in den Zuständigkeitsbereich des Kunden. Wenn Microsoft Professional Services einen Datenschutzvorfall identifiziert, wird der dokumentierte, standardmäßige Reaktionsplan der Branche befolgt, der unter [Umfang und Grenzen des Prozesses für die Reaktion auf Datenschutzverletzungen](/microsoft-365/compliance/gdpr-breach-microsoft-support-professional-services#scope--limits-of-data-protection-incident-response-process) beschrieben ist.
 
 ## <a name="breach-notification-admin-tools"></a>Administratortools zur Benachrichtigung bei Sicherheitsverletzungen
 

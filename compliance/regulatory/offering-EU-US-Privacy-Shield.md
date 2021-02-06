@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3c167ac9a0b98157c51abaf284c2d6277c8150ef
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: ae241dcff38ac764c2b57f559e95c079d6e59cd7
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506786"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121234"
 ---
 # <a name="eu-us-and-swiss-us-privacy-shield-frameworks"></a>EU-US und Swiss-US Privacy Shield Frameworks
 
@@ -61,7 +61,7 @@ Datenschutz in der Microsoft-Cloud: Informieren Sie sich über die Datenschutzgr
     - [Weitere Informationen](https://www.microsoft.com/download/details.aspx?id=55710)
 
 Datenschutz in Azure: Azure bietet Kunden sowohl standardmäßig als auch optional eine hohe Datensicherheit.  
-    - [Weitere Informationen](https://docs.microsoft.com/azure/security/azure-protection-of-customer-data)
+    - [Weitere Informationen](/azure/security/azure-protection-of-customer-data)
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 

@@ -1,6 +1,6 @@
 ---
-title: Administrative Zugriffssteuerung in Microsoft 365
-description: Dieser Artikel bietet eine Übersicht über die administrativen Zugriffssteuerungen und die Datenkategorisierung in Microsoft 365.
+title: Administrative Zugriffssteuerungen in Microsoft 365
+description: Dieser Artikel bietet eine Übersicht über die Steuerelemente für den administrativen Zugriff und die Daten kategorisierung in Microsoft 365.
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -19,86 +19,86 @@ ms.collection:
 - MS-Compliance
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 6298e027b891edb0729474ea9b6052be2bf6b056
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: d3d6cd30fbe682de979d5c04943c57cedc86552f
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507129"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120714"
 ---
-# <a name="administrative-access-controls-in-microsoft-365"></a>Administrative Zugriffssteuerung in Microsoft 365 
+# <a name="administrative-access-controls-in-microsoft-365"></a>Administrative Zugriffssteuerungen in Microsoft 365 
 
-Microsoft hat stark in Systeme und Steuerelemente investiert, die die meisten Microsoft 365-Vorgänge automatisieren, während der Zugriff auf Kunden Inhalte durch Microsoft absichtlich eingeschränkt wird. Der Dienst wird von den Menschen verwaltet, und die Software betreibt den Dienst. Mit dieser Struktur kann Microsoft Microsoft 365 bei der Skalierung verwalten und die Risiken interner Bedrohungen für Kunden Inhalte verwalten.
+Microsoft hat stark in Systeme und Steuerelemente investiert, die die meisten Microsoft 365-Vorgänge automatisieren und gleichzeitig den Zugriff auf Kundeninhalte durch Microsoft absichtlich einschränken. Menschen steuern den Dienst, und software betreibt den Dienst. Diese Struktur ermöglicht Es Microsoft, Microsoft 365 im großen Maßstab zu verwalten und die Risiken interner Bedrohungen für Kundeninhalte zu verwalten.
 
-Standardmäßig verfügen Microsoft-Techniker über Null ständige Administratorrechte und keinen ständigen Zugriff auf Kunden Inhalte in Microsoft 365. Ein Microsoft-Techniker kann für einen begrenzten Zeitraum begrenzten, überwachten und gesicherten Zugriff auf die Inhalte eines Kunden haben. Der Zugriff ist nur für Dienstvorgänge erforderlich und nur, wenn er von einem Mitglied von Microsoft Senior Management genehmigt wurde. Für Kunden Lockbox-lizenzierte Kunden bietet der Kunde Zugriffsgenehmigung für den Inhalt an, der auf Microsoft 365 gehostet wird.
+Standardmäßig verfügen die Microsoft-Techniker über keine ständigen Administratorrechte und keinen ständigen Zugriff auf Kundeninhalte in Microsoft 365. Ein Microsoft-Techniker kann über einen begrenzten, überwachten und gesicherten Zugriff auf die Inhalte eines Kunden für einen begrenzten Zeitraum verfügen. Der Zugriff ist nur erforderlich, wenn dies für Dienstvorgänge erforderlich ist, und nur, wenn er von einem Mitglied der Geschäftsleitung von Microsoft genehmigt wird. Für Kunden mit Lockboxlizenz erteilt der Kunde Zugriffsgenehmigungen für inhalte, die auf Microsoft 365 gehostet werden.
 
-Microsoft stellt Onlinedienste bereit, die mehrere Formen der Cloud-Zustellung verwenden:
+Microsoft stellt Onlinedienste mit mehreren Formen der Cloudbereitstellung zur Verfügung:
 
-- **Öffentliche Clouds:** Enthält mehr mandantenversionen von Microsoft 365, Azure und anderen Diensten, die in Nordamerika, Südamerika, Europa, Asien, Australien usw. gehostet werden.
-- **Nationale Clouds:** Umfasst alle souveränen und von Drittanbietern betriebenen Clouds außerhalb der Vereinigten Staaten (mit Ausnahme der zuvor erwähnten), wie Microsoft 365 in China (betrieben von 21Vianet) und Microsoft 365 in Deutschland (betrieben von Microsoft, aber unter einem Modell, bei dem ein deutscher Daten Treuhänder, die Deutsche Telekom, den Zugriff von Microsoft auf Kundendaten und-Systeme steuert und überwacht).
-- **Öffentliche Clouds:** Umfasst Microsoft 365-und Azure-Dienste, die für Kunden der US-Regierung verfügbar sind.
+- **Öffentliche Clouds:** Enthält mehr mandantenversionen von Microsoft 365, Azure und andere Dienste, die in Nordamerika, Südamerika, Europa, Asien, Australien usw. gehostet werden.
+- **Nationale Clouds:** Umfasst alle unabhängigen und von Drittanbietern betriebenen Clouds außerhalb der Vereinigten Staaten (mit Ausnahme der oben erwähnten), wie Microsoft 365 in China (betrieben von 21Vianet) und Microsoft 365 in Deutschland (betrieben von Microsoft, aber unter einem Modell, bei dem ein deutscher Datentreuhänder, Deutsche Telekom, den Zugriff von Microsoft auf Kundendaten und Systeme, die Kundendaten enthalten, steuert und überwacht).
+- **Behörden-Clouds:** Umfasst Microsoft 365- und Azure-Dienste, die für Kunden der US-Regierung verfügbar sind.
 
-Für die Zwecke dieses Artikels umfassen Microsoft 365-Dienste Folgendes:
+Zu den Microsoft 365-Diensten im Sinne dieses Artikels gehören:
 
-- [Exchange Online](https://docs.microsoft.com/Exchange/exchange-online)
-- [Exchange Online Protection](https://docs.microsoft.com/Office365/SecurityCompliance/eop/exchange-online-protection-overview)
-- [SharePoint Online](https://docs.microsoft.com/sharepoint/sharepoint-online)
-- [OneDrive for Business](https://docs.microsoft.com/OneDrive/onedrive)
-- [Skype for Business](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online)
-- [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/Teams-overview)
-- [Yammer](https://docs.microsoft.com/yammer/yammer-landing-page)
+- [Exchange Online](/Exchange/exchange-online)
+- [Exchange Online Protection](/Office365/SecurityCompliance/eop/exchange-online-protection-overview)
+- [SharePoint Online](/sharepoint/sharepoint-online)
+- [OneDrive for Business](/OneDrive/onedrive)
+- [Skype for Business](/SkypeForBusiness/skype-for-business-online)
+- [Microsoft Teams](/MicrosoftTeams/Teams-overview)
+- [Yammer](/yammer/yammer-landing-page)
 
-## <a name="microsoft-365-access-controls"></a>Microsoft 365-Zugriffssteuerung
+## <a name="microsoft-365-access-controls"></a>Microsoft 365-Zugriffssteuerungen
 
-Für Zugriffs Steuerungszwecke kategorisiert Microsoft Microsoft 365-Daten als Kundendaten oder andere Datentypen.
+Zur Zugriffssteuerung kategorisiert Microsoft Microsoft 365-Daten als Kundendaten oder andere Arten von Daten.
 
 ### <a name="customer-data"></a>Kundendaten
 
-Kundendaten sind alle Daten, die von oder im Auftrag eines Kunden bei der Verwendung von Microsoft 365-Diensten bereitgestellt werden. Bei diesen Daten handelt es sich um Kunden Inhalte, die von Microsoft 365-Benutzern direkt erstellt oder hochgeladen werden, einschließlich:
+Kundendaten sind alle Daten, die von oder im Auftrag eines Kunden bei Verwendung von Microsoft 365-Diensten bereitgestellt werden. Diese Daten sind Kundeninhalte, die direkt von Microsoft 365-Benutzern erstellt oder hochgeladen wurden, einschließlich:
 
 - E-Mails
-- SharePoint Online Inhalt
+- SharePoint Online-Inhalte
 - Chatnachrichten
 - Kalenderelemente
 - Dokumente
 - Kontakte
-- Endbenutzer-identifizierbare Informationen (EUII) (Daten, die für einen Benutzer eindeutig sind oder die mit einem einzelnen Benutzer verknüpft sind, aber keine Kunden Inhalte enthalten)
+- Endbenutzeridentifizierbare Informationen (EUII) (Daten, die für einen Benutzer eindeutig sind oder mit einem einzelnen Benutzer verlinkbar sind, aber keine Kundeninhalte enthalten)
 
 ### <a name="other-types-of-data"></a>Andere Datentypen
 
 Zu den anderen Datentypen gehören:
 
-- **Kontodaten:** Enthält administrative Daten (Informationen, die von Administratoren bei der Registrierung oder beim Kauf von Diensten bereitgestellt werden) und Zahlungsdaten (Informationen zu Zahlungsinstrumenten wie Kreditkartendetails).
-- **Organisatorisch identifizierbare Informationen:** Enthält Daten, die zum Identifizieren eines Mandanten, zur Verwendung und nicht zum Verknüpfen mit einem einzelnen Benutzer oder zum Einschließen in Kunden Inhalte verwendet werden.
-- **System Metadaten:** Enthält Dienstprotokolle, die Konfigurationseinstellungen, Systemstatus, Microsoft-IP-Adressen und technische Informationen zu Abonnements und Mandanten enthalten.
+- **Kontodaten:** Umfasst Administrative Daten (Informationen, die von Administratoren beim Registrieren oder Erwerben von Diensten bereitgestellt werden) und Zahlungsdaten (Informationen zu Zahlungsgeräten, z. B. Kreditkartendetails).
+- **Organisationsidentifizierbare Informationen:** Enthält Daten, die verwendet werden, um einen Mandanten, Nutzungsdaten zu identifizieren und nicht mit einem einzelnen Benutzer zu verknüpfen oder in Kundeninhalte einbezogen zu werden.
+- **Systemmetadaten:** Umfasst Dienstprotokolle mit Konfigurationseinstellungen, Systemstatus, Microsoft-IP-Adressen und technischen Informationen zu Abonnements und Mandanten.
 
-Microsoft hat Zugriffssteuerungsmechanismen eingerichtet, um sicherzustellen, dass niemand ungenehmigten Zugriff auf Kundendaten oder Zugriffssteuerungsdaten hat. Zugriffssteuerungsdaten verwalten den Zugriff auf andere Daten oder Funktionen in der Umgebung, einschließlich Zugriff auf Kunden Inhalte oder EUII, Microsoft-Kennwörter, Sicherheitszertifikate und andere Authentifizierungs bezogene Daten. Zugriffssteuerungsmechanismen schützen auch den nicht genehmigten physischen, logischen oder Remotezugriff auf die Microsoft 365-Produktionsumgebung.
+Microsoft hat Zugriffskontrollmechanismen eingerichtet, um sicherzustellen, dass niemand nicht genehmigten Zugriff auf Kundendaten oder Zugriffssteuerungsdaten hat. Zugriffssteuerungsdaten verwalten den Zugriff auf andere Arten von Daten oder Funktionen innerhalb der Umgebung, einschließlich zugriff auf Kundeninhalte oder EUII, Microsoft-Kennwörter, Sicherheitszertifikate und andere Authentifizierungsdaten. Zugriffskontrollmechanismen schützen auch vor nicht genehmigten physischen, logischen oder Remotezugriffen auf die Microsoft 365-Produktionsumgebung.
 
-Microsoft verwendet drei Kategorien von Zugriffssteuerungen für den Betrieb von Microsoft 365:
+Es gibt drei Kategorien von Zugriffssteuerungen, die von Microsoft für den Betrieb von Microsoft 365 verwendet werden:
 
 - Isolierungssteuerungen
 - Personalsteuerungen
 - Technologiesteuerungen
 
-Wenn diese Steuerelemente kombiniert werden, können Sie böswillige Aktionen in Microsoft 365 verhindern und erkennen. Zusätzlich zu den von Microsoft verwendeten Isolierungs-, Personal-und Technologie Steuerelementen gibt es eine vierte Kategorie von Steuerelementen: diese von Kunden implementierten Steuerelemente.
+In Kombination helfen diese Steuerelemente dabei, bösartige Aktionen in Microsoft 365 zu verhindern und zu erkennen. Zusätzlich zu den von Microsoft verwendeten Isolierungs-, Personal- und Technologiekontrollen gibt es eine vierte Kategorie von Steuerelementen: diese Steuerelemente, die von Kunden implementiert werden.
 
-Microsoft 365 ermöglicht das Verwalten von Daten auf die gleiche Weise, wie Daten in lokalen Umgebungen verwaltet werden. Die Person, die eine Organisation für Microsoft 365 anmeldet, wird automatisch zu einem globalen Administrator. Der globale Administrator hat Zugriff auf alle Features in Verwaltungs Portalen und kann Folgendes:
+Mit Microsoft 365 können Sie Daten auf die gleiche Weise verwalten, wie Daten in lokalen Umgebungen verwaltet werden. Die Person, die eine Organisation für Microsoft 365 einschreibt, wird automatisch ein globaler Administrator. Der globale Administrator hat Zugriff auf alle Funktionen in Verwaltungsportalen und kann:
 
 - Erstellen oder Bearbeiten von Benutzern
-- Zuweisen von Administratorrollen zu anderen Benutzern
+- Zuweisen von Administratorrollen zu anderen Personen
 - Zurücksetzen von Benutzerkennwörtern
 - Verwalten von Benutzerlizenzen
 - Verwalten von Domänen
 - Genehmigen von Kunden-Lockbox-Anforderungen
 
-Es wird empfohlen, dass jede Organisation mindestens zwei Administratorkonten konfiguriert. Für große Unternehmensorganisationen empfehlen wir spezialisierte Administratorkonten, die unterschiedliche Funktionen bedienen.
+Es wird empfohlen, dass jede Organisation mindestens zwei Administratorkonten konfiguriert. Für große Unternehmensorganisationen empfehlen wir spezielle Administratorkonten, die unterschiedliche Funktionen erfüllen.
 
-Informationen zum Zuweisen von Administratorrollen und-Berechtigungen finden Sie unter [Zuweisen von Administratorrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles) und [Administratorrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
+Informationen zum Zuweisen von Administratorrollen und -berechtigungen finden Sie unter ["Zuweisen von Administratorrollen"](/microsoft-365/admin/add-users/assign-admin-roles) und ["Informationen zu Administratorrollen".](/microsoft-365/admin/add-users/about-admin-roles)
 
 ## <a name="related-links"></a>Links zu verwandten Themen
 
-- [Isolierung in Microsoft 365](assurance-isolation-in-microsoft-365.md)
-- [Microsoft Pre-Employment Screening](assurance-pre-employment-screening.md)
-- [Microsoft-Cloud-Hintergrundüberprüfung](assurance-cloud-background-check.md)
+- [Isolation in Microsoft 365](assurance-isolation-in-microsoft-365.md)
+- [Überprüfung vor der Einstellung durch Microsoft](assurance-pre-employment-screening.md)
+- [Microsoft Cloud-Hintergrundprüfung](assurance-cloud-background-check.md)
 - [Überwachung und Überprüfung von Zugriffssteuerungen](assurance-monitoring-and-auditing-access-controls.md)
 - [Yammer Enterprise-Zugriffssteuerungen](assurance-yammer-enterprise-access-controls.md)

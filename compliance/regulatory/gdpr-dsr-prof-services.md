@@ -17,12 +17,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c1e6c0a3aa8362d2bdba68f9919e6edb9919277
-ms.sourcegitcommit: b06fa9f1b230fd5e470817486ea51f460f28b691
+ms.openlocfilehash: d7acc085c3e84772dfecd2c34ee9f4496c06de4d
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50012980"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121934"
 ---
 # <a name="microsoft-support-and-professional-services-data-subject-requests-for-the-gdpr-and-ccpa"></a>Microsoft-Support und Professional Services für Anträge betroffener Personen für die DSGVO und den CCPA
 
@@ -232,7 +232,7 @@ Microsoft ist der Datenverantwortliche für Kundenkontakte, die mit dem FastTrac
 
 Für FastTrack-Migrationsdienste ist Microsoft der Datenauftragsverarbeiter. In Übereinstimmung mit unserer zusätzlichen Datenschutzerklärung für Fast Track gelten alle Daten, die migriert werden, als "Migrationsdaten". Wenn Sie Anträge betroffener Personen ausführen müssen, während Ihr Unternehmen ein FastTrack-Migrationsprojekt durchführt, ist besondere Vorsicht geboten.
   
-Wenn Sie Zugriff auf die Verarbeitung von Anträgen während der Verarbeitung der Daten eines Benutzers durch das FastTrack-Migrationssystem benötigen, oder Anträge berichtigen oder exportieren möchten, liegt es in der Verantwortung des Kunden, diese Anträge über seine vorhandenen Quellsysteme zu erfüllen, in denen die Benutzerdaten gespeichert sind. Sobald die Migration des Benutzers abgeschlossen ist und die Daten zum gewünschten Microsoft Cloud Service migriert wurden, gelten die von Microsoft bereitgestellten Leitfäden, wie Kunden Microsoft-Produkte, -Dienste und -Verwaltungstools zur Suche nach und zum Umgang mit persönlichen Daten nutzen können, um Anträge von betroffenen Personen zu bearbeiten. Sie finden diese Leitfäden unter [Anträge betroffener Personen für die DSGVO](https://docs.microsoft.com/microsoft-365/compliance/gdpr-data-subject-requests). 
+Wenn Sie Zugriff auf die Verarbeitung von Anträgen während der Verarbeitung der Daten eines Benutzers durch das FastTrack-Migrationssystem benötigen, oder Anträge berichtigen oder exportieren möchten, liegt es in der Verantwortung des Kunden, diese Anträge über seine vorhandenen Quellsysteme zu erfüllen, in denen die Benutzerdaten gespeichert sind. Sobald die Migration des Benutzers abgeschlossen ist und die Daten zum gewünschten Microsoft Cloud Service migriert wurden, gelten die von Microsoft bereitgestellten Leitfäden, wie Kunden Microsoft-Produkte, -Dienste und -Verwaltungstools zur Suche nach und zum Umgang mit persönlichen Daten nutzen können, um Anträge von betroffenen Personen zu bearbeiten. Sie finden diese Leitfäden unter [Anträge betroffener Personen für die DSGVO](/microsoft-365/compliance/gdpr-data-subject-requests). 
 
 Wenn Sie ein Benutzerkonto als Reaktion auf einen Antrag einer betroffenen Person auf Löschung löschen müssen, während Ihr Unternehmen in ein laufendes FastTrack-Migrationsprojekt involviert ist, müssen Sie sich bewusst sein, dass Migrationssysteme möglicherweise eine Kopie der Benutzermigrationsdaten für einen bestimmten Zeitraum nach Abschluss der Benutzermigration beibehalten. Durch die Löschung des Benutzerkontos werden solche in den FastTrack-Migrationssystemen gespeicherten Benutzermigrationsdaten nicht automatisch gelöscht. Wenn Sie möchten, dass das Microsoft FastTrack-Team Benutzermigrationsdaten löscht, können Sie eine [Anfrage senden](https://go.microsoft.com/fwlink/?linkid=874544). Im normalen Geschäftsablauf löscht Microsoft FastTrack alle Kopien der Daten, sobald die Migration des Unternehmens abgeschlossen ist.
 

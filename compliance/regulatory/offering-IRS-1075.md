@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: cd4082f2e38ee2c6a2f432ff5bef289ebe0fc69a
-ms.sourcegitcommit: 7a5b6bc58fc4613b38f3fda20aebee5cec6a5730
+ms.openlocfilehash: c8d1247f915ee1c0c7714c0a5ef99553116cafd1
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49787514"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120264"
 ---
 # <a name="us-internal-revenue-service-publication-1075"></a>US Internal Revenue Service Publication 1075
 
@@ -29,7 +29,7 @@ ms.locfileid: "49787514"
 
 Internal Revenue Service Publication 1075 (IRS 1075) bietet Anleitungen für US-Regierungsbehörden und ihre Agenten, die auf Bundessteuerinformationen (Federal Tax Information, FTI) zugreifen, um sicherzustellen, dass sie Richtlinien, Praktiken und Kontrollen zum Schutz ihrer Vertraulichkeit verwenden. IRS 1075 zielt darauf ab, das Risiko von Verlust, Verletzung oder Missbrauch von FTI zu minimieren, die von externen Regierungsbehörden gehalten werden. Beispielsweise muss ein staatliches Finanzministeriums, das FTI in Steuererklärungen für seine Einwohner verarbeitet, oder Gesundheitsdienstleister, die auf FTI zugreifen, über Programme verfügen, um diese Informationen zu schützen.  
   
-Zum Schutz von FTI schreibt IRS 1075 Sicherheits- und Datenschutzkontrollen für Anwendungs-, Plattform- und Rechenzentrumsdienste vor. Sie priorisiert beispielsweise die Sicherheit von Rechenzentrumsaktivitäten, z. B. die ordnungsgemäße Handhabung von FTI, und die Aufsicht der Auftragnehmer von Rechenzentren, um die Eingabe zu beschränken. Um sicherzustellen, dass Regierungsbehörden, die FTI empfangen, diese Kontrollen anwenden, hat irS das Sicherheitsprogramm eingerichtet, das regelmäßige Überprüfungen dieser Behörden und ihrer Auftragnehmer umfasst.
+Zum Schutz von FTI schreibt IRS 1075 Sicherheits- und Datenschutzkontrollen für Anwendungs-, Plattform- und Rechenzentrumsdienste vor. Sie priorisiert beispielsweise die Sicherheit von Rechenzentrumsaktivitäten, z. B. die ordnungsgemäße Handhabung von FTI, und die Aufsicht der Auftragnehmer von Rechenzentren, um die Eingabe zu beschränken. Um sicherzustellen, dass Behörden, die FTI empfangen, diese Kontrollen anwenden, hat irS das Sicherheitsprogramm eingerichtet, das regelmäßige Überprüfungen dieser Behörden und ihrer Auftragnehmer umfasst.
 
 ## <a name="microsoft-and-us-internal-revenue-service-publication-1075"></a>Microsoft and US Internal Revenue Service Publication 1075
 
@@ -43,9 +43,9 @@ Um Behörden bei ihren Compliance-Anstrengungen zu unterstützen, microsoft:
 - Der IRS muss die Veröffentlichung von IRS-Sicherheitsdokumenten explizit genehmigen, damit nur Behördenkunden unter NDA die SSR überprüfen können.
 - Stellt Überwachungsberichte und Überwachungsinformationen zur Verfügung, die von unabhängigen Bewertern für ihre Clouddienste erstellt werden.
 - Stellt die IrS Azure Government Compliance Considerations und Office 365 U.S. Government Compliance Considerations bereit, in denen erläutert wird, wie eine Agentur Microsoft Cloud for Government Services in einer Weise verwenden kann, die IRS 1075 entspricht. Behördenkunden unter NDA können diese Dokumente anfordern.
-- Bietet Kunden (auf ihre Kosten) die Möglichkeit, bei Bedarf mit Experten oder Prüfern von Microsoft zu kommunizieren.
+- Bietet Kunden (auf ihre Kosten) die Möglichkeit, bei Bedarf mit Experten oder prüfern von Microsoft zu kommunizieren.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft-Clouddienste im Leistungsumfang
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft Cloud Services im Leistungsumfang
 
 FedRAMP-Autorisierungen werden auf drei Auswirkungsebenen basierend auf den NIST-Richtlinien erteilt– niedrig, mittel und hoch. Diese bewertung die Auswirkungen, die der Verlust der Vertraulichkeit, Integrität oder Verfügbarkeit auf eine Organisation haben könnte – niedrig (begrenzte Auswirkung), mittel (schwerwiegende negative Auswirkungen) und hoch (schwerwiegende oder katastrophale Auswirkungen).
 
@@ -68,7 +68,7 @@ Die Einhaltung der ellenellen Anforderungen von IRS 1075 wird jedes Jahr im Rahm
 
 Microsoft überwacht regelmäßig seine Sicherheits-, Datenschutz- und Betriebskontrollen sowie NIST 800-53 Rev. 4-Kontrollen, die von der FedRAMP-Basislinie für Informationssysteme mit moderaten Auswirkungen erforderlich sind. Sie bietet vierteljährlichen Zugriff auf diese Informationen durch kontinuierliche Überwachungsberichte. Azure Government- und Office 365 U.S. Government-Kunden können über das Service Trust Portal auf diese vertraulichen [Complianceinformationen zugreifen.](https://aka.ms/stphelp)
 
-Darüber hinaus hat Sich Microsoft verpflichtet, IRS 1075-Steuerelemente in seinen Hauptsteuerelementsatz für Azure Government und Office 365 U.S. Government zu verwenden und jährlich gegen diese zu überwachen.
+Darüber hinaus hat sich Microsoft verpflichtet, IRS 1075-Steuerelemente in seinen Hauptsteuerelementsatz für Azure Government und Office 365 U.S. Government zu verwenden und jährlich gegen diese zu überwachen.
 
 **Kann ich die FedRAMP-Pakete oder den Systemsicherheitsplan überprüfen?**
 
@@ -76,11 +76,11 @@ Ja, wenn Ihre Organisation die Berechtigungsanforderungen für Azure Government 
 
 **Kann ich die öffentliche Azure- oder Office 365-Cloudumgebung verwenden und weiterhin mit IRS 1075 kompatibel sein?**
 
-Nein. Die einzigen Umgebungen, in denen FTI gespeichert und verarbeitet werden kann, sind Azure Government oder Office 365 U.S. Government. Behördenkunden müssen die Berechtigungsanforderungen für die Verwendung dieser Umgebungen erfüllen.
+Nein. Die einzigen Umgebungen, in denen FTI gespeichert und verarbeitet werden kann, sind Azure Government oder Office 365 U.S. Government. Behördenkunden müssen die Berechtigungsanforderungen erfüllen, um diese Umgebungen verwenden zu können.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
 
-[Microsoft Compliance Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center), die Ihnen hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
+[Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center, die Ihnen](/microsoft-365/compliance/microsoft-365-compliance-center) hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen in Compliance Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="resources"></a>Ressourcen
 

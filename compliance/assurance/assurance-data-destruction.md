@@ -1,6 +1,6 @@
 ---
 title: Datenvernichtung in Microsoft 365
-description: Eine Übersicht über Microsoft-Richtlinien zum Recycling, zur Entsorgung oder zur Vernichtung von Microsoft 365-Datenträgern und-Servern im Rechenzentrum.
+description: Eine Übersicht über die Richtlinien von Microsoft zur Wiederverwendung, Entsorgung oder Vernichtung von Festplattenlaufwerken und -servern in Microsoft 365.
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -18,20 +18,20 @@ ms.collection:
 f1.keywords:
 - NOCSH
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: f2b0bee1bd876eb53d5287919be7b02f5ee5ade6
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: d97c5f1be6bf09a772244aac14086171643af89e
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507069"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120674"
 ---
 # <a name="data-destruction-in-microsoft-365"></a>Datenvernichtung in Microsoft 365
 
 ## <a name="physical-data-destruction"></a>Phyische Datenvernichtung
 
-Microsoft verfügt über Standardrichtlinien für die Umgang mit Daten, die das Recyceln und die Entsorgung von Festplattenlaufwerken sowie die Außerbetriebnahme von Servern behandeln. Vor der Wiederverwendung von Microsoft 365-Festplattenlaufwerken führt Microsoft einen physikalischen Säuberungsprozess durch, der mit dem National Institute of Standards and Technology Special Publication 800-88 ([NIST SP 800-88-Richtlinien für die Medien Desinfektion](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-88r1.pdf)) konsistent ist. Da alle Datenträgerlaufwerke in Microsoft 365 mithilfe der BitLocker-Verschlüsselung auf Volumen Ebene verschlüsselt werden, ist NIST SP 800-88-konforme Löschung technisch nicht erforderlich. Dennoch führt Microsoft diesen Prozess durch.
+Microsoft verfügt über Standardrichtlinien für die Umgang mit Daten, die das Recyceln und die Entsorgung von Festplattenlaufwerken sowie die Außerbetriebnahme von Servern behandeln. Bevor Microsoft 365-Festplattenlaufwerke wiederver verwendet werden, führt Microsoft einen physischen Besendungsprozess durch, der mit der National Institute of Standards and Technology Special Publication 800-88 ([NIST SP 800-88 Guidelines for Media Sanitization)](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-88r1.pdf)konsistent ist. Da alle Festplattenlaufwerke in Microsoft 365 mit der BitLocker-Verschlüsselung auf Volumeebene verschlüsselt werden, ist eine NIST SP 800-88-kompatible Löschung technisch nicht erforderlich. Dennoch führt Microsoft diesen Prozess durch.
 
-Fehlerhafte Datenträger, die in Microsoft 365-Rechenzentren verwendet werden, werden physisch zerstört und über den ISO-Prozess überwacht. Anhand des Ressourcentyps werden die jeweils geeigneten Entsorgungsmethoden ermittelt. Bei Festplatten, die nicht gelöscht werden können, verwendet Microsoft einen Vernichtungsprozess, um die Medien zu zerstören und die Wiederherstellung von Informationen unmöglich zu machen. So werden beispielsweise Datenträger physisch vernichtet, pulverisiert oder verbrannt. Microsoft behält alle Datensätze der Zerstörung bei und führt einen ähnlichen Säuberungsvorgang auf Servern durch, die in Microsoft 365 wieder verwendet werden. Diese Richtlinien umfassen sowohl elektronische als auch physische Bereinigung.
+Datenträger, die in Microsoft 365-Rechenzentren verwendet werden, werden physisch zerstört und durch den ISO-Prozess überwacht. Anhand des Ressourcentyps werden die jeweils geeigneten Entsorgungsmethoden ermittelt. Bei Festplatten, die nicht gelöscht werden können, verwendet Microsoft einen Vernichtungsprozess, um die Medien zu zerstören und die Wiederherstellung von Informationen unmöglich zu machen. So werden beispielsweise Datenträger physisch vernichtet, pulverisiert oder verbrannt. Microsoft bewahrt alle Aufzeichnungen der Zerstörung auf und führt einen ähnlichen Besendungsprozess auf Servern durch, die in Microsoft 365 wiederverwendet werden. Diese Richtlinien umfassen sowohl elektronische als auch physische Bereinigung.
 
 Jedes Rechenzentrum verwendet einen lokalen physischen Vernichtungsprozess, um seine Datenträger zu entsorgen. In jedem Bereich des Rechenzentrums sind sichere Container für Speichermedien vorhanden, die zur Entsorgung bestimmt sind. Jeder sichere Container für Speichermedien ist videoüberwacht. Sobald ein solcher Container eine Füllmenge von ungefähr 50% erreicht hat, kontaktiert das Standortdienst-Team das Team für physische Sicherheit, um die Entfernung zu koordinieren. Mitarbeiter des Standortdienstes und eines Sicherheitsbüros entfernen den sicheren Entsorgungsbehälter und legen ihn in einem festgelegten, geschützten Lagerbereich ab. Die Richtlinien und Verfahren zur Regelung der Handhabung von Datenträgern während der Entsorgung werden routinemäßig getestet, einschließlich Verfahren zur Sicherstellung des Zustands der Maschinen, die zur Vernichtung zugelassen sind.
 
@@ -41,4 +41,4 @@ Microsoft verwendet Datenlöschungs-Einheiten aus [Extreme Protocol Solutions](h
 
 ## <a name="virtual-data-destruction"></a>Virtuelle Zerstörung von Daten
 
-Microsoft verfügt über Richtlinien und Verfahren zur Regelung der Handhabung von Daten, die sich mit der effektiven virtuellen Zerstörung von Daten beschäftigen, um die Möglichkeit auszuschließen, dass Daten anangebrachterweise zwischen Dienstmandanten ausgetauscht werden oder nach der harten Löschung aus dem Dienst abrufbar bleiben. Auf Daten, die in einem Mandanten aus dem Dienst gelöscht wurden, kann nicht von einem anderen Dienstmandanten aus zugegriffen werden, auch wenn der zugrunde liegende physische Speicher neu zugeordnet wurde. Dies ist ein Ergebnis der gemeinsamen Effekte mehrerer Virtualisierungs- und Fragmentierungstechnologien, mit denen virtuelle Umgebungen skaliert werden, den aktiven Löschverhalten von Anwendungen innerhalb der einzelnen Dienstmandanten (z.B.: [unwiderrufliches Löschen](https://docs.microsoft.com/office365/securitycompliance/office-365-exchange-online-data-deletion#page-zeroing)) sowie den erforderlichen Medien- und Anwendungsinhalts-Verschlüsselungsprozessen.
+Microsoft verfügt über Richtlinien und Verfahren zur Regelung der Handhabung von Daten, die sich mit der effektiven virtuellen Zerstörung von Daten beschäftigen, um die Möglichkeit auszuschließen, dass Daten anangebrachterweise zwischen Dienstmandanten ausgetauscht werden oder nach der harten Löschung aus dem Dienst abrufbar bleiben. Auf Daten, die in einem Mandanten aus dem Dienst gelöscht wurden, kann nicht von einem anderen Dienstmandanten aus zugegriffen werden, auch wenn der zugrunde liegende physische Speicher neu zugeordnet wurde. Dies ist ein Ergebnis der gemeinsamen Effekte mehrerer Virtualisierungs- und Fragmentierungstechnologien, mit denen virtuelle Umgebungen skaliert werden, den aktiven Löschverhalten von Anwendungen innerhalb der einzelnen Dienstmandanten (z.B.: [unwiderrufliches Löschen](/office365/securitycompliance/office-365-exchange-online-data-deletion#page-zeroing)) sowie den erforderlichen Medien- und Anwendungsinhalts-Verschlüsselungsprozessen.

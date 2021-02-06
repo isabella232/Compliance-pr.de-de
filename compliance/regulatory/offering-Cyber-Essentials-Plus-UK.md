@@ -1,6 +1,6 @@
 ---
-title: Vereinigtes Königreich Cyber Essentials Plus
-description: Cyber Essentials Plus ist ein staatlich definiertes britisches System, das Organisationen dabei unterstützt, gegen häufige Cyber-Sicherheitsbedrohungen zu schützen.
+title: Vereinigtes Königreich Cyber Essentials PLUS
+description: Cyber Essentials PLUS ist ein vom Uk Government definiertes Schema, das Organisationen beim Schutz vor häufigen Cybersicherheitsbedrohungen unterstützt.
 keywords: Microsoft 365, Compliance, Angebote
 localization_priority: None
 ms.prod: microsoft-365-enterprise
@@ -16,42 +16,42 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 30fa8eec5e496a8e94fcb0bf65c6679c6eb96300
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: c3064fe2e88a3002ea6b2b17f15b8137840ec7f8
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506802"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121704"
 ---
-# <a name="united-kingdom-cyber-essentials-plus"></a>Vereinigtes Königreich Cyber Essentials Plus
+# <a name="united-kingdom-cyber-essentials-plus"></a>Vereinigtes Königreich Cyber Essentials PLUS
 
-## <a name="uk-cyber-essentials-plus-overview"></a>UK Cyber Essentials Plus (Übersicht)
+## <a name="uk-cyber-essentials-plus-overview"></a>Übersicht über Cyber Essentials PLUS in Großbritannien
 
-Cyber Essentials ist ein von der Regierung im Vereinigten Königreich entwickeltes System, das Organisationen bei der Bewertung und Minderung von Risiken durch häufige Cyber-Sicherheitsbedrohungen für Ihre IT-Systeme unterstützt. Das Cyber Essentials-Schema ist ein Cyber-Sicherheitsstandard, der Sicherheitskontrollen für eine Organisation identifiziert, die in Ihren IT-Systemen vorhanden ist. Das Cyber Essentials-Schema ist eine Voraussetzung für alle britischen Regierungs Anbieter, die persönliche Daten verarbeiten. Das Cyber Essentials-Abzeichen unterstützt eine Organisation bei der folgenden Möglichkeiten:
+Cyber Essentials ist ein vom Vereinigten Königreich durch die Regierung unterstütztes Schema, das Organisationen dabei helfen soll, Risiken durch häufige Cybersicherheitsbedrohungen für ihre IT-Systeme zu bewerten und zu mindern. Das Cyber Essentials-Schema ist ein Cybersicherheitsstandard, der Sicherheitskontrollen für eine Organisation identifiziert, die in ihren IT-Systemen eingesetzt werden müssen. Das Cyber Essentials-Schema ist eine Anforderung für alle lieferanten im Vereinigten Königreich, die personenbezogene Daten behandeln. Das Cyber Essentials-Signal hilft einer Organisation, die Fähigkeit zu demonstrieren:
 
-- Identifizieren potenzieller Risiken, um Organisationen einen besseren Schutz vor häufigen Cyber-Bedrohungen zu ermöglichen
-- Demonstrieren Sie, dass eine Organisation die richtigen Sicherheitssteuerelemente zum Schutz von Kundendaten übernommen hat.
-- Werden Sie konform mit den Erwartungen der britischen Regierung für Cyber Security Essential Requirements und berechtigt, für britische Regierungsverträge bieten.
+- Identifizieren Sie potenzielle Risiken, um Organisationen dabei zu unterstützen, sich besser vor häufigen Cyberbedrohungen zu schützen.
+- Demonstrieren, dass eine Organisation die richtigen Sicherheitskontrollen zum Schutz von Kundendaten übernommen hat.
+- Erfüllen Sie die Erwartungen der englischen Regierung hinsichtlich der Cyber Security Essential-Anforderungen, und können Sie Angebote für britische Regierungverträge abschließen.
 
-Das Cyber Essentials-Schema wurde für britische Regierungs Anbieter entwickelt, um potenzielle Schwächen in Ihren IT-Systemen und Software zu identifizieren, die Kundendaten ausnutzen könnten. In der Methodik wurden zwei unterschiedliche Zertifizierungsstufen definiert:
+Das Cyber Essentials-Schema wurde für britische Behörden entwickelt, um potenzielle Schwachstellen in ihren IT-Systemen und -Software zu identifizieren, die Kundendaten ausnutzen könnten. Die Methodik hat zwei verschiedene Zertifizierungsstufen definiert:
 
-- Cyber Essentials ist die erste Ebene und umfasst eine Selbsteinschätzung für Organisationen, um die wichtigsten IT-Sicherheitskontrollen Ihrer IT-Infrastruktur zu überprüfen. Die Antworten werden von einer externen Zertifizierungsstelle unabhängig überprüft.
-- Cyber Essentials Plus bietet dieselben Steuerelemente wie Cyber Essentials und umfasst auch zusätzliche Zusicherungen durch das Ausführen von Systemtests implementierter Steuerelemente über einen autorisierten Drittanbieter-Zertifizierungsstelle.
+- Cyber Essentials ist die erste Ebene und umfasst eine Selbsteinschätzung für Organisationen, um die wichtigsten Kontrollen der IT-Sicherheit ihrer IT-Infrastruktur zu überprüfen. Die Antworten werden unabhängig von einer externen Zertifizierungsstelle überprüft.
+- Cyber Essentials PLUS bietet die gleiche Kontrollabdeckung wie Cyber Essentials und bietet auch zusätzliche Sicherheit, indem Systemtests implementierter Kontrollen über eine autorisierte Zertifizierungsstelle von Drittanbietern durchgeführt werden.
 
-## <a name="microsoft-and-uk-cyber-essentials-plus"></a>Microsoft und UK Cyber Essentials Plus
+## <a name="microsoft-and-uk-cyber-essentials-plus"></a>Microsoft und UK Cyber Essentials PLUS
 
-Microsoft Azure hat das Cyber Essentials Plus-Abzeichen erreicht und erfüllt die Anforderungen, die im [Cyber Essentials-Schema](https://go.microsoft.com/fwlink/p/?linkid=2099398)dargelegt sind. Azure-Produktionssysteme werden häufig getestet und geprüft, um den Nachweis eines weltweit führenden Compliance-Portfolios zu liefern.
+Microsoft Azure hat den Cyber Essentials -PLUS-Badge erhalten und erfüllt die anforderungen, die im [Cyber Essentials Scheme beschrieben sind.](https://go.microsoft.com/fwlink/p/?linkid=2099398) Die Produktionssysteme von Azure werden häufig getestet und überwacht, um Nachweise für ein weltweit führendes Complianceportfolio zu liefern.
 
-Das [Azure Cyber Essentials Plus-Zertifikat](https://aka.ms/AzureCyberEPlusCert), das für unsere globale Funktion von Azure gilt, steht zum Download bereit.
+Die [Azure Cyber Essentials PLUS-Zertifizierung,](https://aka.ms/AzureCyberEPlusCert)die für unseren globalen Betrieb von Azure gilt, steht zum Download zur Verfügung.
 
 ## <a name="audits-reports-and-certificates"></a>Prüfungen, Berichte und Zertifikate
 
-- [Azure Cyber Essentials Plus-Konformitätsbericht](https://aka.ms/AzureCyberEPlusReport)
-- [Azure Cyber Essentials Plus-Zertifizierung](https://aka.ms/AzureCyberEPlusCert)
+- [Azure Cyber Essentials PLUS -Compliancebericht](https://aka.ms/AzureCyberEPlusReport)
+- [Azure Cyber Essentials PLUS-Zertifizierung](https://aka.ms/AzureCyberEPlusCert)
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance-Manager, um Ihr Risiko einzuschätzen
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
 
-Der [Microsoft Compliance-Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) ist ein Feature im [Microsoft 365 Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center), mit dem Sie die Compliance-Position Ihres Unternehmens verstehen und Maßnahmen zur Risikominderung ergreifen können. Der Compliance Manager bietet eine Premium-Vorlage zum Erstellen einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance-Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
+[Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center, die Ihnen](/microsoft-365/compliance/microsoft-365-compliance-center) hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen in Compliance Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="resources"></a>Ressourcen
 

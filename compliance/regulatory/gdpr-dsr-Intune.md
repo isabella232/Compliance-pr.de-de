@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: d6b0a96cfa82f9e0d841703d2124c0e9dda7fe1f
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: fabaa7487da2dae72cc2aa8aa050b43713154fbe
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507170"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120934"
 ---
 # <a name="intune-data-subject-requests-for-the-gdpr-and-ccpa"></a>Anträge betroffener Personen für Intune im Rahmen der DSGVO und des CCPA
 
@@ -86,9 +86,9 @@ Der erste Schritt der Reaktion auf einen Antrag einer betroffenen Person ist die
 
 Nachdem Sie die Daten gefunden haben, können Sie eine bestimmte Aktion ausführen, um der Anforderung durch die betroffene Person gerecht zu werden. Details finden Sie in den folgenden Ressourcen:
 
-- [Datenerfassung](https://docs.microsoft.com/intune/privacy-data-collect)
-- [Datenspeicherung und -verarbeitung](https://docs.microsoft.com/intune/privacy-data-store-process)
-- [Anzeige von personenbezogenen Daten](https://docs.microsoft.com/intune/privacy-data-view-correct#view-personal-data)
+- [Datenerfassung](/intune/privacy-data-collect)
+- [Datenspeicherung und -verarbeitung](/intune/privacy-data-store-process)
+- [Anzeige von personenbezogenen Daten](/intune/privacy-data-view-correct#view-personal-data)
 
 ### <a name="step-2-access"></a>Schritt 2: Zugriff
 
@@ -114,15 +114,15 @@ Als Datenverantwortlicher bietet Microsoft nicht die Möglichkeit, die vom Syste
 
 ### <a name="step-4-restrict"></a>Schritt 4: Einschränkung
 
-Die betroffenen Personen verlangen möglicherweise, die Verarbeitung ihrer persönlichen Daten einzuschränken. Wir stellen sowohl das Azure-Portal als auch bereits vorhandene APIs (Anwendungsprogrammierungsschnittstellen) oder Benutzeroberflächen (UIs) bereit. Diese Schnittstellen bieten dem Mandantenadministrator des Unternehmenskunden die Möglichkeit, solche Anträge betroffener Personen durch eine Kombination aus Exportieren und Löschen der Daten zu verwalten. Weitere Einzelheiten finden Sie unter [Verarbeitung personenbezogener Daten](https://docs.microsoft.com/intune/privacy-data-store-process#processing-personal-data).
+Die betroffenen Personen verlangen möglicherweise, die Verarbeitung ihrer persönlichen Daten einzuschränken. Wir stellen sowohl das Azure-Portal als auch bereits vorhandene APIs (Anwendungsprogrammierungsschnittstellen) oder Benutzeroberflächen (UIs) bereit. Diese Schnittstellen bieten dem Mandantenadministrator des Unternehmenskunden die Möglichkeit, solche Anträge betroffener Personen durch eine Kombination aus Exportieren und Löschen der Daten zu verwalten. Weitere Einzelheiten finden Sie unter [Verarbeitung personenbezogener Daten](/intune/privacy-data-store-process#processing-personal-data).
 
 ### <a name="step-5-delete"></a>Schritt 5: Löschung
 
-Das „Recht auf Löschung“ durch das Entfernen personenbezogener Daten aus den Kundendaten einer Organisation ist ein wichtiger Schutz in der DSGVO. Das Entfernen personenbezogener Daten umfasst das Entfernen aller personenbezogenen Daten und vom System generierten Protokolle, mit Ausnahme der Überwachungsprotokollinformationen. Details finden Sie unter [Löschen der personenbezogenen von Endbenutzern](https://docs.microsoft.com/intune/privacy-data-audit-export-delete#delete-end-user-personal-data).
+Das „Recht auf Löschung“ durch das Entfernen personenbezogener Daten aus den Kundendaten einer Organisation ist ein wichtiger Schutz in der DSGVO. Das Entfernen personenbezogener Daten umfasst das Entfernen aller personenbezogenen Daten und vom System generierten Protokolle, mit Ausnahme der Überwachungsprotokollinformationen. Details finden Sie unter [Löschen der personenbezogenen von Endbenutzern](/intune/privacy-data-audit-export-delete#delete-end-user-personal-data).
 
 ## <a name="part-2-system-generated-logs"></a>Teil 2: Vom System generierte Protokolle
 
-Überwachungsprotokolle bieten Mandantenadministratoren einen Datensatz von Aktivitäten, die eine Änderung in Microsoft Intune generieren. Überwachungsprotokolle stehen für zahlreiche Verwaltungsaktivitäten zur Verfügung und dienen in der Regel zum Erstellen, Aktualisieren (Bearbeiten), Löschen und Zuweisen von Aktionen. Remoteaufgaben, die Überwachungsereignisse generieren, können auch überprüft werden. Diese Überwachungsprotokolle enthalten möglicherweise personenbezogene Daten von Benutzern, deren Geräte bei Intune registriert sind. Administratoren können Überwachungsprotokolle nicht löschen. Details finden Sie unter [Überwachen von personenbezogenen Daten](https://docs.microsoft.com/intune/privacy-data-audit-export-delete#audit-personal-data).
+Überwachungsprotokolle bieten Mandantenadministratoren einen Datensatz von Aktivitäten, die eine Änderung in Microsoft Intune generieren. Überwachungsprotokolle stehen für zahlreiche Verwaltungsaktivitäten zur Verfügung und dienen in der Regel zum Erstellen, Aktualisieren (Bearbeiten), Löschen und Zuweisen von Aktionen. Remoteaufgaben, die Überwachungsereignisse generieren, können auch überprüft werden. Diese Überwachungsprotokolle enthalten möglicherweise personenbezogene Daten von Benutzern, deren Geräte bei Intune registriert sind. Administratoren können Überwachungsprotokolle nicht löschen. Details finden Sie unter [Überwachen von personenbezogenen Daten](/intune/privacy-data-audit-export-delete#audit-personal-data).
 
 ## <a name="notify-about-exporting-or-deleting-issues"></a>Benachrichtigung über Probleme beim Exportieren oder Löschen
 

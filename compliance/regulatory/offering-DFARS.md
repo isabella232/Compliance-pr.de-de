@@ -1,6 +1,6 @@
 ---
 title: Defense Federal Acquisition Regulation Supplement (DFARS)
-description: Microsoft Azure Regierung unterstützt die Anforderungen für die Federal Acquisition Regulation (DFARS) für Verteidigung.
+description: Microsoft Azure Government unterstützt die Anforderungen der Defense Federal Acquisition Regulation (DFARS).
 keywords: Microsoft 365, Compliance, Angebote
 localization_priority: None
 ms.prod: microsoft-365-enterprise
@@ -16,75 +16,75 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: dac20dd42fcaf4946c023e75421bf1e1a3451f96
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: a969d446296605fd3ea9b1d7b9225009e99f4471
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49509635"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121284"
 ---
 # <a name="defense-federal-acquisition-regulation-supplement-dfars"></a>Defense Federal Acquisition Regulation Supplement (DFARS)
 
-## <a name="dfars-overview"></a>DFARS-Übersicht
+## <a name="dfars-overview"></a>ÜBERSICHT ÜBER DFARS
 
-Am 21. Oktober 2016 hat das Verteidigungsministerium (Department of Defense, DoD) seine letzte Regel zur Änderung der Defense Federal Acquisition Regulation Supplement (DFARS) und zur Einführung von Schutz-und Cyber-Vorfall Berichterstattungspflichten für Verteidigungsunternehmen erteilt, deren Informationssysteme Prozess, Speicherung oder Übertragung von abgedeckten Verteidigungsinformationen (CDI) vorsehen.  
+Am 21. Oktober 2016 veröffentlichte das Verteidigungsministeriums (Department of Defense, DoD) seine endgültige Regel zur Ergänzung der Defense Federal Acquisition Regulation Supplement (DFARS) und verpflichtete Schutz- und Cyberberichterstattungsverpflichtungen für Abwehrnehmer, deren Informationssysteme abgedeckte Verteidigungsinformationen (CDI) verarbeiten, speichern oder übertragen.  
   
-Die endgültige DFARS-Klausel 252.204-7012 (Schutz von abgedeckten Verteidigungsinformationen und Cyber-Vorfall Berichten) enthält Sicherheitsvorkehrungen, um Anforderungen an die Cyber-Vorfall Berichterstattung sowie zusätzliche Überlegungen für Cloud-Dienstanbieter einzubeziehen. Pro DFARS 252.204-7012 müssen alle DoD-Auftragnehmer und die industrielle Basis für die Verteidigung DFARS Anforderungen für eine angemessene Sicherheit "so bald wie praktisch, aber nicht später als 31. Dezember 2017 entsprechen."
+Die endgültige DFARS-Klausel 252.204-7012 (Safeguarding Covered Defense Information and Cyber Incident Reporting) enthält Sicherheitsvorkehrungen, die Anforderungen an die Berichterstellung für Cybervorfälle und zusätzliche Überlegungen für Clouddienstanbieter umfassen. Pro DFARS 252.204-7012 müssen alle Auftragnehmer von DoD und die Verteidigungsindustrie die DFARS-Anforderungen für angemessene Sicherheit "so bald wie möglich, aber nicht später als 31. Dezember 2017" erfüllen.
 
 ## <a name="microsoft-and-dfars"></a>Microsoft und DFARS
 
-Microsoft Government Cloud Services unterstützen die US-amerikanische Rüstungsindustrie und Verteidigungs Auftragnehmer-Kunden erfüllen die DFARS-Anforderungen, die in den DFARS-Klauseln von 252.204-7012 aufgeführt sind, die für Anbieter von Cloud-Diensten gelten. Wenn Verteidigungsunternehmen die DFARS-Klausel 252.204-7012 in Verträgen einhalten müssen, kann Microsoft die Anforderungen für Anbieter von Cloud-Diensten für Azure Government und Office 365 US Government Defense Services unterstützen. Beide Dienste demonstrieren die Unterstützung für die Funktionen, die Kunden benötigen, um die DFARS 7012-Klauseln über Ihre L5-Akkreditierung zum Sicherheits Anforderungs Handbuch für Verteidigungsministerium einzuhalten.  
+Microsoft Government Cloud Services helfen den Kunden der Amerikanischen Verteidigungsunternehmensbasis und des Verteidigungsunternehmens bei der Erfüllung der DFARS-Anforderungen, die in den DFARS-Klauseln von 252.204-7012 für Clouddienstanbieter aufgezählt sind. Wenn Verteidiger verpflichtet sind, die DFARS-Klausel 252.204-7012 in Verträgen zu erfüllen, kann Microsoft die Anforderungen unterstützen, die für Clouddienstanbieter für Azure Government und Office 365 U.S. Government Defense Services gelten. Beide Dienste zeigen Unterstützung für die Funktionen, die Kunden benötigen, um die DFARS 7012-Klauseln über ihre L5-Akkreditierung im Leitfaden für Sicherheitsanforderungen des Verteidigungsministeriums zu erfüllen.  
   
-Erfahren Sie, wie Sie Ihre DFARS-Bereitstellung mit unserem Azure Security and Compliance Blueprint beschleunigen: [Download the Azure-Blueprint DFARS Customer Responsibilities Matrix](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=7ed1b47c-b180-4323-9aec-21712d54b167&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_DoD_Blueprint)
+Erfahren Sie, wie Sie Ihre Bereitstellung von DFARS mit unserem Azure Security and Compliance Blueprint beschleunigen: Laden Sie die [Azure – Blueprint DFARS Customer Responsibilities Matrix herunter.](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=7ed1b47c-b180-4323-9aec-21712d54b167&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_DoD_Blueprint)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Eingeschlossene Microsoft-Clouddienste
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft Cloud Services im Leistungsumfang
 
-Abgedeckte Dienste für DoD-Impact Level 5
+Abgedeckte Dienste für DoD Impact Level 5
 
 - [Azure und Azure Government](https://aka.ms/AzureCompliance)
-- [Office 365 US Government and Office 365 US Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- [Office 365 U.S. Government und Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 
 ## <a name="audits-reports-and-certificates"></a>Prüfungen, Berichte und Zertifikate
 
-- [Microsoft Cloud Services-Autorisierungen](https://marketplace.fedramp.gov/index.html#/products?status=Compliant&sort=productName)
-- [Azure P-ATO Letter signed 3. März 2017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=94ff5b42-4077-4612-8cf7-3194ded323dc&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_GRC_Assessment_Reports)
+- [Microsoft Cloud Services Authorizations](https://marketplace.fedramp.gov/index.html#/products?status=Compliant&sort=productName)
+- [Azure P-ATO Letter Signed March 3, 2017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=94ff5b42-4077-4612-8cf7-3194ded323dc&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_GRC_Assessment_Reports)
 - [Weitere Prüfberichte anzeigen](https://aka.ms/auditreports)
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
-**Welche DFARS-Anforderungen werden von Microsoft Azure Regierung und Office 365 US-Regierungs Verteidigung unterstützt?**
+**Welche DFARS-Anforderungen werden von Microsoft Azure Government und Office 365 U.S. Government Defense unterstützt?**
 
-Azure Government und Office 365 US Government Defense ermöglichen unseren Defense Industrial Base-und Verteidigungs Auftragnehmer-Kunden die Erfüllung der DFARS-Anforderungen, die in den DFARS-Klauseln von 252.204-7012 aufgeführt sind, die für Cloud-Dienstanbieter gelten.
+Azure Government und Office 365 U.S. Government Defense ermöglichen es unseren Kunden des Verteidigungsunternehmens, die DFARS-Anforderungen zu erfüllen, die in den DFARS-Klauseln von 252.204-7012 für Clouddienstanbieter aufgezählt sind.
 
-**Hat ein unabhängiger Gutachter bestätigt, dass Azure Government und Office 365 US Government Defense DFARS-Anforderungen unterstützt?**
+**Hat ein unabhängiger Gutachter überprüft, ob Azure Government und Office 365 U.S. Government Defense die DfARS-Anforderungen unterstützen?**
 
-Ja, eine Drittanbieter-Bewertungs Organisation hat bestätigt, dass das Angebot von Azure Government und Office 365 US Government Defense Cloud Service den geltenden Anforderungen der DFARS-Klausel 252.204-7012 (Schutz nicht klassifizierter gesteuerter technischer Informationen) entspricht.
+Ja, eine Bewertungsorganisation eines Drittanbieters hat bestätigt, dass das Azure Government- und Office 365 U.S. Government Defense -Clouddienstangebot die geltenden Anforderungen von DFARS Clause 252.204-7012 (Safeguarding Unclassified Controlled Technical Information) erfüllt.
 
-**Was ist die Beziehung zwischen kontrollierten nicht klassifizierten Informationen (CUI) und abgedeckten Verteidigungsinformationen (CDI)?**
+**Was ist die Beziehung zwischen kontrollierten nicht klassifizierten Informationen (Controlled Unclassified Information, CUI) und abgedeckten Verteidigungsinformationen (CDI)?**
 
-Cui ist eine Information, die die Sicherung oder Verbreitung von Kontrollen gemäß Gesetz, Regulierung oder regierungsweiter Richtlinie erfordert. Die [Cui-Registrierung](https://www.archives.gov/cui/registry/category-list.html) identifiziert genehmigte Cui-Kategorien und Unterkategorien.
+CUI sind Informationen, die den Schutz oder die Verbreitung von Kontrollen gemäß Denk-, Verordnungs- oder behördenweiten Richtlinien erfordern. Die [CUI-Registrierung](https://www.archives.gov/cui/registry/category-list.html) identifiziert genehmigte CUI-Kategorien und -Unterkategorien.
 
-CDI ist eine kontrollierte technische Information oder andere Informationen (wie in der Cui-Registrierung beschrieben), die Schutz-oder Verbreitungs Kontrollen erfordern und entweder:
+CDI sind kontrollierte technische Informationen oder andere Informationen (wie in der #A0 beschrieben), die Schutz- oder Verbreitungskontrollen erfordern, und sind:
 
-- Im Vertrag, im Auftrag oder im Zustellungs Auftrag markierte oder anderweitig identifizierte und dem Auftragnehmer vom oder im Auftrag von DoD im Zusammenhang mit der Vertragserfüllung zur Verfügung gestellte oder
-- Gesammelt, entwickelt, empfangen, übermittelt, verwendet oder von oder im Namen des Auftragnehmers zur Unterstützung der Vertragserfüllung gespeichert
+- Gekennzeichnet oder anderweitig im Vertrag, Aufgabenauftrag oder Lieferauftrag identifiziert und dem Auftragnehmer im Rahmen der Vertragserleistung oder im Auftrag von DoD bereitgestellt
+- Erfasst, entwickelt, empfangen, übertragen, verwendet oder im Auftrag des Auftragnehmers zur Unterstützung der Vertragserleistung gespeichert
 
-**Erfüllen alle Microsoft-Dienste die Anforderungen für "angemessene Sicherheit" gemäß der DFARS-Verordnung für "abgedeckte Verteidigungsinformationen"?**
+**Erfüllen alle Microsoft-Dienste die "angemessenen Sicherheitsanforderungen" für "abgedeckte Verteidigungsinformationen" gemäß der DFARS-Verordnung?**
 
-Im Oktober 2016 verkündete das Verteidigungsministerium (Department of Defense, DoD) eine abschließende Regel zur Implementierung der Defense Federal Acquisition Regulation Supplement (DFARS)-Klauseln, die für alle DoD-Auftragnehmer gelten, die über ihre Informationssysteme "abgedeckte Verteidigungsinformationen" verarbeiten, speichern oder übertragen. Die Regel besagt, dass diese Systeme die in NIST SP 800-171 festgelegten Sicherheitsanforderungen erfüllen müssen, um [kontrollierte nicht klassifizierte Informationen in nicht föderalen Informationssystemen und Organisationen zu schützen](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171.pdf), oder um eine Alternative, aber gleichzeitig effektive Sicherheitsmaßnahme, die vom DoD-Vertrags beauftragten genehmigt wird. Wenn ein DoD-Auftragnehmer einen externen Cloud-Dienstanbieter zum verarbeiten, speichern oder übertragen von abgedeckten Verteidigungsinformationen verwendet, muss dieser Anbieter Sicherheitsanforderungen entsprechen, die dem FedRAMP moderaten Basisplan entsprechen.
+Im Oktober 2016 hat das Verteidigungsministeriums (Department of Defense, DoD) eine endgültige Regel zur Implementierung von DfARS (Defense Federal Acquisition Regulation Supplement)-Klauseln veröffentlicht, die für alle DoD-Auftragnehmer gelten, die "abgedeckte Verteidigungsinformationen" über ihre Informationssysteme verarbeiten, speichern oder übertragen. Die Regel besagt, dass solche Systeme die in NIST SP 800-171, [Protecting Controlled Unclassified Information in nonfederal information systems and organizations](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171.pdf)festgelegten Sicherheitsanforderungen oder eine "alternative, aber gleichermaßen effektive Sicherheitsmaßnahme" erfüllen müssen, die vom Beauftragten für den Vertragsauftragsbeauftragen von DoD genehmigt wurde. Und wenn ein Auftragnehmer von DoD einen externen Clouddienstanbieter verwendet, um erfasste Verteidigungsinformationen zu verarbeiten, zu speichern oder zu übertragen, muss dieser Anbieter die Sicherheitsanforderungen erfüllen, die dem FedRAMP Moderate-Basisplan entsprechen.
 
-Die folgenden Microsoft Cloud-Dienste haben eine FedRAMP mäßige Autorisierung erhalten und sind für DFARS angemessen: Azure Government, Dynamics 365 u.s. Government, Office 365 US Government und Office 365 US Government Defense.
+Die folgenden Microsoft Cloud Services haben eine moderate FedRAMP-Autorisierung erhalten und sind für DFARS geeignet: Azure Government, Dynamics 365 U.S. Government, Office 365 U.S. Government und Office 365 U.S. Government Defense.
 
-Darüber hinaus werden Microsoft-Angebote außerhalb der FedRAMP-zertifizierten Grenze, die potenziell von DoD-Auftragnehmern zum verarbeiten, speichern oder übertragen von "abgedeckten Verteidigungsinformationen" verwendet werden können, einer Überprüfung unterzogen, um den Termin für den Compliance-Abschluss am 31. Dezember 2017 zu erfüllen. Microsoft arbeitet daran, zu dokumentieren, wie diese internen und kundenorientierten Dienste mit NIST SP 800-171 oder einem akzeptablen Sicherheits Äquivalent übereinstimmen, um die DFARS relevanten Klauseln zu erfüllen.
+Darüber hinaus werden Microsoft-Angebote außerhalb der FedRAMP-zertifizierten Grenze, die potenziell von Vertragsnehmern von DoD zum Verarbeiten, Speichern oder Übermitteln von "abgedeckten Verteidigungsinformationen" verwendet werden können, einer Überprüfung unterzogen, um einen Compliance-Stichtag vom 31. Dezember 2017 einzuhalten. Microsoft arbeitet daran, zu dokumentieren, wie diese internen und kundenorientierten Dienste NIST SP 800-171 oder einem akzeptablen Sicherheitsentsprechungsäquivalent entsprechen, um die dfARS-relevanten Klauseln zu erfüllen.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance-Manager, um Ihr Risiko einzuschätzen
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
 
-Der [Microsoft Compliance-Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) ist ein Feature im [Microsoft 365 Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center), mit dem Sie die Compliance-Position Ihres Unternehmens verstehen und Maßnahmen zur Risikominderung ergreifen können. Der Compliance Manager bietet eine Premium-Vorlage zum Erstellen einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance-Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
+[Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center, die Ihnen](/microsoft-365/compliance/microsoft-365-compliance-center) hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen in Compliance Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="resources"></a>Ressourcen
 
 - [Defense Federal Acquisition Regulation Supplement (DFARS)](https://www.acq.osd.mil/dpap/dars/dfarspgi/current/index.html)
 - [Microsoft Cloud for Government](https://enterprise.microsoft.com/industries/government/start-your-microsoft-cloud-for-government-trial-today)
 - [Onlinedienstbedingungen](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)
-- [Kontrollierte nicht klassifizierte Informationen (CUI)](https://www.archives.gov/cui/registry/category-list)
+- [Kontrollierte nicht klassifizierte Informationen (CONTROLLED Unclassified Information, CUI)](https://www.archives.gov/cui/registry/category-list)
 - [Compliance im Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)

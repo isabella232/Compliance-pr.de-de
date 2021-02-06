@@ -16,18 +16,18 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4766d0152e2ee5b372157dd56f28690161f04045
-ms.sourcegitcommit: 5ebe2ba746bba2d5058dcc0469a67e81fa3a8dce
+ms.openlocfilehash: 6f1af4cbedc681a36c50eb3f75cbeb13ed671057
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49559851"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120294"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>Health Insurance Portability and Accountability (HIPAA) & HITECH Acts
 
 ## <a name="hipaa-and-the-hitech-act-overview"></a>HIPAA und der HITECH Act (Übersicht)
 
-Der Health Insurance Portability and Accountability Act (HIPAA) ist ein US-Gesundheitsgesetz, das Anforderungen für die Nutzung, Offenlegung und Wahrung individuell identifizierbarer Gesundheitsinformationen festlegt. Sie gilt für erfasste Entitäten, Arztpraxen, Krankenhäuser, Krankenversicherer und andere Unternehmen im Gesundheitswesen, die Zugriff auf geschützte Integritätsinformationen (Phi) von Patienten sowie auf Geschäftspartner wie Cloud Service und IT-Anbieter haben, die Phi in Ihrem Auftrag verarbeiten. (Die meisten betroffenen Entitäten führen selbst keine Funktionen wie Anspruchs- oder Datenverarbeitung aus, sondern verlassen sich dafür auf Geschäftspartner.)
+Der Health Insurance Portability and Accountability Act (HIPAA) ist ein US-Gesundheitsgesetz, das Anforderungen für die Nutzung, Offenlegung und Wahrung individuell identifizierbarer Gesundheitsinformationen festlegt. Sie gilt für betroffene Entitäten, Arztpraxen, Arztpraxen, Gesundheitseinrichtungen und andere Gesundheitsunternehmen mit Zugriff auf die geschützten Gesundheitsinformationen (PHI) von Patienten sowie für Geschäftspartner, z. B. Clouddienst- und IT-Anbieter, die PHI in ihrem Namen verarbeiten. (Die meisten betroffenen Entitäten führen selbst keine Funktionen wie Anspruchs- oder Datenverarbeitung aus, sondern verlassen sich dafür auf Geschäftspartner.)
 
 Das Gesetz regelt die Nutzung und Verbreitung von PHI in vier allgemeinen Bereichen:
 
@@ -45,7 +45,7 @@ Die endgültige Richtlinie zur Benachrichtigung bei HITECH-Verletzungen (HITECH 
 
 ## <a name="microsoft-and-hipaa-and-the-hitech-act"></a>Microsoft und HIPAA sowie der HITECH Act
 
-HIPAA-Verordnungen erfordern, dass abgedeckte Entitäten und Ihre Geschäftspartner, in diesem Fall Microsoft, wenn Sie Dienste bereitstellt, einschließlich Cloud-Dienste, für erfasste Entitäten Verträge abschließen, um sicherzustellen, dass diese Geschäftspartner Phi angemessen schützen können. Diese Verträge oder Baas klären und begrenzen, wie der Geschäftspartner Phi verarbeiten kann, und legen jede Partei fest, welche Sicherheits-und Datenschutzbestimmungen in HIPAA und im HITECH Act dargelegt sind. Sobald eine Baa vorhanden ist, können Microsoft-Kunden (verdeckte Entitäten) ihre Dienste zum Verarbeiten und Speichern von Phi verwenden.
+Die Bestimmungen der HIPAA erfordern, dass erfasste Entitäten und ihre Geschäftspartner, in diesem Fall Microsoft, wenn es Dienste, einschließlich Clouddiensten, für erfasste Entitäten bietet, Verträge abschließen, um sicherzustellen, dass diese Geschäftspartner PHI angemessen schützen. Diese Verträge oder BAAs verdeutlichen und begrenzen, wie der Geschäftspartner mit PHI umgehen kann, und legen die Einhaltung der Sicherheits- und Datenschutzbestimmungen der HIPAA und des HITECH Act durch jede Partei fest. Sobald ein BAA besteht, können Kunden von Microsoft (abgedeckte Entitäten) ihre Dienste verwenden, um PHI zu verarbeiten und zu speichern.
 
 Derzeit gibt es keine offizielle Zertifizierung für HIPAA- oder HITECH Act-Compliance. Allerdings wurden für die im BAA abgedeckten Microsoft-Dienste Audits für die ISO/IEC 27001-Zertifizierung von Microsoft durch akkreditierte, unabhängige Prüfer durchgeführt.
 
@@ -57,8 +57,8 @@ Wenn Sie erfahren möchten, wie die Microsoft-Cloud Kunden dabei unterstützt, H
 
 - [Azure und Azure Government](https://aka.ms/AzureCompliance)
 - Microsoft Cloud App Security
-- [Microsoft Cloud für Healthcare](https://aka.ms/MicrosoftCloudforHealthcareCompliance)
-- Microsoft Healthcare Bot-Dienst
+- [Microsoft Cloud for Healthcare](https://aka.ms/MicrosoftCloudforHealthcareCompliance)
+- Microsoft Healthcare Bot Service
 - Microsoft Managed Desktop
 - Microsoft Stream
 - Microsoft Professional Services: Premier und On-Premises für Azure, Dynamics 365, Intune und Medium Business- und Enterprise-Kunden von Microsoft 365 for Business
@@ -72,7 +72,7 @@ Wenn Sie erfahren möchten, wie die Microsoft-Cloud Kunden dabei unterstützt, H
 
 ## <a name="accelerate-your-deployment-of-hipaahitrust-solutions-on-azure"></a>Beschleunigen Sie die Bereitstellung von HIPAA/HITRUST-Lösungen auf Azure
 
-Beginnen Sie mit dem Nutzen der Cloud für Integritätsdaten Lösungen mit dem [Azure Security and Compliance Blueprint: HIPAA/HITRUST-Integritätsdaten und AI](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust-9-2). Diese Blaupause bietet Tools und Anleitungen, die Ihnen bei den ersten Schritten der Erstellung von HIPAA/HITRUST-Lösungen helfen.
+Nutzen Sie die Vorteile der Cloud für Gesundheitsdatenlösungen mit dem [Azure Security and Compliance Blueprint: HIPAA/HITRUST Health Data und AI](/azure/governance/blueprints/samples/hipaa-hitrust-9-2). Diese Blaupause bietet Tools und Anleitungen, die Ihnen bei den ersten Schritten der Erstellung von HIPAA/HITRUST-Lösungen helfen.
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
@@ -84,13 +84,13 @@ Für Microsoft-Clouddienste: Der [HIPAA-Vertrag für Geschäftspartner](https://
 
 Für Microsoft Professional Services-Dienste: Der HIPAA-Vertrag für Geschäftspartner (BAA) ist für Microsoft Professional-Dienste im Leistungsumfang auf Anforderung bei Ihrem Vertreter für die Microsoft-Dienste verfügbar.
 
-**Ist es mit einer Baa mit Microsoft sichergestellt, dass die Compliance meines Unternehmens mit dem HIPAA und dem HITECH Act übereinstimmt?**
+**Stellt ein BAA mit Microsoft sicher, dass meine Organisation die HIPAA und das HITECH Act einhalten kann?**
 
 Nein. Durch die Bereitstellung eines BAA hilft Microsoft, Ihre HIPAA-Compliance zu unterstützen, aber durch die Verwendung von Microsoft-Diensten allein wird diese nicht erreicht. Ihre Organisation ist dafür verantwortlich, sicherzustellen, dass Sie über ein adäquates Compliance-Programm und entsprechende interne Prozesse verfügen und dass Ihre besondere Verwendung von Microsoft-Diensten HIPAA und dem HITECH Act entspricht.
 
-**Kann Microsoft die Baa meiner Organisation ändern?**
+**Kann Microsoft den BAA meiner Organisation ändern?**
 
-Microsoft kann den HIPAA BAA nicht ändern, da die Microsoft-Dienste für alle Kunden einheitlich sind und daher für alle Benutzer dieselben Verfahren ausgeführt werden müssen. Um jedoch die Baa für Microsofts HIPAA-regulierte Kunden und deren Dienste zu erstellen, arbeitete Microsoft mit einigen der führenden US Medical Schools und ihren HIPAA-Datenschutzrichtlinien sowie anderen öffentlichen und privaten HIPAA-bezogenen Entitäten zusammen.
+Microsoft kann den HIPAA BAA nicht ändern, da die Microsoft-Dienste für alle Kunden einheitlich sind und daher für alle Benutzer dieselben Verfahren ausgeführt werden müssen. Um jedoch den BAA für die HIPAA-regulierten Kunden von Microsoft und seine Dienste zu erstellen, hat Microsoft mit einigen der führenden us-amerikanischen Medizinischen Schulen und deren Datenschutzberatern der HIPAA sowie anderen öffentlich- und privaten HIPAA-abgedeckten Entitäten zusammengearbeitet.
 
 **Wie kann ich Kopien der Berichte des Auditors erhalten?**
 
@@ -100,13 +100,13 @@ Das [Vertrauensstellungsportal](https://www.microsoft.com/trustcenter/STP/defaul
 
 Um Kunden bei dieser Aufgabe zu unterstützen, hat Microsoft die folgenden Leitfäden veröffentlicht:
 
-- *HIPAA/HITECH Act-Implementierungsleitfaden* für [Azure](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust/) und für [Dynamics 365 und Office 365](https://go.microsoft.com/fwlink/?LinkID=257510). Verfasst für Datenschutz-, Sicherheits- und Compliance-Beauftragte sowie andere, die für die HIPAA- und HITECH Act-Implementierung verantwortlich sind. Es werden konkrete Schritte beschrieben, die Ihr Unternehmen zur Einhaltung der Compliance ausführen kann.
+- *HIPAA/HITECH Act-Implementierungsleitfaden* für [Azure](/azure/governance/blueprints/samples/hipaa-hitrust/) und für [Dynamics 365 und Office 365](https://go.microsoft.com/fwlink/?LinkID=257510). Verfasst für Datenschutz-, Sicherheits- und Compliance-Beauftragte sowie andere, die für die HIPAA- und HITECH Act-Implementierung verantwortlich sind. Es werden konkrete Schritte beschrieben, die Ihr Unternehmen zur Einhaltung der Compliance ausführen kann.
 - [Praktischer Leitfaden zum Entwerfen von sicheren Gesundheitslösungen mit Microsoft Azure](https://aka.ms/azureindustrysecurity) hilft Ihnen, besser zu verstehen, was für die erfolgreiche, sichere Einführung eines Clouddiensts nötig ist.
-- [Die Behandlung der HIPAA-Sicherheits- und Datenschutzanforderungen in der Microsoft-Cloud](https://smb.blob.core.windows.net/smbproduction/Content/Microsoft_Cloud_Healthcare_HIPAA_Security_Privacy.pdf) bietet einen kurzen Überblick über die Vorschriften. Außerdem wird eine detaillierte Analyse der Funktionsweise von Cloud-Diensten von Microsoft mit Methoden erstellt, die diesen Anforderungen entsprechen, sowie Anleitungen zum Erstellen von Compliance-fähigen Lösungen.
+- [Die Behandlung der HIPAA-Sicherheits- und Datenschutzanforderungen in der Microsoft-Cloud](https://smb.blob.core.windows.net/smbproduction/Content/Microsoft_Cloud_Healthcare_HIPAA_Security_Privacy.pdf) bietet einen kurzen Überblick über die Vorschriften. Es bietet außerdem eine detaillierte Analyse der Erstellung der Clouddienste von Microsoft mit Methoden, die diesen Anforderungen entsprechen, und Anleitungen zum Erstellen von Compliance-bereiten Lösungen.
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
 
-[Microsoft Compliance Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center, die Ihnen](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen in Compliance Manager erstellen](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
+[Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center, die Ihnen](/microsoft-365/compliance/microsoft-365-compliance-center) hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen in Compliance Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="resources"></a>Ressourcen
 
@@ -115,5 +115,5 @@ Um Kunden bei dieser Aufgabe zu unterstützen, hat Microsoft die folgenden Leitf
 - [Microsoft Online Services-Nutzungsbedingungen](https://aka.ms/Online-Services-Terms)
 - [Microsoft Government Cloud](https://go.microsoft.com/fwlink/p/?linkid=2087246)
 - [Grundlegendes zur HIPAA-Compliance mit Azure](https://www.youtube.com/embed/6ptdye1LZ5k?autoplay=0)(19. Mai 2016)
-- [Azure HIPAA HITRUST Blueprint-Beispiel](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust/)
+- [Azure HIPAA -HITRUST-Blueprintbeispiel](/azure/governance/blueprints/samples/hipaa-hitrust/)
 - [Compliance im Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)

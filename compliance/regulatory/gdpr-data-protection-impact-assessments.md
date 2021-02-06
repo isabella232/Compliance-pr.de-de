@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 40946c3ea8d7c11a5cfddd8da737e037edd0526b
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: ce69444233c28683bf0e7d4056e98336445fc8b4
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507248"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121044"
 ---
 # <a name="data-protection-impact-assessment-for-the-gdpr"></a>Datenschutz-Folgenabschätzungen im Rahmen der DSGVO
 
@@ -73,10 +73,10 @@ Eine DPIA sollte spezifische Informationen zur beabsichtigten Verarbeitung berei
 
 Nachstehend finden Sie spezifische Details, die für Ihre Microsoft-Implementierung relevant sein können.
 
-- [Office 365](gdpr-dpia-office365.md): Dieses Dokument gilt für Office 365-Anwendungen und -Dienste, einschließlich, aber nicht beschränkt auf Exchange Online, SharePoint Online, Yammer, Skype for Business und Power BI. Weitere Details finden Sie in den Tabellen [1](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dpia-office365#part-1--determining-whether-a-dpia-is-needed) und [2](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dpia-office365#part-2--contents-of-a-dpia).  
+- [Office 365](gdpr-dpia-office365.md): Dieses Dokument gilt für Office 365-Anwendungen und -Dienste, einschließlich, aber nicht beschränkt auf Exchange Online, SharePoint Online, Yammer, Skype for Business und Power BI. Weitere Details finden Sie in den Tabellen [1](/microsoft-365/compliance/gdpr-dpia-office365#part-1--determining-whether-a-dpia-is-needed) und [2](/microsoft-365/compliance/gdpr-dpia-office365#part-2--contents-of-a-dpia).  
 - [Azure](gdpr-dpia-azure.md): Kunden sind dazu angehalten, mit Ihren Datenschutzbeauftragten und Rechtsberatern zu arbeiten, um die Notwendigkeit und Inhalte aller DPIAs zu ermitteln, die mit der Verwendung von Microsoft Azure verbunden sind.  
-- [Dynamics 365](gdpr-dpia-dynamics.md): Der Inhalt einer DPIA kann variieren, je nachdem, welche Dynamics 365-Tools Sie verwenden. Spezifische Details finden Sie in [Teil 2 – Inhalte einer DPIA](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dpia-dynamics#part-2--contents-of-a-dpia).
-- [Microsoft-Support und Professional Services](gdpr-dpia-prof-services.md): Professional Services führt keine bestimmte routinemäßige oder automatisierte Datenverarbeitung aus und ist nicht für die Verarbeitung spezieller Kategorien bzw. die Ausführung bestimmter Aufgaben vorgesehen, die das Überwachen von öffentlich zugänglichen Daten erleichtern oder erfordern. Details hierzu finden Sie in [Teil 1 – Bestimmen, ob eine DPIA erforderlich ist](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dpia-prof-services#part-1--determining-whether-a-dpia-is-needed). Die Verantwortlichen müssen die oben genannten DPIA-Elemente sowie alle anderen relevanten Faktoren im Kontext der spezifischen Implementierungen und Verwendungen von Professional Services durch den Verantwortlichen berücksichtigen. Informationen zu Professional Services finden Sie in [Teil 2 – Inhalte einer DPIA](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dpia-prof-services#part-2--contents-of-a-dpia).
+- [Dynamics 365](gdpr-dpia-dynamics.md): Der Inhalt einer DPIA kann variieren, je nachdem, welche Dynamics 365-Tools Sie verwenden. Spezifische Details finden Sie in [Teil 2 – Inhalte einer DPIA](/microsoft-365/compliance/gdpr-dpia-dynamics#part-2--contents-of-a-dpia).
+- [Microsoft-Support und Professional Services](gdpr-dpia-prof-services.md): Professional Services führt keine bestimmte routinemäßige oder automatisierte Datenverarbeitung aus und ist nicht für die Verarbeitung spezieller Kategorien bzw. die Ausführung bestimmter Aufgaben vorgesehen, die das Überwachen von öffentlich zugänglichen Daten erleichtern oder erfordern. Details hierzu finden Sie in [Teil 1 – Bestimmen, ob eine DPIA erforderlich ist](/microsoft-365/compliance/gdpr-dpia-prof-services#part-1--determining-whether-a-dpia-is-needed). Die Verantwortlichen müssen die oben genannten DPIA-Elemente sowie alle anderen relevanten Faktoren im Kontext der spezifischen Implementierungen und Verwendungen von Professional Services durch den Verantwortlichen berücksichtigen. Informationen zu Professional Services finden Sie in [Teil 2 – Inhalte einer DPIA](/microsoft-365/compliance/gdpr-dpia-prof-services#part-2--contents-of-a-dpia).
 
 ## <a name="learn-more"></a>Weitere Informationen
 

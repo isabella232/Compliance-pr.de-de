@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4c14d32a172dc5d6ea934abb20c7df956d43d3bb
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 75ab80c2b017e7fe4576f145db50465ea71e2d41
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49509266"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50119914"
 ---
 # <a name="personal-data-protection-act-pdpa-argentina"></a>Datenschutzgesetz (Personal Data Protection Act, PDPA) Argentinien
 
@@ -50,7 +50,7 @@ Die Microsoft-Datenübertragungsvereinbarung ist eine Änderung (Änderungs-ID M
 ## <a name="how-to-implement"></a>Implementierung
 
 - [Datenschutz in Microsoft Cloud Services](https://www.microsoft.com/download/details.aspx?id=55710): Informieren Sie sich über die Datenschutzgrundsätze und -standards von Microsoft sowie über die Datenschutzgesetze in Argentinien.  
-- [Azure-Datenschutz](https://docs.microsoft.com/azure/security/azure-protection-of-customer-data): Azure bietet Kunden sowohl standardmäßig als auch optional eine hohe Datensicherheit.
+- [Azure-Datenschutz](/azure/security/azure-protection-of-customer-data): Azure bietet Kunden sowohl standardmäßig als auch optional eine hohe Datensicherheit.
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
@@ -60,7 +60,7 @@ Ende 2018 hat Argentinien noch keine DSGVO-bezogenen Vorschriften erlassen, aber
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
 
-[Microsoft Compliance Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center, die Ihnen](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen in Compliance Manager erstellen](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
+[Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center, die Ihnen](/microsoft-365/compliance/microsoft-365-compliance-center) hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen in Compliance Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="resources"></a>Ressourcen
 

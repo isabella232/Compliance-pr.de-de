@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 44308d7184f6633ab58a4971fe4e9c70717f8591
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: b5921a0535b9fe3dd84f4faf57dca4d7d117498e
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49509636"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121305"
 ---
 # <a name="canadian-privacy-laws"></a>Kanadische Datenschutzgesetze
 
@@ -52,7 +52,7 @@ Um Kunden in Kanada bei der Auslagerung von Geschäftsfunktionen in die Cloud zu
 
 - [Datenschutz bei Microsoft](https://www.microsoft.com/download/details.aspx?id=55710): Informieren Sie sich über die Datenschutzgrundsätze und -standards von Microsoft sowie über die Datenschutzgesetze in Kanada.
 - [Compliance-Checkliste für Kanada](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=626fb641-9dca-45c0-abaf-0a7849c15f81&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides): Erfahren Sie mehr über die Funktionen von Azure und Intune, die Ihnen helfen können, die kanadischen Datenschutzbestimmungen zu erfüllen.
-- [Azure-Datenschutz](https://docs.microsoft.com/azure/security/fundamentals/protection-customer-data): Azure bietet Kunden sowohl standardmäßig als auch optional eine hohe Datensicherheit.
+- [Azure-Datenschutz](/azure/security/fundamentals/protection-customer-data): Azure bietet Kunden sowohl standardmäßig als auch optional eine hohe Datensicherheit.
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
@@ -60,7 +60,7 @@ Um Kunden in Kanada bei der Auslagerung von Geschäftsfunktionen in die Cloud zu
 
 Microsoft versichert in den [Online Services-Nutzungsbedingungen](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31), dass die Gesetze und Bestimmungen, die für die Bereitstellung von Microsoft Online Services gelten, erfüllt werden. Organisationen, die Microsoft-Clouddienste für Unternehmen verwenden, sind jedoch immer selbst für die Einhaltung kanadischer Datenschutzbestimmungen verantwortlich, denn die Gesetze besagen, dass Organisationen letztendlich dafür verantwortlich sind, dass gesammelte sensible Daten angemessen verarbeitet und geschützt werden.  
 
-Daher liegt die Verantwortung für den Datenschutz sowohl bei Microsoft als Clouddienstanbieter und beim Kunden, der den Clouddienst verwendet. Auf hoher Ebene müssen Kunden dafür sorgen, dass ihre in Microsoft-Umgebungen implementierten Lösungen die 10 PIPEDA-Grundsätze erfüllen. Dazu gehören z. B. das Einverständnis von Einzelpersonen einzuholen, deren Daten sammeln zu dürfen, und die gesammelten Daten mit angemessenen Sicherheitsmaßnahmen zu schützen.
+Daher liegt die Verantwortung für den Datenschutz sowohl bei Microsoft als Cloud-Dienstanbieter und beim Kunden, der den Clouddienst verwendet. Auf hoher Ebene müssen Kunden dafür sorgen, dass ihre in Microsoft-Umgebungen implementierten Lösungen die 10 PIPEDA-Grundsätze erfüllen. Dazu gehören z. B. das Einverständnis von Einzelpersonen einzuholen, deren Daten sammeln zu dürfen, und die gesammelten Daten mit angemessenen Sicherheitsmaßnahmen zu schützen.
 
 **Welche Audits von Drittanbietern überprüfen die Sicherheitskontrollumgebung von Azure und Intune?**
 

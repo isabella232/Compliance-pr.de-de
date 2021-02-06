@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365 jammern von Unternehmens Zugriffs Steuerelementen
-description: Dieser Artikel enthält eine kurze Zusammenfassung über das Jammern von Enterprise-Zugriffs Steuerelementen in der Produktionsumgebung.
+title: Microsoft 365 Yammer Zugriffssteuerungen für Unternehmen
+description: Dieser Artikel enthält eine kurze Zusammenfassung Yammer Enterprise Access Controls in der Produktionsumgebung.
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -18,17 +18,17 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: d44bead3627ed9b99c93bcffc9f29f87731f7407
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 916f26d5f2defdfb21cb9babe3a64cf618e8cd4a
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506950"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120364"
 ---
-# <a name="yammer-enterprise-access-controls"></a>Jammern von Enterprise-Zugriffs Steuerelementen 
+# <a name="yammer-enterprise-access-controls"></a>Yammer von Unternehmenszugriffssteuerungen 
 
-Der physische und logische Zugriff auf die Produktionsumgebung jammern ist auf eine kleine Gruppe von Personen (Infrastruktur und Betrieb) beschränkt. Wie bei anderen Microsoft 365-Ingenieuren haben Jammer Techniker keine ständigen Zugriff auf Kundendaten. Der Zugriff muss mithilfe eines Genehmigungs basierten Just-in-Time-Zugriffs Steuerungssystems angefordert werden, ähnlich wie Lockbox mit einer begrenzten Anzahl von genehmigenden Personen. Genehmigende Personen überprüfen die Anforderung (beispielsweise überprüfen, ob die Anforderung aufgrund von Bedarf, Geschäftsfall, Zeit usw. legitim ist), und genehmigen oder verweigern die Anforderung. Wenn die Anforderung genehmigt wird, wird der JIT-Zugriff für eine definierte und beschränkte Zeit gewährt. Nach Überschreiten der Zugriffszeit läuft der Zugriff automatisch ab.
+Der physische und logische Zugriff auf die Yammer ist auf eine kleine Gruppe von Personen (Infrastruktur und Vorgänge) beschränkt. Wie andere Microsoft 365-Techniker haben Yammer keinen ständigen Zugriff auf Kundendaten. Der Zugriff muss über ein genehmigungsbasiertes Just-in-Time-Zugriffssteuerungssystem angefordert werden, das lockbox mit einer begrenzten Anzahl von Genehmigende ähnelt. Genehmiger überprüfen die Anforderung (sie überprüfen beispielsweise, ob die Anforderung aufgrund von Bedarf, Geschäftsfall, Zeit usw. legitim ist), und genehmigen oder verweigern die Anforderung. Wenn die Anforderung genehmigt wird, wird der Zugriff auf jit für einen definierten und begrenzten Zeitraum gewährt. Nach Überschreitung der Zugriffszeit läuft der Zugriff automatisch ab.
 
-Wie bei anderen Microsoft 365-Diensten verwendet jeder Zugriff auf die Produktionsumgebung von jammern mehrstufige Authentifizierung. Der gesamte Zugriffs-und Befehlsverlauf wird einem Benutzer zugeschrieben und regelmäßig vom Sicherheitsteam "jammern" protokolliert und überprüft.
+Wie bei anderen Microsoft 365-Diensten wird für den Yammer die mehrstufige Authentifizierung verwendet. Der Zugriffs- und Befehlsverlauf wird einem Benutzer zugeordnet und vom Sicherheitsteam Yammer protokolliert und überprüft.
 
-Weitere Informationen zur Verwaltung und Verwaltung von jammern finden Sie unter [jammern der Administratorhilfe](https://docs.microsoft.com/yammer/yammer-landing-page).
+Weitere Informationen zur Verwaltung Yammer Verwaltung finden Sie in Yammer [Administratorhilfe.](/yammer/yammer-landing-page)

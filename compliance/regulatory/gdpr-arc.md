@@ -18,12 +18,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 9be40afbe9df0a3744022366119aaa7d35da992c
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: e8426e0e988c2f29a5223abb7e10a205f3941cfd
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507056"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121504"
 ---
 # <a name="support-your-gdpr-program-with-accountability-readiness-checklists"></a>Unterstützung des DSGVO-Programms mit Prüflisten zu den Verantwortlichkeiten
 
@@ -40,7 +40,7 @@ Es gibt einen spezifischen Leitfaden für vier Microsoft-Produkt- und Dienstfami
 - [Azure](gdpr-arc-azure-dynamics.md)
 - [Microsoft-Support und Professional Services](gdpr-arc-prof-services.md)
 
-Sie können die Elemente in dieser Checkliste mit dem [Compliance-Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager)verwalten, indem Sie auf die Kontroll-ID und den Kontrolltitel unter Vom Kunden verwaltete Steuerelemente in der DSGVO-Kachel verweisen.
+Sie können die Elemente in dieser Checkliste mit dem [Compliance-Manager](/microsoft-365/compliance/compliance-manager)verwalten, indem Sie auf die Kontroll-ID und den Kontrolltitel unter Vom Kunden verwaltete Steuerelemente in der DSGVO-Kachel verweisen.
 
 Die Prüflisten umfassen die vier grundlegenden Kategorien von Überlegungen für ein Datenschutzprogramm zur Unterstützung der DSGVO. Diese sind nachstehend aufgeführt, zusammen mit Beispielanforderungen.
 
@@ -75,7 +75,7 @@ Die Prüflisten umfassen die vier grundlegenden Kategorien von Überlegungen fü
 
 ## <a name="gdpr-compliance-controls"></a>DSGVO-Compliance-Steuerelemente
 
-- **Verwenden des Compliance-Managers**: Überprüfen und verwenden Sie Steuerelemente, mit deren Hilfe Microsoft DSGVO-Verpflichtungen mit dem [Compliance-Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) unterstützt.
+- **Verwenden des Compliance-Managers**: Überprüfen und verwenden Sie Steuerelemente, mit deren Hilfe Microsoft DSGVO-Verpflichtungen mit dem [Compliance-Manager](/microsoft-365/compliance/compliance-manager) unterstützt.
 - **DSGVO-Steuerelementzuordnung**: Greifen Sie auf eine [umfassende Zuordnung](https://go.microsoft.com/fwlink/p/?linkid=2052220) von Microsoft-Steuerelementen zu DSGVO-Verpflichtungen zu.
 
 ## <a name="records-of-processing-for-processors"></a>Verzeichnis von Verarbeitungstätigkeiten für Datenverarbeiter
@@ -86,31 +86,31 @@ Aufgrund des Umfangs und der Vielfalt der Onlinedienste, die wir unseren datenve
 
 Kunden dürften normalerweise an den Aktivitätsprotokollen und potenziell an den Diagnoseprotokollen interessiert sein:
 
-- **Aktivitätsprotokolle**: [Aktivitätsprotokolle](https://docs.microsoft.com/azure/azure-monitor/platform/platform-logs-overview) bieten Einblicke in die Vorgänge, die in Ressourcen in einem Abonnement ausgeführt wurden. Aktivitätsprotokolle helfen beim Ermitteln des Initiators, des Zeitpunkts und des Status eines Vorgangs.
-- **Diagnoseprotokolle**: [Diagnoseprotokolle](https://docs.microsoft.com/azure/azure-monitor/platform/platform-logs-overview) sind von den einzelnen Ressourcen ausgegebene Protokolle. Diese Protokolle umfassen Windows-Ereignissystemprotokolle, Azure-Speicherprotokolle, Key Vault-Überwachungsprotokolle sowie Anwendungsgateway- und Firewall-Protokolle.
+- **Aktivitätsprotokolle**: [Aktivitätsprotokolle](/azure/azure-monitor/platform/platform-logs-overview) bieten Einblicke in die Vorgänge, die in Ressourcen in einem Abonnement ausgeführt wurden. Aktivitätsprotokolle helfen beim Ermitteln des Initiators, des Zeitpunkts und des Status eines Vorgangs.
+- **Diagnoseprotokolle**: [Diagnoseprotokolle](/azure/azure-monitor/platform/platform-logs-overview) sind von den einzelnen Ressourcen ausgegebene Protokolle. Diese Protokolle umfassen Windows-Ereignissystemprotokolle, Azure-Speicherprotokolle, Key Vault-Überwachungsprotokolle sowie Anwendungsgateway- und Firewall-Protokolle.
 - **Protokollarchivierung**: Alle Diagnoseprotokolle schreiben in ein zentrales und verschlüsseltes Azure-Speicherkonto für die Archivierung. Die Aufbewahrung kann vom Benutzer auf bis zu 730 Tage festgelegt werden, um organisationsspezifische Aufbewahrungsanforderungen zu erfüllen. Diese Protokolle stellen eine Verbindung mit Azure Monitor-Protokollen für die Verarbeitung, Speicherung und Dashboard-Berichterstellung her.
 
 ### <a name="other-logs"></a>Andere Protokolle
 
 Die nachfolgend aufgeführten Überwachungslösungen werden zusätzlich als Bestandteil dieser Architektur installiert. Es liegt in der Verantwortung des Kunden, diese Lösungen so zu konfigurieren, dass Sie den FedRAMP-Richtlinien für Sicherheitskontrollen entsprechen:
 
-- [AD-Bewertung](https://docs.microsoft.com/azure/azure-monitor/insights/ad-assessment): Die Active Directory-Lösung für die Integritätsprüfung bewertet das Risiko und den Status von Serverumgebungen in regelmäßigen Abständen und stellt eine Liste von nach Priorität aufgeführten Empfehlungen bereit, die auf die bereitgestellte Serverinfrastruktur zugeschnitten sind.
-- [Antischadsoftware-Bewertung](https://docs.microsoft.com/azure/security-center/security-center-services?tabs=features-windows#supported-endpoint-protection-solutions-): Die Antischadsoftware-Lösung erstellt Berichte über Malware, Bedrohungen und den Sicherheitsstatus.
-- [Azure Automation](https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker): Die Azure Automation-Lösung speichert, führt und verwaltet Runbooks.
-- [Sicherheit und Überwachung](https://docs.microsoft.com/azure/security-center/security-center-introduction): Das Dashboard "Sicherheit und Überwachung" bietet eine allgemeine Übersicht über den Sicherheitsstatus von Ressourcen durch die Bereitstellung von Metriken zu Sicherheitsdomänen, wichtigen Problemen, Entdeckungen, Threat Intelligence und allgemeinen Sicherheitsaspekten.
-- [SQL-Bewertung](https://docs.microsoft.com/azure/azure-monitor/insights/sql-assessment): Die SQL-Lösung für die Integritätsprüfung bewertet das Risiko und den Status von Serverumgebungen in regelmäßigen Abständen und stellt Kunden eine Liste von nach Priorität aufgeführten Empfehlungen bereit, die auf die bereitgestellte Serverinfrastruktur zugeschnitten sind.
-- [Update-Verwaltung](https://docs.microsoft.com/azure/automation/update-management/update-mgmt-overview): Die Lösung zur Updateverwaltung ermöglicht Kunden die Verwaltung von Sicherheitsupdates für das Betriebssystem, einschließlich des Status verfügbarer Updates und des Prozesses zum Installieren erforderlicher Updates.
-- [Agentenstatus](https://docs.microsoft.com/azure/azure-monitor/insights/solution-agenthealth): Die Lösung für den Agentenstatus gibt an, wie viele Agents bereitgestellt werden und deren geographische Verteilung sowie die Anzahl der Agents, die nicht reagieren, und jener, die Betriebsdaten senden.
-- [Azure-Aktivitätsprotokolle](https://docs.microsoft.com/azure/azure-monitor/platform/activity-log): Die Lösung für die Analyse von Aktivitätsprotokollen hilft bei der Analyse der Azure-Aktivitätsprotokolle aller Azure-Abonnements eines Kunden.
-- [Änderungsnachverfolgung](https://docs.microsoft.com/azure/azure-monitor/platform/activity-log): Mit der Lösung zur Änderungsnachverfolgung können Kunden Änderungen in der Umgebung auf einfache Weise ermitteln.
+- [AD-Bewertung](/azure/azure-monitor/insights/ad-assessment): Die Active Directory-Lösung für die Integritätsprüfung bewertet das Risiko und den Status von Serverumgebungen in regelmäßigen Abständen und stellt eine Liste von nach Priorität aufgeführten Empfehlungen bereit, die auf die bereitgestellte Serverinfrastruktur zugeschnitten sind.
+- [Antischadsoftware-Bewertung](/azure/security-center/security-center-services?tabs=features-windows#supported-endpoint-protection-solutions-): Die Antischadsoftware-Lösung erstellt Berichte über Malware, Bedrohungen und den Sicherheitsstatus.
+- [Azure Automation](/azure/automation/automation-hybrid-runbook-worker): Die Azure Automation-Lösung speichert, führt und verwaltet Runbooks.
+- [Sicherheit und Überwachung](/azure/security-center/security-center-introduction): Das Dashboard "Sicherheit und Überwachung" bietet eine allgemeine Übersicht über den Sicherheitsstatus von Ressourcen durch die Bereitstellung von Metriken zu Sicherheitsdomänen, wichtigen Problemen, Entdeckungen, Threat Intelligence und allgemeinen Sicherheitsaspekten.
+- [SQL-Bewertung](/azure/azure-monitor/insights/sql-assessment): Die SQL-Lösung für die Integritätsprüfung bewertet das Risiko und den Status von Serverumgebungen in regelmäßigen Abständen und stellt Kunden eine Liste von nach Priorität aufgeführten Empfehlungen bereit, die auf die bereitgestellte Serverinfrastruktur zugeschnitten sind.
+- [Update-Verwaltung](/azure/automation/update-management/update-mgmt-overview): Die Lösung zur Updateverwaltung ermöglicht Kunden die Verwaltung von Sicherheitsupdates für das Betriebssystem, einschließlich des Status verfügbarer Updates und des Prozesses zum Installieren erforderlicher Updates.
+- [Agentenstatus](/azure/azure-monitor/insights/solution-agenthealth): Die Lösung für den Agentenstatus gibt an, wie viele Agents bereitgestellt werden und deren geographische Verteilung sowie die Anzahl der Agents, die nicht reagieren, und jener, die Betriebsdaten senden.
+- [Azure-Aktivitätsprotokolle](/azure/azure-monitor/platform/activity-log): Die Lösung für die Analyse von Aktivitätsprotokollen hilft bei der Analyse der Azure-Aktivitätsprotokolle aller Azure-Abonnements eines Kunden.
+- [Änderungsnachverfolgung](/azure/azure-monitor/platform/activity-log): Mit der Lösung zur Änderungsnachverfolgung können Kunden Änderungen in der Umgebung auf einfache Weise ermitteln.
 
-Informationen zu den technischen und sicherheitstechnischen Maßnahmen für Azure finden datenverantwortliche Kunden unter [Dokumentation zur Azure-Sicherheit](https://docs.microsoft.com/azure/security/). Da Microsoft nicht weiß, ob es sich bei Kundendaten um personenbezogene Daten handelt, verarbeitet Azure alle Kundendaten so, als ob es sich um personenbezogene Daten handeln würde, sodass ein Kunde wahrscheinlich alle Materialien als relevant betrachten würde.
+Informationen zu den technischen und sicherheitstechnischen Maßnahmen für Azure finden datenverantwortliche Kunden unter [Dokumentation zur Azure-Sicherheit](/azure/security/). Da Microsoft nicht weiß, ob es sich bei Kundendaten um personenbezogene Daten handelt, verarbeitet Azure alle Kundendaten so, als ob es sich um personenbezogene Daten handeln würde, sodass ein Kunde wahrscheinlich alle Materialien als relevant betrachten würde.
 
 ### <a name="processor-information"></a>Datenverarbeiterinformationen
 
-Ein weiteres Produkt, zu dem ein Kunde u. U. ein Verzeichnis mit Informationen zu Verarbeitungstätigkeiten für Datenverarbeiter benötigt, ist Office 365. Informationen zum Anzeigen von Office 365-Informationen finden Sie im Artikel [Durchsuchen des Überwachungsprotokolls im Security & Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
+Ein weiteres Produkt, zu dem ein Kunde u. U. ein Verzeichnis mit Informationen zu Verarbeitungstätigkeiten für Datenverarbeiter benötigt, ist Office 365. Informationen zum Anzeigen von Office 365-Informationen finden Sie im Artikel [Durchsuchen des Überwachungsprotokolls im Security & Compliance Center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
 
-Die Informationen zu Dynamics 365 können ebenfalls über das Security & Compliance Center eingesehen werden.  Vergewissern Sie sich, dass Sie über die richtige Lizenz verfügen, um die Security & Compliance Center-Seite anzeigen zu können. Weitere Informationen zur Lizenzierung finden Sie im Artikel [Security & Compliance Center – Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center). Nach Dynamics 365-Ereignissen können Sie im einheitlichen Überwachungsprotokoll im [Security & Compliance Center](https://protection.office.com/unifiedauditlog) suchen.
+Die Informationen zu Dynamics 365 können ebenfalls über das Security & Compliance Center eingesehen werden.  Vergewissern Sie sich, dass Sie über die richtige Lizenz verfügen, um die Security & Compliance Center-Seite anzeigen zu können. Weitere Informationen zur Lizenzierung finden Sie im Artikel [Security & Compliance Center – Dienstbeschreibung](/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center). Nach Dynamics 365-Ereignissen können Sie im einheitlichen Überwachungsprotokoll im [Security & Compliance Center](https://protection.office.com/unifiedauditlog) suchen.
 
 ### <a name="professional-services-information"></a>Informationen zu professionellen Dienstleistungen
 

@@ -17,12 +17,12 @@ ms.collection:
 titleSuffix: Microsoft GDPR
 description: Hier erfahren Sie, wie Sie DSRs im Rahmen der Datenschutz-Grundverordnung (DSGVO) und der kalifornischen Verbraucherschutzgesetzgebung (CCPA) mithilfe von Microsoft-Produkten und -Diensten durchführen.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ce2be94fec6b2e48a9e7052a1b01302966eb42a3
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 83ba52015eeb7aed73cd231ff01f824f75337360
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507225"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121034"
 ---
 # <a name="data-subject-requests-and-the-gdpr-and-ccpa"></a>Anträge betroffener Personen im Rahmen der DSGVO und des CCPA
 
@@ -68,7 +68,7 @@ Es sind möglicherweise mehrere Prozesse involviert, um eine Datensubjektanfrage
 
 ### <a name="insights-generated-by-microsoft-products-or-services"></a>Von Microsoft-Produkten oder -Diensten generierte Erkenntnisse
 
-[Einblicke](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#part-2-responding-to-dsrs-with-respect-to-insights-generated-by-office-365) können durch Dienste (MyAnalytics usw.) generiert werden. Office 365 umfasst Onlinedienste, die Benutzern und Organisationen, die diese Dienste nutzen, Einblicke gewähren. Die von diesen Diensten generierten Daten erzeugen möglicherweise personenbezogene Daten, die für eine Datensubjektanfrage relevant sind. Folgen Sie dem Link in der nachstehenden Liste, um Details zu dienstspezifischen Datensubjektanfrage-Prozessen anzuzeigen.  
+[Einblicke](/microsoft-365/compliance/gdpr-dsr-office365#part-2-responding-to-dsrs-with-respect-to-insights-generated-by-office-365) können durch Dienste (MyAnalytics usw.) generiert werden. Office 365 umfasst Onlinedienste, die Benutzern und Organisationen, die diese Dienste nutzen, Einblicke gewähren. Die von diesen Diensten generierten Daten erzeugen möglicherweise personenbezogene Daten, die für eine Datensubjektanfrage relevant sind. Folgen Sie dem Link in der nachstehenden Liste, um Details zu dienstspezifischen Datensubjektanfrage-Prozessen anzuzeigen.  
 
 ### <a name="dsrs-for-system-generated-logs"></a>Datensubjektanfragen bezüglich vom System generierten Protokollen
 
@@ -82,8 +82,8 @@ Protokolle und verwandte Daten, die von Microsoft generiert werden, enthalten m�
 
 Durch das Löschen eines Benutzerkontos werden keine vom System generierten Protokolle für „Yammer“ und „Kaizala“ entfernt. Wenn Sie die Daten aus diesen Anwendungen entfernen möchten, lesen Sie eine der folgenden Ressourcen:
 
-- [Verwalten von DSGVO-Datensubjektanforderungen in Yammer Enterprise](https://docs.microsoft.com/yammer/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise)
-- [Exportieren oder Löschen von Organisationsdaten eines Benutzers in Kaizala](https://docs.microsoft.com/office365/kaizala/export-or-delete-a-user-s-data)
+- [Verwalten von DSGVO-Datensubjektanforderungen in Yammer Enterprise](/yammer/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise)
+- [Exportieren oder Löschen von Organisationsdaten eines Benutzers in Kaizala](/office365/kaizala/export-or-delete-a-user-s-data)
 
 ### <a name="national-clouds"></a>Nationale Clouds
 

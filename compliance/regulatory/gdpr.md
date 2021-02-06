@@ -17,16 +17,16 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2d4c319bd5c0d3d264ae67179dc4d55e0a0e4fe8
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 44df81658719397271020f38088d3287e67774a1
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507344"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121434"
 ---
 # <a name="general-data-protection-regulation-summary"></a>Zusammenfassung Datenschutz-Grundverordnung
 
-Mit der Allgemeinen Datenschutzgrundverordnung (DSGVO) werden neue Regeln für Organisationen eingeführt, die Waren und Dienstleistungen für Menschen in der Europäischen Union (EU) anbieten oder Daten für EU-Bürger sammeln und analysieren, unabhängig davon, wo Sie oder Ihr Unternehmen sich befinden. Dieses Dokument leitet Sie durch Informationen, mit denen Sie Rechte einhalten und Verpflichtungen aus der DSGVO erfüllen können, wenn Sie Microsoft-Produkte und -Dienste verwenden. Ein [empfohlener DSGVR-Aktionsplan](gdpr-action-plan.md)- und [Prüflisten zur Rechenschaftspflicht](gdpr-arc.md) bietet zusätzliche Ressourcen für die Bewertung und Implementierung der DSGVO-Konformität.
+Die Datenschutz-Grundverordnung (DSGVO) führt neue Regeln für Organisationen ein, die Waren und Dienstleistungen in der Europäischen Union (EU) anbieten oder Daten von in der EU ansässigen natürlichen Personen erfassen und analysieren, unabhängig von deren Wohnsitz und Unternehmenssitz. Dieses Dokument bietet Ihnen Informationen zu der Einhaltung von Rechten und dem Erfüllen von Verpflichtungen unter der DSGVO, während Sie Microsoft-Produkte und -Dienste verwenden.  Ein [empfohlener DSGVO-Aktionsplan](gdpr-action-plan.md) und [Prüflisten zu Rechenschaftspflicht](gdpr-arc.md) bieten zusätzliche Ressourcen zum Bewerten und Implementieren der DSGVO-Compliance.
 
 ## <a name="terminology"></a>Begrifflichkeiten
 
@@ -39,7 +39,7 @@ Hilfreiche Definitionen für DSGVO-Ausdrücke, die in diesem Dokument verwendet 
 
 ## <a name="what-is-the-gdpr"></a>Was ist die DSGVO?
 
-Die DSGVO gibt Personen das Recht, von einer Organisation gesammelte personenbezogene Daten zu verwalten. Diese Rechte können über einen Antrag einer betroffenen Person (DSR, Data Subject Request) ausgeübt werden. Die Organisation muss rechtzeitig Informationen zu DSRs und Datenschutzverletzungen bereitstellen und Datenschutz-Folgenabschätzungen (DPIAs) durchführen.
+Die DSGVO gibt Personen die Berechtigung, personenbezogene Daten zu verwalten, die von einer Organisation erfasst werden. Diese Rechte können über einen Antrag einer betroffenen Person ausgeübt werden. Die Organisation muss rechtzeitig Informationen zu Anträgen betroffener Personen und zu Datenschutzverletzungen bereitstellen und Datenschutzfolgenabschätzungen durchführen.
 
 Beim Implementieren oder Bewerten von DSGVO-Anforderungen sollten mehrere Punkte berücksichtigt werden:
 
@@ -52,19 +52,19 @@ Der [empfohlene DSGVO-Aktionsplan](gdpr-action-plan.md) und [Prüflisten zu Rech
 
 Die folgenden Aufgaben sind erforderlich, um die DSGVO-Standards zu erfüllen. Folgen Sie den Links in der Liste, um Details zu Ihrer Implementierung zu erhalten.  
 
-- **[Anträge betroffener Personen (DSR)](gdpr-data-subject-requests.md)**. Ein von einer betroffenen Person formal gestellter Antrag an einen Verantwortlichen, bestimmte Maßnahmen (Änderung, Einschränkung, Zugriff) im Zusammenhang mit den personenbezogenen Daten der betroffenen Person zu ergreifen.
-- **[Benachrichtigung über Verstöße](gdpr-breach-notification.md)**. Unter der DSGVO besteht eine Verletzung personenbezogener Daten in „einem Sicherheitsverstoß, der zur zufälligen oder unrechtmäßigen Zerstörung, zu Verlust, Veränderung, unbefugter Weitergabe von oder unberechtigtem Zugang zu übermittelten, gespeicherten oder anderweitig verarbeiteten personenbezogenen Daten führt“.
-- **[Datenschutz-Folgenabschätzung (DPIA)](gdpr-data-protection-impact-assessments.md)**. Datenverantwortliche sind nach der DSGVO verpflichtet, eine DPIA für Datenvorgänge vorzubereiten, die "wahrscheinlich ein hohes Risiko für die Rechte und Freiheiten natürlicher Personen darstellen".
+- **[Anträge betroffener Personen](gdpr-data-subject-requests.md)**. Ein von einer betroffenen Person formal gestellter Antrag an einen Verantwortlichen, bestimmte Maßnahmen (Änderung, Einschränkung, Zugriff) im Zusammenhang mit den personenbezogenen Daten der betroffenen Person zu ergreifen.
+- **[Benachrichtigung bei Sicherheitsverletzungen](gdpr-breach-notification.md)**. Unter der DSGVO besteht eine Verletzung personenbezogener Daten in „einem Sicherheitsverstoß, der zur zufälligen oder unrechtmäßigen Zerstörung, zu Verlust, Veränderung, unbefugter Weitergabe von oder unberechtigtem Zugang zu übermittelten, gespeicherten oder anderweitig verarbeiteten personenbezogenen Daten führt“.
+- **[Datenschutzfolgenabschätzungen](gdpr-data-protection-impact-assessments.md)**. Datenverantwortliche sind unter der DSGVO dazu aufgerufen, eine Datenschutzfolgenabschätzung für Prozesse vorzubereiten, die „wahrscheinlich zu einem hohen Risiko für die Rechte und Freiheiten natürlicher Personen führen“.
 
 Wie weiter oben erwähnt, bieten der empfohlene DSGVO-Aktionsplan und die Prüflisten zu Rechenschaftspflicht einen Leitfaden zur Implementierung oder Bewertung der Konformität von DSGVO bei der Verwendung von Microsoft-Produkten und -Diensten.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance-Manager, um Ihr Risiko einzuschätzen
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
 
-Der [Microsoft Compliance-Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) ist ein Feature im [Microsoft 365 Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center), mit dem Sie die Compliance-Position Ihres Unternehmens verstehen und Maßnahmen zur Risikominderung ergreifen können. Der Compliance Manager hat eine vordefinierte Bewertung für diese Verordnung für Enterprise E5-Kunden. Suchen Sie die Vorlage für die Erstellung der Bewertung auf der Seite **Bewertungsvorlagen** im Compliance-Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
+[Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center](/microsoft-365/compliance/microsoft-365-compliance-center), die Ihnen hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Der Compliance Manager verfügt über eine vorgefertigte Bewertung für diese Vorschrift für Enterprise E5-Kunden. Die Vorlage für die Erstellung der Bewertung finden Sie auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="data-subject-request-dsr"></a>Antrag einer betroffenen Person
 
-Die DSGVO gewährt Personen bestimmte Rechte in Verbindung mit der Verarbeitung ihrer personenbezogenen Daten, einschließlich des Rechts zur Korrektur falscher Daten, zum Löschen von Daten bzw. zur Einschränkung ihrer Verarbeitung, zum Empfangen von Daten und zum Erfüllen einer Anforderung zur Übertragung der Daten an einen anderen Controller. Der Controller ist dafür verantwortlich, eine zeitnahe, DSGVO-konsistente Antwort zu geben. Technische Details finden Sie unter [Anträge betroffener Personen](gdpr-data-subject-requests.md).  
+Die DSGVO gewährt Personen bestimmte Rechte in Verbindung mit der Verarbeitung ihrer personenbezogenen Daten, einschließlich des Rechts zur Korrektur falscher Daten, zum Löschen von Daten bzw. zur Einschränkung ihrer Verarbeitung, zum Empfangen von Daten und zum Erfüllen einer Anforderung zur Übertragung der Daten an einen anderen Controller. Der Verantwortliche ist für die Bereitstellung einer zeitgerechten, DSGVO-konsistenten Antwort verantwortlich. Technische Details finden Sie unter [Anträge betroffener Personen](gdpr-data-subject-requests.md).  
 
 ### <a name="dsr-faqs"></a>Häufig gestellte Fragen (FAQs) zum Antrag einer betroffenen Person
 
@@ -74,7 +74,7 @@ Anträge betroffener Personen umfassen sechs Aktivitäten: Erkennung, Zugang, Be
 
 **Was sind Ihre Datenquellen?**
 
-Ein großer Teil der Daten eines Unternehmens wird in [Office-Anwendungen](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#using-the-content-search-ediscovery-tool-to-respond-to-dsrs) wie Excel und Outlook generiert. Daten, die für einen DSR relevant sind, finden Sie möglicherweise auch in [Insights](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#part-2-responding-to-dsrs-with-respect-to-insights-generated-by-office-365), die von Microsoft-Produkten und -Diensten generiert wurden, sowie in [systemgenerierten Protokollen](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#part-3-responding-to-dsrs-for-system-generated-logs).
+Ein großer Teil der Daten einer Organisation wird in [Office-Anwendungen](/microsoft-365/compliance/gdpr-dsr-office365#using-the-content-search-ediscovery-tool-to-respond-to-dsrs) wie Excel und Outlook generiert. Möglicherweise finden Sie auch relevante Daten für einen Antrag einer betroffenen Person in den von Microsoft-Produkten und -Diensten generierten [Erkenntnissen](/microsoft-365/compliance/gdpr-dsr-office365#part-2-responding-to-dsrs-with-respect-to-insights-generated-by-office-365) und [vom System generierten Protokollen](/microsoft-365/compliance/gdpr-dsr-office365#part-3-responding-to-dsrs-for-system-generated-logs).
 
 **Welche Arten von Daten müssen durchsucht werden?**
 
@@ -82,7 +82,7 @@ Personenbezogene Daten finden Sie in den Kundendaten, den von Microsoft-Produkte
 
 **Wie werden personenbezogene Daten durchsucht?**
 
-Die Suche nach personenbezogenen Daten kann je nach Microsoft-Produkt und -Dienst variieren. Zu den Suchwerkzeugen gehören die [Inhaltssuche](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#using-the-content-search-ediscovery-tool-to-respond-to-dsrs) oder die [In-App-Suchkapazität](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#using-in-app-functionality-to-respond-to-dsrs). Administratoren können auf vom [System generierte Protokolle](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#part-3-responding-to-dsrs-for-system-generated-logs) zugreifen, die der Aktivität eines Benutzers zugeordnet sind.  
+Die Suche nach personenbezogenen Daten kann unter Microsoft-Produkten und -Diensten variieren. Suchtools bieten beispielsweise eine [Inhaltssuche](/microsoft-365/compliance/gdpr-dsr-office365#using-the-content-search-ediscovery-tool-to-respond-to-dsrs) oder eine [In-App-Suche](/microsoft-365/compliance/gdpr-dsr-office365#using-in-app-functionality-to-respond-to-dsrs). Administratoren können auf [vom System generierte Protokolle](/microsoft-365/compliance/gdpr-dsr-office365#part-3-responding-to-dsrs-for-system-generated-logs) zugreifen, die einer Benutzeraktivität zugeordnet sind.  
 
 **In welchen Formaten sollten personenbezogene Daten zur Verfügung gestellt werden?**
 
@@ -101,21 +101,21 @@ Microsoft muss Ihnen die notwendigen technischen und organisatorischen Mittel an
 
 **Wo finde ich Informationen in Verbindung mit der DSGVO für lokale Server?**
 
-Eine Reihe von Artikeln zum Thema DSGVO finden Sie hier. Sie wurden von Microsoft erstellt und bieten empfohlene Ansätze für die lokale Arbeitslast für SharePoint Server, Exchange Server, Project Server, Office Web Apps Server, Office Online Server und lokale Dateifreigaben.
+Eine Reihe von Artikeln zur DSGVO finden Sie hier. Sie wurden von Microsoft erstellt und bieten empfohlene Ansätze für die lokale Arbeitslast für SharePoint Server, Exchange Server, Project Server, Office Web Apps Server, Office Online Server und lokale Dateifreigaben.
 
 **Welche Mittel gibt Microsoft Ihnen an die Hand, um auf Anfragen von Datensubjekten zu reagieren?**
 
-Online Services bietet eine Vielzahl von Funktionen, mit denen Sie als Controller auf den Antrag einer betroffenen Person reagieren können. Mithilfe von Microsoft Enterprise Online Services und Verwaltungskontrollen können Sie auf personenbezogene Daten reagieren, um auf Anträge nach Rechten betroffener Personen zu reagieren. So können Sie personenbezogene Daten erkennen, darauf zugreifen, korrigieren, einschränken, löschen und exportieren, die sich in den vom Controller verwalteten Daten befinden, die in der Microsoft-Cloud gespeichert sind. Online Services bietet Daten auch in maschinenlesbarer Form, falls Sie diese benötigen.
+Online Services bietet ein breites Spektrum an Funktionalitäten, die Sie als Controller nutzen können, um auf Anfragen von Datensubjekten zu reagieren. Microsoft-Unternehmensonlinedienste und Administratorsteuerelemente unterstützen Sie dabei, auf personenbezogene Daten im Rahmen von Datenbetreffsanforderungen zu reagieren, sodass Sie personenbezogene Daten, die sich in den vom Controller verwalteten Daten befinden, die in der Cloud von Microsoft gespeichert sind, auffinden, korrigieren, einschränken, löschen, exportieren und darauf zugreifen können. Online Services stellt Daten bei Bedarf auch in maschinenlesbarer Form bereit.
 
-## <a name="data-protection-impact-assessment"></a>Bewertung der Auswirkungen auf den Datenschutz
+## <a name="data-protection-impact-assessment"></a>Datenschutzfolgenabschätzung
 
-Nach der DSGVO müssen die für die Verarbeitung Verantwortlichen eine [Datenschutz-Folgenabschätzung](gdpr-data-protection-impact-assessments.md) (DPIA) für Verarbeitungsvorgänge erstellen, die „wahrscheinlich ein hohes Risiko für die Rechte und Freiheiten natürlicher Personen darstellen“. Microsoft-Produkte und -Dienste enthalten nichts, was die Erstellung eines DPIA erfordert. Es hängt vielmehr von den Details Ihrer Microsoft-Konfiguration ab. Eine Liste der Details, die in Office berücksichtigt werden müssen, finden Sie im [Inhalt von DPIA](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dpia-office365#part-2--contents-of-a-dpia)
+Unter der DSGVO sind Datenverantwortliche dazu aufgerufen, eine [Datenschutzfolgenabschätzung](gdpr-data-protection-impact-assessments.md) (Data Protection Impact Assessment, DPIA) für Prozesse vorzubereiten, die „wahrscheinlich zu einem hohen Risiko für die Rechte und Freiheiten natürlicher Personen führen“. Microsoft-Produkte und -Dienste an sich machen keine Datenschutzfolgenabschätzung erforderlich. Vielmehr hängt dies von den Details Ihrer Microsoft-Konfiguration ab. Eine Liste der Details, die in Office berücksichtigt werden müssen, finden Sie in [Inhalte einer Datenschutzfolgenabschätzung](/microsoft-365/compliance/gdpr-dpia-office365#part-2--contents-of-a-dpia).
 
 ### <a name="dpia-faqs"></a>Häufig gestellte Fragen zur Datenschutzfolgenabschätzung
 
 **Wann sollten Sie eine Datenschutzfolgenabschätzung durchführen?**
 
-Die für die Verarbeitung Verantwortlichen müssen eine DPIA durchführen, um Risiken für die Sicherheit personenbezogener Daten oder aufgrund einer Datenverletzung zu beheben. Spezifische Beispiele für Risikofaktoren in Office werden unter [Bestimmen, ob eine DPIA erforderlich ist](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dpia-office365#part-1--determining-whether-a-dpia-is-needed), behandelt.  
+Verantwortliche sind dazu aufgefordert, eine Datenschutzfolgenabschätzung hinsichtlich Risiken für die Sicherheit personenbezogener Daten oder als Reaktion auf eine Datenschutzverletzung auszuführen. Spezifische Beispiele für Risikofaktoren in Office werden in [Ist eine Datenschutzfolgenabschätzung notwendig?](/microsoft-365/compliance/gdpr-dpia-office365#part-1--determining-whether-a-dpia-is-needed) behandelt.  
 
 **Was ist für die Durchführung einer Datenschutzfolgenabschätzung erforderlich?**
 
@@ -127,7 +127,7 @@ Die DSGVO gibt vor, dass eine Datenschutzfolgenabschätzung Folgendes umfasst:
 
 **Was sind meine Verantwortlichkeiten als Controller?**
 
-Die DSGVO sieht vor, dass Sie als Datencontroller vor der Verarbeitung von Daten, die mit hoher Wahrscheinlichkeit ein großes Risiko für die Rechte und Freiheiten einzelner Personen darstellt, eine Datenschutz-Folgenabschätzung auszuführen. Dies gilt inbesondere dann, wenn bei der Datenverarbeitung neue Technologien eingesetzt werden. Die DSGVO enthält die folgende nicht erschöpfende Liste von Fällen, in denen DPIAs durchgeführt werden müssen:
+Die DSGVO sieht vor, dass Sie als Datencontroller vor der Verarbeitung von Daten, die mit hoher Wahrscheinlichkeit ein großes Risiko für die Rechte und Freiheiten einzelner Personen darstellt, eine Datenschutz-Folgenabschätzung auszuführen. Dies gilt inbesondere dann, wenn bei der Datenverarbeitung neue Technologien eingesetzt werden. Im Folgenden finden Sie eine an die DSGVO angelehnte, nicht vollständige Liste von Fällen, in denen eine Datenschutz-Folgenabschätzung ausgeführt werden muss:
 
 - Automatisierte Verarbeitung zum Zweck der Profilerstellung und für ähnliche Aktivitäten, die rechtliche Auswirkungen haben oder sich in ähnlicher Weise wesentlich auf betroffene Personen auswirken;  
 - Umfassende Verarbeitung spezieller Kategorien von personenbezogenen Daten, d. h. Daten, aus denen die ethnische Herkunft, die politische Gesinnung oder Ähnliches hervorgeht, bzw. Daten zu strafrechtlichen Verurteilungen und Straftaten;  
@@ -137,66 +137,66 @@ Aus der DSGVO geht außerdem hervor, dass die Aufsichtsbehörde konsultiert werd
 
 **Was sind die Verantwortlichkeiten von Microsoft?**
 
-Microsoft praktiziert Datenschutz als Konzept und Standard in seinen technischen und geschäftlichen Funktionen. Im Rahmen dieser Bemühungen führt Microsoft umfassende Datenschutzprüfungen zu Datenverarbeitungsvorgängen durch, die möglicherweise Auswirkungen auf die Rechte und Freiheiten der betroffenen Personen haben. In die Servicegruppen eingebettete Datenschutzteams überprüfen das Konzept und die Implementierung von Services, um sicherzustellen, dass personenbezogene Daten auf respektvolle Weise verarbeitet werden, die dem Völkerrecht, den Erwartungen der Benutzer und unseren ausdrücklichen Verpflichtungen entspricht.
+Microsoft bietet in seinen Engineering- und Business-Bereichen sowohl standardmäßige als auch speziell zugeschnittene Datenschutzoptionen an. Im Rahmen dieser Bemühungen führt Microsoft umfassende Überprüfungen des Datenschutz bei Verarbeitungsvorgängen durch, die sich möglicherweise auf die Rechte und Freiheiten von Personen auswirken können. Datenschutzteams, die in die Dienstgruppen eingebettet sind, überprüfen das Design und die Implementierung von Diensten, um sicherzustellen, dass personenbezogene Daten auf respektvolle Art verarbeitet werden, die im Einklang mit internationalen Gesetzen, Benutzererwartungen und unseren ausdrücklichen Verpflichtungen stehen.
 
-Diese Datenschutzprüfungen sind in der Regel detailliert – ein bestimmter Dienst kann Dutzende oder Hunderte von Bewertungen erhalten. Microsoft fasst diese detaillierten Datenschutzprüfungen in Datenschutz-Folgenabschätzungen (Data Protection Impact Assessments, DPIAs) zusammen, die wichtige Verarbeitungsgruppen abdecken, die dann vom Microsoft EU-Datenschutzbeauftragten (Data Protection Officer, DPO) überprüft werden. Der Datenschutzbeauftragte bewertet die mit der Datenverarbeitung verbundenen Risiken, um sicherzustellen, dass ausreichende Minderungsmaßnahmen getroffen werden. Wenn der Datenschutzbeauftragte uneingeschränkte Risiken feststellt, werden Änderungen der Engineering-Gruppe empfohlen. DPIAs werden überprüft und aktualisiert, wenn sich die Datenschutzrisiken ändern.
+Diese Datenschutzüberprüfungen sind in der Regel ausführlich – ein bestimmter Dienst wird möglicherweise dutzende oder hunderte Male überprüft. Microsoft fasst diese ausführlichen Datenschutzüberprüfungen in Bewertungen der Auswirkungen des Datenschutzes zusammen, die größere Verarbeitungsgruppierungen umfassen, die dann vom Microsoft EU-Datenschutzbeauftragten überprüft werden. Der Datenschutzbeauftragte beurteilt die Risiken im Zusammenhang mit der Datenverarbeitung, um sicherzustellen, dass entsprechende Abhilfemaßnahmen vorhanden sind. Wenn der Datenschutzbeauftragte nicht abwendbare Risiken findet, werden Empfehlungen an die Engineering-Gruppe gegeben. Wenn sich Risiken im Zusammenhang mit dem Datenschutz ändern, werden die Bewertungen der Auswirkungen des Datenschutzes überprüft und aktualisiert.
 
 
-Microsoft als Verarbeiter ist verpflichtet, die Controller bei der Einhaltung der in der DSGVO festgelegten DPIA-Anforderungen zu unterstützen. Zur Unterstützung unserer Kunden wurden die relevanten Abschnitte der DPIAs von Microsoft zusammengefasst und werden in diesem Abschnitt in künftigen Updates bereitgestellt, damit Controller die Microsoft-Dienste nutzen können, um die Zusammenfassungen für die Erstellung eigener DPIAs zu verwenden.
+In der Funktion des Datenverarbeiters ist Microsoft verpflichtet, Datencontroller dabei zu unterstützen, die in der DSGVO formulierten Anforderungen an Datenschutz-Folgenabschätzungen zu erfüllen. Zur Unterstützung unserer Kunden wurden die relevanten Abschnitte der DPIAs von Microsoft zusammengefasst und werden in diesem Abschnitt in künftigen Updates bereitgestellt, damit Controller die Microsoft-Dienste nutzen können, um die Zusammenfassungen für die Erstellung eigener DPIAs zu verwenden.
 
 ## <a name="breach-notification"></a>Benachrichtigung bei Sicherheitsverletzungen
 
-Die DSGVO schreibt Meldepflichten für für die Controller und Verarbeiter von Daten bei Verstößen gegen personenbezogene Daten vor. Als Datenverarbeiter stellt Microsoft sicher, dass Kunden die Anforderungen der DSGVO für die Benachrichtigung über Verstöße erfüllen können. Die für die Datenverarbeitung Verantwortlichen sind dafür verantwortlich, die Risiken für den Datenschutz zu bewerten und festzustellen, ob ein Verstoß die Benachrichtigung der Datenschutzbehörde eines Kunden erfordert. Microsoft stellt die Informationen bereit, die für diese Bewertung erforderlich sind. Weitere Informationen darüber, wie Microsoft einen Verstoß gegen personenbezogene Daten erkennt und darauf reagiert, finden Sie unter [Benachrichtigung über Datenschutzverletzungen gemäß der DSGVO](gdpr-breach-notification.md).
+Die DSGVO sieht für die Verletzung des Schutzes personenbezogener Daten eine Informationspficht für Datencontroller und Datenverarbeiter vor. Als Datenauftragsverarbeiter stellt Microsoft sicher, dass unsere Kunden die DSGVO-Anforderungen zur Benachrichtigung bei Sicherheitsverletzungen erfüllen. Die Datenverantwortlichen sind dafür verantwortlich, die Datenschutzrisiken zu bewerten und zu beurteilen, ob ein Kunde über eine Datenschutzverletzung benachrichtigt werden muss. Microsoft stellt die Informationen zur Verfügung, die für diese Einschätzung erforderlich sind. Weitere Informationen darüber, wie Microsoft eine Verletzung des Schutzes personenbezogener Daten erkennt und darauf reagiert, finden Sie in [Benachrichtigung bei Datenschutzverletzungen im Rahmen der DSGVO](gdpr-breach-notification.md).
 
 ### <a name="breach-notification-faqs"></a>Häufig gestellte Fragen zu Benachrichtigung bei Sicherheitsverletzungen
 
 **Was stellt eine Verletzung personenbezogener Daten im Rahmen der DSGVO dar?**
 
-Personenbezogene Daten sind alle personenbezogenen Daten, mit denen sie direkt oder indirekt identifiziert werden können. Eine Verletzung personenbezogener Daten ist "eine Sicherheitsverletzung, die zur versehentlichen oder rechtswidrigen Zerstörung, zum Verlust, zur Änderung, zur unbefugten Offenlegung oder zum Zugriff auf personenbezogene Daten führt, die übertragen, gespeichert oder auf andere Weise verarbeitet werden".
+Personenbezogene Daten beziehen sich auf alle Informationen im Zusammenhang mit einer Person, die verwendet werden können, um diese Person direkt oder indirekt zu identifizieren. Eine Verletzung personenbezogener Daten stellt „einen Sicherheitsverstoß dar, der zur zufälligen oder unrechtmäßigen Zerstörung, zu Verlust, Veränderung, unbefugter Weitergabe oder unberechtigtem Zugang zu übermittelten, gespeicherten oder anderweitig verarbeiteten personenbezogenen Daten führt“.
 
 **Was sind Ihre Verantwortlichkeiten als Controller?**
 
 Wenn eine Verletzung personenbezogener Daten, die möglicherweise die Rechte und Freiheiten von Personen gefährdet (z. B. Diskriminierung, Identitätsdiebstahl, Betrug, finanzielle Schäden oder Schädigung ihres Rufs) auftritt, sind Sie im Rahmen der DSGVO zu Folgendem verpflichtet:
 
-- Benachrichtigen Sie die zuständige Datenschutzbehörde (DPA) innerhalb von 72 Stunden, nachdem Sie davon Kenntnis genommen haben – beispielsweise nachdem Microsoft Sie benachrichtigt hat. Wenn Sie die Datenschutzbehörde nicht innerhalb dieses Zeitraums benachrichtigen, müssen Sie der Datenschutzbehörde erklären, warum. Diese Mitteilung an die Datenschutzbehörde ist auch dann erforderlich, wenn für Einzelpersonen ein Risiko besteht, das wahrscheinlich nicht zu einem hohen Risiko führt.
+- Benachrichtigen Sie die entsprechende Datenschutzbehörde innerhalb von 72 Stunden nach Bekanntwerden des Vorfalls – beispielsweise, nachdem Sie von Microsoft benachrichtigt wurden. Wenn Sie die Datenschutzbehörde innerhalb dieses Zeitraums nicht benachrichtigen, müssen Sie hierzu eine Erklärung abliefern. Diese Erklärung an die Datenschutzbehörde ist auch dann erforderlich, wenn das Risiko für Personen nicht hoch ist.
 - Benachrichtigen Sie die betroffenen Personen unverzüglich über die Verletzung.
 - Dokumentieren Sie den Verstoß, einschließlich einer Beschreibung der Art der Verletzung – z. B. wie viele Personen betroffen waren, die Anzahl betroffener Datensätze, die Auswirkungen der Verletzung sowie alle Abhilfemaßnahmen, die Ihre Organisation vorschlägt oder ergriffen hat.
 
 **Was sind die Verantwortlichkeiten von Microsoft als Verarbeiter?**
 
-Nachdem wir Kenntnis von einem Verstoß gegen personenbezogene Daten erhalten haben, müssen wir Sie gemäß der DSGVO unverzüglich benachrichtigen. Wo Microsoft ein Verarbeiter ist, spiegeln unsere Verpflichtungen sowohl die DSGVO-Anforderungen als auch unsere weltweiten Standardvertragsbestimmungen wider. Wir sind der Ansicht, dass alle bestätigten Verstöße gegen personenbezogene Daten in den Geltungsbereich fallen. Es gibt kein Risiko einer Schadensschwelle. Wir werden unsere Kunden darüber informieren, ob der Datenverstoß direkt von Microsoft oder einem unserer Subprozessoren verursacht wurde. Wir verfügen über Prozesse, mit denen Sie Mitarbeiter von Sicherheitsvorfällen, die Sie in Ihrem Unternehmen identifiziert haben, schnell identifizieren und kontaktieren können. Darüber hinaus sind alle Subprozessoren vertraglich verpflichtet, Microsoft ihre eigenen Verstöße zu melden und diesbezügliche Garantien zu geben.
+Nachdem Microsoft auf eine Verletzung des Schutzes personenbezogener Daten aufmerksam gemacht wurde, sind wir im Rahmen der DSGVO dazu verpflichtet, Sie unverzüglich darüber zu informieren. Hat Microsoft die Rolle des Datenverarbeiters inne, spiegeln unsere Pflichten sowohl DSGVO-Anforderungen als auch unsere konzerneigenen, weltweiten Standardvertragsbestimmungen wider. In unseren Augen gilt dies für alle bestätigten Verletzungen des Schutzes personenbezogener Daten und unabhängig von dem potenziellen Schadensrisiko. Wir informieren unsere Kunden darüber, ob die Verletzung des Schutzes personenbezogener Daten bei Microsoft selbst oder bei einem unserer Unterauftragsverarbeiter auftrat. Wir haben Prozesse implementiert, mit denen wir die Verantwortlichen bei Sicherheitsvorfällen in Ihrer Organisation schnell identifizieren und kontaktieren können. Darüber hinaus sind alle Unterauftragsverarbeiter vertraglich verpflichtet, Verletzungen der Sicherheit personenbezogener Daten in ihren eigenen Systemen an Microsoft zu melden und dahingehende Garantien zu geben.
 
 **Wie erkennt Microsoft eine Verletzung des Schutzes personenbezogener Daten?**
 
-Alle unsere Dienste und Mitarbeiter befolgen interne Vorfall-Management-Verfahren, um sicherzustellen, dass wir angemessene Vorkehrungen treffen, um Datenverletzungen überhaupt zu vermeiden. Darüber hinaus verfügen Online-Dienste auf unseren Plattformen über spezifische Sicherheitskontrollen, um Datenverletzungen in seltenen Fällen zu erkennen.
+Alle unsere Dienste und Mitarbeiter befolgen interne Incident-Management-Prozeduren, um sicherzustellen, dass alle Vorsichtsmaßnahmen zur Vermeidung von Verletzungen der Schutzes personenbezogener Daten ergriffen werden.  Darüber hinaus hat Online Services spezifische plattformübergreifende Sicherheitskontrollen zur frühzeitigen Erkennung solcher Verletzungen implementiert.
 
 **Wie reagiert Microsoft auf eine Verletzung des Schutzes personenbezogener Daten?**
 
 Für die Verletzung des Schutzes personenbezogener Daten bietet Microsoft Ihnen folgende Unterstützung:
     - Entsprechend geschultes Sicherheitspersonal, das die zu befolgenden Prozeduren kennt.
-    - Verfügt über Richtlinien, Verfahren und Kontrollen, um sicherzustellen, dass Microsoft detaillierte Aufzeichnungen führt. In der Reaktion gehört die Dokumentation des Sachverhalts eines Vorfalls, seiner Auswirkungen und der ergriffenen Abhilfemaßnahmen ebenso wie das Nachverfolgen und Speichern der Informationen in unseren Vorfall-Management-Systemen.
+    - Richtlinien, Verfahren und Steuerungselemente, um sicherzustellen, dass Microsoft detailliert Aufzeichnung führt. In der Reaktion gehört die Dokumentation des Sachverhalts eines Vorfalls, seiner Auswirkungen und der ergriffenen Abhilfemaßnahmen ebenso wie das Nachverfolgen und Speichern der Informationen in unseren Incident-Management-Systemen.
 
 **Wie informiert Microsoft mich über eine Verletzung des Schutzes personenbezogener Daten?**
 
-Microsoft verfügt über Richtlinien und Verfahren, um Sie umgehend zu benachrichtigen. Damit Sie Ihrer Informationspflicht gegenüber der Datenschutzbehörde nachkommen können, stellen wir eine Beschreibung des Prozesses bereit, der befolgt wurde, um zu ermitteln, ob eine Verletzung des Schutzes personenbezogener Daten aufgetreten ist, ebenso wie eine Beschreibung der Art der Verletzung sowie der ergriffenen Gegenmaßnahmen.
+Microsoft hat Richtlinien und Prozeduren implementiert, um Sie umgehend zu benachrichtigen. Damit Sie Ihrer Informationspflicht gegenüber der Datenschutzbehörde nachkommen können, stellen wir eine Beschreibung des Prozesses bereit, der befolgt wurde, um zu ermitteln, ob eine Verletzung des Schutzes personenbezogener Daten aufgetreten ist, ebenso wie eine Beschreibung der Art der Verletzung sowie der ergriffenen Gegenmaßnahmen.
 
 ## <a name="accountability-readiness-checklists-for-the-gdpr"></a>Prüflisten zu Rechenschaftspflicht für die DSGVO
 
-Diese [Checklisten](gdpr-arc.md) bieten eine bequeme Möglichkeit, auf Informationen zuzugreifen, die Sie möglicherweise zur Unterstützung der DSGVO mithilfe von Microsoft-Produkten benötigen. Sie können Checklistenelemente mit [Microsoft Compliance Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) verwalten, indem Sie auf die Steuerelement-ID und den Steuerelementtitel unter Kundenverwaltete Steuerelemente in der DSGVO-Kachel verweisen.
+Diese [Prüflisten](gdpr-arc.md) ermöglichen einen bequemen Zugriff auf Informationen, die Sie bei der Einhaltung der DSGVO bei Verwendung von Microsoft-Produkten benötigen. Sie können Checklistenelemente mit [Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) verwalten, indem Sie unter „Vom Kunden verwaltete Steuerelemente“ in der GDPR-Kachel auf die Kontroll-ID und den Kontrolltitel verweisen.
 
 ## <a name="gdpr-faqs"></a>Häufig gestellte Fragen zur DSGVO
 
 **Hat Microsoft Verpflichtungen gegenüber seinen Kunden bezüglich der DSGVO?**
 
-Ja. Die DSGVO verlangt, dass Controller (wie Organisationen, die die Unternehmens-Onlinedienste von Microsoft nutzen) nur Verarbeiter (wie Microsoft) verwenden, die ausreichende Garantien bieten, um die wichtigsten Anforderungen der DSGVO zu erfüllen. Microsoft hat den proaktiven Schritt unternommen, diese Verpflichtungen allen Volumenlizenzierungskunden im Rahmen ihrer Vereinbarungen zur Verfügung zu stellen.
+Ja. Die DSGVO sieht vor, dass Verantwortliche (z. B. Unternehmen, die Microsoft Enterprise Online Services nutzen) nur mit Auftragsverarbeitern (z. B. Microsoft) zusammenarbeiten, die ausreichende Sicherheiten für die Einhaltung der zentralen DSGVO-Anforderungen bieten. Microsoft setzt sich proaktiv dafür ein, diesen Verpflichtung gegenüber allen Volumenlizenzkunden im Rahmen ihrer Verträge nachzukommen.
 
 **Wie hilft mir Microsoft bei der Compliance?**
 
-Microsoft bietet Tools und Dokumentationen zur Unterstützung Ihrer DSGVO-Verantwortlichkeit. Dies umfasst die Unterstützung der Rechte betroffener Personen, die Durchführung eigener Datenschutz-Folgenabschätzungen und die Zusammenarbeit bei der Behebung von Verstößen gegen personenbezogene Daten.
+Microsoft bietet Tools und Dokumentationen zur Unterstützung Ihrer DSGVO-Verantwortlichkeit. Dazu gehören die Unterstützung der Rechte der Betroffenen, die Durchführung eigener Datenschutz-Folgenabschätzung und die Zusammenarbeit bei der Aufklärung von Verletzung des Schutzes personenbezogener Daten.
 
 **Welche Verpflichtungen stehen in den DSGVO-Bedingungen?**
 
-Die DSGVO-Bestimmungen von Microsoft spiegeln die von den Verarbeitern in Artikel 28 geforderten Verpflichtungen wider. Gemäß Artikel 28 verpflichten sich die Verarbeiter zu:
+Die DSGVO-Bedingungen von Microsoft stellen die in Artikel 28 erforderlichen Verpflichtungen für Verarbeiter dar. Artikel 28 setzt voraus, dass die Verarbeiter folgende Aufgaben ausführen:
 
 - Verwenden von Subverarbeitern nur mit Zustimmung des Verantwortlichen, und für die Subverarbeiter haften.
 - Verarbeiten von personenbezogenen Daten nur nach Anweisung des Verantwortlichen, auch im Hinblick auf Übertragungen.
@@ -210,28 +210,28 @@ Die DSGVO-Bestimmungen von Microsoft spiegeln die von den Verarbeitern in Artike
 
 **Auf welcher Grundlage erleichtert Microsoft die Übertragung von personenbezogenen Daten in Länder außerhalb der EU?**
 
-Microsoft verwendet seit langem die Standardvertragsklauseln (auch als Modellklauseln bezeichnet) als Grundlage für die Datenübertragung für seine Unternehmens-Onlinedienste. Die Standardvertragsklauseln sind Standardbedingungen der Europäischen Kommission, mit denen Daten auf konforme Weise außerhalb des Europäischen Wirtschaftsraums übertragen werden können. Microsoft hat die Standardvertragsklauseln über die [Bedingungen für Onlinedienste](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46) in alle unsere Volumenlizenzvereinbarungen aufgenommen. Die Artikel 29-Arbeitsgruppe hat festgestellt, dass die Umsetzung der Standardvertragsklauseln durch Microsoft konform ist. Und als der EU-US-Datenschutzschild verfügbar wurde, war Microsoft das erste Unternehmen, das eine Zertifizierung durchführte. Lesen Sie die [Microsoft-Zertifizierung zum Privacy Shield](https://www.privacyshield.gov/participant?id=a2zt0000000KzNaAAK&status=Active) und lesen Sie die[ Online-Nutzungsbedingungen](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46). Das EU-US-Datenschutzschild unterstützt Kunden, die ihre Daten in die USA übertragen möchten, auf eine Weise, die ihren Datenschutzverpflichtungen entspricht.
+Microsoft verwendet seit langem die Standardvertragsklauseln (auch als Modellklauseln bekannt) als Grundlage für die Datenübertragung für seine Unternehmens-Online-Dienste. Die Standardvertragsklauseln sind von der Europäischen Kommission zur Verfügung gestellte Standardbedingungen, die verwendet werden können, um Daten konform außerhalb des Europäischen Wirtschaftsraums zu übertragen. Microsoft hat die Standardvertragsklauseln über die [Bedingungen für Online-Dienste](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46) in alle unsere Volumenlizenzverträge aufgenommen. Die Arbeitsgruppe des Artikels 29 hat festgestellt, dass die Umsetzung der Standardvertragsklauseln durch Microsoft konform ist. Und als der EU-US Privacy Shield verfügbar wurde, war Microsoft das erste Unternehmen, das sich zertifizieren ließ. Siehe [Microsofts Zertifizierung des Privacy Shield](https://www.privacyshield.gov/participant?id=a2zt0000000KzNaAAK&status=Active), und lesen Sie die [Bedingungen für Online-Dienste](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46). Der EU-US Privacy Shield hilft Kunden, die ihre Daten in die USA übertragen wollen, dies in einer Weise zu tun, die mit ihren Datenschutzverpflichtungen vereinbar ist.
 
 **Was sind die anderen Microsoft Compliance-Angebote?**
 
-Als globales Unternehmen mit Kunden in nahezu allen Ländern der Welt verfügt Microsoft über ein robustes Compliance-Portfolio, um unsere Kunden zu unterstützen. Eine vollständige Liste unserer Compliance-Angebote, einschließlich FedRamp, HIPAA/HITECH, ISO 27001, ISO 27002, ISO 27018, NIST 800-171, G-Cloud in Großbritannien und viele andere, finden Sie in unseren [Themen zu Compliance-Angeboten](offering-home.yml).
+Als globales Unternehmen mit Kunden in fast allen Ländern der Welt verfügt Microsoft über ein robustes Compliance-Portfolio zur Unterstützung unserer Kunden. Eine vollständige Liste unserer Compliance-Angebote einschließlich FedRamp, HIPAA/HITECH, ISO 27001, ISO 27002, ISO 27018, NIST 800-171, UK G-Cloud und viele andere finden Sie unter unseren [Themen für Compliance-Angebote](offering-home.yml).
 
 **Wie wirkt sich die DSGVO auf mein Unternehmen aus?**
 
 Die DSGVO erlegt Unternehmen, die persönliche Daten erfassen und verarbeiten, zahlreiche Anforderungen auf, einschließlich einer Verpflichtung zur Einhaltung von sechs Schlüsselprinzipien:
 
-- *Transparenz*, *Fairness*, and *Rechtmäßigkeit* beim Umgang mit und der Verwendung personenbezogener Daten. Sie müssen sich gegenüber Einzelpersonen darüber im Klaren sein, wie Sie personenbezogene Daten verwenden, und benötigen außerdem eine „gesetzliche Grundlage“ für die Verarbeitung dieser Daten.
-- Beschränkung der Verarbeitung personenbezogener Daten auf *bestimmte*, *explizite*, und *legitime Zwecke*. Sie sind nicht in der Lage, personenbezogene Daten für Zwecke wiederzuverwenden oder weiterzugeben, die mit dem Zweck, für den die Daten ursprünglich gesammelt wurden, nicht „kompatibel“ sind.
+- *Transparenz*, *Fairness* und *Rechtmäßigkeit* in der Handhabung und Nutzung personenbezogener Daten. Sie müssen sich gegenüber Einzelpersonen darüber im Klaren sein, wie Sie personenbezogene Daten verwenden, und benötigen außerdem eine „gesetzliche Grundlage“ für die Verarbeitung dieser Daten.
+- Beschränkung der Verarbeitung personenbezogener Daten auf *festgelegte*, *ausdrückliche* und *rechtmäßige Zwecke*. Sie sind nicht in der Lage, personenbezogene Daten für Zwecke wiederzuverwenden oder weiterzugeben, die mit dem Zweck, für den die Daten ursprünglich gesammelt wurden, nicht „kompatibel“ sind.
 - *Die Minimierung der Sammlung und Speicherung von personenbezogenen Daten* auf das Maß, das für den beabsichtigten Zweck angemessen und relevant ist.
-- Gewährleistung der *Richtigkeit personenbezogener Daten* und deren *Löschung oder Berichtigung*. Sie müssen Maßnahmen ergreifen, um sicherzustellen, dass die von Ihnen gespeicherten personenbezogenen Daten korrekt sind und bei Fehlern korrigiert werden können.
-- *Begrenzen der Speicherung personenbezogener Daten*. Sie müssen sicherstellen, dass Sie personenbezogene Daten nur so lange aufbewahren, wie dies zur Erreichung der Zwecke erforderlich ist, für die die Daten erhoben wurden.
-- Gewährleistung der *Sicherheit*, *Integrität* und *Vertraulichkeit personenbezogener Daten*. Ihre Organisation muss Maßnahmen ergreifen, um die Sicherheit personenbezogener Daten durch technische und organisatorische Sicherheitsmaßnahmen zu gewährleisten.
+- Gewährleistung der *Richtigkeit der personenbezogenen Daten* und Ermöglichung ihrer *Löschung oder Berichtigung*. Sie müssen Maßnahmen ergreifen, um sicherzustellen, dass die in Ihrem Besitz befindlichen persönlichen Daten korrekt sind und bei Fehlern korrigiert werden können.
+- *Begrenzen der Speicherung von personenbezogenen Daten*. Sie müssen sicherstellen, dass Sie personenbezogene Daten nur so lange aufbewahren, wie es für die Erreichung der Zwecke, für die Daten gesammelt wurden, erforderlich ist.
+- Gewährleistung von *Sicherheit*, *Integrität* und *Vertraulichkeit personenbezogener Daten*. Ihre Organisation muss Maßnahmen ergreifen, um personenbezogene Daten durch technische und organisatorische Sicherheitsmaßnahmen zu schützen.
 
 Sie müssen die spezifischen Verpflichtungen Ihres Unternehmens gemäß DSGVO kennen und wissen, wie Sie diese einhalten. Microsoft unterstützt Sie auf Ihrem Weg zur DSGVO.
 
 **Welche Rechte müssen Unternehmen laut der DSGVO gewähren?**
 
-Die DSGVO gibt den in der EU ansässigen Personen die Kontrolle über ihre personenbezogenen Daten durch eine Reihe von „Rechten der betroffenen Personen“. Dies beinhaltet das Recht auf:
+Die DSGVO gibt den in der EU ansässigen Personen die Kontrolle über ihre personenbezogenen Daten durch eine Reihe von „Rechten der betroffenen Personen“. Dazu gehört das Recht auf:
 
 - Zugriff zu Informationen darüber, wie personenbezogene Daten verwendet werden.
 - Zugriff zu personenbezogenen Daten im Besitz einer Organisation.
@@ -242,11 +242,11 @@ Die DSGVO gibt den in der EU ansässigen Personen die Kontrolle über ihre perso
 
 **Was sind Auftragsverarbeiter und Verantwortliche?**
 
-Ein Controller ist eine natürliche oder juristische Person, eine öffentliche Behörde, eine Agentur oder eine andere Einrichtung, die allein oder gemeinsam mit anderen die Zwecke und Mittel der Verarbeitung personenbezogener Daten festlegt. Ein Verarbeiter ist eine natürliche oder juristische Person, eine Behörde, eine Agentur oder eine andere Stelle, die im Auftrag des Controllers personenbezogene Daten verarbeitet.
+Ein Verantwortlicher ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet. Ein Verarbeiter ist eine natürliche oder juristische Person, öffentliche Behörde, Agentur oder andere Stelle, die personenbezogene Daten im Auftrag des Verantwortlichen verarbeitet.
 
 **Gilt die DSGVO für Verarbeiter und Verantwortlicher?**
 
-Ja, die DSGVO gilt sowohl für Controller als auch für Verarbeiter. Controller dürfen nur Verarbeiter verwenden, die Maßnahmen ergreifen, um die Anforderungen der DSGVO zu erfüllen. Nach der DSGVO sehen sich Verarbeiter im Vergleich zur Datenschutzrichtlinie zusätzlichen Pflichten und einer Haftung für Nichteinhaltung oder Handeln außerhalb der vom Controller erteilten Anweisungen gegenüber. Die Aufgaben des Verarbeiters umfassen, sind aber nicht beschränkt auf:
+Ja, die DSGVO gilt sowohl für Verantwortliche als auch für Verarbeiter. Die Verantwortlichen müssen nur Verarbeiter einsetzen, die Maßnahmen ergreifen, um die Anforderungen der DSGVO zu erfüllen. Nach der DSGVO sind Verarbeiter im Vergleich zur Datenschutzrichtlinie mit zusätzlichen Pflichten und Haftung für die Nichteinhaltung oder das Handeln außerhalb der vom Verantwortlichen erteilten Anweisungen konfrontiert. Zu den Aufgaben des Verarbeiters gehören unter anderem, ohne darauf beschränkt zu sein:
 
 - Verarbeitung von Daten nur auf Anweisung des Verantwortlichen.
 - Verwendung geeigneter technischer und organisatorischer Maßnahmen zum Schutz personenbezogener Daten.
@@ -255,11 +255,11 @@ Ja, die DSGVO gilt sowohl für Controller als auch für Verarbeiter. Controller 
 
 **Wie hoch können die Strafen bei Nichteinhaltung sein?**
 
-Unternehmen können mit einer Geldstrafe von bis zu &euro;20 Mio. oder 4% des weltweiten Jahresumsatzes belegt werden, je nachdem, welcher Wert höher ist, wenn bestimmte DSGVO-Anforderungen nicht erfüllt werden. Zusätzliche individuelle Abhilfemaßnahmen können Ihr Risiko erhöhen, wenn Sie die DSGVO-Anforderungen nicht einhalten.
+Unternehmen können bei Nichterfüllung bestimmter DSGVO-Anforderungen mit einer Geldbuße von bis zu &euro; 20 Mio. oder 4 % des weltweiten Jahresumsatzes belegt werden, je nachdem, welcher Betrag höher ist. Zusätzliche individuelle Abhilfemaßnahmen könnten Ihr Risiko erhöhen, wenn Sie sich nicht an die DSGVO-Anforderungen halten.
 
 **Muss mein Unternehmen einen Datenschutzbeauftragten (Data Protection Officer, DPO) ernennen?**
 
-Dies hängt von mehreren Faktoren ab, die in der Verordnung festgelegt sind. Artikel 37 der DSGVO besagt, dass die Verantwortliche und die Verarbeiter in jedem Fall einen Datenschutzbeauftragten benennen müssen: a) die Verarbeitung durch eine Behörde oder Einrichtung der öffentlichen Hand erfolgt, mit Ausnahme von Gerichten in ihrer gerichtlichen Eigenschaft; b) die Kerntätigkeiten des Verantwortlichen oder des Verarbeiters bestehen, die aufgrund ihrer Art, ihres Umfangs und/oder ihrer Zweckbestimmung eine regelmäßige und systematische Überwachung der betroffenen Personen in großem Maßstab erfordern; oder c) die Kerntätigkeiten des Verantwortlichen oder des Verarbeiters besonderer Datenkategorien gemäß Artikel 9 und personenbezogener Daten im Zusammenhang mit strafrechtlichen Verurteilungen und Straftaten nach Artikel 10 in großem Maßstab bestehen.
+Sie hängt von mehreren Faktoren ab, die in der Verordnung genannt werden. Artikel 37 der DSGVO besagt, dass die Verantwortliche und die Verarbeiter in jedem Fall einen Datenschutzbeauftragten benennen müssen: a) die Verarbeitung durch eine Behörde oder Einrichtung der öffentlichen Hand erfolgt, mit Ausnahme von Gerichten in ihrer gerichtlichen Eigenschaft; b) die Kerntätigkeiten des Verantwortlichen oder des Verarbeiters bestehen, die aufgrund ihrer Art, ihres Umfangs und/oder ihrer Zweckbestimmung eine regelmäßige und systematische Überwachung der betroffenen Personen in großem Maßstab erfordern; oder c) die Kerntätigkeiten des Verantwortlichen oder des Verarbeiters besonderer Datenkategorien gemäß Artikel 9 und personenbezogener Daten im Zusammenhang mit strafrechtlichen Verurteilungen und Straftaten nach Artikel 10 in großem Maßstab bestehen.
 
 **Wie hoch sind die Kosten für die Einhaltung der DSGVO?**
 
@@ -267,19 +267,19 @@ Die Einhaltung der DSGVO wird für die meisten Unternehmen Zeit und Geld kosten,
 
 **Wie kann ich feststellen, ob die Daten, die meine Organisation verarbeitet, unter die DSGVO fallen?**
 
-Die DSGVO regelt die Erhebung, Speicherung, Verwendung und Weitergabe „personenbezogener Daten“. Personenbezogene Daten werden in der DSGVO allgemein als alle Daten definiert, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen.
+Die DSGVO regelt die Erhebung, Speicherung, Nutzung und Weitergabe von „personenbezogenen Daten“. Personenbezogene Daten sind in der DSGVO allgemein als Daten definiert, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen.
 
-Zu den personenbezogenen Daten gehören unter anderem Online-Kennungen (z. B. IP-Adressen), Mitarbeiterinformationen, Verkaufsdatenbanken, Kundendienstdaten, Kundenfeedbackformulare, Standortdaten, biometrische Daten, CCTV-Material, Aufzeichnungen zu Treueplänen, Gesundheit, und Finanzinformationen und vieles mehr. Es kann sogar Informationen enthalten, die nicht persönlich zu sein scheinen, z. B. ein Foto einer Landschaft ohne Personen, bei denen diese Informationen durch eine Kontonummer oder einen eindeutigen Code mit einer identifizierbaren Person verknüpft sind. Und selbst personenbezogene Daten, die pseudonymisiert wurden, können personenbezogene Daten sein, wenn das Pseudonym mit einer bestimmten Person verknüpft werden kann. 
+Zu den personenbezogenen Daten können unter anderem Online-Identifikatoren (z. B. IP-Adressen), Mitarbeiterinformationen, Vertriebsdatenbanken, Daten des Kundendienstes, Kundenfeedback-Formulare, Standortdaten, biometrische Daten, CCTV-Aufnahmen, Aufzeichnungen über Treueprogramme, Gesundheits- und Finanzinformationen und vieles mehr gehören. Diese können sogar Informationen enthalten, die nicht personenbezogen zu sein scheinen – wie beispielsweise ein Foto einer Landschaft ohne Menschen – wenn diese Informationen durch eine Kontonummer oder einen eindeutigen Code mit einer identifizierbaren Person in Verbindung stehen. Und selbst personenbezogene Daten, die pseudonymisiert wurden, können personenbezogene Daten sein, wenn das Pseudonym mit einer bestimmten Person in Verbindung gebracht werden kann. 
 
-Die Verarbeitung bestimmter "spezieller" Kategorien personenbezogener Daten – beispielsweise personenbezogener Daten, die die rassische oder ethnische Herkunft einer Person offenbaren oder deren Gesundheit oder sexuelle Orientierung betreffen – unterliegt strengeren Regeln als die Verarbeitung "gewöhnlicher" personenbezogener Daten. Diese Auswertung personenbezogener Daten ist sehr faktenspezifisch. Wir empfehlen daher, einen Experten mit der Bewertung Ihrer spezifischen Umstände zu beauftragen.
+Die Verarbeitung bestimmter „spezieller“ Kategorien personenbezogener Daten – wie z. B. personenbezogene Daten, welche die rassische oder ethnische Herkunft einer Person offenbaren oder ihre Gesundheit oder sexuelle Ausrichtung betreffen – unterliegt strengeren Regeln als die Verarbeitung „gewöhnlicher“ personenbezogener Daten. Diese Auswertung der personenbezogenen Daten ist sehr faktenspezifisch, weshalb wir empfehlen, einen Experten zu beauftragen, um Ihre spezifischen Umstände zu beurteilen.
 
 **Meine Organisation verarbeitet nur Daten im Auftrag anderer. Muss sie noch die DSGVO einhalten?**
 
-Ja. Obwohl sich die Regeln etwas unterscheiden, gilt die DSGVO für Organisationen, die Daten für ihre eigenen Zwecke sammeln und verarbeiten („Controller“), sowie für Organisationen, die Daten im Auftrag anderer verarbeiten („Verarbeiter“). Diese Anforderung ist eine Abkehr von der bestehenden Datenschutzrichtlinie, die für die Controller gilt.
+Ja. Obwohl sich die Regeln etwas unterscheiden, gilt die DSGVO sowohl für Organisationen, die Daten für eigene Zwecke sammeln und verarbeiten („Verantwortliche“), als auch für Organisationen, die Daten im Auftrag anderer verarbeiten („Verarbeiter“). Diese Anforderung stellt eine Abkehr von der bestehenden Datenschutzrichtlinie dar, die für Verantwortlichen gilt.
 
 **Was gilt insbesondere als personenbezogenen Daten?**
 
-Personenbezogene Daten sind Informationen, die sich auf eine identifizierte oder identifizierbare Person beziehen. Es gibt keinen Unterschied zwischen den privaten, öffentlichen oder beruflichen Rollen einer Person. Personenbezogene Daten können Folgendes umfassen:
+Personenbezogene Daten sind alle Informationen, die eine identifizierte oder identifizierbare Person betreffen. Es wird nicht zwischen privaten, öffentlichen oder beruflichen Rollen einer Person unterschieden. Zu den persönlichen Daten gehören:
 
 - Name
 - Private Adresse
@@ -305,19 +305,19 @@ Personenbezogene Daten sind Informationen, die sich auf eine identifizierte oder
 
 **Kann ich Daten außerhalb der EU übertragen?**
 
-Ja, die DSGVO regelt jedoch streng die Übermittlung personenbezogener Daten von in Europa ansässigen Personen an Ziele außerhalb des Europäischen Wirtschaftsraums. Möglicherweise müssen Sie einen bestimmten rechtlichen Mechanismus einrichten, z. B. einen Vertrag, oder einen Zertifizierungsmechanismus einhalten, um diese Übertragungen zu ermöglichen. Microsoft beschreibt die Mechanismen, die wir in den Nutzungsbedingungen für Onlinedienste verwenden.
+Ja, aber die DSGVO regelt streng die Übertragung von personenbezogenen Daten europäischer Bürger an Orte außerhalb des Europäischen Wirtschaftsraums. Möglicherweise müssen Sie einen bestimmten rechtlichen Mechanismus, wie z. B. einen Vertrag, einrichten oder sich an einen Zertifizierungsmechanismus halten, um diese Übertragungen zu ermöglichen. Microsoft erläutert die von uns verwendeten Mechanismen in den Bedingungen für Online-Dienste.
 
 **Ich habe Anforderungen an die Datenaufbewahrung durch Compliance. Haben diese Anforderungen Vorrang vor dem Recht auf Löschung?**
 
-Liegen berechtigte Gründe für die weitere Verarbeitung und Vorratsdatenspeicherung vor, z. B. „zur Einhaltung einer gesetzlichen Verpflichtung, die die Verarbeitung durch das Recht der Union oder der Mitgliedstaaten erfordert, dem der für die Verarbeitung Verantwortliche unterliegt“ (Artikel 17(3)(b)), erkennt die DSGVO an, dass Organisationen möglicherweise zur Vorratsdatenspeicherung verpflichtet sind. Sie sollten jedoch sicherstellen, dass Sie Ihren Rechtsbeistand hinzuziehen, um sicherzustellen, dass die Gründe für die Aufbewahrung gegen die Rechte und Freiheiten der betroffenen Personen, ihre Erwartungen zum Zeitpunkt der Datenerfassung usw. abgewogen werden.
+Wenn es berechtigte Gründe für eine weitere Verarbeitung und Datenspeicherung gibt, wie z. B. „zur Erfüllung einer rechtlichen Verpflichtung, die eine Verarbeitung durch das Recht der Union oder eines Mitgliedstaates erfordert, dem der für die Verarbeitung Verantwortliche unterliegt“ (Artikel 17 Absatz 3 Buchstabe b)), erkennt die DSGVO an, dass Organisationen zur Speicherung von Daten verpflichtet werden können. Sie sollten jedoch sicherstellen, dass Sie Ihren Rechtsbeistand hinzuziehen, um sicherzustellen, dass die Gründe für die Vorratsspeicherung gegen die Rechte und Freiheiten der betroffenen Personen, ihre Erwartungen zum Zeitpunkt der Datenerhebung usw. abgewogen werden.
 
 **Befasst sich die DSGVO mit Verschlüsselung?**
 
-Die Verschlüsselung wird in der DSGVO als Schutzmaßnahme bezeichnet, die personenbezogene Daten unverständlich macht, wenn sie von einem Verstoß betroffen sind. Daher kann sich die Verwendung der Verschlüsselung auf die Anforderungen für die Benachrichtigung über einen Verstoß gegen personenbezogene Daten auswirken. Die DSGVO weist in einigen Fällen je nach Risiko auch auf eine Verschlüsselung als geeignete technische oder organisatorische Maßnahme hin. Die Verschlüsselung ist auch eine Anforderung des Datensicherheitsstandards der Zahlungskartenbranche und Teil der strengen Compliance-Richtlinien für die Finanzdienstleistungsbranche. Microsoft-Produkte und -Dienste wie Azure, Dynamics 365, Enterprise Mobility + Security, Office Microsoft 365, SQL Server/Azure SQL-Datenbank und Windows 10 bieten eine robuste Verschlüsselung für Daten während der Übertragung und Daten in Ruhe.
+Die Verschlüsselung wird in der DSGVO als eine Schutzmaßnahme identifiziert, die personenbezogene Daten unverständlich macht, wenn sie von einer Verletzung betroffen sind. Daher kann sich die Frage, ob eine Verschlüsselung verwendet wird, auf die Anforderungen für die Benachrichtigung über eine Verletzung des Schutzes personenbezogener Daten auswirken. Die DSGVO weist auch auf die Verschlüsselung als eine geeignete technische oder organisatorische Maßnahme in einigen Fällen hin, je nach Risiko. Die Verschlüsselung ist auch eine Anforderung durch den Datensicherheitsstandard der Zahlungskartenindustrie und Teil der strengen Compliance-Richtlinien, die speziell für die Finanzdienstleistungsbranche gelten. Microsoft-Produkte und -Dienstleistungen wie Azure, Dynamics 365, Enterprise Mobility + Security, Office Microsoft 365, SQL Server/Azure SQL-Datenbank und Windows 10 bieten eine robuste Verschlüsselung der Daten während der Übertragung und der Daten im Ruhezustand.
 
 **Wie verändert die DSGVO die Reaktion einer Organisation auf Verletzungen des Schutzes personenbezogener Daten?**
 
-Die DSGVO wird die Datenschutzanforderungen ändern und den Verarbeitern und Controllern strengere Verpflichtungen hinsichtlich der Meldung von Verstößen gegen personenbezogene Daten auferlegen. Nach der neuen Verordnung muss der Verarbeiter den Controllern unverzüglich über einen Verstoß gegen personenbezogene Daten informieren, nachdem er davon Kenntnis genommen hat. Sobald der Verantwortliche Kenntnis von einem Verstoß gegen personenbezogene Daten hat, muss er die zuständige Datenschutzbehörde innerhalb von 72 Stunden benachrichtigen. Wenn der Verstoß wahrscheinlich zu einem hohen Risiko für die Rechte und Freiheiten von Personen führt, müssen die Controller betroffene Personen unverzüglich benachrichtigen. Zusätzliche Leitlinien zu diesem Thema werden von der Artikel-29-Arbeitsgruppe der EU entwickelt.
+Die DSGVO wird die Datenschutzanforderungen ändern und strengere Verpflichtungen für Verarbeiter und für die Verarbeitung Verantwortliche in Bezug auf die Meldung von Verletzungen des Schutzes personenbezogener Daten vorsehen. Gemäß der neuen Verordnung muss der Verarbeiter den für die Verarbeitung Verantwortlichen über eine Verletzung des Schutzes personenbezogener Daten informieren, nachdem er davon Kenntnis erhalten hat, und zwar ohne unangemessene Verzögerung. Sobald der für die Verarbeitung Verantwortliche Kenntnis von einer Verletzung des Schutzes personenbezogener Daten hat, muss er die zuständige Datenschutzbehörde innerhalb von 72 Stunden benachrichtigen. Wenn die Verletzung wahrscheinlich zu einem hohen Risiko für die Rechte und Freiheiten des Einzelnen führen wird, müssen die Verantwortlichen die betroffenen Personen ebenfalls unverzüglich benachrichtigen. Zusätzliche Leitlinien zu diesem Thema werden von der Arbeitsgruppe des Artikels 29 der EU entwickelt.
 
 Microsoft-Produkte und -Dienstleistungen, wie Azure, Dynamics 365, Enterprise Mobility + Security, Microsoft Office 365 und Windows 10, stehen heute zur Verfügung, um Sie bei der Erkennung und Bewertung von Sicherheitsbedrohungen und Sicherheitsverletzungen zu unterstützen und die DSGVO-Benachrichtigungspflichten zu erfüllen.
 

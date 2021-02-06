@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 8bde27222806ea5909c67bac8556ff682453809b
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: f35e72bc81a93bcba3ecea5ca8a416553e6116a8
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49509695"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121374"
 ---
 # <a name="center-for-internet-security-cis-benchmarks"></a>Benchmarks des Center for Internet Security (CIS)
 
@@ -70,8 +70,8 @@ Rufen Sie eine [vollständige Liste von CIS-Benchmarks](https://www.cisecurity.o
 ## <a name="how-to-implement"></a>Implementierung
 
 - [CIS-Benchmark für Azure](https://azure.microsoft.com/mediahandler/files/resourcefiles/cis-microsoft-azure-foundations-security-benchmark/CIS_Microsoft_Azure_Foundations_Benchmark_v1.0.0.pdf): Hier erhalten Sie verbindliche Anweisungen für die Einrichtung einer sicheren Basislinienkonfiguration für Azure.  
-- [Inhaltsübersicht für die Sicherheit von Microsoft 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap): Minimieren Sie das Risiko einer Datenschutzverletzung oder eines kompromittierten Kontos, indem Sie diese Roadmap befolgen.
-- [Windows-Sicherheitsbasispläne](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines): Befolgen Sie diese Richtlinien, um Sicherheitsbasislinien in Ihrer Organisation effektiv zu nutzen.
+- [Inhaltsübersicht für die Sicherheit von Microsoft 365](/microsoft-365/security/office-365-security/security-roadmap): Minimieren Sie das Risiko einer Datenschutzverletzung oder eines kompromittierten Kontos, indem Sie diese Roadmap befolgen.
+- [Windows-Sicherheitsbasispläne](/windows/security/threat-protection/windows-security-baselines): Befolgen Sie diese Richtlinien, um Sicherheitsbasislinien in Ihrer Organisation effektiv zu nutzen.
 - [CIS Controls Cloud Companion Guide](https://www.cisecurity.org/white-papers/cis-controls-cloud-companion-guide/): Hier finden Sie Anweisungen zum Anwenden bewährter Sicherheitsmethoden in CIS-Steuerungen, Version 7, auf Cloudanwendungen.
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
@@ -90,11 +90,11 @@ CIS betont, dass seine „Benchmarks mithilfe der großzügigen Freiwilligenarbe
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
 
-[Microsoft Compliance Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center, die Ihnen](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen in Compliance Manager erstellen](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
+[Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center, die Ihnen](/microsoft-365/compliance/microsoft-365-compliance-center) hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen in Compliance Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="resources"></a>Ressourcen
 
 - [Bewährte CIS-Methoden zur sicheren Verwendung von Microsoft 365](https://www.microsoft.com/security/blog/2019/01/10/best-practices-for-securely-using-microsoft-365-the-cis-microsoft-365-foundations-benchmark-now-available/)
-- [Sicherheitsrichtlinieneinstellungen in Windows 10](https://docs.microsoft.com/windows/security/threat-protection/security-policy-settings/security-policy-settings)
-- [Sicherheit in Windows 10 Enterprise](https://docs.microsoft.com/windows/security/index)
+- [Sicherheitsrichtlinieneinstellungen in Windows 10](/windows/security/threat-protection/security-policy-settings/security-policy-settings)
+- [Sicherheit in Windows 10 Enterprise](/windows/security/index)
 - [Compliance im Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)

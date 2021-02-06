@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b4a006fbbcd4a1af3a8ff118ea7cacaecb2ceadc
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: f9c3ebd4c4988366d429f7b6cfc377f4f9c8a611
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49509406"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120074"
 ---
 # <a name="my-number-act-japan"></a>„My Number“-Gesetz (Japan)
 
@@ -60,11 +60,11 @@ Microsoft Business Cloud Services unterstützt daher die Vorschriften des „My 
 
 - [Datenschutz in Office 365](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=a1b48a5b-bcb1-4c19-9277-952c0df87113&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers): So integriert Microsoft starken Datenschutz in Office 365.
 
-- [Administratorzugriff in Office 365](https://docs.microsoft.com/office365/SecurityCompliance/office-365-administrative-access-controls-overview): So verwaltet Microsoft den administrativen Zugriff auf Kundendaten.
+- [Administratorzugriff in Office 365](/office365/SecurityCompliance/office-365-administrative-access-controls-overview): So verwaltet Microsoft den administrativen Zugriff auf Kundendaten.
 
-- [Audits und Berichte in Office 365](https://docs.microsoft.com/office365/SecurityCompliance/office-365-auditing-and-reporting-overview): Entdecken Sie die Features, die Kunden verwenden können, um Benutzer- und administrative Aktivitäten innerhalb des Mandanten nachzuverfolgen.
+- [Audits und Berichte in Office 365](/office365/SecurityCompliance/office-365-auditing-and-reporting-overview): Entdecken Sie die Features, die Kunden verwenden können, um Benutzer- und administrative Aktivitäten innerhalb des Mandanten nachzuverfolgen.
 
-- [Datenaufbewahrung in Office 365](https://docs.microsoft.com/office365/SecurityCompliance/office-365-data-retention-deletion-and-destruction-overview): Grundlegendes zur Datenverarbeitungsrichtlinie über die Dauer der Aufbewahrung von Kundendaten nach dem Löschen.
+- [Datenaufbewahrung in Office 365](/office365/SecurityCompliance/office-365-data-retention-deletion-and-destruction-overview): Grundlegendes zur Datenverarbeitungsrichtlinie über die Dauer der Aufbewahrung von Kundendaten nach dem Löschen.
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 

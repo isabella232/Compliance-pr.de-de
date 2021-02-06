@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0f0ca41f3b69d595dcdb3f3d2049fe2a0f7a95e1
-ms.sourcegitcommit: 693bc6b1b51a5a9c9ff1758fa7f7ca3a204f147e
+ms.openlocfilehash: df5131af45a938199df1a52bbf3e437f34ed3f9a
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49574867"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121854"
 ---
 # <a name="information-protection-for-gdpr-with-microsoft-365-capabilities"></a>Schutz von Daten für die DSGVO mit Microsoft 365-Funktionen
 
@@ -33,9 +33,9 @@ Weitere Informationen dazu, wie Microsoft Ihnen mit der DSGVO helfen kann, finde
 ## <a name="information-protection"></a>Schutz von Daten
 
 
-Office 365 bietet umfassende Funktionen zur Datenkontrolle. Hilfe zum Suchen, Klassifizieren, Schützen und Überwachen von personenbezogenen Daten finden Sie unter [Schutz von Informationen in Office 365 für die DSGVO](https://docs.microsoft.com/microsoft-365/compliance/office-365-information-protection-for-gdpr).
+Office 365 bietet umfassende Funktionen zur Datenkontrolle. Hilfe zum Suchen, Klassifizieren, Schützen und Überwachen von personenbezogenen Daten finden Sie unter [Schutz von Informationen in Office 365 für die DSGVO](/microsoft-365/compliance/office-365-information-protection-for-gdpr).
 
-Hilfe zu lokalen Servern, einschließlich Dateifreigaben, SharePoint Server, Exchange Server, Skype for Business Server, Project Server und Office Online Server, finden Sie unter [DSGVO für lokale Office-Server](https://docs.microsoft.com/microsoft-365/compliance/gdpr-for-office-servers). 
+Hilfe zu lokalen Servern, einschließlich Dateifreigaben, SharePoint Server, Exchange Server, Skype for Business Server, Project Server und Office Online Server, finden Sie unter [DSGVO für lokale Office-Server](/microsoft-365/compliance/gdpr-for-office-servers). 
 
 ## <a name="identity-and-access-management"></a>Identitäts- und Zugriffsverwaltung
 
@@ -50,16 +50,16 @@ Azure Active Directory und andere Funktionen von Microsoft 365 bieten eine umfas
 
 Microsoft bietet eine empfohlene Konfiguration, die Sie als Ausgangspunkt verwenden können:
 
-- [Konfigurationen für den Identitäts- und Gerätezugriff](https://docs.microsoft.com/microsoft-365/security/office-365-security/microsoft-365-policies-configurations): Empfohlene Richtlinienkonfigurationen, um drei Ebenen von Schutz zu erzielen (Baseline, vertraulich und stark reguliert). Dieser Leitfaden umfasst empfohlene Richtlinien für Exchange Online und SharePoint Online (einschließlich OneDrive for Business).
-- [Sicherheitsanweisungen für politische Kampagnen, gemeinnützige Unternehmen und andere agile Organisationen](https://docs.microsoft.com/microsoft-365/security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o): Dies umfasst dieselbe Gruppe von Richtlinien, bietet jedoch mehr Führung für BYOD-Geräte und B2B-Konten.
+- [Konfigurationen für den Identitäts- und Gerätezugriff](/microsoft-365/security/office-365-security/microsoft-365-policies-configurations): Empfohlene Richtlinienkonfigurationen, um drei Ebenen von Schutz zu erzielen (Baseline, vertraulich und stark reguliert). Dieser Leitfaden umfasst empfohlene Richtlinien für Exchange Online und SharePoint Online (einschließlich OneDrive for Business).
+- [Sicherheitsanweisungen für politische Kampagnen, gemeinnützige Unternehmen und andere agile Organisationen](/microsoft-365/security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o): Dies umfasst dieselbe Gruppe von Richtlinien, bietet jedoch mehr Führung für BYOD-Geräte und B2B-Konten.
 
 ## <a name="threat-protection"></a>Bedrohungsschutz
 
 Der Bedrohungsschutz ist in Microsoft 365-Diensten integriert. Nachfolgend finden Sie einige Ressourcen für die ersten Schritte:
 
-- [Office 365-Sicherheits-Roadmap: Die obersten Prioritäten für die ersten 30 Tage, die 90 Tage und darüber hinaus](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap). Diese Roadmap enthält Empfehlungen für das Implementieren von Funktionen. 
-- [Schutz vor Bedrohungen in Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats). Erfahren Sie mehr über die Schutzaktion, die Sie im Microsoft 365 Security Center ergreifen können.
-- [Windows-Bedrohungsschutz](https://docs.microsoft.com/windows/security/threat-protection/). Weitere Informationen zu Windows Defender Advanced Threat Protection und anderen Funktionen in Windows 10.
+- [Office 365-Sicherheits-Roadmap: Die obersten Prioritäten für die ersten 30 Tage, die 90 Tage und darüber hinaus](/microsoft-365/security/office-365-security/security-roadmap). Diese Roadmap enthält Empfehlungen für das Implementieren von Funktionen. 
+- [Schutz vor Bedrohungen in Office 365](/microsoft-365/security/office-365-security/protect-against-threats). Erfahren Sie mehr über die Schutzaktion, die Sie im Microsoft 365 Security Center ergreifen können.
+- [Windows-Bedrohungsschutz](/windows/security/threat-protection/). Weitere Informationen zu Windows Defender Advanced Threat Protection und anderen Funktionen in Windows 10.
 
 ## <a name="learn-more"></a>Weitere Informationen
 

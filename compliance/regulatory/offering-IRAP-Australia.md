@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 02ecb44826e3e68d41ab0b18c3940d96b8b957d4
-ms.sourcegitcommit: 81bd5a6603e899ddbb7c580cf4f55a4636959bbd
+ms.openlocfilehash: 66ee49e008f26c7af40e33d10f3415fdfac43498
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49933101"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120274"
 ---
 # <a name="australian-government-information-security-registered-assessor-program-irap"></a>Australian Government Information Security Registered Assessor Program (IRAP)
 
@@ -31,8 +31,8 @@ Das Information Security Registered Assessor Program (IRAP) bietet einen umfasse
 
 Das Information Security Registered Assessors Program (IRAP) wird vom Australian Cyber Security Center (ACSC) geregelt und verwaltet. IRAP bietet den Rahmen, um Einzelpersonen aus dem privaten und öffentlichen Sektor zu unterstützen, um der australischen Regierung Cybersicherheitsbewertungsdienste zur Verfügung zu stellen. Unterstützte IRAP-Assessoren können eine unabhängige Bewertung der SICHERHEIT von ICT bereitstellen, Gegenmaßnahmen vorschlagen und Restrisiken hervorheben. IRAP bietet einen umfassenden Prozess für die unabhängige Bewertung der Sicherheit eines Systems gegen australische Richtlinien und Richtlinien. Das Ziel von IRAP besteht in der Maximierung der Sicherheit australischer Bundes-, Bundesstaats- und lokaler Regierungsdaten, indem der Schwerpunkt auf der Informations- und Kommunikationstechnologieinfrastruktur liegt, in der diese gespeichert, verarbeitet und kommuniziert wird.
 
-- Im Jahr 2014 wurde Azure als erster von IRAP bewerteter Clouddienst in Australien gestartet, der von Rechenzentren in Melbourne und Sydney gehostet wird. Diese beiden Rechenzentren geben australischen Kunden die Kontrolle darüber, wo ihre Kundendaten gespeichert werden, und bieten gleichzeitig verbesserte Datenkontrolle bei Naturkatastrophen durch Sicherungen an beiden Standorten.
-- Anfang 2015 wurde Office 365 der erste Cloudproduktivitätsdienst, der diese Bewertung abgeschlossen hat.
+- Im Jahr 2014 wurde Azure als erster von IRAP bewerteter Clouddienst in Australien gestartet, der von Rechenzentren in Melbourne und Sydney gehostet wird. Diese beiden Rechenzentren geben australischen Kunden die Kontrolle darüber, wo ihre Kundendaten gespeichert werden, und bieten gleichzeitig verbesserte Datenunfähigkeit bei Naturkatastrophen durch Sicherungen an beiden Standorten.
+- Anfang 2015 wurde Office 365 der erste Cloudproduktivitätsdienst, der diese Bewertung abschließen kann.
 - Im April 2015 hat der ASD die CCSL-Zertifizierung von Azure und Office 365 sowie im November 2015 von Dynamics 365 angekündigt.
 - Im Juni 2017 hat ASD die Berichtigung von Microsoft Azure und Office 365 für eine erheblich erweiterte Gruppe von Diensten angekündigt.
 - Im April 2018 hat acSC die Zertifizierung von Azure und Office 365 bei der KLASSIFIZIERUNG PROTECTED angekündigt. Microsoft ist der erste und einzige öffentliche Cloudanbieter, der diese Zertifizierungsstufe erreicht.
@@ -58,7 +58,7 @@ Wie immer können zusätzliche Ausgleichskontrollen auf risikoverdächtiger Basi
 
 Die IRAP-Bewertung der Dienste und Cloudvorgänge von Microsoft trägt dazu bei, kunden im öffentlichen Sektor und ihren Partnern zu gewährleisten, dass Microsoft über geeignete und effektive Sicherheitskontrollen für die Verarbeitung, Speicherung und Übertragung von Daten verfügt, die bis einschließlich der Stufe GESCHÜTZT klassifiziert wurden. Diese Bewertung umfasst die meisten Daten aus Behörden, Gesundheitswesen und Bildungseinrichtungen in Australien.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft-Clouddienste im Leistungsumfang
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft Cloud Services im Leistungsumfang
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
@@ -77,11 +77,11 @@ Ja. Wenn Ihre Organisation eine Genehmigung für den Betrieb im Einklang mit dem
 
 **Wo beginne ich mit der eigenen Risikobewertung und Genehmigung meiner Organisation für den Betrieb?**
 
-Es wird empfohlen, dass Sie den Leitfaden zur [Cloudsicherheitsbewertung](https://www.cyber.gov.au/acsc/government/cloud-security-guidance) des ACSC lesen.
+Es wird empfohlen, dass Sie die [Cloud Security Assessments Guidance](https://www.cyber.gov.au/acsc/government/cloud-security-guidance) des ACSC lesen.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
 
-[Microsoft Compliance Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center), die Ihnen hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
+[Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center, die Ihnen](/microsoft-365/compliance/microsoft-365-compliance-center) hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen in Compliance Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="resources"></a>Ressourcen
 

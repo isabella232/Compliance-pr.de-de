@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 for Enterprise Business Continuity Management-Minderungsmaßnahmen
+title: Microsoft 365 for enterprise Business Continuity Management Mitigations
 description: Einige Beispiele für Risikominderungen für Microsoft 365-Dienstvorfallszenarien.
 author: robmazz
 ms.author: robmazz
@@ -16,12 +16,12 @@ ms.collection:
 - Strat_O365_Enterprise
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: b31ee58d4e9a60232d7d5df4ff1bf4f16b6266cf
-ms.sourcegitcommit: 693bc6b1b51a5a9c9ff1758fa7f7ca3a204f147e
+ms.openlocfilehash: b77af73db3a6b9d9fbaf3ae776a6c5077c6972d1
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49574747"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120474"
 ---
 # <a name="service-incident-mitigation-strategies"></a>Strategien zur Schadensbegrenzung bei Dienstvorfällen
 
@@ -37,7 +37,7 @@ Nachfolgend finden Sie einige Strategien und Szenarien, die veranschaulichen, wi
 |VoIP-Telefone werden als sekundäre Kommunikationsmethode verwendet.|Implementieren Sie Nicht-VoIP-Telefone für Festnetztelefonate, insbesondere für Netzwerk- und Service-Rechenzentren während Vorfällen. Fügen Sie die Mobiltelefonnummer der Mitarbeiter zum Unternehmensverzeichnis hinzu, damit wichtige Mitarbeiter über das Mobilfunknetz kontaktiert werden können.|
 |OneDrive for Business wird für Dateispeicherung und Benutzerproduktivität verwendet. [Dateien bei Bedarf](https://techcommunity.microsoft.com/t5/Microsoft-OneDrive-Blog/OneDrive-Files-On-Demand-For-The-Enterprise/ba-p/117234) wird so konfiguriert, dass Speicherplatz auf lokalen Benutzer Laufwerken freigegeben wird.|Die OneDrive-Synchronisierung stellt Gruppenrichtlinien bereit, mit denen Administratoren festlegen können, dass bestimmte Inhalte lokal synchronisiert werden müssen oder bei Bedarf Speicherplatz freigegeben wird. Um das Risiko zu minimieren, dass auf ein Dokument nicht zugegriffen werden kann, konfigurieren Sie diese Richtlinie so, dass wichtige Dokumente lokal synchronisiert werden. Schulen Sie die Benutzer dahingehend, dass die Einstellung „Immer behalten auf diesem Gerät“ für wichtige Dokumente angewendet wird.|
 |Die Kommunikation von Geschäftsunterbrechungen an Kunden und Lieferanten erfolgt über Exchange Online.|Öffentliche soziale Netzwerke von Drittanbietern können als alternative Massenkommunikationsmethode verwendet werden.
-|Eine lokale Hybrid-Architektur wie ADFS oder Passthrough-Authentifizierung schlägt fehl und führt zu Unterbrechungen bei der Authentifizierung der Benutzer bei Cloud-Diensten.|Konfigurieren Sie [Kennwort-Hash Synchronisierung](https://docs.microsoft.com/azure/active-directory/authentication/concept-resilient-controls#deploy-password-hash-sync-even-if-you-are-federated-or-use-pass-through-authentication) in Verbindung mit Ihren Hybrid-Authentifizierungsdiensten als sekundärer Cloud-basierter Authentifizierungsmechanismus, um die Anmeldungsunterbrechung während des Ausfall zu vermeiden. Weitere Informationen zum Erstellen von widerstandsfähigen Authentifizierungs- und Zugriffssteuerungsarchitekturen finden Sie unter [Erstellen einer widerstandsfähigen Zugriffsteuerungs-Management-Strategie mit Azure Active Directory](https://docs.microsoft.com/azure/active-directory/authentication/concept-resilient-controls).|  
+|Eine lokale Hybrid-Architektur wie ADFS oder Passthrough-Authentifizierung schlägt fehl und führt zu Unterbrechungen bei der Authentifizierung der Benutzer bei Cloud-Diensten.|Konfigurieren Sie [Kennwort-Hash Synchronisierung](/azure/active-directory/authentication/concept-resilient-controls#deploy-password-hash-sync-even-if-you-are-federated-or-use-pass-through-authentication) in Verbindung mit Ihren Hybrid-Authentifizierungsdiensten als sekundärer Cloud-basierter Authentifizierungsmechanismus, um die Anmeldungsunterbrechung während des Ausfall zu vermeiden. Weitere Informationen zum Erstellen von widerstandsfähigen Authentifizierungs- und Zugriffssteuerungsarchitekturen finden Sie unter [Erstellen einer widerstandsfähigen Zugriffsteuerungs-Management-Strategie mit Azure Active Directory](/azure/active-directory/authentication/concept-resilient-controls).|  
 
 ## <a name="leveraging-mobile-app-access"></a>Nutzen des Zugriffs per mobiler App
 

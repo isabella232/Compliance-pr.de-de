@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 1229dba8c5106c48e431c0bdf09e86e65bb402cc
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: cd26a6a8256d2efa85451e84f1caffc7e68c043b
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507333"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121404"
 ---
 # <a name="financial-authority-amf-and-prudential-authority-acpr-france"></a>Die Finanzaufsichtsbehörde (AMF) und die Aufsichts- und Beschlussaufsichtsbehörde (ACPR) Frankreich
 
@@ -59,7 +59,7 @@ Die Microsoft-Checkliste unterstützt französische Finanzunternehmen bei der Du
 
 - [Compliance-Checkliste: Frankreich](https://aka.ms/FinServ-Guide-France): Finanzunternehmen können sich bei der Durchführung von Risikobewertungen von Microsoft Business Cloud Services unterstützen lassen.
 - [Leitfaden für Risikobewertung und Compliance](https://aka.ms/RiskGovernanceGuide): Erstellen Sie ein Governance-Modell für die Risikobewertung von Microsoft Cloud Services und die Benachrichtigung der Aufsichtsbehörden.
-- [Finanzielle Anwendungsfälle](https://docs.microsoft.com/azure/industry/financial/): Verwenden Sie Fallübersichten, Lernprogramme und andere Ressourcen, um Azure-Lösungen für Finanzdienstleistungen zu entwickeln.
+- [Finanzielle Anwendungsfälle](/azure/industry/financial/): Verwenden Sie Fallübersichten, Lernprogramme und andere Ressourcen, um Azure-Lösungen für Finanzdienstleistungen zu entwickeln.
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 

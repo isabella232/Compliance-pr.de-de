@@ -1,6 +1,6 @@
 ---
 title: California Consumer Privacy Act (CCPA)
-description: Microsoft-Dienste und das California Consumer Privacy Act (CCPA).
+description: Die Dienste von Microsoft und der California Consumer Privacy Act (CCPA).
 keywords: Microsoft 365, Compliance, Angebote
 localization_priority: None
 ms.prod: microsoft-365-enterprise
@@ -16,30 +16,30 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: bb6f4d05461cf044eaa0c8e41335032e4110b369
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: df5b77a9ae9e5f38e695294b1180bba5a4ef8eca
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49509286"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121144"
 ---
 # <a name="california-consumer-privacy-act-ccpa"></a>California Consumer Privacy Act (CCPA)
 
 ## <a name="ccpa-overview"></a>CCPA-Übersicht
 
-Das California Consumer Privacy Act (CCPA) ist das erste umfassende Datenschutzgesetz in den Vereinigten Staaten. Sie bietet kalifornischen Verbrauchern eine Vielzahl von Datenschutz rechten.  Unternehmen, die vom CCPA reguliert werden, haben eine Reihe von Verpflichtungen gegenüber diesen Verbrauchern, einschließlich Angaben, allgemeiner Datenschutzverordnung (dsgvo) – wie Verbraucher-Datensubjekt Rechte (DSRs), ein "Opt-out" für bestimmte Datentransfers und eine "Opt-in"-Anforderung für Minderjährige.
+Der California Consumer Privacy Act (CCPA) ist das erste umfassende Datenschutzgesetz in den USA. Es bietet den kalifornischen Verbrauchern eine Vielzahl von Datenschutzrechten.  Unternehmen, die durch das CCPA reguliert werden, haben eine Reihe von Verpflichtungen gegenüber diesen Verbrauchern, einschließlich Offenlegungen, der DSGVO(General Data Protection Regulation, DSRs) ähnlich wie Verbraucherrechte, ein "Opt-out" für bestimmte Datenübertragungen und eine "Opt-In"-Anforderung für Minderjährige.
 
-Das CCPA gilt nur für Unternehmen, die in Kalifornien Geschäfte tätigen, die eine oder mehrere der folgenden Kriterien erfüllen: (1) einen Bruttojahresumsatz von mehr als $25 Millionen, oder (2) mehr als 50% ihres Jahreseinkommens aus dem Verkauf von kalifornischen Consumer-persönlichen Informationen ableiten oder (3) die persönlichen Informationen von mehr als 50.000 kalifornischen Konsumenten jährlich kaufen, verkaufen oder Teilen.
+Das CCPA gilt nur für Unternehmen in Kalifornien, die eine oder mehrere der folgenden Erfüllen: (1) einen Jährlichen Bruttoumsatz von mehr als 25 Millionen USD erzielen oder (2) mehr als 50 % ihrer jährlichen Einnahmen aus dem Verkauf von persönlichen Informationen von kalifornischen Verbrauchern erzielen oder (3) die persönlichen Informationen von mehr als 50.000 kalifornischen Verbrauchern jährlich kaufen, verkaufen oder freigeben.
 
-Das CCPA tritt am 1. Januar 2020 in Kraft. Die Vollstreckung durch den kalifornischen Attorney General (AG) wird jedoch am 1. Juli 2020 beginnen.
+Das CCPA tritt am 1. Januar 2020 in Kraft. Die Durchsetzung durch die California Attorney General (AG) beginnt jedoch am 1. Juli 2020.
 
-Die California AG wird das CCPA erzwingen und wird befugt sein, Nichteinhaltung von Geldbußen auszustellen. Das CCPA bietet außerdem ein privates Klagerecht, das auf Datenschutzverletzungen limitiert ist. Im Rahmen des privaten Klagerechts kann der Schaden zwischen $ 100 und $ 750 pro Vorfall und Verbraucher liegen. Die California AG kann das CCPA auch in ihrer Gesamtheit durchsetzen, mit der Möglichkeit, eine Zivilstrafe von nicht mehr als $ 2.500 pro Verstoß oder $ 7.500 pro vorsätzlichem Verstoß zu erheben.
+Die California AG erzwingt das CCPA und ist in der Macht, Bußgelder gegen die Einhaltung von Vorschriften zu ernennen. Das CCPA bietet auch ein privates Recht auf Maßnahmen, das auf Datenschutzverletzungen beschränkt ist. Im Rahmen des privaten Klagerechts kann der Schaden zwischen $ 100 und $ 750 pro Vorfall und Verbraucher liegen. Die California AG kann das CCPA auch in ihrer Gesamtheit durchsetzen, mit der Möglichkeit, eine Zivilstrafe von nicht mehr als $ 2.500 pro Verstoß oder $ 7.500 pro vorsätzlichem Verstoß zu erheben.
 
 ## <a name="microsoft-and-the-ccpa"></a>Microsoft und das CCPA
 
-Für kommerzielle Kunden, die in Kalifornien tätig sind, wird Microsoft als "Dienstleistungsanbieter" im Hinblick auf unsere Online-Dienste und das professionelle Dienstangebot fungieren.  Die Bestimmungen der Online Services Terms (Ost) und des Microsoft Professional Services Data Protection Addendum (MSDPA) erfüllen bereits die Anforderungen für Dienstanbieter im Rahmen des CCPA und sind im allgemeinen ausreichend, um Kunden die Weitergabe von Daten an unsere Online-Dienste zu gestatten. Daher sind keine weiteren vertraglichen Änderungen erforderlich, damit sich Kunden auf Microsoft als Dienstanbieter unter dem CCPA verlassen können.
+Für kommerzielle Kunden, die In Kalifornien tätig sind, agiert Microsoft im Hinblick auf unsere Onlinedienste und Professional Services als "Dienstanbieter".  Die Bedingungen der Onlinedienstbedingungen (Ost) und des Microsoft Professional Services Data Protection Addendum (MSDPA) erfüllen bereits die Anforderungen für Dienstanbieter im CCPA und sind im Allgemeinen ausreichend, damit Kunden weiterhin Daten an unsere Onlinedienste übertragen können. Daher sind keine zusätzlichen vertraglichen Änderungen erforderlich, damit Kunden sich auf Microsoft als Dienstanbieter unter dem CCPA verlassen können.
 
-Wie in der Ost dargelegt, erfüllt Microsoft alle Gesetze und Verordnungen, die für die Online Dienste gelten, einschließlich der CCPA.  
+Wie in der OST festgelegt, hält Microsoft alle Gesetze und Bestimmungen ein, die für die Bereitstellung der Onlinedienste gelten, die das CCPA umfassen würden.  
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft Cloud Services im Leistungsumfang
 
@@ -48,15 +48,15 @@ Wie in der Ost dargelegt, erfüllt Microsoft alle Gesetze und Verordnungen, die 
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
 - [Office 365](https://aka.ms/o365-compliance-framework)
-- Support und professionelle Dienste
+- Support und Professional Services
 - Visual Studio
 
-## <a name="how-you-can-prepare-for-your-ccpa-compliance-when-using-microsoft-products-and-services"></a>Vorbereiten der CCPA-Compliance bei Verwendung von Microsoft-Produkten und-Diensten
+## <a name="how-you-can-prepare-for-your-ccpa-compliance-when-using-microsoft-products-and-services"></a>Wie Sie sich auf Ihre CCPA-Compliance vorbereiten können, wenn Sie Die Produkte und Dienste von Microsoft verwenden
 
-Hier sind einige Schritte, die Sie ausführen können, um sich für die CCPA vorzubereiten:
+Hier sind einige Schritte, die Sie ausführen können, um sich auf das CCPA zu bereiten:
 
-- Beginnen Sie mit der Nutzung der dsgvo-Bewertung im [Compliance-Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) als Teil Ihres CCPA-Datenschutzprogramms.
-- Einrichten eines Prozesses zur effizienten Reaktion auf Datensubjekt-Zugriffsanforderungen (DSARs) mithilfe des Tools für Datensubjekt Anforderungen.
+- Nutzen Sie die DSGVO-Bewertung im [Compliance-Manager](/microsoft-365/compliance/compliance-manager) als Teil Ihres CCPA-Datenschutzprogramms.
+- Einrichten eines Prozesses zur effizienten Reaktion auf Datensubjektzugriffsanforderungen (Data Subject Access Requests, DSARs) mithilfe des Tools für Anträge von Datensubjekten.
 - Richten Sie Etiketten und Richtlinien ein, um vertrauliche Daten mit Microsoft Information Protection zu erkennen, zu klassifizieren und zu kennzeichnen und zu schützen.
 - Verwenden Sie E-Mail-Verschlüsselungsfunktionen, um vertrauliche Informationen weiter zu kontrollieren.
 
@@ -64,45 +64,45 @@ Hier sind einige Schritte, die Sie ausführen können, um sich für die CCPA vor
 
 **Wie wirkt sich das CCPA auf mein Unternehmen aus?**
 
-Viele der CCPA-Rechte, die Kaliforniern gewährt werden, ähneln den von dsgvo bereitgestellten rechten, einschließlich der Anforderungen an die Offenlegungs-und Datensubjekt Rechte wie Zugriff, Löschung und Portabilität. Kunden können daher auf unsere bereits vorhandenen dsgvo-Lösungen achten, um Sie bei der CCPA-Compliance zu unterstützen.
+Viele der Rechte des CCPA, die den Kalifornischen gewährt werden, ähneln den Rechten, die die DSGVO bietet, einschließlich der Offenlegungs- und Anträge von Datensubjektrechten(DSR), z. B. Zugriff, Löschung und Portabilität. Als solche können Kunden unsere bereits vorhandenen Lösungen für die DSGVO sehen, um sie bei der Einhaltung des CCPA zu unterstützen.
 
-Um mit ihrer CCPA-Reise beginnen zu können, sollten Sie sich auf die Ermittlung von Informationen konzentrieren, bestimmen, wie personenbezogene Informationen freigegeben werden, wie Sie verwendet werden, wie Sie geschützt werden und wie ein formelles Reaktions Programm für Datenverletzungen stattfindet.
+Um Ihre CCPA-Reise zu beginnen, sollten Sie sich auf die Ermittlung von Informationen konzentrieren, bestimmen, wie personenbezogene Informationen freigegeben werden, wie sie verwendet werden, wie sie geschützt sind und ein formelles Programm zur Reaktion auf Datenschutzverletzungen haben.
 
 **Worin unterscheiden sich DSGVO und CCPA?**
 
 Es gibt viele Unterschiede. Es ist einfacher, sich auf die Ähnlichkeiten zu konzentrieren, einschließlich:
 
-- Transparenz/Offenlegungspflichten;
-- Verbraucher-Rechte für den Zugriff, Löschung und Empfang einer Kopie von Daten,
-- Definition von "Dienstanbietern", die dem entspricht, wie dsgvo "Prozessoren" mit einer ähnlichen vertraglichen Verpflichtung definiert und
-- Definition von "Unternehmen", die die dsgvo-Definition von "Controllern" umfasst.
+- Transparenz-/Offenlegungspflichten,
+- Verbraucherrechte auf Zugriff, Löschung und Empfang einer Kopie von Daten,
+- Definition von "Dienstanbietern", die der Definition von "Auftragsverarbeitern" durch die DSGVO mit einer ähnlichen vertraglichen Verpflichtung ähnelt, und
+- Definition von "Unternehmen", die die Definition der DSGVO von "Controllern" umfasst.
 
-Der größte Unterschied in CCPA ist die zentrale Voraussetzung, um ein Opt-out aus dem Verkauf von Daten an Dritte zu ermöglichen (wobei "sale" im allgemeinen definiert ist, um die gemeinsame Nutzung von Daten für wertvolle Überlegungen einzubeziehen).
+Der größte Unterschied beim CCPA ist die wichtigste Anforderung, um ein Opt-out vom Verkauf von Daten an Dritte zu ermöglichen (mit allgemein definiertem "Verkauf", um die Freigabe von Daten zu berücksichtigen).
 
 **Welche Rechte müssen Unternehmen laut der CCPA gewähren?**
 
-Das CCPA erfordert unter anderem regulierte Unternehmen, die persönliche Informationen sammeln, übertragen und weiterverkaufen:
+Das CCPA erfordert regulierte Unternehmen, die unter anderem personenbezogene Informationen sammeln, übertragen und an diese verkaufen:
 
 - Den Verbrauchern vor der Erfassung Informationen über die Kategorien und Zwecke der Erfassung zur Verfügung zu stellen.
-- Bereitstellen detaillierter Angaben in einer Datenschutzrichtlinie in Bezug auf Quellen, geschäftliche Zwecke und Kategorien personenbezogener Informationen, die erfasst werden, einschließlich der Art und Weise, wie diese Kategorien verkauft oder an andere Entitäten weitergegeben werden.
-- Aktivieren Sie die DSR-Zugriffsrechte, Löschungen und Portabilität für die spezifischen personenbezogenen Daten, die Sie gesammelt haben.
-- Aktivieren Sie ein Steuerelement, das es Verbrauchern ermöglicht, den Verkauf der Daten des Verbrauchers abzulehnen. Transfers an ausgeschlossene Entitäten wie Dienstanbieter sind jedoch zulässig.
-- Aktivieren Sie für Minderjährige unter 16 einen Opt-in-Prozess, sodass kein Verkauf der persönlichen Informationen des Minderjährigen ohne aktive Einwahl in den Verkauf erfolgen kann.
+- Detailliertere Offenlegungen in einer Datenschutzrichtlinie zu den Quellen, Geschäftszwecken und Kategorien von persönlichen Informationen, die gesammelt werden, einschließlich der Art und Weise, wie diese Kategorien verkauft oder an andere Entitäten übertragen werden.
+- Aktivieren Sie die Rechte von DSR auf Zugriff, Löschung und Portabilität für bestimmte personenbezogene Informationen, die von Ihnen erfasst wurden.
+- Aktivieren Sie ein Steuerelement, mit dem Verbraucher dem Verkauf der Verbraucherdaten abmelden können. Übertragungen an ausgenommene Entitäten, z. B. Dienstanbieter, sind jedoch zulässig.
+- Für Minderjährige unter 16 Jahren aktivieren Sie einen Opt-In-Prozess, sodass kein Verkauf der persönlichen Informationen des Minderjährigen erfolgen kann, ohne sich aktiv für den Verkauf zu entscheiden.
 - Stellen Sie sicher, dass die Verbraucher nicht wegen der Ausübung ihrer Rechte aus dem CCPA diskriminiert werden.
 
 **Wie gilt das CCPA für Kinder?**
 
 - CCPA führt elterliche Zustimmungsverpflichtungen im Einklang mit dem Children's Online Privacy Protection Act (COPPA) für Kinder unter 13 Jahren ein.
-- Für Kinder zwischen 13 und 16 Jahren auferlegt CCPA eine neue Verpflichtung, die Zustimmung des Kindes zu erhalten.
+- Für Kinder zwischen 13 und 16 Jahren erlegt CCPA eine neue Verpflichtung auf, die Zustimmung des Kindes einzuholen.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance-Manager, um Ihr Risiko einzuschätzen
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
 
-Der [Microsoft Compliance-Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) ist ein Feature im [Microsoft 365 Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center), mit dem Sie die Compliance-Position Ihres Unternehmens verstehen und Maßnahmen zur Risikominderung ergreifen können. Der Compliance Manager bietet eine Premium-Vorlage zum Erstellen einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance-Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
+[Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center, die Ihnen](/microsoft-365/compliance/microsoft-365-compliance-center) hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen in Compliance Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="resources"></a>Ressourcen
 
-- [5 Tipps zur Vorbereitung auf das neue Privacy Act für Privatkunden in Kalifornien](https://aka.ms/M365ComplianceBlog_RSA)
-- [Erste Schritte mit CCPA Guide](https://info.microsoft.com/ww-landing-Five-tips-to-help-you-prepare-for-the-California-Consumer-Privacy-Act.html)
-- [Anforderungen von Datensubjekten und der dsgvo](gdpr-data-subject-requests.md)
+- [5 Tipps zur Vorbereitung auf das neue California Consumer Privacy Act](https://aka.ms/M365ComplianceBlog_RSA)
+- [Erste Schritte mit dem CCPA-Leitfaden](https://info.microsoft.com/ww-landing-Five-tips-to-help-you-prepare-for-the-California-Consumer-Privacy-Act.html)
+- [Anträge von Datensubjekten und die DSGVO](gdpr-data-subject-requests.md)
 - [California Consumer Privacy Act (CCPA) – häufig gestellte Fragen](ccpa-faq.md)
 - [Compliance im Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)

@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 246c39c3bfd8f59cd2dab9c3a1b942d36942370f
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 92c98d710c34f1304ddc0a2e8acfe09c4570e97c
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506685"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121634"
 ---
 # <a name="gdpr-discovery-protection-and-reporting-in-the-devtest-environment"></a>Suche, Schutz und Berichterstellung für die DSGVO in der Entwicklungs-/Testumgebung
 
@@ -35,7 +35,7 @@ In diesem Artikel wird die Konfiguration und Veranschaulichung von Suche, Schutz
 
 ## <a name="phase-1-create-and-configure-your-trial-microsoft-365-subscription"></a>Phase 1: Erstellen und Konfigurieren Ihres Microsoft 365-Testabonnements
 
-Führen Sie zunächst die Schritte in [Phase 2 des Artikels „Microsoft 365-Entwicklungs-/Testumgebung“](https://docs.microsoft.com/Office365/Enterprise/office-365-dev-test-environment#phase-2-create-an-office-365-trial-subscription) aus.
+Führen Sie zunächst die Schritte in [Phase 2 des Artikels „Microsoft 365-Entwicklungs-/Testumgebung“](/Office365/Enterprise/office-365-dev-test-environment#phase-2-create-an-office-365-trial-subscription) aus.
 
 Konfigurieren Sie dann mit den folgenden Schritte den eDiscovery-Manager:
 
@@ -99,7 +99,7 @@ In dieser Phase erstellen Sie einen benutzerdefinierten vertraulichen Informatio
 
 Contoso verwendet immer eine CCN beim Verweisen auf Kunden in der internen Korrespondenz, externen Korrespondenz, in Dokumenten und anderen Formularen. Contoso benötigt einen benutzerdefinierten vertraulichen Informationstyp, um die Verwendung von CCNs in Microsoft 365-Inhalt zu ermitteln und so einen möglichen Schutz für die Verwendung dieser personenbezogenen Informationen anzuwenden.
 
-1. Befolgen Sie die Anweisungen für die mehrstufige Authentifizierung (MFA) unter [Verbindung mit Security & Compliance Center-PowerShell herstellen](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell), und stellen Sie eine Verbindung mit dem Security & Compliance Center mit UPN des globalen Administratorkontos her.
+1. Befolgen Sie die Anweisungen für die mehrstufige Authentifizierung (MFA) unter [Verbindung mit Security & Compliance Center-PowerShell herstellen](/powershell/exchange/connect-to-scc-powershell), und stellen Sie eine Verbindung mit dem Security & Compliance Center mit UPN des globalen Administratorkontos her.
 
 2. Führen Sie die folgenden PowerShell-Befehle aus:
 

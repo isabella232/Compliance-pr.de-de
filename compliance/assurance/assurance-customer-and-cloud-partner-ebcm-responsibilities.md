@@ -16,12 +16,12 @@ ms.collection:
 - Strat_O365_Enterprise
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 979acd563ca73ad16d4729bfe96aa86c316714c5
-ms.sourcegitcommit: 693bc6b1b51a5a9c9ff1758fa7f7ca3a204f147e
+ms.openlocfilehash: 70cf9514306bc119c1f09a159222dbea6765e61f
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49574767"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120684"
 ---
 # <a name="enterprise-business-continuity-management-customer-and-cloud-partner-responsibilities"></a>Verantwortlichkeiten von Kunden und Cloud-Partnern im Rahmen der Steuerung der Geschäftskontinuität 
 
@@ -45,8 +45,8 @@ Microsoft unterhält mehrere Kanäle für Statusmitteilungen zu Diensten, die Ku
 
 - Sollten das Admin-Center oder das Service Health Dashboard im Rahmen des Verwaltungsportals nicht verfügbar sein, können Sie den Status eines Dienstes über unsere [Sicherungswebsite](https://status.office365.com/) überwachen.
 - Wir unterhalten einen Twitter-Account [@MSFT365Status](https://twitter.com/msft365status?lang=en), auf dem wir auf Benachrichtigungen zu Vorfällen antworten und Updates zu Vorfällen, die das SHD beeinträchtigen, posten.
-- Die Admin-App für Microsoft 365 Mandantenadministratoren bietet Ihnen die Möglichkeit, auch unterwegs eine Verbindung mit dem Microsoft 365 Dienststatus Ihrer Organisation herzustellen. Mandantenadministratoren haben die Möglichkeit, Integritätsinformationen zu Diensten und Updates zum Wartungsstatus von ihren mobilen Geräten abzufragen. Weitere Informationen finden Sie unter „Häufig gestellte Fragen zur Admin-App“[Admin-App FAQ](https://docs.microsoft.com/office365/admin/admin-overview/admin-mobile-app).
-- Die [Microsoft 365 Service Communications API](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/service-health-and-continuity#office-365-service-communications-api) ermöglicht Ihnen den Zugriff auf Benachrichtigungen zu Microsoft-Diensten, sodass Sie Ihre Umgebung einfacher überwachen können. Sie können eine Verbindung mit der API herstellen, Echtzeit-Dienststatusdaten empfangen und die Informationen auf einem internen Dashboard veröffentlichen, um die Benutzer in Ihrem Unternehmen über Vorfälle zu informieren. Die interne Weiterleitung von Informationen kann die Zahl der Anfragen an Ihr Helpdesk bei einem Ausfalls verringern.
+- Die Admin-App für Microsoft 365 Mandantenadministratoren bietet Ihnen die Möglichkeit, auch unterwegs eine Verbindung mit dem Microsoft 365 Dienststatus Ihrer Organisation herzustellen. Mandantenadministratoren haben die Möglichkeit, Integritätsinformationen zu Diensten und Updates zum Wartungsstatus von ihren mobilen Geräten abzufragen. Weitere Informationen finden Sie unter „Häufig gestellte Fragen zur Admin-App“[Admin-App FAQ](/office365/admin/admin-overview/admin-mobile-app).
+- Die [Microsoft 365 Service Communications API](/office365/servicedescriptions/office-365-platform-service-description/service-health-and-continuity#office-365-service-communications-api) ermöglicht Ihnen den Zugriff auf Benachrichtigungen zu Microsoft-Diensten, sodass Sie Ihre Umgebung einfacher überwachen können. Sie können eine Verbindung mit der API herstellen, Echtzeit-Dienststatusdaten empfangen und die Informationen auf einem internen Dashboard veröffentlichen, um die Benutzer in Ihrem Unternehmen über Vorfälle zu informieren. Die interne Weiterleitung von Informationen kann die Zahl der Anfragen an Ihr Helpdesk bei einem Ausfalls verringern.
 - Bei Vorfällen von größerem Ausmaß veröffentlicht Microsoft Post Incident Reviews (PIR) an das SHD im Rahmen des Verwaltungsportals. PIR enthalten wesentliche Informationen zu Vorfällen, die Ihnen dabei helfen, die Art des Ausfalls zu verstehen. In der Regel umfassen diese die folgenden Abschnitte:
     - Auswirkungen auf Benutzer
     - Umfang der Auswirkungen
@@ -55,7 +55,7 @@ Microsoft unterhält mehrere Kanäle für Statusmitteilungen zu Diensten, die Ku
     - Durchgeführte Aktionen
     - Nächste Schritte
 - Zusätzliche Benachrichtigungen stehen in der Microsoft 365 Mitteilungszentrale zur Verfügung, z. B. Hinweise auf bevorstehende Änderungen, neue Features oder geplante Wartungsarbeiten.
-- Weitere Informationen zu den verschiedenen Kommunikationskanälen und zur Überwachung des Dienststatus finden Sie im [Leitfaden zu Dienststatus und Verfügbarkeit (Health and Continuity Guide)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/service-health-and-continuity).
+- Weitere Informationen zu den verschiedenen Kommunikationskanälen und zur Überwachung des Dienststatus finden Sie im [Leitfaden zu Dienststatus und Verfügbarkeit (Health and Continuity Guide)](/office365/servicedescriptions/office-365-platform-service-description/service-health-and-continuity).
 
 Das Bereitstellen von Microsoft 365 Online-Diensten begründet eine Partnerschaft zwischen Ihrer Organisation und Microsoft. Im folgenden Diagramm wird die Verteilung der Verantwortlichkeiten auf Microsoft ebenso wie auf die Kunden während eines Dienstvorfalls und während des normalen Betriebs zusammengefasst.
 
@@ -72,13 +72,13 @@ Ziehen Sie Ereignisse, die Auswirkungen auf Ihre Belegschaft haben können, wie 
 ### <a name="location"></a>Ort
 
 Viele Unternehmen fordern von Ihren Mitarbeitern deren Anwesenheit an bestimmten physischen Orten oder Netzwerkstandorten, um sich mit Systemen des Unternehmens und Cloud-Diensten zu verbinden.  
-Microsoft veröffentlicht [Grundsätze zur Netzwerkkonnektivität](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-network-connectivity-principles), die Unternehmen anhand von bewährten Methoden beim Einrichten der Netzwerkkonnektivität für Cloud-Ressourcen anleiten. Optimierungsbeispiele umfassen die Implementierung von gesplitteten Tunnel-VPN, um Verbindungen direkt vom Netzwerk eines Benutzers statt über einen VPN-Tunnel zu ermöglichen.  Obwohl diese Grundsätze zur Konnektivität für das Aufrechterhalten von Verbindungen mit geringer Latenz wichtig sind, erfordert die Sicherstellung der Dienstverfügbarkeit alternative Methoden der Anbindung von Unternehmensressourcen, die der allgemeinen Zusammenarbeit dienen.
+Microsoft veröffentlicht [Grundsätze zur Netzwerkkonnektivität](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles), die Unternehmen anhand von bewährten Methoden beim Einrichten der Netzwerkkonnektivität für Cloud-Ressourcen anleiten. Optimierungsbeispiele umfassen die Implementierung von gesplitteten Tunnel-VPN, um Verbindungen direkt vom Netzwerk eines Benutzers statt über einen VPN-Tunnel zu ermöglichen.  Obwohl diese Grundsätze zur Konnektivität für das Aufrechterhalten von Verbindungen mit geringer Latenz wichtig sind, erfordert die Sicherstellung der Dienstverfügbarkeit alternative Methoden der Anbindung von Unternehmensressourcen, die der allgemeinen Zusammenarbeit dienen.
 
 ### <a name="systems"></a>Systeme
 
 Zahlreiche Lösungen zur Zusammenarbeit sind systemabhängig, wie z. B.von einem unternehmensweiten Netzwerk (WAN). Wie würde Ihre Organisation reagieren, wenn diese Systeme nicht verfügbar sind?
 Diese Grafik bildet Probleme ab, die sich auf mehr als einen Bereich auswirken können. Die zugehörige Tabelle enthält zu berücksichtigende Beispiele
 
-![Venn-Diagramm der Systeme](../media/venn-diagram.png)
+![Venn-Diagramm von Systemen](../media/venn-diagram.png)
 
 Ihre Pläne zur Unternehmenskontinuität sollten jeden dieser Bereiche berücksichtigen. Zum Beispiel: Wenn Sie fordern, dass sich Benutzer im Unternehmensnetzwerk befinden und es kommt zu einem Schneesturm, wie erhalten diese Benutzer Zugriff auf die wichtigsten Ressourcen? Wenn der Schnee die Anreise in das Büro verhindert und Servicetechniker die Verbindung zum Unternehmensnetzwerk herstellen müssen, gibt es dann eine Richtlinie, die vorschreibt, dass sie die unternehmenseigenen Laptops zu Hause in Ihrem Besitz haben müssen?

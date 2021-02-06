@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f6c03f1c9cddbdf1cd62be075f471a3a52e19a19
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 4fe0196ae019dbf35902c2fd0589db96ed1f1086
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49509136"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50119884"
 ---
 # <a name="trusight"></a>TruSight
 
@@ -54,7 +54,7 @@ Wenden Sie sich an info@trusightsolutions.com, um den Bericht *Comprehensive Ass
 ## <a name="how-to-implement"></a>Implementierung
 
 - [Leitfaden für Risikobewertung und Compliance](https://aka.ms/RiskGovernanceGuide): Erstellen Sie ein Governance-Modell für die Risikobewertung von Microsoft Cloud Services und die Benachrichtigung der Aufsichtsbehörden.
-- [Finanzielle Anwendungsfälle](https://docs.microsoft.com/azure/industry/financial/): Verwenden Sie Fallübersichten, Lernprogramme und andere Ressourcen, um Azure-Lösungen für Finanzdienstleistungen zu entwickeln.
+- [Finanzielle Anwendungsfälle](/azure/industry/financial/): Verwenden Sie Fallübersichten, Lernprogramme und andere Ressourcen, um Azure-Lösungen für Finanzdienstleistungen zu entwickeln.
 - [Vorschriften für Finanzdienstleistungen in den USA](https://aka.ms/FinServ-Guide-US): Inwiefern Microsoft-Onlinedienste wichtigen Vorschriften für US-Finanzdienstleister entsprechen.
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen

@@ -1,6 +1,6 @@
 ---
-title: Digitale Produktionspartnerschaft (DPP) Vereinigtes Königreich
-description: Microsoft Azure erhält den DPP, der für die Übertragung zur Sicherheits Marke verpflichtet wurde.
+title: Digital Production Partnership (DPP) Vereinigtes Königreich
+description: Microsoft Azure wurde mit dem DPP Committed to Security Mark for Broadcast ausgezeichnet.
 keywords: Microsoft 365, Compliance, Angebote
 localization_priority: None
 ms.prod: microsoft-365-enterprise
@@ -16,26 +16,26 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 57f64e38947874385d514e1e2f8be296237d8f6c
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 5ff8d881602014821149ee1263ab7b88e796919a
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506801"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121674"
 ---
-# <a name="digital-production-partnership-dpp-united-kingdom"></a>Digitale Produktionspartnerschaft (DPP) Vereinigtes Königreich
+# <a name="digital-production-partnership-dpp-united-kingdom"></a>Digital Production Partnership (DPP) Vereinigtes Königreich
 
 ## <a name="about-the-dpp"></a>Informationen zum DPP
 
-Rundfunkveranstalter stellen sich immer häufiger mit Cyber-Angriffen auf Ihre Websites, Ihre IT-Infrastruktur und Systeme vor. Als Reaktion auf diese Bedrohungen hat die DPP ( [Digital Production Partnership](https://www.thedpp.com/) ) mit der [**North American Broadcaster Association**](https://nabanet.com/) (naba) zusammenarbeiten, um die [Cyber-Sicherheitsanforderungen für Anbieter für Anbieter](https://nabanet.com/wp-content/uploads/2017/08/NABA_DPP_CyberSecurity_Requirements_3.pdf)zu entwickeln. Die Chief Information Security Officers von britischen Sendern haben diese als Mindestanforderungen für Cyber unterstützt.  
+Es gibt immer häufiger Cyberangriffe auf ihre Websites, die IT-Infrastruktur und systeme. Als Reaktion auf diese Bedrohungen hat sich die [Digital Production Partnership](https://www.thedpp.com/) (DPP) mit der North American [**2013-Vereinigung**](https://nabanet.com/) (NABA) zusammen gefunden, um die [Cybersicherheitsanforderungen](https://nabanet.com/wp-content/uploads/2017/08/NABA_DPP_CyberSecurity_Requirements_3.pdf)für Lieferanten zu entwickeln. Die Chief Information Security Officers aus Großbritannien haben diese als Mindestanforderungen an die Cybersicherheit bestätigt.  
   
-Der DPP arbeitete dann mit Sendern und Sicherheitsexperten für Zulieferer zusammen, um eine Bestandsaufnahme der Selbsteinschätzung zu erstellen, die [Checkliste für das Sicherheitsprogramm "Committed to Security](https://dpp-assets.s3.amazonaws.com/wp-content/uploads/2017/10/CTS_BroadcastChecklist.xlsx)" erstellt, mit deren Hilfe Anbieter den Sendern die Bereitstellung bewährter Cyber-Methoden demonstrieren können. Diese Arbeit führte zur Etablierung eines formellen [DPP Committed to Security Program](https://www.thedpp.com/tech/security/committed-to-security/) , das im Oktober 2017 gestartet wurde, mit zwei unterschiedlichen Marken: einer für die Übertragung und einer für die Produktion.
+Die DPP hat dann mit Denkexperten und Lieferantensicherheitsexperten [](https://dpp-assets.s3.amazonaws.com/wp-content/uploads/2017/10/CTS_BroadcastChecklist.xlsx)zusammengearbeitet, um ein Selbstbewertungsinventar zu erstellen, die Checkliste für Übertragungen im Sicherheitsprogramm, mit derEntsprechungen Lieferanten ihre Bereitstellung bewährter Methoden für die Cybersicherheit demonstrieren können. Diese Arbeit führte zur Einrichtung eines formalen [DPP Committed to Security Program,](https://www.thedpp.com/tech/security/committed-to-security/) das im Oktober 2017 gestartet wurde, mit zwei verschiedenen Markierungen: einer für Die Übertragung und einer für die Produktion.
 
 ## <a name="microsoft-and-the-dpp"></a>Microsoft und der DPP
 
-Microsoft Azure wurde mit dem DPP Committed to Security Mark für Broadcast nach Abschluss des Self-Assessment-Fragebogens für die digitale Produktionspartnerschaft (DPP), der *Checkliste für Committed to Security Program Broadcast*, ausgezeichnet. Es ist erforderlich, eine Reihe bewährter Methoden für Dokumentation und Tests, Authentifizierung und Sicherheitskontrollen zu dokumentieren. [Eurofins Digital testing](https://www.eurofins-digitaltesting.com/), ein Experte für Qualitätssicherung und DPP, überprüft und signiert die Microsoft-Antwort und übermittelte Sie dem DPP zur endgültigen Validierung.  
+Microsoft Azure hat das DPP Committed to Security Mark for Broadcast erhalten, nachdem der Fragebogen zur Selbstbewertung der digitalen Produktionspartnerschaft (Digital Production Partnership, DPP), der Checkliste für Übertragungen im Sicherheitsprogramm, ausgefüllt *wurde.* Es musste eine Reihe bewährter Methoden für Dokumentation und Tests, Authentifizierung und Sicherheitskontrollen dokumentiert werden. [Eurofins Digital Testing,](https://www.eurofins-digitaltesting.com/)ein Qualitätssicherungsexperten und DPP-Mitglied, hat die Antwort von Microsoft überprüft und abgesentiert und zur endgültigen Überprüfung an den DPP übermittelt.  
   
-Diese Unterstützung bedeutet, dass Sender und andere Medien Kunden, die Azure verwenden, zuversichtlich sein können, dass seine robuste Sicherheits-und widerstandsfähigen Dienste zur Erfüllung der einzigartigen Anforderungen der Broadcast Branche von der Programmentwicklung bis hin zur Übertragung beitragen können.
+Diese Unterstützung bedeutet, dass Sichten und andere Medienkunden, die Azure verwenden, vertrauen können, dass ihr robuster Sicherheits- und Ausfallsicherheitsdienst die einzigartigen Anforderungen der Übertragungsbranche erfüllen kann, von der Programmentwicklung bis hin zur Übertragung.
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft Cloud Services im Leistungsumfang
 
@@ -43,18 +43,18 @@ Diese Unterstützung bedeutet, dass Sender und andere Medien Kunden, die Azure v
 
 ## <a name="audits-reports-and-certificates"></a>Prüfungen, Berichte und Zertifikate
 
-Die Azure-Übertragungs Marke gilt für ein Jahr und wird jährlich erneuert.
+Die Azure -Übertragungsmarke ist ein Jahr gültig und wird jährlich verlängert.
 
-- [Prüfliste für Azure naba DPP Broadcaster Security Requirements](https://aka.ms/Azure-CTS-Broadcast-Checklist)
-- [DPP, der für Sicherheitsunternehmen zugesichert wurde, die die Marken vergeben haben](https://aka.ms/Azure-Asset-Mgmt)
+- [Checkliste für Azure NABA DPP-Sicherheitsanforderungen](https://aka.ms/Azure-CTS-Broadcast-Checklist)
+- [DPP, die sich für Sicherheitsunternehmen verpflichtet hat, die Markierungen zu vergeben](https://aka.ms/Azure-Asset-Mgmt)
 
 ## <a name="how-to-implement"></a>Implementierung
 
-- [Asset Management Hardening Guide](https://aka.ms/Azure-Asset-Mgmt): Best Practices in Azure schützen Vorabversionen von Inhalten vor nicht autorisierter Offenlegung, Änderung oder Löschung.
-- [Azure Media Services](https://docs.microsoft.com/azure/media-services/): Erstellen von Lösungen, die eine High-Definition-Videocodierung und Video Streaming in Broadcast Qualität erzielen.
+- [Leitfaden zur Sicherheit](https://aka.ms/Azure-Asset-Mgmt)der Ressourcenverwaltung: Bewährte Methoden in Azure schützen Vorabversionsinhalte vor unbefugter Offenlegung, Änderung oder Löschung.
+- [Azure Media Services:](/azure/media-services/)Erstellen Von Lösungen, die eine high-Definition-Videocodierung und Videostreaming in Übertragungsqualität ermöglichen.
 
 ## <a name="resources"></a>Ressourcen
 
 - [DPP Committed to Security Program Broadcast Checklist User Guide](https://dpp-assets.s3.amazonaws.com/wp-content/uploads/2017/10/CTS_BroadcastChecklistUserGuide.pdf)
-- [NABA und DPP-Sender vereinen sich zur Förderung von Cyber-Sicherheitsanforderungen für Zulieferer](https://nabanet.com/wp-content/uploads/2017/08/NABAcaster-Issue_26.pdf)
+- [NABA- und DPP-Vorkehrungen sind eint, um Cybersicherheitsanforderungen für Lieferanten zu fördern.](https://nabanet.com/wp-content/uploads/2017/08/NABAcaster-Issue_26.pdf)
 - [Compliance im Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)

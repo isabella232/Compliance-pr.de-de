@@ -13,12 +13,12 @@ localization_priority: Priority
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
 ms.collection: MS-Compliance
-ms.openlocfilehash: 89d708c0f934a95b0145bc1ff24709c531967bac
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: c2b8c28db6383cf35384103117ae3e5b18f4c280
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507032"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121864"
 ---
 # <a name="gdpr-for-sharepoint-server"></a>DSGVO für SharePoint Server
 
@@ -31,9 +31,9 @@ Im Rahmen des Schutzes persönlicher Informationen empfehlen wir Folgendes:
 
 -   Klassifizieren Ihrer Daten mithilfe von Azure Information Protection.
 
--   SharePoint Server in einer Konfiguration mit der geringsten Konfiguration ausführen. Siehe [Planen der geringsten Berechtigungen in SharePoint Server](https://docs.microsoft.com/SharePoint/security-for-sharepoint-server/plan-for-least-privileged-administration) und [Security für SharePoint Server](https://docs.microsoft.com/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server) für weitere Informationen.
+-   SharePoint Server in einer Konfiguration mit der geringsten Konfiguration ausführen. Siehe [Planen der geringsten Berechtigungen in SharePoint Server](/SharePoint/security-for-sharepoint-server/plan-for-least-privileged-administration) und [Security für SharePoint Server](/sharepoint/security-for-sharepoint-server/security-for-sharepoint-server) für weitere Informationen.
 
--   [Aktivieren Sie die BitLocker-Verschlüsselung auf den Servern](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-how-to-deploy-on-windows-server).
+-   [Aktivieren Sie die BitLocker-Verschlüsselung auf den Servern](/windows/security/information-protection/bitlocker/bitlocker-how-to-deploy-on-windows-server).
 
 ## <a name="user-generated-content"></a>Durch Benutzer erstellte Inhalte
 
@@ -41,11 +41,11 @@ Der empfohlene grundlegende Ansatz für die von Benutzern erstellten Inhalte auf
 
 -   Verwenden Sie Azure Information Protection, um vertrauliche Daten zu beschriften.
 
--   Verwenden Sie die [SharePoint Server-Suche](https://docs.microsoft.com/SharePoint/search/search) und [eDiscovery](https://docs.microsoft.com/SharePoint/governance/ediscovery-and-in-place-holds-in-sharepoint-server), um vertrauliche Daten abzurufen.
+-   Verwenden Sie die [SharePoint Server-Suche](/SharePoint/search/search) und [eDiscovery](/SharePoint/governance/ediscovery-and-in-place-holds-in-sharepoint-server), um vertrauliche Daten abzurufen.
 
 Die empfohlene Vorgehensweise für  Dateifreigaben, Websites und Bibliotheken von SharePoint und umfasst die folgenden Schritte:
 
-1.  **[Installieren und konfigurieren Sie den Azure Information Protection-Scanner.](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide-install#options-to-install-the-azure-information-protection-client-for-users)**
+1.  **[Installieren und konfigurieren Sie den Azure Information Protection-Scanner.](/azure/information-protection/rms-client/client-admin-guide-install#options-to-install-the-azure-information-protection-client-for-users)**
 
     -   Entscheiden Sie, welche vertraulichen Datentypen Sie verwenden möchten.
 
@@ -77,7 +77,7 @@ Verwenden Sie zur Beschriftung vertraulicher Daten nur Beschriftungen ohne Schut
 
 Weitere Informationen über die Verwendung des Azure Information Protection-Scanners zum Suchen und Beschriften von personenbezogenen Daten finden Sie im [Microsoft GDPR Data Discovery Toolkit](https://aka.ms/gdprpartners) (https://aka.ms/gdprpartners)).
 
-Informationen über die Konfiguration des Scanners für Bedingungen und die Verwendung der vertraulichen Datentypen für die Verhinderung von Datenverlust in Office 365 finden Sie unter [So konfigurieren Sie Bedingungen für die automatische und empfohlene Klassifizierung von Azure Information Protection](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-classification). Beachten Sie, dass neue vertrauliche Datentypen in Office 365 nicht sofort für die Verwendung mit dem Scanner zur Verfügung stehen und dass benutzerdefinierte vertrauliche Datentypen nicht mit dem Scanner verwendet werden können.
+Informationen über die Konfiguration des Scanners für Bedingungen und die Verwendung der vertraulichen Datentypen für die Verhinderung von Datenverlust in Office 365 finden Sie unter [So konfigurieren Sie Bedingungen für die automatische und empfohlene Klassifizierung von Azure Information Protection](/information-protection/deploy-use/configure-policy-classification). Beachten Sie, dass neue vertrauliche Datentypen in Office 365 nicht sofort für die Verwendung mit dem Scanner zur Verfügung stehen und dass benutzerdefinierte vertrauliche Datentypen nicht mit dem Scanner verwendet werden können.
 
 ## <a name="removing-personal-information-from-office-files"></a>Entfernen personenbezogener Daten aus Office-Dateien
 
@@ -95,15 +95,15 @@ Das Entfernen von personenbezogenen Daten (z. B. Metadaten oder Kommentare in ei
 
 ### <a name="uls-logs"></a>ULS-Protokolle
 
-Unified Logging Service (ULS) und die Verwendungsprotokollierung in SharePoint Server zeichnen verschiedene Systemfunktionen auf und sammeln somit möglicherweise auch Benutzerinformationen. ULS-Protokolle und Verwendungsprotokolle sind Textdateien und können mit einer Vielzahl von Suchwerkzeugen durchsucht werden. Mit dem [PowerShell-Cmdlet Merge-SPLogFile](https://docs.microsoft.com/powershell/module/sharepoint-server/merge-splogfile) können Datensätze aus den ULS-Protokollen auf mehreren Servern einer Farm ausfindig gemacht werden.
+Unified Logging Service (ULS) und die Verwendungsprotokollierung in SharePoint Server zeichnen verschiedene Systemfunktionen auf und sammeln somit möglicherweise auch Benutzerinformationen. ULS-Protokolle und Verwendungsprotokolle sind Textdateien und können mit einer Vielzahl von Suchwerkzeugen durchsucht werden. Mit dem [PowerShell-Cmdlet Merge-SPLogFile](/powershell/module/sharepoint-server/merge-splogfile) können Datensätze aus den ULS-Protokollen auf mehreren Servern einer Farm ausfindig gemacht werden.
 
-Ziehen Sie es in Erwägung, die Aufbewahrungsrichtlinien für Protokolle auf das für Ihr Unternehmen erforderliche Mindestmaß zu beschränken. Informationen zum Konfigurieren der Protokollierung in SharePoint Server finden Sie unter [Konfigurieren der Diagnoseprotokollierung in SharePoint Server](https://docs.microsoft.com/SharePoint/administration/configure-diagnostic-logging).
+Ziehen Sie es in Erwägung, die Aufbewahrungsrichtlinien für Protokolle auf das für Ihr Unternehmen erforderliche Mindestmaß zu beschränken. Informationen zum Konfigurieren der Protokollierung in SharePoint Server finden Sie unter [Konfigurieren der Diagnoseprotokollierung in SharePoint Server](/SharePoint/administration/configure-diagnostic-logging).
 
 Beachten Sie, dass einige Systemereignisse auch im Windows-Ereignisprotokoll festgehalten werden.
 
 ### <a name="usage-database"></a>Verwendungsdatenbank
 
-Die Verwendungsdatenbank von SharePoint Server (Standardname WSS_Logging) enthält eine Teilmenge der Informationen aus den ULS-Protokollen. Die maximale Aufbewahrungszeit für Daten in dieser Datenbank beträgt 30 Tage. Es wird empfohlen, dass Sie diese Einstellung auf das für Ihr Unternehmen erforderliche Mindestmaß konfigurieren. Weitere Informationen finden Sie unter [Konfigurieren der Diagnoseprotokollierung in SharePoint Server](https://docs.microsoft.com/SharePoint/administration/configure-diagnostic-logging).
+Die Verwendungsdatenbank von SharePoint Server (Standardname WSS_Logging) enthält eine Teilmenge der Informationen aus den ULS-Protokollen. Die maximale Aufbewahrungszeit für Daten in dieser Datenbank beträgt 30 Tage. Es wird empfohlen, dass Sie diese Einstellung auf das für Ihr Unternehmen erforderliche Mindestmaß konfigurieren. Weitere Informationen finden Sie unter [Konfigurieren der Diagnoseprotokollierung in SharePoint Server](/SharePoint/administration/configure-diagnostic-logging).
 
 ## <a name="personal-information-and-search"></a>Personenbezogene Daten und Suche
 
@@ -290,9 +290,9 @@ Zusätzlich zur Speicherung von Dateien im Index, speichert das FAST Search Serv
 
 Die empfohlenen Aktionen für Lösungen für die Hybridsuche stimmen mit denen für die Suche in SharePoint Server oder SharePoint Online überein. Es gibt zwei Lösungen für die Hybridsuche:
 
-**Die Cloudlösung für Hybridsuche –** Mit der Cloudlösung für die Hybridsuche für SharePoint indizieren Sie alle von Ihnen durchforsteten Inhalte, einschließlich der lokalen Inhalte im Suchindex in Office 365. Wenn Benutzer den Suchindex in Office 365 abfragen, erhalten sie Suchergebnisse aus sowohl lokalen als auch Office 365-Inhalten. Wenn Dokumente aus der SharePoint-Serverumgebung gelöscht werden, werden sie auch aus dem Suchindex in Office 365 gelöscht. [Lesen Sie weitere Informationen zur Cloudlösung für die Hybridsuche](https://docs.microsoft.com/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint) und zur [Interaktion zwischen Suchkomponenten und Datenbanken bei der Cloudhybridsuche](https://docs.microsoft.com/sharepoint/hybrid/plan-cloud-hybrid-search-for-sharepoint), um besser zu verstehen, wie sich die DSGVO auf die Hybridumgebung auswirkt.
+**Die Cloudlösung für Hybridsuche –** Mit der Cloudlösung für die Hybridsuche für SharePoint indizieren Sie alle von Ihnen durchforsteten Inhalte, einschließlich der lokalen Inhalte im Suchindex in Office 365. Wenn Benutzer den Suchindex in Office 365 abfragen, erhalten sie Suchergebnisse aus sowohl lokalen als auch Office 365-Inhalten. Wenn Dokumente aus der SharePoint-Serverumgebung gelöscht werden, werden sie auch aus dem Suchindex in Office 365 gelöscht. [Lesen Sie weitere Informationen zur Cloudlösung für die Hybridsuche](/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint) und zur [Interaktion zwischen Suchkomponenten und Datenbanken bei der Cloudhybridsuche](/sharepoint/hybrid/plan-cloud-hybrid-search-for-sharepoint), um besser zu verstehen, wie sich die DSGVO auf die Hybridumgebung auswirkt.
 
-**Die hybride Sammelsuche –** Mit der hybriden Sammelsuche verwenden Sie sowohl Ihren Index in SharePoint Server als auch Ihren Index in Office 365. Die beiden Suchdienste SharePoint Server und SharePoint Online können den Suchindex in der jeweils anderen Umgebung abfragen und Sammelergebnisse zurückgeben. Wenn Benutzer in einem Suchcenter suchen, stammen die Suchergebnisse aus dem Suchindex in SharePoint Server und dem Suchindex in Office 365. [Lesen Sie weitere Informationen zur hybriden Sammelsuche](https://docs.microsoft.com/sharepoint/hybrid/learn-about-hybrid-federated-search-for-sharepoint), um besser zu verstehen, wie sich die DSGVO auf die Hybridumgebung auswirkt.
+**Die hybride Sammelsuche –** Mit der hybriden Sammelsuche verwenden Sie sowohl Ihren Index in SharePoint Server als auch Ihren Index in Office 365. Die beiden Suchdienste SharePoint Server und SharePoint Online können den Suchindex in der jeweils anderen Umgebung abfragen und Sammelergebnisse zurückgeben. Wenn Benutzer in einem Suchcenter suchen, stammen die Suchergebnisse aus dem Suchindex in SharePoint Server und dem Suchindex in Office 365. [Lesen Sie weitere Informationen zur hybriden Sammelsuche](/sharepoint/hybrid/learn-about-hybrid-federated-search-for-sharepoint), um besser zu verstehen, wie sich die DSGVO auf die Hybridumgebung auswirkt.
 
 ## <a name="on-prem-to-cloud-migrations"></a>Migrationen aus lokalen Installationen in die Cloud
 
@@ -306,7 +306,7 @@ Führen Sie die folgenden grundlegenden Schritte aus, um die personenbezogenen D
 
 1.  Entfernen Sie die Benutzerinformationen aus allen externen Systemen, die mit dem SharePoint Server-Benutzerprofil verknüpft sind. Wenn Sie die Verzeichnissynchronisierung verwenden, muss der Benutzer aus der lokalen Active Directory-Umgebung entfernt werden.
 
-2.  Führen Sie eine [Profilsynchronisierung](https://docs.microsoft.com/sharepoint/administration/start-profile-synchronization-manually) in SharePoint Server aus.
+2.  Führen Sie eine [Profilsynchronisierung](/sharepoint/administration/start-profile-synchronization-manually) in SharePoint Server aus.
 
 3.  Löschen Sie das Profil aus SharePoint Server. Nachdem dies erfolgt ist, wird das Profil innerhalb von 30 Tagen vollständig aus der Benutzerprofildatenbank in SharePoint Server entfernt. Die Profilseite und die persönliche Website des Benutzers werden gelöscht.
 

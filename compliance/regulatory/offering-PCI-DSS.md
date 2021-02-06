@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3121119635d6dad9567f4497ecdaeb1111aabb7a
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: e0ee7f01e3c62c7f2cfac3867435221723fd7e93
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49509395"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121224"
 ---
 # <a name="payment-card-industry-pci-data-security-standard-dss"></a>Payment Card Industry (PCI) Data Security Standard (DSS)
 
@@ -31,9 +31,9 @@ Der Payment Card Industry (PCI) Data Security Standards (DSS) ist ein globaler I
 
 ## <a name="microsoft-and-pci-dss"></a>Microsoft und PCI DSS
 
-Microsoft hat eine jährliche PCI-DSS-Bewertung mit einem anerkannten Qualified Security Assessor (QSA) durchgeführt. Die Prüfer überprüften Microsoft Azure-, Microsoft OneDrive for Business- und Microsoft SharePoint Online-Umgebungen, in denen die Infrastruktur, die Entwicklung, der Betrieb, die Verwaltung, der Support und die In-Scope-Services überprüft wurden. Der PCI DSS legt vier Compliance-Ebenen fest, die auf dem Transaktionsvolumen basieren. Azure, OneDrive for Business und SharePoint Online sind gemäß PCI DSS Version 3.2 auf Dienstanbieter-Ebene 1 als konform zertifiziert (das höchste Transaktionsvolumen von mehr als 6 Millionen pro Jahr).
+Microsoft hat eine jährliche PCI-DSS-Bewertung mit einem anerkannten Qualified Security Assessor (QSA) durchgeführt. Die Prüfer überprüften Microsoft Azure-, Microsoft OneDrive for Business- und Microsoft SharePoint Online-Umgebungen, in denen die Infrastruktur, die Entwicklung, der Betrieb, die Verwaltung, der Support und die In-Scope-Services überprüft wurden. Der PCI-DSS legt vier Compliance-Ebenen fest, die auf dem Transaktionsvolumen basieren. Azure, OneDrive for Business und SharePoint Online sind gemäß PCI DSS Version 3.2 auf Dienstanbieter-Ebene 1 als konform zertifiziert (das höchste Transaktionsvolumen von mehr als 6 Millionen pro Jahr).
 
-Die Bewertung führt zu einer Konformitätsbescheinigung (AoC – Attestation of Compliance), die den Kunden zur Verfügung steht, und einem vom Auditor (QSA – Qualified Security Assessor) herausgegebenen Bericht über die Konformität (RoC – Report on Compliance). Die effektive Frist für die Einhaltung beginnt mit dem Bestehen des Audits und dem Erhalt der AoC vom Assessor und endet ein Jahr ab dem Datum der Unterzeichnung der AoC. 
+Die Bewertung führt zu einer Attestation of Compliance (AoC), die den Kunden zur Verfügung steht, und einem vom QSA herausgegebenen Bericht über die Konformität (RoC). Die effektive Frist für die Einhaltung beginnt mit dem Bestehen des Audits und dem Erhalt der AoC vom Assessor und endet ein Jahr ab dem Datum der Unterzeichnung der AoC. 
 
 Kunden, die eine Umgebung für Karteninhaber oder einen Kartenverarbeitungsdienst entwickeln möchten, können diese Zertifizierung in vielen der zugrunde liegenden Bereiche verwenden, wodurch sich der Aufwand und die Kosten für die Erlangung einer eigenen PCI-DSS-Zertifizierung verringern.
 
@@ -46,7 +46,7 @@ Es ist wichtig zu verstehen, dass der PCI-DSS-Kompatibilitätsstatus für Azure,
 - Flow Cloud-Dienst entweder als eigenständiger Dienst oder als Bestandteil eines Plans oder einer Suite von Office 365 oder Dynamics 365
 - Microsoft Graph
 - Intune
-- [Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
+- [Microsoft Defender Advanced Threat Protection](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
 - PowerApps-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365- oder Dynamics 365-Plan oder einer -Anwendungssuite enthalten
 - Power BI-Clouddienst entweder als eigenständiger Dienst oder als Bestandteil eines Office 365-Plans oder -Suite
 - OneDrive for Business und SharePoint Online (nur Vereinigte Staaten)
@@ -96,14 +96,14 @@ Derzeit ist OneDrive for Business und SharePoint Online nur in den Vereinigten S
 
 Derzeit sind nur Dateien und Dokumente, die zu OneDrive for Business und SharePoint Online hochgeladen wurden, mit PCI DSS kompatibel.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden des Microsoft Compliance-Managers zur Einschätzung des Risikos
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
 
-[Microsoft Compliance Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center, die Ihnen](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen in Compliance Manager erstellen](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
+[Microsoft Compliance-Manager](/microsoft-365/compliance/compliance-manager) ist ein Feature im [Microsoft 365 Compliance Center](/microsoft-365/compliance/microsoft-365-compliance-center), das Ihnen dabei hilft, den Compliance-Status Ihrer Organisation zu ermitteln und Maßnahmen zur Senkung von Risiken zu ergreifen. Compliance-Manager bietet eine sehr hilfreiche Vorlage für die Erstellung einer Bewertung für diese Verordnung. Die Vorlage finden Sie auf der Seite **Bewertungsvorlagen** in Compliance-Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="resources"></a>Ressourcen
 
 - [PCI Security Standards Council](https://www.pcisecuritystandards.org/)
 - [PCI Data Security Standard](https://www.pcisecuritystandards.org/documents/PCI_DSS_v3-1.pdf)
-- [Azure PCI DSS 3.2.1 Blueprint](https://docs.microsoft.com/azure/governance/blueprints/samples/pci-dss-3.2.1/)
+- [Azure PCI DSS 3.2.1 Blueprint](/azure/governance/blueprints/samples/pci-dss-3.2.1/)
 - [PCI DSS Quick Reference Guide](https://www.pcisecuritystandards.org/documents/PCISSC%20QRG%20August%202014%20-print.pdf)
 - [Compliance im Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
