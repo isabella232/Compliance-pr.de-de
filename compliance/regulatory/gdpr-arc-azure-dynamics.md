@@ -18,16 +18,16 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 69e30dba5611614c864390a328e913fe233533b2
-ms.sourcegitcommit: b16b4a28b4f477ca6c6768266402bc234c306757
+ms.openlocfilehash: 6bd3d6007e68479f73988c68769541c45480b61a
+ms.sourcegitcommit: f37d6ac660910f1cc2204f5ceebd390f7abbdfbf
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50169922"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50175447"
 ---
 # <a name="azure-and-dynamics-365-accountability-readiness-checklist-for-the-gdpr"></a>Azure und Dynamics 365-Prüflisten zu den Verantwortlichkeiten für die DSGVO
 
-Um die Datenschutz-Grundverordnung (DSGVO) bei der Verwendung von Microsoft Azure und Dynamics 365 zu unterstützen, verwenden Sie bitte den Satz von Datenschutz- und Sicherheitssteuerelementen für Verarbeiter personenbezogener Daten:
+Um die Datenschutz-Grundverordnung (DSGVO) bei der Verwendung von Microsoft Azure und Dynamics 365 zu unterstützen, verwenden Sie den Satz von Datenschutz- und Sicherheitssteuerelementen für Verarbeiter personenbezogener Daten:
 
 - [ISO/IEC 27701](https://shop.bsigroup.com/ProductDetail?pid=000000000030351736) für Anforderungen an das Management von Datenschutzinformationen
 - [ISO/IEC 27001](https://shop.bsigroup.com/ProductDetail?pid=000000000030347472) für Anforderungen an Sicherheitstechniken
