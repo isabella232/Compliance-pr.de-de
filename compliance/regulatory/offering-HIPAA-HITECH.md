@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6f1af4cbedc681a36c50eb3f75cbeb13ed671057
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: f2574ff4c660d8aee1229856cf776c397c80561e
+ms.sourcegitcommit: 4f70b1fe53943f9d919e7e1f449093b90b30f046
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120294"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50276193"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>Health Insurance Portability and Accountability (HIPAA) & HITECH Acts
 
@@ -59,7 +59,7 @@ Wenn Sie erfahren möchten, wie die Microsoft-Cloud Kunden dabei unterstützt, H
 - Microsoft Cloud App Security
 - [Microsoft Cloud for Healthcare](https://aka.ms/MicrosoftCloudforHealthcareCompliance)
 - Microsoft Healthcare Bot Service
-- Microsoft Managed Desktop
+- [Microsoft Managed Desktop](/microsoft-365/managed-desktop/intro/compliance)
 - Microsoft Stream
 - Microsoft Professional Services: Premier und On-Premises für Azure, Dynamics 365, Intune und Medium Business- und Enterprise-Kunden von Microsoft 365 for Business
 - [Dynamics 365 und Dynamics 365 U.S. Government](https://aka.ms/d365-compliance-list)
@@ -90,9 +90,9 @@ Nein. Durch die Bereitstellung eines BAA hilft Microsoft, Ihre HIPAA-Compliance 
 
 **Kann Microsoft den BAA meiner Organisation ändern?**
 
-Microsoft kann den HIPAA BAA nicht ändern, da die Microsoft-Dienste für alle Kunden einheitlich sind und daher für alle Benutzer dieselben Verfahren ausgeführt werden müssen. Um jedoch den BAA für die HIPAA-regulierten Kunden von Microsoft und seine Dienste zu erstellen, hat Microsoft mit einigen der führenden us-amerikanischen Medizinischen Schulen und deren Datenschutzberatern der HIPAA sowie anderen öffentlich- und privaten HIPAA-abgedeckten Entitäten zusammengearbeitet.
+Microsoft kann den HIPAA BAA nicht ändern, da die Microsoft-Dienste für alle Kunden einheitlich sind und daher für alle Benutzer dieselben Verfahren ausgeführt werden müssen. Um jedoch den BAA für die HIPAA-regulierten Kunden von Microsoft und seine Dienste zu erstellen, hat Microsoft mit einigen der führenden us-amerikanischen Medizinischen Schulen und deren Datenschutzberater sowie anderen öffentlich- und privat vom HIPAA abgedeckten Entitäten zusammengearbeitet.
 
-**Wie kann ich Kopien der Berichte des Auditors erhalten?**
+**Wie kann ich Kopien der Berichte des Prüfers erhalten?**
 
 Das [Vertrauensstellungsportal](https://www.microsoft.com/trustcenter/STP/default.aspx) stellt unabhängig geprüfte Complianceberichte zur Verfügung. Sie können über das Portal Prüfberichte anfordern, sodass Ihre Prüfer die Ergebnisse der Clouddienste von Microsoft mit Ihren eigenen gesetzlichen und regulatorischen Anforderungen vergleichen können.
 
@@ -104,7 +104,7 @@ Um Kunden bei dieser Aufgabe zu unterstützen, hat Microsoft die folgenden Leitf
 - [Praktischer Leitfaden zum Entwerfen von sicheren Gesundheitslösungen mit Microsoft Azure](https://aka.ms/azureindustrysecurity) hilft Ihnen, besser zu verstehen, was für die erfolgreiche, sichere Einführung eines Clouddiensts nötig ist.
 - [Die Behandlung der HIPAA-Sicherheits- und Datenschutzanforderungen in der Microsoft-Cloud](https://smb.blob.core.windows.net/smbproduction/Content/Microsoft_Cloud_Healthcare_HIPAA_Security_Privacy.pdf) bietet einen kurzen Überblick über die Vorschriften. Es bietet außerdem eine detaillierte Analyse der Erstellung der Clouddienste von Microsoft mit Methoden, die diesen Anforderungen entsprechen, und Anleitungen zum Erstellen von Compliance-bereiten Lösungen.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
 
 [Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center, die Ihnen](/microsoft-365/compliance/microsoft-365-compliance-center) hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen in Compliance Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 
@@ -112,7 +112,7 @@ Um Kunden bei dieser Aufgabe zu unterstützen, hat Microsoft die folgenden Leitf
 
 - [HIPAA Omnibus-Regel](https://aka.ms/HIPAA-omnibus) (Die endgültigen Bestimmungen ändernden HIPAA-Regeln)
 - [Microsoft Common Controls Hub-Complianceframework](https://www.microsoft.com/trustcenter/common-controls-hub)
-- [Microsoft Online Services-Nutzungsbedingungen](https://aka.ms/Online-Services-Terms)
+- [Nutzungsbedingungen für Microsoft-Onlinedienste](https://aka.ms/Online-Services-Terms)
 - [Microsoft Government Cloud](https://go.microsoft.com/fwlink/p/?linkid=2087246)
 - [Grundlegendes zur HIPAA-Compliance mit Azure](https://www.youtube.com/embed/6ptdye1LZ5k?autoplay=0)(19. Mai 2016)
 - [Azure HIPAA -HITRUST-Blueprintbeispiel](/azure/governance/blueprints/samples/hipaa-hitrust/)

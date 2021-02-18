@@ -16,36 +16,34 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4de465bbb17f5609af376920052d6abd366e5429
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 0a8cc37a24d3a51d79fb1ac34c92d96fc7e76fdd
+ms.sourcegitcommit: 66a26facea6ec9a95e5e61f1b5b69402f03db481
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121724"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50279842"
 ---
 # <a name="criminal-justice-information-services-cjis-security-policy"></a>#A0 (Criminal Criminal Criminal Information Services, CJIS)
 
 ## <a name="cjis-overview"></a>Übersicht über CJIS
 
-Die #A0 (Criminal Criminal Criminal Information Services, CJIS) des US Federal Bureau of Investigation (ES) gewährt staatlichen, lokalen und bundesgesetzlich zuständigen Strafverfolgungsbehörden sowie Strafverfolgungsbehörden Zugriff auf Informationen zu Straftätern (CJI), z. B. Fingerabdruckdatensätze und Strafrechtliche Verläufe. Strafverfolgungsbehörden und andere Regierungsbehörden in den Vereinigten Staaten müssen sicherstellen, dass ihre Nutzung von Clouddiensten für die Übertragung, Speicherung oder Verarbeitung von CJI der #A0 entspricht, die Mindestsicherheitsanforderungen und -kontrollen zum Schutz von [CJI](https://aka.ms/cjis-security-policy)vorsingt.
+Die #A0 (Criminal Criminal Criminal Information Services, CJIS) des US Federal Bureau of Investigation (ES) gewährt staatlichen, lokalen und bundesgesetzlich zuständigen Strafverfolgungsbehörden und Strafverfolgungsbehörden Zugriff auf Informationen zu Straftätern (CJI), z. B. Fingerabdruckdatensätze und Strafrechtliche Verläufe. Strafverfolgungsbehörden und andere Regierungsbehörden in den Vereinigten Staaten müssen sicherstellen, dass ihre Nutzung von Clouddiensten für die Übertragung, Speicherung oder Verarbeitung von CJI der #A0 entspricht, die Mindestsicherheitsanforderungen und Kontrollen zum Schutz von [CJI](https://aka.ms/cjis-security-policy)vorsingt.
 
 Die #A0 integriert Die #A1 und #A2 sowie Bundesgesetze und die Entscheidungen des Advisory Policy Board der Straftäter zusammen mit Anleitungen des National Institute of Standards and Technology (NIST). Die Richtlinie wird regelmäßig aktualisiert, um sich ständig weiterentwickelnde Sicherheitsanforderungen widerspiegeln zu können.
 
 Die #A0 definiert 13 Bereiche, die private Auftragnehmer wie Clouddienstanbieter auswerten müssen, um festzustellen, ob ihre Nutzung von Clouddiensten mit den #A1 konsistent sein kann. Diese Bereiche entsprechen eng NIST 800-53, das auch die Grundlage für das [Federal Risk and Authorization Management Program (FedRAMP)](offering-FedRAMP.md)ist, ein Programm, unter dem Microsoft für seine Government -Cloud-Angebote zertifiziert wurde.
 
-Darüber hinaus müssen alle privaten Auftragnehmer, die CJI verarbeiten, den CJIS Security Addendum unterzeichnen, einen einheitlichen Vertrag, der vom GENERAL der USA genehmigt wurde und die Sicherheit und Vertraulichkeit von CJI gewährleistet, die durch die Sicherheitsrichtlinie erforderlich sind. Er verpflichtet sich außerdem, ein Sicherheitsprogramm zu verwalten, das mit bundes- und landesgesetzen, -vorschriften und -standards konsistent ist, und beschränkt die Verwendung von CJI auf die Zwecke, für die es von einer Regierungsbehörde bereitgestellt wurde.
+Darüber hinaus müssen alle privaten Auftragnehmer, die CJI verarbeiten, den CJIS Security Addendum unterzeichnen, einen einheitlichen Vertrag, der vom GENERAL der USA genehmigt wurde und die Sicherheit und Vertraulichkeit von CJI gewährleistet, die durch die Sicherheitsrichtlinie erforderlich sind. Er verpflichtet sich außerdem, ein Sicherheitsprogramm zu verwalten, das mit Bundes- und Landesgesetzen, -vorschriften und -standards konsistent ist, und beschränkt die Verwendung von CJI auf die Zwecke, für die es von einer Regierungsbehörde bereitgestellt wurde.
 
 ## <a name="microsoft-and-cjis-security-policy"></a>Microsoft- und #A0
 
-Microsoft signiert den #A0 in Staaten mit CJIS Information Agreements. Diese informieren die staatlichen Strafverfolgungsbehörden, die für die Einhaltung der #A0 verantwortlich sind, wie die Cloudsicherheitskontrollen von Microsoft dazu beitragen, den gesamten Lebenszyklus von Daten zu schützen und eine angemessene Hintergrundprüfung des Betriebspersonals mit Zugriff auf CJI sicherzustellen. Microsoft arbeitet weiterhin mit staatlichen Behörden zusammen, um #A0 zu schließen.
+Microsoft signiert das CJIS Security Addendum in Staaten mit CJIS Information Agreements. Diese informieren die staatlichen Strafverfolgungsbehörden, die für die Einhaltung der #A0 verantwortlich sind, wie die Cloudsicherheitskontrollen von Microsoft dazu beitragen, den gesamten Lebenszyklus von Daten zu schützen und eine angemessene Hintergrundprüfung des Betriebspersonals mit Zugriff auf CJI sicherzustellen. Microsoft arbeitet weiterhin mit staatlichen Behörden zusammen, um #A0 zu schließen.
 
 Microsoft hat die Betriebsrichtlinien und -verfahren von Microsoft Azure Government, Microsoft Office 365 U.S. Government und Microsoft Dynamics 365 U.S. Government bewertet und wird seine Fähigkeit in den anwendbaren Servicevereinbarungen nachweisen, die ANFORDERUNGEN von DYNAMICS für die Nutzung von In-Scope-Diensten zu erfüllen.
 
 Erfahren Sie mehr über die Vorteile der #A0 in der Microsoft Cloud: Lesen Sie, wie [Genetec die strafrechtlichen Ermittlungen genehmigt hat.](https://customers.microsoft.com/story/genetec)
 
-Erfahren Sie, wie Sie Ihre #A0 mit unserem Azure Security and #A1 beschleunigen: Laden Sie die [#A2](https://gallery.technet.microsoft.com/CJIS-Implementation-62af7c27) für Microsoft Government Cloud Services herunter.
-
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft Cloud Services im Leistungsumfang
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft-Clouddienste im Leistungsumfang
 
 - [Azure Government](/azure/azure-government/documentation-government-welcome)
 - [Dynamics 365 U.S. Government](/power-platform/admin/microsoft-dynamics-365-government#certifications-and-accreditations)
@@ -70,17 +68,17 @@ Die Verpflichtung von Microsoft, die geltenden gesetzlichen #A0 zu erfüllen, er
 
 **Wo kann ich Complianceinformationen anfordern?**
 
-Wenden Sie sich an Ihren Microsoft-Konto-Vertreter, um Informationen zu der für Sie von Ihnen interessierten Gerichtsbarkeit zu erhalten. Wenden Sie sich an den Kontakt, um Informationen darüber zu erhalten, welche <cjis@microsoft.com> Dienste derzeit in welchen Zuzuständen verfügbar sind.
+Wenden Sie sich an Ihren Microsoft-Konto-Vertreter, um Informationen zu der für Sie von Ihnen interessierten Gerichtsbarkeit zu erhalten. Kontakt <cjis@microsoft.com> für Informationen dazu, welche Dienste derzeit in welchen Zuzuständen verfügbar sind.
 
 **Wie zeigt Microsoft, dass seine Clouddienste die Einhaltung der Anforderungen meines Zustands ermöglichen?**
 
-Microsoft unterschreibt einen Informationsvertrag mit der CJIS Systems Agency (CSA) im Bundesstaat; Sie können eine Kopie von der CSA Ihres Status anfordern. Darüber hinaus stellt Microsoft Kunden detaillierte Informationen zu Sicherheit, Datenschutz und Compliance zur Verfügung. Kunden können auch Sicherheits- und Complianceberichte überprüfen, die von unabhängigen Prüfern erstellt wurden, damit sie überprüfen können, ob Microsoft Sicherheitskontrollen (z. B. ISO 27001) implementiert hat, die dem entsprechenden Prüfbereich angemessen sind.
+Microsoft unterschreibt einen Informationsvertrag mit der CJIS Systems Agency (CSA) des Bundesstaats; Sie können eine Kopie von der CSA Ihres Status anfordern. Darüber hinaus stellt Microsoft Kunden detaillierte Informationen zu Sicherheit, Datenschutz und Compliance zur Verfügung. Kunden können auch Sicherheits- und Complianceberichte überprüfen, die von unabhängigen Prüfern erstellt wurden, damit sie überprüfen können, ob Microsoft Sicherheitskontrollen (z. B. ISO 27001) implementiert hat, die dem entsprechenden Prüfbereich angemessen sind.
 
 **Wo beginne ich mit dem Compliance-Aufwand meiner Agentur?**
 
-[Die #A0 deckt](https://aka.ms/cjis-security-policy) die Vorsichtsmaßnahmen ab, die Ihre Organisation ergreifen muss, um CJI zu schützen. Darüber hinaus kann Ihr Microsoft-Konto-Vertreter Sie mit personen in Kontakt setzen, die mit den Anforderungen Ihrer Gerichtsbarkeit vertraut sind.
+[Die #A0 deckt](https://aka.ms/cjis-security-policy) die Vorsichtsmaßnahmen ab, die Ihre Organisation ergreifen muss, um CJI zu schützen. Darüber hinaus kann Ihr Vertreter Ihres Microsoft-Kontos Sie mit personen in Kontakt setzen, die mit den Anforderungen Ihrer Gerichtsbarkeit vertraut sind.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
 
 [Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center, die Ihnen](/microsoft-365/compliance/microsoft-365-compliance-center) hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen in Compliance Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 
