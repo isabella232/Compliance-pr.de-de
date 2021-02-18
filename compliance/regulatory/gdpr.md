@@ -17,12 +17,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 44df81658719397271020f38088d3287e67774a1
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 16135ae18d0b0a2a91a61652fed3d1b34d5db124
+ms.sourcegitcommit: 38741d8dc272bc2199d9f27db0335973e6be9735
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121434"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290931"
 ---
 # <a name="general-data-protection-regulation-summary"></a>Zusammenfassung Datenschutz-Grundverordnung
 
@@ -141,7 +141,6 @@ Microsoft bietet in seinen Engineering- und Business-Bereichen sowohl standardm�
 
 Diese Datenschutzüberprüfungen sind in der Regel ausführlich – ein bestimmter Dienst wird möglicherweise dutzende oder hunderte Male überprüft. Microsoft fasst diese ausführlichen Datenschutzüberprüfungen in Bewertungen der Auswirkungen des Datenschutzes zusammen, die größere Verarbeitungsgruppierungen umfassen, die dann vom Microsoft EU-Datenschutzbeauftragten überprüft werden. Der Datenschutzbeauftragte beurteilt die Risiken im Zusammenhang mit der Datenverarbeitung, um sicherzustellen, dass entsprechende Abhilfemaßnahmen vorhanden sind. Wenn der Datenschutzbeauftragte nicht abwendbare Risiken findet, werden Empfehlungen an die Engineering-Gruppe gegeben. Wenn sich Risiken im Zusammenhang mit dem Datenschutz ändern, werden die Bewertungen der Auswirkungen des Datenschutzes überprüft und aktualisiert.
 
-
 In der Funktion des Datenverarbeiters ist Microsoft verpflichtet, Datencontroller dabei zu unterstützen, die in der DSGVO formulierten Anforderungen an Datenschutz-Folgenabschätzungen zu erfüllen. Zur Unterstützung unserer Kunden wurden die relevanten Abschnitte der DPIAs von Microsoft zusammengefasst und werden in diesem Abschnitt in künftigen Updates bereitgestellt, damit Controller die Microsoft-Dienste nutzen können, um die Zusammenfassungen für die Erstellung eigener DPIAs zu verwenden.
 
 ## <a name="breach-notification"></a>Benachrichtigung bei Sicherheitsverletzungen
@@ -166,7 +165,7 @@ Wenn eine Verletzung personenbezogener Daten, die möglicherweise die Rechte und
 
 Nachdem Microsoft auf eine Verletzung des Schutzes personenbezogener Daten aufmerksam gemacht wurde, sind wir im Rahmen der DSGVO dazu verpflichtet, Sie unverzüglich darüber zu informieren. Hat Microsoft die Rolle des Datenverarbeiters inne, spiegeln unsere Pflichten sowohl DSGVO-Anforderungen als auch unsere konzerneigenen, weltweiten Standardvertragsbestimmungen wider. In unseren Augen gilt dies für alle bestätigten Verletzungen des Schutzes personenbezogener Daten und unabhängig von dem potenziellen Schadensrisiko. Wir informieren unsere Kunden darüber, ob die Verletzung des Schutzes personenbezogener Daten bei Microsoft selbst oder bei einem unserer Unterauftragsverarbeiter auftrat. Wir haben Prozesse implementiert, mit denen wir die Verantwortlichen bei Sicherheitsvorfällen in Ihrer Organisation schnell identifizieren und kontaktieren können. Darüber hinaus sind alle Unterauftragsverarbeiter vertraglich verpflichtet, Verletzungen der Sicherheit personenbezogener Daten in ihren eigenen Systemen an Microsoft zu melden und dahingehende Garantien zu geben.
 
-**Wie erkennt Microsoft eine Verletzung des Schutzes personenbezogener Daten?**
+**Wie erkennt Microsoft eine Datenschutzverletzung?**
 
 Alle unsere Dienste und Mitarbeiter befolgen interne Incident-Management-Prozeduren, um sicherzustellen, dass alle Vorsichtsmaßnahmen zur Vermeidung von Verletzungen der Schutzes personenbezogener Daten ergriffen werden.  Darüber hinaus hat Online Services spezifische plattformübergreifende Sicherheitskontrollen zur frühzeitigen Erkennung solcher Verletzungen implementiert.
 
@@ -210,7 +209,7 @@ Die DSGVO-Bedingungen von Microsoft stellen die in Artikel 28 erforderlichen Ver
 
 **Auf welcher Grundlage erleichtert Microsoft die Übertragung von personenbezogenen Daten in Länder außerhalb der EU?**
 
-Microsoft verwendet seit langem die Standardvertragsklauseln (auch als Modellklauseln bekannt) als Grundlage für die Datenübertragung für seine Unternehmens-Online-Dienste. Die Standardvertragsklauseln sind von der Europäischen Kommission zur Verfügung gestellte Standardbedingungen, die verwendet werden können, um Daten konform außerhalb des Europäischen Wirtschaftsraums zu übertragen. Microsoft hat die Standardvertragsklauseln über die [Bedingungen für Online-Dienste](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46) in alle unsere Volumenlizenzverträge aufgenommen. Die Arbeitsgruppe des Artikels 29 hat festgestellt, dass die Umsetzung der Standardvertragsklauseln durch Microsoft konform ist. Und als der EU-US Privacy Shield verfügbar wurde, war Microsoft das erste Unternehmen, das sich zertifizieren ließ. Siehe [Microsofts Zertifizierung des Privacy Shield](https://www.privacyshield.gov/participant?id=a2zt0000000KzNaAAK&status=Active), und lesen Sie die [Bedingungen für Online-Dienste](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46). Der EU-US Privacy Shield hilft Kunden, die ihre Daten in die USA übertragen wollen, dies in einer Weise zu tun, die mit ihren Datenschutzverpflichtungen vereinbar ist.
+Microsoft verwendet seit langem die Standardvertragsklauseln (auch als Modellklauseln bekannt) als Grundlage für die Datenübertragung für seine Unternehmens-Online-Dienste. Die Standardvertragsklauseln sind von der Europäischen Kommission zur Verfügung gestellte Standardbedingungen, die verwendet werden können, um Daten konform außerhalb des Europäischen Wirtschaftsraums zu übertragen. Microsoft hat die Standardvertragsklauseln über die [Bedingungen für Online-Dienste](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46) in alle unsere Volumenlizenzverträge aufgenommen. Für personenbezogene Daten aus dem Europäischen Wirtschaftsraum, der Schweiz und dem Vereinigten Königreich stellt Microsoft sicher, dass die Übermittlung personenbezogener Daten in ein Drittland oder an eine internationale Organisation den entsprechenden Bestimmungen gemäß Artikel 46 der DSGVO unterliegt. Zusätzlich zu Microsofts Verpflichtungen unter den Standardvertragsklauseln für Auftragsverarbeiter und anderen Musterverträgen hält sich Microsoft weiterhin an die Bedingungen des [EU-US-Datenschutzschild-Frameworks](https://www.privacyshield.gov/), wird sich aber nicht mehr darauf als Grundlage für die Übermittlung personenbezogener Daten aus der EU/dem EWR in die Vereinigten Staaten stützen.
 
 **Was sind die anderen Microsoft Compliance-Angebote?**
 
@@ -269,9 +268,9 @@ Die Einhaltung der DSGVO wird für die meisten Unternehmen Zeit und Geld kosten,
 
 Die DSGVO regelt die Erhebung, Speicherung, Nutzung und Weitergabe von „personenbezogenen Daten“. Personenbezogene Daten sind in der DSGVO allgemein als Daten definiert, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen.
 
-Zu den personenbezogenen Daten können unter anderem Online-Identifikatoren (z. B. IP-Adressen), Mitarbeiterinformationen, Vertriebsdatenbanken, Daten des Kundendienstes, Kundenfeedback-Formulare, Standortdaten, biometrische Daten, CCTV-Aufnahmen, Aufzeichnungen über Treueprogramme, Gesundheits- und Finanzinformationen und vieles mehr gehören. Diese können sogar Informationen enthalten, die nicht personenbezogen zu sein scheinen – wie beispielsweise ein Foto einer Landschaft ohne Menschen – wenn diese Informationen durch eine Kontonummer oder einen eindeutigen Code mit einer identifizierbaren Person in Verbindung stehen. Und selbst personenbezogene Daten, die pseudonymisiert wurden, können personenbezogene Daten sein, wenn das Pseudonym mit einer bestimmten Person in Verbindung gebracht werden kann. 
+Zu den personenbezogenen Daten können unter anderem Online-Identifikatoren (z. B. IP-Adressen), Mitarbeiterinformationen, Vertriebsdatenbanken, Daten des Kundendienstes, Kundenfeedback-Formulare, Standortdaten, biometrische Daten, CCTV-Aufnahmen, Aufzeichnungen über Treueprogramme, Gesundheits- und Finanzinformationen und vieles mehr gehören. Diese können sogar Informationen enthalten, die nicht personenbezogen zu sein scheinen – wie beispielsweise ein Foto einer Landschaft ohne Menschen – wenn diese Informationen durch eine Kontonummer oder einen eindeutigen Code mit einer identifizierbaren Person in Verbindung stehen. Und selbst personenbezogene Daten, die pseudonymisiert wurden, können personenbezogene Daten sein, wenn das Pseudonym mit einer bestimmten Person in Verbindung gebracht werden kann.
 
-Die Verarbeitung bestimmter „spezieller“ Kategorien personenbezogener Daten – wie z. B. personenbezogene Daten, welche die rassische oder ethnische Herkunft einer Person offenbaren oder ihre Gesundheit oder sexuelle Ausrichtung betreffen – unterliegt strengeren Regeln als die Verarbeitung „gewöhnlicher“ personenbezogener Daten. Diese Auswertung der personenbezogenen Daten ist sehr faktenspezifisch, weshalb wir empfehlen, einen Experten zu beauftragen, um Ihre spezifischen Umstände zu beurteilen.
+Die Verarbeitung bestimmter „spezieller“ Kategorien personenbezogener Daten – wie z. B. personenbezogene Daten, welche die ethnische Herkunft einer Person offenbaren oder ihre Gesundheit oder sexuelle Ausrichtung betreffen – unterliegt strengeren Regeln als die Verarbeitung „gewöhnlicher“ personenbezogener Daten. Diese Auswertung der personenbezogenen Daten ist sehr faktenspezifisch, weshalb wir empfehlen, einen Experten zu beauftragen, um Ihre spezifischen Umstände zu beurteilen.
 
 **Meine Organisation verarbeitet nur Daten im Auftrag anderer. Muss sie noch die DSGVO einhalten?**
 
@@ -325,6 +324,5 @@ Microsoft-Produkte und -Dienstleistungen, wie Azure, Dynamics 365, Enterprise Mo
 
 - [Sprechen Sie Ihre Bedürfnisse rund um DSGVO mit einem unserer globalen Partner an, der Microsoft-basierte Lösungen anbietet.](https://aka.ms/findgdprpartner)
 - [Erfahren Sie, wie Microsoft Ihre Daten verwaltet, wo sie sich befinden, wer auf sie und die Bedingungen zugreifen kann und vieles mehr.](https://www.microsoft.com/trust-center/privacy)
-- [Erfahren Sie, wie Microsoft sich an die Grundsätze des EU-U.S. Privacy Shield-Rahmens hält](https://blogs.microsoft.com/eupolicy/2016/07/11/eu-u-s-privacy-shield-progress-for-privacy-rights/)
 - [Wie Microsoft im Rahmen der DSGVO Verletzungen des Schutzes personenbezogener Daten erkennt, darauf reagiert und Sie darüber informiert](https://www.microsoft.com/trust-center/privacy/gdpr-data-breach)
 - [Bewerten Sie Ihre DSGVO-Bereitschaft noch heute](https://discover.microsoft.com/gdpr-readiness-assessment/)
