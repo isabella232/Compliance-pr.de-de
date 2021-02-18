@@ -16,18 +16,18 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 2ddb9fd3af311c0c1fa66be1cbdd547e4d582d9b
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 9c808a80aa2d2ab358378cfb0e50ef28f023bbf7
+ms.sourcegitcommit: 4f70b1fe53943f9d919e7e1f449093b90b30f046
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506805"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50276183"
 ---
 # <a name="cloud-security-alliance-csa-star-certification"></a>Cloud Security Alliance (CSA) STAR-Zertifizierung
 
 ## <a name="csa-star-certification-overview"></a>Übersicht über CSA STAR-Zertifizierungen
 
-Die Cloud Security Alliance (CSA) verwaltet das Security, Trust & Assurance Registry (STAR)-Programm, ein kostenloses, öffentliches Verzeichnis, in dem Clouddienstanbieter (Cloud Service Provider, CSPs) ihre CSA-bezogenen Bewertungen veröffentlichen können. STAR umfasst drei Assurance-Stufen, die den Kontrollvorgaben der CSA Cloud Controls Matrix (CCM) entsprechen. (Die CCM deckt grundlegende Sicherheitsprinzipien in 16 Bereichen ab und unterstützt Cloudkunden bei der Bewertung des Gesamtsicherheitsrisikos eines Clouddienstes.)
+Die Cloud Security Alliance (CSA) verwaltet das Security, Trust & Assurance Registry (STAR)-Programm, ein kostenloses, öffentliches Verzeichnis, in dem Clouddienstanbieter (Cloud Service Provider, CSPs) ihre CSA-bezogenen Bewertungen veröffentlichen können. STAR umfasst drei Assurance-Stufen, die den Kontrollvorgaben der CSA Cloud Controls Matrix (CCM) entsprechen. (Die CCM deckt grundlegende Sicherheitsprinzipien in 16 Bereichen ab und unterstützt Cloudkunden bei der Bewertung des Gesamtsicherheitsrisikos eines Cloud Services.)
 
 - Stufe 1: STAR-Selbstbewertung
 - Stufe 2: STAR-Zertifizierung, STAR-Bescheinigung und C-STAR-Bewertung
@@ -35,11 +35,11 @@ Die Cloud Security Alliance (CSA) verwaltet das Security, Trust & Assurance Regi
 
 ## <a name="microsoft-and-csa-star-certification"></a>Microsoft und die CSA STAR-Zertifizierung
 
-Microsoft Azure, Microsoft Intune und Microsoft Power BI haben eine STAR-Zertifizierung erhalten, die eine strenge und unabhängige Bewertung der Sicherheitslage eines Cloudanbieters durch Dritte erfordert. Für diese STAR-Zertifizierung ist das Erreichen der ISO/IEC 27001-Zertifizierung und die Erfüllung der in der CCM angegebenen Kriterien erforderlich. Mit der Zertifizierung wird nachgewiesen, dass ein Clouddienstanbieter mit den entsprechenden Anforderungen nach ISO/IEC 27001 konform ist, wichtige Probleme der Cloudsicherheit, wie in der CCM ausgeführt, berücksichtigt hat und anhand des STAR Capability Maturity Model im Hinblick auf die Verwaltung von Aktivitäten in CCM-Kontrollbereichen bewertet wurde.  
+Microsoft Azure, Microsoft Intune und Microsoft Power BI haben eine STAR-Zertifizierung erhalten, die eine strenge und unabhängige Bewertung der Sicherheitslage eines Cloudanbieters durch Dritte erfordert. Für diese STAR-Zertifizierung ist das Erreichen der ISO/IEC 27001-Zertifizierung und die Erfüllung der in der CCM angegebenen Kriterien erforderlich. Mit der Zertifizierung wird nachgewiesen, dass ein Cloud Service-Anbieter mit den entsprechenden Anforderungen nach ISO/IEC 27001 konform ist, wichtige Probleme der Cloudsicherheit, wie in der CCM ausgeführt, berücksichtigt hat und im Rahmen des STAR Capability Maturity Model im Hinblick auf die Verwaltung der Aktivitäten in CCM-Kontrollbereichen bewertet wurde.  
   
 Während der Bewertung weist ein akkreditierter CSA-Zertifizierungsprüfer jedem der 16 CCM-Kontrollbereiche eine Maturity Capability-Punktzahl zu. Anhand der durchschnittlichen Punktzahl wird die Gesamtreife ermittelt und der entsprechende Bronze, Silver oder Gold Award verliehen. Azure, Intune, Power BI und Microsoft Cloud App Security erhielten die Cloud Security Alliance (CSA) STAR-Zertifizierung auf Gold-Ebene.  
 
-Erfahren Sie, wie Sie die Bereitstellung Ihrer CSA STAR-Zertifizierung mit den Azure-Blaupausen für Sicherheit und Compliance beschleunigen können: [Microsoft Azure-Antworten für den Consensus Assessments Initiative Questionnaire (CAIQ) herunterladen](https://gallery.technet.microsoft.com/Azure-Responses-to-CSA-46034a11)
+Erfahren Sie, wie Sie die Bereitstellung Ihrer CSA STAR-Zertifizierung mit den Azure-Blaupause für Sicherheit und Compliance beschleunigen können: [Microsoft Azure-Antworten für den Consensus Assessments Initiative Questionnaire (CAIQ) herunterladen](https://gallery.technet.microsoft.com/Azure-Responses-to-CSA-46034a11)
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft-Clouddienste im Leistungsumfang
 
@@ -48,7 +48,7 @@ Erfahren Sie, wie Sie die Bereitstellung Ihrer CSA STAR-Zertifizierung mit den A
 - Microsoft Graph
 - Microsoft Healthcare Bot
 - Intune
-- Microsoft Managed Desktop
+- [Microsoft Managed Desktop](/microsoft-365/managed-desktop/intro/compliance)
 - Microsoft Defender Advanced Threat Protection
 - OMS Service Map
 - Power Automate (ehemals Microsoft Flow): Clouddienst als eigenständiger Dienst oder in einem Office 365- oder Dynamics 365-Plan bzw. -Anwendungssuite enthalten
@@ -65,9 +65,9 @@ Erfahren Sie, wie Sie die Bereitstellung Ihrer CSA STAR-Zertifizierung mit den A
 
 **An welchen Branchenstandards ist die CSA CCM ausgerichtet?**
 
-Die CCM entspricht branchenweit anerkannten Sicherheitsstandards, Bestimmungen und Kontrollrahmen wie ISO 27001, PCI DSS, HIPAA, AICPA SOC 2, NERC CIP, FedRAMP, NIST und vielen weiteren. Eine aktuelle Liste finden Sie auf der [CSA-Website](https://cloudsecurityalliance.org/).
+Die CCM entspricht branchenweit anerkannten Sicherheitsstandards, Bestimmungen und Kontrollrahmen wie ISO 27001, PCI DSS, HIPAA, AICPA SOC 2, NERC CIP, FedRAMP, NIST und vielen weiteren. Eine aktuelle Liste finden Sie auf der [CSA-Website](https://cloudsecurityalliance.org/).
 
-**Wo kann ich die CSA STAR-Zertifizierung für Microsoft-Clouddienste einsehen?**
+**Wo kann ich die CSA STAR-Zertifizierung für Microsoft Cloud Services anzeigen?**
 
 Sie können die [CSA STAR-Zertifizierung](https://aka.ms/csastar-certification) für Azure (gilt auch für Dynamics 365, Intune und Power BI) über das CSA-Registrierungsverzeichnis einsehen.
 
@@ -75,11 +75,11 @@ Sie können die [CSA STAR-Zertifizierung](https://aka.ms/csastar-certification) 
 
 Azure, Microsoft Cloud App-Sicherheit, Intune und Power BI haben für die Bewertung des Reifegrads die höchstmögliche Auszeichnung, den Gold Award erhalten.
 
-**Welche CSA STAR-Assurance-Stufen haben Microsoft Business-Clouddienste erreicht?**
+**Welche CSA STAR-Bewertungen haben Microsoft Business Cloud Services erhalten?**
 
-- **Stufe 1**: **CSA STAR-Selbstbewertung**: Azure, Dynamics 365 und Office 365. Die [Selbstbewertung](offering-csa-star-self-assessment.md) ist ein kostenloses Angebot von Clouddienstanbietern, um ihre Sicherheitskontrollen zu dokumentieren und die Kunden beim Bewerten der Sicherheit des Diensts zu unterstützen.
-- **Stufe 2**: **CSA STAR-Zertifizierung**: Azure, Microsoft Cloud App Security, Intune und Power BI. Für die STAR-Zertifizierung ist das Erreichen der ISO/IEC 27001-Zertifizierung und die Erfüllung der in der CCM angegebenen Kriterien erforderlich. Sie wird nach strenger Bewertung der Sicherheitskontrollen und -maßnahmen eines Clouddienstanbieters durch Dritte erteilt.
-- **Stufe 2**: **CSA STAR-Nachweis**: Azure und Intune. CSA und AICPA haben gemeinsam Richtlinien für CPAs aufgestellt, die diese für SOC 2-Bestrebungen unter Verwendung der Kriterien des AICPA (Trust Service Principles, AT 101) und der CSA CCM nutzen können. Der [STAR-Nachweis](offering-CSA-STAR-Attestation.md) gründet auf diesen Richtlinien und wird nach strenger und unabhängiger Bewertung von Clouddienstanbietern erteilt.
+- **Stufe 1**: **CSA STAR-Selbstbewertung**: Azure, Dynamics 365 und Office 365. Die [Selbstbewertung](offering-csa-star-self-assessment.md) ist ein ergänzendes Angebot der Clouddienstanbieter, um ihre Sicherheitskontrollen zu dokumentieren und die Kunden beim Bewerten der Sicherheit des Diensts zu unterstützen.
+- **Stufe 2**: **CSA STAR-Zertifizierung**: Azure, Microsoft Cloud App-Sicherheit, Intune und Power BI. Für die STAR-Zertifizierung ist das Erreichen der ISO/IEC 27001-Zertifizierung und die Erfüllung der in der CCM angegebenen Kriterien erforderlich. Sie wird nach strenger Bewertung der Sicherheitskontrollen und Methoden eines Clouddienstanbieters durch Dritte erteilt.
+- **Stufe 2**: **CSA STAR-Nachweis**: Azure und Intune. CSA und AICPA haben gemeinsam Richtlinien für CPAs aufgestellt, die diese für SOC 2-Bestrebungen unter Verwendung der Kriterien des AICPA (Trust Service Principles, AT 101) und der CSA CCM nutzen können. Der [STAR-Nachweis](offering-CSA-STAR-Attestation.md) beruht auf diesen Richtlinien und wird aufgrund strenger unabhängiger Bewertungen der Cloudanbieter ausgestellt.
 
 ## <a name="resources"></a>Ressourcen
 

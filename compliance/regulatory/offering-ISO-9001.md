@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 2ecf4d029b1c69e4ce7da1244d71d47433eb3873
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: f0ad19fdeb794d281342367ad9313ac159b9acf0
+ms.sourcegitcommit: 4f70b1fe53943f9d919e7e1f449093b90b30f046
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120144"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50276033"
 ---
 # <a name="iso-90012015-quality-management-systems-standards"></a>ISO 9001:2015 Standards für Qualitätsmanagementsysteme
 
@@ -33,7 +33,7 @@ ISO 9001:2015 ist ein internationaler Standard, in dem die Kriterien für ein Q
 
 Ein unabhängiges externes Auditunternehmen führte eine strenge Überprüfung von Microsoft Azure und verschiedenen anderen Microsoft-Onlinediensten auf die Einhaltung der Qualitätsmanagementgrundsätze der ISO 9001:2015 durch. Die Zertifizierung des externen Auditunternehmens ist verfügbar und stellt einen unabhängigen Nachweis dafür dar, dass Azure und die abgedeckten Microsoft-Onlinedienste die Anforderungen der ISO 9001:2015 erfüllen.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft Cloud Services im Leistungsumfang
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft-Clouddienste im Leistungsumfang
 
 - [Azure und Azure Government und Azure Deutschland](https://aka.ms/AzureCompliance)
 - Microsoft Cloud App-Sicherheit
@@ -42,7 +42,7 @@ Ein unabhängiges externes Auditunternehmen führte eine strenge Überprüfung v
 - Intune
 - Microsoft Defender Advanced Threat Protection
 - Microsoft Healthcare Bot
-- Microsoft Managed Desktop
+- [Microsoft Managed Desktop](/microsoft-365/managed-desktop/intro/compliance)
 - Power Automate-Clouddienst (ehemals Microsoft Flow) als eigenständiger Dienst oder in einem Office 365- oder Dynamics 365-Plan bzw. -Anwendungssuite enthalten
 - PowerApps-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365- oder Dynamics 365-Plan oder einer -Anwendungssuite enthalten
 - Power BI-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365-Plan oder einer -Anwendungssuite enthalten

@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 7c9a28ca0a89167a951eea1a47633c02bdb14faa
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 951b35d755091555450b7bcd4361d56c5159591e
+ms.sourcegitcommit: 4f70b1fe53943f9d919e7e1f449093b90b30f046
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120134"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50276093"
 ---
 # <a name="isoiec-27018-code-of-practice-for-protecting-personal-data-in-the-cloud"></a>ISO/IEC 27018-Verhaltenskodex zum Schutz von personenbezogenen Daten in der Cloud
 
@@ -52,7 +52,7 @@ Durch Einhalten der Standards nach ISO/IEC 27001 und des in ISO/IEC 27018 enthal
 - Microsoft Graph
 - Microsoft Healthcare Bot
 - Intune
-- Microsoft Managed Desktop
+- [Microsoft Managed Desktop](/microsoft-365/managed-desktop/intro/compliance)
 - Power Automate-Clouddienst (ehemalig Microsoft Flow): als eigenständiger Dienst oder in einem firmenspezifischen Office 365- oder Dynamics 365-Plan bzw. einer -Anwendungssuite enthalten
 - [Office 365, Office 365 U.S. Government, Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?linkid=2077751)
 - Office 365 Deutschland

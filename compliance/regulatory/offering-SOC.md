@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 2fec2c20a4d2d2ddbf5a39b7cda1ff67a19e5830
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 9a75bf130ff6a34ffc44df2f60c682c0d5e77d4b
+ms.sourcegitcommit: 4f70b1fe53943f9d919e7e1f449093b90b30f046
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50119934"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50276143"
 ---
 # <a name="service-organization-controls-soc"></a>Service Organization Controls (SOC)
 
@@ -54,7 +54,7 @@ Microsoft hat SOC 1 Typ 2-, SOC 2 Typ 2- und SOC 3-Berichte erhalten. Im Allgeme
 - [Dynamics 365 und Dynamics 365 U.S. Government](https://aka.ms/d365-compliance-list)
 - Microsoft Graph
 - Intune
-- Microsoft Managed Desktop
+- [Microsoft Managed Desktop](/microsoft-365/managed-desktop/intro/compliance)
 - Power Automate-Clouddienst (ehemals Microsoft Flow) als eigenständiger Dienst oder in einem Office 365- oder Dynamics 365-Plan bzw. -Anwendungssuite enthalten
 - [Office 365, Office 365 U.S. Government, Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 - PowerApps-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365- oder Dynamics 365-Plan oder einer -Anwendungssuite enthalten
@@ -68,7 +68,7 @@ Microsoft hat SOC 1 Typ 2-, SOC 2 Typ 2- und SOC 3-Berichte erhalten. Im Allgeme
 - Microsoft Cloud App-Sicherheit
 - Microsoft Graph
 - Intune
-- Microsoft Managed Desktop
+- [Microsoft Managed Desktop](/microsoft-365/managed-desktop/intro/compliance)
 - Power Automate-Clouddienst (ehemals Microsoft Flow) als eigenständiger Dienst oder in einem Office 365- oder Dynamics 365-Plan bzw. -Anwendungssuite enthalten
 - PowerApps-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365- oder Dynamics 365-Plan oder einer -Anwendungssuite enthalten
 - [Office 365, Office 365 U.S. Government, Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
