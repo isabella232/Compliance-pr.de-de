@@ -17,12 +17,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fb982899fb5159abecc07b90700134b6247b6fee
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 3ffda250e017bd97cbfd9d1cf60c8251699e9740
+ms.sourcegitcommit: 3761eaf22bb2c7ed09ed24b9a526404ac7283ab8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121944"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "50822518"
 ---
 # <a name="office-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>Anträge betroffener Personen für Office 365 im Rahmen der DSGVO und des CCPA
 
@@ -646,7 +646,7 @@ Anwendungen, bei denen die In-App-Funktion verwendet werden kann, um Kundendaten
 - Stream
 - Yammer
 
-### <a name="access"></a>Zugriff
+### <a name="access"></a>Access
 
 In den folgenden Abschnitten wird erläutert, wie die in-App-Funktion in Microsoft Access verwendet werden kann, um personenbezogene Daten zu suchen, auf sie zuzugreifen, sie zu exportieren und zu löschen.
 
@@ -727,7 +727,7 @@ Bookings erfasst und speichert die folgenden Arten von Daten:
 
 ##### <a name="export"></a>Exportieren
 
-Für den Export von Daten, die dem Geschäftsbesitzer, Mitarbeitern und Kunden entsprechen, können Sie das Geschäftscenter-Datenschutzportal verwenden. Siehe [Exportieren oder Löschen von Benutzerdaten über das Geschäftscenter-Datenschutzportal](https://support.office.com/article/export-or-delete-user-data-using-business-center-privacy-portal-eb48e2c1-4c91-4421-988d-5de497d1e8d8).
+Für den Export von Daten, die dem Geschäftsbesitzer, Mitarbeitern und Kunden entsprechen, können Sie das [Geschäftscenter-Datenschutzportal](https://businessaccount.microsoft.com/) verwenden.
 
 ##### <a name="delete"></a>Löschen
 
@@ -738,7 +738,7 @@ Sie können die folgenden Arten von Bookings-Daten als Reaktion auf einen Antrag
 - **Bookings-Ereignisse:** Sie können Buchungsereignisse aus dem Bookings-Kalender löschen, wodurch die Daten des Kunden gelöscht werden.
 - **Besprechungsanfragen, E-Mail-Bestätigungen/Stornierungen/Updates und E-Mail Erinnerungen:** Sie können diese aus dem Bookings-Kalender löschen, wodurch die Informationen des Kunden entfernt werden.
 
-Geschäftsbesitzer und Administratoren können die Daten ihrer Kunden auch über das Business Geschäftscenter-Datenschutzportal löschen. Siehe [Exportieren oder Löschen von Benutzerdaten über das Geschäftscenter-Datenschutzportal](https://support.office.com/article/export-or-delete-user-data-using-business-center-privacy-portal-eb48e2c1-4c91-4421-988d-5de497d1e8d8).
+Für den Export von Daten, die dem Geschäftsbesitzer, Mitarbeitern und Kunden entsprechen, können Sie das [Geschäftscenter-Datenschutzportal](https://businessaccount.microsoft.com/) verwenden.
 
 Zusätzlich können Sie Geschäftsinhaber- und Mitarbeiterdaten löschen, indem Sie das entsprechende Benutzerkonto löschen. Siehe den Abschnitt [Löschen eines Benutzers](#deleting-a-user).
 
@@ -760,7 +760,7 @@ Listings-Besitzer können sich beim Listings-Dashboard anmelden und ihre Rezensi
 
 ##### <a name="export"></a>Exportieren
 
-Für den Export von Geschäftsbesitzer-, Mitarbeiter- und Kundendaten können Sie das Geschäftscenter-Datenschutzportal verwenden. Siehe [Exportieren oder Löschen von Benutzerdaten über das Geschäftscenter-Datenschutzportal](https://support.office.com/article/export-or-delete-user-data-using-business-center-privacy-portal-eb48e2c1-4c91-4421-988d-5de497d1e8d8).
+Für den Export von Daten, die dem Geschäftsbesitzer, Mitarbeitern und Kunden entsprechen, können Sie das [Geschäftscenter-Datenschutzportal](https://businessaccount.microsoft.com/) verwenden.
 
 ##### <a name="delete"></a>Löschen
 
@@ -784,7 +784,7 @@ Ein Connections-Besitzer kann sich im Connections-Dashboard anmelden und die von
 
 ##### <a name="export"></a>Exportieren
 
-Für den Export von Geschäftsbesitzer-, Mitarbeiter- und Kundendaten können Sie das Geschäftscenter-Datenschutzportal verwenden. Siehe [Exportieren oder Löschen von Benutzerdaten über das Geschäftscenter-Datenschutzportal](https://support.office.com/article/export-or-delete-user-data-using-business-center-privacy-portal-eb48e2c1-4c91-4421-988d-5de497d1e8d8).
+Für den Export von Daten, die dem Geschäftsbesitzer, Mitarbeitern und Kunden entsprechen, können Sie das [Geschäftscenter-Datenschutzportal](https://businessaccount.microsoft.com/) verwenden.
 
 ##### <a name="delete"></a>Löschen
 
