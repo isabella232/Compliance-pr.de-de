@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 39e5d666519bac120169f79824173cd0ee63f437
-ms.sourcegitcommit: f37d6ac660910f1cc2204f5ceebd390f7abbdfbf
+ms.openlocfilehash: 1ed40e2a6cd960c4538439f5f34897037e0881cd
+ms.sourcegitcommit: 55a156a6b74ed8c438ae51cdae0654db2806e008
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175431"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "50831070"
 ---
 # <a name="azure-and-dynamics-365-breach-notification-under-the-gdpr"></a>Azure and Dynamics 365-Benachrichtigungen bei Sicherheitsverletzungen im Rahmen der DSGVO
 
@@ -47,7 +47,7 @@ Azure reagiert auf eine potenzielle Datenschutzverletzung entsprechend dem Proze
 | ***4: Stabilisierung und Wiederherstellung*** | Das Team für die Reaktion auf Sicherheitsvorfälle erstellt einen Wiederherstellungsplan, um das Problem zu mindern. Schritte zur Eindämmung der Auswirkungen, wie die Isolierung der betroffenen Systeme, können sofort und parallel zur Diagnose ausgeführt werden. Zudem können längerfristige Maßnahmen zur Risikominderung geplant werden, die umgesetzt werden, sobald die unmittelbare Gefahr gebannt ist. |
 | ***5: Abschluss und nachträgliche Analyse*** | Das Team für die Reaktion auf Sicherheitsvorfälle erstellt eine nachträgliche Analyse, die den Vorfall detailliert untersucht, mit dem Ziel, die vorhandenen Richtlinien und Prozesse zu überarbeiten, um ein erneutes Auftreten des Ereignisses zu verhindern. |
 
-Das Whitepaper [Microsoft Azure Security Response in the Cloud](https://gallery.technet.microsoft.com/Azure-Security-Response-in-dd18c678) enthält weitere Informationen dazu, wie Microsoft Sicherheitsvorfälle in Azure untersucht, verwaltet und darauf reagiert.
+Das Thema [Azure für eine sichere weltweite Einführung einer öffentlichen Cloud](/azure/azure-government/documentation-government-overview-wwps#breach-notification-process) beschreibt, wie Microsoft Sicherheitsvorfälle innerhalb von Azure untersucht, verwaltet und auf diese reagiert.
 
 Die Erkennungsprozesse von Microsoft Azure sind darauf ausgelegt, Ereignisse zu erkennen, welche die Vertraulichkeit, Integrität und Verfügbarkeit von Azure-Diensten gefährden. Verschiedene Ereignisse können eine Untersuchung auslösen:
 
