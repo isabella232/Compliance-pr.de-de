@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f2686156a1cc51aefd28865642f5bc637a463062
-ms.sourcegitcommit: 68d927bc03a6e03aecdeac25aba9ae0265d7baf4
+ms.openlocfilehash: b13af6be98f0a5c25e6a2c38e5f6dff9c923e665
+ms.sourcegitcommit: 2b347c9b778ac9b6450daf20fdf8eb74ed14cbbd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50715047"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51002175"
 ---
 # <a name="health-information-trust-alliance-hitrust-common-security-framework-csf"></a>Health Information Trust Alliance (HITRUST) Common Security Framework (CSF)
 
@@ -45,7 +45,7 @@ Erfahren Sie, wie Sie Ihre HITRUST-Bereitstellung mit unserem Azure Security and
 
 - [Azure und Azure Government](https://aka.ms/AzureCompliance)
 - Intune
-- [Microsoft Managed Desktop](https://docs.microsoft.com/microsoft-365/managed-desktop/intro/compliance)
+- [Microsoft Managed Desktop](/microsoft-365/managed-desktop/intro/compliance)
 - [Office 365 und Office 365 U.S. Government](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 
 ## <a name="audits-reports-and-certificates"></a>Audits, Berichte und Zertifikate
@@ -59,13 +59,13 @@ Die HITRUST-CSF-Zertifizierung von Azure und Office 365 ist zwei Jahre gültig.
 
 Nutzen Sie die Vorteile der Cloud für Gesundheitsdatenlösungen mit der Azure-Blaupause für Sicherheit und Compliance – HIPAA/HITRUST-Gesundheitsdaten und AI. Diese Blaupause bietet Tools und Anleitungen, die Ihnen bei den ersten Schritten der Erstellung von HIPAA/HITRUST-Lösungen helfen.
 
-[HIPAA HITRUST 9.2-Blueprintbeispiel](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust-9-2)
+[HIPAA HITRUST 9.2-Blueprintbeispiel](/azure/governance/blueprints/samples/hipaa-hitrust-9-2)
 
 ## <a name="accelerate-your-hipaahitrust-compliance-when-using-office-365"></a>Beschleunigen Der HIPAA/HITRUST-Compliance bei Verwendung von Office 365
 
 Verwenden Sie Office 365, um Integritätsinformationen sicher und konform mit der Compliancebewertung zu verwalten, mit der Sie Risikobewertungen gegen Integritätsbestimmungen wie HIPAA und Sicherheitskontrollframeworks wie NIST CSF und NIST 800-53 durchführen können. Sie können schritt-für-Schritt-Anleitungen befolgen, um zu erfahren, wie Sie Datenschutzkontrollen implementieren und verwalten können, die Ihnen bei der Erfüllung von Complianceverpflichtungen im Gesundheitswesen helfen.
 
-[Microsoft Compliance-Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager)
+[Microsoft Compliance-Manager](/microsoft-365/compliance/compliance-manager)
 
 ## <a name="collaborate-with-microsoft-in-the-hitrust-shared-responsibility-program"></a>Zusammenarbeit mit Microsoft im HITRUST Shared Responsibility Program
 
@@ -100,7 +100,7 @@ Wenn Sie Ihre Daten in einem SaaS wie Office 365 speichern, liegt es in der geme
 
 **Bietet Microsoft Anleitungen für meine Organisation zum Implementieren geeigneter Steuerelemente bei der Verwendung von Office 365?**
 
-Ja, sie finden empfohlene Kundenaktionen in compliance score, cross-Microsoft Cloud-Lösungen, die Ihre Organisation dabei unterstützen, komplexe Complianceverpflichtungen bei der Verwendung von Clouddiensten zu erfüllen. Insbesondere für HITRUST CSF wird empfohlen, Risikobewertungen mithilfe der NIST 800-53- und NIST-CSF-Bewertungen in der Compliancebewertung durchzuführen. In den Bewertungen stellen wir Ihnen schrittweise Anleitungen und die Microsoft-Lösungen zur Verfügung, mit deren Hilfe Sie Ihre Datenschutzsteuerelemente implementieren können. Weitere Informationen zur Compliance-Bewertung finden Sie im [Microsoft Compliance Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager).
+Ja, sie finden empfohlene Kundenaktionen in compliance score, cross-Microsoft Cloud-Lösungen, die Ihre Organisation dabei unterstützen, komplexe Complianceverpflichtungen bei der Verwendung von Clouddiensten zu erfüllen. Insbesondere für HITRUST CSF wird empfohlen, Risikobewertungen mithilfe der NIST 800-53- und NIST-CSF-Bewertungen in der Compliancebewertung durchzuführen. In den Bewertungen stellen wir Ihnen schrittweise Anleitungen und die Microsoft-Lösungen zur Verfügung, mit deren Hilfe Sie Ihre Datenschutzsteuerelemente implementieren können. Weitere Informationen zur Compliance-Bewertung finden Sie im [Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager).
 
 **Wie kann ich mich mit Microsoft beschäftigen?**
 
@@ -108,7 +108,7 @@ Melden Sie sich beim HITRUST MyCSF®-Tool an, und füllen Sie Ihre Bewertung fü
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
 
-[Microsoft Compliance Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center, die Ihnen](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie [Sie Bewertungen im Compliance Manager erstellen und verwalten.](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments)
+[Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center](/microsoft-365/compliance/microsoft-365-compliance-center), die Ihnen hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie [Sie Bewertungen im Compliance Manager erstellen und verwalten.](/microsoft-365/compliance/compliance-manager-assessments)
 
 ## <a name="resources"></a>Ressourcen
 
