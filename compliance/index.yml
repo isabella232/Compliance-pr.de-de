@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: Compliancedokumentation
-summary: Dokumentation und Ressourcen von Microsoft, die Sie benötigen, um mit der Compliance für Ihr Unternehmen oder Ihre Organisation zu beginnen.
+summary: Microsoft-Dokumentation und -Ressourcen, die Sie benötigen, um mit der Compliance für Ihr Unternehmen oder Ihre Organisation zu beginnen.
 brand: m365
 metadata:
   title: Compliancedokumentation
-  description: Dokumentation und Ressourcen von Microsoft, die Sie benötigen, um mit der Compliance für Ihr Unternehmen oder Ihre Organisation zu beginnen.
+  description: Microsoft-Dokumentation und -Ressourcen, die Sie benötigen, um mit der Compliance für Ihr Unternehmen oder Ihre Organisation zu beginnen.
   services: service
   ms.service: service
   ms.subservice: subservice
@@ -15,61 +15,61 @@ metadata:
   author: robmazz
   ms.author: robmazz
   ms.date: 11/30/2020
-  ms.openlocfilehash: 4a45e8244a3adba18d25f24301b921c385850a9c
-  ms.sourcegitcommit: 9ce2e6599e6cb15533cb07e8291dc3a2b8795679
+  ms.openlocfilehash: 67c37d1bc68017f0ecf66d1d446ab885400d2293
+  ms.sourcegitcommit: 2b347c9b778ac9b6450daf20fdf8eb74ed14cbbd
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 01/11/2021
-  ms.locfileid: "49795515"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51002185"
 highlightedContent:
   items:
   - title: Schnelle Aufgaben für die ersten Schritte mit Microsoft 365 Compliance
     itemType: get-started
-    url: https://docs.microsoft.com/microsoft-365/compliance/compliance-quick-tasks
+    url: /microsoft-365/compliance/compliance-quick-tasks
   - title: Bereitstellen des Informationsschutzes für Datenschutzbestimmungen
     itemType: get-started
-    url: https://docs.microsoft.com/microsoft-365/solutions/information-protection-deploy
-  - title: Erfahren Sie mehr über die gemeinsame Verantwortung in der Cloud
+    url: /microsoft-365/solutions/information-protection-deploy
+  - title: Erfahren Sie mehr über gemeinsame Verantwortung in der Cloud
     itemType: overview
-    url: https://docs.microsoft.com/azure/security/fundamentals/shared-responsibility
+    url: /azure/security/fundamentals/shared-responsibility
   - title: Erfahren Sie, wie Microsoft die Daten seiner Kunden sichert
     itemType: learn
-    url: https://docs.microsoft.com/learn/paths/audit-safeguard-customer-data/
+    url: /learn/paths/audit-safeguard-customer-data/
   - title: Erfahren Sie mehr über Microsoft Compliance Manager
     itemType: learn
-    url: https://docs.microsoft.com/learn/paths/compmgmt/
+    url: /learn/paths/compmgmt/
   - title: Verwalten von Insider-Risiken in Microsoft 365
     itemType: learn
-    url: https://docs.microsoft.com/learn/paths/m365-compliance-insider/
+    url: /learn/paths/m365-compliance-insider/
   - title: Informationsschutz und Governance verwalten
     itemType: learn
-    url: https://docs.microsoft.com/learn/paths/m365-compliance-information/
-  - title: Erfahren Sie mehr über Advanced eDiscovery und die erweiterte Überwachung
+    url: /learn/paths/m365-compliance-information/
+  - title: Weitere Informationen zu Advanced eDiscovery und Advanced Audit
     itemType: learn
-    url: https://docs.microsoft.com/learn/paths/compliance-discover/
+    url: /learn/paths/compliance-discover/
 productDirectory:
   title: Einhaltung gesetzlicher Bestimmungen
-  summary: Leitfaden von Microsoft zur Einhaltung von internationalen und nationalen Standards und Vorschriften.
+  summary: Microsoft-Leitfaden zur Einhaltung von internationalen und nationalen Standards und Vorschriften.
   items:
-  - title: DSGVO (EU-Datenschutz-Grundverordnung)
-    imageSrc: https://docs.microsoft.com/office/media/icons/compliance-blue.svg
-    summary: Leitfaden zur Erfüllung von Rechten und zur Erfüllung von Verpflichtungen im Rahmen der DSGVO bei der Verwendung von Produkten und Diensten von Microsoft.
+  - title: DSGVO (Datenschutz-Grundverordnung der EU)
+    imageSrc: /office/media/icons/compliance-blue.svg
+    summary: Leitfaden zur Erfüllung von Rechten und Verpflichtungen im Rahmen der DSGVO bei der Verwendung von Microsoft-Produkten und -Diensten.
     url: /compliance/regulatory/gdpr
   - title: Microsoft Compliance-Angebote
-    imageSrc: https://docs.microsoft.com/office/media/icons/globe-internet.svg
-    summary: Microsoft bietet eine umfassende Reihe von Complianceangeboten, mit deren Hilfe Ihre Organisation nationale, regionale und branchenspezifische Anforderungen für die Erfassung und Verwendung von Daten einhalten kann.
+    imageSrc: /office/media/icons/globe-internet.svg
+    summary: Microsoft bietet eine umfassende Reihe von Complianceangeboten, mit deren Hilfe Ihre Organisation die nationalen, regionalen und branchenspezifischen Anforderungen für die Erfassung und Verwendung von Daten erfüllen kann.
     url: /compliance/regulatory/offering-home
   - title: Einhaltung gesetzlicher Vorschriften und Microsoft Azure
-    imageSrc: https://docs.microsoft.com/media/logos/logo_azure.svg
+    imageSrc: /media/logos/logo_azure.svg
     summary: Erfahren Sie mehr über die Einhaltung gesetzlicher Vorschriften und Microsoft Azure.
-    url: https://docs.microsoft.com/azure/compliance/
+    url: /azure/compliance/
 conceptualContent:
   title: Dienstüberprüfung
   summary: Beginnen Sie Ihre Sicherheits- und Risikobewertungen mit dem Verständnis, wie Microsoft Kundendaten schützt.
   items:
   - title: Architektur
     links:
-    - url: https://docs.microsoft.com/learn/modules/audit-architecture/
+    - url: /learn/modules/audit-architecture/
       itemType: learn
       text: Informationen zur Architektur
     - url: /compliance/assurance/assurance-architecture
@@ -77,7 +77,7 @@ conceptualContent:
       text: Architekturübersicht
   - title: Überwachungsprotokollierung
     links:
-    - url: https://docs.microsoft.com/learn/modules/audit-logging-monitoring/
+    - url: /learn/modules/audit-logging-monitoring/
       itemType: learn
       text: Informationen zur Überwachungsprotokollierung
     - url: /compliance/assurance/assurance-audit-logging
@@ -85,15 +85,15 @@ conceptualContent:
       text: Überwachungsprotokollierung (Übersicht)
   - title: Sicherheit von Rechenzentren
     links:
-    - url: https://docs.microsoft.com/learn/modules/audit-physical-security/
+    - url: /learn/modules/audit-physical-security/
       itemType: learn
-      text: Informationen zur Sicherheit von Rechenzentren
+      text: Informationen zur Datencentersicherheit
     - url: /compliance/assurance/assurance-datacenter-security
       itemType: concept
       text: Sicherheit von Rechenzentren (Übersicht)
   - title: Verschlüsselung und Schlüsselverwaltung
     links:
-    - url: https://docs.microsoft.com/learn/modules/audit-encryption/
+    - url: /learn/modules/audit-encryption/
       itemType: learn
       text: Informationen zur Verschlüsselung und Schlüsselverwaltung
     - url: /compliance/assurance/assurance-encryption
@@ -101,7 +101,7 @@ conceptualContent:
       text: Verschlüsselung und Schlüsselverwaltung (Übersicht)
   - title: Governance
     links:
-    - url: https://docs.microsoft.com/learn/modules/audit-governance/
+    - url: /learn/modules/audit-governance/
       itemType: learn
       text: Informationen zur Steuerung
     - url: /compliance/assurance/assurance-governance
@@ -109,15 +109,15 @@ conceptualContent:
       text: Governance (Übersicht)
   - title: Personalwesen
     links:
-    - url: https://docs.microsoft.com/learn/modules/audit-governance/personnel-security-governance
+    - url: /learn/modules/audit-governance/personnel-security-governance
       itemType: learn
-      text: Informationen zur Personalabteilung
+      text: Informationen zu Personalwesen
     - url: /compliance/assurance/assurance-human-resources
       itemType: concept
       text: Personalwesen (Übersicht)
   - title: Identitäts- und Zugriffsverwaltung
     links:
-    - url: https://docs.microsoft.com/learn/modules/audit-identity-access-management/
+    - url: /learn/modules/audit-identity-access-management/
       itemType: learn
       text: Informationen zur Identitäts- und Zugriffsverwaltung
     - url: /compliance/assurance/assurance-identity-and-access-management
@@ -125,9 +125,9 @@ conceptualContent:
       text: Identitäts- und Zugriffsverwaltung (Übersicht)
   - title: Verwaltung von Sicherheitsvorfällen
     links:
-    - url: https://docs.microsoft.com/learn/modules/audit-incident-management/
+    - url: /learn/modules/audit-incident-management/
       itemType: learn
-      text: Informationen zur Vorfallverwaltung
+      text: Erfahren Sie mehr über die Vorfallverwaltung
     - url: /compliance/assurance/assurance-incident-management
       itemType: concept
       text: Verwaltung von Sicherheitsvorfällen (Übersicht)
@@ -138,7 +138,7 @@ conceptualContent:
       text: Netzwerksicherheit (Übersicht)
   - title: Datenschutz
     links:
-    - url: https://docs.microsoft.com/learn/modules/audit-privacy/
+    - url: /learn/modules/audit-privacy/
       itemType: learn
       text: Informationen zum Datenschutz
     - url: /compliance/assurance/assurance-privacy
@@ -146,15 +146,15 @@ conceptualContent:
       text: Datenschutz (Übersicht)
   - title: Ausfallsicherheit und Kontinuität
     links:
-    - url: https://docs.microsoft.com/learn/modules/audit-resiliency-continuity/
+    - url: /learn/modules/audit-resiliency-continuity/
       itemType: learn
-      text: Informationen zu Resilienz und Kontinuität
+      text: Erfahren Sie mehr über Resilienz und Kontinuität
     - url: /compliance/assurance/assurance-resiliency-and-continuity
       itemType: concept
       text: Ausfallsicherheit und Kontinuität (Übersicht)
   - title: Risikomanagement
     links:
-    - url: https://docs.microsoft.com/learn/modules/audit-risk-management/
+    - url: /learn/modules/audit-risk-management/
       itemType: learn
       text: Erfahren Sie mehr über das Risikomanagement
     - url: /compliance/assurance/assurance-risk-management
@@ -162,7 +162,7 @@ conceptualContent:
       text: Risikomanagement (Übersicht)
   - title: Entwicklung und Verfahren im Sicherheitsbereich
     links:
-    - url: https://docs.microsoft.com/learn/modules/audit-security-development-operation/
+    - url: /learn/modules/audit-security-development-operation/
       itemType: learn
       text: Informationen zum Sicherheitsentwicklungsvorgang
     - url: /compliance/assurance/assurance-security-development-and-operation
@@ -170,7 +170,7 @@ conceptualContent:
       text: Übersicht über den Sicherheitsentwicklungsvorgang
   - title: Überwachung der Sicherheit
     links:
-    - url: https://docs.microsoft.com/learn/modules/audit-vulnerability-management/security-monitoring
+    - url: /learn/modules/audit-vulnerability-management/security-monitoring
       itemType: learn
       text: Informationen zur Sicherheitsüberwachung
     - url: /compliance/assurance/assurance-security-monitoring
@@ -178,7 +178,7 @@ conceptualContent:
       text: Überwachung der Sicherheit (Übersicht)
   - title: Lieferantenmanagement
     links:
-    - url: https://docs.microsoft.com/learn/modules/audit-subprocessor-management/
+    - url: /learn/modules/audit-subprocessor-management/
       itemType: learn
       text: Informationen zum Lieferantenmanagement
     - url: /compliance/assurance/assurance-supplier-management
@@ -186,7 +186,7 @@ conceptualContent:
       text: Lieferantenmanagement (Übersicht)
   - title: Bedrohungs- und Sicherheitsrisikomanagement
     links:
-    - url: https://docs.microsoft.com/learn/modules/audit-vulnerability-management/
+    - url: /learn/modules/audit-vulnerability-management/
       itemType: learn
       text: Erfahren Sie mehr über das Sicherheitsrisikomanagement
     - url: /compliance/assurance/assurance-vulnerability-management
@@ -195,23 +195,23 @@ conceptualContent:
 additionalContent:
   sections:
   - title: Erste Schritte mit der Compliance in Microsoft 365
-    summary: Wenn Sie noch nicht mit Microsoft 365 Compliance in Verbindung sind und sich fragen, wo Sie beginnen sollten, enthält dieser Abschnitt Links zu wichtigen Lösungen und priorisiert wichtige Compliancebereiche.
+    summary: Wenn Sie mit der Microsoft 365-Compliance noch nicht ganz so genau wissen und sich fragen, wo Sie beginnen sollten, enthält dieser Abschnitt Links zu wichtigen Lösungen und priorisiert wichtige Compliancebereiche.
     items:
     - title: Informationen zu Compliance-Manager
-      summary: Erfahren Sie, was Der Compliance-Manager ist, wie er die Compliance vereinfacht und Risiken reduziert sowie seine wichtigsten Komponenten.
-      url: https://docs.microsoft.com/microsoft-365/compliance/compliance-manager
+      summary: Erfahren Sie, was Compliance Manager ist, wie er die Compliance vereinfacht und Risiken und die wichtigsten Komponenten reduziert.
+      url: /microsoft-365/compliance/compliance-manager
     - title: Verwalten der Insider-Risiken
       summary: Minimieren Sie interne Risiken, indem Sie schädliche und unbeabsichtigte Aktivitäten in Ihrer Organisation erkennen, untersuchen und auf diese einwirken.
-      url: https://docs.microsoft.com/microsoft-365/compliance/insider-risk-solution-overview
-    - title: Verwalten des Informationsschutzes
-      summary: Verwenden Sie Microsoft Information Protection (MIP), um Vertrauliche Informationen zu ermitteln, zu klassifizieren und zu schützen, wo sie sich auch immer oder unterwegs finden.
-      url: https://docs.microsoft.com/microsoft-365/compliance/protect-information
+      url: /microsoft-365/compliance/insider-risk-solution-overview
+    - title: Informationsschutz verwalten
+      summary: Verwenden Sie Microsoft Information Protection (MIP), um Ihnen dabei zu helfen, vertrauliche Informationen überall zu entdecken, zu klassifizieren und zu schützen, wo sie sich auch immer oder auf Reisen befindlich sind.
+      url: /microsoft-365/compliance/protect-information
     - title: Verwalten der Informationsgovernance
-      summary: Verwenden Sie Microsoft Information Governance (MIG)-Funktionen, um Ihre Daten auf Compliance- oder behördliche Anforderungen zu steuern.
-      url: https://docs.microsoft.com/microsoft-365/compliance/manage-information-governance
+      summary: Verwenden Sie Microsoft Information Governance (MIG)-Funktionen, um Ihre Daten für Die compliance- oder behördliche Anforderungen zu steuern.
+      url: /microsoft-365/compliance/manage-information-governance
     - title: Verwalten von eDiscovery
       summary: Verwenden Sie eDiscovery, um Inhalte als Nachweise in Rechtsfällen zu identifizieren und zu analysieren.
-      url: https://docs.microsoft.com/microsoft-365/compliance/ediscovery
+      url: /microsoft-365/compliance/ediscovery
     - title: Bereitstellen des Informationsschutzes für Datenschutzbestimmungen
       summary: Identifizieren, Suchen, Schützen, Steuern und Reagieren auf Datenschutzvorfälle für personenbezogene Daten, die in Microsoft 365-Diensten gespeichert sind und den Datenschutzbestimmungen unterliegen.
-      url: https://docs.microsoft.com/microsoft-365/solutions/information-protection-deploy
+      url: /microsoft-365/solutions/information-protection-deploy
