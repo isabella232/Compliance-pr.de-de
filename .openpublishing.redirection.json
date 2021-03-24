@@ -7,14 +7,14 @@
       "redirect_document_id": true
     },
     {
-      "source_path": "assurance-defending-cloud-services-against-dos-attacks.md",
+      "source_path": "compliance/assurance/assurance-defending-cloud-services-against-dos-attacks.md",
       "redirect_url": "https://docs.microsoft.com/compliance/assurance/assurance-microsoft-dos-defense-strategy",
       "redirect_document_id": true
     },
     {
-      "source_path": "assurance-core-principles-of-defense-against-dos-attacks.md",
+      "source_path": "compliance/assurance/assurance-core-principles-of-defense-against-dos-attacks.md",
       "redirect_url": "https://docs.microsoft.com/compliance/assurance/assurance-microsoft-dos-defense-strategy",
-      "redirect_document_id": true
+      "redirect_document_id": false
     }
   ]
 }
