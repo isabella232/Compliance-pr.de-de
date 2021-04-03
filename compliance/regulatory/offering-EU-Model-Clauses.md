@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: bb86eb3d5e1ce8b8580a35b78718df303bd6770f
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: e50e5a8e0dd8ec400b4ca5ae053f3898e4cb0abc
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49509615"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496534"
 ---
 # <a name="european-union-model-clauses"></a>Standardvertragsklauseln der Europäischen Union
 
@@ -53,7 +53,7 @@ Die Gruppe hat festgestellt, dass die Implementierung der Bestimmungen in den Ve
 - PowerApps-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365- oder Dynamics 365-Plan bzw. einer -Anwendungssuite enthalten
 - Power BI-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365-Plan bzw. einer -Anwendungssuite enthalten
 - Azure DevOps Services
-- Windows Defender Advanced Threat Protection für die folgenden Clouddienstkomponenten: Endpunkterkennung und -reaktion, automatische Untersuchung und Entschärfung, Sicherheitsbewertung.
+- Microsoft Defender Advanced Threat Protection für die folgenden Clouddienstkomponenten: Endpunkterkennung und -reaktion, automatische Untersuchung und Entschärfung, Sicherheitsbewertung.
 
 ## <a name="audits-reports-and-certificates"></a>Prüfungen, Berichte und Zertifikate
 
@@ -90,5 +90,5 @@ Sie können eine Vereinbarung wie die [Nutzungsbedingungen für Onlinedienste](h
 - [Häufig gestellte Fragen zu den EU-Standardvertragsklauseln für Dynamics 365 und Office 365](https://products.office.com/business/office-365-trust-center-eu-model-clauses-faq)
 - [Microsoft und der EU-US Privacy Shield](offering-eu-us-privacy-shield.md)
 - [Microsoft Common Controls Hub-Complianceframework](https://www.microsoft.com/trustcenter/common-controls-hub)
-- [Nutzungsbedingungen für Microsoft-Onlinedienste](https://aka.ms/Online-Services-Terms)
+- [Microsoft Online Services-Nutzungsbedingungen](https://aka.ms/Online-Services-Terms)
 - [Compliance im Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)

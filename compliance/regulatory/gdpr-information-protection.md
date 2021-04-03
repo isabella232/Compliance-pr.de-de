@@ -1,8 +1,7 @@
 ---
-title: >
-  Schutz von Daten
+title: Informationsschutz
 description: Erfahren Sie mehr über die Informationsschutzfunktionen in Microsoft 365 für die DSGVO (EU-Datenschutz-Grundverordnung).
-keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365-Dokumentation, DSGVO
+keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365-Dokumentation, DSGVO
 localization_priority: Priority
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -17,12 +16,13 @@ ms.collection:
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: df5131af45a938199df1a52bbf3e437f34ed3f9a
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+hideEdit: true
+ms.openlocfilehash: 59f32d9ae9afc5e3682c032168d296dc0eec95f4
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121854"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496044"
 ---
 # <a name="information-protection-for-gdpr-with-microsoft-365-capabilities"></a>Schutz von Daten für die DSGVO mit Microsoft 365-Funktionen
 
@@ -59,7 +59,7 @@ Der Bedrohungsschutz ist in Microsoft 365-Diensten integriert. Nachfolgend finde
 
 - [Office 365-Sicherheits-Roadmap: Die obersten Prioritäten für die ersten 30 Tage, die 90 Tage und darüber hinaus](/microsoft-365/security/office-365-security/security-roadmap). Diese Roadmap enthält Empfehlungen für das Implementieren von Funktionen. 
 - [Schutz vor Bedrohungen in Office 365](/microsoft-365/security/office-365-security/protect-against-threats). Erfahren Sie mehr über die Schutzaktion, die Sie im Microsoft 365 Security Center ergreifen können.
-- [Windows-Bedrohungsschutz](/windows/security/threat-protection/). Weitere Informationen zu Windows Defender Advanced Threat Protection und anderen Funktionen in Windows 10.
+- [Windows-Bedrohungsschutz](/windows/security/threat-protection/). Erfahren Sie mehr über Microsoft Defender für Endpunkt-und andere Funktionen in Windows 10.
 
 ## <a name="learn-more"></a>Weitere Informationen
 

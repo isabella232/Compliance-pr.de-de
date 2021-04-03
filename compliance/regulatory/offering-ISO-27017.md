@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e947350388126c74dfce10babcb232a395b1a7f6
-ms.sourcegitcommit: 4f70b1fe53943f9d919e7e1f449093b90b30f046
+ms.openlocfilehash: 09473dc7b27b34bd4b0394739cd303fa613780bf
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "50276043"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497741"
 ---
 # <a name="isoiec-270172015-code-of-practice-for-information-security-controls"></a>ISO/IEC 27017:2015 Verhaltenskodex für Informationssicherheitskontrollen
 
@@ -48,7 +48,7 @@ ISO/IEC 27017 ist einzigartig, da es Anleitungen für Anbieter und Kunden von C
 - [Azure und Azure Government und Azure Deutschland](https://aka.ms/AzureCompliance)
 - Microsoft Cloud App-Sicherheit
 - [Dynamics 365, Dynamics 365 und Dynamics 365 Deutschland](https://aka.ms/d365-compliance-list)
-- Microsoft Defender Advanced Threat Protection
+- Microsoft Defender für Endpunkt
 - Microsoft Graph
 - Microsoft Healthcare Bot
 - Intune
@@ -89,7 +89,7 @@ Im [Service Trust Portal](https://aka.ms/stphelp) erhalten Sie unabhängige Prü
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
 
-[Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center, die Ihnen](/microsoft-365/compliance/microsoft-365-compliance-center) hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen in Compliance Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
+[Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center](/microsoft-365/compliance/microsoft-365-compliance-center), die Ihnen hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="resources"></a>Ressourcen
 

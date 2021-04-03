@@ -17,12 +17,13 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 - MS-Compliance
-ms.openlocfilehash: b0f23f9143d96ddc1f22f1bc1014769384838531
-ms.sourcegitcommit: b366fb7c148b4da40f8c5d8ff41adbff0bcb850e
+hideEdit: true
+ms.openlocfilehash: 69c2eaed3d4a84fa11337fe5ec9b6be94c2e814b
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "49585380"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496248"
 ---
 # <a name="data-protection-impact-assessments-guidance-for-data-controllers-using-microsoft-data-processor-service-for-windows-enterprise"></a>Datenschutz-Folgenabschätzung: Leitfaden für Datenverantwortliche, die den Microsoft-Datenverarbeitungsdienst für Windows Enterprise verwenden
 
@@ -51,7 +52,7 @@ Laut Artikel 35 der DSGVO muss ein Datenverantwortlicher eine Datenschutz-Folgen
 
 Artikel 35(7) legt fest, dass eine Datenschutz-Folgenabschätzung die Zwecke der Verarbeitung und eine systematische Beschreibung der angestrebten Verarbeitung enthalten muss. Eine systematische Beschreibung einer vollständigen DPIA könnte Faktoren wie die Art der verarbeiteten Daten, die Speicherdauer der Daten, den Ort und das Übermittlungsziels der Daten und Informationen darüber, welche Dritten Zugriff auf die Daten haben könnten, enthalten. Außerdem muss die DPIA folgendes beinhalten: 
 
-eine Bewertung der Notwendigkeit und Verhältnismäßigkeit in Bezug auf die Zwecke der Verarbeitung; 
+Eine Bewertung der Notwendigkeit und Verhältnismäßigkeit der Datenverarbeitung in Bezug auf ihren Zweck; 
 
 eine Bewertung der Risiken für die Rechte und Grundfreiheiten natürlicher Personen 
 

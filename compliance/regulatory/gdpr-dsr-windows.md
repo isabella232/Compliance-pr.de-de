@@ -17,12 +17,13 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 - MS-Compliance
-ms.openlocfilehash: f0faaefd7ff3feae482ad62b506163796d80eec5
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+hideEdit: true
+ms.openlocfilehash: 702a51589a3ce7118b8d3a8dafb6c96db247232f
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121514"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496181"
 ---
 # <a name="data-processor-service-for-windows-enterprise-data-subject-requests-for-the-gdpr-and-ccpa"></a>Anträge betroffener Personen zum Datenauftragsverarbeiterdienst für Windows Enterprise im Rahmen der DSGVO und des CCPA 
 

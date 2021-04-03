@@ -19,12 +19,13 @@ ms.workload:
 - multiple
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 29d845c1b9e1c60169db56ba76d731892302bff0
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+hideEdit: true
+ms.openlocfilehash: eccc07b5f40182c3dad8652f0e4c1671b5eb9843
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121924"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496221"
 ---
 # <a name="visual-studio-family-data-subject-requests-for-the-gdpr-and-ccpa"></a>Visual Studio-Familie – Anträge betroffener Personen im Rahmen der DSGVO und des CCPA
 
@@ -190,7 +191,7 @@ Benutzer mit aktiven Xamarin Forums-Konten können ihre personenbezogenen Daten 
 
 Xamarin Forums wird von einem Drittanbieter, Vanilla Forums, gehostet. Zum Anfordern des Exports ihrer öffentlichen Daten sollten sich Benutzer an „forums@xamarin.com“ (vom Xamarin-Team überwacht) wenden. Wir arbeiten dann direkt mit Vanilla Forums zusammen, um diese Anforderung zu verarbeiten.
 
-##### <a name="delete"></a>Löschung
+##### <a name="delete"></a>Löschen
 
 Xamarin Forums wird von einem Drittanbieter, Vanilla Forums, gehostet. Zum Anfordern der Löschung ihrer personenbezogenen und öffentlichen Daten sollten sich Benutzer an „forums@xamarin.com“ (vom Xamarin-Team überwacht) wenden. Wir nehmen dann manuell die angeforderte Löschung der personenbezogenen Daten des Benutzers vor.
 
@@ -222,4 +223,4 @@ Von Zeit zu Zeit bitten wir Kunden um Feedback zu diesen Produkten per SurveyMon
 - [Service Trust Portal (STP)](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted)
 - [Microsoft-Datenschutzdashboard](https://account.microsoft.com/privacy)
 - [Microsoft Privacy Response Center](https://aka.ms/userprivacysite)
-- [Anträge betroffener Personen für Azure im Rahmen der DSGVO](gdpr-dsr-azure.md)
+- [Azure-Datensubjektanforderungen für die DSGVO](gdpr-dsr-azure.md)

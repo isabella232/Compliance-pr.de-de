@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e0ee7f01e3c62c7f2cfac3867435221723fd7e93
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: feba7b943f04dc0a9470cef23465f1f63fc55ef7
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121224"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497719"
 ---
 # <a name="payment-card-industry-pci-data-security-standard-dss"></a>Payment Card Industry (PCI) Data Security Standard (DSS)
 
@@ -46,7 +46,7 @@ Es ist wichtig zu verstehen, dass der PCI-DSS-Kompatibilitätsstatus für Azure,
 - Flow Cloud-Dienst entweder als eigenständiger Dienst oder als Bestandteil eines Plans oder einer Suite von Office 365 oder Dynamics 365
 - Microsoft Graph
 - Intune
-- [Microsoft Defender Advanced Threat Protection](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
+- [Microsoft Defender für Endpunkt](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
 - PowerApps-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365- oder Dynamics 365-Plan oder einer -Anwendungssuite enthalten
 - Power BI-Clouddienst entweder als eigenständiger Dienst oder als Bestandteil eines Office 365-Plans oder -Suite
 - OneDrive for Business und SharePoint Online (nur Vereinigte Staaten)
@@ -98,7 +98,7 @@ Derzeit sind nur Dateien und Dokumente, die zu OneDrive for Business und SharePo
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
 
-[Microsoft Compliance-Manager](/microsoft-365/compliance/compliance-manager) ist ein Feature im [Microsoft 365 Compliance Center](/microsoft-365/compliance/microsoft-365-compliance-center), das Ihnen dabei hilft, den Compliance-Status Ihrer Organisation zu ermitteln und Maßnahmen zur Senkung von Risiken zu ergreifen. Compliance-Manager bietet eine sehr hilfreiche Vorlage für die Erstellung einer Bewertung für diese Verordnung. Die Vorlage finden Sie auf der Seite **Bewertungsvorlagen** in Compliance-Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
+[Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center](/microsoft-365/compliance/microsoft-365-compliance-center), die Ihnen hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="resources"></a>Ressourcen
 

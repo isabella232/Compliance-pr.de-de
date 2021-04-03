@@ -16,12 +16,13 @@ ms.collection:
 - Strat_O365_Enterprise
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 70cf9514306bc119c1f09a159222dbea6765e61f
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+hideEdit: true
+ms.openlocfilehash: 74bdf63fcf704aa285a2803e5b7af7455a0291c6
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120684"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497654"
 ---
 # <a name="enterprise-business-continuity-management-customer-and-cloud-partner-responsibilities"></a>Verantwortlichkeiten von Kunden und Cloud-Partnern im Rahmen der Steuerung der Geschäftskontinuität 
 
@@ -79,6 +80,6 @@ Microsoft veröffentlicht [Grundsätze zur Netzwerkkonnektivität](/microsoft-36
 Zahlreiche Lösungen zur Zusammenarbeit sind systemabhängig, wie z. B.von einem unternehmensweiten Netzwerk (WAN). Wie würde Ihre Organisation reagieren, wenn diese Systeme nicht verfügbar sind?
 Diese Grafik bildet Probleme ab, die sich auf mehr als einen Bereich auswirken können. Die zugehörige Tabelle enthält zu berücksichtigende Beispiele
 
-![Venn-Diagramm von Systemen](../media/venn-diagram.png)
+![Venn-Diagramm der Systeme](../media/venn-diagram.png)
 
 Ihre Pläne zur Unternehmenskontinuität sollten jeden dieser Bereiche berücksichtigen. Zum Beispiel: Wenn Sie fordern, dass sich Benutzer im Unternehmensnetzwerk befinden und es kommt zu einem Schneesturm, wie erhalten diese Benutzer Zugriff auf die wichtigsten Ressourcen? Wenn der Schnee die Anreise in das Büro verhindert und Servicetechniker die Verbindung zum Unternehmensnetzwerk herstellen müssen, gibt es dann eine Richtlinie, die vorschreibt, dass sie die unternehmenseigenen Laptops zu Hause in Ihrem Besitz haben müssen?

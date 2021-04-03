@@ -21,12 +21,13 @@ search.appverid:
 - MET150
 - MOE150
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: d0fc10ea2d3aabf49aaf8833385a70ba62898141
-ms.sourcegitcommit: 2b347c9b778ac9b6450daf20fdf8eb74ed14cbbd
+hideEdit: true
+ms.openlocfilehash: acf244f5a8e9ab10e2fea02e2dc1c115156c0297
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51002145"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497599"
 ---
 # <a name="datacenter-security-overview"></a>Sicherheit von Rechenzentren (Übersicht)
 

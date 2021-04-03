@@ -16,12 +16,13 @@ ms.collection:
 - Strat_O365_Enterprise
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 74bbca3ff8b179208288651e5a8b4f4a9eac09e8
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+hideEdit: true
+ms.openlocfilehash: e8c031727c77d1106f8bd255a643fd9794cc856a
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120564"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497578"
 ---
 # <a name="developing-your-business-continuity-plan"></a>Entwickeln Ihres Geschäftskontinuitätsplans
 
@@ -50,7 +51,7 @@ Dies ist ein BIA-Dokument für `name of the service, system, process, or functio
 |Besitzt die Technologie ein eingeführtes **internes** SLA oder OLA?|`please explain in as much detail as possible`|
 |Besitzt die Technologie ein eingeführtes **externes** SLA oder OLA?|`please explain in as much detail as possible`|
 |Besitzt die Technologie ein bekanntes leitendes Mandat, das ein bestimmtes SLA für Prozesse steuert? Wenn ja, geben Sie eine ausführliche Erklärung.|`details here`|
-|Löst der Verlust oder die Einbußen der diesem Dienst zugeordneten Daten ein größeres Ereignis aus? Wenn ja, geben Sie eine ausführliche Erklärung.|`details here`|
+|Löst der Verlust oder die Kompromissbereitschaft der diesem Dienst zugeordneten Daten ein Hauptereignis aus? Wenn ja, geben Sie eine ausführliche Erklärung.|`details here`|
 |Gibt es für den Dienst eine vorhandene Problemumgehung oder Alternative für einige oder alle seine wichtigen Funktionen und Features? Wenn ja, geben Sie eine ausführliche Erklärung.|`details here`|
 |Werden Kundendaten, z. B. personenbezogene Informationen (PII), vom Dienst verarbeitet, gespeichert oder übertragen? Wenn ja, geben Sie eine ausführliche Erklärung.|`details here`|
 |BIA-Status|`develop your own status classification, here are some examples: planned, started, in-progress, complete, on-hold, expired`|
@@ -88,18 +89,18 @@ Vergessen Sie nicht, dass die regelmäßige Schulung von Mitarbeitern in der Rea
 
 Während eines Dienstvorfalls sind normale Kommunikationskanäle möglicherweise beeinträchtigt oder heruntergestuft, daher sollten Sie vorab Alternativen bestimmen, damit Ihre Organisation während eines Vorfalls verbunden bleibt. Es ist von entscheidender Bedeutung, dass die Kommunikationskanäle eingerichtet, auf Sicherheit und Compliance überprüft, und die Benutzer vor einer Unterbrechung in der Verwendung geschult sind. Bei Ausfällen von einer bekannten Lage zu einem anderen bekannten Zustand überzugehen, ist Benutzern, die mitten in einer Krise ad hoc unbekannte Lösungen aufbringen, um einiges vorzuziehen.
 
-Bei Microsoft hat jedes Serviceteam interne alternative Kommunikationskanäle eingerichtet, die uns bei der Koordination helfen, wenn unsere normalen Kommunikationskanäle nicht verfügbar sind. Dazu gehören Lösungen zur Telefonie- und Audiokonferenzsicherung, Yammer-Gruppen, Teams-Gruppen, interne Service Health Dashboards und interne Software für das Vorfallsmanagement.
+Bei Microsoft hat jedes Dienstteam interne alternative Kommunikationskanäle eingerichtet, die uns bei der Koordination helfen, wenn unsere normalen Kommunikationskanäle nicht verfügbar sind. Dazu gehören Lösungen zur Telefonie- und Audiokonferenzsicherung, Yammer-Gruppen, Teams-Gruppen, interne Service Health Dashboards und interne Software für das Vorfallsmanagement.
 
 Während der Analyse geschäftlicher Auswirkungen und der Abhängigkeitsanalyse gestalten Sie entscheidende Prozesse und die Technologien und Dienste, von denen sie abhängen. Achten Sie während dieser Planungsphase besonders auf die Kommunikation und überlegen Sie sich Alternativen. Nun folgen einige Beispiele.
 
-- Wenn E-Mail Ihre primäre Methode ist, Benutzer und Stakeholder auf dem Laufenden zu halten, und Ihr E-Mail-Dienst heruntergestuft wird oder nicht verfügbar ist, können Sie zur Sicherung einen anderen Dienst wie Microsoft Teams, Yammer oder einen anderen Drittanbieterdienst verwenden. Der entscheidende Punkt besteht darin, diese im Vorfeld einzurichten und Ihre Benutzer darin zu schulen, wohin sie sich wenden sollen. Ein Yammer ist nicht nützlich, wenn niemand weiß, dass er vorhanden ist, oder wenn er nicht mit einem Lesezeichen versehen wurde.  
-- Wenn sich Ihre internen Vorfallsmanagementprozesse bei der Koordinierung der Antworten auf Sprachkommunikation stützen, richten Sie eine alternative Telefonielösung zur Nutzung während einer Krise ein. Diese Lösung muss nicht die vollständige Parität mit Ihrem primären Dienst haben, sondern sollte das Mindestmaß an Zusammenarbeit bereitstellen, um Ihre Teams für Geschäftskontinuität und Vorfallverwaltung zu koordinieren. Darüber hinaus kann das Auffordern von Benutzern, ihre Mobiltelefonnummern in Ihrer globalen Adressliste zu veröffentlichen, in Extremfällen eine zusätzliche Sicherung der Kommunikation darstellen.
-- Sie können ein benutzerdefiniertes Service Health Dashboard oder eine andere derartige Website erstellen, die Statusaktualisierungen während eines Vorfalls bereitstellen kann. Die Schulung von Benutzern, wo Sie sich im Voraus informieren können, trägt dazu bei, unnötige Anrufe beim Helpdesk zu reduzieren und Ihrer Benutzerbasis Vertrauen einzuflößen, dass die Situation schnell und effizient gehandhabt wird. Verwenden Sie die O365-Dienstkommunikations-API, um diese Informationen mit Microsoft 365 zu vernetzen, um noch mehr Sichtbarkeit zu erhalten.  
-- Es ist von entscheidender Bedeutung, dass der Speicherort Ihrer Geschäftskontinuitätspläne und Standardbetriebsverfahren bekannt ist. Wir empfehlen, Online- und Offlinekopien wichtiger Dokumente zu pflegen, z. B. mit SharePoint Online oder OneDrive for Business, die für die automatische Synchronisierung lokaler Geräte konfiguriert sind. Für Service-/Netzwerkbetriebscenter und andere ähnliche Teams, die für die Wiederherstellung von entscheidender Bedeutung sind, sollten Sie auch Festplattenkopien für den Fall eines Notfalls zur Verfügung stellen.
+- Wenn E-Mail Ihre primäre Methode ist, Benutzer und Stakeholder auf dem Laufenden zu halten, und Ihr E-Mail-Dienst heruntergestuft wird oder nicht verfügbar ist, können Sie zur Sicherung einen anderen Dienst wie Microsoft Teams, Yammer oder einen anderen Drittanbieterdienst verwenden. Der entscheidende Punkt besteht darin, diese im Vorfeld einzurichten und Ihre Benutzer darin zu schulen, wohin sie sich wenden sollen. Ein Yammer ist nicht hilfreich, wenn niemand weiß, dass er vorhanden ist oder wenn er nicht mit einem Lesezeichen versehen ist.  
+- Wenn sich Ihre internen Vorfallsmanagementprozesse bei der Koordinierung der Antworten auf Sprachkommunikation stützen, richten Sie eine alternative Telefonielösung zur Nutzung während einer Krise ein. Diese Lösung benötigt keine vollständige Parität mit Ihrem primären Dienst, sollte jedoch die Mindestebene der Zusammenarbeit bereitstellen, um Ihre Business Continuity- und Incident Management-Teams zu koordinieren. Darüber hinaus kann das Auffordern von Benutzern, ihre Mobiltelefonnummern in Ihrer globalen Adressliste zu veröffentlichen, in Extremfällen eine zusätzliche Sicherung der Kommunikation darstellen.
+- Sie können ein benutzerdefiniertes Service Health Dashboard oder eine andere derartige Website erstellen, die Statusaktualisierungen während eines Vorfalls bereitstellen kann. Die Schulung von Benutzern, wo Sie sich im Voraus informieren können, trägt dazu bei, unnötige Anrufe beim Helpdesk zu reduzieren und Ihrer Benutzerbasis Vertrauen einzuflößen, dass die Situation schnell und effizient gehandhabt wird. Verwenden Sie die O365 Service Communications-API, um diese Informationen für eine noch höhere Sichtbarkeit an Microsoft 365 zu binden.  
+- Es ist von entscheidender Bedeutung, dass der Speicherort Ihrer Geschäftskontinuitätspläne und Standardbetriebsverfahren bekannt ist. Wir empfehlen, Online- und Offlinekopien wichtiger Dokumente zu pflegen, z. B. mit SharePoint Online oder OneDrive for Business, die für die automatische Synchronisierung lokaler Geräte konfiguriert sind. Für Service/Network Operations Center und andere ähnliche Teams, die für die Wiederherstellung von entscheidender Bedeutung sind, sollten Sie auch für den Fall eines Notfalls Festplattenkopien zur Verfügung stellen.
 
 ## <a name="know-your-external-points-of-integration"></a>Kennen Ihrer externen Integrationspunkte
 
-Unabhängig vom Geschäftsmodell verfügt jedes Unternehmen über Integrationspunkte mit seinen Kunden, Partnern und Lieferanten. Die Geschäftswert-Lieferkette basiert auf der Integration mit externen Entitäten. Die Verbesserung der Geschäftskontinuität im Falle von Dienstunterbrechungen erfordert Überlegungen – und Schutz – jedes Integrationspunkts.  
+Unabhängig vom Geschäftsmodell verfügt jedes Unternehmen über Integrationspunkte mit seinen Kunden, Partnern und Lieferanten. Die Geschäftswert-Lieferkette basiert auf der Integration mit externen Entitäten. Die Verbesserung der Geschäftskontinuität bei Dienstunterbrechungen erfordert die Berücksichtigung – und den Schutz – jedes Integrationspunkts.  
 Während Sie Ihre Lieferkette analysieren, sollte die externe Kommunikation auf die gleiche Weise wie die interne Kommunikation betrachtet werden. Sind Ihre Kunden auf Ihre Exchange Online-Server als einzige Methode, sich an Sie zu wenden, angewiesen? Haben Sie alternative Kommunikationsmethoden eingerichtet und Ihre Lieferanten auf sie hingewiesen, falls die Betriebszeit beeinträchtigt wird? Hier ist eine Beispieltabelle als Vorschlag, wie Sie Ihre Gedanken ordnen können.
 
 |Name der externen Entität|Szenario eines Vorfalls mit Auswirkung|Microsoft 365-Dienste integriert|Alternativen|
@@ -107,4 +108,4 @@ Während Sie Ihre Lieferkette analysieren, sollte die externe Kommunikation auf 
 |`vendor name`|E-Mail-Fluss|Exchange Online ist das einzige Kommunikationsmittel bei Contoso|Einrichten externer Microsoft Teams-Kanäle oder einer Software von Drittanbietern für die Zusammenarbeit          |
 |`service supplier name`|Chat|Microsoft Teams|Instant Messaging von Drittanbietern|
 |`partner name`|VoIP|Microsoft Teams|mobiles oder öffentliches PSTN      |
-|`supplier name`|Dateifreigabe|extern freigegebene SharePoint-Websites und OneDrive|Dateifreigabe von Drittanbietern         |
+|`supplier name`|Dateifreigabe|extern freigegebene SharePoint-Websites und OneDrive|Dateifreigabe durch Drittanbieter         |

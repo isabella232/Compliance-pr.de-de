@@ -1,6 +1,6 @@
 ---
 title: Isolierung und Zugriffskontrolle in Microsoft 365
-description: 'Zusammenfassung: eine Erläuterung der Isolierung und Zugriffssteuerung in den verschiedenen Anwendungen von Microsoft 365.'
+description: 'Zusammenfassung: Eine Erläuterung der Isolation und Zugriffssteuerung in den verschiedenen Anwendungen von Microsoft 365.'
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -19,87 +19,88 @@ ms.collection:
 f1.keywords:
 - NOCSH
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 88ca5abc1997da01c32c7fdf9b286f71702d86cf
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+hideEdit: true
+ms.openlocfilehash: f1166ce766c2b1158d50242b9411f051992bf121
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506718"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497051"
 ---
-# <a name="isolation-and-access-control-in-microsoft-365"></a>Isolierung und Zugriffssteuerung in Microsoft 365
+# <a name="isolation-and-access-control-in-microsoft-365"></a>Isolation und Zugriffssteuerung in Microsoft 365
 
-Azure Active Directory (Azure AD) und Microsoft 365 verwenden ein hoch komplexes Datenmodell, das Dutzende von Diensten, Hunderte von Entitäten, Tausende von Beziehungen und Zehntausende von Attributen umfasst. Auf einer hohen Ebene sind Azure AD und die Dienst Verzeichnisse die Container von Mandanten und Empfängern, die mithilfe von statusbasierten Replikationsprotokollen synchron gehalten werden. Zusätzlich zu den Verzeichnisinformationen, die in Azure AD aufbewahrt werden, verfügen alle Dienst Arbeitslasten über eine eigene Verzeichnisdienst-Infrastruktur.
+Azure Active Directory (Azure AD) und Microsoft 365 verwenden ein hochkomplexes Datenmodell, das Dutzende von Diensten, Hunderte von Entitäten, Tausende von Beziehungen und Zehntausende von Attributen umfasst. Auf hoher Ebene sind Azure AD und die Dienstverzeichnissen die Container von Mandanten und Empfängern, die mithilfe zustandsbasierter Replikationsprotokolle synchron gehalten werden. Zusätzlich zu den Verzeichnisinformationen, die in Azure AD gespeichert sind, verfügen alle Dienstworkloads über eine eigene Verzeichnisdiensteinfrastruktur.
  
-![Microsoft 365 Mandantendaten Synchronisierung](../media/office-365-isolation-tenant-data-sync.png)
+![Microsoft 365-Mandantendatensynchronisierung](../media/office-365-isolation-tenant-data-sync.png)
 
-In diesem Modell gibt es keine einzelne Quelle für Verzeichnisdaten. Bestimmte Systeme besitzen einzelne Daten, aber kein einzelnes System besitzt alle Daten. Microsoft 365-Dienste kooperieren mit Azure AD in diesem Datenmodell. Azure AD ist das "System der Wahrheit" für freigegebene Daten, bei dem es sich typischerweise um kleine und statische Daten handelt, die von jedem Dienst verwendet werden. Das Verbundmodell, das in Microsoft 365 und Azure AD verwendet wird, stellt die freigegebene Ansicht der Daten bereit.
+In diesem Modell gibt es keine einzige Quelle für Verzeichnisdaten. Bestimmte Systeme besitzen einzelne Datenteile, aber kein einzelnes System enthält alle Daten. Microsoft 365-Dienste arbeiten in diesem Datenmodell mit Azure AD zusammen. Azure AD ist das "System der Wahrheit" für freigegebene Daten, bei denen es sich in der Regel um kleine und statische Daten handelt, die von jedem Dienst verwendet werden. Das verbundmodell, das in Microsoft 365 und Azure AD verwendet wird, stellt die freigegebene Ansicht der Daten bereit.
 
-Microsoft 365 verwendet sowohl physischen Speicher als auch Azure-Cloud-Speicher. Exchange Online (einschließlich Exchange Online Schutz) und Skype for Business ihren eigenen Speicher für Kundendaten verwenden. SharePoint Online verwendet sowohl SQL Server Speicher als auch Azure-Speicher, daher ist die zusätzliche Isolierung von Kundendaten auf Speicherebene erforderlich.
+Microsoft 365 verwendet sowohl physischen Speicher als auch Azure-Cloudspeicher. Exchange Online (einschließlich Exchange Online Protection) und Skype for Business verwenden ihren eigenen Speicher für Kundendaten. SharePoint Online verwendet sowohl SQL Server als auch Azure Storage, daher ist eine zusätzliche Isolation von Kundendaten auf Speicherebene nötig.
 
 ## <a name="exchange-online"></a>Exchange Online
 
-Exchange Online speichert Kundendaten in Postfächern. Postfächer werden in ESE-Datenbanken (Extensible Storage Engine) als Postfachdatenbanken gehostet. Dies umfasst Benutzerpostfächer, verknüpfte Postfächer, freigegebene Postfächer und Postfächer für Öffentliche Ordner. Zu den Benutzerpostfächern gehören gespeicherte Skype for Business Inhalte wie Unterhaltungs Verläufe.
+Exchange Online speichert Kundendaten in Postfächern. Postfächer werden in ESE(Extensible Storage Engine)-Datenbanken gehostet, die als Postfachdatenbanken bezeichnet werden. Dazu gehören Benutzerpostfächer, verknüpfte Postfächer, freigegebene Postfächer und Postfächer für öffentliche Ordner. Benutzerpostfächer enthalten gespeicherte Skype for Business-Inhalte, z. B. Unterhaltungshistorien.
 
-Der Inhalt des Benutzerpostfachs umfasst Folgendes:
+Zu den Inhalten von Benutzerpostfächern gehören:
 
-- E-Mails und e-Mail-Anhänge
-- Kalender-und Frei/Gebucht-Informationen
+- E-Mails und E-Mail-Anlagen
+- Kalender- und Frei/Gebucht-Informationen
 - Kontakte
 - Aufgaben
-- Notes
+- Anmerkungen
 - Gruppen
-- Rückschluss Daten
+- Rückschlussdaten
 
-Jede Postfachdatenbank in Exchange Online enthält Postfächer von mehreren Mandanten. Ein Autorisierungscode sichert jedes Postfach, auch innerhalb eines Mandanten. Standardmäßig hat nur der zugewiesene Benutzer Zugriff auf ein Postfach. Die Zugriffssteuerungsliste (Access Control List, ACL), die ein Postfach sichert, enthält eine Identität, die von Azure AD auf Mandantenebene authentifiziert wurde. Die Postfächer für jeden Mandanten sind auf Identitäten beschränkt, die für den Authentifizierungsanbieter des Mandanten authentifiziert wurden, der nur Benutzer von diesem Mandanten enthält. Inhalte in Mandant a können von Benutzern in Mandant B nicht in irgendeiner Weise abgerufen werden, es sei denn, Sie werden von Mandanten a ausdrücklich genehmigt.
+Jede Postfachdatenbank in Exchange Online enthält Postfächer von mehreren Mandanten. Ein Autorisierungscode sichert jedes Postfach, auch innerhalb einer Mandanz. Standardmäßig hat nur der zugewiesene Benutzer Zugriff auf ein Postfach. Die Zugriffssteuerungsliste (Access Control List, ACL), die ein Postfach sichert, enthält eine Identität, die von Azure AD auf Mandantenebene authentifiziert wurde. Die Postfächer für jeden Mandanten sind auf Identitäten beschränkt, die beim Authentifizierungsanbieter des Mandanten authentifiziert werden, der nur Benutzer aus diesem Mandanten umfasst. Inhalte in Mandant A können in keinem Fall von Benutzern in Mandant B erworben werden, es sei denn, sie wurden explizit von Mandant A genehmigt.
 
 ## <a name="skype-for-business"></a>Skype for Business
 
-Skype for Business speichert Daten an verschiedenen Stellen:
+Skype for Business speichert Daten an verschiedenen Orten:
 
-- Benutzer-und Kontoinformationen, einschließlich Verbindungs Endpunkten, Mandanten-IDs, Wähleinstellungen, Roamingeinstellungen, Anwesenheitsstatus, Kontaktlisten usw., werden auf den Skype for Business Active Directory Servern und in verschiedenen Skype for Business Datenbankservern gespeichert. Kontaktlisten werden im Exchange Online Postfach des Benutzers gespeichert, wenn der Benutzer für beide Produkte aktiviert ist, oder auf Skype for Business Servern, wenn der Benutzer dies nicht tut. Skype for Business Datenbankserver sind nicht partitioniert pro Mandanten, aber die mehrinstanzenfähige Isolierung von Daten wird über die rollenbasierte Zugriffssteuerung (Role-Based Access Control, RBAC) erzwungen.
-- Besprechungsinhalte und hochgeladene Daten werden auf DFS-Freigaben (Distributed File System) gespeichert. Dieser Inhalt kann auch in Exchange Online archiviert werden, wenn dieser aktiviert ist. Die DFS-Freigaben werden nicht pro Mandant partitioniert. der Inhalt ist mit ACLs gesichert, und Mehrmandantenfähigkeit wird über RBAC erzwungen.
-- Anruf Detaildatensätze, bei denen es sich um den Aktivitätsverlauf handelt, wie Anrufverlauf, Chatsitzungen, Anwendungsfreigabe, Chatverlauf usw., können auch in Exchange Online gespeichert werden, aber die meisten Anruf Detaildatensätze werden temporär auf KDS-Servern (Call Detail Record) gespeichert. Inhalt wird nicht pro Mandant partitioniert, aber Mehrmandantenfähigkeit wird über RBAC erzwungen.
+- Benutzer- und Kontoinformationen, die Verbindungsendpunkte, Mandanten-IDs, Wählpläne, Roamingeinstellungen, Anwesenheitsstatus, Kontaktlisten usw. umfassen, werden auf den Skype for Business Active Directory-Servern und auf verschiedenen Skype for Business-Datenbankservern gespeichert. Kontaktlisten werden im Exchange Online-Postfach des Benutzers gespeichert, wenn der Benutzer für beide Produkte aktiviert ist, oder auf Skype for Business-Servern, wenn der Benutzer dies nicht ist. Skype for Business-Datenbankserver werden nicht pro Mandant partitioniert, aber die Mehr-Mandanten-Isolation von Daten wird über die rollenbasierte Zugriffssteuerung (ROLEAC) erzwungen.
+- Besprechungsinhalte und hochgeladene Daten werden in DFS-Freigaben (Distributed File System) gespeichert. Dieser Inhalt kann auch in Exchange Online archiviert werden, wenn er aktiviert ist. Die DFS-Freigaben werden nicht pro Mandant partitioniert. Der Inhalt wird mit ACLs gesichert, und mehrverdachtige Inhalte werden über die RBAC erzwungen.
+- Anrufdetaildatensätze, bei denen es sich um den Aktivitätsverlauf handelt, z. B. Anrufverlauf, Anrufsitzungen, Anwendungsfreigabe, Anrufverlauf usw., können auch in Exchange Online gespeichert werden, die meisten Anrufdetaildatensätze werden jedoch vorübergehend auf Anrufdetaildatensätzen (Call Detail Record, CDR)-Servern gespeichert. Inhalte werden nicht pro Mandant partitioniert, aber mehr mandantenfähigkeit wird über rbAC erzwungen.
 
 ## <a name="sharepoint-online"></a>SharePoint Online
 
-SharePoint Online verfügt über mehrere unabhängige Mechanismen zur Datenisolierung. Sie speichert Objekte als abstrahierten Code in Anwendungsdatenbanken. Wenn ein Benutzer beispielsweise eine Datei in SharePoint Online hochlädt, wird die Datei zerlegt, in Anwendungscode übersetzt und in mehreren Tabellen über mehrere Datenbanken gespeichert.
+SharePoint Online verfügt über mehrere unabhängige Mechanismen, die die Datenisolation bereitstellen. Es speichert Objekte als abstrahierten Code in Anwendungsdatenbanken. Wenn ein Benutzer beispielsweise eine Datei in SharePoint Online hochlädt, wird die Datei zerlegt, in Anwendungscode übersetzt und in mehreren Tabellen in mehreren Datenbanken gespeichert.
 
-Wenn ein Benutzer direkten Zugriff auf den Speicher erhält, der die Daten enthält, kann der Inhalt nicht für einen Menschen oder ein anderes System als SharePoint Online interpretiert werden. Diese Mechanismen umfassen Sicherheitszugriffssteuerung und Eigenschaften. Alle SharePoint Online Ressourcen werden durch den Autorisierungscode und die RBAC-Richtlinie gesichert, einschließlich innerhalb eines Mandanten. Die Zugriffssteuerungsliste (Access Control List, ACL), die eine Ressource sichert, enthält eine auf Mandantenebene authentifizierte Identität. SharePoint Online Daten für einen Mandanten sind auf vom Authentifizierungsanbieter für den Mandanten authentifizierte Identitäten limitiert.
+Wenn ein Benutzer direkten Zugriff auf den Speicher mit den Daten erhalten könnte, ist der Inhalt für einen Menschen oder ein anderes System als SharePoint Online nicht interpretierbar. Zu diesen Mechanismen gehören die Sicherheitszugriffssteuerung und -eigenschaften. Alle SharePoint Online-Ressourcen werden durch den Autorisierungscode und die RBAC-Richtlinie gesichert, einschließlich innerhalb einer Mandanz. Die Zugriffssteuerungsliste (Access Control List, ACL), die eine Ressource sichert, enthält eine auf Mandantenebene authentifizierte Identität. SharePoint Online-Daten für einen Mandanten sind auf Identitäten beschränkt, die vom Authentifizierungsanbieter für den Mandanten authentifiziert werden.
 
-Zusätzlich zu den ACLs wird eine Eigenschaft auf Mandantenebene, die den Authentifizierungsanbieter angibt (die mandantenspezifische Azure AD), einmal geschrieben und kann nicht mehr geändert werden, nachdem Sie festgelegt wurde. Nachdem die Mandanten Eigenschaft des Authentifizierungsanbieters für einen Mandanten festgelegt wurde, kann Sie nicht mithilfe aller für einen Mandanten verfügbar gemachten APIs geändert werden.
+Zusätzlich zu den ACLs wird eine Eigenschaft auf Mandantenebene, die den Authentifizierungsanbieter angibt (bei dem es sich um den mandantenspezifischen Azure AD handelt), einmal geschrieben und kann nicht einmal festgelegt geändert werden. Nachdem die Mandanteneigenschaft des Authentifizierungsanbieters für einen Mandanten festgelegt wurde, kann sie nicht mithilfe von APIs geändert werden, die für einen Mandanten verfügbar gemacht werden.
 
-Für jeden Mandanten wird eine eindeutige *Abonnement* -Nr verwendet. Alle Kunden Standorte befinden sich im Besitz eines Mandanten und weisen dem Mandanten eine eindeutige *Abonnement* -Nummer zu. Die *Subscription* -Eigenschaft für eine Website wird einmal geschrieben und ist dauerhaft. Nachdem eine Website einem Mandanten zugewiesen wurde, kann Sie nicht zu einem anderen Mandanten verschoben werden. Die *Abonnement* -Nr ist der Schlüssel, der zum Erstellen des Sicherheitsbereichs für den Authentifizierungsanbieter verwendet wird und an den Mandanten gebunden ist.
+Für jeden Mandanten wird eine eindeutige *SubscriptionId* verwendet. Alle Kundenwebsites gehören einem Mandanten und haben eine *SubscriptionId zugewiesen,* die für den Mandanten eindeutig ist. Die *SubscriptionId-Eigenschaft* auf einer Website wird einmal geschrieben und ist dauerhaft. Nachdem sie einem Mandanten zugewiesen wurde, kann eine Website nicht in einen anderen Mandanten verschoben werden. Die *SubscriptionId ist* der Schlüssel, der zum Erstellen des Sicherheitsbereichs für den Authentifizierungsanbieter verwendet wird und an den Mandanten gebunden ist.
 
-SharePoint Online verwendet SQL Server und Azure-Speicher für die Speicherung von Inhaltsmetadaten. Der Partitionsschlüssel für den Inhaltsspeicher lautet *Site* -Nr in SQL. Bei der Ausführung einer SQL-Abfrage verwendet SharePoint Online eine *Website* -Überprüfung, die als Teil einer *Abonnement* -Bestätigung auf Mandantenebene überprüft wurde.
+SharePoint Online verwendet SQL Server und Azure Storage für die Speicherung von Inhaltsmetadaten. Der Partitionsschlüssel für den Inhaltsspeicher ist *SiteId* in SQL. Beim Ausführen einer SQL verwendet SharePoint Online eine *SiteId,* die im Rahmen einer *SubscriptionId-Prüfung* auf Mandantenebene überprüft wurde.
 
-SharePoint Online speichert verschlüsselte Dateiinhalte in Microsoft Azure BLOBs. Jede SharePoint Online Farm verfügt über ein eigenes Microsoft Azure Konto, und alle in Azure gespeicherten BLOBs werden einzeln mit einem Schlüssel verschlüsselt, der im SQL-Inhaltsspeicher gespeichert ist. Der Verschlüsselungsschlüssel, der in Code von der Autorisierungs Schicht geschützt wird und nicht direkt für den Endbenutzer verfügbar gemacht wird. SharePoint Online verfügt über eine Echtzeitüberwachung, um zu erkennen, wann eine HTTP-Anforderung Daten für mehr als einen Mandanten liest oder schreibt. Die Anforderungs-ID- *Abonnement* -ID wird anhand der *Abonnement* -ID der aufgerufenen Ressource nachverfolgt. Anforderungen für den Zugriff auf Ressourcen von mehr als einem Mandanten sollten niemals durch Endbenutzer geschehen. Dienstanforderungen in einer Umgebung mit mehreren Mandanten sind die einzige Ausnahme. Der Suchcrawler zieht beispielsweise Inhaltsänderungen für eine gesamte Datenbank gleichzeitig durch. Dies umfasst normalerweise das Abfragen von Websites von mehr als einem Mandanten in einer einzelnen Dienstanforderung, was aus Effizienzgründen geschieht.
+SharePoint Online speichert verschlüsselte Dateiinhalte in Microsoft Azure-Blobs. Jede SharePoint Online-Farm verfügt über ein eigenes Microsoft Azure-Konto, und alle in Azure gespeicherten Blobs werden einzeln mit einem Schlüssel verschlüsselt, der im SQL gespeichert ist. Der Verschlüsselungsschlüssel, der im Code durch die Autorisierungsebene geschützt und nicht direkt für den Endbenutzer verfügbar gemacht wird. SharePoint Online verfügt über Echtzeitüberwachung, um zu erkennen, wann eine HTTP-Anforderung Daten für mehr als einen Mandanten liest oder schreibt. Die Anforderungsidentität *SubscriptionId* wird mit der *SubscriptionId* der ressource, auf die zugegriffen wird, nachverfolgt. Anforderungen für den Zugriff auf Ressourcen von mehr als einem Mandanten sollten von Endbenutzern niemals auftreten. Dienstanforderungen in einer Umgebung mit mehreren Mandanten sind die einzige Ausnahme. Der Suchcrawler z. B. zieht Inhaltsänderungen für eine gesamte Datenbank auf einmal ab. Dies umfasst in der Regel das Abfragen von Websites von mehr als einem Mandanten in einer einzelnen Dienstanforderung, was aus Effizienzgründen erfolgt.
 
 ## <a name="teams"></a>Teams
 
 Ihre Teams-Daten werden je nach Inhaltstyp unterschiedlich gespeichert. 
 
-Eine ausführliche Erläuterung finden Sie unter [Ignite Breakout Session on Microsoft Teams Architecture](https://channel9.msdn.com/Events/Ignite/Microsoft-Ignite-Orlando-2017/BRK3071) .
+Eine ausführliche Diskussion erhalten Sie in der [Ignite-Unterbrechungssitzung](https://channel9.msdn.com/Events/Ignite/Microsoft-Ignite-Orlando-2017/BRK3071) zur Microsoft Teams-Architektur.
 
-### <a name="core-teams-customer-data"></a>Kern Teams Kundendaten
+### <a name="core-teams-customer-data"></a>Kernkundendaten von Teams
 
-Wenn Ihr Mandant in Australien, Kanada, der Europäischen Union, Frankreich, Deutschland, Indien, Japan, Südafrika, Südkorea, der Schweiz (einschließlich Liechtenstein), den Vereinigten Arabischen Emiraten, dem Vereinigten Königreich oder den Vereinigten Staaten bereitgestellt wird, speichert Microsoft die folgenden Kundendaten in Ruhe nur an diesem Speicherort:
+Wenn Ihr Mandant in Australien, Kanada, der Europäischen Union, Frankreich, Deutschland, Indien, Japan, Südafrika, Südkorea, der Schweiz (einschließlich Liechtenstein), den Vereinigten Arabischen Emiraten, dem Vereinigten Königreich oder den Vereinigten Staaten bereitgestellt wird, speichert Microsoft die folgenden Ruhedaten nur an diesem Ort:
 
-- Teams Chats, Team-und Kanal Unterhaltungen, Bilder, Voicemail-Nachrichten und Kontakte.
+- Teams-Chats, Team- und Kanalunterhaltungen, Bilder, Voicemailnachrichten und Kontakte.
 - SharePoint Online-Websiteinhalt und die auf der Website gespeicherten Dateien.
-- Dateien, die in OneDrive für Arbeit oder Schule hochgeladen wurden.
+- Dateien, die auf OneDrive für Arbeit oder Schule hochgeladen werden.
 
-#### <a name="chat-channel-messages-team-structure"></a>Chat, Kanal Nachrichten, Teamstruktur
+#### <a name="chat-channel-messages-team-structure"></a>Chat, Kanalnachrichten, Teamstruktur
 
-Jedes Team in Teams wird von einer Microsoft 365-Gruppe und Ihrer SharePoint-Website und Ihrem Exchange-Postfach unterstützt. Private Chats (einschließlich Gruppenchats), Nachrichten, die im Rahmen einer Unterhaltung in einem Kanal gesendet werden, und die Struktur von Teams und Kanälen werden in einem in Azure ausgeführten Chatdienst gespeichert. Die Daten werden auch in einem verborgenen Ordner in den Benutzer-und Gruppen Postfächern gespeichert, um Funktionen zum Schutz von Informationen zu aktivieren.
+Jedes Team in Teams wird von einer Microsoft 365-Gruppe und ihrer SharePoint-Website und dem Exchange-Postfach unterstützt. Private Chats (einschließlich Gruppenchats), Nachrichten, die als Teil einer Unterhaltung in einem Kanal gesendet werden, sowie die Struktur von Teams und Kanälen werden in einem Chatdienst gespeichert, der in Azure ausgeführt wird. Die Daten werden auch in einem ausgeblendeten Ordner in den Benutzer- und Gruppenpostfächern gespeichert, um Die Information Protection-Features zu aktivieren.
 
 #### <a name="voicemail-and-contacts"></a>Voicemail und Kontakte
 
-Voicemails werden in Exchange gespeichert. Kontakte werden im Exchange-basierten Cloud-Datenspeicher gespeichert. Exchange und der Exchange-basierte Cloud Store bieten bereits Daten in jedem der weltweiten Rechenzentren GEOSS. Für alle Teams werden Voicemail und Kontakte in-Country für Australien, Kanada, Frankreich, Deutschland, Indien, Japan, die Vereinigten Arabischen Emirate, das Vereinigte Königreich, Südafrika, Südkorea, die Schweiz (einschließlich Liechtenstein) und die Vereinigten Staaten gespeichert. Für alle anderen Länder werden Dateien in den USA, in Europa oder Asia-Pacific Speicherort basierend auf der Mandanten Affinität gespeichert.
+Voicemails werden in Exchange gespeichert. Kontakte werden im Exchange-basierten Clouddatenspeicher gespeichert. Exchange und der Exchange-basierte Cloudspeicher bieten bereits datenresidenz in jedem der weltweiten Rechenzentrums-Geos. Für alle Teams werden Voicemail und Kontakte für Australien, Kanada, Frankreich, Deutschland, Indien, Japan, die Vereinigten Arabischen Emirate, das Vereinigte Königreich, Südafrika, Südkorea, die Schweiz (einschließlich Liechtenstein) und die Vereinigten Staaten gespeichert. Für alle anderen Länder werden Dateien basierend auf der Mandantenaffinität in den USA, Europa oder Asia-Pacific gespeichert.
 
 #### <a name="images-and-media"></a>Bilder und Medien
 
-In Chats verwendete Medien (mit Ausnahme von Giphy-GIFs, bei denen es sich nicht um einen Verweis Link zur ursprünglichen Giphy-Dienst-URL handelt, Giphy ist ein nicht von Microsoft stammender Dienst), wird in einem Azure-basierten Mediendienst gespeichert, der an denselben Stellen wie der Chatdienst bereitgestellt wird.
+In Chats verwendete Medien (mit Ausnahme von Giphy-GIFs, die nicht gespeichert sind, aber ein Verweislink zur ursprünglichen Giphy-Dienst-URL sind, giphy ist ein Nicht-Microsoft-Dienst) werden in einem Azure-basierten Mediendienst gespeichert, der an denselben Speicherorten wie der Chatdienst bereitgestellt wird.
 
 #### <a name="files"></a>Dateien
 
-Dateien (einschließlich OneNote und wiki), die jemand in einem Kanal freigibt, werden auf der SharePoint-Website des Teams gespeichert. In einem privaten Chat oder einem Chat während einer Besprechung oder eines Anrufs freigegebene Dateien werden hochgeladen und im OneDrive for Work-oder School-Konto des Benutzers gespeichert, der die Datei freigibt. Exchange, SharePoint und OneDrive bieten bereits Daten in jedem der weltweiten Rechenzentren in GEOS. Für vorhandene Kunden sind also alle Dateien, OneNote-Notizbücher, wiki-Inhalte von Microsoft Teams und Postfächer, die Teil der Teams-Erfahrung sind, bereits basierend auf Ihrer Mandanten Affinität am Speicherort gespeichert. Dateien werden in-Country für Australien, Kanada, Frankreich, Deutschland, Indien, Japan, die Vereinigten Arabischen Emirate, das Vereinigte Königreich, Südafrika, Südkorea und die Schweiz (einschließlich Liechtenstein) gespeichert. Für alle anderen Länder werden Dateien basierend auf der Mandanten Affinität im Standort USA, Europa oder im asiatisch-pazifischen Raum gespeichert.
+Dateien (einschließlich OneNote und Wiki), die jemand in einem Kanal teilt, werden auf der SharePoint-Website des Teams gespeichert. Dateien, die in einem privaten Chat oder einem Chat während einer Besprechung oder eines Anrufs freigegeben wurden, werden hochgeladen und im OneDrive for work- oder Schulkonto des Benutzers gespeichert, der die Datei freigegeben hat. Exchange, SharePoint und OneDrive bieten bereits datenresidenz in jedem der weltweiten Datencenter-Geos. Für vorhandene Kunden werden also alle Dateien, OneNote-Notizbücher, Teams-Wiki-Inhalte und Postfächer, die Teil der Teams-Erfahrung sind, bereits basierend auf Ihrer Mandantenaffinität am Speicherort gespeichert. Dateien werden im Land für Australien, Kanada, Frankreich, Deutschland, Indien, Japan, die Vereinigten Arabischen Emirate, das Vereinigte Königreich, Südafrika, Südkorea und die Schweiz (einschließlich Liechtenstein) gespeichert. Für alle anderen Länder werden Dateien basierend auf der Mandantenaffinität am Standort USA, Europa oder Asien-Pazifik gespeichert.

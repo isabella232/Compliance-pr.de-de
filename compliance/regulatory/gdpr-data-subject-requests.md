@@ -17,12 +17,13 @@ ms.collection:
 titleSuffix: Microsoft GDPR
 description: Hier erfahren Sie, wie Sie DSRs im Rahmen der Datenschutz-Grundverordnung (DSGVO) und der kalifornischen Verbraucherschutzgesetzgebung (CCPA) mithilfe von Microsoft-Produkten und -Diensten durchführen.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 83ba52015eeb7aed73cd231ff01f824f75337360
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+hideEdit: true
+ms.openlocfilehash: 8e6b862de3e52b171d886613af8529c082bad56d
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121034"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496265"
 ---
 # <a name="data-subject-requests-and-the-gdpr-and-ccpa"></a>Anträge betroffener Personen im Rahmen der DSGVO und des CCPA
 
