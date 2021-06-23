@@ -1,6 +1,6 @@
 ---
-title: U.S.-Abschnitt 508
-description: Microsoft bietet detaillierte Zugänglichkeits Übereinstimmungs Berichte für viele seiner Cloud-Dienste, die die Barrierefreiheitsfunktionen dieser Dienste beschreiben.
+title: US Section 508
+description: Microsoft bietet detaillierte Konformitätsberichte zur Barrierefreiheit für viele seiner Clouddienste, die die Barrierefreiheitsfunktionen dieser Dienste beschreiben.
 keywords: Microsoft 365, Compliance, Angebote
 localization_priority: None
 ms.prod: microsoft-365-enterprise
@@ -16,26 +16,26 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4af002c6543659ce78cd7d03e037088324e6af2e
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: b6c48ebc9461010db1e129e88e53b4ada5c32683
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506910"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53088804"
 ---
-# <a name="us-section-508"></a>U.S.-Abschnitt 508
+# <a name="us-section-508"></a>US Section 508
 
-## <a name="about-us-section-508"></a>Informationen zum US-Abschnitt 508
+## <a name="about-us-section-508"></a>Informationen zu Abschnitt 508 der USA
 
-Der US-amerikanische Kongreß hat das Rehabilitationsgesetz in 1998 und 2000 so geändert, dass Bundesbehörden ihre Produkte für elektronische und Informationstechnologie (ETI) wie Software, Hardware, elektronische Inhalte und Support Dokumentation für Personen mit Behinderungen zugänglich machen müssen. In Abschnitt 508 des United States Workforce Rehabilitation Act von 1973 (29 US Code § 794d), geändert, wird das Mandat erteilt, dass föderale Behörden das ETI in einer Weise beschaffen, verwalten und nutzen, die sicherstellt, dass Bundesangestellte mit Behinderungen vergleichbaren Zugriff auf und die Verwendung von Daten und EIT im Vergleich zu anderen Bundesangestellten haben.
+Die UNITED STATES-Kommission änderte 1998 und 2000 das Zustände Act, um Bundesbehörden zu verlangen, dass ihre produkte für elektronische und Informationstechnologie (ELECTRONIC and Information Technology, DOPPELKLICK) wie Software, Hardware, elektronische Inhalte und Supportdokumentation für Menschen mit Behinderungen zugänglich sind. In Abschnitt 508 des United States Workforce Oder Act von 1973 (29 US Code §794d) in der geänderten Form ist es vorgeschrieben, dass Bundesbehörden SODASS so beschaffen, verwalten und verwenden, dass Bundesmitarbeiter mit Behinderungen im Verhältnis zu anderen Bundesmitarbeitern über einen vergleichbarem Zugriff auf und eine vergleichbare Nutzung von Daten und SODASs verfügen.
 
-Microsoft ist ein wichtiger Anbieter von Software und Cloud-Diensten für US-Bundes-und Landesregierungen.  Um Regierungskunden bei der Entscheidungsfindung bei der Beschaffung zu unterstützen, veröffentlicht Microsoft Zugänglichkeits Konformitätsberichte, in denen beschrieben wird, in welchem Ausmaß unsere Produkte und Dienste die Kriterien von Abschnitt 508 unterstützen.  Anhand dieser Informationen können Microsoft-Kunden ermitteln, ob ein bestimmtes Produkt oder eine bestimmte Dienstleistung den spezifischen Bedürfnissen gerecht wird.
+Microsoft ist ein wichtiger Software- und Cloud-Dienstanbieter für Us-Bundesstaaten und Bundesstaaten.  Um Regierungskunden bei der Entscheidungsfindung bei der Beschaffung zu unterstützen, veröffentlicht Microsoft Konformitätsberichte zur Barrierefreiheit, in denen beschrieben wird, in welchem Umfang unsere Produkte und Dienste die Kriterien von Abschnitt 508 unterstützen.  Anhand dieser Informationen können Microsoft-Kunden ermitteln, ob ein bestimmtes Produkt oder eine bestimmte Dienstleistung den spezifischen Bedürfnissen gerecht wird.
 
-## <a name="microsoft-and-us-section-508"></a>Microsoft und US-Abschnitt 508
+## <a name="microsoft-and-us-section-508"></a>Microsoft und USA , Abschnitt 508
 
-Die Überlegungen von Microsoft zum US-Abschnitt 508 bei der Entwicklung von Produkten und Diensten zeigen, dass die Technologie und Daten für alle Kunden zugänglich sind.
+Die Berücksichtigung von Abschnitt 508 der USA bei der Entwicklung von Produkten und Diensten durch Microsoft verweist auf sein Engagement, Technologien und Daten für alle Kunden zugänglich zu machen.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Eingeschlossene Microsoft-Clouddienste
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft-Clouddienste im Leistungsumfang
 
 - [Azure und Azure Government](https://go.microsoft.com/fwlink/p/?linkid=2051569)
 - Azure DevOps Services
@@ -51,8 +51,8 @@ Die Überlegungen von Microsoft zum US-Abschnitt 508 bei der Entwicklung von Pro
 
 ## <a name="resources"></a>Ressourcen
 
-- [Microsoft Accessibility Page](https://go.microsoft.com/fwlink/p/?linkid=2051579): erkunden Sie die Möglichkeiten, wie Microsoft Innovationen durchführen kann, damit jeder die Möglichkeit hat, mehr zu erreichen.
+- [Microsoft-Barrierefreiheitsseite:](https://go.microsoft.com/fwlink/p/?linkid=2051579)Erkunden Sie die Möglichkeiten, mit denen Microsoft innovationiert, damit jeder mehr erreichen kann.
 - [Office 365-Barrierefreiheitscenter](https://go.microsoft.com/fwlink/p/?linkid=2051801): Office 365-Ressourcen für Menschen mit Behinderungen.
 - [Enterprise Disability Answer Desk](https://go.microsoft.com/fwlink/p/?linkid=2050890): Dedizierter Support für Unternehmenskunden mit Fragen zur Barrierefreiheit unserer Produkte und Dienstleistungen oder zur Compliance.
-- [DHS Trusted Tester-Programm](https://go.microsoft.com/fwlink/?linkid=2052171): Informationen zum Trusted Tester-Programm des US-amerikanischen Department of Homeland Security (DHS) erhalten, an dem Microsoft teilnimmt.
+- [DHS Trusted Tester Program:](https://go.microsoft.com/fwlink/?linkid=2052171)Abrufen von Informationen über das Trusted Tester-Programm der US Department of Shapes Security (DHS), an dem Microsoft teilnimmt.
 - [Compliance im Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)

@@ -1,6 +1,6 @@
 ---
-title: Federal Information Processing Standard (FIPS) Publikation 140-2
-description: Microsoft bestätigt, dass seine Kryptografiemodule dem US Federal Information Processing Standard entsprechen.
+title: FIPS-Publikation (Federal Information Processing Standard) 140-2
+description: Microsoft bestätigt, dass seine kryptografischen Module den US Federal Information Processing Standard (US Federal Information Processing Standard) entsprechen.
 keywords: Microsoft 365, Compliance, Angebote
 localization_priority: None
 ms.prod: microsoft-365-enterprise
@@ -16,30 +16,30 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d7d1f47d7f76f9fc6d3cefa6cac5be807af98cbc
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 0838ce11e732f5c6e8c79c40af0e85bff9d22caf
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120834"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089729"
 ---
-# <a name="federal-information-processing-standard-fips-publication-140-2"></a>Federal Information Processing Standard (FIPS) Publikation 140-2
+# <a name="federal-information-processing-standard-fips-publication-140-2"></a>FIPS-Publikation (Federal Information Processing Standard) 140-2
 
-## <a name="fips-140-2-standard-overview"></a>FIPS 140-2-Standardübersicht
+## <a name="fips-140-2-standard-overview"></a>FIPS 140-2 – Standardübersicht
 
-The Federal Information Processing Standard (FIPS) Publication 140-2 is a U.S. Government standard that defines minimum security requirements for cryptographic modules in information technology products, as defined in Section 5131 of the Information Technology Management Reform Act of 1996.
+The Federal Information Processing Standard (FIPS) Publication 140-2 is a U.S. government standard that defines minimum security requirements for cryptographic modules in information technology products, as defined in Section 5131 of the Information Technology Management Reform Act of 1996.
 
-Das [Cryptographic Module Validation Program](https://csrc.nist.gov/Projects/cryptographic-module-validation-program) (CMVP), eine gemeinsame Anstrengung des U.S. National Institute of Standards and Technology (NIST)  und des Canadian Centre for Cyber Security (CCCS), überprüft kryptografische Module auf die Sicherheitsanforderungen für den Kryptografiemodulstandard (d. h. FIPS 140-2) und zugehörige FIPS-Kryptografiestandards. Die FIPS 140-2-Sicherheitsanforderungen umfassen 11 Bereiche im Zusammenhang mit dem Entwurf und der Implementierung eines kryptografischen Moduls. Das NIST Information Technology Labor betreibt ein verwandtes Programm, das die vom FIPS genehmigten kryptografischen Algorithmen im Modul überprüft.
+Das [Kryptografiemodulvalidierungsprogramm (Cryptographic Module Validation Program,](https://csrc.nist.gov/Projects/cryptographic-module-validation-program) CMVP), eine gemeinsame Aktion des U.S. National Institute of Standards and Technology (NIST) und des canadian Centers for Cyber Security (CCPS), überprüft kryptografische Module auf den *Security Requirements for Cryptographic Modules* Standard (d. h. FIPS 140-2) und verwandte FIPS-Kryptografiestandards. Die FIPS 140-2-Sicherheitsanforderungen umfassen 11 Bereiche im Zusammenhang mit dem Entwurf und der Implementierung eines kryptografischen Moduls. Das NIST Information Technology Labor betreibt ein verwandtes Programm, das die FIPS-genehmigten kryptografischen Algorithmen im Modul überprüft.
 
-## <a name="microsofts-approach-to-fips-140-2-validation"></a>Microsofts Ansatz zur FIPS 140-2-Überprüfung
+## <a name="microsofts-approach-to-fips-140-2-validation"></a>Microsoft-Ansatz zur FIPS 140-2-Validierung
 
-Microsoft verpflichtet sich aktiv, die 140-2-Anforderungen zu erfüllen, da seit der Einführung des Standards im Jahr 2001 kryptografische Module überprüft wurden. Microsoft überprüft seine kryptografischen Module im Rahmen des Kryptografiemodulüberprüfungsprogramms [(Cryptographic Module Validation Program,](https://csrc.nist.gov/Projects/cryptographic-module-validation-program) CMVP) des National Institute of Standards and Technology (NIST). Mehrere Microsoft-Produkte, einschließlich vieler Clouddienste, verwenden diese kryptografischen Module.
+Microsoft setzt sich aktiv dafür ein, die 140-2-Anforderungen zu erfüllen, indem kryptografische Module seit der Einführung des Standards im Jahr 2001 validiert wurden. Microsoft überprüft seine kryptografischen Module unter dem National Institute of Standards and Technology (NIST) [Cryptographic Module Validation Program](https://csrc.nist.gov/Projects/cryptographic-module-validation-program) (CMVP). Mehrere Microsoft-Produkte, einschließlich vieler Clouddienste, verwenden diese kryptografischen Module.
 
-Technische Informationen zu Kryptografiemodulen von Microsoft Windows, zur Sicherheitsrichtlinie für jedes Modul und zum Katalog der CMVP-Zertifikatdetails finden Sie in den Windows- und [Windows Server FIPS 140-2-Inhalten.](https://aka.ms/AA6ehud)
+Technische Informationen zu Microsoft Windows kryptografischen Modulen, die Sicherheitsrichtlinie für jedes Modul und den Katalog mit CMVP-Zertifikatdetails finden Sie im [Windows und Windows Server FIPS 140-2-Inhalt.](https://aka.ms/AA6ehud)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft Cloud Services im Leistungsumfang
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft-Clouddienste im Leistungsumfang
 
-Der aktuelle CMVP FIPS 140-2-Implementierungsleitfaden schließt zwar eine FIPS 140-2-Überprüfung für einen Clouddienst selbst aus. Clouddienstanbieter können fiPS 140-validierte Kryptografiemodule für die Computerelemente abrufen und betreiben, aus denen ihr Clouddienst besteht. Zu den Microsoft-Onlinediensten, die Komponenten enthalten, die von FIPS 140-2 überprüft wurden, gehören u. a.:
+Während der aktuelle CMVP FIPS 140-2-Implementierungsleitfaden eine FIPS 140-2-Überprüfung für einen Clouddienst selbst verhindert; Clouddienstanbieter können fips 140-validierte kryptografische Module für die Computerelemente abrufen und betreiben, die ihren Clouddienst umfassen. Zu den Microsoft-Onlinediensten, die Komponenten enthalten, die FIPS 140-2 überprüft wurden, gehören unter anderem:
 
 - [Azure und Azure Government](/azure/azure-government/documentation-government-plan-security)
 - [Dynamics 365 und Dynamics 365 Government](/microsoft-365/compliance/office-365-encryption-in-microsoft-dynamics-365)
@@ -49,43 +49,43 @@ Der aktuelle CMVP FIPS 140-2-Implementierungsleitfaden schließt zwar eine FIPS 
 
 **Was ist der Unterschied zwischen "FIPS 140 Validated" und "FIPS 140 compliant"?**
 
-"FIPS 140 Validated" bedeutet, dass das kryptografische Modul oder ein Produkt, das das Modul einbettet, vom CMVP überprüft ("zertifiziert") wurde, um die FIPS 140-2-Anforderungen zu erfüllen. "FIPS 140-konform" ist ein Branchenbegriff für IT-Produkte, die fips 140 validierte Produkte für Kryptografiefunktionen verwenden.
+"FIPS 140 Validated" bedeutet, dass das kryptografische Modul oder ein Produkt, das das Modul einbettet, vom CMVP als erfüllt die FIPS 140-2-Anforderungen überprüft ('zertifiziert") wurde. "FIPS 140-kompatibel" ist ein Branchenbegriff für IT-Produkte, die fips 140-validierte Produkte für kryptografische Funktionen verwenden.
 
 **Wann führt Microsoft eine FIPS 140-Überprüfung durch?**
 
-Die Schrittfrequenz zum Starten einer Modulüberprüfung richtet sich nach den Funktionsupdates von Windows 10 und Windows Server. Mit der Weiterentwicklung der Softwarebranche werden Betriebssysteme häufiger mit monatlichen Softwareupdates veröffentlicht. Microsoft übernimmt die Überprüfung für Featureversionen, versucht jedoch zwischen den Versionen, die Änderungen an den kryptografischen Modulen zu minimieren.
+Der Rhythmus zum Starten einer Modulüberprüfung richtet sich nach den Funktionsupdates von Windows 10 und Windows Server. Während sich die Softwarebranche weiterentwickelt hat, werden Betriebssysteme häufiger veröffentlicht, mit monatlichen Softwareupdates. Microsoft führt eine Überprüfung für Featureversionen durch, versucht jedoch zwischen den Versionen, die Änderungen an den kryptografischen Modulen zu minimieren.
 
 **Welche Computer sind in einer FIPS 140-Überprüfung enthalten?**
 
-Microsoft überprüft kryptografische Module anhand eines repräsentativen Beispiels von Hardwarekonfigurationen unter Windows 10 und Windows Server. Es ist in der Branche üblich, diese FIPS 140-2-Überprüfung zu akzeptieren, wenn eine Umgebung Hardware verwendet, was den Beispielen für den Überprüfungsprozess ähnelt.
+Microsoft überprüft kryptografische Module anhand eines repräsentativen Beispiels von Hardwarekonfigurationen, die Windows 10 und Windows Server ausgeführt werden. Es ist in der Branche üblich, diese FIPS 140-2-Überprüfung zu akzeptieren, wenn eine Umgebung Hardware verwendet, die den Beispielen für den Überprüfungsprozess ähnelt.
 
-**Auf der NIST-Website sind viele Module aufgeführt. Wo kann ich wissen, welche für meine Agentur gilt?**
+**Auf der NIST-Website sind viele Module aufgeführt. Woher weiß ich, welche für meine Agentur gilt?**
 
-Wenn Sie kryptografische Module verwenden müssen, die über FIPS 140-2 überprüft wurden, müssen Sie überprüfen, ob die von Ihnen verwendeten Versionen in der Validierungsliste angezeigt werden. CMVP und Microsoft verwalten eine Liste der überprüften kryptografischen Module, organisiert nach Produktversion, zusammen mit Anweisungen zum Identifizieren, welche Module auf einem Windows-System installiert sind. Weitere Informationen zum Konfigurieren von Systemen für die Konformität finden Sie im Windows- und [Windows Server FIPS 140-2-Inhalt.](https://aka.ms/AA6ehud)
+Wenn Sie kryptografische Module verwenden müssen, die durch FIPS 140-2 überprüft wurden, müssen Sie überprüfen, ob die verwendete Version in der Überprüfungsliste angezeigt wird. Der CMVP und Microsoft verwalten eine Liste der validierten kryptografischen Module, sortiert nach Produktversion, zusammen mit Anweisungen zur Identifizierung der Module, die auf einem Windows System installiert sind. Weitere Informationen zum Konfigurieren konformer Systeme finden Sie in den [Inhalten Windows und Windows Server FIPS 140-2.](https://aka.ms/AA6ehud)
 
 **Was bedeutet "Im FIPS-Modus betrieben" für ein Zertifikat?**
 
-Diese Einschränkung informiert den Leser darüber, dass die erforderlichen Konfigurations- und Sicherheitsregeln eingehalten werden müssen, um das kryptografische Modul auf eine Weise zu verwenden, die mit der FIPS 140-2-Sicherheitsrichtlinie konsistent ist. Jedes Modul verfügt über eine eigene Sicherheitsrichtlinie – eine genaue Spezifikation der Sicherheitsregeln, unter denen es verwendet wird – und verwendet genehmigte Kryptografiealgorithmen, die Verwaltung kryptografischer Schlüssel und Authentifizierungstechniken. Die Sicherheitsregeln werden in der Sicherheitsrichtlinie für jedes Modul definiert. Weitere Informationen, einschließlich Links zur Sicherheitsrichtlinie für jedes Modul, das über das CMVP überprüft wurde, finden Sie in den Windows- und [Windows Server FIPS 140-2-Inhalten.](https://aka.ms/AA6ehud)
+Dieser Hinweis informiert den Leser, dass die erforderlichen Konfigurations- und Sicherheitsregeln befolgt werden müssen, um das kryptografische Modul in einer Weise zu verwenden, die mit seiner FIPS 140-2-Sicherheitsrichtlinie übereinstimmt. Jedes Modul verfügt über eine eigene Sicherheitsrichtlinie – eine genaue Spezifikation der Sicherheitsregeln, unter denen es ausgeführt wird – und verwendet genehmigte kryptografische Algorithmen, kryptografische Schlüsselverwaltung und Authentifizierungstechniken. Die Sicherheitsregeln sind in der Sicherheitsrichtlinie für jedes Modul definiert. Weitere Informationen, einschließlich Links zur Sicherheitsrichtlinie für jedes Modul, das über den CMVP überprüft wird, finden Sie im [Windows und Windows Server FIPS 140-2-Inhalt.](https://aka.ms/AA6ehud)
 
-**Erfordert FedRAMP FIPS 140-2-Überprüfung?**
+**Erfordert FedRAMP die FIPS 140-2-Überprüfung?**
 
-Ja, das Federal Risk and Authorization Management Program (FedRAMP) basiert auf Kontrollgrundwerten, die von [NIST SP 800-53 Revision 4](https://nvd.nist.gov/800-53/Rev4/)definiert wurden, einschließlich [SC-13 Cryptographic Protection,](https://nvd.nist.gov/800-53/Rev4/control/SC-13) der die Verwendung von FIPS-validierter Kryptografie oder NSA-genehmigter Kryptografie anfordert.
+Ja, das Federal Risk and Authorization Management Program (FedRAMP) basiert auf Kontrollgrundwerten, die von [der NIST SP 800-53 Revision 4](https://nvd.nist.gov/800-53/Rev4/)definiert sind, einschließlich [SC-13 Cryptographic Protection,](https://nvd.nist.gov/800-53/Rev4/control/SC-13) der die Verwendung von FIPS-validierter Kryptografie oder NSA-genehmigter Kryptografie unterstützt.
 
 **Wie unterstützt Microsoft Azure FIPS 140-2?**
 
-Azure wird mit einer Kombination aus Hardware, kommerziellen Betriebssystemen (Linux und Windows) und Azure-spezifischer Version von Windows erstellt. Über den Microsoft [Security Development Lifecycle](https://www.microsoft.com/securityengineering/sdl/) (SDL) verwenden alle Azure-Dienste genehmigte FIPS 140-2-Algorithmen für die Datensicherheit, da das Betriebssystem FIPS 140-2-genehmigte Algorithmen verwendet, während es in einer Cloud mit Hyperskalen arbeitet.
+Azure wird mit einer Kombination aus Hardware, kommerziell verfügbaren Betriebssystemen (Linux und Windows) und Azure-spezifischer Version von Windows erstellt. Über den Microsoft [Security Development Lifecycle](https://www.microsoft.com/securityengineering/sdl/) (SDL) verwenden alle Azure-Dienste FIPS 140-2-genehmigte Algorithmen für die Datensicherheit, da das Betriebssystem fips 140-2 genehmigte Algorithmen verwendet, während es in einer Hyper-Scale-Cloud arbeitet.
 
-**Kann ich die Einhaltung von FIPS 140-2 durch Microsoft im Zertifizierungsprozess meiner Agentur verwenden?**
+**Kann ich die Einhaltung von FIPS 140-2 durch Microsoft im Zertifizierungsprozess meiner Organisation verwenden?**
 
-Zur Einhaltung von FIPS 140-2 muss Ihr System für die Ausführung in einem vom FIPS genehmigten Betriebsmodus konfiguriert werden. Dies umfasst die Sicherstellung, dass ein kryptografisches Modul nur FIPS-genehmigte Algorithmen verwendet. Weitere Informationen zum Konfigurieren von Systemen für die Konformität finden Sie in den Windows- und [Windows Server FIPS 140-2-Inhalten.](https://aka.ms/AA6ehud)
+Um FIPS 140-2 zu erfüllen, muss Ihr System so konfiguriert sein, dass es in einem FIPS-genehmigten Betriebsmodus ausgeführt wird. Dazu gehört auch, sicherzustellen, dass ein kryptografisches Modul nur FIPS-genehmigte Algorithmen verwendet. Weitere Informationen zum Konfigurieren konformer Systeme finden Sie in den [Inhalten Windows und Windows Server FIPS 140-2.](https://aka.ms/AA6ehud)
 
-**Wie ist die Beziehung zwischen FIPS 140-2 und allgemeinen Kriterien?**
+**Welche Beziehung besteht zwischen FIPS 140-2 und allgemeinen Kriterien?**
 
-Dies sind zwei separate Sicherheitsstandards mit unterschiedlichen, aber ergänzenden Zwecken. FIPS 140-2 wurde speziell für die Validierung von Kryptografiemodulen für Software und Hardware entwickelt, während die allgemeinen Kriterien darauf ausgelegt sind, Sicherheitsfunktionen in IT-Software- und Hardwareprodukten auszuwerten. Allgemeine Kriterienauswertungen beruhen häufig auf FIPS 140-2-Überprüfungen, um zu gewährleisten, dass grundlegende kryptografische Funktionen ordnungsgemäß implementiert werden.
+Hierbei handelt es sich um zwei separate Sicherheitsstandards mit unterschiedlichen, aber ergänzenden Zwecken. FIPS 140-2 wurde speziell für die Überprüfung von kryptografischen Software- und Hardwaremodulen entwickelt, während die allgemeinen Kriterien für die Bewertung von Sicherheitsfunktionen in IT-Software- und Hardwareprodukten entwickelt wurden. Allgemeine Kriterienbewertungen basieren häufig auf FIPS 140-2-Validierungen, um sicherzustellen, dass grundlegende kryptografische Funktionen ordnungsgemäß implementiert werden.
 
 ## <a name="resources"></a>Ressourcen
 
-- [FIPS Pub 140-2 Security Requirements for Cryptographic Modules](https://csrc.nist.gov/publications/fips/fips140-2/fips1402.pdf)
+- [FIPS Pub 140-2- Sicherheitsanforderungen für kryptografische Module](https://csrc.nist.gov/publications/fips/fips140-2/fips1402.pdf)
 - [NIST Cryptographic Module Validation Program](https://csrc.nist.gov/groups/STM/cmvp/index.html)
 - [Windows, Windows Server und FIPS 140-2](/windows/security/threat-protection/fips-140-validation)
 - [Compliance im Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)

@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 75103889b93957fa8d88a6d9fe8bbbaaf539608b
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: f48ba2f7bd10167d5e4cb384a7740df5e48b7617
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121414"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53088714"
 ---
 # <a name="title-23-nycrr-part-500"></a>Titel 23 NYCRR Teil 500
 
@@ -37,7 +37,7 @@ Befolgen Sie diese Anleitung, um die Einhaltung von Titel 23 NYCRR Teil 500 zu b
 
 Nach den New Yorker Bestimmungen muss jedes Finanzinstitut:
 
-- **Entwicklung und Aufrechterhaltung eines soliden Cybersicherheitsprogramms**, beginnend mit einer Bewertung des spezifischen Risikoprofils des Instituts und anschließender Ausarbeitung eines Programms, das diese Probleme angeht. Das [Microsoft Cloud Financial Services Compliance Program](https://www.microsoft.com/download/confirmation.aspx?id=55332) wurde entwickelt, um Finanzdienstleistungen bei der Einschätzung der Risiken bei der Verwendung von Microsoft Cloud Services zu unterstützen. Dies beinhaltet die direkte Zusammenarbeit mit unseren Ingenieuren und Risikobeauftragten, sowie den Zugang zu unseren Compliance- und Sicherheitsexperten.
+- **Entwicklung und Verwaltung eines soliden Cybersicherheitsprogramms**, beginnend mit einer Bewertung des spezifischen Risikoprofils des Instituts und anschließender Entwerfung eines Programms, das diese Risiken berücksichtigt. Das [Microsoft Cloud Financial Services Compliance Program](https://www.microsoft.com/download/confirmation.aspx?id=55332) wurde entwickelt, um Finanzdienstleistungen bei der Einschätzung der Risiken bei der Verwendung von Microsoft Cloud Services zu unterstützen. Dies beinhaltet die direkte Zusammenarbeit mit unseren Ingenieuren und Risikobeauftragten, sowie den Zugang zu unseren Compliance- und Sicherheitsexperten.
 - **Implementieren Sie eine umfassende Cybersicherheitsrichtlinie**, die sich mit Informationssicherheit, Datenverwaltung und -klassifizierung, Zugriffskontrolle, Geschäftskontinuität und dergleichen befasst. Microsoft bietet Anleitungen zur Entwicklung dieser Richtlinie mit ausführlichen Informationen zu unseren Zertifizierungen und Risikobewertungen, Metriken für Geschäftskontinuität und Notfallwiederherstellung, und Diagnosen für die Protokollierung und Überwachung.
 - **Bestimmen Sie einen Chief Information Security Officer**(CISO) für die Verwaltung des Cybersicherheitsprogramms und die Durchsetzung der Richtlinien. Zur Unterstützung Ihres CISO stellt Microsoft ausführliche Informationen zur Cybersicherheit über [Azure Security Center](https://azure.microsoft.com/services/security-center/?v=17.23h), [Office 365 Advanced Threat Analytics](/advanced-threat-analytics/)und [Power BI-Security](https://go.microsoft.com/fwlink/?LinkId=829185) bereit.
 - **Überwachen und Testen der Wirksamkeit des Cybersicherheitsprogramms**: Microsoft stellt Informationen aus Audits seiner Cybersicherheitspraktiken bereit, die kontinuierliche Überwachung, regelmäßige Penetrationstests und Schwachstellenbewertungen umfassen. Kunden können ihre eigenen Tests ohne vorherige Genehmigung von Microsoft durchführen.

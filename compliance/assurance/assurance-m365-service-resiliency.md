@@ -1,6 +1,6 @@
 ---
-title: Integrierte Ausfallsicherheit von Dienst in Microsoft 365
-description: Beschreibung der Ausfallsicherheit des Microsoft 365-Diensts
+title: Integrierte Dienstresilienz in Microsoft 365
+description: Beschreibung der Dienstresilienz Microsoft 365
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -17,16 +17,16 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: b97e8876f0ef69faefbeb5cf50a1891d36bf8795
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: fc8964f453c5a2924fc9a4b43a2c89aa1dec4271
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51497036"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53088574"
 ---
-# <a name="built-in-service-resiliency-in-microsoft-365"></a>Integrierte Ausfallsicherheit von Dienst in Microsoft 365
+# <a name="built-in-service-resiliency-in-microsoft-365"></a>Integrierte Dienstresilienz in Microsoft 365
 
-Als Ihr Cloud-Zusammenarbeitsanbieter erkennt Microsoft die Notwendigkeit, sich kontinuierlich Ihr Vertrauen zu verdienen, indem es Lösungen anbietet, die konsistent funktionieren und die Ihre Benutzer lieben. Wenn ein dienst nicht verfügbar ist, wird er als Ausfallzeit bezeichnet. Die Definition von Ausfallzeit variiert für jeden Microsoft 365-Dienst, aber sie konzentriert sich in der Regel auf jeden Zeitraum, in dem Benutzer die wesentlichen Funktionen des Dienstes nicht nutzen können. Hier ist beispielsweise die Definition von Ausfallzeit für SharePoint Online, die vom Microsoft 365-SLA (Vereinbarung zum Servicelevel) abgenommen wird:
+Als Ihr Cloud-Zusammenarbeitsanbieter erkennt Microsoft die Notwendigkeit, sich kontinuierlich Ihr Vertrauen zu verdienen, indem es Lösungen anbietet, die konsistent funktionieren und die Ihre Benutzer lieben. Wenn ein bestimmter Dienst nicht verfügbar ist, wird er als Ausfallzeit bezeichnet. Die Definition von Ausfallzeit variiert für jeden Microsoft 365-Dienst, aber sie konzentriert sich in der Regel auf jeden Zeitraum, in dem Benutzer die wesentlichen Funktionen des Dienstes nicht nutzen können. Hier ist beispielsweise die Definition von Ausfallzeit für SharePoint Online, die vom Microsoft 365-SLA (Vereinbarung zum Servicelevel) abgenommen wird:
 
 **"Ausfallzeit von SharePoint Online**: Jeder Zeitraum, in dem Benutzer keine Teile einer SharePoint Online-Websitesammlung lesen oder schreiben können, für die Sie über die entsprechenden Berechtigungen verfügen."
 
@@ -36,17 +36,17 @@ Um die Ausfallzeiten – geplant oder unerwartet – zu minimieren, sind Microso
 
 ## <a name="activeactive-design"></a>Aktiv/Aktiv-Ausführung
 
-In Microsoft 365 werden alle Dienste in einem aktiven/aktiven Design entworfen und betrieben, das die Ausfallsicherheit erhöht. Dieser Entwurf bedeutet, dass immer mehrere Instanzen eines Diensts ausgeführt werden, der auf Benutzeranforderungen reagieren kann und in geografisch verteilten Rechenzentren gehostet wird. Der gesamte Benutzerdatenverkehr wird über den Microsoft Front Door-Dienst durchgeführt. Er wird automatisch an die optimal lokalisierte Instanz des Diensts und zu allen Dienstfehlern geleitet, um die Auswirkungen auf die Kunden zu verhindern oder zu verringern.
+In Microsoft 365 setzen wir darauf, dass alle Dienste in einem aktiven/aktiven Design entwickelt und betrieben werden, das die Resilienz erhöht. Dieses Design bedeutet, dass immer mehrere Instanzen eines Diensts ausgeführt werden, der auf Benutzeranforderungen reagieren kann und in geografisch verteilten Rechenzentren gehostet wird. Der gesamte Benutzerdatenverkehr wird über den Microsoft Front Door-Dienst durchgeführt. Er wird automatisch an die optimal lokalisierte Instanz des Diensts und zu allen Dienstfehlern geleitet, um die Auswirkungen auf die Kunden zu verhindern oder zu verringern.
 
 ## <a name="reduce-incident-scope"></a>Reduzieren des Vorfallumfangs
 
 Der Umfang eines Dienstvorfalls wird anhand des Schweregrads, der Dauer und der Anzahl der Kunden ermittelt. Wir sind bestrebt, den Umfang aller Vorfälle zu begrenzen durch:
 
 - mehrere Instanzen jedes Dienstes voneinander getrennt zu haben
-- die kontrollierte, abgestufte Bereitstellung von Updates mit Hilfe von Validierungsringen, so dass alle Probleme, die sich aus dem Update ergeben könnten, frühzeitig im Bereitstellungsprozess erkannt und behoben werden können. Dieses Design ermöglicht bei Bedarf eine Regression des Updates und tritt zunächst in einer kleinen Gruppe innerhalb von Microsoft (innerer Ring) auf, bevor es für größere Gruppen wie alle 140.000 Microsoft-Mitarbeiter (Ring 2) bereitgestellt wird, dann für Frühe Adopterringe (Ring 3) und schließlich für alle Kunden weltweit (Ring 4).
-- Verbesserungen bei der Überwachung durch Automatisierung. Microsoft 365 ist ein großer Dienst, und die Sla-Ziel-Uptime ist hoch. Am Anfang eines Dienstvorfalls, wenn Menschen an der Erkennung und Reaktion beteiligt sein mussten, konnten wir nicht schnell genug reagieren, um SLAs zu erfüllen. Die Automatisierung ist der Schlüssel für die schnelle und effektive Erkennung und Reaktion von Dienstvorfällen. Je früher wir etwas wissen, desto schneller lässt es sich beheben.
+- die kontrollierte, abgestufte Bereitstellung von Updates mit Hilfe von Validierungsringen, so dass alle Probleme, die sich aus dem Update ergeben könnten, frühzeitig im Bereitstellungsprozess erkannt und behoben werden können. Dieses Design ermöglicht bei Bedarf eine Regression des Updates und tritt zuerst in einer kleinen Gruppe innerhalb von Microsoft (innerer Ring) auf, bevor es für größere Gruppen wie alle 140.000 Microsoft-Mitarbeiter (Ring 2), dann für Early Adopter Ringe (Ring 3) und letztendlich für alle Kunden global (Ring 4) bereitgestellt wird.
+- Verbesserungen bei der Überwachung durch Automatisierung. Microsoft 365 ist ein großer Dienst, und die SLA-Ziel-Betriebszeit ist hoch. Am Anfang eines Dienstvorfalls, wenn Menschen an der Erkennung und Reaktion beteiligt sein mussten, konnten wir nicht schnell genug reagieren, um SLAs zu erfüllen. Die Automatisierung ist der Schlüssel für die schnelle und effektive Erkennung und Reaktion von Dienstvorfällen. Je früher wir etwas wissen, desto schneller lässt es sich beheben.
 
-Zusammen mit den aktiven/aktiven Funktionen, die in die Microsoft 365-Dienstarchitektur integrierten funktionen, verringern diese Bemühungen den Schweregrad, die Dauer und die Anzahl betroffener Kunden während eines Dienstvorfalls.  
+Zusammen mit den aktiven/aktiven Funktionen, die in Microsoft 365 Dienstarchitektur integriert sind, verringern diese Anstrengungen den Schweregrad, die Dauer und die Anzahl der betroffenen Kunden während eines Dienstvorfalls.  
 
 ## <a name="fault-isolation"></a>Fehlerisolation
 
@@ -55,8 +55,8 @@ Fehlerisolationsmaßnahmen werden in mehreren Phasen der Entwicklung und Bereits
 
 Der Microsoft Security Development Lifecycle (SDL) fördert die Resilienz weiter und besteht aus einer Reihe von Praktiken, die Sicherheits-und Compliance-Anforderungen unterstützen. SDL leitet unsere Entwickler in den Aufbau widerstandsfähiger, sicherer und kompatibler Dienste. Zu den Schlüsselelementen von SDL gehören Codeüberprüfungen, Bedrohungsmodellierung, Penetrationstests und standardisierte Prozesse zur Ereignisreaktion in der Microsoft-Cloud.
 
-Microsoft 365-Dienste sind stark miteinander verbunden, aber die systeme und die Technologie, die dahinter stehen, sind so entwickelt, dass die Auswirkungen eines Dienstvorfalls auf andere Dienste beschränkt werden. So hat beispielsweise ein Problem mit Exchange Online keinen Einfluss auf die Kernfunktionalität in Teams, oder ein Problem mit der Suchfunktionalität in SharePoint Online hat keinen Einfluss auf die Fähigkeit der Benutzer, Dateien hoch- oder herunterzuladen.
+Microsoft 365 Dienste sind in hohem Maße miteinander verbunden, aber die systeme und die technologie hinter ihnen sind so konzipiert, dass die Auswirkungen eines Dienstvorfalls durch das Übertragen auf andere Dienste begrenzt werden. Beispielsweise wirkt sich ein Problem, das sich auf Exchange Online auswirkt, nicht auf die Kernfunktionalität in Teams aus, oder ein Problem mit der Suchfunktion in SharePoint Online wirkt sich nicht auf die Möglichkeit der Benutzer aus, Dateien hoch- oder herunterzuladen.
 
 ## <a name="continuous-service-improvement"></a>Kontinuierliche Serviceverbesserung
 
-Wenn wir einen Vorfall erleben, nehmen wir ihn ernst. Denn unsere redundante Cloud-Architektur und strenge interne Prozesse zielen darauf ab, unsere Dienste barrierefrei zu halten. Während eines Vorfalls erkennt unsere Überwachung schnell die betroffenen Dienste, und wenn Ihr Mandant betroffen ist, werden Sie sofort über verschiedene Kanäle benachrichtigt. Gleichzeitig folgen Entwickler genau definierten Prozessen, um das Problem zu analysieren, und führen die erforderlichen Schritte aus, um den normalen Betrieb so schnell wie möglich wiederherzustellen. Sobald der Dienst ordnungsgemäß funktioniert, führen wir im Rahmen des Zyklus der kontinuierlichen Serviceverbesserung Post Incident Reviews durch. Während der Post Incident Review identifizieren wir die eigentlichen Ursachen des Vorfalls und was zur Behebung der Probleme erforderlich war. Anschließend nehmen wir das, was aus der Situation gelernt wurde, und wenden es auf die Entwicklung und den Betrieb aller unserer Angebotspakete an. Mit diesem Wissen können wir verhindern, dass sich die gleiche Ursache auf andere Dienste und zusätzliche Kunden auswirken kann.
+Wenn wir einen Vorfall erleben, nehmen wir ihn ernst. Denn unsere redundante Cloud-Architektur und strenge interne Prozesse zielen darauf ab, unsere Dienste barrierefrei zu halten. Während eines Vorfalls erkennt unsere Überwachung schnell die betroffenen Dienste, und wenn Ihr Mandant betroffen ist, werden Sie sofort über verschiedene Kanäle benachrichtigt. Gleichzeitig folgen Entwickler genau definierten Prozessen, um das Problem zu analysieren, und führen die erforderlichen Schritte aus, um den normalen Betrieb so schnell wie möglich wiederherzustellen. Sobald der Dienst ordnungsgemäß funktioniert, führen wir im Rahmen des Zyklus der kontinuierlichen Serviceverbesserung Post Incident Reviews durch. Während der Post Incident Review identifizieren wir die eigentlichen Ursachen des Vorfalls und was zur Behebung der Probleme erforderlich war. Anschließend nehmen wir das, was aus der Situation gelernt wurde, und wenden es auf die Entwicklung und den Betrieb aller unserer Angebotspakete an. Mit diesem Wissen können wir verhindern, dass sich dieselbe Ursache auf andere Dienste und zusätzliche Kunden auswirkt.

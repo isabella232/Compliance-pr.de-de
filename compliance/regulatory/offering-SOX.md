@@ -1,6 +1,6 @@
 ---
 title: Sarbanes-Oxley Act von 2002 (SOX)
-description: Finanz Dienstleistungsunternehmen können Microsoft-Konformitätsberichte verwenden, um ihre Einhaltung des Sarbanes-Oxley Act zu beheben.
+description: Finanzdienstleistungsunternehmen können Microsoft-Complianceberichte verwenden, um ihre Compliance mit dem Sarbanes-Oxley Act zu adressieren.
 keywords: Microsoft 365, Compliance, Angebote
 localization_priority: None
 ms.prod: microsoft-365-enterprise
@@ -16,46 +16,46 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6e5a4f133ba996b809d879e114733a31c29ff83b
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 3720eb98ee6f903d59316500ffe008398f388bf0
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49509345"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089789"
 ---
 # <a name="sarbanes-oxley-act-of-2002-sox"></a>Sarbanes-Oxley Act von 2002 (SOX)
 
-## <a name="sox-overview"></a>Übersicht über Sox
+## <a name="sox-overview"></a>SOX-Übersicht
 
-Das Sarbanes-Oxley Act von 2002 ist ein US-Bundesgesetz, das von der Securities and Exchange Commission (sec) verwaltet wird. Unter anderen Direktiven erfordert Sox, dass öffentlich gehandelte Unternehmen über geeignete interne Kontrollstrukturen verfügen, um zu überprüfen, ob Ihre Abschlüsse ihre finanziellen Ergebnisse genau widerspiegeln.
+The Sarbanes-Oxley Act of 2002 is a US federal law administered by the Securities and Exchange Commission (SEC). Neben anderen Direktiven erfordert SOX, dass öffentlich handelnde Unternehmen über ordnungsgemäße interne Kontrollstrukturen verfügen, um zu überprüfen, ob ihre Finanzberichte ihre Finanzergebnisse korrekt widerspiegeln.
 
-Die SEC definiert oder erlegt keinen Sox-Zertifizierungsprozess auf. Stattdessen werden umfassende Richtlinien für die von ihr regulierten Unternehmen bereitgestellt, um zu bestimmen, wie die Anforderungen an die SOX-Berichterstattung eingehaltenwerden.
+Die SEC definiert oder erzwingt keinen SOX-Zertifizierungsprozess. Stattdessen enthält es allgemeine Richtlinien für die Unternehmen, die es reguliert, um zu bestimmen, wie die SOX-Berichtsanforderungen erfüllt werden.
 
 ## <a name="microsoft-and-sox"></a>Microsoft und SOX
 
-Kunden von Microsoft Cloud Services, die der Einhaltung des Sarbanes-Oxley Act (SOX) unterliegen, können die SoC 1 Type 2-Bescheinigung verwenden, die Microsoft bei der Behandlung ihrer eigenen SOX-Compliance-Verpflichtungen von einer unabhängigen Wirtschaftsprüfungsfirma erhalten hat. Diese Bescheinigung eignet sich für die Berichterstellung über interne Kontrollen der Finanzberichterstattung.
+Microsoft Cloud Services-Kunden, die der Einhaltung des Sarbanes-Oxley Act (SOX) unterliegen, können den SOC 1 Typ 2-Nachweis verwenden, den Microsoft von einer unabhängigen Überwachungsgesellschaft erhalten hat, wenn sie ihre eigenen SOX-Complianceverpflichtungen erfüllen. Dieser Nachweis ist für die Berichterstattung über interne Kontrollen der Finanzberichterstattung geeignet.
 
-Obwohl es keine Sox-Zertifizierung oder-Validierung für Cloud-Dienstanbieter gibt, kann Microsoft Kunden bei der Erfüllung ihrer Sox-Verpflichtungen unterstützen. Sox erfordert beispielsweise interne Steuerelemente für die Vorbereitung und Überprüfung von Finanz Auszügen, insbesondere Steuerelemente, die sich auf die Genauigkeit, Vollständigkeit, Effektivität und öffentliche Offenlegung von wesentlichen Änderungen im Zusammenhang mit der Finanzberichterstattung auswirken. Um Unternehmen zu unterstützen, verwaltet Microsoft eine Zertifizierung für SOC 1 Typ 2, die für die Berichterstellung über derartige Steuerelemente in einem breiten Portfolio von Diensten geeignet ist, die zum Erstellen einer Vielzahl von Anwendungen verwendet werden können. Es basiert auf dem American Institute of Certified Public Buchhalter (AICPA) Statement on Standards for Beglaubigung Engagements 18 (SSAE 18) und dem internationalen Standard für Assurance Engagements No. 3402 (ISAE 3402). (Diese Bescheinigung ersetzte SAS 70.)
+Obwohl es keine SOX-Zertifizierung oder -Validierung für Clouddienstanbieter gibt, kann Microsoft Kunden dabei helfen, ihre SOX-Verpflichtungen zu erfüllen. SoX erfordert beispielsweise interne Kontrollen für die Vorbereitung und Überprüfung von Rechnungen, insbesondere Kontrollen, die sich auf die Genauigkeit, Vollständigkeit, Effektivität und Veröffentlichung von wesentlichen Änderungen im Zusammenhang mit der Finanzberichterstattung auswirken. Um Unternehmen zu helfen, verwaltet Microsoft einen SOC 1 Type 2-Nachweis, der für die Berichterstattung über solche Steuerelemente in einem breiten Portfolio von Diensten geeignet ist, die zum Erstellen einer vielzahl von Anwendungen verwendet werden können. Sie basiert auf der Erklärung des American Institute of Certified Public Accountings (AICPA) zu Standards for Attestation Engagements 18 (SSAE 18) und dem International Standard on Assurance Engagements No. 3402 (ISAE 3402). (Dieser Nachweis ersetzt SAS 70.)
 
-Der von einer Wirtschaftsprüfungsfirma eines Drittanbieters erstellte Überwachungsbericht bescheinigt, dass Microsoft-Steuerelemente an einem angegebenen Datum ordnungsgemäß entworfen wurden und innerhalb eines bestimmten Zeitraums effektiv arbeiten. Kunden können die Berichte überprüfen, um sich über die Microsoft-Steuerelement Ziele und die Effektivität seiner Steuerelemente zu informieren und Zugriff auf ergänzende Steuerelemente zu erhalten.
+Der von einem drittanbieterweiten Überwachungsunternehmen erstellte Prüfbericht bestätigt, dass Microsoft-Kontrollen ordnungsgemäß entworfen wurden, an einem bestimmten Datum ausgeführt wurden und über einen bestimmten Zeitraum effektiv funktionieren. Kunden können die Berichte überprüfen, um mehr über die Kontrollziele von Microsoft und die Effektivität der Kontrollen zu erfahren und Zugriff auf ergänzende Steuerelemente zu erhalten.
 
-Um Azure-Clients weiter bei der Behandlung ihrer Sox-Verpflichtungen zu unterstützen, hat Microsoft [Azure Guidance für Sarbanes-Oxley](https://aka.ms/Azure-SOX-Guide)veröffentlicht. Dieses Whitepaper enthält bewährte Methoden für die Migration, einschließlich der Auswirkungen der Einhaltung von SOX, und stützt sich auf die interne Erfahrung, die SOX-relevante Anwendungen – Microsoft Treasury und Microsoft Finance – in Azure migriert.
+Um Azure-Clients bei der Erfüllung ihrer SOX-Verpflichtungen weiter zu unterstützen, hat Microsoft [Azure Guidance für Sarbanes-Oxley](https://aka.ms/Azure-SOX-Guide)veröffentlicht. Dieses Dokument enthält bewährte Methoden für die Migration, einschließlich der Auswirkungen der Einhaltung von SOX, und basiert auf internen Erfahrungen bei der Migration von SOX-relevanten Anwendungen – Microsoft Treasury und Microsoft Finance – nach Azure.
 
-Bei Microsoft teilen wir die Verantwortung für die Einhaltung unserer Kunden. Wir liefern die Besonderheiten unserer Compliance-Programme, die Sie überprüfen können, indem Sie detaillierte Überwachungsergebnisse von den zertifizierenden Drittanbietern anfordern. Letztlich liegt es jedoch an Ihnen, festzustellen, ob unsere Dienste den spezifischen Gesetzen und Bestimmungen entsprechen, die für Ihr Unternehmen gelten. Beispielsweise gibt es Sox-bezogene Sicherheitssteuerelemente wie Benutzer Zugriff auf Cloud-Ressourcen, die in ihrer Verantwortung liegen: Ihre Organisation muss eine entsprechende Überwachung dieser Steuerelemente im Rahmen der SOX-Konformität entwickeln.
+Bei Microsoft teilen wir die Verantwortung für die Compliance mit unseren Kunden. Wir stellen die Einzelheiten zu unseren Complianceprogrammen zur Verfügung, die Sie überprüfen können, indem Sie detaillierte Auditergebnisse von den zertifizierenden Drittanbietern anfordern. Letztendlich liegt es jedoch an Ihnen, zu bestimmen, ob unsere Dienste den spezifischen Gesetzen und Bestimmungen entsprechen, die für Ihr Unternehmen gelten. Es gibt beispielsweise SOX-bezogene Sicherheitskontrollen, z. B. den Benutzerzugriff auf Cloudressourcen, die In Ihre Verantwortung fallen: Ihre Organisation muss im Rahmen Ihrer SOX-Compliance eine geeignete Überwachung dieser Steuerelemente entwickeln.
 
-Erfahren Sie mehr über die Verwendung von Microsoft Azure Kompatibilitätsberichten bei der Erfüllung ihrer SOX-Compliance-Verpflichtungen: [Laden Sie die Azure-Anleitung für Sarbanes-Oxley herunter](https://aka.ms/Azure-SOX-Guide) .
+Erfahren Sie mehr darüber, wie Sie Microsoft Azure Complianceberichte verwenden, wenn Sie Ihre SOX-Complianceverpflichtungen erfüllen: [Laden Sie die Azure-Anleitung für Sarbanes-Oxley herunter.](https://aka.ms/Azure-SOX-Guide)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft Cloud Services im Leistungsumfang
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft-Clouddienste im Leistungsumfang
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
 - [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- Power BI-Clouddienst entweder als eigenständiger Dienst oder als Bestandteil eines Office 365 Markenplans oder einer Office 365 Suite
+- Power BI-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365-Plan bzw. einer -Anwendungssuite enthalten
 
 ## <a name="audits-reports-and-certificates"></a>Prüfungen, Berichte und Zertifikate
 
-[SOC 1 Typ 2](offering-SOC.md) Berichte für:
+[SOC 1 Typ 2-Berichte](offering-SOC.md) für:
 
 - Azure und Power BI
 - Dynamics 365
@@ -63,13 +63,13 @@ Erfahren Sie mehr über die Verwendung von Microsoft Azure Kompatibilitätsberic
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
-**Wie kann ich die Microsoft SOX-Konformität verwenden, um den Compliance-Prozess meines Unternehmens zu vereinfachen?**
+**Wie kann ich Microsoft SOX Compliance verwenden, um den Complianceprozess meiner Organisation zu vereinfachen?**
 
-Wenn Sie Ihre Anwendungen und Daten zu abgedeckten Microsoft Cloud-Diensten migrieren, können Sie auf den Bescheinigungen und Zertifizierungen aufbauen, die von Microsoft verwaltet werden. Unabhängige Prüfer Berichte bestätigen die Effektivität von Steuerelementen, die von Microsoft implementiert wurden, um die Sicherheit und den Datenschutz Ihrer Daten zu gewährleisten. Sie sind jedoch vollständig dafür verantwortlich, dass die Einhaltung aller geltenden Gesetze und Vorschriften in Ihrer Organisation gewährleistet ist.
+Wenn Sie Ihre Anwendungen und Daten zu abgedeckten Microsoft-Clouddiensten migrieren, können Sie auf den Von Microsoft gespeicherten Attestationen und Zertifizierungen aufbauen. Unabhängige Prüferberichte belegen die Effektivität von Kontrollen, die Microsoft implementiert hat, um die Sicherheit und den Datenschutz Ihrer Daten zu gewährleisten. Sie sind jedoch uneingeschränkt dafür verantwortlich, die Einhaltung aller geltenden Gesetze und Bestimmungen durch Ihre Organisation sicherzustellen.
 
 ## <a name="resources"></a>Ressourcen
 
-- [Azure-Anleitung für Sarbanes-Oxley](https://aka.ms/Azure-SOX-Guide)
+- [Azure-Leitfaden für Sarbanes-Oxley](https://aka.ms/Azure-SOX-Guide)
 - [Microsoft Compliance-Programm für Finanzdienstleiter](https://www.microsoft.com/download/details.aspx?id=55332)
 - [Financial Services Compliance in Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
 - [Microsoft-Clouddienste für Unternehmen und Finanzdienstleistungen](https://www.microsoft.com/trustcenter/cloudservices/financialservices)

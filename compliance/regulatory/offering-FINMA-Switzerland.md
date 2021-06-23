@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 9aca1e5019967db6f73de245cd75ceba88e62e64
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 1b391d3f3cd748047e24bf9e82d3c267ca7425a7
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120874"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089548"
 ---
 # <a name="financial-market-supervisory-authority-finma-switzerland"></a>Finanzmarktaufsichtsbehörde (FINMA) Schweiz
 
@@ -29,7 +29,7 @@ ms.locfileid: "50120874"
 
 Die [Finanzmarktaufsichtsbehörde](https://www.finma.ch/en) ([Eidgenössische Finanzmarktaufsicht](https://www.finma.ch/de/), FINMA) ist die Aufsichtsbehörde der unabhängigen Finanzmärkte in der Schweiz und trägt dafür Sorge, dass die schweizerischen Finanzmärkte effektiv funktionieren. Sie ist für die Beaufsichtigung von Banken, Versicherungsgesellschaften, Börsen, Aktienhändlern und anderen Finanzinstituten verantwortlich.
 
-Die FINMA hat das [Rundschreiben 2018/3 „Outsourcing – Banken und Versicherer“](https://www.finma.ch/en/~/media/finma/dokumente/rundschreiben-archiv/2018/rs-18-03/finma-rs-2018-03---20170921.pdf?la=en) veröffentlicht, in dem die Anforderungen festgelegt sind, die von Banken, Effektenhändlern und Versicherungen erfüllt werden müssen, wenn sie für die Geschäftsaktivitäten des Unternehmens wichtige Funktionen an einen Dienstanbieter auslagern. Jedes Unternehmen, das seine geschäftlichen Aktivitäten auslagert, ist der FINMA gegenüber in gleichem Maße rechenschaftspflichtig, als würde es die ausgelagerten Tätigkeiten selbst durchführen.
+Die FINMA hat das [Rundschreiben 2018/3 „Outsourcing – Banken und Versicherer“](https://www.finma.ch/en/~/media/finma/dokumente/rundschreiben-archiv/2018/rs-18-03/finma-rs-2018-03---20170921.pdf?la=en) veröffentlicht, in dem die Anforderungen festgelegt sind, die von Banken, Wertpapierhändlern und Versicherungen erfüllt werden müssen, wenn sie für die Geschäftsaktivitäten des Unternehmens wichtige Funktionen an einen Dienstanbieter auslagern. Jedes Unternehmen, das seine geschäftlichen Aktivitäten auslagert, ist der FINMA gegenüber in gleichem Maße rechenschaftspflichtig, als würde es die ausgelagerten Tätigkeiten selbst durchführen.
 
 ## <a name="microsoft-and-finma"></a>Microsoft und die FINMA
 
@@ -60,7 +60,7 @@ Die Microsoft-Checkliste unterstützt Schweizerische Finanzunternehmen bei der D
 
 Nein. Die Nutzung von Public Cloud Computing ist ohne Zustimmung der FINMA zulässig. Sie unterliegt jedoch immer der Einhaltung der Anforderungen, die in den oben aufgeführten Bestimmungen und Richtlinien festgelegt sind.
 
-**Gibt es verbindliche Bedingungen, die in den Vertrag mit dem Clouddienstanbieter aufgenommen werden müssen?**
+**Gibt es verbindliche Bedingungen, die in den Vertrag mit dem Cloud-Dienstanbieter aufgenommen werden müssen?**
 
 Ja. In Teil 2 der Compliance-Prüfliste sind diese Bedingungen sowie die Abschnitte in den Microsoft-Vertragsdokumenten angeführt, wo sie behandelt werden. Darüber hinaus stellt der Eidgenössische Datenschutz- und Öffentlichkeitsbeauftragte (EDÖB) einen Mustervertrag für das grenzüberschreitende Outsourcing der Datenverarbeitung bereit. Dieser entspricht den Standardvertragsklauseln (auch bekannt als [EU-Modellklauseln](offering-EU-Model-Clauses.md)) in den [Nutzungsbedingunden für Microsoft-Onlinedienste](https://aka.ms/Online-Services-Terms).
 

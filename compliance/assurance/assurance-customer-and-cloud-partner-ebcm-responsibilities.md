@@ -17,12 +17,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 74bdf63fcf704aa285a2803e5b7af7455a0291c6
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: 1133c5467553eb5d158230c2d6e599187e507822
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51497654"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53088664"
 ---
 # <a name="enterprise-business-continuity-management-customer-and-cloud-partner-responsibilities"></a>Verantwortlichkeiten von Kunden und Cloud-Partnern im Rahmen der Steuerung der Geschäftskontinuität 
 
@@ -73,13 +73,13 @@ Ziehen Sie Ereignisse, die Auswirkungen auf Ihre Belegschaft haben können, wie 
 ### <a name="location"></a>Ort
 
 Viele Unternehmen fordern von Ihren Mitarbeitern deren Anwesenheit an bestimmten physischen Orten oder Netzwerkstandorten, um sich mit Systemen des Unternehmens und Cloud-Diensten zu verbinden.  
-Microsoft veröffentlicht [Grundsätze zur Netzwerkkonnektivität](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles), die Unternehmen anhand von bewährten Methoden beim Einrichten der Netzwerkkonnektivität für Cloud-Ressourcen anleiten. Optimierungsbeispiele umfassen die Implementierung von gesplitteten Tunnel-VPN, um Verbindungen direkt vom Netzwerk eines Benutzers statt über einen VPN-Tunnel zu ermöglichen.  Obwohl diese Grundsätze zur Konnektivität für das Aufrechterhalten von Verbindungen mit geringer Latenz wichtig sind, erfordert die Sicherstellung der Dienstverfügbarkeit alternative Methoden der Anbindung von Unternehmensressourcen, die der allgemeinen Zusammenarbeit dienen.
+Microsoft veröffentlicht [Grundsätze zur Netzwerkkonnektivität](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles), die Unternehmen anhand von bewährten Methoden beim Einrichten der Netzwerkkonnektivität für Cloud-Ressourcen anleiten. Beispiele für die Optimierung sind die Implementierung von VPNs für geteilte Tunnel, um Verbindungen direkt aus dem Netzwerk eines Benutzers statt über einen VPN-Tunnel zuzulassen.  Obwohl diese Grundsätze zur Konnektivität für das Aufrechterhalten von Verbindungen mit geringer Latenz wichtig sind, erfordert die Sicherstellung der Dienstverfügbarkeit alternative Methoden der Anbindung von Unternehmensressourcen, die der allgemeinen Zusammenarbeit dienen.
 
 ### <a name="systems"></a>Systeme
 
 Zahlreiche Lösungen zur Zusammenarbeit sind systemabhängig, wie z. B.von einem unternehmensweiten Netzwerk (WAN). Wie würde Ihre Organisation reagieren, wenn diese Systeme nicht verfügbar sind?
 Diese Grafik bildet Probleme ab, die sich auf mehr als einen Bereich auswirken können. Die zugehörige Tabelle enthält zu berücksichtigende Beispiele
 
-![Venn-Diagramm der Systeme](../media/venn-diagram.png)
+![Venn-Diagramm von Systemen](../media/venn-diagram.png)
 
 Ihre Pläne zur Unternehmenskontinuität sollten jeden dieser Bereiche berücksichtigen. Zum Beispiel: Wenn Sie fordern, dass sich Benutzer im Unternehmensnetzwerk befinden und es kommt zu einem Schneesturm, wie erhalten diese Benutzer Zugriff auf die wichtigsten Ressourcen? Wenn der Schnee die Anreise in das Büro verhindert und Servicetechniker die Verbindung zum Unternehmensnetzwerk herstellen müssen, gibt es dann eine Richtlinie, die vorschreibt, dass sie die unternehmenseigenen Laptops zu Hause in Ihrem Besitz haben müssen?

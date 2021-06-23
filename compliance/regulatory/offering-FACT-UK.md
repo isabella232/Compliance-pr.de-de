@@ -1,6 +1,6 @@
 ---
-title: Partnerverbund gegen Copyright Diebstahl (Fakt)
-description: Microsoft Azure wurde die Zertifizierung aus dem Verbund gegen Copyright Theft in Großbritannien erreicht.
+title: Federation Against Copyright Theft (FACT)
+description: Microsoft Azure eine Zertifizierung vom "Federation Against Copyright Theft" in Großbritannien erhalten.
 keywords: Microsoft 365, Compliance, Angebote
 localization_priority: None
 ms.prod: microsoft-365-enterprise
@@ -16,46 +16,46 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 82d3672bd8d07f99bfd741d7a8bac74b24300e21
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 10e96993f6e063ccdf0a7f23fc188a37f422adca
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49509606"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089064"
 ---
-# <a name="federation-against-copyright-theft-fact"></a>Partnerverbund gegen Copyright Diebstahl (Fakt)
+# <a name="federation-against-copyright-theft-fact"></a>Federation Against Copyright Theft (FACT)
 
-## <a name="fact-overview"></a>Faktenübersicht
+## <a name="fact-overview"></a>FACT-Übersicht
 
-Urheberrechtlich geschützte Inhalte gibt es in vielen Formen, Bildern, Videos, Musik, Verträgen, Skripts, Workflows, Kunst, Architektur und mehr und stellt die Kernressourcen vieler Unternehmen dar. Piraterie droht, die Existenz dieser Unternehmen durch die unrechtmäßige Verteilung von geistigem Eigentum auf illegalen Gewinn oder Markt Unterbrechungen zu untergraben. Da Produktions-und Post-Production-Workflows zunehmend in die Cloud wechseln, bewegt sich der Schwarzmarkt für geistiges Eigentum ähnlich wie die physischen Medien in Richtung Online-Mechanismen.
+Urheberrechtlich geschützte Inhalte werden in vielen Formen, Bildern, Videos, Musik, Verträgen, Skripts, Workflows, Grafiken, Architekturen und vielem mehr präsentiert und stellen die wichtigsten Ressourcen vieler Unternehmen dar. Die Piraterie gefährdet das Vorhandensein dieser Unternehmen durch die unrechtmäßige Verteilung des geistigen Eigentums für unrechtmäßigen Gewinn oder Marktunterbrechungen. Da Produktions- und Nachproduktionsworkflows zunehmend in die Cloud verschoben werden, bewegt sich der Schwarzmarkt für geistiges Eigentum auf ähnliche Weise von physischen Medien hin zu Onlinemechanismen.
 
-## <a name="microsoft-and-federation-against-copyright-theft-fact"></a>Microsoft und Federation gegen Copyright Theft (Fakt)
+## <a name="microsoft-and-federation-against-copyright-theft-fact"></a>Microsoft und Federation against Copyright Theft (FACT)
 
-Um die Verpflichtung von Microsoft zum Schutz von Kunden zu unterstreichen, wenn diese diese Objekte der öffentlichen Cloud anvertrauen, wurde Microsoft Azure von der Föderation gegen Copyright Theft (Fact) im Vereinigten Königreich zertifiziert. Die Fakten Zertifizierung basiert auf der ISO 27001, wobei der Schwerpunkt auf der physischen und digitalen Sicherheit, dem Personal Screening und der Schulung sowie der Zugriffssteuerung liegt. Das Fact Content Protection and Security-Programm umfasst Fachwissen für Strafverfolgungsbehörden, Technologiepartner und Branchenverbände zur Bekämpfung von Urheberrechtsverletzungen und Inhalts Diebstahl wie Peer-to-Peer-Freigabe, illegaler Datenträgerduplizierung und Signal Diebstahl.
+Um die Verpflichtung von Microsoft zu unterstreichen, Kunden zu schützen, wenn sie solche Ressourcen in die öffentliche Cloud übertragen, wurde Microsoft Azure vom Federation Against Copyright Theft (FACT) im Vereinigten Königreich zertifiziert. Die FACT-Zertifizierung basiert auf ISO 27001 und konzentriert sich auf physische und digitale Sicherheit, Mitarbeiterscreening und -schulung sowie Zugriffssteuerung. Das FACT-Programm zum Schutz und zur Sicherheit von Inhalten umfasst Kompetenzen von Strafverfolgungsbehörden, Technologiepartnern und Branchenorganisationen, um Urheberrechtsverletzungen und Inhaltsdiebstahl zu bekämpfen, z. B. Peer-to-Peer-Freigabe, unzulässige Discduplizierung und Signaldiebstahl.
 
-Basierend auf der freiwilligen Übermittlung durch Microsoft an eine Fact Audit, die Tatsache, Auditor Certified Azure. Azure war der erste öffentliche clouddienst mit mehreren Mandanten, um eine Fakt-Zertifizierung zu erreichen, und fügte Azures Portfolio von medienbezogenen Zertifizierungen hinzu, einschließlich der CDSA-Zertifizierung und einer formellen Bewertung durch die MPAA.
+Basierend auf der freiwilligen Übermittlung von Microsoft an eine FACT-Prüfung hat der FACT-Prüfer Azure zertifiziert. Azure war der erste mehrinstanzenfähige öffentliche Clouddienst, der eine FACT-Zertifizierung erhielt und das Azure-Portfolio medienbezogener Zertifizierungen, einschließlich cdsa-Zertifizierung und einer formalen Bewertung durch die MPAA, hinzufügte.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Eingeschlossene Microsoft-Clouddienste
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft-Clouddienste im Leistungsumfang
 
 [Azure und Azure Government](https://aka.ms/AzureCompliance)
 
 ## <a name="audits-reports-and-certificates"></a>Prüfungen, Berichte und Zertifikate
 
-Die Azure-Zertifizierung wird jährlich erneuert: [Azure Fact Certificate](https://aka.ms/azurefactcert)
+Die Azure-Zertifizierung wird jährlich verlängert: [Azure FACT-Zertifikat](https://aka.ms/azurefactcert)
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
-**Warum ist die Tatsache wichtig?**
+**Warum ist FACT wichtig?**
 
-Die Inhaltssicherheit ist für die Entwicklung von Feature-und Fernsehfilmen entscheidend, da es mehrere Punkte entlang des Workflows gibt, in denen digitale Objekte kompromittiert oder gestohlen werden können. Tageszeitungen, grobe Schnitte und visuelle Effekte sind nur einige der Materialien, die während eines normalen Film Produktionszyklus verfügbar gemacht werden, und die Auswirkungen auf die Box-Offices einer Sicherheitsverletzung eines Blockbuster-Projekts können zehn Millionen Dollar erreichen. Durch die Übergabe des Fact Audits stellt Azure eine weitere Schicht der Sicherheit für Kunden bereit, indem es hilft, die illegale Verteilung und den Verkauf von Filmen und Fernsehanlagen zu verhindern.
+Die Inhaltssicherheit ist für die Entwicklung von Feature- und Fernsehgeräten wichtig, da es mehrere Punkte entlang des Workflows gibt, in denen digitale Objekte kompromittiert oder gestohlen werden können. Dailies, grobe Schnitte und visuelle Effekte sind nur einige der Materialien, die während eines normalen Filmproduktionszyklus verfügbar gemacht werden, und die Auswirkungen einer Sicherheitsverletzung auf ein Blockbusterprojekt können mehrere zehn Millionen Dollar erreichen. Durch die Übergabe der FACT-Prüfung bietet Azure eine weitere Sicherheitsebene für Kunden, indem es dazu beiträgt, die unzulässige Verteilung und den Verkauf von Film- und Fernsehressourcen zu verhindern.
 
-**Muss meine Organisation noch eine Faktenüberprüfung durchlaufen oder können wir die Azure-Überwachung verwenden?**
+**Muss meine Organisation noch einer FACT-Prüfung unterzogen werden, oder können wir die Azure-Prüfung verwenden?**
 
-Die Einhaltung ist zwar freiwillig, Microsoft hat sich jedoch für eine unabhängige Bewertung entschieden, sodass die Medien Kunden in Bezug auf die Inhaltssicherheit und Schutzfunktionen von Azure zuversichtlich sein können. Die einzelnen Cloud-Umgebungen von Kunden werden jedoch nicht von Azure verwaltet und können daher einer zusätzlichen Regulierung unterliegen, die am besten durch eine einzelne Überwachung behoben werden kann.
+Die Compliance mit FACT ist zwar ein selbstfreier Vorgang, aber Microsoft hat sich dafür entschieden, eine unabhängige Bewertung durchzuführen, damit Medienkunden auf die Funktionen für Inhaltssicherheit und -schutz von Azure vertrauen können. Die einzelnen Cloudumgebungen der Kunden werden jedoch nicht von Azure verwaltet und unterliegen daher möglicherweise zusätzlichen Bestimmungen, die am besten durch eine einzelne Prüfung berücksichtigt werden können.
 
 ## <a name="resources"></a>Ressourcen
 
-- Partnerverbund gegen Copyright Diebstahl
+- Partnerverbund gegen Diebstahl von Urheberrechten
 - [Fact Security-Zertifizierungsprogramm](https://go.microsoft.com/fwlink/?linkid=2099508)
 - [CDSA-Zertifizierung von Azure Media Services](https://aka.ms/cdsa-cert)
 - [Azure ISO 27001-Zertifizierung](https://aka.ms/Azure-BSI-Cert)

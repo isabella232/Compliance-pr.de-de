@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a0e643e768d8570f1c65f19e2eec1b84bce5701a
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 55f600c7b1fa5f4573c389ca2c5fc5f3b827bb10
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120374"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089528"
 ---
 # <a name="financial-supervisory-authority-fsa-denmark"></a>Finanzaufsichtsbehörde (FSA) Dänemark
 
@@ -29,7 +29,7 @@ ms.locfileid: "50120374"
 
 Die [Finanzaufsichtsbehörde](https://www.dfsa.dk/) ([Finanstilsynet](https://www.finanstilsynet.dk/)) wird im Rahmen des Ministeriums für Industrie, Wirtschaft und Finanzen als Finanzaufsichtsbehörde der dänischen Regierung ausgeschrieben. Ihre Hauptaufgabe besteht darin, regulatorische Leitlinien für Finanzinstitute in Dänemark auszuarbeiten und deren Einhaltung zu überwachen sowie mit regionalen und internationalen Behörden und Regulierungsbehörden zusammenzuarbeiten.
 
-Die FSA handelt in Abstimmung mit der Europäischen Bankaufsichtsbehörde (EBA), die „eine unabhängige Behörde ist, die sich für eine wirksame und kohärente aufsichtsrechtliche Regulierung und Aufsicht im gesamten EU-Bankensektor einsetzt“. Zu diesem Zweck veröffentlichte die EBA ihre [Empfehlungen zum Outsourcing ab Cloud-Dienstanbieter](https://eba.europa.eu/documents/10180/2170121/Final+draft+Recommendations+on+Cloud+Outsourcing+%28EBA-Rec-2017-03%29.pdf/5fa5cdde-3219-4e95-946d-0c0d05494362), die einen umfassenden Ansatz für das Cloud Computing durch Finanzinstitute in der EU vorgaben.
+Die FSA agiert in Abstimmung mit der Europäischen Bankaufsichtsbehörde (EBA), einer „unabhängigen EU Behörde, die sich für eine wirksame und kohärente aufsichtsrechtliche Regulierung und Aufsicht im gesamten EU-Bankensektor einsetzt“. Zu diesem Zweck veröffentlichte die EBA ihre [Empfehlungen zum Outsourcing ab Cloud-Dienstanbieter](https://eba.europa.eu/documents/10180/2170121/Final+draft+Recommendations+on+Cloud+Outsourcing+%28EBA-Rec-2017-03%29.pdf/5fa5cdde-3219-4e95-946d-0c0d05494362), die einen umfassenden Ansatz für das Cloud Computing durch Finanzinstitute in der EU vorgaben.
 
 Es gibt mehrere Richtlinien, die Finanzinstitute in Dänemark beachten sollten, wenn sie ihre Geschäftsfunktionen in die Cloud verlagern. Im Allgemeinen schreiben sie vertragliche Anforderungen sowohl für Finanzinstitute als auch für Cloud-Dienstanbieter vor, um sicherzustellen, dass Finanzorganisationen die ausgelagerten Funktionen angemessen überwachen und prüfen können. Dazu gehören die Richtlinien des Ministeriums für Industrie, Handel und Finanzen:
 

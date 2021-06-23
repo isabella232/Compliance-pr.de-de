@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e93f71a023fe79e768e96b3c8894bf09d0655b6e
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: d8ffd78c4d762d72310e3ac5b200d422b0af26cf
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506893"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089759"
 ---
 # <a name="good-clinical-laboratory-and-manufacturing-practices-gxp"></a>Good Clinical, Laboratory, and Manufacturing Practices (GxP)
 
@@ -55,7 +55,7 @@ Life Sciences-Organisationen, die GxP-Lösungen auf Azure und Office 365 entwick
 ## <a name="how-to-implement"></a>Implementierung
 
 - [Microsoft 365 GxP-Richtlinien](../downloads/microsoft-365-gxp-guidelines-july-2020.pdf): Ein Whitepaper für die Nutzung von Microsoft 365 unter Einhaltung der GxP Best Practices und Bestimmungen.
-- [Microsoft Dynamics 365 GxP-Richtlinien](../downloads/microsoft-dynamics-365-gxp-guidelines-july-2020.pdf): Ein Whitepaper für die Nutzung von Microsoft Dynamics 365 unter Einhaltung der GxP Best Practices und Bestimmungen.
+- [Microsoft Dynamics 365 GxP-Richtlinien](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=fb579b09-0874-4197-a97e-a25992383482&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_Compliance_Guides): Ein Whitepaper für die Nutzung von Microsoft Dynamics 365 unter Einhaltung der GxP Best Practices und Bestimmungen.
 - [Azure GxP-Richtlinien](https://aka.ms/gxpcompliance): Ein umfassendes Toolset für die Nutzung von Azure unter Einhaltung der GxP Best Practices und Bestimmungen.
 - [Verwenden von Azure mit GxP-Systemen](https://aka.ms/GXP-Azure-Strategies): Unterstützen von Life Sciences-Organisationen bei der Entwicklung einer Strategie zur Erstellung von GxP-Anwendungen.
 - FDA CFR Title 21 Part 11 Guides: Erhalten Sie Unterstützung beim Erstellen einer Qualifizierungsstrategie für [Azure](https://aka.ms/Azure-FDA-Guidelines) und [Office 365](https://aka.ms/o365-qualification-guideline), die den FDA-Richtlinien für elektronische Datensätze entspricht.

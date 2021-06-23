@@ -1,6 +1,6 @@
 ---
-title: US DOE 10 CFR Part 810
-description: Kunden, die den Export Kontrollanforderungen von US DOE 10 CFR Part 810 unterliegen, können Azure Government verwenden.
+title: US DoE 10 CFR Part 810
+description: Kunden, die den Exportkontrollanforderungen von US DoE 10 CFR Part 810 unterliegen, können Azure Government verwenden.
 keywords: Microsoft 365, Compliance, Angebote
 localization_priority: None
 ms.prod: microsoft-365-enterprise
@@ -16,56 +16,56 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a09f4f6df73ef09dbbce26afd91704181886dd01
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 1a16495f5cfe3e293910ebe84e6af566aea17621
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49509285"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53087544"
 ---
-# <a name="us-doe-10-cfr-part-810"></a>US DOE 10 CFR Part 810
+# <a name="us-doe-10-cfr-part-810"></a>US DoE 10 CFR Part 810
 
-## <a name="microsoft-and-doe-10-cfr-part-810"></a>Microsoft und DOE 10 CFR Part 810
+## <a name="microsoft-and-doe-10-cfr-part-810"></a>Microsoft und DoE 10 CFR Teil 810
 
-Microsoft Azure Regierung kann Kunden, die den Export Kontrollanforderungen des US Department of Energy (DOE) 10 CFR Part 810 unterliegen, durch zwei Autorisierungen unterstützen:
+Microsoft Azure Behörden können Kunden, die den Exportkontrollanforderungen des US Department of Energy (DoE) 10 CFR Part 810 unterliegen, durch zwei Autorisierungen unterstützen:
 
-- Die FedRAMP hohe provisorische Autorisierung für den Betrieb (P-ATO), ausgestellt vom Joint Authorization Board (Jab)
-- Die provisorischen Berechtigungen Level 4 und 5 der Defense Information Systems-Agentur des Verteidigungsministeriums (Department of Defense, DoD)
+- Die vom Joint Authorization Board (JAB) ausgestellte FedRAMP High Interim Authorization to Operate (P-ATO)
+- Die Vorläufigen Genehmigungen der Stufe 4 und 5 des Verteidigungsministeriums (Department of Defense, DoD) Defense Information Systems Agency
 
-FedRAMP bietet eine geeignete Basis, um sicherzustellen, dass Azure Government Kerninfrastruktur-und Virtualisierungstechnologie sowie Dienste wie COMPUTE, Storage und Netzwerke bereitstellt, die mit strengen NIST-Steuerelementen konzipiert sind. Diese helfen, die Anforderungen an die Trennung von Kundendaten zu erfüllen und sichere Verbindungen mit lokalen Kundenumgebungen zu ermöglichen.
+FedRAMP bietet einen geeigneten Basisplan, um zu gewährleisten, dass Azure Government Kerninfrastruktur- und Virtualisierungstechnologien und -dienste wie Compute, Speicher und Netzwerk bereitstellt, die mit strengen NIST-Kontrollen konzipiert sind. Diese tragen dazu bei, die Anforderungen an die Trennung von Kundendaten zu erfüllen und sichere Verbindungen mit den lokalen Umgebungen von Kunden zu ermöglichen.
 
-Darüber hinaus ist Azure Government eine Community-Cloud der US-Regierung, die physisch von der Azure-Cloud getrennt ist. Es bietet zusätzliche Zusicherungen hinsichtlich spezifischer Anforderungen im Hinblick auf die Hintergrundprüfung durch die US-Regierung, einschließlich bestimmter Kontrollen, die den Zugriff auf Informationen und Systeme einschränken, um die US-Bürger unter Azure Operationspersonal zu überprüfen.
+Darüber hinaus ist Azure Government eine COMMUNITY-Cloud der US-Regierung, die physisch von der Azure-Cloud getrennt ist. Es bietet zusätzliche Zusicherungen zu bestimmten Anforderungen der US-Regierung im Hinblick auf hintergrundbezogene Überprüfungen, einschließlich bestimmter Kontrollen, die den Zugriff auf Informationen und Systeme auf überprüfte US-Bürger unter Azure-Betriebspersonal einschränken.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Eingeschlossene Microsoft-Clouddienste
+## <a name="microsoft-in-scope-cloud-services"></a>Microsoft-Clouddienste im Leistungsumfang
 
-- [Azure-Regierung](https://aka.ms/AzureCompliance)
+- [Azure Government](https://aka.ms/AzureCompliance)
 - Intune
 
 ## <a name="how-to-implement"></a>Implementierung
 
-- [NERC CIP-Standards & Cloud Computing](https://aka.ms/AzureNERC): Leitfaden für elektrische Hilfsprogramme und registrierte Entitäten, die Arbeitslasten für Azure oder Azure Government bereitstellen.
+- [NERC CIP Standards & Cloud Computing:](https://aka.ms/AzureNERC)Leitfaden für Stromunternehmen und registrierte Entitäten, die Workloads in Azure oder Azure Government bereitstellen.
 
-## <a name="about-doe-10-cfr-part-810"></a>Informationen zu Doe 10 CFR Part 810
+## <a name="about-doe-10-cfr-part-810"></a>Informationen zu DoE 10 CFR Part 810
 
-Die Export Kontrollverordnung des US-Energieministeriums (DOE) [10 CFR Teil 810](https://www.govinfo.gov/content/pkg/FR-2015-02-23/pdf/2015-03479.pdf) regelt die Ausfuhr von nicht klassifizierter Nukleartechnologie und-Hilfe. Dadurch wird sichergestellt, dass nukleare Technologien, die aus den USA exportiert werden, nur für friedliche Zwecke verwendet werden. Der überarbeitete Abschnitt 810 (letzte Regel) wurde im März 2015 wirksam und wird von der [nationalen Nuclear Security Administration](https://www.energy.gov/nnsa/national-nuclear-security-administration)verwaltet. In Abschnitt 810,6 heißt es, dass eine spezifische Doe-Autorisierung sowohl für Unterstützungs-als auch für die Übertragung von sensiblen Nukleartechnologien, die "Allgemein autorisiert" sind, sowie für Personen erforderlich ist, die eine spezifische Autorisierung erfordern (beispielsweise für Unterstützung bei sensiblen Nukleartechnologien wie Anreicherung und Produktion von schwer Wasser).
+Die Exportkontrollregel [10 CFR Teil 810](https://www.govinfo.gov/content/pkg/FR-2015-02-23/pdf/2015-03479.pdf) des US-Energieministeriums (DoE) regelt den Export von nicht klassifizierter Technologie und Unterstützung. Dadurch wird sichergestellt, dass aus den VEREINIGTEn Staaten exportierte Technologien nur für Zwecke verwendet werden. Der überarbeitete Teil 810 (endgültige Regel) wurde im März 2015 wirksam und wird von der [Nationalen Sicherheitsverwaltung](https://www.energy.gov/nnsa/national-nuclear-security-administration)verwaltet. In Abschnitt 810.6 ist festgelegt, dass eine spezifische DoE-Autorisierung sowohl für Unterstützung und Übertragung sensibler Atomtechnologie erforderlich ist, die "allgemein autorisiert" sind, als auch für Solche, die eine spezifische Autorisierung erfordern (z. B. bei Unterstützung bei sensiblen Technologien wie Anreicherung und Schwer wasserintensiver Produktion).
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
-**Gelten die Bestimmungen des 10 CFR-Teils 110 der US Nuclear Regulatory Commission für Azure Government?**
+**Gelten die 10 CFR Part 110-Bestimmungen der US-Amerikanischen Aufsichtsaufsichtsbehörde für Azure Government?**
 
-Nein. Die [US Nuclear Regulatory Commission](https://www.nrc.gov/) (NRC) regelt den [Export und Import](https://www.nrc.gov/about-nrc/ip/export-import.html) von Nuklearanlagen und dazugehörigen Geräten und Materialien unter [10 CFR Teil 110](https://www.nrc.gov/reading-rm/doc-collections/cfr/part110/). Der NRC reguliert nicht die Nukleartechnologie und Unterstützung im Zusammenhang mit diesen Elementen, die der Zuständigkeit der DOE unterliegen. Daher gelten die Bestimmungen des NRC 10 CFR Part 110 nicht für Azure Government.
+Nein Die [US Regulatory Regulatory Commission](https://www.nrc.gov/) (NRC) regelt den Export und [Import](https://www.nrc.gov/about-nrc/ip/export-import.html) von Einrichtungen und zugehörigen Geräten und Materialien unter [10 CFR Teil 110.](https://www.nrc.gov/reading-rm/doc-collections/cfr/part110/) Die NRC regelt keine Technologie und Unterstützung im Zusammenhang mit diesen Elementen, die der DoE-Gerichtsbarkeit unterliegen. Daher würden NRC 10 CFR Part 110-Bestimmungen nicht für Azure Government gelten.
 
-**Wie kann ich nachweisen, dass ich doe 10 CFR Part 810 einhalte?**
+**Wie kann ich nachweisen, dass ich DoE 10 CFR Part 810 erfüllt?**
 
-Wenn Ihre Organisation Daten für Azure Government bereitstellt, können Sie sich auf die Azure Government FedRAMP High P-ATO als Beweis dafür verlassen, dass Sie Daten in einer entsprechend eingeschränkten Art und Weise verarbeiten. Sie sind jedoch für das erhalten von Doe-Autorisierungen ihrer eigenen Systeme verantwortlich, einschließlich der Verwendung von Cloud-Diensten.
+Wenn Ihre Organisation Daten in Azure Government bereitstellt, können Sie sich auf die Azure Government FedRAMP High P-ATO als Nachweis dafür verlassen, dass Sie Daten auf angemessen eingeschränkte Weise behandeln. Sie sind jedoch dafür verantwortlich, die DoE-Autorisierung für Ihre eigenen Systeme zu erhalten, einschließlich der Verwendung von Clouddiensten.
 
-**Was sind meine Aufgaben bei der Klassifizierung von Daten, die in Azure Government bereitgestellt werden?**
+**Was sind meine Zuständigkeiten für die Klassifizierung von Daten, die in Azure Government bereitgestellt werden?**
 
-Kunden, die Daten für Azure Government bereitstellen, sind für den eigenen Sicherheits Klassifizierungsprozess verantwortlich. Für Kundendaten, die DOE-Exportkontrollen unterliegen, wird das Klassifizierungssystem durch die UCNI-Steuerelemente (nicht klassifizierte kontrollierte Nuklear Informationen) erweitert, die von Abschnitt 148 des [US-Atomgesetzes](https://www.epa.gov/laws-regulations/summary-atomic-energy-act)festgelegt wurden.
+Kunden, die Daten in Azure Government bereitstellen, sind für ihren eigenen Sicherheitsklassifizierungsprozess verantwortlich. Für Kundendaten, die DoE-Exportkontrollen unterliegen, wird das Klassifizierungssystem durch die Unclassified Controlled Atomic Information (UCNI)-Kontrollen ergänzt, die durch Abschnitt 148 des [US Atomic Energy Act](https://www.epa.gov/laws-regulations/summary-atomic-energy-act)eingerichtet wurden.
 
 ## <a name="resources"></a>Ressourcen
 
-- [Azure Cloud Services und US-Export Steuerelemente](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=c24c11f2-2cd4-444a-9160-19762855ad3a&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
+- [Azure Cloud Services- und US-Exportsteuerelemente](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=c24c11f2-2cd4-444a-9160-19762855ad3a&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
 - [Microsoft und FedRAMP](offering-fedramp.md)
 - [Microsoft und DoD](offering-dod-disa-l2-l4-l5.md)
 - [Microsoft Government Cloud](https://www.microsoft.com/enterprise/government)
