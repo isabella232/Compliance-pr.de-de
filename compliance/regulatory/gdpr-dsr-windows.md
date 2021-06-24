@@ -1,7 +1,7 @@
 ---
-title: Anträge betroffener Personen zum Datenauftragsverarbeiterdienst für Windows Enterprise im Rahmen der DSGVO und des CCPA
+title: Anträge betroffener Personen zum Datenauftragsverarbeiterdienst für Windows Enterprise im Rahmen der DSGVO und des CCPA
 description: Erlernen Sie die Verwendung von Microsoft-Produkten, -Diensten und -Verwaltungstools, um nach personenbezogenen Daten zu suchen und auf DSRs zu reagieren.
-keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365-Dokumentation, DSGVO
+keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365-Dokumentation, DSGVO
 localization_priority: Priority
 ROBOTS: NOINDEX, NOFOLLOW
 ms.prod: microsoft-365-enterprise
@@ -18,23 +18,23 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 hideEdit: true
-ms.openlocfilehash: 702a51589a3ce7118b8d3a8dafb6c96db247232f
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: 1c677e2877142c866f82c00df6c1b3957231ae99
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51496181"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53088734"
 ---
-# <a name="data-processor-service-for-windows-enterprise-data-subject-requests-for-the-gdpr-and-ccpa"></a>Anträge betroffener Personen zum Datenauftragsverarbeiterdienst für Windows Enterprise im Rahmen der DSGVO und des CCPA 
+# <a name="data-processor-service-for-windows-enterprise-data-subject-requests-for-the-gdpr-and-ccpa"></a>Anträge betroffener Personen zum Datenauftragsverarbeiterdienst für Windows Enterprise im Rahmen der DSGVO und des CCPA 
 
 >[!NOTE]
->Dieser Artikel richtet sich an Teilnehmer am Vorschauprogramm „Datenauftragsverarbeiterdienst für Windows Enterprise“ und setzt die Zustimmung zu bestimmten Nutzungsbedingungen voraus. Wenn Sie mehr über das Programm erfahren und den Nutzungsbedingungen zustimmen möchten, wechseln Sie zu [https://aka.ms/WindowsEnterprisePublicPreview](https://aka.ms/WindowsEnterprisePublicPreview).
+>Dieser Artikel richtet sich an Teilnehmer am Vorschauprogramm „Datenauftragsverarbeiterdienst für Windows Enterprise“ und setzt die Zustimmung zu bestimmten Nutzungsbedingungen voraus. Wenn Sie mehr über das Programm erfahren und den Nutzungsbedingungen zustimmen möchten, wechseln Sie zu [https://aka.ms/WindowsEnterprisePublicPreview](https://aka.ms/WindowsEnterprisePublicPreview).
 
 ## <a name="introduction-to-data-subject-requests-dsrs"></a>Einführung in Anträge betroffener Personen 
 
 Die Datenschutz-Grundverordnung (DSGVO) der EU räumt natürlichen Personen (in der Verordnung als _betroffene Personen_ bezeichnet) das Recht ein, vom Arbeitgeber oder einer anderen Einrichtung oder Organisation (_Datenverantwortlicher_ oder _Verantwortlicher_) erhobene personenbezogene Daten zu verwalten. Personenbezogene Daten sind in der DSGVO allgemein als Daten definiert, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen. Die DSGVO gewährt betroffenen Personen bestimmte Rechte an ihren personenbezogenen Daten, z. B. das Recht auf Erhalt einer Kopie dieser personenbezogenen Daten, das Recht auf Korrektur der Daten, das Recht auf Einschränkung der Bearbeitung dieser Daten und das Recht auf Empfang dieser Daten in einem elektronischen Format, sodass sie an einen anderen Verantwortlichen übermittelt werden können. Ein von einer betroffenen Person formal gestellter Antrag an den Verantwortlichen, bestimmte Maßnahmen im Zusammenhang mit den personenbezogenen Daten der betroffenen Person zu ergreifen, wird als _Antrag einer betroffenen Person_ bezeichnet. 
 
-In ähnlicher Weise bietet der California Consumer Privacy Act (CCPA) den kalifornischen Verbrauchern Datenschutzrechte und -pflichten, einschließlich von Rechten, die den Rechten von betroffenen Personen der DSGVO entsprechen, wie z. B. das Recht auf Löschung, Zugriff und Empfang (Portabilität) der persönlichen Informationen. Das CCPA ermöglicht außerdem bestimmte Offenlegungen, Schutz vor Diskriminierung bei der Wahl von Ausübungsrechten und Deaktivierungs-/Aktivierungsanforderungen für bestimmte Datentransfers, die als "Verkäufe" eingestuft werden. Die Definition von "Verkäufe" umfasst die Freigabe von Daten für eine angemessene Gegenleistung. Weitere Informationen zum CCPA finden Sie im ["California Consumer Privacy Act](/microsoft-365/compliance/offering-ccpa) und in den [häufig gestellten Fragen zum California Consumer Privacy Act](/microsoft-365/compliance/ccpa-faq).
+In ähnlicher Weise bietet der California Consumer Privacy Act (CCPA) den kalifornischen Verbrauchern Datenschutzrechte und -pflichten, einschließlich von Rechten, die den Rechten von betroffenen Personen der DSGV entsprechen, wie z. B. das Recht auf Löschung, Zugriff und Empfang (Portabilität) der persönlichen Informationen. Das CCPA ermöglicht außerdem bestimmte Offenlegungen, Schutz vor Diskriminierung bei der Wahl von Ausübungsrechten und "Deaktivierungs/Aktivierungs"-Anforderungen für bestimmte Datentransfers, die als "Verkäufe" eingestuft werden. Die Definition von "Verkäufe" umfasst die Freigabe von Daten für eine angemessene Gegenleistung. Weitere Informationen zum CCPA finden Sie im ["California Consumer Privacy Act](/microsoft-365/compliance/offering-ccpa) und in den [häufig gestellten Fragen zum California Consumer Privacy Act](/microsoft-365/compliance/ccpa-faq).
 
 In diesem Leitfaden wird erläutert, wie Microsoft-Produkte, -Dienste und -Verwaltungstools verwendet werden können, um als Reaktion auf Anträge betroffener Personen unseren als Datenverantwortliche handelnden Kunden dabei zu helfen, personenbezogene Daten zu finden und auf diese zu reagieren. Dies umfasst das Suchen, den Zugriff und die Reaktion auf personenbezogene Daten, die in der Microsoft-Cloud gespeichert sind. Im Folgenden finden Sie eine kurze Übersicht der in diesem Leitfaden beschriebenen Prozesse: 
 
@@ -62,11 +62,11 @@ In der nachfolgenden Liste finden Sie Definitionen von Begriffen, die für diese
 
 ## <a name="how-to-use-this-guide"></a>Verwenden dieses Leitfadens 
 
-Bei Verwendung von Geräten, die beim Datenauftragsverarbeiterdienst für Windows Enterprise registriert sind, generiert Windows einige Informationen, die als „Windows-Diagnosedaten“ bezeichnet werden, um den Dienst bereitzustellen.
+Bei Verwendung von Geräten, die beim Datenauftragsverarbeiterdienst für Windows Enterprise registriert sind, generiert Windows einige Informationen, die als „Windows-Diagnosedaten“ bezeichnet werden, um den Dienst bereitzustellen.
 
 ## <a name="windows-diagnostic-data"></a>Windows-Diagnosedaten 
 
-Microsoft bietet Ihnen die Möglichkeit, auf Windows-Diagnosedaten, die mit der Nutzung des Datenauftragsverarbeiterdiensts für Windows Enterprise durch den Benutzer in Verbindung stehen, zuzugreifen, sie zu löschen und zu exportieren.
+Microsoft bietet Ihnen die Möglichkeit, auf Windows-Diagnosedaten, die mit der Nutzung des Datenauftragsverarbeiterdiensts für Windows Enterprise durch den Benutzer in Verbindung stehen, zuzugreifen, sie zu löschen und zu exportieren.
 
 >[!IMPORTANT]
 >Die Möglichkeit zur Berichtigung von Windows-Diagnosedaten wird nicht unterstützt. Windows-Diagnosedaten stellen tatsächliche Aktionen dar, die innerhalb von Windows durchgeführt wurden, und Änderungen an diesen Daten würden die historische Erfassung von Aktionen kompromittieren und das Sicherheitsrisiko erhöhen sowie die Zuverlässigkeit beschädigen. Alle in diesem Dokument behandelten Daten werden als Windows-Diagnosedaten betrachtet. 
@@ -77,15 +77,15 @@ Microsoft bietet die Möglichkeit, auf bestimmte Windows-Diagnosedaten über das
 
 ### <a name="step-1-access"></a>Schritt 1: Zugriff 
 
-Der Mandantenadministrator ist die einzige Person in Ihrer Organisation, die auf Windows-Diagnosedaten zugreifen kann, die sich auf die Verwendung eines beim Datenauftragsverarbeiterdienst für Windows Enterprise registrierten Geräts durch einen bestimmten Benutzer beziehen. Die für einen Zugriffsantrag abgerufenen Daten werden mittels Export in einem maschinell lesbaren Format sowie in Dateien bereitgestellt, durch die der Benutzer erkennen kann, welchen Geräten und Diensten die Daten zugeordnet sind. Die abgerufenen Daten enthalten keine Daten, welche die Sicherheit oder Stabilität des Windows-Geräts beeinträchtigen könnten. 
+Der Mandantenadministrator ist die einzige Person in Ihrem Unternehmen, die auf Windows-Diagnosedaten zugreifen kann, die mit der Verwendung eines Datenverarbeitungsdienstes durch einen bestimmten Benutzer für ein in Windows Enterprise registriertes Gerät verbunden sind. Die für eine Zugriffsanforderung abgerufenen Daten werden über den Export in einem maschinenlesbaren Format bereitgestellt und in Dateien bereitgestellt, mit denen der Benutzer erkennen kann, welchen Geräten und Diensten die Daten zugeordnet sind. Wie bereits erwähnt, enthalten die abgerufenen Daten keine Daten, welche die Sicherheit oder Stabilität des Windows-Geräts beeinträchtigen könnten. 
 
-Microsoft stellt eine Portal-Erfahrung bereit, über die der Mandantenadministrator des Unternehmenskunden Zugriffsanträge betroffener Personen verwalten kann. [Azure-DSR, Teil 2, Schritt 3: Export](/microsoft-365/compliance/gdpr-dsr-azure#step-3-export), beschreibt, wie ein DSR-Zugriffsantrag mittels Export über das Azure-Portal durchzuführen ist.
+Microsoft stellt eine Portal-Erfahrung bereit, über die der Mandantenadministrator des Unternehmenskunden Zugriffsanträge betroffener Personen verwalten kann. [Azure-DSR, Teil 2, Schritt 3: Export](/microsoft-365/compliance/gdpr-dsr-azure#step-3-export), beschreibt, wie ein DSR-Zugriffsantrag mittels Export über das Azure-Portal durchzuführen ist.
 
 ### <a name="step-2-delete"></a>Schritt 2: Löschung 
 
 Microsoft bietet eine Möglichkeit zum Ausführen benutzerbasierter DSR-Löschungsanträge, basierend auf dem Azure Active Directory-Objekt eines bestimmten Benutzers.
 
-Für benutzerbasierte Löschungsanträge stellt Microsoft eine Portalerfahrung bereit, über die der Mandantenadministrator des Unternehmenskunden Löschungsanträge betroffener Personen verwalten kann. [Azure-DSR, Teil 1, Schritt 5: Löschung](/microsoft-365/compliance/gdpr-dsr-azure#step-5-delete), beschreibt, wie ein DSR-Löschungsantrag über das Azure-Portal durchzuführen ist. 
+Für benutzerbasierte Löschungsanträge stellt Microsoft eine Portalerfahrung bereit, über die der Mandantenadministrator des Unternehmenskunden Löschungsanträge betroffener Personen verwalten kann. [Azure-DSR, Teil 1, Schritt 5: Löschung](/microsoft-365/compliance/gdpr-dsr-azure#step-5-delete), beschreibt, wie ein DSR-Löschungsantrag über das Azure-Portal durchzuführen ist. 
 
 Microsoft bietet die Möglichkeit, Benutzer direkt über eine bereits vorhandene Anwendungsprogrammierschnittstelle (API) zu löschen, wodurch wiederum Kundendaten gelöscht werden. Details werden in der [Referenzdokumentation der API](/graph/api/directory-deleteditems-delete) beschrieben. 
 
@@ -94,12 +94,12 @@ Microsoft bietet die Möglichkeit, Benutzer direkt über eine bereits vorhandene
  
  Darüber hinaus erfordern benutzerbasierte Löschungsanträge, dass das Benutzerkonto selbst gelöscht wird. 
 
-### <a name="step-3-export"></a>Schritt 3: Export 
+### <a name="step-3-export"></a>Schritt 3: Export 
 
-Der Mandantenadministrator ist die einzige Person in Ihrer Organisation, die auf Windows-Diagnosedaten zugreifen kann, die sich auf die Verwendung eines beim Datenauftragsverarbeiterdienst für Windows Enterprise registrierten Geräts durch einen bestimmten Benutzer beziehen. Die für einen Exportantrag abgerufenen Daten werden in einem maschinell lesbaren Format bereitgestellt und in Dateien bereitgestellt, durch die der Benutzer erkennen kann, welchen Geräten und Diensten die Daten zugeordnet sind. Die abgerufenen Daten enthalten keine Daten, welche die Sicherheit oder Stabilität des Windows-Geräts beeinträchtigen könnten. [Azure-DSR, Teil 2, Schritt 3: Export](/microsoft-365/compliance/gdpr-dsr-azure#step-3-export), beschreibt, wie ein DSR-Exportantrag über das Azure-Portal durchzuführen ist. 
+Der Mandantenadministrator ist die einzige Person in Ihrer Organisation, die auf Windows-Diagnosedaten zugreifen kann, die sich auf die Verwendung eines beim Datenauftragsverarbeiterdienst für Windows Enterprise registrierten Geräts durch einen bestimmten Benutzer beziehen. Die für einen Exportantrag abgerufenen Daten werden in einem maschinell lesbaren Format bereitgestellt und in Dateien bereitgestellt, durch die der Benutzer erkennen kann, welchen Geräten und Diensten die Daten zugeordnet sind. Die abgerufenen Daten enthalten keine Daten, welche die Sicherheit oder Stabilität des Windows-Geräts beeinträchtigen könnten. [Azure-DSR, Teil 2, Schritt 3: Export](/microsoft-365/compliance/gdpr-dsr-azure#step-3-export), beschreibt, wie ein DSR-Exportantrag über das Azure-Portal durchzuführen ist. 
 
 Microsoft bietet die Möglichkeit, Kundendaten direkt über eine bereits vorhandene Anwendungsprogrammierschnittstelle (API) zu exportieren. Details werden in der [Referenzdokumentation der API](/graph/api/user-exportpersonaldata) beschrieben.
 
 ## <a name="notify-about-exporting-or-deleting-issues"></a>Benachrichtigung über Probleme beim Exportieren oder Löschen 
 
-Wenn beim Exportieren oder Löschen von Daten aus dem Azure-Portal Probleme auftreten, rufen Sie das Azure-Portalblatt **Hilfe + Support** auf, und übermitteln Sie unter **Abonnementverwaltung > Andere Sicherheits- und Complianceanforderung > Datenschutzblatt und DSGVO-Anforderungen** ein neues Ticket. 
+Wenn beim Exportieren oder Löschen von Daten aus dem Azure-Portal Probleme auftreten, wechseln Sie zum Azure-Portalblatt **Hilfe und Support**, und übermitteln Sie ein neues Ticket unter **Abonnementverwaltung > Datenschutz- und Complianceanforderungen für Abonnements > Blatt "Datenschutz" und DSGVO-Anforderungen**. 

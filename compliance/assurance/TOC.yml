@@ -8,6 +8,8 @@
       href: /microsoft-365/enterprise/microsoft-365-tenant-isolation-overview?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json
     - name: Isolierung und Zugriffssteuerungen in AAD
       href: /microsoft-365/enterprise/microsoft-365-isolation-in-azure-active-directory?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json
+    - name: Sichern der Microsoft 365 Infrastruktur
+      href: assurance-securing-microsoft-365-infrastructure.md
 - name: Überwachungsprotokollierung
   items:
     - name: Überwachungsprotokollierung (Übersicht)
@@ -38,7 +40,7 @@
       href: assurance-encryption-for-microsoft-365-services.md
     - name: Dienstverschlüsselung für Daten im Ruhezustand
       href: /microsoft-365/compliance/office-365-service-encryption?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json
-    - name: "E-Mail-Verschlüsselung in Microsoft\_365"
+    - name: E-Mail-Verschlüsselung in Microsoft 365
       href: /microsoft-365/compliance/email-encryption?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json
     - name: Wie vertrauliche Daten in E-Mails in Exchange Online geschützt werden
       href: /microsoft-365/compliance/exchange-online-secures-email-secrets?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json
@@ -62,6 +64,8 @@
       href: assurance-pre-employment-screening.md
     - name: Microsoft Cloud-Hintergrundprüfung
       href: assurance-cloud-background-check.md
+    - name: Microsoft-Mitarbeiterübertragung und -kündigung
+      href: assurance-employee-transfer-termination.md
 - name: Identitäts- und Zugriffsverwaltung
   items:
     - name: Identitäts- und Zugriffsverwaltung (Übersicht)
@@ -100,7 +104,7 @@
   items:
     - name: Datenschutz (Übersicht)
       href: assurance-privacy.md
-    - name: "Informationen dazu, wo Microsoft\_365-Kundendaten gespeichert werden"
+    - name: 'Informationen dazu, wo Microsoft 365-Kundendaten gespeichert werden'
       href: /microsoft-365/enterprise/o365-data-locations?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json
     - name: 'Aufbewahrung, Löschung und Vernichtung von Daten'
       href: assurance-data-retention-deletion-and-destruction-overview.md
@@ -150,6 +154,8 @@
   items:
     - name: Risikomanagement (Übersicht)
       href: assurance-risk-management.md
+    - name: Microsoft 365 Risikomanagementprogramm
+      href: assurance-risk-management-program.md
 - name: Entwicklung und Verfahren im Sicherheitsbereich
   items:
     - name: Entwicklung und Verfahren im Sicherheitsbereich (Übersicht)

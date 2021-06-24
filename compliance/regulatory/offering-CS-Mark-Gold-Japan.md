@@ -16,20 +16,20 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 8ae3f837336b0eb79ded802d17df37fefe8d5245
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 978979483be55852b34a4ab65e6949a7f234c82d
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506809"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53088494"
 ---
 # <a name="cloud-security-mark-gold-cs-gold-mark"></a>Cloud Security Mark Gold (CS Gold Mark)
 
-## <a name="cs-gold-mark-overview"></a>CS Gold Mark – Übersicht
+## <a name="cs-gold-mark-overview"></a>CS Gold Mark – Übersicht
 
 Die Cloud Security Mark (CS Mark) ist der erste Sicherheitsstandard für Clouddienstanbieter (CSPs) in Japan und basiert auf ISO/IEC 27017, dem internationalen Verhaltenskodex für Informationssicherheitskontrollen. Dieser wiederum basiert auf der Norm ISO/IEC 27002 für Cloud Services, die sich der Informationssicherheit im Cloud Computing und der Implementierung der cloudbezogenen Informationssicherheitskontrollen annimmt.
 
-Die CS Mark wird von der Japan Information Security Audit Association (JASA) zuerkannt, einer gemeinnützigen Organisation, die vom japanischen Innenministerium und dem Ministerium für Wirtschaft, Handel und Industrie gegründet wurde, um die Informationssicherheit in Japan zu erhöhen. Die CS Mark fördert den Einsatz von Cloud Services und bietet Folgendes:
+Die CS Mark wird von der Japan Information Security Audit Association (JASA) akkreditiert, einer gemeinnützigen Organisation, die vom japanischen Innenministerium und dem Ministerium für Wirtschaft, Handel und Industrie gegründet wurde, um die Informationssicherheit in Japan zu erhöhen. Die CS Mark fördert die Nutzung von Clouddiensten und bietet:
 
 - Einen allgemeinen Standard, den CSPs anwenden können, um auf grundsätzliche Bedenken von Kunden über die Sicherheit und Vertraulichkeit von Daten in der Cloud und die Auswirkungen der Nutzung von Cloud Services auf die Geschäftstätigkeit einzugehen.
 - Verifizierbare betriebliche Transparenz und Sichtbarkeit der Risiken, mit denen die Kunden sich konfrontiert sehen, wenn sie Cloud Services verwenden.

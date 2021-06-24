@@ -20,12 +20,12 @@ ms.workload:
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-mar2020
 hideEdit: true
-ms.openlocfilehash: c27890900be85d951fb3a9dbfd11e4140ef955ff
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: 5511888b34cd9e3eb7f4e76d86c91cea4f4924c6
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51496215"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53088524"
 ---
 # <a name="azure-devops-services-data-subject-requests-for-the-gdpr-and-ccpa"></a>Anträge betroffener Personen für Azure DevOps Services im Rahmen der DSGVO und des CCPA
 
@@ -43,11 +43,11 @@ Die Artikel [Microsoft-Datenschutzbestimmungen](https://privacy.microsoft.com/pr
 
 ## <a name="personal-data-we-collect"></a>Von uns erfasste personenbezogene Daten
 
-Microsoft erfasst Daten von Benutzern zur Ausführung und Verbesserung der Azure DevOps Services. Die Azure DevOps Services erfassen zwei Kategorien von Daten – Kundendaten und vom System generierte Protokolle. Kundendaten umfassen vom Benutzer identifizierbare transaktionale und interaktionale Daten, die Azure DevOps Services zur Ausführung des Dienstes benötigt. Vom System generierte Protokolle enthalten Dienstverwendungsdaten, die für jeden Produktbereich und jede Produktfunktion aggregiert werden.
+Microsoft erfasst Daten von Benutzern zur Ausführung und Verbesserung von Azure DevOps Services. Azure DevOps Services erfasst zwei Kategorien von Daten: Kundendaten und vom System generierte Protokolle. Kundendaten umfassen vom Benutzer identifizierbare transaktionale und interaktionale Daten, die Azure DevOps Services für den Dienst verwenden muss. Vom System generierte Protokolle enthalten Dienstverwendungsdaten, die für jeden Produktbereich und jede Produktfunktion aggregiert werden.
 
 ## <a name="delete-azure-devops-data"></a>Löschen Azure DevOps-Daten
 
-Der erste Schritt zum Löschen von zugehörigen Azure DevOps Services-Kundendaten und zum Anonymisieren von personenbezogenen Daten, die sich in vom System generierten Protokollen befinden, ist das Schließen des Azure Active Directory (AAD)-Identitätskontos oder Microsoft Account (MSA). Azure DevOps Services ist ein Aufzeichnungssystem mit strengen Integritäts-, Nachverfolgbarkeits- und Überwachungsregeln. Diese bestehenden Verpflichtungen wirken sich auf die Lösch- und Aufbewahrungspflichten der DSGVO aus. Wenn Sie das Identitätskonto schließen, werden Artefakte und Aufzeichnungen, die mit der individuellen Identität im Azure DevOps Services-Konto verknüpft sind, nicht bearbeitet, entfernt oder geändert. Wir haben sichergestellt, dass alle verknüpften personenbezogenen Daten und vom System generierten Protokolle der Organisation aus unserem System entfernt werden, wenn eine komplette Azure DevOps-Organisation gelöscht wird (nach dem erforderlichen 30-tägigen Zeitraum für vorläufige Löschung der Azure DevOps-Organisation).
+Der erste Schritt zum Löschen verknüpfter Azure DevOps Services-Kundendaten und zum Anonymisieren personenbezogener Daten in vom System generierten Protokollen ist das Schließen Ihres Azure Active Directory (AAD)-Identitätskontos oder Microsoft Account (MSA). Azure DevOps Services ist ein Aufzeichnungssystem mit strengen Integritäts-, Nachverfolgbarkeits- und Überwachungsregeln. Diese vorhandenen Verpflichtungen wirken sich auf unsere Lösch- und Aufbewahrungsverpflichtungen für die DSGVO aus. Wenn Sie das Identitätskonto schließen, werden Artefakte und Aufzeichnungen, die mit der individuellen Identität im Azure DevOps Services-Konto verknüpft sind, nicht bearbeitet, entfernt oder geändert. Wir haben sichergestellt, dass alle verknüpften personenbezogenen Daten und vom System generierten Protokolle in diesem Konto aus unserem System entfernt werden, wenn ein komplettes Azure DevOps Services-Konto gelöscht wird (nach dem erforderlichen 30-tägigen Zeitraum für vorläufige Löschung des Azure DevOps Services-Kontos).
 
 ## <a name="export-azure-devops-data"></a>Exportieren Azure DevOps-Daten
 
@@ -59,7 +59,7 @@ Verantwortliche können Kundendaten und vom System generierte Protokolle der Bet
 
 ## <a name="export-or-delete-issues"></a>Exportieren oder Löschen von Problemen
 
-Für AAD-Identitäten: Wenn beim Exportieren oder Löschen von Daten aus dem Azure-Portal Probleme auftreten, rufen Sie das Azure-Portalblatt **Hilfe + Support** auf, und übermitteln Sie unter **Abonnementverwaltung** > **Andere Sicherheits- und Complianceanforderung** > **Datenschutzblatt und DSGVO-Anforderungen** ein neues Ticket.
+Wenn Sie bei AAD-Identitäten beim Exportieren oder Löschen von Daten aus dem Azure-Portal Probleme auftreten, wechseln Sie zum Azure-Portalblatt **Hilfe und Support**, und übermitteln Sie ein neues Ticket unter **Abonnementverwaltung** > **Datenschutz- und Complianceanforderungen für Abonnements** > **Blatt "Datenschutz" und DSGVO-Anforderungen**.
 
 Für MSA-Identitäten: Wenn Probleme beim Exportieren von Daten von der Datenschutzanfrage-Website auftreten, melden Sie sich auf der [Datenschutzanfrage-Website](https://www.microsoft.com/concern/privacyrequest-msa) an, und senden Sie eine Anfrage zur Unterstützung durch das Microsoft-Datenschutzteam über das Anfrage-Webformular.
 
