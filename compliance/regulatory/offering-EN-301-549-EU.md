@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d9dfe0936b6df031fd8d50fff3554e9c9cb5ced1
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 4ec39ccbeb9780c51ef813c1520675abb1d19cc9
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49509616"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089568"
 ---
 # <a name="european-standards-en-301-549"></a>Europäische Normen EN 301 549
 
@@ -39,10 +39,10 @@ Die Berücksichtigung von EN 301 549 durch Microsoft bei der Entwicklung von Pro
 
 - [Azure und Azure Government](https://go.microsoft.com/fwlink/p/?linkid=2051569)
 - Azure DevOps Services
-- Dynamics 365 und Dynamics 365 U.S. Government
+- Dynamics 365 und Dynamics 365 U.S. Government
 - Intune
 - [Office 365 und Office 365 U.S. Government](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- Office 365 U.S. Government Defense
+- Office 365 U.S. Government Defense
 - Windows Server 2016
 
 ## <a name="microsoft-accessibility-conformance-reports"></a>Microsoft Konformitätsberichte zur Barrierefreiheit

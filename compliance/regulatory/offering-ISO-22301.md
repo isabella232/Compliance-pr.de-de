@@ -1,5 +1,5 @@
 ---
-title: ISO 22301:2012 – Geschäftskontinuitätsmanagement-Standard
+title: ISO 22301:2012 – Geschäftskontinuitätsmanagement-Standard
 description: Microsoft ist aufgrund der Implementierung dieser Geschäftskontinuitätsmanagement-Standards zertifiziert.
 keywords: Microsoft 365, Compliance, Angebote
 localization_priority: Priority
@@ -16,28 +16,28 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: afe6f7f5d5758442b6a016834456459ff9d40e7c
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: d87d143479cab3dffb881c58dc19d11a81b1c7a9
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51497757"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53088934"
 ---
 # <a name="iso-223012012-business-continuity-management-standard"></a>ISO 22301:2012 – Standard für Business Continuity Management 
 
-## <a name="iso-22301-overview"></a>ISO 22301-Übersicht
+## <a name="iso-22301-overview"></a>ISO 22301-Übersicht
 
-Die International Organization for Standardization (ISO) ist eine unabhängige Nichtregierungsorganisation und der weltweit größte Entwickler von freiwilligen internationalen Standards. Die ISO bildete den technischen Ausschuss TC 223 Societal Security, um Standards zum Schutz der Gesellschaft, einschließlich Organisationen, im Falle von Unglücksfällen, wie Naturkatastrophen, Terroranschlägen oder Ausfall des Energieversorgungsnetzes, zu entwickeln.
+Die „International Organization for Standardization“ (ISO) ist eine unabhängige Nichtregierungsorganisation und der weltweit größte Entwickler von freiwilligen internationalen Standards. Die ISO bildete den technischen Ausschuss TC 223 Societal Security, um Standards zum Schutz der Gesellschaft, einschließlich Organisationen, im Falle von Unglücksfällen, wie Naturkatastrophen, Terroranschlägen oder Ausfall des Energieversorgungsnetzes, zu entwickeln.
 
-Der Standard ISO 22301:2012 wurde vom technischen Ausschuss 2012 veröffentlicht und ist der erste internationale Standard für Verwaltungssysteme zur Sicherstellung der Geschäftskontinuität. ISO 22301 ist der Premiumstandard für die Geschäftskontinuität und die Zertifizierung weist die Einhaltung strenger Vorschriften für Verhinderung, Abschwächung, Reaktion und Wiederherstellung bei Unterbrechungen der Geschäftskontinuität nach.
+Der Standard ISO 22301:2012 wurde vom technischen Ausschuss 2012 veröffentlicht und ist der erste internationale Standard für Verwaltungssysteme zur Sicherstellung der Geschäftskontinuität. ISO 22301 ist der Premiumstandard für die Geschäftskontinuität und die Zertifizierung weist die Einhaltung strenger Vorschriften für Verhinderung, Abschwächung, Reaktion und Wiederherstellung bei Unterbrechungen der Geschäftskontinuität nach.
 
-## <a name="microsoft-and-iso-22301"></a>Microsoft und ISO 22301
+## <a name="microsoft-and-iso-22301"></a>Microsoft und ISO 22301
 
-Microsoft erhielt als erster Anbieter hyperskalierter Clouddienste die ISO 22301-Zertifizierung für das Geschäftskontinuitätsmanagement. Eine unabhängige Zertifizierungsstelle erkannte diese Zertifizierung Microsoft Azure, Microsoft Azure Government, Microsoft Office 365 (einschließlich der Angebote für Geschäftskunden, Behördenkunden und Kunden aus dem Bildungsbereich), Microsoft Cloud App Security, Microsoft Intune und Microsoft Power BI nach einer strengen Prüfung, die alle Aspekte ihrer Geschäftskontinuitätsprozesse abdeckte, zu. Die Prüfung deckte die unten aufgeführten Dienste sowie Azure-Verwaltungsfunktionen, das Azure-Portal und die Systeme für die Überwachung, Ausführung und Aktualisierung der relevanten Dienste ab.
+Microsoft erhielt als erster Anbieter hyperskalierter Clouddienste die ISO 22301-Zertifizierung für das Geschäftskontinuitätsmanagement. Eine unabhängige Zertifizierungsstelle erkannte diese Zertifizierung Microsoft Azure, Microsoft Azure Government, Microsoft Office 365 (einschließlich der Angebote für Geschäftskunden, Behördenkunden und Kunden aus dem Bildungsbereich), Microsoft Cloud App Security, Microsoft Intune und Microsoft Power BI nach einer strengen Prüfung, die alle Aspekte ihrer Geschäftskontinuitätsprozesse abdeckte, zu. Die Prüfung deckte die unten aufgeführten Dienste sowie Azure-Verwaltungsfunktionen, das Azure-Portal und die Systeme für die Überwachung, Ausführung und Aktualisierung der relevanten Dienste ab.
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft-Clouddienste im Leistungsumfang
 
-- [Azure und Azure Government und Azure Deutschland](https://aka.ms/AzureCompliance)
+- [Azure und Azure Government und Azure Deutschland](https://aka.ms/AzureCompliance)
 - Microsoft Cloud App-Sicherheit
 - Dynamics 365, Dynamics 365 Government und Dynamics 365 Deutschland
 - Microsoft Defender für Endpunkt
@@ -45,10 +45,10 @@ Microsoft erhielt als erster Anbieter hyperskalierter Clouddienste die ISO 2230
 - Microsoft Healthcare Bot
 - Intune
 - [Microsoft Managed Desktop](/microsoft-365/managed-desktop/intro/compliance)
-- Power Automate-Clouddienst (ehemals Microsoft Flow) als eigenständiger Dienst oder in einem Office 365- oder Dynamics 365-Plan bzw. -Anwendungssuite enthalten
+- Power Automate-Clouddienst (ehemals Microsoft Flow) als eigenständiger Dienst oder in einem Office 365- oder Dynamics 365-Plan bzw. -Anwendungssuite enthalten
 - [Office 365 für Geschäftskunden, Behörden und Bildungseinrichtungen](https://go.microsoft.com/fwlink/p/?linkid=2077751)
-- PowerApps-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365- oder Dynamics 365-Plan bzw. einer -Anwendungssuite enthalten
-- Power BI-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365-Plan oder einer -Anwendungssuite enthalten
+- PowerApps-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365- oder Dynamics 365-Plan bzw. einer -Anwendungssuite enthalten
+- Power BI-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365-Plan oder einer -Anwendungssuite enthalten
 - Power BI Embedded
 
 ## <a name="audits-reports-and-certificates"></a>Audits, Berichte und Zertifikate
@@ -61,17 +61,17 @@ Microsoft erhielt als erster Anbieter hyperskalierter Clouddienste die ISO 2230
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
-**Warum ist die Compliance von Microsoft mit ISO 22301 wichtig?**
+**Warum ist die Compliance von Microsoft mit ISO 22301 wichtig?**
 
-ISO 22301 ist eine Zertifizierung, mit der Unternehmen und Behörden ihre Verpflichtung ihren Kunden gegenüber nachweisen, indem sie den höchsten verfügbaren internationalen Standard für das Geschäftskontinuitätsmanagement einhalten. ISO 22301 ist ein umfassender Standard, der die höchste Stufe der Verpflichtung zu Geschäftskontinuität und Notfallvorbereitung darstellt.
+ISO 22301 ist eine Zertifizierung, mit der Unternehmen und Behörden ihre Verpflichtung ihren Kunden gegenüber nachweisen, indem sie den höchsten verfügbaren internationalen Standard für das Geschäftskontinuitätsmanagement einhalten. ISO 22301 ist ein umfassender Standard, der die höchste Stufe der Verpflichtung zu Geschäftskontinuität und Notfallvorbereitung darstellt.
 
 **Wo erhalte ich die ISO 22301-Prüfberichte und Umfangserklärungen für Microsoft-Dienste?**
 
 Das [Service Trust Portal](https://aka.ms/stphelp) stellt unabhängig überprüfte Complianceberichte bereit, sodass Ihre Auditoren die Ergebnisse für die Clouddienste von Microsoft mit Ihren eigenen gesetzlichen und behördlichen Anforderungen vergleichen können.
 
-**Kann ich die ISO 22301-Compliance von Microsoft-Diensten für den Zertifizierungsprozess meiner Organisation verwenden?**
+**Kann ich die ISO 22301-Compliance von Microsoft-Diensten in der Zertifizierung meiner Organisation verwenden?**
 
-Ja. Wenn Ihr Unternehmen eine Zertifizierung nach ISO 22301 für Installationen benötigt, die in Microsoft-Diensten bereitgestellt werden, können Sie die Azure- und Office 365-Zertifizierungen für Ihre Compliancebewertung verwenden. Sie sind jedoch dafür verantwortlich, einen Auditor mit der Prüfung der Kontrollen, Prozesse und Implementierungen im Hinblick auf die ISO 22301-Compliance innerhalb Ihrer eigenen Organisation und für Ihre eigenen Anwendungen zu beauftragen.
+Ja. Wenn Ihr Unternehmen eine Zertifizierung nach ISO 22301 für Installationen benötigt, die in Microsoft-Diensten bereitgestellt werden, können Sie die Azure- und Office 365-Zertifizierungen für Ihre Compliancebewertung verwenden. Sie sind jedoch dafür verantwortlich, einen Auditor mit der Prüfung der Kontrollen, Prozesse und Implementierungen im Hinblick auf die ISO 22301-Compliance innerhalb Ihrer eigenen Organisation und für Ihre eigenen Anwendungen zu beauftragen.
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
 

@@ -1,5 +1,5 @@
 ---
-title: ISO/IEC 20000-1:2011 – IT Service Management
+title: ISO/IEC 20000-1:2011 – IT Service Management
 description: Microsoft ist für die Implementierung dieser Servicemanagementstandards zertifiziert.
 keywords: Microsoft 365, Compliance, Angebote
 localization_priority: Priority
@@ -16,16 +16,16 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a04e5b7b0a292cfe419118085d387051e0c56e48
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: 9995a237a82d41bfbb6740dbbe448f1ef3ae750a
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51497774"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53088994"
 ---
-# <a name="isoiec-20000-12011-information-technology-service-management"></a>ISO/IEC 20000-1:2011 – IT Service Management
+# <a name="isoiec-20000-12011-information-technology-service-management"></a>ISO/IEC 20000-1:2011 – IT Service Management
 
-## <a name="isoiec-20000-12011-overview"></a>ISO/IEC 20000-1:2011 – Übersicht
+## <a name="isoiec-20000-12011-overview"></a>ISO/IEC 20000-1:2011 – Übersicht
 
 Die International Organization for Standardization (ISO) ist eine unabhängige Nichtregierungsorganisation und der weltweit größte Entwickler von freiwilligen internationalen Standards. Die International Electrotechnical Commission (IEC) ist die weltweit führende Organisation für die Vorbereitung und Veröffentlichung von internationalen Standards für elektrische, elektronische und damit verbundene Technologien.  
   
@@ -33,13 +33,13 @@ Die ISO 20000-1:2011, die 2005 im Rahmen des gemeinsamen ISO/IEC-Unterausschusse
 
 ## <a name="microsoft-and-isoiec-20000-12011"></a>Microsoft und ISO/IEC 20000-1:2011
 
-Die ISO 20000-1:2011-Zertifizierung ist ein logischer Schritt für Microsoft Azure. Wir verfügen über die umfassendste Abdeckung von Compliance-Anforderungen in der Branche und ermöglichen Kunden so, ein breites Spektrum an gesetzlichen Verpflichtungen zu erfüllen. Die Zertifizierung nach ISO 20000-1 ergänzt unseren derzeitigen Katalog der ISO-Zertifizierungen, der unter anderem die ISO 27001:2013 und die ISO 9001:2015 umfasst, welche einen kontinuierlichen Verbesserungsprozess bestätigen, durch den Microsoft Azure für unsere Kunden eine sichere und zuverlässige Cloudserviceplattform bereitstellt.  
+Die ISO 20000-1:2011-Zertifizierung ist ein logischer Schritt für Microsoft Azure. Wir verfügen über die umfassendste Abdeckung von Compliance-Anforderungen in der Branche und ermöglichen Kunden so, ein breites Spektrum an gesetzlichen Verpflichtungen zu erfüllen. Die Zertifizierung nach ISO 20000-1 ergänzt unseren derzeitigen Katalog der ISO-Zertifizierungen, der unter anderem die ISO 27001:2013 und die ISO 9001:2015 umfasst, welche einen kontinuierlichen Verbesserungsprozess bestätigen, durch den Microsoft Azure für unsere Kunden eine sichere und zuverlässige Cloudserviceplattform bereitstellt.  
   
-Ein unabhängiges, externes Auditunternehmen führt strenge Prüfungen von Microsoft Azure und verschiedenen Microsoft-Onlinediensten durch und überwacht damit, dass die in ISO 20000-1:2011 festgelegten Anforderungen eingehalten werden. Das verfügbare ISO 20000-1-Zertifikat zeigt, dass für Azure und die abgedeckten Microsoft-Onlinedienste die richtigen IT Service Management-Verfahren implementiert worden sind, um effiziente und zuverlässige IT-Dienste zur Verfügung zu stellen, die regelmäßig kontrolliert, überprüft und verbessert werden.
+Ein unabhängiges, externes Auditunternehmen führt strenge Prüfungen von Microsoft Azure und verschiedenen Microsoft-Onlinediensten durch und überwacht damit, dass die in ISO 20000-1:2011 festgelegten Anforderungen eingehalten werden. Das verfügbare ISO 20000-1-Zertifikat zeigt, dass für Azure und die abgedeckten Microsoft-Onlinedienste die richtigen IT Service Management-Verfahren implementiert worden sind, um effiziente und zuverlässige IT-Dienste zur Verfügung zu stellen, die regelmäßig kontrolliert, überprüft und verbessert werden.
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft-Clouddienste im Leistungsumfang
 
-- [Azure und Azure Government und Azure Deutschland](https://aka.ms/AzureCompliance)
+- [Azure und Azure Government und Azure Deutschland](https://aka.ms/AzureCompliance)
 - Microsoft Cloud App-Sicherheit
 - Microsoft Defender für Endpunkt
 - Microsoft Graph
@@ -64,13 +64,13 @@ ISO 20000-1-Dokumentation wie folgt:
 
 **Wo erhalte ich die ISO 20000-1:2011-Prüfberichte und Umfangserklärungen für Microsoft-Dienste?**
 
-Das Vertrauensstellungsportal stellt unabhängig geprüfte Complianceberichte zur Verfügung. Sie können über das Portal Berichte anfordern, sodass Ihre Prüfer die Ergebnisse der Clouddienste von Microsoft mit Ihren eigenen gesetzlichen und regulatorischen Anforderungen vergleichen können. Sowohl der Microsoft Azure ISO 20000-1-Bewertungsbericht für GJ17 als auch das Microsoft Azure ISO 20000-1-Zertifikat für GJ17 sind verfügbar.
+Das Vertrauensstellungsportal stellt unabhängig geprüfte Complianceberichte zur Verfügung. Sie können über das Portal Berichte anfordern, sodass Ihre Prüfer die Ergebnisse der Clouddienste von Microsoft mit Ihren eigenen gesetzlichen und regulatorischen Anforderungen vergleichen können. Sowohl der Microsoft Azure ISO 20000-1-Bewertungsbericht für GJ17 als auch das Microsoft Azure ISO 20000-1-Zertifikat für GJ17 sind verfügbar.
 
 **Führt Microsoft jährliche Tests auf Infrastrukturfehler durch?**
 
-Ja. Die jährliche ISO 20000-1:2011-Bewertung schließt die physische Rechenzentrumsinfrastruktur ein. Im Zertifikat finden Sie Einzelheiten zum Prüfumfang.
+Ja. Die jährliche ISO 20000-1:2011-Bewertung schließt die physische Rechenzentrumsinfrastruktur ein. Im Zertifikat finden Sie Einzelheiten zum Prüfumfang.
 
-**Wo sehe ich die Complianceinformationen von Microsoft für ISO 20000-1:2011?**
+**Wo kann ich die Complianceinformationen von Microsoft für ISO 20000-1:2011sehen?**
 
 Sie können das ISO 20000-1:2011-Zertifikat für Azure und weitere Dienste herunterladen, die im Umfang dieser Bewertung enthalten sind.
 

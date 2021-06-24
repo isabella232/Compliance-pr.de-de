@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: bf4ea5afbcc44a7e59e66d5d74c9b87123b6ded8
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 7079147a9ee952f97a4ad5b9d8df0cfcf9d494a2
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506790"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089819"
 ---
 # <a name="spain-esquema-nacional-de-seguridad-ens-high-level-security-measures"></a>Esquema Nacional de Seguridad (ENS) Spaniens – Sicherheitsmaßnahmen
 
@@ -31,7 +31,7 @@ ms.locfileid: "49506790"
 
 Der Rahmen gilt für alle öffentlichen Organisationen und Regierungsstellen in Spanien, die Cloud Services in Anspruch nehmen sowie für Anbieter von Informations- und Kommunikationstechnologien (ICT). Der Rahmen leitet diese Stellen und Unternehmen bei der Implementierung effektiver Kontrollen für die Sicherheit in der Cloud und lokal an, und zwar unter Wahrung der Compliance mit spanischen und europäischen Sicherheits- und Datenschutzstandards.
 
-Der Rahmen legt Kernrichtlinien und obligatorische Anforderungen fest, die sowohl Regierungsstellen als auch ihre Dienstanbieter erfüllen müssen. Er definiert eine Reihe von spezifischen Sicherheitskontrollen, von denen viele direkt auf ISO/IEC 27001 abgestimmt sind, in Bezug auf Verfügbarkeit, Authentizität, Integrität, Vertraulichkeit und Nachverfolgbarkeit. Die Vertraulichkeit der Daten – niedrig, mittel und hoch – bestimmt die Sicherheitsmaßnahmen, die zu ihrem Schutz ergriffen werden müssen.
+Der Rahmen legt Kernrichtlinien und obligatorische Anforderungen fest, die sowohl Regierungsstellen als auch ihre Dienstanbieter erfüllen müssen. Er definiert eine Reihe von spezifischen Sicherheitskontrollen, von denen viele direkt auf ISO/IEC 27001 abgestimmt sind, in Bezug auf Verfügbarkeit, Authentizität, Integrität, Vertraulichkeit und Nachverfolgbarkeit. Die Vertraulichkeit der Daten – niedrig, mittel und hoch – bestimmt die Sicherheitsmaßnahmen, die zu ihrem Schutz ergriffen werden müssen.
 
 Jede Regierungsstelle muss ein Risikomanagementansatz für die Sicherheit verfolgen, wobei sie Risiken identifizieren und bewerten und anschließend entsprechende Sicherheitskontrollen übernehmen. Dienstanbieter müssen ebenfalls die strengen Anforderungen des Rahmenwerks erfüllen, um sicherzustellen, dass ihre Verfahren, technischen Kapazitäten und Betriebsabläufe sicher sind und den Regierungsstellen ermöglichen, die Bestimmungen zu erfüllen.
 
@@ -39,7 +39,7 @@ Der Rahmen schreibt einen Akkreditierungsprozess vor, der für Systeme, die Date
 
 ## <a name="microsoft-and-spain-ens-high-level-security-measures"></a>Sicherheitsmaßnahmen auf hoher Ebene von Microsoft und Spanien
 
-Microsoft Azure und Microsoft Office 365 wurden einer strengen Bewertung durch BDO unterzogen, einen unabhängigen Auditor, der ihre Compliance offiziell bestätigte. BDO berichtet, dass die Sicherheitsmaßnahmen bei beiden Diensten und deren Informationssysteme und Datenverarbeitungseinrichtungen auf hohem Niveau mit RD 3/2010 übereinstimmen und keine Korrekturmaßnahmen zu ergreifen sind. Microsoft war der erste Anbieter hyperskalierter Clouddienste, der diese Zertifizierung in Spanien erhielt.
+Microsoft Azure und Microsoft Office 365 wurden einer strengen Bewertung durch BDO unterzogen, einen unabhängigen Auditor, der ihre Compliance offiziell bestätigte. BDO berichtet, dass die Sicherheitsmaßnahmen bei beiden Diensten und deren Informationssysteme und Datenverarbeitungseinrichtungen auf hohem Niveau mit RD 3/2010 übereinstimmen und keine Korrekturmaßnahmen zu ergreifen sind. Microsoft war der erste Anbieter hyperskalierter Clouddienste, der diese Zertifizierung in Spanien erhielt.
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft-Clouddienste im Leistungsumfang
 
