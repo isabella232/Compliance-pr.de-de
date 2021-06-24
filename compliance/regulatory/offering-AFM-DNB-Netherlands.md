@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a7f6f07a2dd58d4a99559488c3f9d3b92d4fe195
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 13a628ee832079bd0402e5aec9969ec6e1f14cb4
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121804"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089839"
 ---
 # <a name="dutch-authority-for-the-financial-markets-and-the-central-bank-of-the-netherlands"></a>Niederländische Aufsichtsbehörde für die Finanzmärkte und die Zentralbank der Niederlande
 
@@ -29,11 +29,11 @@ ms.locfileid: "50121804"
 
 Die wichtigsten Finanzaufsichtsbehörden in den Niederlanden sind die [Niederländische Behörde für die Finanzmärkte](https://afm.nl/en) ([Autoriteit Financiële Markten, AFM](https://afm.nl/)) und die [Zentralbank der Niederlande](https://www.dnb.nl/en/home/index.jsp) ([De Nederlandsche Bank, DNB](https://www.dnb.nl/home/)). Die AFM, deren Rolle mit derer der SEC in den Vereinigten Staaten vergleichbar ist, ist die „unabhängige Aufsichtsbehörde für den Markt der Spar-, Darlehens-, Investitions- und Versicherungsprodukte“. Die DNB im Rahmen des Europäischen Systems der Zentralbanken bestimmt und setzt die Geldpolitik um und übt die prudentielle Aufsicht über Finanzorganisationen in den Niederlanden aus.  
   
-Beide Institutionen handeln in Abstimmung mit der Europäischen Bankenaufsichtsbehörde (EBA), „eine unabhängige EU-Behörde, deren Aufgabe es ist, ein wirksames und kohärentes Maß an Regulierung und Beaufsichtigung im europäischen Bankensektor zu gewährleisten“. Zu diesem Zweck veröffentlichte die EBA ihre [Empfehlungen zur Auslagerung an Cloud-Anbieter](https://eba.europa.eu/sites/default/documents/files/documents/10180/1848359/c1005743-567e-40fc-a995-d05fb93df5d1/Draft%20Recommendation%20on%20outsourcing%20to%20Cloud%20Service%20%20%28EBA-CP-2017-06%29.pdf ), die einen umfassenden Ansatz für das Cloud Computing von Finanzinstitutionen in der EU vorgeben.  
+Beide Institutionen handeln in Abstimmung mit der Europäischen Bankenaufsichtsbehörde (EBA), „eine unabhängige EU-Behörde, deren Aufgabe es ist, ein wirksames und kohärentes Maß an Regulierung und Beaufsichtigung im europäischen Bankensektor zu gewährleisten“. Zu diesem Zweck veröffentlichte die EBA ihre [Empfehlungen zum Outsourcing ab Cloud-Dienstanbieter](https://eba.europa.eu/sites/default/documents/files/documents/10180/1848359/c1005743-567e-40fc-a995-d05fb93df5d1/Draft%20Recommendation%20on%20outsourcing%20to%20Cloud%20Service%20%20%28EBA-CP-2017-06%29.pdf ), die einen umfassenden Ansatz für das Cloud Computing durch Finanzinstitute in der EU vorgaben.  
   
-Im Allgemeinen unterstützen die Gesetze und Richtlinien den Standpunkt, dass Cloud Computing, an dem Drittanbieterdienste beteiligt sind, als eine Form des Outsourcings klassifiziert wird. Finanzinstitute in den Niederlanden müssen die zugehörigen Risiken angehen, bevor sie geschäftliche Aktivitäten in die Cloud verlagern. Zu diesen zählen:
+Im Allgemeinen unterstützen die Gesetze und Richtlinien den Standpunkt, dass Cloud Computing, an dem Drittanbieterdienste beteiligt sind, als eine Form des Outsourcings klassifiziert wird. Finanzinstitute in den Niederlanden müssen die zugehörigen Risiken angehen, bevor sie geschäftliche Aktivitäten in die Cloud verlagern. Diese beinhalten:
 
-- Das Finanzaufsichtsgesetz (FSA) ([niederländisch](https://wetten.overheid.nl/BWBR0020368/2018-02-09) und [englisch](https://www.toezicht.dnb.nl/en/binaries/51-217291.pdf)), das vom niederländischen Parlament 2018 erlassen wurde, führt Bedingungen für Finanzinstitutionen an, um die mit der Auslagerung verbundenen Risiken zu kontrollieren und um sicherzustellen, dass die Aufsichtsbehörden nicht behindert werden.
+- Das Finanzaufsichtsgesetz (FSA) ([Niederländisch](https://wetten.overheid.nl/BWBR0020368/2018-02-09) und [Englisch](https://www.toezicht.dnb.nl/en/binaries/51-217291.pdf)), das vom niederländischen Parlament 2018 erlassen wurde, führt Bedingungen für Finanzinstitutionen an, um die mit der Auslagerung verbundenen Risiken zu kontrollieren und um sicherzustellen, dass die Aufsichtsbehörden nicht behindert werden.
 - Das von der DNB herausgegebene „Circulaire Cloud Computing“ ([niederländisch](https://www.toezicht.dnb.nl/binaries/50-224828.pdf) und [englisch](https://www.toezicht.dnb.nl/en/binaries/51-224828.pdf)), setzt voraus, dass bevor überwachte niederländische Institutionen Cloud Computing betreiben, sie die DNB über Ihre künftigen Outsourcing-Vorkehrungen informieren müssen, um sicherzustellen, dass betriebliche Prozesse und Risiken unter Kontrolle sind.
 
 Mithilfe einer von der DNB bereitgestellten Vorlage müssen sie eine obligatorische Risikoanalyse übermitteln, die Folgendes umfasst:
