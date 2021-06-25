@@ -15,12 +15,12 @@ ms.custom:
 - seo-marvel-mar2020
 titleSuffix: Microsoft GDPR
 hideEdit: true
-ms.openlocfilehash: b047b4ccf7fa9745a7237de79bbaa198e079865e
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: 298f0efe74539c8a8bd10330cfeb80894ef9edb1
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51496020"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089014"
 ---
 # <a name="gdpr-for-office-web-apps-server-and-office-online-server"></a>DSGVO für Office Web Apps Server und Office Online Server
 
@@ -32,7 +32,7 @@ Jede Protokollzeile enthält eine CorrelationID. Verwandte Protokollzeilen teile
 
 ## <a name="gathering-logs"></a>Erfassen von Protokollen
 
-Um alle Protokolle zu erfassen, die beispielsweise UserID 1 zugeordnet sind, müssen zunächst alle Sitzungen erfasst werden, die UserID 1 zugeordnet sind (d. h. SessionID 1 und SessionID 2). Der nächste Schritt wäre das Erfassen aller Korrelationen, die SessionID 1 (d. h. CorrelationIDs 1, 2 und 3) und SessionID 2 (d. h. CorrelationID 4) zugeordnet sind. Zum Schluss müssen alle Protokolle erfasst werden, die den einzelnen Korrelationen in der Liste zugeordnet sind.
+Um beispielsweise alle mit der UserID 1 verknüpften Protokolle zu sammeln, besteht der erste Schritt darin, alle Sitzungen zu sammeln, die mit UserID 1 verknüpft sind (d. h. SessionID 1 und SessionID2). Im nächsten Schritt werden alle Korrelationen erfasst, die SessionID 1 (d. h. CorrelationIDs 1, 2 und 3) und SessionID 2 (d. h. CorrelationID 4) zugeordnet sind. Sammeln Sie dann alle Protokolle, die mit jeder der Korrelationen in der Liste verknüpft sind.
 
 1. ULS Viewer starten
 
@@ -80,10 +80,10 @@ Office-Protokolle enthalten eine Vielzahl von verschiedenen Arten von Daten. Nac
 
 - Leistungsdaten über die App und/oder bestimmte Features der App
 
-- Allgemeine Informationen zum Standort des Computers des Benutzers (z. B. Land/Region, Bundesland und Stadt, die aus der IP-Adresse abgeleitet werden), jedoch kein präziser geografischer Standort.
+- Allgemeine Informationen zum Standort des Computers des Benutzers (z. B. Land/Region, Bundesland und Stadt, die aus der IP-Adresse abgeleitet werden), jedoch kein präziser geografischer Standort.
 
-- Grundlegende Metadaten zum Browser, z. B. Browsername und Version, und zum Computer, z. B. Betriebssystemtyp und Version
+- Grundlegende Metadaten über den Browser, z. B. Browsername und -version, und den Computer, z. B. Betriebssystemtyp und -version
 
-- Fehlermeldungen aus dem Dokumenthost (z. B. OneDrive, SharePoint, Exchange)
+- Fehlermeldungen vom Dokumentenhost (z. B. OneDrive, SharePoint, Exchange)
 
 - Informationen zu App-internen Prozessen, die mit keiner Aktion des Benutzers zusammenhängen

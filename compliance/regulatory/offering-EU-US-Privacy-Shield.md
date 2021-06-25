@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: ae241dcff38ac764c2b57f559e95c079d6e59cd7
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: afe763500a4c8f3af261870af53216c6f6f95d39
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121234"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53088954"
 ---
 # <a name="eu-us-and-swiss-us-privacy-shield-frameworks"></a>EU-US und Swiss-US Privacy Shield Frameworks
 
@@ -29,13 +29,13 @@ ms.locfileid: "50121234"
 
 Gemäß dem Privacy Shield-Programm wurden die [EU-US und Swiss-US Privacy Shield Frameworks](https://www.privacyshield.gov/welcome) vom US-Handelsministerium und der Europäischen Kommission bzw. der Bundesverwaltung der Schweiz entworfen, um Unternehmen auf beiden Seiten des Atlantiks einen Mechanismus zur Einhaltung von Datenschutzbestimmungen für die Übertragung von personenbezogenen Daten aus der Europäischen Union und der Schweiz in die Vereinigten Staaten bereitzustellen. Die International Trade Administration innerhalb des Handelsministeriums verwaltet das Privacy Shield-Programm in den Vereinigten Staaten.
 
-Die Übertragung personenbezogener Daten außerhalb der EU und der Schweiz unterliegt den Gesetzen der Europäischen Union und der Schweiz, die im allgemeinen verhindern, dass personenbezogene Daten in Länder außerhalb des EWR übertragen werden, es sei denn, es gibt angemessene Schutzebenen. Die Privacy Shield Frameworks und die Standard-Vertragsklauseln (oder [EU-Standardvertragsklauseln](offering-EU-Model-Clauses.md)) sind zwei Mechanismen, die diese Datenschutzebene bereitstellen.
+Die Übertragung personenbezogener Daten außerhalb der EU und der Schweiz unterliegt den Gesetzen der Europäischen Union und der Schweiz, die im allgemeinen verhindern, dass personenbezogene Daten in Länder außerhalb des EWR übertragen werden, es sei denn, es gibt "angemessene" Schutzebenen. Die Privacy Shield Frameworks und die Standard-Vertragsklauseln (oder [EU-Standardvertragsklauseln](offering-EU-Model-Clauses.md)) sind zwei Mechanismen, die diese Datenschutzebene bereitstellen.
 
 Die 23 [Privacy Shield Principles](https://www.privacyshield.gov/article?id=Requirements-of-Participation) definieren eine Reihe von Voraussetzungen für die Nutzung und Verarbeitung personenbezogener Daten, die aus der EU übertragen werden, sowie Zugangs- und Streitschlichtungsmechanismen, die von teilnehmenden Unternehmen für EU-Bürger bereitgestellt werden müssen. Unternehmen müssen Einzelpersonen mitteilen, wie ihre Daten verarbeitet werden, deren Verwendungszwecke einschränken, die Daten während der gesamten Aufbewahrungsdauer schützen, und die Haftung für die Übertragung der Daten an Dritte übernehmen. Zu den Voraussetzungen gehören außerdem die Bereitstellung von kostenlosen und barrierefreien Streitschlichtungsverfahren und Transparenz im Zusammenhang mit Behördenanfragen im Hinblick auf personenbezogene Daten.
 
 ## <a name="microsoft-and-the-eu-us-and-swiss-us-privacy-shield-frameworks"></a>Microsoft und die EU-US und Swiss-US Privacy Shield Frameworks
 
-Um sich freiwillig an den EU-US und Swiss-US Privacy Shield Frameworks zu beteiligen, müssen sich Unternehmen in den USA öffentlich zur Einhaltung der Anforderungen der Frameworks verpflichten und ihre Einhaltung beim US-Handelsministerium selbst zertifizieren. Nach der öffentlichen Verpflichtung und selbständigen Zertifizierung ist diese Verpflichtung nach US-amerikanischem Recht durchsetzbar.
+Um sich freiwillig an den EU-US und Swiss-US Privacy Shield Frameworks zu beteiligen, müssen sich Unternehmen in den USA öffentlich zur Einhaltung der Anforderungen der Frameworks verpflichten und ihre Einhaltung beim US-Handelsministerium selbst zertifizieren. Sobald sie sich öffentlich verpflichten und sich selbst zertifizieren, wird diese Verpflichtung nach US-Recht durchsetzbar.
 
 Microsoft hat sich öffentlich zur Einhaltung der [Privacy Shield Principles](https://www.privacyshield.gov/article?id=Requirements-of-Participation) verpflichtet und seine Einhaltung gemäß den Anforderungen entsprechend zertifiziert. Unsere Teilnahme gilt für alle von Microsoft verarbeiteten personenbezogenen Daten, die aus der Europäischen Union, aus dem Europäischen Wirtschaftsraum (EWR) und aus der Schweiz in die USA übertragen werden. Außerdem profitieren Kunden von Microsoft Business Cloud Services von der Einhaltung der Standard-Vertragsklauseln (auch bezeichnet als [EU-Standardvertragsklauseln](offering-eu-model-clauses.md)) in den [Microsoft-Onlineservicebedingungen](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31), es sei denn, der Kunde hat diese Klauseln abgelehnt.
 
@@ -67,7 +67,7 @@ Datenschutz in Azure: Azure bietet Kunden sowohl standardmäßig als auch option
 
 **Welche Daten werden aus der EU oder der Schweiz gemäß der Microsoft Privacy Shield-Vereinbarung in die Vereinigten Staaten übertragen?**
 
-Wie in unseren Online-Servicebedingungen festgelegt, können personenbezogene Daten, die von Microsoft im Namen des Kunden verarbeitet werden, in die Vereinigten Staaten oder in ein anderes Land, in dem Microsoft oder seine verbundenen Unternehmen oder Subunternehmer Einrichtungen unterhalten, übertragen werden. Derartige Übermittlungen aus der EU müssen jedoch die Anforderungen des EU-Rechts erfüllen.
+Wie in unseren Online-Servicebedingungen festgelegt, können personenbezogene Daten, die von Microsoft im Namen des Kunden verarbeitet werden, in die Vereinigten Staaten oder in ein anderes Land, in dem Microsoft oder seine verbundenen Unternehmen oder Subunternehmer Einrichtungen unterhalten, übertragen werden. Solche Übertragungen aus der EU müssen jedoch die Anforderungen des EU-Rechts erfüllen.
 
 Bei der Übertragung personenbezogener Daten aus der EU in die Vereinigten Staaten durch:
 

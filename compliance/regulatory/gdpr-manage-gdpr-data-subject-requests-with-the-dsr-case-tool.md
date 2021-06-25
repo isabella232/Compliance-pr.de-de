@@ -9,7 +9,7 @@ manager: laurawi
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+localization_priority: Priority
 search.appverid:
 - MET150
 ms.collection:
@@ -20,12 +20,12 @@ ms.collection:
 ms.assetid: ce9eb942-3589-42cb-88fd-1576ecb09c5c
 ms.custom: seo-marvel-apr2020
 hideEdit: true
-ms.openlocfilehash: f89faf915e31e375674020fda1fe56fe7cd78410
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: 8448d9a77352491ce0066dbf74ed5aea0e8f7a29
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51496060"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089578"
 ---
 # <a name="manage-gdpr-data-subject-requests-with-the-dsr-case-tool-in-the-security--compliance-center"></a>Verwalten von Anträgen betroffener Personen nach der DSGVO mit dem DSR-Falltool im Security & Compliance Center
 
@@ -126,7 +126,7 @@ Im nächsten Schritt erstellen wir einen DSR-Fall (Fall für einen Antrag einer 
     
 ## <a name="step-3-run-the-search-query"></a>Schritt 3: Ausführen der Suchabfrage
 
-Nachdem Sie einen DSR-Fall erstellt und Mitglieder hinzugefügt haben, besteht der nächste Schritt in der Ausführung der integrierten Suche, die dem Fall zugeordnet ist. Diese standardmäßige Suchabfrage führt die folgenden Aufgaben aus:
+Nachdem Sie einen DSR-Fall erstellt und Mitglieder hinzugefügt haben, besteht der nächste Schritt in der Ausführung der integrierten Suche, die dem Fall zugeordnet ist. Diese Standardsuchabfrage führt Folgendes aus:
   
 - Alle Postfächer in Ihrer Organisation werden nach allen E-Mail-Elementen durchsucht, die die Person gesendet oder erhalten hat. Hierzu wird die E-Mail-Eigenschaft *Participants*  verwendet, über die in allen Personenfeldern in einer E-Mail-Nachricht nach der betroffenen Person gesucht wird. Diese Eigenschaft gibt Elemente zurück, bei denen die betroffene Person in den Feldern **Von**, **An**, **CC** und **BCC** gefunden wurde. Öffentliche Ordner in Exchange Online werden ebenfalls nach Nachrichten durchsucht, die von der betroffenen Person gesendet oder empfangen wurden. 
     
@@ -373,13 +373,13 @@ Wenn Sie Daten aus dem Office-Roamingdienst exportieren, werden diese in einem s
 
 Es wird davon abgeraten, teilweise indizierte Elemente (auch als nicht indizierte Elemente bezeichnet) aus der integrierten Suche, die beim Erstellen eines DSR-Falls erstellt wird, zu exportieren. Dies liegt daran, dass die Suchergebnisse höchstwahrscheinlich teilweise indizierte Elemente für andere Benutzer in Ihrer Organisation und nicht nur solche für die betroffene Person enthalten. Es empfiehlt sich, stattdessen eine separate, dem DSR-Fall zugeordnete Inhaltssuche zu erstellen, die nur die mit der betroffenen Person in Zusammenhang stehenden teilweise indizierten Elemente exportiert. 
   
-Nachfolgend wird ein allgemeines Verfahren zum Exportieren teilweise indizierter Elemente beschrieben. Nachdem die Elemente exportiert wurden, können Sie sie überprüfen, um festzustellen, ob eines für den Zugriff oder den Export infolge eines Antrag einer betroffenen Person infrage kommt.
+Hier ist ein allgemeiner Prozess zum Exportieren von teilweise indizierten Elementen. Nachdem die Elemente exportiert wurden, können Sie sie überprüfen, um festzustellen, ob eines für den Zugriff oder den Export infolge eines Antrag einer betroffenen Person infrage kommt.
   
 1. Öffnen Sie den DSR-Fall, und erstellen Sie auf der Seite **Suchen** eine Suche. 
     
 2. Konfigurieren Sie die Suchabfrage und die zu durchsuchenden Inhaltsspeicherorte anhand der folgenden Kriterien:
     
-    - Verwenden Sie eine leere Stichwortabfrage. Dadurch werden alle Elemente an den durchsuchten Inhaltsspeicherorten zurückgegeben.
+    - Verwenden Sie eine leere/leere Stichwortabfrage. Dadurch werden alle Elemente an den durchsuchten Inhaltsspeicherorten zurückgegeben.
     
     - Durchsuchen Sie nur das Exchange Online-Postfach der betroffenen Person sowie ihr OneDrive-Konto.
     
