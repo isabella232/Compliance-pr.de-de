@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d542698eff82fa8f24a32d9f831553a9807609ce
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 43d95a4bedeca768dd6e9bf8bb4e38655382bd05
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506761"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089699"
 ---
 # <a name="korea-information-security-management-system-k-isms"></a>Korea-Information Security Management System (K-ISMS)
 
@@ -71,7 +71,7 @@ Es gibt freiwillige und obligatorische Teilnehmer. Freiwillige Teilnehmer wie Mi
 - Alle Organisationen, die die folgenden Bedingungen erfüllen:
 
     - Krankenhäuser, die in Artikel 3 Abschnitt 4 des Medical Service Act als „größeres allgemeines Krankenhaus“ kategorisiert werden, deren jährlicher Umsatz oder Steuerertrag mindestens 150 Millionen USD beträgt.
-    - Schulen gemäß Artikel 2 des Higher Education Act, bei denen die Anzahl der registrierten Schüler mindestens 10.000 ab dem 31. Dezember des unmittelbar vorhergehenden Jahres beträgt.
+    - Schulen gemäß Artikel 2 des Higher Education Act, bei denen die Anzahl der registrierten Schüler mindestens 10.000 ab dem 31. Dezember des unmittelbar vorhergehenden Jahres beträgt.
     - Dienstanbieter für Informationsnetzwerke, deren Verkaufszahlen für Informations-und Kommunikationsdienste mindestens 10 Millionen USD beträgt oder die durchschnittlich mindestens 1 Million Benutzer pro Tag in den vorhergehenden drei Monaten haben; ausgenommen sind allerdings Finanzunternehmen gemäß Artikel 2 Unterabsatz 3 des Electronic Financial Transactions Act.
 
 **Wie wirkt sich die Integration von K-ISMS und K-PIMS auf die Microsoft-Zertifizierung aus?**

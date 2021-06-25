@@ -16,24 +16,24 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 36a04d2669548d837409280d6bf615bebe7f15d9
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: a665e6be33d42901597de23f39b6e71ae9c2fe70
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506933"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089799"
 ---
 # <a name="spanish-royal-decree-17202007-spanish-organic-law-151999"></a>Spanisches Königliches Dekret 1720/2007, Spanisches Grundgesetz 15/1999
 
 ## <a name="spanish-royal-decree-17202007-spanish-organic-law-151999-overview"></a>Spanisches Königliches Dekret 1720/2007, spanisches organisches Gesetz 15/1999 – Übersicht
 
-Die AEPD ist die öffentliche Behörde, die die Compliance mit dem spanischen organischen Gesetz 15/1999 zum Schutz personenbezogener Daten überwacht ([Ley Orgánica 15/1999 de Protección de Datos](https://www.boe.es/buscar/act.php?id=BOE-A-1999-23750) oder LOPD), einschließlich der Übertragung von Daten über internationale Grenzen hinweg. Im Jahr 2014 überprüfte die AEPD die Microsoft-Bestimmungen für die von den EU-Standardvertragsklauseln abgedeckten Onlinedienste Microsoft Azure, Dynamics 365 und Office 365 und kam zu dem Schluss, dass diese Bestimmungen Kunden angemessene Schutzmaßnahmen bieten, um ihre personenbezogenen Daten zu diesen Diensten migrieren zu können.
+Die AEPD ist die öffentliche Behörde, die die Compliance mit dem spanischen organischen Gesetz 15/1999 zum Schutz personenbezogener Daten überwacht ([Ley Orgánica 15/1999 de Protección de Datos](https://www.boe.es/buscar/act.php?id=BOE-A-1999-23750) oder LOPD), einschließlich der Übertragung von Daten über internationale Grenzen hinweg. Im Jahr 2014 überprüfte die AEPD die Microsoft-Bestimmungen für die von den EU-Standardvertragsklauseln abgedeckten Onlinedienste Microsoft Azure, Dynamics 365 und Office 365 und kam zu dem Schluss, dass diese Bestimmungen Kunden angemessene Schutzmaßnahmen bieten, um ihre personenbezogenen Daten zu diesen Diensten migrieren zu können.
 
-Titel VIII des Königlichen Dekrets 1720/2007 legt darüber hinaus strenge Anforderungen für die Verarbeitung personenbezogener Daten fest, einschließlich einer spezifische Auflistung von Sicherheitsmaßnahmen auf Basis-, Zwischen- und hoher Ebene, die implementiert werden müssen. Microsoft beauftragte ein unabhängiges spanisches Auditunternehmen, BDO Auditores, mit der Bewertung von Microsoft Azure und Office 365 in Bezug auf die Compliance mit den Anforderungen auf hoher Ebene und von Microsoft Dynamics 365 in Bezug auf die Compliance mit den Anforderungen auf der Zwischenebene, wie im Königlichen Dekret 1720/2007 festgelegt. Basierend auf Interviews, Besuchen in Einrichtungen und einer Überprüfung der Umgebungsbedingungen und physischen Sicherheitsmaßnahmen und -kontrollen kam der Auditor zum Schluss, dass die Informationssysteme, Einrichtungen und Datenverarbeitungsverfahren von Microsoft Azure und Office 365 die Anforderungen auf hoher Ebene erfüllen, ohne dass Korrekturen erforderlich sind.
+Titel VIII des Königlichen Dekrets 1720/2007 legt darüber hinaus strenge Anforderungen für die Verarbeitung personenbezogener Daten fest, einschließlich einer spezifische Auflistung von Sicherheitsmaßnahmen auf Basis-, Zwischen- und hoher Ebene, die implementiert werden müssen. Microsoft beauftragte ein unabhängiges spanisches Auditunternehmen, BDO Auditores, mit der Bewertung von Microsoft Azure und Office 365 in Bezug auf die Compliance mit den Anforderungen auf hoher Ebene und von Microsoft Dynamics 365 in Bezug auf die Compliance mit den Anforderungen auf der Zwischenebene, wie im Königlichen Dekret 1720/2007 festgelegt. Basierend auf Interviews, Besuchen in Einrichtungen und einer Überprüfung der Umgebungsbedingungen und physischen Sicherheitsmaßnahmen und -kontrollen kam der Auditor zum Schluss, dass die Informationssysteme, Einrichtungen und Datenverarbeitungsverfahren von Microsoft Azure und Office 365 die Anforderungen auf hoher Ebene erfüllen, ohne dass Korrekturen erforderlich sind.
 
 ## <a name="microsoft-and-spanish-royal-decree-17202007-spanish-organic-law-151999"></a>Microsoft und das spanische Königliche Dekret 1720/2007 und das spanische organische Gesetz 15/1999
 
-Microsoft war der erste Anbieter hyperskalierter Clouddienste, der zum Vorteil seiner Kunden aufgrund seiner Compliance mit den hohen Standards für die internationale Übertragung von Daten, die durch das spanische organische Gesetz 15/1999 (Ley Orgánica 15/1999 de Protección de Datos, LOPD) festgelegt werden, eine Genehmigung der spanischen Datenschutzbehörde (Agencia Española de Protección de Datos, AEPD) erhielt. Microsoft ist auch der erste Anbieter hyperskalierter Clouddienste, der nach einer Überprüfung durch Dritte eine Zertifizierung über die Compliance seiner Onlinedienste mit den Sicherheitsmaßnahmen erhielt, die in Titel VIII des Königlichen Dekrets 1720/2007 beschrieben werden. Aufgrund dieser Genehmigung dürfen Kunden personenbezogene Daten an Microsoft Azure-, Dynamics 365- und Office 365-Dienste übertragen, die durch die Standardvertragsklauseln der Europäischen Union abgedeckt werden.
+Microsoft war der erste Anbieter hyperskalierter Clouddienste, der zum Vorteil seiner Kunden aufgrund seiner Compliance mit den hohen Standards für die internationale Übertragung von Daten, die durch das spanische organische Gesetz 15/1999 (Ley Orgánica 15/1999 de Protección de Datos, LOPD) festgelegt werden, eine Genehmigung der spanischen Datenschutzbehörde (Agencia Española de Protección de Datos, AEPD) erhielt. Microsoft ist auch der erste Anbieter hyperskalierter Clouddienste, der nach einer Überprüfung durch Dritte eine Zertifizierung über die Compliance seiner Onlinedienste mit den Sicherheitsmaßnahmen erhielt, die in Titel VIII des Königlichen Dekrets 1720/2007 beschrieben werden. Aufgrund dieser Genehmigung dürfen Kunden personenbezogene Daten an Microsoft Azure-, Dynamics 365- und Office 365-Dienste übertragen, die durch die Standardvertragsklauseln der Europäischen Union abgedeckt werden.
 
 ## <a name="microsoft-in-scope-cloud-services"></a>In-Scope-Cloud-Dienste von Microsoft
 
@@ -72,6 +72,6 @@ Ja. Wenn Ihre Organisation eine Akkreditierung gemäß des LOPD oder des Königl
 ## <a name="resources"></a>Ressourcen
 
 - Spanische Datenschutzbehörde ([Spanisch](https://www.agpd.es/portalwebAGPD/index-ides-idphp.php))
-- Organisches Gesetz 15/1999 vom 13. Dezember zum Schutz personenbezogener Daten ([Spanisch](https://www.boe.es/buscar/act.php?id=BOE-A-1999-23750))
+- Organisches Gesetz 15/1999 vom 13. Dezember zum Schutz personenbezogener Daten ([Spanisch](https://www.boe.es/buscar/act.php?id=BOE-A-1999-23750))
 - [Nutzungsbedingungen für Microsoft-Onlinedienste](https://aka.ms/Online-Services-Terms)
 - [Compliance im Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)

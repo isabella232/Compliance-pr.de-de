@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a076f51bbbefe60b1bdb41e656398da9e6d41825
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 379720a1769048fea6abc22f850a6ef54f601351
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49509426"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089054"
 ---
 # <a name="monetary-authority-of-singapore-mas-and-association-of-banks-in-singapore-abs"></a>Die Währungsbehörde von Singapur (Monetary Authority of Singapore, MAS) und die Bankvereinigung von Singapur (Association of Banks in Singapore, ABS)
 
@@ -31,7 +31,7 @@ ms.locfileid: "49509426"
 
 Im Juli 2016 hat die MAS, die alleinige Bankaufsichtsbehörde in Singapur und seine Zentralbank, ihre [Richtlinien zum Outsourcing des Risikomanagements](https://www.mas.gov.sg/~/media/MAS/Regulations%20and%20Financial%20Stability/Regulatory%20and%20Supervisory%20Framework/Risk%20Management/Outsourcing%20Guidelines_Jul%202016.pdf) herausgegeben. In den Richtlinien hat MAS ihre Erwartungen hinsichtlich des Outsourcings von Cloud-Diensten durch Finanzinstitute in Singapur, einschließlich Banken, Versicherungen und Treuhandgesellschaften, dargelegt. Dies war das Ergebnis einer branchenweiten Konsultation, die im Oktober 2014 begann. Daran war Microsoft auch beteiligt.
 
-Die Richtlinien von MAS rationalisieren den Prozess für die Einführung von Technologien erheblich, sorgen für Klarheit hinsichtlich der Erwartungen des Regulators und behandeln viele der Missverständnisse, die zuvor die Einführung von Cloud-Lösungen durch die Finanzbranche verlangsamt hatten.
+Die MAS-Richtlinien optimieren den Prozess für die Technologieeinführung erheblich, sorgen für Klarheit in Bezug auf die Erwartungen des Regulators und beheben viele der Missverständnisse, die zuvor die Einführung von Cloudlösungen in der Finanzbranche verlangsamt haben.
 
 Außerdem sind die Richtlinien eindeutig in ihrer Unterstützung der Nutzung von Cloud-Diensten, einschließlich einer öffentlichen Cloud, durch Finanzinstitute und sie können davon profitieren. Sie haben die Erwartung ausgeschlossen, dass Finanzinstitute die MAS vor wesentlichen Outsourcing-Verpflichtungen informieren würden. Stattdessen wird erwartet, dass von der MAS regulierten Einrichtungen ihren risikobasierten Ansatz bei der Bewertung des wesentlichen Outsourcing verfeinern und eine Selbsteinschätzung aller Outsourcing-Vorkehrungen gegen diese Richtlinien durchführen. (Zurzeit sind diese Richtlinien nicht rechtskräftig, aber die MAS hat mitgeteilt, dass Sie in Zukunft eine amtliche Mitteilung ausstellen wird.)
 
@@ -71,18 +71,18 @@ Erhalten Sie praxisorientierte Unterstützung beim Verschieben von Daten und Wor
 - [Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
-- Power BI-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365-Plan oder einer -Anwendungssuite enthalten
+- Power BI-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365-Plan oder einer -Anwendungssuite enthalten
 - [Office 365](https://aka.ms/o365-compliance-framework)
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
 **Ist eine behördliche Genehmigung erforderlich?**
 
-Nein, es besteht keine Verpflichtung zur vorherigen Benachrichtigung, Konsultation oder Genehmigung der Auslagerungsvereinbarungen. Allerdings erwartet die MAS, dass Finanzinstitute bereit sind, ihre Compliance nachzuweisen, und die MAS so schnell wie möglich über negative Entwicklungen zu informieren, die sich aus den Outsourcing-Anordnungen eines Finanzinstitutes ergeben – z. B. einem Vorfall durch Datenverletzung.
+Nein, es besteht keine Verpflichtung zur vorherigen Benachrichtigung, Konsultation oder Genehmigung der Auslagerungsvereinbarungen. Die MAS erwartet jedoch, dass Finanzinstitute bereit sind, zu demonstrieren, wie sie dies einhalten, und die MAS so bald wie möglich über negative Entwicklungen zu informieren, die sich aus den Auslagerungsvereinbarungen eines Finanzinstituts ergeben, z. B. bei einer Datenschutzverletzung.
 
 **Was ist eine „wesentliche“ Auslagerungsvereinbarung und warum ist die Definition wichtig?**
 
-Eine Auslagerungsvereinbarung ist „wesentlich“, wenn ein Dienstausfall oder eine Verletzung das Potential hat, den Geschäftsbetrieb eines Finanzunternehmens oder seine Fähigkeit, Risiken zu verwalten und die geltenden Gesetze und Bestimmungen einzuhalten erheblich zu beeinträchtigen, oder wenn sie Kundeninformationen umfasst und, im Falle eines nicht autorisierten Zugriffs oder einer Offenlegung, eines Verlusts oder eines Diebstahls von Kundendaten, eine wesentliche Auswirkung auf die Kunden eines Unternehmens hat. Bei der Definition von "Kundendaten" werden sicher verschlüsselte Informationen ausdrücklich ausgeschlossen.
+Eine Auslagerungsvereinbarung ist „wesentlich“, wenn ein Dienstausfall oder eine Verletzung das Potenzial hat, den Geschäftsbetrieb eines Finanzunternehmens wesentlich zu beeinträchtigen oder das Risiko zu verwalten und die geltenden Gesetze und Vorschriften einzuhalten; oder wenn es sich um Kundeninformationen handelt und im Falle eines nicht autorisierten Zugriffs oder einer unbefugten Offenlegung, eines Verlusts oder Diebstahls von Kundeninformationen dies wesentliche Auswirkungen auf die Kunden eines Unternehmens hätte. Die Definition von „Kundeninformationen“ schließt ausdrücklich sicher verschlüsselte Informationen aus.
 
 Diese Definition ist wichtig, da einige Bestimmungen der Outsourcing-Richtlinien von MAS nur für „wesentliche Auslagerungsvereinbarungen“ gelten. Dazu gehören die Verpflichtung zur Durchführung jährlicher Überprüfungen, die zwingenden Vertragsklauseln zu Prüfungsrechten und die Sicherstellung, dass Outsourcing außerhalb Singapurs keine Auswirkung auf die aufsichtsrechtlichen Anstrengungen von MAS hat.
 

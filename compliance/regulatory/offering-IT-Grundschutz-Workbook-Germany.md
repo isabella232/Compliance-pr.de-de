@@ -16,27 +16,27 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: c079230e1fca6ea19248218a6ecd01eeb896fd87
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 36347cd4df74a87db2dba5977b5ed1270c29086e
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49509485"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089809"
 ---
 # <a name="it-grundschutz-compliance-workbook"></a>IT-Grundschutz Compliance-Workbook
 
 ## <a name="it-grundschutz-compliance-workbook-overview"></a>Übersicht über das IT-Grundschutz Compliance-Workbook
 
-Zur Unterstützung von Organisationen bei der Erkennung und Umsetzung von Maßnahmen zum Schutz von IT-Systemen hat das Bundesamt für Sicherheit in der Informationstechnik (BSI) grundlegende Standards zum Schutz der Informationstechnologie erstellt, den sogenannten IT-Grundschutz. Diese BSI-Standards umfassen:
+Zur Unterstützung von Organisationen bei der Erkennung und Umsetzung von Maßnahmen zum Schutz von IT-Systemen hat das Bundesamt für Sicherheit in der Informationstechnik (BSI) grundlegende Standards zum Schutz der Informationstechnologie erstellt, den sogenannten IT-Grundschutz. Diese BSI-Standards bestehen aus:
 
-- Ein Information Security Management System (ISMS) nach ISO/IEC 27001-Standards (BSI-Standard 100-1)
-- Die IT-Grundschutz-Methodik, welche die Einrichtung und den Betrieb eines ISMS beschreibt (BSI-Standard 100-2)
-- Eine Methode zur Risikoanalyse (BSI-Standard 100-3)
+- Ein Information Security Management System (ISMS) nach ISO/IEC 27001-Standards (BSI-Standard 100-1)
+- Die IT-Grundschutz-Methodik, welche die Einrichtung und den Betrieb eines ISMS beschreibt (BSI-Standard 100-2)
+- Eine Methode zur Risikoanalyse (BSI-Standard 100-3)
 - Die IT-Grundschutz-Kataloge, einen Standardsatz von potenziellen Gefahren und entsprechenden Schutzmaßnahmen für typische Geschäftsumgebungen
 
 ## <a name="microsoft-and-it-grundschutz-compliance-workbook"></a>Microsoft und IT-Grundschutz Compliance-Workbook
 
-Um unsere Kunden dabei zu unterstützen, die IT-Grundschutz-Zertifizierung zu erhalten, hat Microsoft Deutschland das [IT-Grundschutz Compliance-Workbook](https://aka.ms/grundschutzworkbook) für auf Azure Deutschland bereitgestellte Lösungen und Workloads veröffentlicht. Das Workbook wurde von HiSolutions AG, einem unabhängigen Beratungs- und Auditunternehmen in Deutschland, entwickelt und basiert auf der aktuellen Version der [ IT-Grundschutz-Kataloge (15. EL)](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/International/GSK_15_EL_EN_Draft.pdf?__blob=publicationFile&v=2) (2015), die Bausteine zur Nutzung des Internets und der Cloud umfasst, wie beispielsweise B 1.17 „Cloud-Nutzung“.
+Um unsere Kunden dabei zu unterstützen, die IT-Grundschutz-Zertifizierung zu erhalten, hat Microsoft Deutschland das [IT-Grundschutz Compliance-Workbook](https://aka.ms/grundschutzworkbook) für auf Azure Deutschland bereitgestellte Lösungen und Workloads veröffentlicht. Das Workbook wurde von HiSolutions AG, einem unabhängigen Beratungs- und Auditunternehmen in Deutschland, entwickelt und basiert auf der aktuellen Version der [ IT-Grundschutz-Kataloge (15. EL)](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/International/GSK_15_EL_EN_Draft.pdf?__blob=publicationFile&v=2) (2015), die Bausteine zur Nutzung des Internets und der Cloud umfasst, wie beispielsweise B 1.17 „Cloud-Nutzung“.
 
 Das IT-Grundschutz Compliance-Workbook soll Kunden der Microsoft Cloud Deutschland dabei unterstützen, die Nutzung von Clouddiensten im Rahmen einer bestehenden oder geplanten ISO 27001-Zertifizierung auf Basis von IT-Grundschutz in ihrem Informationsverbund abzubilden. Es beschreibt, wie die IT-Grundschutz-Methodik auf Applikationen in der Cloud angewendet wird, und zeigt auf, wie alle prüfungsrelevanten Sicherheitsmaßnahmen aus dem IT-Grundschutz-Baustein B 1.17 „Cloud-Nutzung“ implementiert werden.
 
@@ -53,7 +53,7 @@ Das IT-Grundschutz Compliance-Workbook soll Kunden der Microsoft Cloud Deutschla
 
 **Kann ich das IT-Grundschutz Compliance-Workbook von Microsoft nutzen, um mein Unternehmen bei der Einhaltung von IT-Grundschutz zu unterstützen?**
 
-Ja. Ja. Das IT Grundschutz Compliance Workbook soll Kunden der Microsoft Cloud Deutschland dabei unterstützen, die Nutzung von Clouddiensten im Rahmen einer bestehenden oder geplanten ISO-27001-Zertifizierung auf Basis von IT-Grundschutz in ihrem Informationsverbund abzubilden.
+Ja. Das IT Grundschutz Compliance Workbook soll Kunden der Microsoft Cloud Deutschland dabei unterstützen, die Nutzung von Clouddiensten im Rahmen einer bestehenden oder geplanten ISO-27001-Zertifizierung auf Basis von IT-Grundschutz in ihrem Informationsverbund abzubilden.
 
 **Was ist der Unterschied zwischen den IT-Grundschutz-Katalogen und dem C5?**
 
@@ -61,7 +61,7 @@ Der Cloud Computing Compliance Controls Catalog (C5) ist ein geprüfter Standard
 
 **Was ist die Microsoft Cloud Deutschland?**
 
-Bei der Microsoft Cloud Deutschland handelt es sich um eine souveräne Cloud mit deutschen Rechenzentrumsstandorten. Es gelten deutsche Datenschutzgesetze, welche die Übertragung von personenbezogenen Daten in andere Länder beschränken und Schutz vor Zugriff durch Behörden anderer Gerichtsbarkeiten bieten, die nationales Recht verletzen könnten. Über ein einzigartiges Datentreuhändermodell nach deutschem Recht bietet Azure Deutschland entsprechend Azure-Dienste aus deutschen Rechenzentren mit Datenhaltung in Deutschland sowie strengen Datenzugriff- und Kontrollmaßnahmen.
+Bei der Microsoft Cloud Deutschland handelt es sich um eine souveräne Cloud mit deutschen Rechenzentrumsstandorten. Es gelten deutsche Datenschutzgesetze, welche die Übertragung von personenbezogenen Daten in andere Länder beschränken und Schutz vor Zugriff durch Behörden anderer Gerichtsbarkeiten bieten, die nationales Recht verletzen könnten. Es beinhaltet Azure Deutschland, unsere öffentliche Cloud-Computing-Plattform, und alle ihre Dienste.
 
 ## <a name="resources"></a>Ressourcen
 
