@@ -18,12 +18,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft GDPR
 hideEdit: true
-ms.openlocfilehash: 134bf099671830856f97bf4dd770123d7efaf41a
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: d3429d3fb35317146e32fddc71bae2f12c40269d
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51496115"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089508"
 ---
 # <a name="fasttrack-migration-toolset-for-submitting-delete-request"></a>FastTrack-Migrationstoolset zum Übermitteln von Löschanforderungen
 
@@ -35,9 +35,9 @@ Für den Fall, dass Sie als Kunde derzeit an FastTrack-Migrationen beteiligt sin
 
 Microsoft unterstützt die erste Version dieses Toolsets auf der Windows-Plattform und der PowerShell-Konsole. Die folgenden bekannten Plattformen werden von diesem Toolset unterstützt:
 
-***Tabelle 1 – Von diesem Toolset unterstützte Plattformen***
+***Tabelle 1 – Von diesem Toolset unterstützte Plattformen** _
 
-****
+_***
 
 |PowerShell-Version|Windows 7|Windows 8|Windows 10|Windows Server 2012|Windows Server 2016|
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -53,7 +53,7 @@ Dieses Toolset ist im PowerShell-Katalog in der PowerShell-Konsolenanwendung ver
 
 ![PowerShell – Änderungen durch App zulassen](../media/fasttrack-run-powershell_image.png)
 
-Nachdem die Konsole geöffnet ist, müssen Sie Berechtigungen für die Skriptausführung festlegen. Geben Sie den folgenden Befehl ein, um die Ausführung von Skripts zuzulassen:
+Nachdem die Konsole geöffnet wurde, müssen Sie Berechtigungen für die Skriptausführung festlegen. Geben Sie den folgenden Befehl ein, um die Ausführung der Skripts zuzulassen:
 
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
@@ -61,7 +61,7 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 
 Sie werden aufgefordert, diese Aktion zu bestätigen, da der Administrator den Bereich nach eigenem Ermessen ändern kann.
 
-***Festlegen der Ausführungsrichtlinie***
+**_Festlegen der Ausführungsrichtlinie_* _
 
 ![Festlegen einer Änderung der Ausführungsrichtlinie in PowerShell](../media/powershell-set-execution-policy_image.png)
 
@@ -75,7 +75,7 @@ Install-Module -Name Microsoft.FastTrack -Repository PSGallery -WarningAction Si
 
 Zur erfolgreichen Ausführung dieses Moduls müssen Sie u.U. abhängige Module für die Verwendung installieren, falls diese nicht bereits installiert sind. Möglicherweise müssen Sie PowerShell neu starten.
 
-Um einen DSR einzureichen, müssen Sie sich zuerst mit Ihren Office 365-Anmeldeinformationen anmelden. Nachdem Sie die richtigen Anmeldeinformationen eingegeben haben, wird Ihr Globaler Administrator-Status überprüft und Mandanteninformationen werden erhoben.
+Zum Übermitteln einer Datensubjektanforderung müssen Sie sich zuerst mithilfe Ihrer Anmeldeinformationen für Office 365 anmelden. Durch Eingabe der richtigen Anmeldeinformationen wird Ihr Status als globaler Administrator überprüft, und Mandanteninformationen werden erfasst.
 
 ```powershell
 Login-FastTrackAccount -ApiKey <API Key provided by FastTrack MVM>
@@ -83,7 +83,7 @@ Login-FastTrackAccount -ApiKey <API Key provided by FastTrack MVM>
 
 Nach der erfolgreichen Anmeldung werden die Anmeldeinformationen und der Schlüssel zur Verwendung mit FastTrack-Modulen für den Rest der aktuellen PowerShell-Sitzung gespeichert.
 
-Wenn Sie eine Verbindung mit einer Cloudumgebung für andere als kommerzielle Zwecke herstellen müssen, muss dem *Login*-Befehl *-Environment* mit einer der folgenden gültigen Umgebungen hinzugefügt werden:
+Wenn Sie eine Verbindung mit einer Cloudumgebung für andere als kommerzielle Zwecke herstellen müssen, muss dem *Login*-Befehl _-Environment* mit einer der folgenden gültigen Umgebungen hinzugefügt werden:
 
 - AzureCloud
 - AzureChinaCloud
@@ -100,7 +100,7 @@ Führen Sie den folgenden Befehl aus, um eine DSR-Anforderung einzureichen:
 Submit-FastTrackGdprDsrRequest -DsrRequestUserEmail SubjectUserEmail@mycompany.com
 ```
 
-Bei Erfolg gibt das Cmdlet ein Transaktions-ID-Objekt zurück. Bitte bewahren Sie die Transaktions-ID auf.
+Bei Erfolg gibt das Cmdlet ein Transaktions-ID-Objekt zurück. Bewahren Sie die Transaktions-ID auf.
 
 #### <a name="checking-the-status-of-a-request-transaction"></a>Überprüfen des Status einer Anforderungstransaktion
 
