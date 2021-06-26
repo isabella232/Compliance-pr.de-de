@@ -1,0 +1,230 @@
+### YamlMime:FAQ
+metadata:
+  title: California Consumer Privacy Act (CCPA) – häufig gestellte Fragen
+  description: Häufig gestellte Fragen zu Microsoft-Diensten und zum California Consumer Privacy Act (CCPA)
+  keywords: Microsoft 365, compliance, CCPA, GDPR
+  localization_priority: Priority
+  ms.prod: microsoft-365-enterprise
+  ms.topic: article
+  f1.keywords:
+  - NOCSH
+  ms.author: robmazz
+  author: robmazz
+  manager: laurawi
+  audience: itpro
+  ms.collection:
+  - M365-security-compliance
+  - MS-Compliance
+  ms.openlocfilehash: 2c0cbda2280ee8fad77dd5d879341b291bbe3aa2
+  ms.sourcegitcommit: 5d8e670e9d9968458047b51b6b2930f7bd14a011
+  ms.translationtype: MT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 06/25/2021
+  ms.locfileid: "53142280"
+title: California Consumer Privacy Act (CCPA) – häufig gestellte Fragen
+summary: >
+  > [!Note]
+
+  > Dieser Artikel wird im „Istzustand“ bereitgestellt. Die in diesem Artikel enthaltenen Informationen und zum Ausdruck gebrachten Ansichten, auch URL- und andere Internet-Websitebezüge, können ohne vorherige Ankündigung geändert werden. Das Risiko der Produktnutzung liegt allein beim Nutzer. Dieser Artikel wurde als Leitfaden erstellt und sollte nicht als rechtlicher Ratschlag interpretiert werden. Sie sollten sich mit Ihren eigenen Rechtsexperten beraten. Dieser Artikel gewährt keine Rechte an dem geistigen Eigentum für Microsoft-Produkte. Er darf für interne Zwecke und als Referenz kopiert und verwendet werden.
+sections:
+- name: Kurze häufig gestellte Fragen
+  questions:
+  - question: >
+      Was ist das CCPA?
+    answer: >
+      Das California Consumer Privacy Act (CCPA) ist das erste umfassende Datenschutzgesetz in den Vereinigten Staaten. Es wurde Ende Juni 2018 in Kraft gesetzt und bietet den Verbrauchern in Kalifornien eine Vielzahl von Datenschutzrechten. Unternehmen, die durch das CCPA reguliert werden, haben gegenüber diesen Verbrauchern eine Reihe von Verpflichtungen, einschließlich Offenlegungen, dsgvoähnliche Rechte für Verbraucher, ein "Opt-Out" für bestimmte Datenübertragungen und eine "Opt-In"-Anforderung für Minderjährige.
+  - question: >
+      Wer sollte über das CCPA informiert sein?
+    answer: >
+      Das CCPA (kalifornische Gesetz zum Schutz der Privatsphäre von Verbrauchern) gilt nur für Unternehmen, die in Kalifornien geschäftlich tätig sind und jährlich einen oder mehrere der folgenden Punkte erfüllen: (1) einen Bruttoumsatz von mehr als 25 Millionen USD erwirtschaften, (2) 50 % oder mehr ihres Jahresumsatzes aus dem Verkauf persönlicher Verbraucherinformationen erzielen oder (3) die persönlichen Informationen von mehr als 50.000 Verbrauchern kaufen, verkaufen oder weitergeben.
+  - question: >
+      Wann tritt das CCPA in Kraft?
+    answer: >
+      Das CCPA tritt am 1. Januar 2020 in Kraft. Die Vollstreckung durch die Generalstaatsanwaltschaft wird jedoch erst am 1. Juli 2020 beginnen.
+  - question: >
+      Wie wirkt sich das CCPA auf mein Unternehmen aus?
+    answer: >
+      Viele der Rechte des CCPA, die den Kaliforniern gewährt werden, ähneln den Rechten, die die DSGVO bereitstellt, einschließlich der Offenlegungs- und Verbraucheranforderungen, die den Anträgen betroffener Personen (Data Subject Right, DSR) ähnlich sind, wie z. B. Zugriff, Löschung und Portabilität. Somit kann der Kunde auf unsere bestehenden DSGVO-Lösungen zurückgreifen, um sie bei der CCPA-Compliance zu unterstützen.
+
+
+      Um Ihren Weg durch das CCPA zu beginnen, sollten Sie sich auf fünf wichtige Schritte konzentrieren:
+
+
+      - **Entdecken**: Herausfinden, welche pesönlichen Informationen Sie haben und wo sie sich befinden.
+
+      - **Zuordnen**: Bestimmen Sie, wie Sie persönliche Informationen an Drittanbieter weitergeben und ob der Dritte einer Ausnahme von den Opt-out-Anforderungen des CCPA unterworfen ist.
+
+      - **Verwalten**: Legen Sie fest, wie die Daten genutzt werden und wie darauf zugegriffen wird.
+
+      - **Schützen**: Richten Sie Sicherheitskontrollen ein, um Schwachstellen und Datenschutzverletzungen zu verhindern, zu erkennen und darauf zu reagieren.
+
+      - **Dokumentieren**: Dokumentieren Sie ein Reaktionsprogramm gegen Datenverstöße und stellen Sie sicher, dass Ihre Verträge mit geeigneten Dritten in der Lage sind, die Vorteile der Opt-out-Ausnahmen zu nutzen.
+
+
+      Sie müssen wissen, welche spezifischen Verpflichtungen Ihre Organisation im Rahmen des CCPA hat und wie Sie diese erfüllen. Microsoft ist jedoch hier, um Sie auf Ihrem Weg zu unterstützen.
+- name: Umfassende häufig gestellte Fragen
+  questions:
+  - question: >
+      Welche Rechte müssen Unternehmen laut der CCPA gewähren?
+    answer: >
+      Das CCPA verlangt von regulierten Unternehmen, die persönliche Informationen erheben, verwenden, übertragen und verkaufen unter anderem:
+
+
+      - Den Verbrauchern vor der Erfassung Informationen über die Kategorien und Zwecke der Erfassung zur Verfügung zu stellen.
+
+      - Detaillierte Angaben in einer Datenschutzrichtlinie zu den Quellen, Geschäftszwecken und Kategorien der erfassten persönlichen Informationen, einschließlich der Frage, wie diese Kategorien verkauft oder an andere Unternehmen übertragen werden.
+
+      - Aktivieren Sie den Verbrauchern Rechte in Bezug auf den Zugriff, die Löschung und die Übertragbarkeit der spezifischen persönlichen Informationen, die von Ihnen erfasst wurden.
+
+      - Aktivieren Sie ein Steuerelement, das es Verbrauchern ermöglicht, sich vom "Verkauf" der Daten des Verbrauchers abzumelden. Bestimmte Übertragungen, wie z. B. Übertragungen an Dienstanbieter, bleiben jedoch zulässig.
+
+      - Aktivieren Sie für Minderjährige unter 16 Jahren einen Teilnahmeprozess, sodass kein Verkauf der persönlichen Informationen des Minderjährigen erfolgen kann, ohne sich aktiv für den Verkauf zu entscheiden.
+
+      - Stellen Sie sicher, dass die Verbraucher nicht wegen der Ausübung ihrer Rechte aus dem CCPA diskriminiert werden.
+  - question: >
+      Was sind die erforderlichen CCPA-Offenlegungen?
+    answer: >
+      Das CCPA verlangt die Offenlegung der folgenden Punkte:
+
+
+      - Kategorien von persönlichen Informationen des Verbrauchers, die erfasst wurden.
+
+      - Kategorien von Quellen, die bei der Erfassung verwendet wurden.
+
+      - Die geschäftlichen oder kommerziellen Zwecke der Erfassung.
+
+      - Die Kategorien von Drittanbietern, mit denen die persönlichen Informationen "geteilt" werden.
+
+      - Kategorien von persönlichen Informationen, die "verkauft" wurden, und die Kategorien von "Dritten", an die jede Kategorie von persönlichen Informationen verkauft wurde.
+
+      - Kategorien von persönlichen Informationen, die "für einen geschäftlichen Zweck offengelegt" wurden (d. h. übertragen, aber kein "Verkauf") und die Kategorien von "Dritten", an die jede Kategorie personenbezogener Informationen übertragen wurde.
+
+      - Die spezifischen personenbezogenen Daten, die über diesen Verbraucher erfasst wurden.
+  - question: >
+      Wie werden Daten unter dem CCPA "verkauft"?
+    answer: >
+      Die Definition von "Verkaufen" im CCPA ist unglaublich breit, einschließlich der "Bereitstellung persönlicher Informationen für" einen Dritten für finanzielle oder andere wertvolle Überlegungen. Wenn sich ein Verbraucher für "Opt-out" entschieden hat, muss das Unternehmen den Fluss personenbezogener Informationen an Dritte deaktivieren.
+
+
+      Das CCPA bietet eine Reihe von Ausgliederungen für dieses "Sonderangebot"-Opt-Out-Steuerelement. Die drei primären Ausgliederungen sind Übertragungen (i) an einen Dienstanbieter, (ii) an eine "ausgenommene Entität" oder "Vertragsnehmer" und (iii) auf Anweisung des Verbrauchers. Selbst wenn sich ein Verbraucher für "Opt-out" entschieden hat, können persönliche Informationen weiterhin an Dritte übertragen werden, die in diese Ausgliederungen passen.
+
+
+      Um die ersten beiden Ausnahmen in Anspruch nehmen zu können, müssen die Unternehmen sicherstellen, dass die Datenübertragung durch schriftliche Verträge geregelt ist, welche die vom CCPA geforderten besonderen Bedingungen enthalten.
+  - question: >
+      Was bedeuten "Unternehmen" und "Dienstanbieter" im Kontext des CCPA?
+    answer: >
+      Im Kontext von CCPA sind Unternehmen Einzelpersonen oder Entitäten, die die Zwecke und Mittel der Verarbeitung personenbezogener Daten von Verbrauchern bestimmen, und Dienstanbieter sind Einzelpersonen oder Entitäten, die Informationen im Namen eines Unternehmens verarbeiten. Diese sind weitgehend gleichbedeutend mit den Begriffen *Verantwortliche* und *Auftragsverarbeiter*, die in der DSGVO verwendet werden.
+  - question: >
+      Wie hoch können die Strafen bei Nichteinhaltung sein?
+    answer: >
+      Das private Klagerecht im CCPA beschränkt sich auf Datenverstöße. Im Rahmen des privaten Klagerechts kann der Schaden zwischen $ 100 und $ 750 pro Vorfall und Verbraucher liegen. Die California AG kann das CCPA auch in ihrer Gesamtheit durchsetzen, mit der Möglichkeit, eine Zivilstrafe von nicht mehr als $ 2.500 pro Verstoß oder $ 7.500 pro vorsätzlichem Verstoß zu erheben.
+  - question: >
+      Was unternimmt Microsoft zur Einhaltung der CCPA-Compliance?
+    answer: >
+      Da Microsoft DSGVO-bezogene DSRs weltweit implementiert hat, sind wir derzeit hervorragend positioniert, um die damit verbundenen CCPA-Anforderungen zu erfüllen. Wir haben auch unsere Vereinbarungen zum Teilen von Daten von Drittanbietern überprüft und Schritte unternommen, um sicherzustellen, dass die erforderlichen Vertragsbedingungen vorhanden sind, um sicherzustellen, dass wir keine persönlichen Daten "verkaufen".
+  - question: >
+      Was sind einige Tools, die meiner Organisation bei der Vorbereitung für CCPA helfen können?
+    answer: >
+      - Nutzen Sie die DSGVO-Bewertung im Compliance-Manager als Teil Ihres CCPA-Datenschutzprogramms.
+
+      - Richten Sie einen Prozess ein, um effizient auf Verbraucheranfragen zu reagieren.
+
+      - Richten Sie Etiketten und Richtlinien ein, um vertrauliche Daten mit Microsoft Information Protection zu erkennen, zu klassifizieren und zu kennzeichnen und zu schützen.
+
+      - Verwenden Sie E-Mail-Verschlüsselungsfunktionen, um vertrauliche Informationen weiter zu kontrollieren.
+
+      - Erfahren Sie mehr in diesem [Blogbeitrag](https://aka.ms/M365ComplianceBlog_RSA).
+  - question: >
+      Worin unterscheiden sich DSGVO und CCPA?
+    answer: >
+      Es gibt viele Unterschiede. Es ist einfacher, sich auf die Ähnlichkeiten zu konzentrieren, einschließlich:
+
+
+      - Transparenz- und Offenlegungspflichten.
+
+      - Das Recht der Verbraucher auf Zugang, Löschung und Erhalt einer Kopie der Daten.
+
+      - Definition des Begriffs "Dienstanbieter", ähnlich wie die DSGVO "Verarbeiter" mit einer ähnlichen vertraglichen Verpflichtung definiert.
+
+      - Definition von "Unternehmen", die die DSGVO-Definition von "Verantwortlichen" umfasst.
+
+
+      Der größte Unterschied in CCPA ist die Kernanforderung, die es ermöglicht, den Verkauf von Daten an Dritte zu deaktivieren (wobei "Verkauf" allgemein definiert ist, um die Freigabe von Daten für wertvolle Überlegungen einzuschließen). Dies ist eine schmaleere und spezifischere Verpflichtung als das allgemeine DSGVO-Recht, der Verarbeitung zu widersprechen, das diese Art von "Verkauf" umfasst, aber nicht speziell auf diese Art der Freigabe beschränkt ist.
+  - question: >
+      Was sind "Verarbeiter" und "Controller"?
+    answer: >
+      Ein Verantwortlicher ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet. Ein Auftragsverarbeiter ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, welche personenbezogene Daten im Auftrag des Verantwortlichen verarbeitet.
+  - question: >
+      Was gilt insbesondere als persönliche Informationen?
+    answer: >
+      Persönliche Informationen sind alle Informationen, die eine identifizierte oder identifizierbare Person betreffen. Es wird nicht zwischen privaten, öffentlichen oder beruflichen Rollen einer Person unterschieden. Der definierte Begriff "persönliche Informationen" entspricht grob "personenbezogenen Daten" unter der DSGVO. Allerdings umfasst das CCPA auch Familien- und Haushaltsdaten.
+
+
+      Beispiele für personenbezogene Daten:
+
+
+      *Identität*
+
+
+      - Name
+
+      - Private Adresse
+
+      - Geschäftliche Adresse
+
+      - Telefonnummer
+
+      - Mobiltelefonnummer
+
+      - E-Mail-Adresse
+
+      - Reisepassnummer
+
+      - Personalausweisnummer
+
+      - Sozialversicherungsnummer (oder ähnlich)
+
+      - Führerschein
+
+      - Physische, physiologische oder genetische Informationen
+
+      - Medizinische Informationen
+
+      - Kulturelle Identität
+
+
+      *Finanzen*
+
+
+      - Bankverbindung/Kontonummern
+
+      - Steuernummer
+
+      - Kreditkartennummer/EC-Kartennummer
+
+      - Beiträge in sozialen Netzwerken
+
+
+      *Onlineartefakte*
+
+
+      - Beiträge in sozialen Netzwerken
+
+      - IP-Adresse (EU-Raum)
+
+      - Standort/GPS-Daten
+
+      - Cookies
+  - question: >
+      Wie gilt das CCPA für Kinder?
+    answer: >
+      - CCPA führt elterliche Zustimmungsverpflichtungen im Einklang mit dem Children's Online Privacy Protection Act (COPPA) für Kinder unter 13 Jahren ein.
+
+      - Für Kinder zwischen 13 und 16 Jahren erlegt CCPA eine neue Verpflichtung auf, die Zustimmung des Kind zum "Verkauf" ihrer persönlichen Informationen einzuholen.
+  - question: >
+      Wie sieht es mit den personenbezogenen Daten meiner Mitarbeiter aus?
+    answer: >
+      Im Oktober 2019 wurden eine Reihe von Änderungen am CCPA beschlossen. In einer Änderung wurde klargestellt, dass die CCPA-Verpflichtungen nicht für die persönlichen Informationen von Mitarbeitern des Unternehmens gelten. Allerdings haben die Gesetzgeber eine einjährige Befristung auf diese Ausnahmeregelung gesetzt. Wir gehen davon aus, dass Kalifornien im Jahr 2020 ein neues Datenschutzgesetz für Mitarbeiter einführen wird.  
+  - question: >
+      Muss ich als Microsoft-Kunde das Opt-out-Steuerelement für Übertragungen an Microsoft implementieren?
+    answer: Nein. Als Anbieter von Onlinediensten unternehmen wir Schritte, um sicherzustellen, dass wir uns unter CCPA als "Dienstanbieter" qualifizieren. Wie vorstehend erwähnt, ist die Übertragung persönlicher Informationen an Dienstanbieter zulässig, auch wenn ein Verbraucher sich entschieden hat, dies nicht zu tun.
