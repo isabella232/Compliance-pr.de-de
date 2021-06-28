@@ -20,24 +20,24 @@ ms.workload:
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
 hideEdit: true
-ms.openlocfilehash: eccc07b5f40182c3dad8652f0e4c1671b5eb9843
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: 46b59094b188e6ceac58c4aa1fac6dedf8c55671
+ms.sourcegitcommit: 5d8e670e9d9968458047b51b6b2930f7bd14a011
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51496221"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53141466"
 ---
 # <a name="visual-studio-family-data-subject-requests-for-the-gdpr-and-ccpa"></a>Visual Studio-Familie – Anträge betroffener Personen im Rahmen der DSGVO und des CCPA
 
 Die [Datenschutz-Grundverordnung (DSGVO)](https://ec.europa.eu/justice/data-protection/reform/index_en.htm) der Europäischen Union gewährt Personen (die in den Bestimmungen als _betroffene Personen_ bezeichnet werden) das Recht zum Verwalten ihrer personenbezogenen Daten. Personenbezogene Daten sind im Rahmen der DSGVO sehr weitgefasst als Daten definiert, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen. Die DSGVO erteilt betroffenen Personen bestimmte Rechte für ihre personenbezogenen Daten. Hierzu gehören das Kopieren der personenbezogenen Daten, das Anfordern von Korrekturen, das Einschränken der Verarbeitung, das Löschen oder das Erhalten in einem elektronischen Format. Eine formale Anfrage von einer betroffenen Person an einen Datenverantwortlichen (einen Arbeitgeber oder eine Organisation, die Kontrolle über personenbezogene Daten hat) im Hinblick auf eine bestimmte Aktion bezüglich ihrer personenbezogenen Daten wird als _Antrag einer betroffenen Person_ bezeichnet.
 
-In ähnlicher Weise bietet der California Consumer Privacy Act (CCPA) den kalifornischen Verbrauchern Datenschutzrechte und -pflichten, einschließlich von Rechten, die den Rechten von betroffenen Personen der DSGV entsprechen, wie z. B. das Recht auf Löschung, Zugriff und Empfang (Portabilität) der persönlichen Informationen.  Das CCPA ermöglicht außerdem bestimmte Offenlegungen, Schutz vor Diskriminierung bei der Wahl von Ausübungsrechten und Deaktivierungs-/Aktivierungsanforderungen für bestimmte Datentransfers, die als "Verkäufe" eingestuft werden. Die Definition von "Verkäufe" umfasst die Freigabe von Daten für eine angemessene Gegenleistung. Weitere Informationen zum CCPA finden Sie im ["California Consumer Privacy Act](offering-ccpa.md) und in den [häufig gestellten Fragen zum California Consumer Privacy Act](ccpa-faq.md).
+In ähnlicher Weise bietet der California Consumer Privacy Act (CCPA) den kalifornischen Verbrauchern Datenschutzrechte und -pflichten, einschließlich von Rechten, die den Rechten von betroffenen Personen der DSGV entsprechen, wie z. B. das Recht auf Löschung, Zugriff und Empfang (Portabilität) der persönlichen Informationen.  Das CCPA ermöglicht außerdem bestimmte Offenlegungen, Schutz vor Diskriminierung bei der Wahl von Ausübungsrechten und Deaktivierungs-/Aktivierungsanforderungen für bestimmte Datentransfers, die als "Verkäufe" eingestuft werden. Die Definition von "Verkäufe" umfasst die Freigabe von Daten für eine angemessene Gegenleistung. Weitere Informationen zum CCPA finden Sie im ["California Consumer Privacy Act](offering-ccpa.md) und in den [häufig gestellten Fragen zum California Consumer Privacy Act](ccpa-faq.yml).
 
 Allgemeine Informationen zur DSGVO finden Sie im [DSGVO-Bereich des Service Trust-Portals](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted).
 
 ## <a name="products-covered-by-this-guide"></a>In diesem Leitfaden behandelte Produkte
 
-Dieser Leitfaden erläutert, wie Microsoft-Tools zum Exportieren oder Löschen von personenbezogenen Daten, die während einer authentifizierten (angemeldeten) Sitzung unter Verwendung von Visual Studio und Visual Studio für Mac erfasst wurden, und der dazugehörigen Erweiterungen sowie des Visual Studio Codes verwendet werden können. In diesem Leitfaden wird auch erläutert, wie Sie Anträge von betroffenen Personen auf persönliche Daten durchführen können, die bei der Verwendung von Visual Studio Developer Community, NuGet.org und der ASP.NET-Website erfasst wurden. Diese Produkte ermöglichen eventuell die Verwendung von Tools und Erweiterungen, die nicht von Microsoft stammen, und Microsoft ist kein Datenverarbeiter oder Controller für diese Tools und Erweiterungen. Benutzer sollten sich an den Anbieter der Tools oder Erweiterungen wenden, um weitere Informationen zu den Datenschutzrichtlinien für diese Tools und Erweiterungen zu erhalten.
+In diesem Leitfaden wird beschrieben, wie Sie Microsoft-Tools nutzen, um personenbezogene Daten, die während authentifizierten (angemeldeten) Sitzungen von Visual Studio und Visual Studio für Mac sowie während der Verwendung der zugehörigen Microsoft-Erweiterungen und Erweiterungen für Visual Studio Code erfasst werden, zu exportieren oder zu löschen. Darüber hinaus wird in diesem Leitfaden beschrieben, wie Sie Anträge betroffener Personen bezüglich personenbezogenen Daten ausführen, wenn Sie die Visual Studio Developer Community, NuGet.org und die ASP.NET-Website verwenden. Diese Produkte ermöglichen eventuell die Nutzung von Tools und Erweiterungen, die nicht von Microsoft stammen und für die Microsoft nicht als Datenauftragsverarbeiter oder Verantwortlicher fungiert. Benutzer sollten sich an den Anbieter des Tools bzw. der Erweiterung wenden, um sich mit den Richtlinien zu den personenbezogenen Daten und zur Erfassung für diese Tools und Erweiterungen vertraut zu machen.
 
 ## <a name="additional-privacy-information"></a>Zusätzliche Datenschutzinformationen
 
