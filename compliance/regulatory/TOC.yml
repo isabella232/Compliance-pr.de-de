@@ -248,8 +248,8 @@
       items:
         - name: Prüflisten zu Verantwortlichkeiten
           href: gdpr-arc.md
-        - name: Azure und Dynamics 365
-          href: gdpr-arc-azure-dynamics.md
+        - name: 'Azure, Dynamics 365 und Windows'
+          href: gdpr-arc-azure-dynamics-windows.md
         - name: Microsoft-Support und Professional Services
           href: gdpr-arc-prof-services.md
         - name: Office 365
@@ -274,20 +274,18 @@
           href: gdpr-dsr-office365.md
         - name: Visual Studio-Produktfamilie
           href: gdpr-dsr-visual-studio-family.md
-        - name: Windows Enterprise
+        - name: Windows
           href: gdpr-dsr-windows.md
     - name: Benachrichtigung bei Sicherheitsverletzungen
       items:
         - name: Benachrichtigung bei Sicherheitsverletzungen
           href: gdpr-breach-notification.md
-        - name: Azure und Dynamics 365
-          href: gdpr-breach-azure-dynamics.md
+        - name: 'Azure, Dynamics 365 & Windows'
+          href: gdpr-breach-azure-dynamics-windows.md
         - name: Microsoft-Support und Professional Services
           href: gdpr-breach-microsoft-support-professional-services.md
         - name: Office 365
           href: gdpr-breach-office365.md
-        - name: Windows Enterprise
-          href: gdpr-breach-windows.md
     - name: Datenschutz-Folgenfeststellung
       items:
         - name: Datenschutz-Folgenabschätzung
@@ -300,7 +298,7 @@
           href: gdpr-dpia-prof-services.md
         - name: Office 365
           href: gdpr-dpia-office365.md
-        - name: Windows Enterprise
+        - name: Windows
           href: gdpr-dpia-windows.md
     - name: DSGVO für lokale Office-Server
       items:
