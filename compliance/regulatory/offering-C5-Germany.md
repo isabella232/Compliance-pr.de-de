@@ -16,18 +16,18 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 7154e239956c624d621977b8c9167ec5e58c5001
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 7a530d78107af4f37607f90c6a93008ec695f765
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121774"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53385465"
 ---
 # <a name="cloud-computing-compliance-controls-catalog-c5"></a>Cloud Computing Compliance Controls Catalog (C5)
 
 ## <a name="c5-overview"></a>C5 – Überblick
 
-Im Jahr 2016 erstellte das Bundesamt für Sicherheit in der Informationstechnik (BSI) den Anforderungskatalog „Cloud Computing Compliance Controls Catalog“ (C5). Der C5 ist ein geprüfter Standard, der verbindliche Mindestanforderungen für die Cloudsicherheit und die Einführung von Public Cloud-Lösungen für deutsche Regierungsbehörden und Organisationen, die mit der Regierung zusammenarbeiten, festlegt. Der C5 wird auch zunehmend im privaten Sektor genutzt.
+Im Jahr 2016 erstellte das Bundesamt für Sicherheit in der Informationstechnik (BSI) den Anforderungskatalog „Cloud Computing Compliance Controls Catalog“ (C5). Der C5 ist ein geprüfter Standard, der verbindliche Mindestanforderungen für die Cloudsicherheit und die Einführung von Public Cloud-Lösungen für deutsche Regierungsbehörden und Organisationen, die mit der Regierung zusammenarbeiten, festlegt. Der C5 wird auch zunehmend im privaten Sektor genutzt.
 
 Ziel des C5-Katalogs ist ein einheitlicher Sicherheitsrahmen für die Zertifizierung von Clouddienstanbietern und die Zusicherung für Kunden, dass ihre Daten sicher verwaltet werden.
 
@@ -37,16 +37,16 @@ Das BSI legt auch großen Wert auf Transparenz. Als Teil einer Prüfung muss der
 
 ## <a name="microsoft-and-c5"></a>Microsoft und C5
 
-Microsoft Cloud Services werden mindestens einmal jährlich anhand des Standards SOC 2 (AT Section 101) überprüft. Laut BSI kann eine C5-Prüfung mit einer SOC 2-Prüfung kombiniert werden, um Teile der Systembeschreibung und Prüfergebnisse für überlappende Kontrollen wiederzuverwenden. Microsoft Azure, Azure Government und Azure Deutschland unterhält einen kombinierten Bericht (C5, SOC 2 Typ 2, CSA STAR-Bescheinigung) auf der Grundlage der von einem unabhängigen Prüfer durchgeführten Prüfungsbewertung, welche die Einhaltung von C5 nachweist.
+Microsoft Cloud Services werden mindestens einmal jährlich anhand des Standards SOC 2 (AT Section 101) überprüft. Laut BSI kann eine C5-Prüfung mit einer SOC 2-Prüfung kombiniert werden, um Teile der Systembeschreibung und Prüfergebnisse für überlappende Kontrollen wiederzuverwenden. Microsoft Azure, Azure Government und Azure Deutschland unterhält einen kombinierten Bericht (C5, SOC 2 Typ 2, CSA STAR-Bescheinigung) auf der Grundlage der von einem unabhängigen Prüfer durchgeführten Prüfungsbewertung, welche die Einhaltung von C5 nachweist.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft Cloud Services im Leistungsumfang
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
-- [Azure, Azure Government und Azure Deutschland](https://go.microsoft.com/fwlink/p/?linkid=2051569)
+- [Azure, Azure Government und Azure Deutschland](https://go.microsoft.com/fwlink/p/?linkid=2051569)
 - Office 365 Deutschland
 
 ## <a name="audits-reports-and-certificates"></a>Prüfungen, Berichte und Zertifikate
 
-- [Azure, Azure Government und Azure Deutschland SOC 2 Type II Report.pdf](https://go.microsoft.com/fwlink/p/?linkid=2093520)
+- [Azure, Azure Government und Azure Deutschland SOC 2 Type II Report.pdf](https://go.microsoft.com/fwlink/p/?linkid=2093520)
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
@@ -64,12 +64,12 @@ Bei der Microsoft Cloud Deutschland handelt es sich um eine souveräne Cloud mit
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
 
-[Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center, die Ihnen](/microsoft-365/compliance/microsoft-365-compliance-center) hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen in Compliance Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
+[Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center](/microsoft-365/compliance/microsoft-365-compliance-center), die Ihnen hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="resources"></a>Ressourcen
 
 - Cloud Computing Compliance Controls Catalog (C5) ([Englisch](https://www.bsi.bund.de/EN/Topics/CloudComputing/Compliance_Criteria_Catalogue/Compliance_Criteria_Catalogue_node.html)) ([Deutsch](https://www.bsi.bund.de/DE/Themen/DigitaleGesellschaft/CloudComputing/Kriterienkatalog/Kriterienkatalog_node.html))
-- Sicherheitsempfehlungen für Cloud Computing-Anbieter ([Englisch](https://www.bsi.bund.de/EN/Topics/CloudComputing/Secure_use_of_cloud_services/Secure_use_cloud_services_node.html)) ([Deutsch](https://www.bsi.bund.de/DE/Themen/DigitaleGesellschaft/CloudComputing/Sichere_Nutzung_Cloud/Sichere_Nutzung_Cloud_node.html))
+- Sicherheitsempfehlungen für Cloud Computing-Anbieter ([Englisch](https://www.bsi.bund.de/EN/Topics/CloudComputing/Secure_use_of_cloud_services/Secure_use_cloud_services_node.html)) ([Deutsch](https://www.bsi.bund.de/DE/Themen/DigitaleGesellschaft/CloudComputing/Sichere_Nutzung_Cloud/Sichere_Nutzung_Cloud_node.html))
 - [Compliance-Berichte: C5- und SOC-Testate Azure Deutschland](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=df100ae1-baf9-4785-8a6d-864c0bc5c308&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_SOC%20%2F%20SSAE%2016%20Reports)
 - [IT-Grundschutz Compliance-Workbook](https://gallery.technet.microsoft.com/Azure-Germany-IT-fca4afd7) für Microsoft Azure Deutschland
 - [Compliance im Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)

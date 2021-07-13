@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d87d143479cab3dffb881c58dc19d11a81b1c7a9
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 1c4cf624eb6f658bcdddde1acbef7bc43323f257
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53088934"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384715"
 ---
 # <a name="iso-223012012-business-continuity-management-standard"></a>ISO 22301:2012 – Standard für Business Continuity Management 
 
@@ -35,7 +35,7 @@ Der Standard ISO 22301:2012 wurde vom technischen Ausschuss 2012 veröffentlicht
 
 Microsoft erhielt als erster Anbieter hyperskalierter Clouddienste die ISO 22301-Zertifizierung für das Geschäftskontinuitätsmanagement. Eine unabhängige Zertifizierungsstelle erkannte diese Zertifizierung Microsoft Azure, Microsoft Azure Government, Microsoft Office 365 (einschließlich der Angebote für Geschäftskunden, Behördenkunden und Kunden aus dem Bildungsbereich), Microsoft Cloud App Security, Microsoft Intune und Microsoft Power BI nach einer strengen Prüfung, die alle Aspekte ihrer Geschäftskontinuitätsprozesse abdeckte, zu. Die Prüfung deckte die unten aufgeführten Dienste sowie Azure-Verwaltungsfunktionen, das Azure-Portal und die Systeme für die Überwachung, Ausführung und Aktualisierung der relevanten Dienste ab.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft-Clouddienste im Leistungsumfang
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
 - [Azure und Azure Government und Azure Deutschland](https://aka.ms/AzureCompliance)
 - Microsoft Cloud App-Sicherheit
@@ -46,7 +46,7 @@ Microsoft erhielt als erster Anbieter hyperskalierter Clouddienste die ISO 22301
 - Intune
 - [Microsoft Managed Desktop](/microsoft-365/managed-desktop/intro/compliance)
 - Power Automate-Clouddienst (ehemals Microsoft Flow) als eigenständiger Dienst oder in einem Office 365- oder Dynamics 365-Plan bzw. -Anwendungssuite enthalten
-- [Office 365 für Geschäftskunden, Behörden und Bildungseinrichtungen](https://go.microsoft.com/fwlink/p/?linkid=2077751)
+- Office 365 für Geschäftskunden, Behörden und Bildungseinrichtungen
 - PowerApps-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365- oder Dynamics 365-Plan bzw. einer -Anwendungssuite enthalten
 - Power BI-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365-Plan oder einer -Anwendungssuite enthalten
 - Power BI Embedded

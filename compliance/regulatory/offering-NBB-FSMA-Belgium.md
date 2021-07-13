@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: abe7b849b8cb10ddbe11eb1a95a972d244ac43c3
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 3e0cedef50d4ac52547c785e5a5395b8b67ca1d6
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120084"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384445"
 ---
 # <a name="national-bank-of-belgium-nbb-and-the-financial-services-and-markets-authority-fsma"></a>Die Belgische Nationalbank (National Bank of Belgium, NBB) und die Aufsichtsbehörde für Finanzdienstleistungen und -märkte (Financial Services and Markets Authority, FSMA)
 
@@ -45,12 +45,12 @@ Um Finanzinstitute in Belgien bei der Auslagerung von Geschäftsfunktionen in di
 
 Wenn Finanzinstitute in Belgien Geschäftsfunktionen in die Cloud auslagern, müssen sie die Regeln und Richtlinien der belgischen Nationalbank (NBB) und der Autorität Finanzielle Dienste und Märkte (FSMA) im Rahmen der allgemeinen Richtlinien der Europäischen Bankaufsichtsbehörde (EBA) einhalten.
 
-Die Microsoft-Checkliste unterstützt Finanzunternehmen in Belgien bei der Durchführung von Due-Diligence-Prüfungen von Microsoft Business Cloud Services. Sie umfasst Folgendes:
+Die Microsoft-Checkliste hilft Finanzunternehmen in Belgien, die Due-Diligence-Bewertungen von Microsoft Business-Clouddiensten durchführen. Sie umfasst Folgendes:
 
 - Eine Übersicht über die aufsichtsrechtliche Landschaft für den Kontext.
 - Eine Checkliste, welche die zu behandelnden Probleme darlegt und die Dienste von Microsoft Azure, Microsoft Dynamics 365 und Microsoft 365 den regulatorischen Verpflichtungen zuordnet. Die Checkliste dazu verwendet werden, die Compliance anhand eines regulatorischen Rahmens zu messen und eine interne Struktur für die Dokumentation der Compliance bereitzustellen; sie kann Kunden auch bei der Durchführung ihrer eigenen Risikobewertungen von Microsoft Business-Clouddiensten unterstützen.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft-Clouddienste im Leistungsumfang
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
@@ -66,7 +66,7 @@ Die Microsoft-Checkliste unterstützt Finanzunternehmen in Belgien bei der Durch
 
 **Ist eine behördliche Genehmigung erforderlich?**
 
-Nein. Finanzinstitute müssen jedoch die BNB und die FSMA im Falle einer Unterbrechung einer Auslagerungsvereinbarung benachrichtigen, die das Potenzial hat, den Geschäftsbetrieb, den Ruf oder die Rentabilität des Instituts oder seine Fähigkeit zum Risikomanagement und zur Einhaltung der geltenden Gesetze und Vorschriften erheblich zu beeinträchtigen.
+Finanzinstitute müssen jedoch die NBB und die FSMA im Falle einer Unterbrechung einer Auslagerungsvereinbarung benachrichtigen, die das Potenzial hat, den Geschäftsbetrieb, den Ruf oder die Rentabilität des Instituts oder seine Fähigkeit zum Risikomanagement und zur Einhaltung der geltenden Gesetze und Vorschriften erheblich zu beeinträchtigen.
 
 **Gibt es verbindliche Bedingungen, die in den Vertrag mit dem Cloud-Dienstanbieter aufgenommen werden müssen?**
 
@@ -74,7 +74,7 @@ Ja. Es gibt bestimmte Punkte, die Finanzinstitute unbedingt in Ihre Clouddienstv
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
 
-[Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center, die Ihnen](/microsoft-365/compliance/microsoft-365-compliance-center) hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen in Compliance Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
+[Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center](/microsoft-365/compliance/microsoft-365-compliance-center), die Ihnen hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="resources"></a>Ressourcen
 

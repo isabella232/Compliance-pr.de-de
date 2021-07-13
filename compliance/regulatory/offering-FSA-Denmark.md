@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 55f600c7b1fa5f4573c389ca2c5fc5f3b827bb10
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 2896f3dea06181ef11393a40a4822b3b6fd345a5
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53089528"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384935"
 ---
 # <a name="financial-supervisory-authority-fsa-denmark"></a>Finanzaufsichtsbehörde (FSA) Dänemark
 
@@ -48,10 +48,10 @@ Die Microsoft-Checkliste unterstützt dänische Finanzunternehmen bei der Durchf
 - Eine Übersicht über die aufsichtsrechtliche Landschaft für den Kontext.
 - Eine Checkliste, welche die zu behandelnden Probleme darlegt und die Dienste von Microsoft Azure, Microsoft Dynamics 365 und Microsoft 365 den regulatorischen Verpflichtungen zuordnet. Die Checkliste dazu verwendet werden, die Compliance anhand eines regulatorischen Rahmens zu messen und eine interne Struktur für die Dokumentation der Compliance bereitzustellen; sie kann Kunden auch bei der Durchführung ihrer eigenen Risikobewertungen von Microsoft Business-Clouddiensten unterstützen.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft-Clouddienste im Leistungsumfang
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und Dienste
 
 - [Azure](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
-- [Dynamics 365](https://download.microsoft.com/download/E/1/9/E1977163-7A86-4812-AC18-C03ADC958AAF/Microsoft_Dynamics_365_Cloud_Service_Compliance_Datasheet.pdf)
+- [Dynamics 365](https://aka.ms/d365-compliance-list)
 - [Microsoft 365](https://aka.ms/RiskGovernanceGuide)
 
 ## <a name="how-to-implement"></a>Implementierung

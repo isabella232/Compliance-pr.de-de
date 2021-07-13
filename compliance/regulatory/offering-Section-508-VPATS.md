@@ -16,18 +16,18 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b6c48ebc9461010db1e129e88e53b4ada5c32683
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: b761a9848e29b09fa46fdac822a545dc67be61f1
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53088804"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384335"
 ---
 # <a name="us-section-508"></a>US Section 508
 
 ## <a name="about-us-section-508"></a>Informationen zu Abschnitt 508 der USA
 
-Die UNITED STATES-Kommission änderte 1998 und 2000 das Zustände Act, um Bundesbehörden zu verlangen, dass ihre produkte für elektronische und Informationstechnologie (ELECTRONIC and Information Technology, DOPPELKLICK) wie Software, Hardware, elektronische Inhalte und Supportdokumentation für Menschen mit Behinderungen zugänglich sind. In Abschnitt 508 des United States Workforce Oder Act von 1973 (29 US Code §794d) in der geänderten Form ist es vorgeschrieben, dass Bundesbehörden SODASS so beschaffen, verwalten und verwenden, dass Bundesmitarbeiter mit Behinderungen im Verhältnis zu anderen Bundesmitarbeitern über einen vergleichbarem Zugriff auf und eine vergleichbare Nutzung von Daten und SODASs verfügen.
+Die UNITED STATES-Kommission änderte 1998 und 2000 das Zustände Act, um Bundesbehörden zu verlangen, dass ihre produkte für elektronische und Informationstechnologie (ELECTRONIC and Information Technology, DOPPELKLICK) wie Software, Hardware, elektronische Inhalte und Supportdokumentation für Menschen mit Behinderungen zugänglich sind. In Abschnitt 508 des United States Workforce Oder Act von 1973 (29 US Code §794d) in der geänderten Form ist es vorgeschrieben, dass Bundesbehörden SODASS in einer Weise beschaffen, verwalten und verwenden, die sicherstellt, dass Bundesmitarbeiter mit Behinderungen im Verhältnis zu anderen Bundesmitarbeitern über einen vergleichbaren Zugriff auf und eine vergleichbare Nutzung von Daten und XAML verfügen.
 
 Microsoft ist ein wichtiger Software- und Cloud-Dienstanbieter für Us-Bundesstaaten und Bundesstaaten.  Um Regierungskunden bei der Entscheidungsfindung bei der Beschaffung zu unterstützen, veröffentlicht Microsoft Konformitätsberichte zur Barrierefreiheit, in denen beschrieben wird, in welchem Umfang unsere Produkte und Dienste die Kriterien von Abschnitt 508 unterstützen.  Anhand dieser Informationen können Microsoft-Kunden ermitteln, ob ein bestimmtes Produkt oder eine bestimmte Dienstleistung den spezifischen Bedürfnissen gerecht wird.
 
@@ -35,23 +35,39 @@ Microsoft ist ein wichtiger Software- und Cloud-Dienstanbieter für Us-Bundessta
 
 Die Berücksichtigung von Abschnitt 508 der USA bei der Entwicklung von Produkten und Diensten durch Microsoft verweist auf sein Engagement, Technologien und Daten für alle Kunden zugänglich zu machen.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft-Clouddienste im Leistungsumfang
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft-cloudbasierte Plattformen &-Dienste
 
-- [Azure und Azure Government](https://go.microsoft.com/fwlink/p/?linkid=2051569)
+- Azure und Azure Government
 - Azure DevOps Services
-- Dynamics 365 und Dynamics 365 U.S. Government
+- Dynamics 365 und Dynamics 365 U.S. Government
 - Intune
-- [Office 365 und Office 365 U.S. Government](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- [Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- Office 365, Office 365 U.S. Government, Office 365 U.S. Government Defense
 - Windows Server 2016
 
-## <a name="microsoft-accessibility-conformance-reports"></a>Microsoft Konformitätsberichte zur Barrierefreiheit
+## <a name="office-365-and-us-section-508"></a>Office 365 und US-Abschnitt 508
+
+### <a name="office-365-cloud-environments"></a>Office 365 Cloudumgebungen
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 Anwendbarkeit und In-Scope-Dienste
+
+Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365 Dienste und Abonnements zu ermitteln:
+
+| **Anwendbarkeit** | **In-Scope-Dienste** |
+|:------------------|:----------------------|
+| **Office 365** | Access, Azure Active Directory, Bookings, Compliance Manager, Delve, Excel, Exchange Online, Forms, Kaizala, Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Verwaltungsportal für Android, Office 365 Verwaltungsportal für iOS, Office 365 Verwaltungsportal, Office 365 Advanced Compliance Add-On, Office 365 und Azure AD-Anmeldung, Office 365 Business Center, Office 365 Security & Compliance Center, Office 365 Video, Office 365 Web Suite, Office Configuration Tool, Office Lens, Office Online, Office Pro Plus, OneDrive for Business, OneDrive, OneNote, Outlook Groups, Outlook, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, SharePoint, Skype for Business, StaffHub , Stream, To-Do, Visio, Word, Yammer  |
+| **GCC** | Azure Active Directory, Compliance-Manager, Delve, Exchange Online, Formulare, Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, Stream |
+| **GCC High** | Azure Active Directory, Exchange Online, Formulare, Microsoft Defender für Office 365, Microsoft Teams, Office 365 Advanced Compliance Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business |
+| **DoD** | Azure Active Directory, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, Office 365 Advanced Compliance Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, Power BI, SharePoint Online, Skype for Business |
+
+### <a name="microsoft-accessibility-conformance-reports"></a>Microsoft Konformitätsberichte zur Barrierefreiheit
 
 [Konformitätsberichte](https://cloudblogs.microsoft.com/industry-blog/government/2018/09/11/accessibility-conformance-reports/) für alle unsere Produkte und Dienstleistungen suchen.
 
-## <a name="resources"></a>Ressourcen
+### <a name="resources"></a>Ressourcen
 
-- [Microsoft-Barrierefreiheitsseite:](https://go.microsoft.com/fwlink/p/?linkid=2051579)Erkunden Sie die Möglichkeiten, mit denen Microsoft innovationiert, damit jeder mehr erreichen kann.
+- [Microsoft-Barrierefreiheitsseite:](https://go.microsoft.com/fwlink/p/?linkid=2051579)Erkunden Sie die Möglichkeiten, wie Microsoft innovationiert, damit jeder mehr erreichen kann.
 - [Office 365-Barrierefreiheitscenter](https://go.microsoft.com/fwlink/p/?linkid=2051801): Office 365-Ressourcen für Menschen mit Behinderungen.
 - [Enterprise Disability Answer Desk](https://go.microsoft.com/fwlink/p/?linkid=2050890): Dedizierter Support für Unternehmenskunden mit Fragen zur Barrierefreiheit unserer Produkte und Dienstleistungen oder zur Compliance.
 - [DHS Trusted Tester Program:](https://go.microsoft.com/fwlink/?linkid=2052171)Abrufen von Informationen über das Trusted Tester-Programm der US Department of Shapes Security (DHS), an dem Microsoft teilnimmt.

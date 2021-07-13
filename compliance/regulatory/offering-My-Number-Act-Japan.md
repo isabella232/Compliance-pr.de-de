@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f9c3ebd4c4988366d429f7b6cfc377f4f9c8a611
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 92e67729125916b1ec34f7e305468f7e07489d12
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120074"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384465"
 ---
 # <a name="my-number-act-japan"></a>„My Number“-Gesetz (Japan)
 
@@ -47,23 +47,33 @@ Im Hinblick auf Sicherheitsrisiken entsprechen die Microsoft Business Cloud Serv
 
 Microsoft Business Cloud Services unterstützt daher die Vorschriften des „My Number“-Gesetzes und ruft für Kunden keine zusätzlichen Verpflichtungen im Rahmen dieses Gesetzes hervor, wie z. B. die Zustimmung eines einzelnen Besitzers personenbezogener Daten.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Betreffende Cloud Services von Microsoft
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
-- [Azure](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
-- [Dynamics 365](https://download.microsoft.com/download/E/1/9/E1977163-7A86-4812-AC18-C03ADC958AAF/Microsoft_Dynamics_365_Cloud_Service_Compliance_Datasheet.pdf)
+- Azure
+- [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
-- [Office 365](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=9f756cce-b15d-45a9-94d7-6a583dee4401&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
+- Office 365
+
+## <a name="office-365-and-the-my-number-act"></a>Office 365 und das My Number Act
+
+### <a name="office-365-cloud-environments"></a>Office 365-Cloudumgebungen
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365-Anwendbarkeit und eingeschlossene Dienste
+
+Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Dienste und -Abonnements zu bestimmen:
+
+| **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
+|:------------------|:----------------------|
+| **Office 365** | Azure Active Directory, Azure Information Protection, Bookings, Compliance Manager, Delve, Exchange Online, Exchange Online Protection, Forms, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Defender für Office 365, Microsoft Graph, Microsoft Teams, Microsoft To Do für das Web, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Cloud App Security, Office 365-Gruppen, Office 365 Security & Compliance Center, Office 365 Video, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
 
 ## <a name="how-to-implement"></a>Implementierung
 
 - [Microsoft-Sicherheitsrichtlinie](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=231213ea-9954-41fd-a757-ae62f3721dc7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers): So schützt personenbezogene und Organisationsinformationen in Microsoft Cloud Services.
-
 - [Datenschutz in Office 365](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=a1b48a5b-bcb1-4c19-9277-952c0df87113&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers): So integriert Microsoft starken Datenschutz in Office 365.
-
 - [Administratorzugriff in Office 365](/office365/SecurityCompliance/office-365-administrative-access-controls-overview): So verwaltet Microsoft den administrativen Zugriff auf Kundendaten.
-
 - [Audits und Berichte in Office 365](/office365/SecurityCompliance/office-365-auditing-and-reporting-overview): Entdecken Sie die Features, die Kunden verwenden können, um Benutzer- und administrative Aktivitäten innerhalb des Mandanten nachzuverfolgen.
-
 - [Datenaufbewahrung in Office 365](/office365/SecurityCompliance/office-365-data-retention-deletion-and-destruction-overview): Grundlegendes zur Datenverarbeitungsrichtlinie über die Dauer der Aufbewahrung von Kundendaten nach dem Löschen.
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen

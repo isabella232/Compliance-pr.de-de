@@ -1,7 +1,7 @@
 ---
 title: Datenschutz-Grundverordnung
 description: Erfahren Sie mehr zur technischen Unterstützung von Microsoft für die Datenschutz-Grundverordnung (DSGVO) und erhalten Sie hilfreiche Informationen.
-keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365-Dokumentation, DSGVO
+keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365-Dokumentation, DSGVO
 localization_priority: Priority
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -18,12 +18,12 @@ ms.collection:
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
 hideEdit: true
-ms.openlocfilehash: 69c81b78e5107055c7760a99842468210eec70da
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: 5543a8077ae0f5ff344a3f8f7cafbb2c778e7a5d
+ms.sourcegitcommit: 8bf2602d56eedee4447ddb374ef95b0587f254e7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51495801"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53377932"
 ---
 # <a name="general-data-protection-regulation-summary"></a>Zusammenfassung Datenschutz-Grundverordnung
 
@@ -131,7 +131,7 @@ Die DSGVO gibt vor, dass eine Datenschutzfolgenabschätzung Folgendes umfasst:
 Die DSGVO sieht vor, dass Sie als Datencontroller vor der Verarbeitung von Daten, die mit hoher Wahrscheinlichkeit ein großes Risiko für die Rechte und Freiheiten einzelner Personen darstellt, eine Datenschutz-Folgenabschätzung auszuführen. Dies gilt inbesondere dann, wenn bei der Datenverarbeitung neue Technologien eingesetzt werden. Im Folgenden finden Sie eine an die DSGVO angelehnte, nicht vollständige Liste von Fällen, in denen eine Datenschutz-Folgenabschätzung ausgeführt werden muss:
 
 - Automatisierte Verarbeitung zum Zweck der Profilerstellung und für ähnliche Aktivitäten, die rechtliche Auswirkungen haben oder sich in ähnlicher Weise wesentlich auf betroffene Personen auswirken;  
-- Umfassende Verarbeitung spezieller Kategorien von personenbezogenen Daten, d. h. Daten, aus denen die ethnische Herkunft, die politische Gesinnung oder Ähnliches hervorgeht, bzw. Daten zu strafrechtlichen Verurteilungen und Straftaten;  
+- Umfassende Verarbeitung spezieller Kategorien von personenbezogenen Daten, d. h. Daten, aus denen die ethnische Herkunft, die politische Gesinnung oder Ähnliches hervorgeht, bzw. Daten zu strafrechtlichen Verurteilungen und Straftaten;  
 - Systematische Überwachung eines öffentlich zugänglichen Bereichs.  
 
 Aus der DSGVO geht außerdem hervor, dass die Aufsichtsbehörde konsultiert werden muss, falls Datenverarbeitungsvorgänge ein hohes Risiko für betroffene Personen bergen, das Sie nicht durch geeignete Verfahren eindämmen können.
@@ -188,7 +188,7 @@ Diese [Prüflisten](gdpr-arc.md) ermöglichen einen bequemen Zugriff auf Informa
 
 **Hat Microsoft Verpflichtungen gegenüber seinen Kunden bezüglich der DSGVO?**
 
-Ja. Die DSGVO sieht vor, dass Verantwortliche (z. B. Unternehmen, die Microsoft Enterprise Online Services nutzen) nur mit Auftragsverarbeitern (z. B. Microsoft) zusammenarbeiten, die ausreichende Sicherheiten für die Einhaltung der zentralen DSGVO-Anforderungen bieten. Microsoft setzt sich proaktiv dafür ein, diesen Verpflichtung gegenüber allen Volumenlizenzkunden im Rahmen ihrer Verträge nachzukommen.
+Ja. Die DSGVO sieht vor, dass Verantwortliche (z. B. Unternehmen, die Microsoft Enterprise Online Services nutzen) nur mit Auftragsverarbeitern (z. B. Microsoft) zusammenarbeiten, die ausreichende Sicherheiten für die Einhaltung der zentralen DSGVO-Anforderungen bieten. Microsoft setzt sich proaktiv dafür ein, diesen Verpflichtung gegenüber allen Volumenlizenzkunden im Rahmen ihrer Verträge nachzukommen.
 
 **Wie hilft mir Microsoft bei der Compliance?**
 
@@ -255,7 +255,7 @@ Ja, die DSGVO gilt sowohl für Verantwortliche als auch für Verarbeiter. Die Ve
 
 **Wie hoch können die Strafen bei Nichteinhaltung sein?**
 
-Unternehmen können bei Nichterfüllung bestimmter DSGVO-Anforderungen mit einer Geldbuße von bis zu &euro; 20 Mio. oder 4 % des weltweiten Jahresumsatzes belegt werden, je nachdem, welcher Betrag höher ist. Zusätzliche individuelle Abhilfemaßnahmen könnten Ihr Risiko erhöhen, wenn Sie sich nicht an die DSGVO-Anforderungen halten.
+Unternehmen können bei Nichterfüllung bestimmter DSGVO-Anforderungen mit einer Geldbuße von bis zu &euro; 20 Mio. oder 4 % des weltweiten Jahresumsatzes belegt werden, je nachdem, welcher Betrag höher ist. Zusätzliche individuelle Abhilfemaßnahmen könnten Ihr Risiko erhöhen, wenn Sie sich nicht an die DSGVO-Anforderungen halten.
 
 **Muss mein Unternehmen einen Datenschutzbeauftragten (Data Protection Officer, DPO) ernennen?**
 
@@ -269,9 +269,9 @@ Die Einhaltung der DSGVO wird für die meisten Unternehmen Zeit und Geld kosten,
 
 Die DSGVO regelt die Erhebung, Speicherung, Nutzung und Weitergabe von „personenbezogenen Daten“. Personenbezogene Daten sind in der DSGVO allgemein als Daten definiert, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen.
 
-Zu den personenbezogenen Daten können unter anderem Online-Identifikatoren (z. B. IP-Adressen), Mitarbeiterinformationen, Vertriebsdatenbanken, Daten des Kundendienstes, Kundenfeedback-Formulare, Standortdaten, biometrische Daten, CCTV-Aufnahmen, Aufzeichnungen über Treueprogramme, Gesundheits- und Finanzinformationen und vieles mehr gehören. Diese können sogar Informationen enthalten, die nicht personenbezogen zu sein scheinen – wie beispielsweise ein Foto einer Landschaft ohne Menschen – wenn diese Informationen durch eine Kontonummer oder einen eindeutigen Code mit einer identifizierbaren Person in Verbindung stehen. Und selbst personenbezogene Daten, die pseudonymisiert wurden, können personenbezogene Daten sein, wenn das Pseudonym mit einer bestimmten Person in Verbindung gebracht werden kann.
+Zu den personenbezogenen Daten können unter anderem Online-Identifikatoren (z. B. IP-Adressen), Mitarbeiterinformationen, Vertriebsdatenbanken, Daten des Kundendienstes, Kundenfeedback-Formulare, Standortdaten, biometrische Daten, CCTV-Aufnahmen, Aufzeichnungen über Treueprogramme, Gesundheits- und Finanzinformationen und vieles mehr gehören. Diese können sogar Informationen enthalten, die nicht personenbezogen zu sein scheinen – wie beispielsweise ein Foto einer Landschaft ohne Menschen – wenn diese Informationen durch eine Kontonummer oder einen eindeutigen Code mit einer identifizierbaren Person in Verbindung stehen. Und selbst personenbezogene Daten, die pseudonymisiert wurden, können personenbezogene Daten sein, wenn das Pseudonym mit einer bestimmten Person in Verbindung gebracht werden kann.
 
-Die Verarbeitung bestimmter „spezieller“ Kategorien personenbezogener Daten – wie z. B. personenbezogene Daten, welche die ethnische Herkunft einer Person offenbaren oder ihre Gesundheit oder sexuelle Ausrichtung betreffen – unterliegt strengeren Regeln als die Verarbeitung „gewöhnlicher“ personenbezogener Daten. Diese Auswertung der personenbezogenen Daten ist sehr faktenspezifisch, weshalb wir empfehlen, einen Experten zu beauftragen, um Ihre spezifischen Umstände zu beurteilen.
+Die Verarbeitung bestimmter „spezieller“ Kategorien personenbezogener Daten – wie z. B. personenbezogene Daten, welche die ethnische Herkunft einer Person offenbaren oder ihre Gesundheit oder sexuelle Ausrichtung betreffen – unterliegt strengeren Regeln als die Verarbeitung „gewöhnlicher“ personenbezogener Daten. Diese Auswertung der personenbezogenen Daten ist sehr faktenspezifisch, weshalb wir empfehlen, einen Experten zu beauftragen, um Ihre spezifischen Umstände zu beurteilen.
 
 **Meine Organisation verarbeitet nur Daten im Auftrag anderer. Muss sie noch die DSGVO einhalten?**
 
@@ -294,22 +294,22 @@ Personenbezogene Daten sind alle Informationen, die eine identifizierte oder ide
 - Physische, physiologische oder genetische Informationen
 - Medizinische Informationen
 - Kulturelle Identität
-- Bankverbindung/Kontonummern
+- Bankdetails/Kontonummern
 - Steuernummer
 - Geschäftliche Adresse
 - Kreditkartennummer/EC-Kartennummer
 - Beiträge für soziale Medien
 - IP-Adresse (EU-Raum)
-- Standort/GPS-Daten
+- Standort-/GPS-Daten
 - Cookies
 
 **Kann ich Daten außerhalb der EU übertragen?**
 
-Ja, aber die DSGVO regelt streng die Übertragung von personenbezogenen Daten europäischer Bürger an Orte außerhalb des Europäischen Wirtschaftsraums. Möglicherweise müssen Sie einen bestimmten rechtlichen Mechanismus, wie z. B. einen Vertrag, einrichten oder sich an einen Zertifizierungsmechanismus halten, um diese Übertragungen zu ermöglichen. Microsoft erläutert die von uns verwendeten Mechanismen in den Bedingungen für Online-Dienste.
+Ja, aber die DSGVO regelt streng die Übertragung von personenbezogenen Daten europäischer Bürger an Orte außerhalb des Europäischen Wirtschaftsraums. Möglicherweise müssen Sie einen bestimmten rechtlichen Mechanismus, wie z. B. einen Vertrag, einrichten oder sich an einen Zertifizierungsmechanismus halten, um diese Übertragungen zu ermöglichen. Microsoft erläutert die von uns verwendeten Mechanismen in den Bedingungen für Online-Dienste.
 
 **Ich habe Anforderungen an die Datenaufbewahrung durch Compliance. Haben diese Anforderungen Vorrang vor dem Recht auf Löschung?**
 
-Wenn es berechtigte Gründe für eine weitere Verarbeitung und Datenspeicherung gibt, wie z. B. „zur Erfüllung einer rechtlichen Verpflichtung, die eine Verarbeitung durch das Recht der Union oder eines Mitgliedstaates erfordert, dem der für die Verarbeitung Verantwortliche unterliegt“ (Artikel 17 Absatz 3 Buchstabe b)), erkennt die DSGVO an, dass Organisationen zur Speicherung von Daten verpflichtet werden können. Sie sollten jedoch sicherstellen, dass Sie Ihren Rechtsbeistand hinzuziehen, um sicherzustellen, dass die Gründe für die Vorratsspeicherung gegen die Rechte und Freiheiten der betroffenen Personen, ihre Erwartungen zum Zeitpunkt der Datenerhebung usw. abgewogen werden.
+Wenn es berechtigte Gründe für eine weitere Verarbeitung und Datenspeicherung gibt, wie z. B. „zur Erfüllung einer rechtlichen Verpflichtung, die eine Verarbeitung durch das Recht der Union oder eines Mitgliedstaates erfordert, dem der für die Verarbeitung Verantwortliche unterliegt“ (Artikel 17 Absatz 3 Buchstabe b)), erkennt die DSGVO an, dass Organisationen zur Speicherung von Daten verpflichtet werden können. Sie sollten jedoch sicherstellen, dass Sie Ihren Rechtsbeistand hinzuziehen, um sicherzustellen, dass die Gründe für die Vorratsspeicherung gegen die Rechte und Freiheiten der betroffenen Personen, ihre Erwartungen zum Zeitpunkt der Datenerhebung usw. abgewogen werden.
 
 **Befasst sich die DSGVO mit Verschlüsselung?**
 

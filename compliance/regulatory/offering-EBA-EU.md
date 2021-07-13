@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: c753092f26df4a0d8ebcb5fc2a7921cee9e79f93
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 18abcba03796d7f6563c65cebcbbafd63759dc7c
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120924"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53385225"
 ---
 # <a name="european-banking-authority-eba"></a>Europäische Bankenaufsichtsbehörde (EBA)
 
@@ -37,16 +37,16 @@ Um Finanzinstituten in der EU zu helfen, den Empfehlungen der Europäischen Bank
 
 Die Microsoft-Leitlinie behandelt Punkt für Punkt jede der EBA-Empfehlungen:
 
-- Prüfrechte. Microsoft bietet vertragliche Prüfrechte für Kunden und Prüfrechte für Regulierungsbehörden in seiner branchenführenden „Änderung der Finanzdienstleistungen“.
-- Benachrichtigung bezüglich Outsourcing. Microsoft kann Kunden dabei unterstützen, die Regulierungsbehörden über wesentliche Aktivitäten zu informieren, die an Dritte vergeben werden sollen.
+- Überwachungsrechte. Microsoft stellt vertragliche Überwachungsrechte für Kunden und Prüfrechte für Regulierungsbehörden in seinem branchenführenden „Finanzdienstleistungszusatz“ bereit.
+- Benachrichtigung bezüglich Outsourcing. Microsoft kann Kunden dabei unterstützen, die Regulierungsbehörden über wesentliche Aktivitäten zu informieren, die ausgelagert werden sollen.
 - Datenaufbewahrung. Mit 36 Regionen, davon sechs in Europa, bietet Microsoft die weltweit größte Anzahl von Rechenzentren aller Cloud-Dienstanbieter. Organisationen können Arbeitslasten in einer Region bereitstellen, ohne dass sie Daten in Europa hosten müssen.
-- Benachrichtigung bezüglich Subunternehmer. Microsoft führt die Branche mit einer vertraglichen Verpflichtung an, Kunden mit einer Frist von 180 Tagen für neue Subunternehmer zu informieren, und mit einem Kündigungsrecht, wenn der Kunde die Bestellung eines neuen Subunternehmers nicht genehmigt.
-- Geschäftskontinuität. Microsoft stellt in unserer „Änderung der Finanzdienstleistungen“ Bestimmungen zur Geschäftskontinuität und -lösung zur Verfügung, einschließlich der Bereitschaft, Übergangsunterstützung durch Microsoft Consulting Services zu leisten.
+- Benachrichtigung bezüglich Subunternehmer. Mit der vertraglichen Verpflichtung, Kunden innerhalb einer Frist von 180 Tagen über neue Subunternehmer zu informieren, und mit einem Kündigungsrecht, falls der Kunde die Beauftragung eines neuen Subunternehmers nicht genehmigt, führt Microsoft die Branche an.
+- Geschäftskontinuität. Microsoft stellt in unserem „Finanzdienstleistungszusatz“ Bestimmungen zur Geschäftskontinuität und zu Geschäftsbeschlüssen zur Verfügung, einschließlich der Bereitschaft, Übergangsunterstützung durch Microsoft Consulting Services zu leisten.
 - Risikobewertung und Sicherheitsüberwachung. Microsoft ermöglicht es Kunden, ihre eigenen Risikobewertungen durchzuführen und stellt Tools und Dashboards zur Verfügung, mit denen sie unsere Clouddienste verwalten und überwachen können.
 
 Für Finanzinstitute in der EU hat Microsoft außerdem einen [Leitfaden zur Risikobewertung und Compliance für Finanzinstitute in der Microsoft Cloud](https://aka.ms/RiskGovernanceGuide) veröffentlicht, eine Checkliste, die sich an der EBA-Leitlinie orientiert. Es wird erklärt, wie man ein Governance-Modell entwickelt, das für die Erfüllung regulatorischer Anforderungen optimiert ist, und wie man die Risiken der Nutzung von Microsoft Cloud Services effizient bewertet, gefolgt von der Einreichung zur Genehmigung durch die Aufsichtsbehörden. Unser Leitfaden enthält eine Liste von Fragen, die in einer regulatorischen Einreichung zu beantworten sind und die sich aus der EBA-Leitlinie zum Outsourcing an Cloud-Dienstanbieter ableiten und darauf reagieren.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft Cloud Services im Leistungsumfang
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Microsoft 365](https://aka.ms/o365-compliance-framework)

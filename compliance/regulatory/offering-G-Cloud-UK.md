@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 887d6a2be0ef4b1d9f1d22eefc53e3fc23e75e22
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: b39c658a768dc106008dcd73a064b05706f734c6
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53088814"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384965"
 ---
 # <a name="united-kingdom-government-cloud-g-cloud"></a>Vereinigtes Königreich Government-Cloud (G-Cloud)
 
@@ -29,7 +29,7 @@ ms.locfileid: "53088814"
 
 Government Cloud (G-Cloud) ist eine Initiative der britischen Regierung, um die Beschaffung von Clouddiensten durch Behörden zu vereinfachen und die behördenweite Einführung von Cloud Computing zu fördern. G-Cloud umfasst eine Reihe von Framework-Vereinbarungen mit Clouddienstanbietern (z. B. Microsoft) und eine Liste ihrer Dienste in einem Online-Store, dem Digital Marketplace. Diese ermöglichen es Öffentlichen Organisationen, diese Dienste zu vergleichen und zu beschaffen, ohne einen eigenen vollständigen Überprüfungsprozess durchführen zu müssen. Die Aufnahme in den Digital Marketplace erfordert eine Selbstbestätigung der Compliance, gefolgt von einer Vom Government Digital Service (GDS)-Verzweigung nach eigenem Ermessen durchgeführten Überprüfung.
 
-Der G-Cloud-Terminprozess wurde 2014 optimiert, um die Zeit und Kosten für die britische Regierung zu reduzieren, und das Sicherheitsklassifizierungsschema der Regierung wurde von sechs auf drei Ebenen vereinfacht: OFFICIAL, SECRET und TOP SECRET. (G-Cloud-Zertifizierungsstufen werden nicht mehr als Auswirkungsstufe oder IL ausgedrückt; Microsoft hatte zuvor eine IL2-Akkreditierung für Microsoft Azure, Microsoft Dynamics 365 und Microsoft Office 365.)
+Der G-Cloud-Terminprozess wurde 2014 optimiert, um den Zeit- und Kostenaufwand für die britische Regierung zu reduzieren, und das Sicherheitsklassifizierungsschema der Regierung wurde von sechs auf drei Ebenen vereinfacht: "OFFICIAL", "SECRET" und "TOP SECRET". (G-Cloud-Zertifizierungsstufen werden nicht mehr als Auswirkungsstufe oder IL ausgedrückt; Microsoft hatte zuvor eine IL2-Akkreditierung für Microsoft Azure, Microsoft Dynamics 365 und Microsoft Office 365.)
 
 Anstelle der zuvor bereitgestellten zentralen Bewertung von Clouddiensten erfordert der neue Prozess, dass Clouddienstanbieter sich selbst zertifizieren und Nachweise zur Unterstützung der 14 Cloud-Sicherheitsprinzipien von G-Cloud bereitstellen. Dies hat weder die von Microsoft produzierten Nachweise noch die Standards geändert, die das Unternehmen einhält.
 
@@ -37,24 +37,38 @@ Anstelle der zuvor bereitgestellten zentralen Bewertung von Clouddiensten erford
 
 Jedes Jahr bereitet Microsoft Dokumentationen vor und legt Nachweise vor, um zu bestätigen, dass die im Umfang enthaltenen Unternehmensclouddienste den Prinzipien entsprechen, sodass potenzielle G-Cloud-Kunden einen Überblick über ihre Risikoumgebung erhalten. (Wie bei der vorherigen G-Cloud-Akkreditierung basiert sie auf der ISO 27001-Zertifizierung.) Ein GDS-Akkreditierter führt dann mehrere zufällige Überprüfungen der Microsoft Assertion-Anweisung durch, prüft die Nachweise und ermittelt die Compliance.
 
-Die Benennung von Microsoft-Dienste auf dem Digital Marketplace bedeutet, dass Behörden und Partner im Vereinigten Königreich in-Scope-Dienste verwenden können, um offizielle Behördendaten des Vereinigten Königreiches zu speichern und zu verarbeiten, die meisten Behördendaten. Darüber hinaus sind jetzt mehr als 450 Microsoft-Partner in der G-Cloud enthalten, die Vertriebspartner von Microsoft Cloud Services sind. Sie können die Compliance von im Umfang enthaltenen Diensten direkt mit den 14 Prinzipien in ihren eigenen Anwendungen bestätigen. Kunden und Partner müssen jedoch ihre eigene Compliance für alle Komponenten erreichen, die nicht im Nachweis und der Bestimmung der Compliance für Microsoft-Clouddienste enthalten sind.
+Die Benennung von Microsoft-Dienste auf dem Digital Marketplace bedeutet, dass regierungsbehörden und Partner im Vereinigten Königreich In-Scope-Dienste verwenden können, um offizielle Behördendaten des Vereinigten Königreiches zu speichern und zu verarbeiten, die meisten Government-Daten. Darüber hinaus sind jetzt mehr als 450 Microsoft-Partner in der G-Cloud enthalten, die Vertriebspartner von Microsoft Cloud Services sind. Sie können die Compliance von im Umfang enthaltenen Diensten direkt mit den 14 Prinzipien in ihren eigenen Anwendungen bestätigen. Kunden und Partner müssen jedoch ihre eigene Compliance für alle Komponenten erreichen, die nicht im Nachweis und der Bestimmung der Compliance für Microsoft-Clouddienste enthalten sind.
 
  [14 Cloud Security Controls for UK cloud using Microsoft Azure](https://azure.microsoft.com/resources/14-cloud-security-controls-for-uk-cloud-using-microsoft-azure/) provides customer strategies to move their services to Azure and help meet their UK obligations mandated by the CESG/NCSC. Das Whitepaper bietet Einen Einblick, wie Azure verwendet werden kann, um die in den Cloudsicherheitsprinzipalen beschriebenen 14 Steuerelemente zu adressieren, und beschreibt, wie Kunden schneller navigieren und mehr erreichen und gleichzeitig Geld sparen können, wenn sie Microsoft Azure Dienste einführen.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft-Clouddienste im Leistungsumfang
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft-cloudbasierte Plattformen &-Dienste
 
-- [Azure](https://aka.ms/AzureCompliance)
+- Azure
 - Microsoft Cloud App Security
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
-- Power Automate-Clouddienst (ehemals Microsoft Flow) als eigenständiger Dienst oder in einem Office 365- oder Dynamics 365-Plan bzw. -Anwendungssuite enthalten
-- Office 365: Exchange Online, SharePoint Online und Skype for Business Online
-- PowerApps-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365- oder Dynamics 365-Plan oder einer -Anwendungssuite enthalten
-- Power BI-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365-Plan bzw. einer -Anwendungssuite enthalten
+- Office 365
+- Power Automate Clouddienst (früher Microsoft Flow) (entweder als eigenständiger Dienst oder in einem Office 365- oder Dynamics 365-Plan oder einer Dynamics 365-Suite enthalten)
+- PowerApps-Clouddienst (entweder als eigenständiger Dienst oder in einem Office 365 oder dynamics 365-Plan oder -Suite enthalten)
+- Power BI Clouddienst (entweder als eigenständiger Dienst oder als Teil eines Office 365 Branding-Plans oder einer Suite)
+
+## <a name="office-365-and-uk-g-cloud"></a>Office 365 und UK G-Cloud
+
+### <a name="office-365-cloud-environments"></a>Office 365 Cloudumgebungen
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 Anwendbarkeit und In-Scope-Dienste
+
+Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365 Dienste und Abonnements zu ermitteln:
+
+| **Anwendbarkeit** | **In-Scope-Dienste** |
+|:------------------|:----------------------|
+| **Office 365** | Exchange Online, SharePoint Online, Skype for Business |
 
 ## <a name="audits-reports-and-certificates"></a>Prüfungen, Berichte und Zertifikate
 
-Um zu bestätigen, dass Microsoft-Clouddienste ihre Compliance mit G-Cloud-Vereinbarungen aufrechterhalten, kann der GDS-Akkreditierte den Nachweis jederzeit nach eigenem Ermessen überprüfen.
+Um zu bestätigen, dass Microsoft-Clouddienste ihre Compliance mit G-Cloud-Vereinbarungen aufrechterhalten, kann die GDS-Akkreditierung den Nachweis jederzeit nach eigenem Ermessen überprüfen.
 
 ### <a name="azure"></a>Azure
 
@@ -84,9 +98,9 @@ Das Verschieben Ihrer Regierungsdienste in die Cloud ist jetzt einfacher denn je
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
-**Wer ist berechtigt, den Digitalen Marketplace zu nutzen?**
+**Wer ist berechtigt, den Digital Marketplace zu verwenden?**
 
-Alle Behörden des Vereinigten Königreiches, devolvierte Verwaltungen, lokale Behörden, breitere öffentliche Stellen und Einrichtungen mit armer Länge sind berechtigt, Dienstleistungen auf dem Markt zu erwerben. Wenn Sie nicht sicher sind, ob Sie berechtigt sind, lesen Sie die aktuelle Anleitung für [Lieferanten kommerzieller Dienste.](https://www.gov.uk/guidance/current-crown-commercial-service-suppliers-what-you-need-to-know)
+Alle Behörden des Vereinigten Königreiches, devolvierte Verwaltungen, lokale Behörden, größere öffentliche Stellen und Einrichtungen mit armer Länge sind berechtigt, Dienstleistungen auf dem Markt zu erwerben. Wenn Sie nicht sicher sind, ob Sie berechtigt sind, lesen Sie die aktuelle Anleitung für [Lieferanten kommerzieller Dienste.](https://www.gov.uk/guidance/current-crown-commercial-service-suppliers-what-you-need-to-know)
 
 **Was ist der Längenkörper eines Arms?**
 
@@ -94,7 +108,7 @@ Es handelt sich um eine Organisation oder Agentur, die von der britischen Regier
 
 **Was bedeuten lokale Rechenzentrumsstandorte für Kunden im Vereinigten Königreich und wo befinden sie sich?**
 
-Die Microsoft Cloud in Großbritannien bietet Zuverlässigkeit und Leistung in Kombination mit dem Datenaufbewahrungsstatus im Vereinigten Königreich. Dieser Support bietet Kunden vertrauenswürdige Clouddienste, die ihnen helfen, die lokalen Compliance- und Richtlinienanforderungen zu erfüllen. Darüber hinaus bietet die Replikation von Daten in mehreren Rechenzentren in Großbritannien Kunden georedundanten Datenschutz für geschäftskontinuität, sowohl für reine Cloud- als auch hybride Szenarien. Wir verfügen über Rechenzentren an mehreren Standorten in Großbritannien.
+Die Microsoft Cloud in Großbritannien bietet Zuverlässigkeit und Leistung in Kombination mit dem Datenaufbewahrungsstatus im Vereinigten Königreich. Dieser Support bietet Kunden vertrauenswürdige Clouddienste, die ihnen helfen, die lokalen Compliance- und Richtlinienanforderungen zu erfüllen. Darüber hinaus bietet die Replikation von Daten in mehreren Rechenzentren in Großbritannien Kunden georedundanten Datenschutz für geschäftskontinuität, sowohl für reine Cloud- als auch hybride Szenarien. Wir haben Rechenzentren an mehreren Standorten in Großbritannien.
 
 - Sie können die neuen Azure-Regionen UK West und UK South auf der [globalen Azure-Karte](https://azuredatacentermap.azurewebsites.net/)sehen.
 - Für Office 365 bilden die Rechenzentren im Vereinigten Königreich gemeinsam die neue Uk Office 365 Region. Weitere Informationen finden Sie auf der [globalen Office 365 Karte.](https://o365datacentermap.azurewebsites.net/)

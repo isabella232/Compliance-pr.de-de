@@ -1,5 +1,5 @@
 ---
-title: Versetzung und Beendigung von Microsoft-Mitarbeitern
+title: Microsoft-Mitarbeiterübertragung und -kündigung
 description: Erfahren Sie mehr über den Transfer- und Beendigungsprozess von Microsoft-Mitarbeitern in Microsoft 365
 ms.author: robmazz
 author: robmazz
@@ -19,18 +19,18 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: b31dd13f4a6209712a9cc212ab3bcd9c5addf6b7
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 862bd05a84e5144602a24ac2aca1780cffaff3fe
+ms.sourcegitcommit: 48b8ec2dd00e957508e5af82458bf697e1a97ebb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53089625"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53395615"
 ---
-# <a name="microsoft-employee-transfer-and-termination"></a>Versetzung und Beendigung von Microsoft-Mitarbeitern
+# <a name="microsoft-employee-transfer-and-termination"></a>Microsoft-Mitarbeiterübertragung und -kündigung
 
-Mitarbeiterübertragungen und Kündigungen sind Teil des normalen Geschäftsbetriebs jedes Unternehmens. Wenn ein Mitarbeiter seine Position ändert oder das Unternehmen verlässt, ist es wichtig, unangemessenen Zugriff zeitnah zu widerrufen. Um effiziente Zugriffsänderungen und Zugriffssperrungen zu ermöglichen, verwendet Microsoft 365 standardisierte Verfahren und automatisierte Prozesse, um das Personalinformationssystem (HRIS) mit dem Identity Management (IDM)-System zu koordinieren. Die automatische Orchestrierung zwischen diesen beiden Systemen ist für die Aufrechterhaltung der betriebsbereiten Konsistenz, den Schutz der Dienste und Daten Microsoft 365, die Verhinderung von Rechteerweiterungen und die Verringerung von Risiken im Zusammenhang mit Insiderbedrohungen unerlässlich.
+Microsoft verarbeitet wie jede andere Organisation Mitarbeiterübertragungen und Kündigungen als Teil ihres normalen Geschäftsbetriebs. Wenn ein Mitarbeiter seine Position ändert oder das Unternehmen verlässt, ist es wichtig, unangemessenen Zugriff zeitnah zu widerrufen. Um effiziente Zugriffsänderungen und Zugriffssperrungen zu ermöglichen, verwendet Microsoft standardisierte Verfahren und automatisierte Prozesse, um das Personalinformationssystem (HRIS) mit dem Identity Management (IDM)-System zu koordinieren. Die automatisierte Orchestrierung zwischen diesen beiden Systemen ist wichtig, um die betriebsbereite Konsistenz zu gewährleisten, die Onlinedienste und -daten von Microsoft zu schützen, das Isolieren von Rechten zu verhindern und Risiken im Zusammenhang mit Insider-Bedrohungen zu verringern.
 
-Microsoft 365 Systeme sind für den Betrieb ohne ständigen administrativen Zugriff auf Produktionsumgebungen für unsere Techniker konzipiert. Microsoft verwendet ein Just-In-Time (JIT), Just-Enough-Access (JEA)-Modell, um Technikern den temporären Zugriff bereitzustellen, der erforderlich ist, um ihren Dienst bei Bedarf zu unterstützen. Um ein Serviceteamkonto für JIT-Zugriff anzufordern und zu verwenden, müssen Techniker Berechtigungen über das IDM-Tool anfordern und verwalten. Wenn Mitarbeiter übertragen oder beendet werden, werden ihr Serviceteamkonto und die zugehörigen Berechtigungen automatisch geändert, um unangemessenen Zugriff zu verhindern.
+Microsoft-Onlinedienste sind für den Betrieb ohne ständigen administrativen Zugriff auf Produktionsumgebungen für unsere Techniker konzipiert. Microsoft verwendet ein Just-In-Time (JIT), Just-Enough-Access (JEA)-Modell, um Technikern den temporären Zugriff bereitzustellen, der erforderlich ist, um ihren Dienst bei Bedarf zu unterstützen. Um ein Serviceteamkonto für JIT-Zugriff anzufordern und zu verwenden, müssen Techniker Berechtigungen über das IDM-Tool anfordern und verwalten. Wenn Mitarbeiter übertragen oder beendet werden, werden ihr Serviceteamkonto und die zugehörigen Berechtigungen automatisch geändert, um unangemessenen Zugriff zu verhindern.
 
 ## <a name="transfer-and-reassignment"></a>Übertragung und Neuzuweisung
 

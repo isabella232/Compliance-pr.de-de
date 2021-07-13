@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f35e72bc81a93bcba3ecea5ca8a416553e6116a8
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 7cc2131bf35f4f230ed3d18a22d7da0533dd3be5
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121374"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53385395"
 ---
 # <a name="center-for-internet-security-cis-benchmarks"></a>Benchmarks des Center for Internet Security (CIS)
 
@@ -50,7 +50,7 @@ Wie alle CIS-Benchmarks wurden auch die Microsoft-Benchmarks anhand eines konsen
   
 Zusätzlich zu den Benchmarks für Microsoft-Produkte und -Dienste hat CIS auch [gehärtete CIS-Images für die Verwendung auf virtuellen Azure-Computern veröffentlicht](https://www.cisecurity.org/blog/cis-hardened-images-now-in-microsoft-azure-marketplace/), die so konfiguriert wurden, dass sie den CIS-Benchmarks entsprechen. Dazu gehört das gehärtete CSI-Image für Microsoft Windows Server 2016, das für die Ausführung auf Azure zertifiziert wurde. CIS gibt an, dass „alle abgesicherten CIS-Abbildungen, die im [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps?search=center%20for%20internet%20security) verfügbar sind, für die Ausführung unter Azure zertifiziert wurden. Diese wurden vorab auf deren Einsatzbereitschaft und Kompatibilität mit der öffentlichen Azure-Cloud, der Microsoft-Cloudplattform, die von den Dienstanbietern über das Netzwerk des Cloudbetriebssystems gehostet wird, und den von Kunden verwalteten Windows Server Hyper-V-Bereitstellungen der lokalen privaten Cloud getestet.“
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft-Clouddienste im Leistungsumfang
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
 - [Azure und Azure Government](https://aka.ms/AzureCompliance)
 - [Office und Microsoft 365](https://aka.ms/o365-compliance-framework)
@@ -90,7 +90,7 @@ CIS betont, dass seine „Benchmarks mithilfe der großzügigen Freiwilligenarbe
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
 
-[Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center, die Ihnen](/microsoft-365/compliance/microsoft-365-compliance-center) hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen in Compliance Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
+[Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center](/microsoft-365/compliance/microsoft-365-compliance-center), die Ihnen hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="resources"></a>Ressourcen
 

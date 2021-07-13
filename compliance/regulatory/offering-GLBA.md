@@ -1,6 +1,6 @@
 ---
 title: Gramm-Leach-Bliley Act (GLBA)
-description: Microsoft hilft Finanzdienstleistern, die Datenschutz- und Sicherheitsanforderungen des Gramm-Leach-Bliley Act (GLBA) zu erfüllen.
+description: Microsoft hilft Finanzdienstleistungskunden bei der Einhaltung der Datenschutz- und Sicherheitsanforderungen des Gramm-Leach-Bliley Act (GLBA).
 keywords: Microsoft 365, Compliance, Angebote
 localization_priority: None
 ms.prod: microsoft-365-enterprise
@@ -16,58 +16,75 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 548cafdd7e7dfd68f06e28ba14d182505cd60d95
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 3799b59b8ad88c69e400336f0026a1730224693a
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120304"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384915"
 ---
 # <a name="gramm-leach-bliley-act-glba"></a>Gramm-Leach-Bliley Act (GLBA)
 
 ## <a name="glba-overview"></a>GLBA-Übersicht
 
-Der Gramm-Leach-Bliley Act (GLBA) ist ein US-amerikanisches Gesetz, mit dem die Finanzdienstleistungenbranche neu geregelt wurde, mit dem Geschäfts- und Investmentbankings, Wertpapierfirmen und Versicherungsunternehmen konsolidiert werden können und Bedenken hinsichtlich des Schutzes der Privatsphäre von Verbrauchern behoben wurden. Die Federal Trade Commission (FTC) und andere Regulierungsbehörden für Finanzdienstleistungen mussten Vorschriften implementieren, um Datenschutzbestimmungen wie die Financial Privacy Rule und die Sicherheitsregel zu erfüllen. GlBA-Anforderungen zum Schutz vertraulicher Verbraucherdaten gelten für Finanzinstitute, die Finanzprodukte und -dienstleistungen für Verbraucher anbieten, wie z. B. Vermögensausgaben, Investitionstipps und Versicherungsprodukte. Der FTC wird die Durchsetzung der Compliance vorbeladen.
+Der Gramm-Leach-Bliley Act (GLBA) ist ein US-Gesetz, das die Finanzdienstleistungsbranche neu formatiert hat und es Kommerziellen und Investmentbankern, Wertpapierunternehmen und Versicherungsunternehmen ermöglicht, sich zu konsolidieren und Bedenken hinsichtlich des Schutzes der Privatsphäre von Verbrauchern zu berücksichtigen. Die Federal Trade Commission (FTC) und andere Regulierungsbehörden für Finanzdienstleistungen mussten Vorschriften zur Behandlung von Datenschutzbestimmungen wie der Financial Privacy Rule und der Safeguards Rule implementieren. GLBA-Anforderungen zum Schutz vertraulicher Verbraucherdaten gelten für Finanzinstitute, die Finanzprodukte und -dienstleistungen für Verbraucher anbieten, z. B. Kreditnehmer, Anlagetipps und Versicherungsprodukte. Der FTC wird die Durchsetzung der Compliance zur Last gelegt.
 
 ## <a name="microsoft-and-glba"></a>Microsoft und GLBA
 
-Microsoft Azure, Microsoft Office 365, Dynamics 365 und Microsoft Power BI können dazu beitragen, die strengen Anforderungen der Bereitstellung von Clouddiensten für Finanzinstitute zu erfüllen. Im Rahmen unseres Support bieten wir Anleitungen, die Ihnen dabei helfen, die Anforderungen der GLBA zu erfüllen, indem sie technische und organisatorische Sicherheitsvorkehrungen bereitstellen, um die Sicherheit zu gewährleisten und unbefugte Nutzung zu verhindern.
+Microsoft Azure, Microsoft Office 365, Dynamics 365 und Microsoft Power BI können dazu beitragen, die strengen Anforderungen der Bereitstellung von Clouddiensten für Finanzinstitute zu erfüllen. Im Rahmen unseres Supports bieten wir Anleitungen, die Ihnen helfen, die Anforderungen der GLBA zu erfüllen, indem sie technische und organisatorische Sicherheitsmaßnahmen bereitstellen, um die Sicherheit aufrechtzuerhalten und unbefugte Nutzung zu verhindern.
 
-Microsoft hat Tools zur Risikobewertung für [Azure](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=6b218946-c235-4234-9beb-d557e39a3f44&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) und [Office 365](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=55702ffd-c35a-4619-8722-ab71c0c02002&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) entwickelt, mit deren Hilfe Sie eine Risikobewertung von Azure- und Office 365-Diensten effizienter durchführen können. Das Tool (eine Excel-Kalkulationstabelle) enthält 19 Informationssicherheitsdomänen (z. B. Sicherheitsrichtlinien und Risikomanagement), die die Anforderungen von Finanzdienstleistern und anderen relevanten Standards nachverfolgen, einschließlich GLBA (in Spalte R in der Azure-Kalkulationstabelle und Spalte Q in der Office 365-Tabelle). Die Tools erläutern, wie Azure und Office 365 die einzelnen Anforderungen erfüllen, die für Clouddienstanbieter gelten, und können Ihnen dabei helfen, die Sicherheitsanforderungen von GLBA zu erfüllen.
+Microsoft hat Tools zur Risikobewertung für [Azure](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=6b218946-c235-4234-9beb-d557e39a3f44&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) und [Office 365](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=55702ffd-c35a-4619-8722-ab71c0c02002&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) entwickelt, mit denen Sie eine Risikobewertung von Azure und Office 365-Diensten effizienter durchführen können. Das Tool (eine Excel-Tabelle) bietet zahlreiche Informationssicherheitsdomänen (z. B. Sicherheitsrichtlinien und Risikomanagement), die die Anforderungen von Finanzdienstleistungsvorschriften und anderen relevanten Standards nachverfolgen, einschließlich GLBA (in Spalte R in der Azure-Tabelle und Spalte Q in der Office 365-Tabelle). Die Tools erläutern, wie Azure und Office 365 die anforderungen erfüllen, die für Clouddienstanbieter gelten, und können Ihnen helfen, glba-Sicherheitsanforderungen zu erfüllen.
 
-## <a name="promote-your-glba-compliance"></a>Bewerben ihrer GLBA-Compliance
+## <a name="promote-your-glba-compliance"></a>Bewerben der GLBA-Compliance
 
 - [Herunterladen des Azure Financial Services Cloud Risk Assessment Tool](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=6b218946-c235-4234-9beb-d557e39a3f44&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
-- [Herunterladen des Office 365 Cloud Risk Assessment Tool](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=55702ffd-c35a-4619-8722-ab71c0c02002&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
+- [Herunterladen des Tools für die Office 365 Cloudrisikobewertung](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=55702ffd-c35a-4619-8722-ab71c0c02002&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft Cloud Services im Leistungsumfang
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft-cloudbasierte Plattformen &-Dienste
 
-- [Azure](https://aka.ms/AzureCompliance)
+- Azure
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
-- [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- Power BI-Clouddienst entweder als eigenständiger Dienst oder als Bestandteil eines Office 365 Markenplans oder einer Office 365 Suite
+- Office 365, Office 365 U.S. Government
+- Power BI Clouddienst (entweder als eigenständiger Dienst oder als Teil eines Office 365 Branding-Plans oder einer Suite)
 
-## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
+## <a name="azure-dynamics-365-and-glba"></a>Azure, Dynamics 365 und GLBA
 
-**Wo finde ich informationen, ob mein Finanzinstitut das GLB Act einhalten muss?**
+Weitere Informationen zu Azure, Dynamics 365 und anderen Onlinediensten finden Sie im [Azure GLBA-Angebot.](/azure/compliance/offerings/offering-glba-us)
 
-Die FTC beantwortet dies ausführlich auf der Seite "GLB Act". Wer wird von [der Datenschutzregel abgedeckt?](https://www.ftc.gov/tips-advice/business-center/guidance/how-comply-privacy-consumer-financial-information-rule-gramm#whois)
+## <a name="office-365-and-glba"></a>Office 365 und GLBA
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
+### <a name="office-365-cloud-environments"></a>Office 365 Cloudumgebungen
 
-[Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center, die Ihnen](/microsoft-365/compliance/microsoft-365-compliance-center) hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen in Compliance Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-## <a name="resources"></a>Ressourcen
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 Anwendbarkeit und In-Scope-Dienste
+
+Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365 Dienste und Abonnements zu ermitteln:
+
+| **Anwendbarkeit** | **In-Scope-Dienste** |
+|:------------------|:----------------------|
+| **Office 365** | Azure Active Directory, Azure Information Protection, Bookings, Compliance Manager, Delve, Exchange Online, Exchange Online Protection, Formulare, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Defender für Office 365, Microsoft Graph, Microsoft Teams, Microsoft To-Do for Web, MyAnalytics, Office 365 Advanced Compliance Add-On, Office 365 Cloud App Security, Office 365 Groups, Office 365 Security & Compliance Center, Office 365 Video, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
+| **GCC** | Azure Active Directory, Compliance-Manager, Delve, Exchange Online, Formulare, Microsoft Defender für Office 365 Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, Stream |
+
+### <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
+
+**Wie kann ich feststellen, ob mein Finanzinstitut das GLB-Gesetz einhalten muss?**
+
+Die FTC beantwortet dies ausführlich auf ihrer GLB Act-Seite, [Wer von der Datenschutzregel abgedeckt wird?](https://www.ftc.gov/tips-advice/business-center/guidance/how-comply-privacy-consumer-financial-information-rule-gramm#whois)
+
+### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
+
+[Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center](/microsoft-365/compliance/microsoft-365-compliance-center), die Ihnen hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
+
+### <a name="resources"></a>Ressourcen
 
 - [Gramm-Leach-Bliley Act](https://www.ftc.gov/tips-advice/business-center/privacy-and-security/gramm-leach-bliley-act)
-- [Azure Financial Services Cloud Risikobewertungstool](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=6b218946-c235-4234-9beb-d557e39a3f44&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
-- [Office 365 Cloud Risk Assessment Tool](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=55702ffd-c35a-4619-8722-ab71c0c02002&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
+- [Office 365 Tool zur Cloudrisikobewertung](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=55702ffd-c35a-4619-8722-ab71c0c02002&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
 - [Compliance im Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="other-microsoft-resources-for-financial-services"></a>Weitere Microsoft-Ressourcen für Finanzdienste
+### <a name="other-microsoft-resources-for-financial-services"></a>Weitere Microsoft-Ressourcen für Finanzdienste
 
 - [Microsoft Compliance-Programm für Finanzdienstleiter](https://www.microsoft.com/download/details.aspx?id=55332)
-- [Financial Services Compliance in Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
-- [Microsoft-Clouddienste für Unternehmen und Finanzdienstleistungen](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
+- [Microsoft Clouddienste für Unternehmen und Finanzdienstleistungen](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
 - [Die gemeinsame Verantwortung beim Cloud Computing](https://aka.ms/sharedresponsibility)

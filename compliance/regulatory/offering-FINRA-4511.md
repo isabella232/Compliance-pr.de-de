@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 35c24da993fd40cd787650389ab8324eca1cf828
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 5db72902615eef26b45b5d4eeaa52132ee3703b1
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53089538"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53385025"
 ---
 # <a name="financial-industry-regulatory-authority-finra-rule-4511c-united-states"></a>Financial Industry Regulatory Authority (FINRA) Rule 4511(c) United States
 
@@ -29,7 +29,7 @@ ms.locfileid: "53089538"
 
 Die [Financial Industry Regulatory Authority (FINRA)](https://www.finra.org/#/) ist die größte unabhängige Stelle für Wertpapierunternehmen mit Aufsicht über mehr als 4.500 Wertpapierunternehmen in den USA. Sie wurde vom US-Amerikanischen Industrieunternehmen autorisiert, "um die Amerikanischen Behörden zu schützen, indem sichergestellt wurde, dass die Broker-Händler-Branche fair und redlich arbeitet."
 
-Im Jahr 2011 genehmigte die US Security and Exchange Commission (SEC) die FINRA-Einführung von SEC-Regeln zur Aufbewahrung von Büchern und Aufzeichnungen auf elektronischen Speichermedien. [Finra-Regel 4511(c)](https://www.finra.org/sites/default/files/NoticeDocument/p123548.pdf) legt fest, dass "alle Bücher und Aufzeichnungen, die gemäß den FINRA-Regeln erstellt werden müssen, in einem Format und Medien aufbewahrt werden, die der SEA -Regel 17a-4 (Securities Exchange Act) entsprechen."
+Im Jahr 2011 genehmigte die US Security and Exchange Commission (SEC) die FINRA-Einführung von SEC-Regeln zur Aufbewahrung von Büchern und Aufzeichnungen auf elektronischen Speichermedien. [Finra-Regel 4511(c)](https://www.finra.org/sites/default/files/NoticeDocument/p123548.pdf) legt fest, dass "alle Bücher und Aufzeichnungen, die gemäß den FINRA-Regeln vorgenommen werden müssen, in einem Format und Medien aufbewahrt werden, die der SEA -Regel 17a-4 (Securities Exchange Act) entsprechen."
 
 Darüber hinaus schreibt FINRA-Regel 4511(c) vor, dass Unternehmen diese Bücher und Aufzeichnungen, für die gemäß den geltenden FINRA- oder SEA-Regeln kein aufbewahrungszeitraum gilt, für einen Zeitraum von mindestens sechs Jahren aufbewahren müssen. Wenn sich die Bücher und Datensätze auf ein Konto beziehen, ist der Aufbewahrungszeitraum auf sechs Jahre nach dem Schließen des Kontos festgelegt. Andernfalls beträgt der Aufbewahrungszeitraum sechs Jahre, nachdem solche Bücher und Datensätze erstellt wurden.
 
@@ -49,9 +49,9 @@ Softwareanbieter und Partner mit vertraulichen Workloads können sich jetzt auf 
 
 ## <a name="microsoft-365"></a>Microsoft 365
 
-Für anforderungen der [FINRA-Regel 4511(c)](/microsoft-365/compliance/retention-regulatory-requirements#sec-17a-4f-finra-4511c-and-cftc-131c-d) hat Cohasset überprüft, dass Microsoft 365 Archivierungsfunktionen umfasst, mit denen regulierte Kunden, einschließlich Broker-Händler, Daten auf eine Weise speichern können, die ihnen hilft, die SEC-Anforderungen für die Aufbewahrung von Datensätzen zu erfüllen. Mithilfe von Aufbewahrungsfunktionen in Microsoft 365 erhalten Sie eine vielzahl von Daten, einschließlich E-Mail, Voicemail, freigegebene Dokumente, Chatnachrichten und Daten von Drittanbietern. Insbesondere die Archivierung in Microsoft 365 ermöglicht Es Kunden, globale oder granulare Aufbewahrungsrichtlinien für Messaging festzulegen, um Daten für einen definierten Zeitraum und darüber hinaus in einem nicht umschreibbaren, nicht löschbaren Format zu speichern.
+Bei anforderungen der [FINRA-Regel 4511(c)](/microsoft-365/compliance/retention-regulatory-requirements#sec-17a-4f-finra-4511c-and-cftc-131c-d) überprüfte Cohasset, dass Microsoft 365 Archivierungsfunktionen umfasst, mit denen regulierte Kunden, einschließlich Broker-Händler, Daten auf eine Weise speichern können, die ihnen hilft, die SEC-Anforderungen für die Aufbewahrung von Datensätzen zu erfüllen. Mithilfe von Aufbewahrungsfunktionen in Microsoft 365 können Sie eine vielzahl von Daten aufbewahren, einschließlich E-Mail, Voicemail, freigegebene Dokumente, Chatnachrichten und Daten von Drittanbietern. Insbesondere die Archivierung in Microsoft 365 ermöglicht Es Kunden, globale oder granulare Aufbewahrungsrichtlinien für Messaging festzulegen, um Daten für einen definierten Zeitraum und darüber hinaus in einem nicht umschreibbaren, nicht löschbaren Format zu speichern.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft-Clouddienste im Leistungsumfang
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft-cloudbasierte Plattformen &-Dienste
 
 - [Azure](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
 - [Office 365](https://aka.ms/Office365ComplianceOfferings)
@@ -70,7 +70,7 @@ Für anforderungen der [FINRA-Regel 4511(c)](/microsoft-365/compliance/retention
 
 - **Regulierung für Finanzdienstleistungen:** Compliance-Karte wichtiger US-regulatorischer Prinzipien für Cloud Computing und Microsoft-Onlinedienste. [Weitere Informationen](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5b483567-00b0-4d86-96ae-ee887dadb61c&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
 - **Leitfaden für Risikobewertung und Compliance**: Erstellen Sie ein Governance-Modell für die Risikobewertung von Microsoft Cloud Services und die Benachrichtigung der Aufsichtsbehörden. [Weitere Informationen](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
-- **Anwendungsfälle in der Finanzbranche**: Verwenden Sie Fallübersichten, Lernprogramme und andere Ressourcen, um Azure-Lösungen für Finanzdienstleistungen zu entwickeln. [Weitere Informationen](/azure/industry/financial/)
+- **Finanzielle Anwendungsfälle**: Verwenden Sie Fallübersichten, Lernprogramme und andere Ressourcen, um Azure-Lösungen für Finanzdienstleistungen zu entwickeln. [Weitere Informationen](/azure/industry/financial/)
 
 ## <a name="resources"></a>Ressourcen
 

@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 1b391d3f3cd748047e24bf9e82d3c267ca7425a7
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 1fe73fa10549c0126dc0b38b93cf1edd5b132855
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53089548"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53385045"
 ---
 # <a name="financial-market-supervisory-authority-finma-switzerland"></a>Finanzmarktaufsichtsbehörde (FINMA) Schweiz
 
@@ -42,7 +42,7 @@ Die Microsoft-Checkliste unterstützt Schweizerische Finanzunternehmen bei der D
 - Eine Übersicht über die aufsichtsrechtliche Landschaft für den Kontext.
 - Eine Checkliste, welche die zu behandelnden Probleme darlegt und die Dienste von Microsoft Azure, Microsoft Dynamics 365 und Microsoft 365 den regulatorischen Verpflichtungen zuordnet. Die Checkliste dazu verwendet werden, die Compliance anhand eines regulatorischen Rahmens zu messen und eine interne Struktur für die Dokumentation der Compliance bereitzustellen; sie kann Kunden auch bei der Durchführung ihrer eigenen Risikobewertungen von Microsoft Business-Clouddiensten unterstützen.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft-Clouddienste im Leistungsumfang
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und Dienste
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)

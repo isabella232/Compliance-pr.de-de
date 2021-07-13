@@ -1,6 +1,6 @@
 ---
-title: Ministerium für Elektronik und Informationstechnologie (MeitY)
-description: Microsoft erhielt eine vollständige Akkreditierung durch das Ministerium für Elektronik und Informationstechnologie in Indien.
+title: MeitY (Abteilung für Unterhaltung und Informationstechnologie)
+description: Microsoft wurde vom Gesundheitsministerium für Elektronische Und Informationstechnologie in Indien vollständig akkreditiert.
 keywords: Microsoft 365, Compliance, Angebote
 localization_priority: None
 ms.prod: microsoft-365-enterprise
@@ -16,52 +16,52 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: db3764419ae036eb578b7c09b5ee5dfeb7a07e29
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: f9b5924ce8f8424479bd4320f6e33e6fec7e636d
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506930"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384505"
 ---
-# <a name="ministry-of-electronics-and-information-technology-meity"></a>Ministerium für Elektronik und Informationstechnologie (MeitY)
+# <a name="ministry-of-electronics-and-information-technology-meity"></a>MeitY (Abteilung für Unterhaltung und Informationstechnologie)
 
-## <a name="meity-overview"></a>MeitY-Übersicht
+## <a name="meity-overview"></a>Übersicht über MeitY
 
-Das Ministerium für Elektronik und Informationstechnologie (MeitY), eine Agentur der indischen Regierung, stellt Richtlinien für alle staatlichen und staatlichen Organisationen des öffentlichen Sektors zur Verfügung. Die Richtlinien werden auch häufig von Organisationen des privaten Sektors in regulierten Branchen wie Finanzdienstleistungen und Telekommunikation angenommen.
+The Government of Electronic and Information Technology (MeitY), an agency of the government of India, provides policy guidelines to all government and state public sector organizations. Die Richtlinien werden auch häufig von Organisationen des privaten Sektor in regulierten Branchen wie Finanzdienstleistungen und Telekommunikation übernommen.
 
-MeitY stellt eine Akkreditierung (bezeichnet von MeitY als "empanelment") von Cloud-Dienstanbietern bereit, die erfordert, dass Cloud-Dienste als konform mit einer vordefinierten Reihe von Standards und Richtlinien für Sicherheit, Interoperabilität, Daten Portabilität, Vereinbarung zum Service Level und vertragliche Geschäftsbedingungen zertifiziert werden. Von MeitY akkreditierte Auditoren Überprüfen der Compliance durch das Durchführen von Audits von Cloud-Dienstanbietern.
+MeitY bietet eine Akkreditierung (von MeitY als "Empanelment" bezeichnet) von Clouddienstanbietern, was voraussetzt, dass Clouddienste gemäß einer vordefinierten Reihe von Standards und Richtlinien für Sicherheit, Interoperabilität, Datenübertragbarkeit, Vereinbarung zum Servicelevel und Vertragsbedingungen zertifiziert werden. Von MeitY akkreditierte Auditoren überprüfen die Compliance, indem sie Audits von Clouddienstanbietern durchführen.
 
-Sobald akkreditiert, werden Cloud-Dienstanbieter in einem Government Cloud Services-Verzeichnis aufgeführt, in dem öffentliche Organisationen akkreditierte Cloud-Dienste vergleichen und beschaffen können. Das Verzeichnis ist ein Dienst der [MeghRaj Cloud Initiative](https://meity.gov.in/content/gi-cloud-meghraj) (oder GI \[ Government of India \] Cloud), die den Einsatz von Cloud Computing in der Regierung fördert und die Implementierung von IT-Diensten des öffentlichen Sektors steuert.
+Nach der Akkreditierung werden Clouddienstanbieter in einem Verzeichnis für Government Cloud Services aufgeführt, in dem Organisationen des öffentlichen Dienstes akkreditierte Clouddienste vergleichen und beschaffen können. Das Verzeichnis ist ein Dienst der [MeghRaj Cloud Initiative](https://meity.gov.in/content/gi-cloud-meghraj) (oder GI \[ Government of India \] Cloud), die die Verwendung von Cloud Computing in Behörden fördert und die Implementierung von IT-Diensten des öffentlichen Dienstes steuert.
 
-## <a name="microsoft-and-ministry-of-electronics-and-information-technology-meity"></a>Microsoft und Ministerium für Elektronik und Informationstechnologie (MeitY)
+## <a name="microsoft-and-ministry-of-electronics-and-information-technology-meity"></a>Microsoft und Das Verteidigungsministerium für Unterhaltung und Informationstechnologie (MeitY)
 
-Im November 2017 wurde Microsoft einer der ersten globalen Cloud-Dienstanbieter, der die vollständige Akkreditierung durch MeitY für die drei Cloud-Modelle erreicht hat:
+Im November 2017 wurde Microsoft einer der ersten globalen Clouddienstanbieter, der die vollständige Akkreditierung durch MeitY für seine drei Cloudmodelle erreicht hat:
 
-- Öffentliche Cloud für freigegebene, mehrinstanzenfähige öffentliche Cloud-Dienste
-- Government Virtual Private Cloud, die logisch von den öffentlichen und anderen Angeboten des Cloud-Dienstanbieters getrennt sein muss
-- Government Community Cloud, für Cloud-Dienste, die für Regierungsabteilungen dediziert sind und physisch getrennt von den öffentlichen und anderen Angeboten des Cloud-Dienstanbieters sind
+- Public Cloud, für freigegebene, mehrinstanzenfähige öffentliche Clouddienste
+- Government Virtual Private Cloud, die logisch von den öffentlichen und anderen Angeboten des Clouddienstanbieters getrennt sein muss
+- Government Community Cloud, für Clouddienste, die Behördenabteilungen zugeordnet sind und physisch von den öffentlichen und anderen Angeboten des Clouddienstanbieters getrennt sind
 
-Die MeitY-Akkreditierung von Microsoft war das Ergebnis einer rigorosen Überwachung, die von der Direktion für Standardisierungs Tests und Qualitätszertifizierungen (STQC), einer Regierungsorganisation, die Qualitäts Sicherungsdienste bereitstellt, mithilfe eines Evaluierungs Frameworks durchgeführt wird, das auf der Arbeit der MeghRaj-Cloud-Initiative basiert. Über Microsoft Azure können Organisationen des öffentlichen Sektors nun auf eine breite Palette von Bereitstellungsmodellen und Dienst angeboten zurückgreifen, einschließlich der Infrastruktur als Dienst (IaaS), Plattform als Dienst (PaaS), Notfallwiederherstellung, DevOps und verwalteter Sicherung.
+Die MeitY-Akkreditierung von Microsoft war das Ergebnis einer strengen Prüfung, die von der Direktion für Standardisierungstests und Qualitätszertifizierung (STQC) durchgeführt wurde, einer Regierungsbehörde, die Qualitätssicherungsdienste mithilfe eines Bewertungsframeworks basierend auf der Arbeit der MeghRaj Cloud Initiative bereitstellt. Über Microsoft Azure können Organisationen des öffentlichen Dienstes jetzt auf eine Vielzahl von Bereitstellungsmodellen und Dienstangeboten zurückgreifen, einschließlich Infrastructure as a Service (IaaS), Platform as a Service (PaaS), Notfallwiederherstellung, DevOps und verwalteter Sicherung.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft Cloud Services im Leistungsumfang
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft-cloudbasierte Plattformen &-Dienste
 
 - [Azure](https://aka.ms/AzureCompliance)
-- [Dynamics 365](https://download.microsoft.com/download/E/1/9/E1977163-7A86-4812-AC18-C03ADC958AAF/Microsoft_Dynamics_365_Cloud_Service_Compliance_Datasheet.pdf)
+- [Dynamics 365](https://aka.ms/d365-compliance-list)
 - [Office 365](https://aka.ms/Office365ComplianceOfferings)
 
 ## <a name="audits-reports-and-certificates"></a>Prüfungen, Berichte und Zertifikate
 
-- Microsoft-Cloud-Akkreditierung unter [dem Überwachungs Status von Cloud-Dienstanbietern](https://meity.gov.in/content/gi-cloud-meghraj)
+- Microsoft Cloud-Akkreditierung unter [Überwachungsstatus von Clouddienstanbietern](https://meity.gov.in/content/gi-cloud-meghraj)
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
 **Warum ist MeitY wichtig?**
 
-Die Bereitstellung von öffentlichen Diensten für Bürger Online ist ein wichtiger Bestandteil des Digital India-Programms, das darauf abzielt, "Indien in eine Digital gestärkte Gesellschaft und wissensbasierte Wirtschaft umzuwandeln". MeitY listet akkreditierte Anbieter von Cloud-Diensten im Government Cloud Services-Verzeichnis auf, mit denen Organisationen aus dem öffentlichen Sektor diese Dienste vergleichen und beschaffen können.
+Die Online-Bereitstellung von Behördendiensten für Bürger ist ein wichtiger Bestandteil des Programms "Digital India", das darauf abzielt, "Indien in eine digital fähigen Heutigen und Wissenssparität umzuwandeln". MeitY listet akkreditierte Clouddienstanbieter im Verzeichnis der Government Cloud Services auf, wodurch Organisationen des öffentlichen Dienstes diese Dienste vergleichen und beschaffen können.
 
 ## <a name="resources"></a>Ressourcen
 
-- [Ministerium für Elektronik und Informationstechnologie](https://meity.gov.in/)
-- [MeghRaj-Cloud-Initiative](https://meity.gov.in/content/gi-cloud-meghraj)
-- [Zugelassene Cloud-Dienstanbieter](https://meity.gov.in/content/gi-cloud-meghraj)
+- [Verteidigungsministerium für Unterhaltungs- und Informationstechnologie](https://meity.gov.in/)
+- [MeghRaj Cloud Initiative](https://meity.gov.in/content/gi-cloud-meghraj)
+- [Akkreditierte Clouddienstanbieter](https://meity.gov.in/content/gi-cloud-meghraj)
 - [Compliance im Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)

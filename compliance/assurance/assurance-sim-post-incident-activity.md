@@ -1,6 +1,6 @@
 ---
-title: 'Microsoft 365 Security Incident Management: Aktivitäten nach dem Vorfall'
-description: Dieser Artikel bietet eine Übersicht über den Prozess der Sicherheitsvorfallverwaltung nach einem Vorfall in Microsoft 365.
+title: 'Microsoft-Sicherheitsvorfallverwaltung: Aktivitäten nach dem Vorfall'
+description: Dieser Artikel bietet eine Übersicht über den Prozess der Aktivitäten nach dem Vorfall bei der Verwaltung von Sicherheitsvorfällen in Microsoft-Onlinediensten.
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -19,36 +19,38 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 4ebd31c16f8abb3eddd6ed924a045d88597aba40
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: 965c7d6d0d469b9eea981252805bda598c92a4c8
+ms.sourcegitcommit: 8bf2602d56eedee4447ddb374ef95b0587f254e7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51496714"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53377532"
 ---
-# <a name="microsoft-365-security-incident-management-post-incident-activity"></a>Microsoft 365 Security Incident Management: Aktivitäten nach dem Vorfall
+# <a name="microsoft-security-incident-management-post-incident-activity"></a>Microsoft-Sicherheitsvorfallverwaltung: Aktivitäten nach dem Vorfall
 
 ## <a name="postmortem"></a>Postmortem
 
-Einige Sicherheitsvorfälle, insbesondere solche Vorfälle, die sich auf Kunden auswirken oder zu einer Datenschutzverletzung führen, unterliegen einem vollständigen Vorfall nach dem Vorfall. Das Microsoft 365 Security Response-Team führt ein detailliertes Postmortem mit allen an der Reaktion auf Sicherheitsvorfälle beteiligten Parteien durch:
+Einige Sicherheitsvorfälle, insbesondere solche, die auswirkungen auf den Kunden haben oder zu einer Datenschutzverletzung führen, unterliegen einem vollständigen Vorfallstatus. Das Sicherheitsteam führt ein detailliertes Postmortem mit allen an der Reaktion auf Sicherheitsvorfälle beteiligten Parteien durch:
 
-- Dokumentieren der Reihenfolge der Ereignisse, die den Vorfall verursacht haben
-- Erstellen Sie eine technische Zusammenfassung des Vorfalls, die von den Nachweisen unterstützt wird, die die an der Verletzung beteiligten Akteure (sofern bekannt) enthalten. Diese Zusammenfassung enthält die Ausführung der Antwort und andere wichtige Informationen.
-- Identifizieren Sie technische Fehler, Verfahrensfehler, manuelle Fehler, Prozessfehler und Kommunikationsfehler und/oder zuvor unbekannte Angriffsvektoren, die während der Reaktion auf Sicherheitsvorfälle identifiziert wurden.
+- Dokumentieren Sie die Abfolge der Ereignisse, die den Vorfall verursacht haben.
+- Erstellen Sie eine technische Zusammenfassung des Vorfalls, die durch die Nachweise unterstützt wird, die die an der Verletzung beteiligten Akteure (sofern bekannt) umfassen. Diese Zusammenfassung enthält die Ausführung der Antwort und andere Wichtigeinkäufe.
+- Identifizieren von technischen Fehlern, Verfahrensfehlern, manuellen Fehlern, Prozessfehlern und Kommunikationsfehlern und/oder zuvor unbekannten Angriffsvektoren, die während der Reaktion auf Sicherheitsvorfälle identifiziert wurden.
 
-Das Postmortem hat direkten Einfluss auf die Verbesserung der Microsoft 365-Dienste, die operativen Prozesse und die Dokumentation, indem neue Prioritäten im Microsoft 365-Entwicklungszyklus festgelegt werden.
+Das Postmortem wirkt sich direkt auf die Verbesserung des Microsoft-Onlinediensts, die betrieblichen Prozesse und die Dokumentation aus, indem neue Prioritäten im Entwicklungszyklus der Microsoft-Onlinedienste festgelegt werden.
 
 ## <a name="documentation"></a>Dokumentation
 
-Alle wichtigen technischen Erkenntnisse im postmortem-Prozess werden in einem Bericht und in Serviceinvestitionen oder -korrekturen in Form von Fehlern oder Entwicklungsänderungsanforderungen erfasst. Diese Erkenntnisse werden mit den entsprechenden Technischen Teams weiterverarbeiten. Bei Prozessfehlern und organisationsübergreifenden Problemen werden Probleme in der Datenbank des Microsoft 365 Security Response-Teams dokumentiert und mit den entsprechenden Gruppen zur Problembesprechung nachgegangen.
+Alle wichtigen technischen Ergebnisse im postirtischen Prozess werden in einem Bericht erfasst, in dem Investitionen in Dienste oder Korrekturen in Form von Fehlern oder Entwicklungsänderungsanforderungen vorgenommen werden. Diese Ergebnisse werden mit den entsprechenden Entwicklungsteams nachverfolgt. Bei Prozessfehlern und organisationsübergreifenden Problemen werden Probleme in der Datenbank des Sicherheitsreaktionsteams dokumentiert und mit den entsprechenden Gruppen verfolgt, um sie zu beheben.
 
 ## <a name="process-improvement"></a>Prozessverbesserung
 
-Die Reaktion auf einen Sicherheitsvorfall in Microsoft 365 umfasst die Koordination mit mehreren Gruppen, die über verschiedene Organisationen in Microsoft verteilt sind, und potenziell sogar geeignete externe Organisationen wie die Strafverfolgung. Wir wissen, dass es wichtig ist, unsere Antworten nach jedem Sicherheitsvorfall sowohl auf Dieligkeit als auch auf Vollständigkeit auszuwerten. Für identifizierte Verbesserungen oder Änderungen wertet das Microsoft 365 Security Response-Team die Vorschläge in Abstimmung mit den entsprechenden Teams und Beteiligten aus und integriert sie gegebenenfalls in standardbetriebsverfahren. Alle erforderlichen Änderungen, Fehler oder Dienstverbesserungen, die während der Reaktion auf Sicherheitsvorfälle oder postmortem Aktivitäten identifiziert wurden, werden protokolliert und in einer internen Microsoft 365-Engineeringdatenbank nachverfolgt. Alle potenziellen Fehler oder Features werden dem entsprechenden Besitzer zugewiesen. Das Microsoft 365 Security Response-Team überprüft alle Einträge, bis das Problem behoben ist.
+Die Reaktion auf einen Sicherheitsvorfall in Microsoft-Onlinediensten umfasst die Koordination mit mehreren Gruppen, die über verschiedene Organisationen innerhalb von Microsoft verteilt sind, und möglicherweise sogar mit geeigneten externen Organisationen wie Strafverfolgungsbehörden. Wir wissen, dass es wichtig ist, unsere Antworten nach jedem Sicherheitsvorfall sowohl auf Ausreichendes als auch auf Vollständigkeit zu bewerten. Bei identifizierten Verbesserungen oder Änderungen wertet das Sicherheitsteam die Vorschläge in Abstimmung mit den entsprechenden Teams und Beteiligten aus und integriert sie gegebenenfalls in standardbetriebsverfahren. Alle erforderlichen Änderungen, Fehler oder Dienstverbesserungen, die während der Reaktion auf Sicherheitsvorfälle oder nachträgliche Aktivitäten identifiziert wurden, werden in einer internen Microsoft Engineering-Datenbank protokolliert und nachverfolgt. Alle potenziellen Fehler oder Features werden dem entsprechenden Besitzer zugewiesen. Das Microsoft Security Response-Team überprüft alle Einträge, bis das Problem behoben ist.
 
 ## <a name="related-articles"></a>Verwandte Artikel
 
-- [Verwaltung von Sicherheitsvorfällen unter Microsoft 365](assurance-security-incident-management.md)
-- [Vorbereitung der Sicherheitsvorfälle in Microsoft 365](assurance-sim-preparation.md)
-- [Erkennung und Analyse von Sicherheitsvorfällen in Microsoft 365](assurance-sim-detection-analysis.md)
-- [Eindämmung, Beseitigung und Wiederherstellung von Sicherheitsvorfällen in Microsoft 365](assurance-sim-containment-eradication-recovery.md)
+- [Microsoft-Sicherheitsvorfallverwaltung](assurance-security-incident-management.md)
+- [Microsoft Security Incident Management: Vorbereitung](assurance-sim-preparation.md)
+- [Microsoft Security Incident Management: Erkennung und Analyse](assurance-sim-detection-analysis.md)
+- [Microsoft Security Incident Management: Eindämmung, Beseitigung und Wiederherstellung](assurance-sim-containment-eradication-recovery.md)
+- [So protokollieren Sie ein Supportticket für Sicherheitsereignisse](/azure/security/fundamentals/event-support-ticket)
+- [Azure und Dynamics 365-Benachrichtigung bei Datenschutzverletzung im Rahmen der DSGVO](/compliance/regulatory/gdpr-breach-azure-dynamics)

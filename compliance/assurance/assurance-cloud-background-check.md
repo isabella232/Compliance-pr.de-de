@@ -1,6 +1,6 @@
 ---
 title: Microsoft Cloud-Hintergrundprüfung
-description: In diesem Artikel finden Sie eine Übersicht über die Microsoft-Mitarbeiterprüfungsverfahren für Microsoft 365.
+description: In diesem Artikel finden Sie eine Übersicht über die Microsoft-Personalprüfungsmethoden für Microsoft 365.
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -20,29 +20,29 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 2347d524bf1561b60eb40020636196332e2accd7
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: 96cd820b597970e6e4611700dbbfaed8621ac497
+ms.sourcegitcommit: 48b8ec2dd00e957508e5af82458bf697e1a97ebb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51497663"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53395625"
 ---
 # <a name="microsoft-cloud-background-check"></a>Microsoft Cloud-Hintergrundprüfung
 
-Eine Microsoft Cloud Background Check ist für Kandidaten erforderlich, die als Mitarbeiter eingestellt werden, die Microsoft 365-bezogene Dienste in den USA bereitstellen. Microsoft-Mitarbeiter in den USA mit Zugriff auf Kundendaten müssen den von allen Microsoft 365-Diensten erforderlichen Microsoft Cloud Background Check-Prozess befolgen. Außerhalb der USA variiert der Prozess. Die Microsoft Cloud für Deutschland verwendet beispielsweise ein Genehmigungsmodell für Datentreuhänder, das sicherstellen soll, dass der Datentreuhänder (ein deutsches Unternehmen) und nicht Microsoft die Kontrolle über den Zugriff auf Kundendaten hat. Die Microsoft Cloud in Deutschland wird von Rechenzentren in Deutschland zugestellt, und die Operations Center (OC) mit den technischen Mitarbeitern des Datentreuhänders befinden sich ebenfalls in Deutschland. Sowohl das Datencenter als auch die OC-Einrichtungen werden vom Datentreuhänder betrieben, verwaltet und gesteuert.
+Für Kandidaten, die als Mitarbeiter eingestellt wurden, die Microsoft-Onlinedienste in den USA bereitstellen und verwalten, ist eine Microsoft Cloud-Hintergrundüberprüfung erforderlich. Microsoft-Mitarbeiter in den VEREINIGTEn Staaten mit Zugriff auf Kundendaten müssen den Microsoft Cloud Background Check-Prozess befolgen, der von allen Microsoft-Onlinediensten benötigt wird. Außerhalb der VEREINIGTEn Staaten variiert der Prozess. Die Microsoft Cloud für Deutschland verwendet beispielsweise ein Datentreuhänder-Genehmigungsmodell, das sicherstellt, dass der Datentreuhänder (ein deutsches Unternehmen) und nicht Microsoft den Zugriff auf Kundendaten kontrolliert. Die Microsoft Cloud in Deutschland wird von Rechenzentren in Deutschland bereitgestellt, und die Operations Center (OC), die die technischen Mitarbeiter des Datentreuhänders enthalten, befinden sich ebenfalls in Deutschland. Sowohl das Rechenzentrum als auch die OC-Einrichtungen werden vom Datentreuhänder betrieben, verwaltet und gesteuert.
 
-Soweit durch das lokale Recht zulässig, werden die folgenden Prüfungen im Rahmen der Microsoft Cloud Background Check durchgeführt.
+Soweit dies nach lokalem Recht zulässig ist, werden die folgenden Überprüfungen im Rahmen der Microsoft Cloud Background Check durchgeführt.
 
-- Vereinigte Staaten: Ablaufverfolgung der Sozialversicherungsnummer
-- Der Strafverlauf überprüft bis zu sieben Jahre auf Vergehen auf Landes-, Kreis- und lokaler Ebene sowie gegebenenfalls auf Bundesebene in den USA. Eine internationale Überprüfung der Strafgeschichte (abhängig vom lokalen Recht) gilt für Bereiche außerhalb der VEREINIGTEn Staaten.
-- Globale Sanktions- und Durchsetzungsüberprüfung, einschließlich Liste der Office of Foreign Assets Control (OFAC), Liste des Bureau of Industry and Security (BIS) und Überprüfungen der Liste "Debarred Persons" (DDTC) des Office of Defense Trade Controls.
+- Vereinigte Staaten: Sozialversicherungsnummer-Ablaufverfolgung
+- Die Strafrechtliche Verfolgung überprüft bis zu sieben Jahre auf Straftaten aufgrund von Straftaten aufgrund von Straftaten auf Bundesstaats-, Kreis- und lokaler Ebene sowie auf Bundesebene, sofern dies in den VEREINIGTEn Staaten angemessen ist. Für Bereiche außerhalb der VEREINIGTEn Staaten gilt eine internationale Überprüfung der Vorregisterregister (abhängig von den lokalen Gesetzen).
+- Globale Sanktions- und Durchsetzungsprüfungen, einschließlich Office der Liste der Ofac-Listen (Foreign Assets Control), der Liste des Bis-Büros (Bureau of Industry and Security) und Office der Liste "Debarred Persons (DDTC)"-Listenüberprüfungen (Defense Trade Controls Debarred Persons, DDTC).
 
-Die Ergebnisse der Microsoft Cloud Background Check werden in unserer Mitarbeiterdatenbank gespeichert und mit unseren Datencenterzugriffssteuerungssystemen verbunden. Wenn die Microsoft Cloud Background Check abläuft und der Mitarbeiter sie nicht verlängert, wird der Zugriff auf Microsoft 365-Dienste widerrufen und ist nicht mehr verfügbar, bis die Microsoft Cloud Background Check abgeschlossen ist. Wenn die Arbeitsbeziehung mit Microsoft endet, wird der Zugriff auf das Rechenzentrum sofort widerrufen.
+Die Ergebnisse der Microsoft Cloud-Hintergrundüberprüfung werden in unserer Mitarbeiterdatenbank gespeichert und mit unseren Zugriffssteuerungssystemen für Rechenzentren verbunden. Wenn die Microsoft Cloud-Hintergrundüberprüfung abläuft und der Mitarbeiter sie nicht erneuert, wird der Zugriff auf Microsoft-Dienste widerrufen und nicht mehr verfügbar, bis die Microsoft Cloud-Hintergrundüberprüfung abgeschlossen ist. Wenn die Anstellungsbeziehung mit Microsoft endet, wird der Zugriff auf das Rechenzentrum sofort widerrufen.
 
-Die Amerikanische Staatsbürgerschaft wird für alle Mitarbeiter mit physischem oder logischem Zugriff auf die Microsoft 365 United States Government Services überprüft. Um die Staatsbürgerschaft zu überprüfen, treffen sich Mitarbeiter und/oder Neueinstellungen mit einem Stellvertretungsmitarbeiter für die AMERIKANISCHE Staatsbürgerschaft, der für die Überprüfung der Dokumentation zur Überprüfung der AMERIKANISCHEn Staatsbürgerschaft geschult ist. Mitarbeiter oder Neueinstiegskandidaten müssen die erforderliche Dokumentation mitbringen und ein Attestformular bei einer Besprechung mit dem Stellvertreter der Staatsbürgerschaft für ihre Region unterzeichnen. Die Besprechung muss persönlich durchgeführt werden. Nachdem sich die Person mit dem Stellvertretung der Staatsbürgerschaft getroffen hat und die erforderlichen Dokumentationen und Signaturen bereitgestellt hat, sendet der Stellvertreter der Staatsbürgerschaft eine Kopie der Dokumente an Microsoft Staffing Operations, die die Kopie zur Aufzeichnung übermitteln.
+Die Stadien der Vereinigten Staaten werden für alle Mitarbeiter mit physischem oder logischem Zugriff auf die Umgebungen überprüft, in denen Us-Regierungsdienste ausgeführt werden. Um die Stundschaft zu überprüfen, treffen sich Mitarbeiter und/oder Kandidaten für Neueinstellungen mit einem Stellvertreter der US-Stundschaft, der zum Überprüfen der Dokumentation zur Überprüfung der US-Stundung geschult ist. Mitarbeiter oder Kandidaten für Neueinstellungen müssen die erforderliche Dokumentation mit sich bringen und ein Nachweisformular bei einer Besprechung mit der Stellvertreterin für Dietschaft für ihre Region signieren. Die Besprechung muss persönlich erfolgen. Nachdem sich die Person mit dem Stellvertreter für die Stellvertreterin für die Stellvertreterschaft getroffen und die erforderlichen Dokumentationen und Signaturen bereitgestellt hat, leitet der Stellvertreter eine Kopie der Dokumente an Microsoft Staffing Operations weiter, die die Kopie an die Datensatzführung übermitteln.
 
-Mitarbeiter mit logischem Zugriff auf die Microsoft 365 U.S. Government Community Cloud oder logischen oder physischen Zugriff auf die Azure U.S. Government-Angebote müssen den Anforderungen der Bundesregierung der #A0 [(Criminal Justice Information Services,](https://www.fbi.gov/services/cjis) CJIS) entsprechen, einschließlich der Personalprüfung. Die CJIS-Überprüfung zur Unterstützung des Microsoft 365 U.S. Government-Diensts umfasst eine Fingerabdruck-basierte Überprüfung des Hintergrunds, die von der von der CJIS-Systemorganisation benannten Adjudicator [in](https://blogs.office.com/2013/10/23/california-and-microsoft-sign-cjis-security-policy-agreement/) Staaten, die sich im Microsoft Online Services CJIS-Supportprogramm registriert haben, erstellt wurde.
+Mitarbeiter mit logischem Zugriff auf Microsoft-Onlinedienste für die USA Government Community Cloud sind verpflichtet, die Anforderungen der Bundesbehörden der [Strafverfolgungsbehörden](https://www.fbi.gov/services/cjis) des FBI zu erfüllen, einschließlich der Personalprüfung. Das CJIS-Screening zur Unterstützung des Microsoft 365 U.S. Government-Diensts umfasst eine Fingerabdruck-basierte Prüfung des strafrechtlichen Hintergrunds, die von der CJIS-Systemorganisation als Verwalter in Staaten bezeichnet wird, die sich für das CJIS-Supportprogramm von Microsoft Online Services [registriert haben.](https://blogs.office.com/2013/10/23/california-and-microsoft-sign-cjis-security-policy-agreement/)
 
-## <a name="periodic-rescreening"></a>Regelmäßiges ErneutesScreening
+## <a name="periodic-rescreening"></a>Regelmäßige erneute Überprüfung
 
-Regelmäßige Überprüfungen und/oder zusätzliche Hintergrundprüfungen sind möglicherweise für bestimmte Verwaltungs-, Sicherheits- oder andere Rollen erforderlich, einschließlich Mitarbeiter in Rollen, die Zugriff auf Kundendaten benötigen (siehe Cloud Background Check).
+Für bestimmte Verwaltungs-, Sicherheits- oder andere Rollen, einschließlich Mitarbeitern in Rollen, die Zugriff auf Kundendaten benötigen, können regelmäßige Erneute Überprüfungen und/oder zusätzliche Hintergrundüberprüfungen erforderlich sein.

@@ -15,12 +15,12 @@ ms.custom:
 - seo-marvel-mar2020
 titleSuffix: Microsoft GDPR
 hideEdit: true
-ms.openlocfilehash: 298f0efe74539c8a8bd10330cfeb80894ef9edb1
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 6e088f64d6b0113640100269b29ef31737befe92
+ms.sourcegitcommit: 8bf2602d56eedee4447ddb374ef95b0587f254e7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53089014"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53377952"
 ---
 # <a name="gdpr-for-office-web-apps-server-and-office-online-server"></a>DSGVO für Office Web Apps Server und Office Online Server
 
@@ -80,7 +80,7 @@ Office-Protokolle enthalten eine Vielzahl von verschiedenen Arten von Daten. Nac
 
 - Leistungsdaten über die App und/oder bestimmte Features der App
 
-- Allgemeine Informationen zum Standort des Computers des Benutzers (z. B. Land/Region, Bundesland und Stadt, die aus der IP-Adresse abgeleitet werden), jedoch kein präziser geografischer Standort.
+- Allgemeine Standortinformationen darüber, wo sich der Computer des Benutzers befindet (z. B. Land/Region, Bundesland und Stadt, abgeleitet von der IP-Adresse), aber nicht der genaue geografische Standort.
 
 - Grundlegende Metadaten über den Browser, z. B. Browsername und -version, und den Computer, z. B. Betriebssystemtyp und -version
 

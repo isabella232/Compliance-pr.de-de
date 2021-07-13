@@ -1,5 +1,5 @@
 ---
-title: Hosting von Gesundheitsdaten (HDS) in Frankreich
+title: Hosting von Gesundheitsdaten (HDS) Frankreich
 description: Microsoft Cloud Services sind für die Compliance mit den Richtlinien für das Hosting von Gesundheitsdaten (Hébergeurs de données de santé) zertifiziert.
 keywords: Microsoft 365, Compliance, Angebote
 localization_priority: Priority
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 84af03217d697f6f54db1a7d87230ae08c2b02b4
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 65739fcf3b787ea50523c3195ffaf7e31d315d3f
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507314"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384905"
 ---
 # <a name="health-data-hosting-hds-france"></a>Hosting von Gesundheitsdaten (HDS) Frankreich
 
@@ -46,13 +46,13 @@ Die strenge Prüfung umfasste die Maßnahmen, die Microsoft zum Schutz vertrauli
 - Die Zertifizierung [ISO/IEC 27001:2013 Information Security Management](offering-iso-27001.md) von Microsoft Cloud Services, deren Compliance jährlich geprüft wird.
 - Hohes Datenschutzniveau durch die Einhaltung der DSGVO und des [ISO/IEC 27018 Code of Practice for Protecting Personal Data in the Cloud](offering-iso-27018.md).
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft Cloud Services im Leistungsumfang
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
 - [Azure](https://aka.ms/AzureCompliance). Das HDS-Zertifikat gilt für Azure-Dienste, die als konform mit der Norm ISO/IEC 27001 in den Azure Compliance-Angeboten aufgeführt sind und in den Azure-Regionen Frankreich Mitte, Frankreich Süd, Europa West und Europa Nord bereitgestellt werden.
 - Dynamics 365. Das HDS-Zertifikat gilt für Dynamics 365 [Core Online Services](https://aka.ms/Online-Services-Terms), die in Frankreich und den Regionen der Europäischen Union bereitgestellt werden.
 - Intune
 - Microsoft 365. Das HDS-Zertifikat gilt für Microsoft Office 365 [Core Online Services](https://aka.ms/Online-Services-Terms), die in Frankreich und den Regionen der Europäischen Union bereitgestellt werden.
-- Power BI-Clouddienst als eigenständiger Dienst oder enthalten in einem Office 365-Plan bzw. einer Office 365-Suite
+- Power BI-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365-Plan oder einer -Anwendungssuite enthalten
 
 Das HDS-Zertifikat gilt nicht für Microsoft-Onlinedienste in der Vorschau- oder Vorabversion.
 

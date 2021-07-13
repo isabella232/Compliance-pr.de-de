@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3f87b4d376c43db9d8524c200cd1fd86d2791b49
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: abded0cc92e49ed1c12eb44a3200ffdebed18b4f
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53089739"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53385115"
 ---
 # <a name="family-educational-rights-and-privacy-act-ferpa"></a>FERPA (Family Educational Rights and Privacy Act)
 
@@ -29,37 +29,56 @@ ms.locfileid: "53089739"
 
 Das FERPA (Family Educational Rights and Privacy Act) ist ein US-Bundesgesetz, das den Datenschutz der Bildungsdatensätze von Schülern und Studenten schützt, einschließlich personenbezogener Informationen und Verzeichnisinformationen. FERPA wurde eingeführt, um sicherzustellen, dass Eltern und Studenten ab 18 Jahren auf diese Datensätze zugreifen, Änderungen an diesen anfordern und die Offenlegung von Informationen steuern können, außer in bestimmten und begrenzten Fällen, in denen FERPA die Offenlegung ohne Zustimmung zulässt.
 
-Das Gesetz gilt für Schulen, Schulbezirke und alle anderen Einrichtungen, die vom US Department of Education ( also praktisch alle öffentlichen K-12-Schulen und Schulbezirke) sowie die meisten öffentlichen und privaten Post-Secondary-Einrichtungen erhalten.
+Das Gesetz gilt für Schulen, Schulbezirke und alle anderen Einrichtungen, die vom US Department of Education ( also praktisch alle öffentlichen K-12-Schulen und Schulbezirke) sowie die meisten öffentlichen und privaten Post-Secondary-Bildungseinrichtungen unterstützt werden.
 
 Sicherheit ist von zentraler Bedeutung für die Einhaltung von FERPA, was den Schutz von Schülerinformationen vor unbefugten Offenlegungen erfordert. Bildungseinrichtungen, die Cloud Computing verwenden, benötigen vertragliche Sicherheiten, dass ein Technologieanbieter vertrauliche Schülerdaten ordnungsgemäß verwaltet.
 
-## <a name="microsoft-and-ferpa"></a>Microsoft und (FERPA)
+## <a name="microsoft-and-ferpa"></a>Microsoft und FERPA
 
 FERPA erfordert oder erkennt keine Audits oder andere Zertifizierungen an. Daher muss jede akademische Einrichtung, die FERPA unterliegt, selbst bewerten, ob und wie sich die Nutzung eines Clouddiensts auf die Fähigkeit zur Einhaltung von FERPA-Anforderungen auswirkt. Microsoft hat jedoch die folgenden vertraglichen Verpflichtungen gemacht, die seine Einhaltung bestätigen:
 
-- In den [Onlinedienstbedingungen](https://aka.ms/Online-Services-Terms)stimmt Microsoft zu, als "Schulfunktionär" mit "legitimen Bildungs interessen" in Kundendaten gemäß FERPA festgelegt zu werden. (Kundendaten umfassen alle Schülerdatensätze, die über die Nutzung von Microsoft-Clouddiensten durch eine Schule bereitgestellt werden.) Bei der Verarbeitung von Datensätzen für Schüler/Studenten stimmt Microsoft zu, die Einschränkungen und Anforderungen von 34 CFR 99.33(a) genau wie Schulmitarbeiter einzuhalten.
+- In den [Onlinedienstbedingungen](https://aka.ms/Online-Services-Terms)stimmt Microsoft zu, als "Schulmitarbeiter" mit "legitimen Bildungs interessen" in Kundendaten gemäß FERPA festgelegt zu werden. (Kundendaten umfassen alle Schülerdatensätze, die über die Nutzung von Microsoft-Clouddiensten durch eine Schule bereitgestellt werden.) Bei der Verarbeitung von Datensätzen für Schüler/Studenten stimmt Microsoft zu, die Einschränkungen und Anforderungen von 34 CFR 99.33(a) genau wie Schulmitarbeiter einzuhalten.
 - Darüber hinaus verpflichtet sich Microsoft, Kundendaten nur für die Bereitstellung von Clouddiensten und kompatiblen Zwecken (z. B. verbesserung der Schadsoftwareerkennung) zu verwenden, und miniert keine Kundendaten für Werbung.
-- Microsoft verpflichtet sich außerdem vertraglich, Kundendaten nicht offenzulegen, es sei denn, die Bildungseinrichtung leitet dies, wie im Vertrag beschrieben oder gesetzlich vorgeschrieben. Schulen, die Microsoft Schulungsdatensätze durch die Verwendung eines Microsoft-Clouddiensts bereitstellen, können daher sicher sein, dass diese Aufzeichnungen strengen vertraglichen Einschränkungen hinsichtlich ihrer Nutzung und Offenlegung unterliegen.
+- Microsoft verpflichtet sich außerdem vertraglich, Kundendaten nicht offenzulegen, es sei denn, die Bildungseinrichtung leitet dies, wie im Vertrag beschrieben oder gesetzlich vorgeschrieben. Schulen, die Microsoft Schulungsdatensätze durch die Verwendung eines Microsoft-Clouddiensts bereitstellen, können daher sicher sein, dass diese Datensätze strengen vertraglichen Einschränkungen hinsichtlich ihrer Nutzung und Offenlegung unterliegen.
 
 Aufgrund dieser vertraglichen Verpflichtungen können Kunden, die FERPA unterliegen – sowohl Bildungseinrichtungen als auch Dritte, denen sie Zugriff auf vertrauliche Schülerdaten gewähren – die im Umfang enthaltenen Microsoft Business Cloud Services sicher verwenden, um diese Daten zu verarbeiten, zu speichern und zu übertragen.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft-Clouddienste im Leistungsumfang
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft-cloudbasierte Plattformen &-Dienste
 
-Zu den Diensten, für die Microsoft zustimmt, als "Schulfunktionär" mit "legitimen Bildungs interessen" in Kundendaten bezeichnet zu werden, gehören:
+Zu den Diensten, für die Microsoft zustimmt, als "Schulfunktionär" mit "berechtigten Bildungs interessen" in Kundendaten bezeichnet zu werden, gehören:
 
-- [Azure](https://aka.ms/AzureCompliance)
+- Azure
+- Azure DevOps Services
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
-- [Office 365, Office 365 U.S. Government, Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- Power BI, PowerApps und Power Automate (früher Microsoft Flow) entweder als eigenständiger Dienst oder in einem Office 365 Plan oder einer Suite mit Branding enthalten
-- Azure DevOps Services
-- Microsoft Defender für Endpunkt
+- Office 365, Office 365 U.S. Government, Office 365 U.S. Government – High und Office 365 U.S. Government Defense
 
-## <a name="audits-reports-and-certificates"></a>Audits, Berichte und Zertifikate
+## <a name="azure-dynamics-365-and-ferpa"></a>Azure, Dynamics 365 und FERPA
+
+Weitere Informationen zu Azure, Dynamics 365 und anderen Onlinediensten finden Sie im [Azure FERPA-Angebot.](/azure/compliance/offerings/offering-ferpa)
+
+## <a name="office-365-and-ferpa"></a>Office 365 und FERPA
+
+### <a name="office-365-cloud-environments"></a>Office 365 Cloudumgebungen
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 Anwendbarkeit und In-Scope-Dienste
+
+Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365 Dienste und Abonnements zu ermitteln:
+
+| **Anwendbarkeit** | **In-Scope-Dienste** |
+|:------------------|:----------------------|
+| **Office 365** | Azure Active Directory, Azure Information Protection, Bookings, Compliance Manager, Delve, Exchange Online, Exchange Online Protection, Formulare, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Defender für Office 365, Microsoft Graph, Microsoft Teams, Microsoft To-Do for Web, MyAnalytics, Office 365 Advanced Compliance Add-On, Office 365 Cloud App Security, Office 365 Groups, Office 365 Security & Compliance Center, Office 365 Video, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
+| **GCC** | Azure Active Directory, Compliance-Manager, Delve, Exchange Online, Formulare, Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, harePoint Online, Skype for Business, Stream |
+| **GCC High** | Azure Active Directory, Exchange Online, Formulare, Microsoft Defender für Office 365, Microsoft Teams, Office 365 Advanced Compliance Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business |
+| **DoD** | Azure Active Directory, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, Office 365 Advanced Compliance Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, Power BI, SharePoint Online, Skype for Business |
+
+### <a name="office-365-audits-reports-and-certificates"></a>Office 365 Überwachungen, Berichte und Zertifikate
 
 FERPA erfordert oder erkennt keine Audits oder Zertifizierungen.
 
-## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
+### <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
 **Warum ist FERPA wichtig?**
 
@@ -70,16 +89,14 @@ Dieses US-Bundesgesetz schreibt den Schutz der Privatsphäre der Bildungsdatens�
 - [Federal Register: FERPA Final Rule](https://aka.ms/ferpa-reg) (Dezember 2011)
 - [Ferpa allgemeine Anleitung für Eltern](https://www2.ed.gov/policy/gen/guid/fpco/ferpa/parents.html)
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
+### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
 
 [Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center](/microsoft-365/compliance/microsoft-365-compliance-center), die Ihnen hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 
-## <a name="resources"></a>Ressourcen
+### <a name="resources"></a>Ressourcen
 
 - [Family Educational Rights and Privacy Act](https://www.ed.gov/policy/gen/guid/fpco/ferpa/index.html)
 - [Electronic Code of Federal Regulations: FERPA](https://aka.ms/FERPA-GPO)
 - [Federal Register: FERPA Final Rule](https://aka.ms/ferpa-reg)
-- [FERPA-Implementierungshandbuch für Microsoft Azure](https://aka.ms/azureferpa)
-- [Azure FERPA Compliance Framework-Zuordnung](https://aka.ms/AzureFERPAMapping)
-- [Microsoft Online Services-Nutzungsbedingungen](https://aka.ms/Online-Services-Terms)
+- [Nutzungsbedingungen für Microsoft-Onlinedienste](https://aka.ms/Online-Services-Terms)
 - [Compliance im Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)

@@ -16,16 +16,16 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: da53b5e2cdac7095e2fc3ff9b243d2863b85fdbf
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 4c27c84d2abc2de4866471d652d8b11351bc3168
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53088784"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53385655"
 ---
-# <a name="new-zealand-government-cloud-computing-security-and-privacy-considerations"></a>Überlegungen zur Sicherheit und zum Datenschutz in Neuseeland Government Cloud Computing
+# <a name="new-zealand-government-information-security-and-privacy-considerations-ispc"></a>Überlegungen zur Informationssicherheit und zum Datenschutz in Neuseeland (NEW Zealand Government Information Security and Privacy Considerations, ISPC)
 
-## <a name="new-zealand-government-cloud-computing-security-and-privacy-overview"></a>Übersicht über New Zealand Government Cloud Computing Security and Privacy
+## <a name="new-zealand-government-information-security-and-privacy-considerations-overview"></a>Übersicht über Überlegungen zur Informationssicherheit und zum Datenschutz der neuseeländischen Regierung
 
 Im Oktober 2015 unterstützte die neuseeländische Regierung eine überarbeitete, regierungsamte ICT-Strategie, die ihre "Cloud first"-Richtlinie zur Verwendung von Informationstechnologie im öffentlichen Sektor verfolgte. Die überarbeitete Strategie behält das "Cloud Computing Risk and Assurance Framework" bei, das unter der Autorität des NZ Government Chief Information Officer (GCIO) entwickelt und implementiert wurde.
 
@@ -37,14 +37,30 @@ Um NZ-Regierungsbehörden bei der Durchführung konsistenter und robuster Due Di
 
 Um Behörden bei der Analyse und Bewertung von Microsoft Enterprise Cloud Services zu unterstützen, hat Microsoft Neuseeland Dokumente erstellt, die zeigen, wie ihre Unternehmensclouddienste die im "Cloud Computing ISPC" aufgeführten Fragen beantworten, indem sie sie mit den Standards verknüpfen, nach denen Microsoft Cloud Services zertifiziert sind. Diese Zertifizierungen sind von zentraler Bedeutung, um kunden aus dem öffentlichen und privaten Sektor zu gewährleisten, dass ihre Clouddienste entworfen, erstellt und betrieben werden, um Datenschutz- und Sicherheitsrisiken effektiv zu mindern und Bedenken hinsichtlich der Datenhoheit zu beheben. Die [Azure-Antwort auf Cloud Computing ISPC](https://azure.microsoft.com/resources/microsoft-azure-response-to-nz-gcio-cloud-computing-information-security-privacy-considerations/) steht Kunden zum Download zur Verfügung.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft-Clouddienste im Leistungsumfang
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft-cloudbasierte Plattformen &-Dienste
 
-- [Azure und Azure Government](https://aka.ms/AzureCompliance)
+- Azure und Azure Government
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
-- Power BI-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365-Plan oder einer -Anwendungssuite enthalten
-- [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- Exchange Online, SharePoint Online und Microsoft Teams. Microsoft NZ hat mit dem GCIO-Team zusammengearbeitet, um eine Referenzarchitektur für die Integration von Exchange Online und SEEMail zu entwickeln.
+- Office 365
+- Power BI-Clouddienst entweder als eigenständiger Dienst oder als Bestandteil eines Office 365 Markenplans oder einer Office 365 Suite
+
+## <a name="office-365-and-ispc"></a>Office 365 und ISPC
+
+### <a name="office-365-cloud-environments"></a>Office 365 Cloudumgebungen
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 Anwendbarkeit und In-Scope-Dienste
+
+Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365 Dienste und Abonnements zu ermitteln:
+
+| **Anwendbarkeit** | **In-Scope-Dienste** |
+|:------------------|:----------------------|
+| **Office 365** | Exchange Online, SharePoint Online, Skype for Business |
+
+>[!Note]
+>Microsoft NZ hat mit dem GCIO-Team zusammengearbeitet, um eine Referenzarchitektur für die Integration von Exchange Online und SEEMail zu entwickeln, die in Office 365 beschrieben wird: SEEMail-Integration und Referenzarchitektur.
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
@@ -61,10 +77,10 @@ Wenn Ihre Organisation die Zertifizierung und Akkreditierung ihres ICT-Systems g
 - [Sicherheitsanforderungen für gehostete Office Produktivitätsdienste: Konformitätshandbuch für Office 365](https://aka.ms/o365-gcio-conformance-guidance)
 - [NZ Government ICT Strategy 2015](https://www.ict.govt.nz/strategy-and-action-plan/strategy/)
 - [Cloud Computing: Überlegungen zur Informationssicherheit und zum Datenschutz (ISPC)](https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/cloud-services/)
-- [Microsoft Online Services-Nutzungsbedingungen](https://aka.ms/Online-Services-Terms)
+- [Nutzungsbedingungen für Microsoft-Onlinedienste](https://aka.ms/Online-Services-Terms)
 - [Compliance im Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="microsoft-responses-to-cloud-computing-ipsc"></a>Microsoft-Antworten auf "Cloud Computing IPSC"
+## <a name="microsoft-responses-to-cloud-computing-ipsc"></a>Microsoft-Antworten auf Cloud Computing IPSC
 
 - [Azure](https://aka.ms/Azure-NZ-response)
 - [Intune](https://aka.ms/Intune-NZ-response)

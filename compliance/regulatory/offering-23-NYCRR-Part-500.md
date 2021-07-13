@@ -16,24 +16,22 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f48ba2f7bd10167d5e4cb384a7740df5e48b7617
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 93a45f3da668ef9f6115fe352b5bbbce49e15d7f
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53088714"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53385525"
 ---
 # <a name="title-23-nycrr-part-500"></a>Titel 23 NYCRR Teil 500
 
 ## <a name="title-23-nycrr-part-500-overview"></a>Titel 23 NYCRR Teil 500 Übersicht
 
-Als Reaktion auf die erheblichen und ständig wachsenden Bedrohungen für die Cybersicherheit von Informations- und Finanzsystemen hat das Finanzministerium des Staates New York im Jahr 2017 neue Cybersicherheitsanforderungen für Finanzinstitute erlassen, die eine Lizenz oder Genehmigung zur Geschäftstätigkeit in dem Staat besitzen. Diese Vorschrift – Titel 23 New York Codes, Regeln und Regulation Teil 500: Cybersicherheitsanforderungen für Finanzdienstleistungsunternehmen – dient dem Schutz von Kundendaten und Informationstechnologiesystemen von Finanzinstituten wie staatlich gecharterten, privaten und internationalen Banken, sowie Hypothekenmakler und Versicherungsunternehmen.
+Als Reaktion auf die erheblichen und ständig wachsenden Bedrohungen für die Cybersicherheit von Informations- und Finanzsystemen hat das Finanzministerium des Staates New York im Jahr 2017 neue Cybersicherheitsanforderungen für Finanzinstitute erlassen, die eine Lizenz oder Genehmigung zur Geschäftstätigkeit in dem Staat besitzen. Titel 23 New York Codes, Rules and Regulation Teil 500: Cybersicherheitsanforderungen für Finanzdienstleistungsunternehmen sind darauf ausgelegt, Kundendaten und Informationstechnologiesysteme von Finanzinstituten wie staatlichen, privaten und internationalen Banken, Brokern und Versicherungsunternehmen zu schützen.
 
 ## <a name="microsoft-and-title-23-nycrr-part-500"></a>Microsoft und Titel 23 NYCRR Teil 500
 
 Microsoft bietet einen umfassenden Leitfaden, [Microsoft Cloud Services: Unterstützung der Compliance der NYDFS-Cybersicherheitsanforderungen](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=f7e56dc6-4e52-4e9a-af06-aa41d5851d36&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides), für Finanzdienstleistungen gemäß Titel 23 NYCRR Teil 500. Es wird ausführlich erläutert, wie Azure-, Office 365- und Power BI-Clouddienste die Compliance der Anforderungen unterstützen. Finanzinstitute, die im globalen Finanzzentrum von New York tätig sein möchten, müssen diese Anforderungen erfüllen. Daher ist die Einhaltung von Vorschriften für viele Institute von entscheidender Bedeutung.
-
-Befolgen Sie diese Anleitung, um die Einhaltung von Titel 23 NYCRR Teil 500 zu beschleunigen: Microsoft Cloud Services: [Unterstützung der Compliance der Cybersicherheitsanforderungen von NYDFS](https://go.microsoft.com/fwlink/p/?linkid=2098969)
 
 Nach den New Yorker Bestimmungen muss jedes Finanzinstitut:
 
@@ -51,24 +49,37 @@ Nach den New Yorker Bestimmungen muss jedes Finanzinstitut:
 - **Überwachen Sie die Aktivitäten autorisierter Nutzer, entdecken Sie nicht autorisierte Zugriffe und bieten Sie Mitarbeitern regelmäßige Schulungen zum Thema Cybersicherheit an**: Azure, Office 365 und Power BI umfassen eine Überwachung von außen, um Warnungen zu Vorfällen auszulösen, und umfassende Diagnosen für die Protokollierung und Überwachung. Die [Microsoft Virtual Academy](https://mva.microsoft.com/) bietet Online-Schulungen zum Thema Cybersicherheit von Microsoft Cloud Services an.
 - **Entwickeln Sie Pläne, um auf Cybersicherheitsvorfälle zu reagieren und diese zu beheben**: Microsoft hilft Ihnen, sich auf Cybersicherheitsvorfälle vorzubereiten, indem es eine Verteidigungsstrategie einsetzt, um Sicherheitslücken zu erkennen, vorherzusagen und zu verhindern, bevor sie auftreten. Wenn Sie Ihre eigenen Pläne entwickeln, können Sie auf unseren Incident-Management-Plan zurückgreifen, um auf Cybersicherheitslücken zu reagieren.
 
-## <a name="microsoft-in-scope-cloud-services"></a>In-Scope-Cloud-Dienste von Microsoft
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
-- [Azure](https://aka.ms/AzureCompliance)
+- Azure
 - Intune
-- [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- Power BI-Clouddienst entweder als eigenständiger Dienst oder als Bestandteil eines Office 365 Markenplans oder einer Office 365 Suite
+- Office 365
+
+## <a name="office-365-and-title-23-nycrr-part-500"></a>Office 365 und Titel 23 NYCRR Teil 500
+
+### <a name="office-365-cloud-environments"></a>Office 365-Cloudumgebungen
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365-Anwendbarkeit und eingeschlossene Dienste
+
+Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Dienste und -Abonnements zu bestimmen:
+
+| **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
+|:------------------|:----------------------|
+| **Office 365** | Exchange Online Protection, Exchange Online, Office 365-Kundenportal, Office Online, Office Services-Infrastruktur, OneDrive for Business, SharePoint Online, Skype for Business |
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
 **Welche Institute fallen unter diese Verordnung?**
 
-Wenden Sie sich an das New Yorker Finanzdienstleistungsministerium, [Wen Wir Überwachen](https://go.microsoft.com/fwlink/p/?linkid=2099374), um festzustellen, ob Ihr Institut unter diese Verordnung fällt.
+Informieren Sie sich auf der Website des [New York Department of Financial Services Who We Supervise](https://go.microsoft.com/fwlink/p/?linkid=2099374), um festzustellen, ob Ihre Institution dieser Verordnung unterliegt.
 
 ## <a name="resources"></a>Ressourcen
 
 - [Unterstützte Ressourcen](https://www.microsoft.com/trustcenter/compliance/NYCRR)
 - [New York State Department of Financial Services 23 NYCRR 500: Cybersecurity Requirements For Financial Services Companies](https://go.microsoft.com/fwlink/p/?linkid=2098976)
-- [Häufig gestellte Fragen: 23 NYCRR Teil 500 – Cybersicherheit](https://go.microsoft.com/fwlink/p/?linkid=2098977)
+- [Häufig gestellte Fragen: 23 NYCRR Teil 500-Cybersicherheit](https://go.microsoft.com/fwlink/p/?linkid=2098977)
 - [Microsoft Cloud Services: Unterstützung der Compliance der NYDFS-Cybersicherheitsanforderungen](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=f7e56dc6-4e52-4e9a-af06-aa41d5851d36&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
 - [Compliance im Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
@@ -76,5 +87,4 @@ Wenden Sie sich an das New Yorker Finanzdienstleistungsministerium, [Wen Wir Üb
 
 - [Microsoft Business-Cloud-Dienste und Finanzdienstleistungen](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
 - [Microsoft Cloud Financial Services Compliance Program](https://www.microsoft.com/download/confirmation.aspx?id=55332)
-- [Compliance der Finanzdienstleistungs in Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
 - [Geteilte Verantwortlichkeiten für Cloud Computing](https://aka.ms/sharedresponsibility)- 

@@ -1,7 +1,7 @@
 ---
 title: Prüflisten zu den Verantwortlichkeiten für die DSGVO
 description: In diesem Artikel lernen Sie die Verwendung von Prüflisten zu den Verantwortlichkeiten als Möglichkeit für den Zugriff auf Informationen kennen, die Sie bei Verwendung von Microsoft-Produkten und -Diensten zur Unterstützung der DSGVO benötigen.
-keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365-Dokumentation, DSGVO
+keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365-Dokumentation, DSGVO
 localization_priority: Priority
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-mar2020
 titleSuffix: Microsoft GDPR
 hideEdit: true
-ms.openlocfilehash: f6b0582215242dd1de187b4cd0386e44b144dba8
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: b0b16b88ede35ed71cdc90b27a7e3076e51ae56b
+ms.sourcegitcommit: 8bf2602d56eedee4447ddb374ef95b0587f254e7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51496480"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53377812"
 ---
 # <a name="support-your-gdpr-program-with-accountability-readiness-checklists"></a>Unterstützung des DSGVO-Programms mit Prüflisten zu den Verantwortlichkeiten
 
@@ -37,8 +37,9 @@ Prüflisten zu den Verantwortlichkeiten werden als komfortable Möglichkeit für
 Es gibt einen spezifischen Leitfaden für vier Microsoft-Produkt- und Dienstfamilien:
 
 - [Office 365](gdpr-arc-Office365.md)
-- [Dynamics 365](gdpr-arc-azure-dynamics.md)
-- [Azure](gdpr-arc-azure-dynamics.md)
+- [Dynamics 365](gdpr-arc-azure-dynamics-windows.md)
+- [Azure](gdpr-arc-azure-dynamics-windows.md)
+- [Windows](gdpr-arc-azure-dynamics-windows.md)
 - [Microsoft-Support und Professional Services](gdpr-arc-prof-services.md)
 
 Sie können die Elemente in dieser Checkliste mit dem [Compliance-Manager](/microsoft-365/compliance/compliance-manager)verwalten, indem Sie auf die Kontroll-ID und den Kontrolltitel unter Vom Kunden verwaltete Steuerelemente in der DSGVO-Kachel verweisen.

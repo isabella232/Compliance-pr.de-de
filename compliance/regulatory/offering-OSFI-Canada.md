@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 804d785cc8dfd3d693e34f17b48e2f8b0a94de17
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 2b98a7ab816f526a5371788df14755b998e14099
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120014"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384365"
 ---
 # <a name="office-of-the-superintendent-of-financial-institutions-osfi-canada"></a>Office of the Superintendent of Financial Institutions (OSFI) in Kanada
 
@@ -44,7 +44,7 @@ Die Microsoft-Checkliste unterstützt kanadische Finanzunternehmen bei der Durch
 - Eine Übersicht über die aufsichtsrechtliche Landschaft für den Kontext.
 - Eine Checkliste, welche die zu behandelnden Probleme darlegt und die Dienste von Microsoft Azure, Microsoft Dynamics 365 und Microsoft 365 den regulatorischen Verpflichtungen zuordnet. Die Checkliste dazu verwendet werden, die Compliance anhand eines regulatorischen Rahmens zu messen und eine interne Struktur für die Dokumentation der Compliance bereitzustellen; sie kann Kunden auch bei der Durchführung ihrer eigenen Risikobewertungen von Microsoft Business-Clouddiensten unterstützen.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft-Clouddienste im Leistungsumfang
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und Dienste
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)

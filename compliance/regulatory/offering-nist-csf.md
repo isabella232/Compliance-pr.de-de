@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: ab0e70a9dab9b1f98351556dcdf4ae597e362b64
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 9080474699eae7e65d8df86638a9250ec7127585
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53088914"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53385675"
 ---
 # <a name="national-institute-of-standards-and-technology-nist-cybersecurity-framework-csf"></a>National Institute of Standards and Technology (NIST) Cybersecurity Framework (CSF)
 
@@ -35,42 +35,48 @@ Die FICIC verweist auf global anerkannten Standards, einschließlich NIST SP 800
 
 ## <a name="microsoft-and-the-nist-csf"></a>Microsoft und der NIST CSF
 
-Das NIST Cybersecurity Framework (CSF) ist ein freiwilligen Framework, das aus Standards, Richtlinien und bewährten Methoden zur Verwaltung von Risiken im Zusammenhang mit der Cybersicherheit besteht. Microsoft Cloud Services wurden unabhängigen FedRAMP Moderate- und High Baseline-Audits von Drittanbietern unterzogen und sind gemäß den FedRAMP-Standards zertifiziert. Darüber hinaus wird Office 365 durch eine von HITRUST, einer führenden Entwicklungs- und Akkreditierungsorganisation für Sicherheits- und Datenschutzstandards, durchgeführte Bewertung gemäß den im NIST CSF angegebenen Zielen zertifiziert.
+NIST Cybersecurity Framework (CSF) ist ein freiwilligen Framework, das aus Standards, Richtlinien und bewährten Methoden zur Verwaltung von Risiken im Zusammenhang mit der Cybersicherheit besteht. Microsoft Cloud Services wurden unabhängigen FedRAMP Moderate- und High Baseline-Audits von Drittanbietern unterzogen und sind gemäß den FedRAMP-Standards zertifiziert. Darüber hinaus wird Office 365 durch eine von HITRUST, einer führenden Entwicklungs- und Akkreditierungsorganisation für Sicherheits- und Datenschutzstandards, durchgeführte Validierte Bewertung gemäß den im NIST CSF angegebenen Zielen zertifiziert.
 
 Erfahren Sie, wie Sie Ihre NIST Cybersecurity Framework-Bereitstellung mit der Compliancebewertung und unserem Azure Security and Compliance Blueprint beschleunigen:
 
 - [Übersicht über das NIST SP 800-53 R4-Blueprintbeispiel](/azure/governance/blueprints/samples/nist-sp-800-53-rev4/)
 - [Weitere Informationen zur NIST CSF-Bewertung für Office 365 in der Compliancebewertung](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/New-NIST-CSF-and-CSA-CCM-assessments-available-in-Compliance/ba-p/218554)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft-Clouddienste im Leistungsumfang
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft-cloudbasierte Plattformen &-Dienste
 
-- [Azure Government](https://aka.ms/AzureCompliance)
-- [Dynamics 365 for Government](https://aka.ms/d365-compliance-list)
-- [Office 365 und Office 365 U.S. Government](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- Azure Government
+- Dynamics 365 for Government
+- Office 365
 
-## <a name="audit-cycle-and-certification"></a>Überwachungszyklus und Zertifizierung
+## <a name="azure-dynamics-365-and-nist-csf"></a>Azure, Dynamics 365 und NIST CSF
+
+Weitere Informationen zu Azure, Dynamics 365 und anderen Onlinediensten finden Sie im [Azure NIST CSF-Angebot.](/azure/compliance/offerings/offering-nist-csf)
+
+## <a name="office-365-and-nist-csf"></a>Office 365 und NIST CSF
+
+### <a name="office-365-cloud-environments"></a>Office 365 Cloudumgebungen
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 Anwendbarkeit und In-Scope-Dienste
+
+Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365 Dienste und Abonnements zu ermitteln:
+
+| **Anwendbarkeit** | **In-Scope-Dienste** |
+|:------------------|:----------------------|
+| **Office 365** | Activity Feed Service, Bing Services, Delve, Exchange Online, Intelligent Services, Microsoft Teams, Office 365 Customer Portal, Office Online, Office Service Infrastructure, Office Usage Reports, OneDrive for Business, People Card, SharePoint Online, Skype for Business, Windows Ink |
+
+### <a name="office-365-audit-cycle-and-certification"></a>Office 365 Prüfzyklus und Zertifizierung
 
 Die NIST CSF-Zertifizierung von Office 365 ist zwei Jahre gültig.
 
 - [Office 365 NIST CSF Letter of Certification](https://aka.ms/O365NISTCSFcertification)
 
-## <a name="quickly-build-nist-csf-solutions-on-azure"></a>Schnelles Erstellen von NIST CSF-Lösungen in Azure
+### <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
-Der NIST Cybersecurity Framework (CSF)-Standard kann in der Cloud eine Herausforderung darstellen. Glücklicherweise haben Sie mit Azure einen Vorsprung beim Azure Security and Compliance NIST CSF Blueprint. Dieser Blueprint enthält Tools und Anleitungen für die ersten Schritte beim Erstellen von CSF-kompatiblen NIST-Lösungen.
+**Hat ein unabhängiger Prüfer überprüft, dass Office 365 NIST CSF-Anforderungen unterstützt?**
 
-- [Beginnen Sie mit der Verwendung des Azure NIST-CSF-Blueprints](https://aka.ms/Azure-Blueprint-DoD-NIST)
-
-## <a name="perform-risk-assessment-on-office-365-using-nist-csf-in-compliance-score"></a>Durchführen einer Risikobewertung für Office 365 mithilfe von NIST CSF in der Compliancebewertung
-
-Internetsicherheit bleibt ein wichtiges Verwaltungsproblem im Zeiten der digitalen Transformation. Um Ihnen bei der Implementierung und Überprüfung von Sicherheitskontrollen für Ihren Office 365 Mandanten zu helfen, bietet Microsoft empfohlene Kundenaktionen in der NIST CSF-Bewertung in der Compliancebewertung an.
-
-- [Beginnen Sie mit der Verwendung der Compliancebewertung](/microsoft-365/compliance/compliance-manager)
-
-## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
-
-**Hat ein unabhängiger Prüfer überprüft, ob Azure Government, Dynamics 365 und Office 365 NIST CSF-Anforderungen unterstützen?**
-
-Ja, eine Drittanbieterbewertungsorganisation hat bestätigt, dass das Clouddienstangebot von Azure Government den Risikomanagementpraktiken des NIST Cybersecurity Framework (CSF) entspricht, wie im Framework zur Verbesserung der Cybersicherheit kritischer Infrastrukturen, Version 1.0, vom 12. Februar 2014 definiert. Der NIST CSF ist dem FedRAMP Moderate Controls Framework zugeordnet, und ein unabhängiger Prüfer hat Dynamics 365 anhand der FedRAMP Moderate-Baseline bewertet. Außerdem Office 365 im Juli 2019 [das NIST CSF-Zertifizierungsschreiben von](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=2a472d92-7c3b-47e0-9ae7-0f539da31f42&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_GRC_Assessment_Reports) HITRUST erhalten.
+Ja, Office 365 im Juli 2019 [das NIST CSF-Zertifizierungsschreiben](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=2a472d92-7c3b-47e0-9ae7-0f539da31f42&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_GRC_Assessment_Reports) von HITRUST erhalten.
 
 **Wie demonstrieren Microsoft Cloud Services die Einhaltung des Frameworks?**
 
@@ -78,7 +84,7 @@ Mithilfe der formalen Prüfberichte, die von Dritten für die FedRAMP-Akkreditie
 
 **Was sind die Zuständigkeiten von Microsoft für die Einhaltung dieser Initiative?**
 
-Die Teilnahme an der FICIC ist auf freiem Willen. Microsoft stellt jedoch sicher, dass Azure, Office 365 und Dynamics 365 die in den geltenden Onlinedienstbedingungen und den geltenden Vereinbarungen zum Servicelevel definierten Bedingungen erfüllen. Diese definieren die Verantwortung von Microsoft für die Implementierung und Verwaltung von Kontrollen, die für die Sicherung der Azure-Plattform und die Überwachung des Systems angemessen sind.
+Die Teilnahme an der FICIC ist auf freiem Willen. Microsoft stellt jedoch sicher, dass Office 365 die in den geltenden Onlinedienstbedingungen und den geltenden Vereinbarungen zum Servicelevel definierten Bedingungen erfüllt.
 
 **Kann ich die Compliance von Microsoft für meine Organisation verwenden?**
 
@@ -88,22 +94,15 @@ Ja. Die unabhängigen Complianceberichte von Drittanbietern an die FedRAMP-Stand
 
 Laut [Department of Healthcare Security](https://www.dhs.gov/critical-infrastructure-sectors)umfassen dies Organisationen in den folgenden Bereichen: "Industrial", "Commercial Facilities", "Communications", "Critical Manufacturing", "Dams", "Defense Industrial Base", "Emergency Services", "Energy", "Financial Services", "Food and Healthcare", "Government Facilities", "Healthcare and Public Health", "Information Technology", "Healthcares Materials and Waste", "Transport Systems and Water" (and "Environmental").
 
-**Was sind die in-Scope-Dienste für Office 365?**
-
-Die In-Scope-Dienste der NIST CSF-Zertifizierung sind Exchange Online-Archivierung, Exchange Online Protection, Exchange Online, Skype for Business, Admin Center, SharePoint Online, Project Online, OneDrive for Business, Office Online, MyAnalytics, Microsoft Teams, Microsoft 365 Apps for Enterprise in Office 365 Mehrinstanzencloud und Office 365 GCC.
-
-> [!NOTE]
-> Microsoft 365 Apps for Enterprise ermöglicht den Zugriff auf verschiedene Clouddienste, z. B. Roaming Einstellungen, Lizenzierung und OneDrive Cloudspeicher für Verbraucher, und kann in Zukunft den Zugriff auf zusätzliche Clouddienste ermöglichen. Roaming Einstellungen und Lizenzierung unterstützen die Standards für HITRUST. OneDrive Cloudspeicher für Verbraucher wird nicht unterstützt, und andere Clouddienste, auf die über Microsoft 365 Apps for Enterprise zugegriffen werden kann und die Microsoft in Zukunft möglicherweise auch nicht anbieten kann, unterstützen diese Standards.*
-
-**Warum befinden sich einige Office 365 Dienste nicht im Rahmen dieser Zertifizierung?**
+**Warum sind einige Office 365 Dienste nicht im Rahmen dieser Zertifizierung?**
 
 Microsoft bietet im Vergleich zu anderen Clouddienstanbietern die umfassendsten Angebote. Um mit unseren umfassenden Complianceangeboten über Regionen und Branchen hinweg Schritt zu halten, umfassen wir Dienstleistungen im Rahmen unserer Assurance-Bemühungen basierend auf der Marktanforderung, dem Kundenfeedback und dem Produktlebenszyklus. Wenn ein Dienst nicht im aktuellen Umfang eines bestimmten Complianceangebots enthalten ist, hat Ihre Organisation die Verantwortung, die Risiken basierend auf Ihren Complianceverpflichtungen zu bewerten und die Art und Weise zu bestimmen, wie Sie Daten in diesem Dienst verarbeiten. Wir sammeln kontinuierlich Feedback von Kunden und arbeiten mit Regulierungsbehörden und Auditoren zusammen, um unsere Compliance-Abdeckung zu erweitern, um Ihre Sicherheits- und Complianceanforderungen zu erfüllen.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
+### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
 
 [Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center](/microsoft-365/compliance/microsoft-365-compliance-center), die Ihnen hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 
-## <a name="resources"></a>Ressourcen
+### <a name="resources"></a>Ressourcen
 
 - [Microsoft Cloud Services-Autorisierungen](https://marketplace.fedramp.gov/index.html#/products?status=Compliant&sort=productName)
 - [Zuordnen von Microsoft Cyber-Angeboten zu: NIST Cybersecurity Framework (CSF), CIS-Kontrollen, ISO27001:2013 und HITRUST CSF](https://go.microsoft.com/fwlink/p/?linkid=2074025)

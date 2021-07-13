@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4fe0196ae019dbf35902c2fd0589db96ed1f1086
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: a29713d530542b64514f694eef67aabb09e303e0
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50119884"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53385535"
 ---
 # <a name="trusight"></a>TruSight
 
@@ -41,7 +41,7 @@ Im September 2018 veröffentlichte TruSight seine erste Risikobewertung von Micr
 
 Dank dieser gründlichen Bewertung durch TruSight haben Finanzdienstleister nun bei Bedarf Zugriff auf eine qualitativ hochwertige Bewertung von Microsoft-Clouddiensten, die auf einer standardisierten, von der Branche gestützten Methodik basiert, ohne dass hierfür die beträchtlichen Ressourcen aufgewendet werden müssen, die erforderlich wären, wenn sie diese selbst durchführen würden.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft-Clouddienste im Leistungsumfang
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und Dienste
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365 (Version 9 nachfolgende Versionen)](https://aka.ms/d365-compliance-list)

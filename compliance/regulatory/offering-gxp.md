@@ -16,18 +16,18 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d8ffd78c4d762d72310e3ac5b200d422b0af26cf
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: a3801d434cb86f4157b70d1afcb0479365af3e9c
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53089759"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384195"
 ---
 # <a name="good-clinical-laboratory-and-manufacturing-practices-gxp"></a>Good Clinical, Laboratory, and Manufacturing Practices (GxP)
 
 ## <a name="about-gxp"></a>Über GxP
 
-Der Begriff *GxP* ist eine allgemeine Abkürzung für Richtlinien und Bestimmungen für bewährte Methoden. Das „x“ stellt ein bestimmtes Feld dar – Klinik (GCP), Fertigung (GMP), Vertrieb (GDP), Labor (GLP), Landwirtschaft (GAP) usw. Es gibt keine einzige Regulierungsbehörde oder Verwaltung; jedes Land hat seine eigenen Richtlinien und Regulierungsbehörden, obwohl die Anforderungen von Land zu Land ähnlich sind. Zu den GxP-Bestimmungen gehören die Anforderungen, die in der [US Food and Drug Administration (FDA) CFR Title 21 Part 11](https://aka.ms/FDA-CFR) und [EudraLex Volume 4 – GMP Guidelines, Annex 11](https://ec.europa.eu/health/documents/eudralex/vol-4_en) in der Europäischen Union (EU) beschrieben werden.
+Der Begriff *GxP* ist eine allgemeine Abkürzung für Richtlinien und Bestimmungen für bewährte Methoden. Das „x“ stellt ein bestimmtes Feld dar – Klinik (GCP), Fertigung (GMP), Vertrieb (GDP), Labor (GLP), Landwirtschaft (GAP) usw. Es gibt keine einzige Regulierungsbehörde oder Verwaltung; jedes Land hat seine eigenen Richtlinien und Regulierungsbehörden, obwohl die Anforderungen von Land zu Land ähnlich sind. Zu den GxP-Bestimmungen gehören die Anforderungen, die in der [US Food and Drug Administration (FDA) CFR Title 21 Part 11](https://aka.ms/FDA-CFR) und [EudraLex Volume 4 – GMP Guidelines, Annex 11](https://ec.europa.eu/health/documents/eudralex/vol-4_en) in der Europäischen Union (EU) beschrieben werden.
 
 Die regulatorischen Ziele zielen darauf ab, sicherzustellen, dass Unternehmen in regulierten Branchen Produkte herstellen, die sicher zu verwenden sind und während des Produktionsprozesses strenge Qualitätsstandards erfüllen. Computergestützte Systeme, die GxP-Prozesse verwenden, erfordern eine Überprüfung der Einhaltung der GxP-Anforderungen und gelten als qualifiziert, wenn das System seine Fähigkeit, diese zu erfüllen, nachweisen kann.
 
@@ -46,16 +46,16 @@ Microsoft beauftragte [Montrium](https://www.montrium.com/), eine unabhängige O
 
 Life Sciences-Organisationen, die GxP-Lösungen auf Azure und Office 365 entwickeln, können die Vorteile der Cloud nutzen und gleichzeitig Patientensicherheit, Produktqualität und Datenintegrität schützen. Kunden profitieren auch von mehreren Ebenen von Sicherheits- und Governance-Technologien, Betriebsverfahren und Compliance-Richtlinien, die Datenschutz und Integrität auf bestimmten Ebenen durchsetzen.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft Cloud Services im Leistungsumfang
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und Dienste
 
 - [Azure](https://aka.ms/AzureCompliance)
-- Microsoft 365
-- Microsoft Dynamics 365
+- Microsoft 365
+- Microsoft Dynamics 365
 
 ## <a name="how-to-implement"></a>Implementierung
 
-- [Microsoft 365 GxP-Richtlinien](../downloads/microsoft-365-gxp-guidelines-july-2020.pdf): Ein Whitepaper für die Nutzung von Microsoft 365 unter Einhaltung der GxP Best Practices und Bestimmungen.
-- [Microsoft Dynamics 365 GxP-Richtlinien](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=fb579b09-0874-4197-a97e-a25992383482&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_Compliance_Guides): Ein Whitepaper für die Nutzung von Microsoft Dynamics 365 unter Einhaltung der GxP Best Practices und Bestimmungen.
+- [Microsoft 365 GxP-Richtlinien](../downloads/microsoft-365-gxp-guidelines-july-2020.pdf): Ein Whitepaper für die Nutzung von Microsoft 365 unter Einhaltung der GxP Best Practices und Bestimmungen.
+- [Microsoft Dynamics 365 GxP-Richtlinien](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=fb579b09-0874-4197-a97e-a25992383482&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_Compliance_Guides): Ein Whitepaper für die Nutzung von Microsoft Dynamics 365 unter Einhaltung der GxP Best Practices und Bestimmungen.
 - [Azure GxP-Richtlinien](https://aka.ms/gxpcompliance): Ein umfassendes Toolset für die Nutzung von Azure unter Einhaltung der GxP Best Practices und Bestimmungen.
 - [Verwenden von Azure mit GxP-Systemen](https://aka.ms/GXP-Azure-Strategies): Unterstützen von Life Sciences-Organisationen bei der Entwicklung einer Strategie zur Erstellung von GxP-Anwendungen.
 - FDA CFR Title 21 Part 11 Guides: Erhalten Sie Unterstützung beim Erstellen einer Qualifizierungsstrategie für [Azure](https://aka.ms/Azure-FDA-Guidelines) und [Office 365](https://aka.ms/o365-qualification-guideline), die den FDA-Richtlinien für elektronische Datensätze entspricht.

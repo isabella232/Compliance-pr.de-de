@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 379720a1769048fea6abc22f850a6ef54f601351
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 9b7accfce56b2035dcaab95f774f8035c05c7362
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53089054"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384545"
 ---
 # <a name="monetary-authority-of-singapore-mas-and-association-of-banks-in-singapore-abs"></a>Die Währungsbehörde von Singapur (Monetary Authority of Singapore, MAS) und die Bankvereinigung von Singapur (Association of Banks in Singapore, ABS)
 
@@ -66,7 +66,7 @@ Erhalten Sie praxisorientierte Unterstützung beim Verschieben von Daten und Wor
 
 [Laden Sie die Compliance-Checkliste für Finanzinstitute in Singapur herunter](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=37557722-d5ed-419b-9365-2762982bacbf&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft-Clouddienste im Leistungsumfang
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und Dienste
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
