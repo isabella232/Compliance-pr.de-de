@@ -40,8 +40,10 @@
           href: /azure/compliance/offerings/offering-cnssi-1253?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
         - name: DFARS
           href: offering-dfars.md
-        - name: 'DoD DISA L2, L4, L5'
-          href: offering-dod-disa-l2-l4-l5.md
+        - name: DoD IL2
+          href: offering-dod-il2.md
+        - name: DoD IL5
+          href: offering-dod-il5.md
         - name: DoE 10 CFR Abschnitt 810
           href: /azure/compliance/offerings/offering-doe-10-cfr-part-810?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
         - name: EAR
