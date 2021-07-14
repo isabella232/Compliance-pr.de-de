@@ -20,16 +20,16 @@ ms.workload:
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
 hideEdit: true
-ms.openlocfilehash: 46b59094b188e6ceac58c4aa1fac6dedf8c55671
-ms.sourcegitcommit: 5d8e670e9d9968458047b51b6b2930f7bd14a011
+ms.openlocfilehash: 4a4ec723a046b65ade51b2e7aaa08fcda3a1908d
+ms.sourcegitcommit: 8bf2602d56eedee4447ddb374ef95b0587f254e7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53141466"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53377942"
 ---
 # <a name="visual-studio-family-data-subject-requests-for-the-gdpr-and-ccpa"></a>Visual Studio-Familie – Anträge betroffener Personen im Rahmen der DSGVO und des CCPA
 
-Die [Datenschutz-Grundverordnung (DSGVO)](https://ec.europa.eu/justice/data-protection/reform/index_en.htm) der Europäischen Union gewährt Personen (die in den Bestimmungen als _betroffene Personen_ bezeichnet werden) das Recht zum Verwalten ihrer personenbezogenen Daten. Personenbezogene Daten sind im Rahmen der DSGVO sehr weitgefasst als Daten definiert, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen. Die DSGVO erteilt betroffenen Personen bestimmte Rechte für ihre personenbezogenen Daten. Hierzu gehören das Kopieren der personenbezogenen Daten, das Anfordern von Korrekturen, das Einschränken der Verarbeitung, das Löschen oder das Erhalten in einem elektronischen Format. Eine formale Anfrage von einer betroffenen Person an einen Datenverantwortlichen (einen Arbeitgeber oder eine Organisation, die Kontrolle über personenbezogene Daten hat) im Hinblick auf eine bestimmte Aktion bezüglich ihrer personenbezogenen Daten wird als _Antrag einer betroffenen Person_ bezeichnet.
+Die [Datenschutz-Grundverordnung (DSGVO)](https://ec.europa.eu/justice/data-protection/reform/index_en.htm) der Europäischen Union gewährt Personen (in der Grundverordnung als _betroffene Personen_ bezeichnet) Rechte, ihre personenbezogene Daten zu verwalten. Personenbezogene Daten sind in der DSGVO allgemein als Daten definiert, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen. Die DSGVO gewährt betroffenen Personen bestimmte Rechte an ihren personenbezogenen Daten, z. B. das Recht auf Erhalt einer Kopie dieser personenbezogenen Daten, das Recht auf Korrektur der Daten, das Recht auf Einschränkung der Bearbeitung dieser Daten und das Recht auf Empfang dieser Daten in einem elektronischen Format. Eine formelle Antrag einer betroffenen Person an einen Verantwortlichen (ein Arbeitgeber oder eine andere Art von Behörde oder Organisation, die die Kontrolle über personenbezogene Daten hat), eine Aktion gegen die personenbezogenen Daten dieser betroffenen Person zu ergreifen, wird als _Antrag einer betroffenen Person_ bezeichnet.
 
 In ähnlicher Weise bietet der California Consumer Privacy Act (CCPA) den kalifornischen Verbrauchern Datenschutzrechte und -pflichten, einschließlich von Rechten, die den Rechten von betroffenen Personen der DSGV entsprechen, wie z. B. das Recht auf Löschung, Zugriff und Empfang (Portabilität) der persönlichen Informationen.  Das CCPA ermöglicht außerdem bestimmte Offenlegungen, Schutz vor Diskriminierung bei der Wahl von Ausübungsrechten und Deaktivierungs-/Aktivierungsanforderungen für bestimmte Datentransfers, die als "Verkäufe" eingestuft werden. Die Definition von "Verkäufe" umfasst die Freigabe von Daten für eine angemessene Gegenleistung. Weitere Informationen zum CCPA finden Sie im ["California Consumer Privacy Act](offering-ccpa.md) und in den [häufig gestellten Fragen zum California Consumer Privacy Act](ccpa-faq.yml).
 
@@ -84,7 +84,7 @@ Benutzer können die Datenschutzeinstellungen für diese Produkte kontrollieren.
 Verantwortlichen stehen zwei Methoden zur Verfügung, Kundendaten und vom System generierte Protokolle, die zu ihren betroffenen Personen erfasst werden, zu verwalten. Dies richtet sich danach, wie die Visual Studio-Produktfamilie oder die Microsoft-Erweiterungen registriert wurden. In einigen Fällen müssen beide Methoden verwendet werden. Beide Methoden ermöglichen es Verantwortlichen, eine Kopie ihres Aktivitätsverlaufs herunterzuladen, der mit dieser Methode verwaltet wird. Beim Schließen eines AAD- oder MSA-Kontos werden die zugeordneten Visual Studio-Kundendaten gelöscht, und die personenbezogenen Daten in vom System generierten Protokollen, die zu diesen Produkten gehören, werden anonymisiert. Anonymisierte vom System generierte Protokolle werden maximal 18 Monate lang aufbewahrt.
 
 - Benutzer, die ein Produkt der Visual Studio-Familie über ein Konto registriert haben, das auf einem Azure-Mandanten basiert (z. B. ein AAD- oder MSA-Konto, das einem Azure-Abonnement zugeordnet ist), können die Anweisungen unter [Anträge betroffener Personen für Azure im Rahmen der DSGVO](gdpr-dsr-azure.md) befolgen.
-- Benutzer, die ein Produkt der Visual Studio-Familie registriert haben, aber nicht über ein Konto verfügen, das auf einem Azure-Mandanten basiert (oftmals sind dies Konten, die ein Microsoft-Konto (MSA) verwenden), können das [webbasierte Microsoft Privacy Response Center](https://aka.ms/userprivacysite) nutzen. Es kann über das Microsoft-Konto aufgerufen werden und ermöglicht das Anzeigen, Kontrollieren und Löschen von Aktivitätsdaten, die mit dem Microsoft-Konto verknüpft sind, in einer Reihe von Microsoft-Diensten. In diesem Szenario ist der Benutzer der Verantwortliche für seine eigenen personenbezogenen Daten.
+- Benutzer, die ein Produkt der Visual Studio-Familie registriert haben, aber nicht über ein Konto verfügen, das auf einem Azure-Mandanten basiert (oftmals sind dies Konten, die ein Microsoft-Konto (MSA) verwenden), können das [webbasierte Microsoft Privacy Response Center](https://aka.ms/userprivacysite) nutzen. Es kann über das Microsoft-Konto aufgerufen werden und ermöglicht das Anzeigen, Kontrollieren und Löschen von Aktivitätsdaten, die mit dem Microsoft-Konto in einer Reihe von Microsoft-Diensten verknüpft sind. In diesem Szenario ist der Benutzer der Verantwortliche für seine eigenen personenbezogenen Daten.
 
 > [!NOTE]
 > Wenn ein MSA-Kontoinhaber sein Konto löscht, werden alle personenbezogenen Daten gelöscht, die zu diesen Produkten gehören – unabhängig davon, ob das Konto auf einem Azure-Mandanten basiert. Die vom System generierten Protokolle werden anonymisiert.
@@ -212,9 +212,9 @@ Informationen zu Anträgen betroffener Personen für die IIS.NET-Website finden 
 
 ## <a name="other-visual-studio-family-services"></a>Andere Dienste der Visual Studio-Familie
 
-### <a name="surveymonkey"></a>SurveyMonkey
+### <a name="survey-monkey"></a>Survey Monkey
 
-Von Zeit zu Zeit bitten wir Kunden um Feedback zu diesen Produkten per SurveyMonkey. Diese Daten werden innerhalb von 28 Tagen gelöscht. Falls bei der Bearbeitung von Anträgen betroffener Personen für diese Produkte authentifizierte Antworten auf Umfragen vorliegen, fügen wir diese in den Export- und Löschvorgang ein.
+Von Zeit zu Zeit laden wir Kunden ein, Feedback über Survey Monkey zu diesen Produkten abzugeben. Diese Daten werden innerhalb von 28 Tagen aus Survey Monkey gelöscht. Microsoft kann diese Daten bis zu 18 Monate lang intern aufbewahren. Wenn Umfrageantworten authentifiziert werden, schließen wir sie in die Export- und Löschanfragen betroffener Personen ein, wenn die Anfragen betroffener Personen für diese Produkte verarbeitet werden.
 
 ## <a name="learn-more"></a>Weitere Informationen
 

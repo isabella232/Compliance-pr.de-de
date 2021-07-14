@@ -16,16 +16,16 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a6c2a5c32e06b16f733ce00da4400d22e4da4eff
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: 2571332c56d4fc7968f97d6f8ee458a67eeb9501
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51497755"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384745"
 ---
 # <a name="isoiec-270012013-information-security-management-standards"></a>ISO/IEC 27001:2013 Information Security Management Standards
 
-## <a name="isoiec-27001-overview"></a>ISO/IEC 27001 – Übersicht
+## <a name="isoiec-27001-overview"></a>ISO/IEC 27001 – Übersicht
 
 Die International Organization for Standardization (ISO) ist eine unabhängige Nichtregierungsorganisation und der weltweit größte Entwickler von freiwilligen internationalen Standards. Die International Electrotechnical Commission (IEC) ist die weltweit führende Organisation für die Vorbereitung und Veröffentlichung von internationalen Standards für elektrische, elektronische und damit verbundene Technologien.
 
@@ -39,100 +39,94 @@ Vor allem aufgrund der internationalen Akzeptanz und Anwendbarkeit von ISO/IEC 2
 
 Weitere Informationen über die Vorteile von ISO/IEC-27001 für Microsoft Cloud: [ISO/IEC 27001:2013 herunterladen](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=47d89200-b24b-491d-b657-7c523ddfb6f9&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft-Clouddienste im Leistungsumfang
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Eingeschlossene Cloudplattformen und -dienste von Microsoft
 
-- [Azure und Azure Government und Azure Deutschland](https://aka.ms/AzureCompliance)
+- Azure, Azure Government und Azure Deutschland
 - Azure DevOps Services
 - Microsoft Cloud App Security
 - Microsoft Defender für Endpunkt
-- [Dynamics 365, Dynamics 365 Government und Dynamics 365 Deutschland](https://aka.ms/d365-compliance-list)
+- Dynamics 365, Dynamics 365 Government und Dynamics 365 Deutschland
 - Microsoft Graph
 - Microsoft Healthcare Bot
 - Intune
 - [Microsoft Managed Desktop](/microsoft-365/managed-desktop/intro/compliance)
-- Power Automate-Clouddienst (ehemals Microsoft Flow) als eigenständiger Dienst oder in einem Office 365- oder Dynamics 365-Plan bzw. -Anwendungssuite enthalten
-- [Office 365, Office 365 U.S. Government, Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?linkid=2077751)
+- Power Automate-Clouddienst (ehemals Microsoft Flow) als eigenständiger Dienst oder in einem Office 365- oder Dynamics 365-Plan bzw. -Anwendungssuite enthalten
+- Office 365, Office 365 U.S. Government und Office 365 U.S. Government Defense
 - Office 365 Deutschland
 - OMS Service Map
-- PowerApps-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365- oder Dynamics 365-Plan oder einer -Anwendungssuite enthalten
-- Power BI-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365-Plan oder einer -Anwendungssuite enthalten
+- PowerApps-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365- oder Dynamics 365-Plan oder einer -Anwendungssuite enthalten
+- Power BI-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365-Plan oder einer -Anwendungssuite enthalten
 - Power BI Embedded
 - Power Virtual Agents
 - [Microsoft Professional Services](https://go.microsoft.com/fwlink/p/?linkid=2100022)
 - Microsoft Stream
 - Microsoft-Bedrohungsexperten
-- Microsoft Translator
+- Microsoft Translator
 
-## <a name="audits-reports-and-certificates"></a>Audits, Berichte und Zertifikate
+## <a name="azure-dynamics-365-and-iso-27001"></a>Azure, Dynamics 365 und ISO 27001
 
-Prüfzyklus: Microsoft Cloud Services werden mindestens einmal jährlich anhand des Standards ISO 27001:2013 überprüft.
+Weitere Informationen zur Compliance mit Azure, Dynamics 365 und anderen Onlinediensten finden Sie im [Azure ISO 27001:2013-Angebot](/azure/compliance/offerings/offering-iso-27001).
 
-### <a name="azure"></a>Azure
+## <a name="office-365-and-iso-27001"></a>Office 365 und ISO 27001
 
-- [Azure, Dynamics 365 und Onlinedienste: ISO27001-Zertifikat](https://aka.ms/azureiso27001cert)
+### <a name="office-365-cloud-environments"></a>Office 365-Cloudumgebungen
 
-### <a name="office-365"></a>Office 365
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-- [Office 365 – Global und Deutschland ISO 27001: Zertifikat für Verwaltungsstandards der Informationssicherheit](https://aka.ms/o365iso27001cert)
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365-Anwendbarkeit und im Leistungsumfang enthaltene Dienste
 
-### <a name="azure-devops-services"></a>Azure DevOps Services
+Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Dienste und -Abonnements zu bestimmen:
 
-- [Azure DevOps Services](https://www.bsigroup.com/en-US/our-services/Management-system-certification/Certificate-and-Client-Directory-Search/Certificate-Client-Directory-Search-Results/?searchkey=licence%3d619017%26company%3dAzure%2bDevOps%2bServices&licencenumber=IS%20619017)
+| **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
+|:------------------|:----------------------|
+| **Office 365** | Access Online, Azure Active Directory, Azure Communications Service, Compliance-Manager, Kunden-Lockbox, Delve, Exchange Online, Exchange Online Protection, Forms, Griffin, Identity Manager, Lockbox (Torus), Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365-Kundenportal, Office 365-Microservices (einschließlich, aber nicht beschränkt auf Kaizala, ObjectStore, Sway, PowerPoint Online-Dokumentdienst, Abfrage-Anmerkungsdienst, School Data Sync, Siphon, Speech, StaffHub, eXtensible-Anwendungsprogramm), Office 365 Security & Compliance Center, Office Online, Office Pro Plus, Office Services-Infrastruktur, OneDrive for Business, Planner, PowerApps, Power BI, Project Online, Dienstverschlüsselung mit Kundenschlüssel, SharePoint Online, Skype for Business, Stream |
+| **GCC** | Azure Active Directory, Azure Communications Service, Compliance-Manager, Delve, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, Stream |
+| **GCC Hoch** | Azure Active Directory, Azure Communications Service, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business |
+| **DoD** | Azure Active Directory, Azure Communications Service, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, Power BI, SharePoint Online, Skype for Business |
 
-### <a name="microsoft-professional-services"></a>Microsoft Professional Services
+### <a name="office-365-audits-reports-and-certificates"></a>Office 365-Prüfungen, -Berichte und -Zertifikate
 
-- [Microsoft Professional Services](https://www.bsigroup.com/en-US/our-services/Management-system-certification/Certificate-and-Client-Directory-Search/Certificate-Client-Directory-Search-Results/?searchkey=licence%3d601002%26company%3dMicrosoft&licencenumber=IS%20601002)
+Office 365-Clouddienste werden mindestens einmal jährlich anhand des Standards ISO 27001:2013 überprüft.
 
-## <a name="assessments-and-reports"></a>Bewertungen und Berichte
+- [Office 365 – Global und Deutschland ISO 27001: Zertifikat für Management-Standards der Informationssicherheit](https://aka.ms/o365iso27001cert)
 
-### <a name="azure"></a>Azure
+### <a name="office-365-assessments-and-reports"></a>Office 365-Bewertungen und -Berichte
 
-- [Azure, Dynamics 365 und Onlinedienste: ISO 27001, 27018 und 27701-Auditbericht](https://aka.ms/azureiso27001report)
-- [Azure, Dynamics 365 und Online Services: ISO 27001, 27018, 27701-Anwendbarkeitserklärung (Statement of Applicability, SOA)](https://aka.ms/Azureiso27001soa)
-
-### <a name="office-365"></a>Office 365
-
-- [Office 365: ISO 27001, 27018 und 27017-Auditbericht](https://aka.ms/o365isoreport)
+- [Office 365: ISO 27001-, 27018- und 27017-Überwachungsbericht](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=8d625374-4f2d-49f8-9d37-a4281ba98222&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports)
+- [Office 365: ISO 27001-, 27018- und 27017-Vollmachtserklärung (Statement of Authority, SOA)](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports)
 - [Office 365: Verwaltungssystem der Datensicherheit (Information Security Management System, ISMS) – Anwendbarkeitserklärung für Sicherheit und Datenschutz](https://aka.ms/o365isosoa)
 - [Office 365 Deutschland: ISO 27001, 27017, 27018-Auditbericht](https://aka.ms/o365gerisoaudit)
 - [Yammer: ISO 27001-Auditbericht](https://aka.ms/yammeriso)
 
-### <a name="azure-devops-services"></a>Azure DevOps Services
+### <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
-- [Azure DevOps Services ISO 27001-Zertifikat IS 619017](https://www.bsigroup.com/en-US/our-services/Management-system-certification/Certificate-and-Client-Directory-Search/Certificate-Client-Directory-Search-Results/?searchkey=licence%3d%26company%3dAzure&licencenumber=IS%20619017)
-
-[Weitere Prüfberichte anzeigen](https://aka.ms/auditreports)
-
-## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
-
-**Warum ist die Compliance von Microsoft mit ISO/IEC 27001 wichtig?**
+**Warum ist die Office 365-Compliance mit ISO/IEC 27001 wichtig?**
 
 Compliance mit diesen Standards, die durch einen akkreditierten Prüfer bestätigt wird, beweist, dass Microsoft international anerkannte Prozesse und Best Practices verwendet, um die Infrastruktur und die Organisation zur Unterstützung und Bereitstellung seiner Dienste zu verwalten. Das Zertifikat bestätigt, dass Microsoft die Richtlinien und allgemeinen Prinzipien zum Initiieren, Einführen, Pflegen und Verbessern der Informationssicherheitsverwaltung implementiert hat.
 
-**Wo erhalte ich die ISO/IEC 27001-Prüfberichte und Umfangserklärungen für Microsoft-Dienste?**
+**Wo erhalte ich die ISO/IEC 27001-Prüfberichte und Bereichserklärungen für Office 365-Dienste?**
 
 Das [Vertrauensstellungsportal](/microsoft-365/compliance/get-started-with-service-trust-portal) stellt unabhängig geprüfte Complianceberichte zur Verfügung. Sie können über das Portal Berichte anfordern, sodass Ihre Prüfer die Ergebnisse der Clouddienste von Microsoft mit Ihren eigenen gesetzlichen und regulatorischen Anforderungen vergleichen können.
 
-**Führt Microsoft jährliche Tests auf Infrastrukturfehler durch?**
+**Werden jährliche Tests für Office 365-Infrastrukturfehler ausgeführt?**
 
-Ja. Der jährliche Zertifizierungsprozess nach ISO/IEC 27001 für die Microsoft Cloud Infrastructure and Operations-Gruppe umfasst eine Überprüfung der Ausfallsicherheit im Betrieb. Klicken Sie auf den unten stehenden Link, um das aktuelle Zertifikat in der Vorschau anzuzeigen.
+Ja. Der jährliche Zertifizierungsprozess nach ISO/IEC 27001 für die Microsoft Cloud Infrastructure and Operations-Gruppe umfasst eine Überprüfung der Ausfallsicherheit im Betrieb. Um das neueste Zertifikat anzuzeigen, wählen Sie den Link unten aus.
 
-- Microsoft Azure: [ISO/IEC 27001:2013-Zertifikat für Microsoft Cloud Infrastructure and Operations](https://www.bsigroup.com/en-US/our-services/Management-system-certification/Certificate-and-Client-Directory-Search/Certificate-Client-Directory-Search-Results/?searchkey=licence%3d%26company%3dMicrosoft&licencenumber=IS%20552878)
-- Microsoft Azure: [ISO/IEC 27001:2013-Zertifikat für Microsoft Cloud Infrastructure and Operations](https://www.bsigroup.com/en-US/our-services/Management-system-certification/Certificate-and-Client-Directory-Search/Certificate-Client-Directory-Search-Results/?searchkey=licence%3d%26company%3dMicrosoft&licencenumber=IS%20552878)
+- Microsoft 365 und Office 365-Zertifikat: [ISO/IEC 27001:2013-Zertifikat für Microsoft Cloud-Infrastruktur und -Betrieb](https://www.bsigroup.com/en-US/our-services/Management-system-certification/Certificate-and-Client-Directory-Search/Certificate-Client-Directory-Search-Results/?searchkey=licence%3d%26company%3dMicrosoft&licencenumber=IS%20552878)
 
 **Wo beginne ich mit dem Complianceprozess im Hinblick auf ISO/IEC 27001 für meine eigene Organisation?**
 
 Die Übernahme von ISO/IEC 27001 ist eine strategische Verpflichtung. Ein guter Ausgangspunkt ist die [ISO/IEC 27000-Reihe](https://www.27000.org/index.htm).
 
-**Kann ich die ISO/IEC 27001-Compliance von Microsoft-Diensten für den Zertifizierungsprozess meiner Organisation verwenden?**
+**Kann ich die ISO/IEC 27001-Compliance von Office 365-Diensten für den Zertifizierungsprozess meiner Organisation verwenden?**
 
 Ja. Wenn Ihr Unternehmen eine Zertifizierung nach ISO/IEC 27001 für Installationen benötigt, die in Microsoft-Diensten bereitgestellt werden, können Sie die entsprechende Zertifizierung für Ihre Compliancebewertung verwenden. Sie sind jedoch dafür verantwortlich, einen Auditor mit der Prüfung der Kontrollen und Prozesse in Ihrer eigenen Organisation und Ihrer Implementierung im Hinblick auf ISO/IEC 27001-Compliance zu beauftragen.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
+### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
 
 [Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center](/microsoft-365/compliance/microsoft-365-compliance-center), die Ihnen hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Der Compliance Manager verfügt über eine vorgefertigte Bewertung für diese Vorschrift für Enterprise E5-Kunden. Die Vorlage für die Erstellung der Bewertung finden Sie auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 
-## <a name="resources"></a>Ressourcen
+### <a name="resources"></a>Ressourcen
 
 - [Zuordnung der Microsoft Cyber-Angebote: NIST Cybersecurity (CSF), CIS Controls und ISO27001:2013-Frameworks](https://download.microsoft.com/download/B/1/8/B18F4C7D-5CBA-4E68-A437-31F1E908ACBA/Microsoft_Cyber_Offerings_Mapped_to_Security_Frameworks_EN_US.pdf)
 - [Das ISO/IEC 27000-Verzeichnis](https://www.27000.org/index.htm)
@@ -141,9 +135,3 @@ Ja. Wenn Ihr Unternehmen eine Zertifizierung nach ISO/IEC 27001 für Installatio
 - [Microsoft Common Controls Hub-Complianceframework](https://www.microsoft.com/trustcenter/common-controls-hub)
 - [Microsoft Online Services-Nutzungsbedingungen](https://aka.ms/Online-Services-Terms)
 - [Microsoft Cloud for Government](https://enterprise.microsoft.com/industries/government/start-your-microsoft-cloud-for-government-trial-today)
-- [Compliance im Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="white-papers"></a>Whitepaper
-
-- [Übersicht über den Datenschutz in Azure DevOps Services](https://www.visualstudio.com/articles/team-services-security-whitepaper)
-- [13 Effective Azure Security Controls for ISO 27001 Compliance](https://aka.ms/13securitycontrolsforiso27001compliance) (in englischer Sprache)

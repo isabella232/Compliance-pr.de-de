@@ -1,5 +1,5 @@
 ---
-title: Personal Data Protection Act (PDPA) Argentinien
+title: Argentinisches Datenschutzgesetz (Personal Data Protection Act, PDPA)
 description: Microsoft Business Cloud Services entsprechen den PDPA-Standards zum Schutz der personenbezogenen Daten.
 keywords: Microsoft 365, Compliance, Angebote
 localization_priority: Priority
@@ -16,14 +16,14 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 75ab80c2b017e7fe4576f145db50465ea71e2d41
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: e5b04f64d2dc0b31c8357a02930fa582b2fbae07
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50119914"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53385645"
 ---
-# <a name="personal-data-protection-act-pdpa-argentina"></a>Datenschutzgesetz (Personal Data Protection Act, PDPA) Argentinien
+# <a name="argentina-personal-data-protection-act-pdpa"></a>Argentinisches Datenschutzgesetz (Personal Data Protection Act, PDPA)
 
 ## <a name="about-the-pdpa"></a>Über PDPA
 
@@ -37,15 +37,29 @@ Im Jahr 2016 erließ das AAIP eine neue Verordnung, die [Provision 60-E/2016](ht
 
 Microsoft verpflichtet sich vertraglich durch die [Microsoft Online Services-Bestimmungen](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31), dass unsere In-Scope Business Cloud Services technische und organisatorische Sicherheitsvorkehrungen getroffen haben, die unseren Kunden helfen können, den argentinischen Datenschutzgesetz (PDPA) 25.326 einzuhalten. Microsoft stellt auch eine Datenübertragungsvereinbarung zur Verfügung, um die Einhaltung der Bestimmung 60-E/2016 zu erleichtern, welche die grenzüberschreitende Übermittlung personenbezogener Daten regelt. Dies bedeutet, dass Microsoft-Kunden Microsoft Azure, Microsoft Dynamics 365 und Microsoft 365 in einer Weise nutzen können, die der PDPA in Argentinien entspricht.
 
-Die technischen und organisatorischen Sicherheitsmaßnahmen, die in den Business-Clouddiensten umgesetzt werden, würden auch andere Regeln des PDPA unterstützen, wie z. B. das Verbot jeder sekundären Nutzung der persönlichen Daten einer betroffenen Person und das Verbot der Übertragung persönlicher Daten in Länder, die kein angemessenes Schutzniveau bieten.
+Die technischen und organisatorischen Sicherheitsmaßnahmen, die in den Business-Clouddiensten umgesetzt werden, würden auch andere Regeln des PDPA unterstützen, wie z. B. das Verbot jeder sekundären Nutzung der persönlichen Daten einer betroffenen Person und das Verbot der Übertragung persönlicher Daten in Länder, die kein angemessenes Schutzniveau bieten.
 
-Die Microsoft-Datenübertragungsvereinbarung ist eine Änderung (Änderungs-ID M314) der Datenverarbeitungsbedingungen in unseren Online-Service-Bedingungen. Sie fügt wichtige Zusagen hinzu, darunter, dass Microsoft den Kunden über jede rechtsverbindliche Aufforderung zur Offenlegung persönlicher Daten informiert, seine Datenverarbeitungseinrichtungen auf Wunsch des Kunden entweder durch den Kunden oder einen unabhängigen Dritten einer Prüfung unterzieht und die vorherige schriftliche Zustimmung für den Einsatz von Subunternehmern einholt.
+Die Microsoft-Datenübertragungsvereinbarung ist ein Zusatz (Zusatz-ID M314) der Datenverarbeitungsbedingungen in unseren Bestimmungen für Onlinedienste. Sie fügt wichtige Verpflichtungen hinzu, darunter, dass Microsoft den Kunden über jede rechtsverbindliche Aufforderung zur Offenlegung persönlicher Daten informiert, seine Datenverarbeitungseinrichtungen auf Kundenanfrage entweder durch den Kunden oder einen unabhängigen Dritten einer Prüfung unterzieht und die vorherige schriftliche Zustimmung für die Beauftragung von Subunternehmern einholt.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft Cloud Services im Leistungsumfang
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
 
 - [Azure und Azure DevOps](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
 - [Dynamics 365](https://download.microsoft.com/download/E/1/9/E1977163-7A86-4812-AC18-C03ADC958AAF/Microsoft_Dynamics_365_Cloud_Service_Compliance_Datasheet.pdf)
-- [Microsoft 365](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=9f756cce-b15d-45a9-94d7-6a583dee4401&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
+- Office 365
+
+## <a name="office-365-and-the-pdpa"></a>Office 365 und PDPA
+
+### <a name="office-365-cloud-environments"></a>Office 365-Cloudumgebungen
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365-Anwendbarkeit und im Leistungsumfang enthaltene Dienste
+
+Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Dienste und -Abonnements zu bestimmen:
+
+| **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
+|:------------------|:----------------------|
+| **Office 365** | Azure Information Protection, Bookings, Exchange Online, Exchange Online Protection, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Graph, Microsoft Teams, Microsoft To-Do for Web, MyAnalytics, Office 365 Cloud App Security, Office 365-Gruppen, Office 365 Video, Office Delve, OneDrive for Business, Planner, Power Apps, Power BI für Office 365, PowerApps, Power Automate, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
 
 ## <a name="how-to-implement"></a>Implementierung
 
@@ -56,11 +70,11 @@ Die Microsoft-Datenübertragungsvereinbarung ist eine Änderung (Änderungs-ID M
 
 **Wie hat DSGVO das Personal Data Protection Act geändert?**
 
-Ende 2018 hat Argentinien noch keine DSGVO-bezogenen Vorschriften erlassen, aber es hat einen neuen Datenschutzgesetzesentwurf ausgearbeitet – der bereits dem Kongress von der Exekutive vorgelegt und vom Repräsentantenhaus überarbeitet wurde –, um sein Datenschutzgesetz mit der DSGVO in Einklang zu bringen. Sie befasst sich mit Unterschieden wie der Definition der betroffenen Personen und den Bedenken hinsichtlich der grenzüberschreitenden Übermittlung personenbezogener Daten.
+Ende 2018 hat Argentinien noch keine DSGVO-bezogenen Vorschriften erlassen, aber einen neuen Datenschutzgesetzesentwurf ausgearbeitet – der bereits dem Kongress von der Exekutive vorgelegt und vom Repräsentantenhaus überarbeitet wurde –, um sein Datenschutzgesetz mit der DSGVO abzustimmen. Er behandelt Unterschiede wie die Definition der betroffenen Personen und Bedenken hinsichtlich der grenzüberschreitenden Übermittlung personenbezogener Daten.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
 
-[Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center, die Ihnen](/microsoft-365/compliance/microsoft-365-compliance-center) hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen in Compliance Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
+[Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center](/microsoft-365/compliance/microsoft-365-compliance-center), die Ihnen hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="resources"></a>Ressourcen
 

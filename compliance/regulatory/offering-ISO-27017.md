@@ -1,5 +1,5 @@
 ---
-title: ISO/IEC 27017:2015-Verhaltenskodex für Informationssicherheitskontrollen
+title: ISO/IEC 27017:2015-Verhaltenskodex für Informationssicherheitskontrollen
 description: Microsoft-Clouddienste haben diesen Verhaltenskodex für Informationssicherheitskontrollen implementiert.
 keywords: Microsoft 365, Compliance, Angebote
 localization_priority: Priority
@@ -16,20 +16,20 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 09473dc7b27b34bd4b0394739cd303fa613780bf
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: 6c431d856fc03f328148722c14dfc558082aacb5
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51497741"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384725"
 ---
-# <a name="isoiec-270172015-code-of-practice-for-information-security-controls"></a>ISO/IEC 27017:2015 Verhaltenskodex für Informationssicherheitskontrollen
+# <a name="isoiec-270172015-code-of-practice-for-information-security-controls"></a>ISO/IEC 27017:2015 Verhaltenskodex für Informationssicherheitskontrollen
 
-## <a name="iso-iec-27017-overview"></a>Übersicht über ISO-IEC 27017
+## <a name="iso-iec-27017-overview"></a>Übersicht über ISO-IEC 27017
 
-Der ISO/IEC 27017:2015-Verhaltenskodex ist als Referenz für Organisationen vorgesehen, um sie während der Implementierung eines Systems für die Verwaltung der Cloud Computing-Informationssicherheit gemäß ISO/IEC 27002:2013 bei der Auswahl von Informationssicherheitskontrollen für Clouddienste zu unterstützen. Er kann auch von Cloud Service-Anbietern als Leitfaden zum Implementieren von allgemein anerkannten Schutzkontrollen verwendet werden.
+Der ISO/IEC 27017:2015-Verhaltenskodex ist als Referenz für Organisationen vorgesehen, um sie während der Implementierung eines Systems für die Verwaltung der Cloud Computing-Informationssicherheit gemäß ISO/IEC 27002:2013 bei der Auswahl von Informationssicherheitskontrollen für Clouddienste zu unterstützen. Er kann auch von Cloud Service-Anbietern als Leitfaden zum Implementieren von allgemein anerkannten Schutzkontrollen verwendet werden.
 
-Dieser internationale Standard bietet zusätzliche cloudspezifische Implementierungsanleitungen auf der Grundlage von ISO/IEC 27002 und stellt zusätzliche Kontrollen für Kontrollen, Implementierungsanleitungen und andere Informationen zur Verfügung, um cloudspezifischen Bedrohungen und Risiken der Informationssicherheit zu begegnen, die sich auf die Abschnitte 5–18 in ISO/IEC 27002: 2013 beziehen. Insbesondere stellt dieser Standard Anleitungen zu 37 Kontrollen in ISO/IEC 27002 zur Verfügung und enthält außerdem sieben neue Kontrollen, die nicht in ISO/IEC 27002 dupliziert sind. Diese neuen Kontrollen beziehen sich auf die folgenden wichtigen Bereiche:
+Dieser internationale Standard bietet zusätzliche cloudspezifische Implementierungsanleitungen auf der Grundlage von ISO/IEC 27002 und stellt zusätzliche Kontrollen für Kontrollen, Implementierungsanleitungen und andere Informationen zur Verfügung, um cloudspezifischen Bedrohungen und Risiken der Informationssicherheit zu begegnen, die sich auf die Abschnitte 5–18 in ISO/IEC 27002: 2013 beziehen. Insbesondere stellt dieser Standard Anleitungen zu 37 Kontrollen in ISO/IEC 27002 zur Verfügung und enthält außerdem sieben neue Kontrollen, die nicht in ISO/IEC 27002 dupliziert sind. Diese neuen Kontrollen beziehen sich auf die folgenden wichtigen Bereiche:
 
 - Gemeinsame Rollen und Pflichten innerhalb einer Cloud Computing-Umgebung
 - Entfernen und Rückgabe von Kundenressourcen in Cloud Services nach Vertragsende
@@ -39,45 +39,62 @@ Dieser internationale Standard bietet zusätzliche cloudspezifische Implementier
 - Überwachung relevanter Aktivitäten innerhalb einer Cloud Computing-Umgebung durch den Kunden
 - Ausrichtung der Sicherheitsverwaltung für virtuelle und physische Netzwerke
 
-## <a name="microsoft-and-isoiec-27017"></a>Microsoft und ISO/IEC 27017
+## <a name="microsoft-and-isoiec-27017"></a>Microsoft und ISO/IEC 27017
 
-ISO/IEC 27017 ist einzigartig, da es Anleitungen für Anbieter und Kunden von Clouddiensten bereitstellt. Der Standard stellt außerdem Cloud Service-Kunden praktische Informationen im Hinblick auf ihre Erwartungen an Cloud Service-Anbieter zur Verfügung. Kunden können die Vorteile von ISO/IEC 27017 direkt nutzen, indem sie sich der gemeinsamen Verantwortung in der Cloud bewusst sind.
+ISO/IEC 27017 ist einzigartig, da es Anleitungen für Anbieter und Kunden von Clouddiensten bereitstellt. Der Standard stellt außerdem Cloud Service-Kunden praktische Informationen im Hinblick auf ihre Erwartungen an Cloud Service-Anbieter zur Verfügung. Kunden können die Vorteile von ISO/IEC 27017 direkt nutzen, indem sie sich der gemeinsamen Verantwortung in der Cloud bewusst sind.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Microsoft-Clouddienste im Leistungsumfang
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
 
-- [Azure und Azure Government und Azure Deutschland](https://aka.ms/AzureCompliance)
+- [Azure und Azure Government und Azure Deutschland](https://aka.ms/AzureCompliance)
 - Microsoft Cloud App-Sicherheit
 - [Dynamics 365, Dynamics 365 und Dynamics 365 Deutschland](https://aka.ms/d365-compliance-list)
+- Intune
 - Microsoft Defender für Endpunkt
 - Microsoft Graph
 - Microsoft Healthcare Bot
-- Intune
 - [Microsoft Managed Desktop](/microsoft-365/managed-desktop/intro/compliance)
-- Power Automate-Clouddienst (ehemals Microsoft Flow) als eigenständiger Dienst oder in einem Office 365- oder Dynamics 365-Plan bzw. -Anwendungssuite enthalten
 - Office 365, Office 365 U.S. Government, Office 365 U.S. Government Defense und Office 365 Deutschland
-- PowerApps-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365- oder Dynamics 365-Plan bzw. einer -Anwendungssuite enthalten
-- Power BI-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365-Plan oder einer -Anwendungssuite enthalten
+- Power Automate-Clouddienst (ehemals Microsoft Flow) als eigenständiger Dienst oder in einem Office 365- oder Dynamics 365-Plan bzw. -Anwendungssuite enthalten
+- PowerApps-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365- oder Dynamics 365-Plan oder einer -Anwendungssuite enthalten
+- Power BI-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365-Plan oder einer -Anwendungssuite enthalten
 - Power BI Embedded
-- Microsoft Stream
-- Sehen Sie sich eine [detaillierten Liste](https://go.microsoft.com/fwlink/p/?linkid=2077751) der abgedeckten Dienste in Office 365 an
 
-## <a name="audits-reports-and-certificates"></a>Prüfungen, Berichte und Zertifikate
+## <a name="azure-dynamics-365-and-iso-270172015"></a>Azure, Dynamics 365 und ISO 27017:2015
+
+Weitere Informationen zur Compliance mit Azure, Dynamics 365 und anderen Onlinedienste finden Sie im [Azure ISO 27017-Angebot](/azure/compliance/offerings/offering-iso-27017).
+
+## <a name="office-365-and-iso-270172015"></a>Office 365 und ISO 27017:2015
+
+### <a name="office-365-cloud-environments"></a>Office 365-Cloudumgebungen
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365-Anwendbarkeit und im Leistungsumfang enthaltene Dienste
+
+Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Dienste und -Abonnements zu bestimmen:
+
+| **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
+|:------------------|:----------------------|
+| **Office 365** | Access Online, Azure Active Directory, Azure Communications Service, Compliance Manager, Kunden-Lockbox, Delve, Exchange Online, Exchange Online Protection, Forms, Griffin, Identity Manager, Lockbox (Torus), Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365-Kundenportal, Office 365-Microservices (einschließlich, aber nicht beschränkt auf Kaizala, ObjectStore, Sway, PowerPoint Online-Dokumentdienst, Abfrageanmerkungsdienst, School Data Sync, Sifon, Speech, StaffHub, eXtensible-Anwendungsprogramm), Office 365 Security & Compliance Center, Office Online, Office Pro Plus, Office Services-Infrastruktur, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, Project Online, Dienstverschlüsselung mit Kundenschlüssel, SharePoint Online, Skype for Business, Stream |
+| **GCC** | Azure Active Directory, Azure Communications Service, Compliance Manager, Delve, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, Stream |
+| **GCC High** | Azure Active Directory, Azure Communications Service, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business |
+| **DoD** | Azure Active Directory, Azure Communications Service, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, Power BI, SharePoint Online, Skype for Business |
+
+### <a name="office-365-audits-reports-and-certificates"></a>Office 365-Audits, -Berichte und -Zertifikate
 
 Microsoft-Clouddienste werden einmal jährlich im Rahmen des Zertifizierungsprozesses nach ISO/IEC 27001:2013 hinsichtlich des ISO/IEC 27017:2015-Verhaltenskodex überprüft.
 
-- [Azure ISO 27017-Zertifikat](https://aka.ms/azureiso27017cert)
-- [Azure ISO 27017-Bewertungsbericht](https://aka.ms/azureiso27017report)
 - [Office 365: ISO 27001, 27018 und 27017-Prüfbericht](https://aka.ms/o365isoreport)
 
-## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
+### <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
-Für wen gilt der Standard?
+**Für wen gilt der Standard?**
 
 Dieser Verhaltenskodex stellt Kontrollen und Implementierungsanleitungen für Anbieter und Kunden von Clouddiensten bereit. Er ist ähnlich strukturiert wie ISO/IEC 27002:2013.
 
 **Wo kann ich Microsofts Konformitätsinformationen für ISO/IEC 27017:2015 einsehen?**
 
-Sie können das [ISO/IEC 27017:2015-Zertifikat](https://aka.ms/azureiso27017) für Azure, Intune und Power BI herunterladen.
+Sie können das [ISO/IEC 27017:2015-Zertifikat](https://aka.ms/azureiso27017) für Azure, Intune und Power BI herunterladen.
 
 **Kann ich die ISO/IEC 27017-Konformität von Microsoft-Diensten im Zertifizierungsprozess meiner Organisation nutzen?**
 
@@ -87,11 +104,11 @@ Ja. Wenn Ihr Unternehmen eine Zertifizierung für Installationen anstrebt, die i
 
 Im [Service Trust Portal](https://aka.ms/stphelp) erhalten Sie unabhängige Prüfberichte von Dritten und weitere zugehörige Dokumentation. Sie können diese Dokumentation aus dem Portal herunterladen und prüfen, um Unterstützung bei der Erfüllung Ihrer eigenen gesetzlichen Anforderungen zu erhalten.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
+### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
 
 [Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center](/microsoft-365/compliance/microsoft-365-compliance-center), die Ihnen hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 
-## <a name="resources"></a>Ressourcen
+### <a name="resources"></a>Ressourcen
 
 - [ISO/IEC 27017:2015-Verhaltenskodex](https://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=43757)
 - [Nutzungsbedingungen für Microsoft-Onlinedienste](https://aka.ms/Online-Services-Terms)
