@@ -14,17 +14,18 @@ localization_priority: Normal
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
+- MS-Compliance
 search.appverid:
 - MET150
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 2019289542a49f6f586d22da8907eb5c7143e329
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: d0285110c3fe4225ba2e2c6d1fb58820ff2a1dc8
+ms.sourcegitcommit: 07578a8e03b931f47c49f4e34b78cf8ba0605e8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53088874"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53573613"
 ---
 # <a name="security-monitoring-overview"></a>Überwachung der Sicherheit (Übersicht)
 
@@ -38,7 +39,7 @@ Microsoft 365 setzt sich für die kontinuierliche Sicherheitsüberwachung seiner
 
 Automatisierungs-, Skalierungs- und cloudbasierte Lösungen sind die Schlüsselpfeiler unserer Überwachungs- und Reaktionsstrategie. Damit wir Angriffe im Rahmen einiger Microsoft 365-Basisdienste effektiv erfassen und stoppen können, müssen unsere Überwachungssysteme fast in Echtzeit automatisch hochgenaue Benachrichtigungen auslösen. Wenn ein Problem erkannt wird, benötigen wir auch die Möglichkeit, das Risiko im großen Maßstab zu mindern. Wir können uns nicht darauf verlassen, dass unser Team Probleme computerweise manuell behebt. Um Risiken erforderlichen Umfang zu minimieren, verwenden wir cloudbasierte Tools, um automatisch Gegenmaßnahmen anzuwenden und Entwicklern Werkzeuge zur Verfügung zu stellen, mit denen bewährte Minimierungsmaßnahmen in der gesamten Umgebung schnell angewendet werden können.
 
-## <a name="how-does-microsoft-365-perform-security-monitoring"></a>Wie führt Microsoft 365 die Sicherheitsüberwachung aus?
+## <a name="how-does-microsoft-365-perform-security-monitoring"></a>Wie führt Microsoft 365 eine Sicherheitsüberwachung aus?
 
 Microsoft 365 verwendet die zentrale Protokollierung, um Protokollereignisse für Aktivitäten zu sammeln und zu analysieren, die auf einen Sicherheitsvorfall hinweisen können. Tools für die zentralisierte Protokollierung aggregieren Protokolle aller Systemkomponenten, einschließlich Ereignisprotokolle, Anwendungsprotokolle, Zugriffssteuerungsprotokolle und netzwerkbasierten Angriffserkennungssysteme. Zusätzlich zur Serverprotokollierung und Daten auf Anwendungsebene ist die Kerninfrastruktur unseres Dienstes mit kundenspezifischen Sicherheits-Agents ausgestattet, die detaillierte Telemetrie erzeugen und hostbasierte Angriffserkennung bieten. Wir nutzen diese Telemetrie für Überwachung und Forensik.
 

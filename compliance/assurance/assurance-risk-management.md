@@ -1,6 +1,6 @@
 ---
 title: Risikomanagement
-description: Informationen zum Risikomanagement in Microsoft 365
+description: Erfahren Sie mehr über das Risikomanagement in Microsoft 365
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -14,17 +14,18 @@ localization_priority: Normal
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
+- MS-Compliance
 search.appverid:
 - MET150
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 673090a2ce8c4ad59b3f406fc6b76917ff3e9cdb
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 04ca3dde35ded2f0f4117d91ccc8ae0fa6a9aa9b
+ms.sourcegitcommit: 07578a8e03b931f47c49f4e34b78cf8ba0605e8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53088757"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53573643"
 ---
 # <a name="risk-management-overview"></a>Risikomanagement (Übersicht)
 
@@ -32,7 +33,7 @@ ms.locfileid: "53088757"
 
 Risikomanagement ist der Prozess zum Identifizieren und Bewerten von sowie zum Reagieren auf Risiken. Das Risikomanagement bei Microsoft ist so konzipiert, dass es neue Bedrohungen antizipiert und kontinuierliche Sicherheit für unsere Cloudsysteme und die Kunden bietet, die diese nutzen.
 
-Die Risikomanagementaktivitäten von Microsoft unterliegen dem Enterprise-Risikomanagementprogramm (ERM). ERM ermöglicht den gesamten Enterprise-Risikomanagementprozess und arbeitet mit dem Management im gesamten Unternehmen zusammen, um die Verantwortlichkeit für die wichtigsten Risiken von Microsoft zu identifizieren und sicherzustellen. Es konzentriert sich auf das Antizipieren, Bewerten und Melden von Risiken, um die Unternehmensstrategie von Microsoft zu informieren und die Risikominderung und Rechenschaftspflicht voranzutreiben.
+Die Risikomanagementaktivitäten bei Microsoft werden durch das Enterprise-Risikomanagementprogramm (ERM) geregelt. ERM unterstützt den gesamten Prozess des Risikomanagements im Unternehmen und die Zusammenarbeit mit der Unternehmensleitung, um die wichtigsten Risiken bei Microsoft zu erkennen und die Verantwortlichkeiten dafür sicherzustellen. ERM konzentriert sich auf das Antizipieren, Bewerten und Melden von Risiken, um die Geschäftsstrategie von Microsoft zu informieren sowie Risikominderung und Rechenschaftspflichten voranzutreiben.
 
 ![Struktur des Risikomanagements](../media/assurance-risk-management-structure.png)
 
@@ -40,13 +41,13 @@ Microsoft ERM koordiniert die Aktivitäten des Risikomanagements im gesamten Unt
 
 ## <a name="how-does-microsoft-365-work-with-erm"></a>Wie funktioniert Microsoft 365 mit ERM?
 
-Das Microsoft 365-Risikomanagementprogramm folgt dem ERM-Leitfaden zum Verwalten von Risiken über Microsoft 365 Dienste hinweg. Der Schwerpunkt des Programms liegt auf der Ausrichtung des ERM-Frameworks an vorhandenen Microsoft 365 Engineering-, Service- und Complianceprozessen, wodurch das Risikomanagementprogramm effektiver und effizienter wird. Microsoft 365 Risikomanagementaktivitäten werden letztendlich in den ERM-Prozess aufgenommen und informiert.
+Das Microsoft 365-Risikomanagementprogramm folgt dem ERM-Leitfaden zum Verwalten von Risiken über Microsoft 365 Dienste hinweg. Der Schwerpunkt des Programms liegt auf der Ausrichtung des ERM-Frameworks an vorhandenen Microsoft 365 Engineering-, Service- und Complianceprozessen, wodurch das Risikomanagementprogramm effektiver und effizienter wird. Microsoft 365 Risikomanagementaktivitäten werden letztendlich in den ERM-Prozess aufgenommen und informieren.
 
 Im Rahmen der Aktivitäten zur Risikobewertung analysiert das Microsoft 365-Risikomanagementprogramm den Entwurf und die Betriebseffektivität von Steuerelementen, die als Teil des Microsoft 365 Controls Framework (Framework) implementiert sind. Das Framework ist ein rationalisierter Satz von Steuerelementen, mit dem Entwicklungsteams bei ordnungsgemäßer Implementierung und Unterstützung von Complianceaktivitäten wichtige Vorschriften und Zertifizierungen einhalten können.
 
 ## <a name="how-does-microsoft-365-manage-and-assess-risk-in-its-online-services"></a>Wie verwaltet und bewertet Microsoft 365 Risiken in den Onlinediensten?
 
-Im Rahmen der laufenden Aktivitäten zur Risikobewertung führt das Microsoft 365-Risikomanagement-Programm Interviews mit den Serviceteams durch, die Microsoft 365 Dienste entwerfen, erstellen und betreiben, um aktuelle Risiken und Bereiche zu identifizieren. Diese Aktivitäten werden zusammen mit der Analyse kontinuierlicher Überwachungsdaten, Audits und anderer Quellen verwendet, um Risikobewertungsberichte zu entwickeln, die aktuelle und mögliche zukünftige Risiken für langfristige Geschäftsziele identifizieren. Berichte zur Risikobewertung bieten eine allgemeine Übersicht über den Risikostatus Microsoft 365 basierend auf unseren Ergebnissen und feedback von Microsoft 365 Serviceteams. Zusammen mit ähnlichen Berichten aus anderen Geschäftsbereichen tragen Microsoft 365-Risikobewertungsberichte zu Risikobewertungen des ERM-Programms bei und liefern diesem entsprechende Daten.
+Im Rahmen der laufenden Aktivitäten zur Risikobewertung führt das Microsoft 365-Risikomanagementprogramm Interviews mit den Serviceteams durch, die Microsoft 365 Dienste entwerfen, erstellen und betreiben, um aktuelle Risiken und Bereiche zu identifizieren. Diese Aktivitäten werden zusammen mit der Analyse kontinuierlicher Überwachungsdaten, Audits und anderer Quellen verwendet, um Risikobewertungsberichte zu entwickeln, die aktuelle und mögliche zukünftige Risiken für langfristige Geschäftsziele identifizieren. Berichte zur Risikobewertung bieten eine allgemeine Übersicht über den Risikostatus Microsoft 365 basierend auf unseren Ergebnissen und feedback von Microsoft 365 Serviceteams. Zusammen mit ähnlichen Berichten aus anderen Geschäftsbereichen tragen Microsoft 365-Risikobewertungsberichte zu Risikobewertungen des ERM-Programms bei und liefern diesem entsprechende Daten.
 
 Microsoft 365 Vertrauensstellung ist eine Gruppe, die für die Unterstützung von Sicherungsvorgängen im Zusammenhang mit Richtlinienkonformität, Sicherheitsanforderungen und Risikomanagement verantwortlich ist. Microsoft 365 Trust identifiziert neue Risiken, sobald sie entstehen, und überwacht bekannte Risiken und Reaktionen auf Risiken. Feedback von Microsoft 365 Serviceteams und kontinuierliche Überwachungsdaten aus Microsoft 365 Umgebungen informieren diesen Prozess. Erfolg und Misserfolg von Risikoreaktionen werden verfolgt, um Analysen der Risikowahrscheinlichkeiten und -auswirkungen zu entwickeln und mit Daten zu versorgen. Regelmäßige Besprechungen zur Risikoüberprüfung mit Risikobesitzern ermöglichen Microsoft 365 Trust, Risikoreaktionen zu aktualisieren und zu verwalten.
 

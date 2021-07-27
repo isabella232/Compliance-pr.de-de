@@ -14,23 +14,24 @@ localization_priority: Normal
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
+- MS-Compliance
 search.appverid:
 - MET150
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: d1cc1473a0478cd516ddfebf37d881174219e0c2
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 7a706cda887c0c2675841648ef8541ffbb872884
+ms.sourcegitcommit: 07578a8e03b931f47c49f4e34b78cf8ba0605e8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53087604"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53573693"
 ---
 # <a name="security-development-and-operations-overview"></a>Übersicht über die Sicherheitsentwicklung und den Sicherheitsbetrieb
 
 ## <a name="how-does-microsoft-implement-secure-development-practices"></a>Wie implementiert Microsoft sichere Entwicklungspraktiken?
 
-Der Sicherheitsentwicklungslebenszyklus (Security Development Lifecycle, SDL) von Microsoft ist ein Prozess zur Sicherheitssicherung, der sich auf die Entwicklung und den Betrieb sicherer Software konzentriert. Der SDL enthält detaillierte, messbare Sicherheitsanforderungen für Entwickler und Techniker bei Microsoft, um die Anzahl und den Schweregrad von Sicherheitsrisiken in unseren Produkten und Dienstleistungen zu reduzieren. Alle Microsoft-Softwareentwicklungsteams müssen die SDL-Anforderungen einhalten, und wir aktualisieren den SDL kontinuierlich, um der sich ändernden Bedrohungslandschaft, den bewährten Methoden der Branche und gesetzlichen Standards für die Compliance Rechnung zu tragen.
+Der Security Development Lifecycle (SDL) von Microsoft ist ein Prozess zur Sicherheitssicherung, der sich auf die Entwicklung und den Betrieb sicherer Software konzentriert. Der SDL enthält detaillierte, messbare Sicherheitsanforderungen für Entwickler und Techniker bei Microsoft, um die Anzahl und den Schweregrad von Sicherheitsrisiken in unseren Produkten und Dienstleistungen zu reduzieren. Alle Microsoft-Softwareentwicklungsteams müssen die SDL-Anforderungen einhalten, und wir aktualisieren den SDL kontinuierlich, um der sich ändernden Bedrohungslandschaft, den bewährten Methoden der Branche und gesetzlichen Standards für die Compliance Rechnung zu tragen.
 
 ## <a name="how-does-microsofts-sdl-improve-application-security"></a>Wie verbessert Microsoft SDL die Anwendungssicherheit?
 

@@ -14,23 +14,24 @@ localization_priority: Normal
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
+- MS-Compliance
 search.appverid:
 - MET150
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 65462901c72bcda1af4e1b58bc0df2caa6cbaec9
-ms.sourcegitcommit: 8bf2602d56eedee4447ddb374ef95b0587f254e7
+ms.openlocfilehash: 0201ad28f25af78ec69f99725e12118dc205b338
+ms.sourcegitcommit: 07578a8e03b931f47c49f4e34b78cf8ba0605e8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53377562"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53573803"
 ---
 # <a name="resiliency-and-continuity-overview"></a>Ausfallsicherheit und Kontinuität (Übersicht)
 
 ## <a name="how-does-microsoft-ensure-business-continuity-in-the-case-of-a-disaster-or-other-threat-to-service-availability"></a>Wie gewährleistet Microsoft die Geschäftskontinuität im Falle eines Notfalls oder einer anderen Bedrohung für die Dienstverfügbarkeit?
 
-Das Team Enterprise Business Continuity Management (EBCM) von Microsoft überwacht aktivitäten im Bereich der Geschäftskontinuitätsverwaltung und Notfallwiederherstellung über Microsoft-Dienste- und Cloudangebote hinweg. Vertreter von Microsoft-Geschäftsbereichen, z. B. Microsoft 365, koordinieren sich mit dem EBCM-Team, um Geschäftskontinuitätspläne zu entwickeln und die Einhaltung der Geschäftskontinuitätsanforderungen zu überprüfen.
+Das Team Enterprise Business Continuity Management (EBCM) von Microsoft überwacht die Geschäftskontinuitätsmanagement- und Notfallwiederherstellungsaktivitäten über Microsoft-Dienste- und Cloudangebote hinweg. Vertreter von Microsoft-Geschäftsbereichen, z. B. Microsoft 365, koordinieren sich mit dem EBCM-Team, um Geschäftskontinuitätspläne zu entwickeln und die Einhaltung der Geschäftskontinuitätsanforderungen zu überprüfen.
 
 Der Kern unserer BCM-Methodik (Business Continuity Management) ist der BCM-Lebenszyklus. Dieser dreistufige Prozess ist so konzipiert, dass er anpassungsfähig ist, sodass er von einer Vielzahl von Geschäftsprozessen in Microsoft implementiert werden kann. Es beginnt mit einer **Bewertungsphase,** um kritische Prozesse und Ziele zu identifizieren, die in das Geschäftskontinuitätsprogramm einbezogen werden sollten. Die Bewertungsphase erfordert auch eine Geschäftsauswirkungsanalyse (Business Impact Analysis, BIA). In der Phase **Planung** liegt der Schwerpunkt auf der Entwicklung und Umsetzung von Resilienz- und Wiederherstellungsstrategien sowie deren Dokumentation in offiziellen Geschäftskontinuitätsplänen. Schließlich testet **die Funktionsüberprüfung** Geschäftskontinuitätspläne und deren Implementierungen, um die Effektivität zu überprüfen und potenzielle Verbesserungen zu identifizieren.
 
@@ -46,13 +47,13 @@ Gemäß den EBCM-Richtlinien müssen jährliche Überprüfungen von Geschäftsko
 
 ## <a name="how-does-microsoft-365-ensure-system-capacity-meets-demand"></a>Wie stellt Microsoft 365 sicher, dass die Systemkapazität die Anforderungen erfüllt?
 
-Die Kapazitätsplanung hilft den Serviceteams bei der Zuweisung der Ressourcen, die zur Unterstützung der Verfügbarkeit von Microsoft 365-Diensten erforderlich sind. Eine regelmäßige Kapazitätsplanung ist im Rahmen des EBCM-Programms von Microsoft erforderlich. Serviceteams überprüfen die Kapazitätsdaten während der vierteljährlichen Überprüfungen sowie in Notsituationen, in denen eine zusätzliche Kapazitätsprüfung erforderlich wird.
+Die Kapazitätsplanung hilft den Serviceteams bei der Zuweisung der Ressourcen, die zur Unterstützung der Verfügbarkeit von Microsoft 365-Diensten erforderlich sind. Im Rahmen des EBCM-Programms von Microsoft ist eine regelmäßige Kapazitätsplanung erforderlich. Serviceteams überprüfen die Kapazitätsdaten während der vierteljährlichen Überprüfungen sowie in Notsituationen, in denen eine zusätzliche Kapazitätsprüfung erforderlich wird.
 
-Die Rohdaten für die Kapazitätsplanung werden von jedem Serviceteam verwaltet und umfassen Metriken wie Systemverarbeitung, Arbeitsspeicher und Hardwarekapazität. Geplante Überprüfungen verwenden ein Modell der aktuellen Kapazität des Systems und testen es anhand der projizierten Anforderungen in Notsituationen. Wenn das Modell Kapazitätsengpässe anzeigt, werden der Leitung des Serviceteams Änderungsvorschläge zur Prüfung unterbreitet. Genehmigte Änderungen werden in ein neues Modell integriert, bevor es von Serviceteamtechnikern implementiert wird.
+Die Rohdaten für die Kapazitätsplanung werden von jedem Serviceteam verwaltet und umfassen Metriken wie Systemverarbeitung, Arbeitsspeicher und Hardwarekapazität. Geplante Überprüfungen verwenden ein Modell der aktuellen Kapazität des Systems und testen es gegen den prognostizierten Bedarf in Notfallsituationen. Wenn das Modell Kapazitätsengpässe anzeigt, werden der Leitung des Serviceteams Änderungsvorschläge zur Prüfung unterbreitet. Genehmigte Änderungen werden in ein neues Modell integriert, bevor es von Serviceteamtechnikern implementiert wird.
 
-## <a name="how-does-microsoft-365-maintain-service-availability-during-routine-system-failures"></a>Wie verwaltet Microsoft 365 die Dienstverfügbarkeit während routinemäßiger Systemfehler?
+## <a name="how-does-microsoft-365-maintain-service-availability-during-routine-system-failures"></a>Wie verwaltet Microsoft 365 die Dienstverfügbarkeit bei routinemäßigen Systemfehlern?
 
-Microsoft 365 erreicht dienstresilienz durch redundante Architektur, Datenreplikation und automatisierte Integritätsprüfung. Redundante Architektur umfasst die Bereitstellung mehrerer Instanzen eines Diensts auf geografisch und physisch getrennter Hardware, wodurch die Fehlertoleranz für Microsoft 365 Dienste erhöht wird. Die Datenreplikation stellt sicher, dass es immer mehrere Kopien von Kundendaten in verschiedenen Fehlerzonen gibt, sodass kritische Kundendaten wiederhergestellt werden können, wenn sie beschädigt sind, verloren gehen oder sogar versehentlich vom Kunden gelöscht werden. Die automatisierte Integritätsprüfung erhöht die Datenverfügbarkeit, indem Daten, die von vielen Physischen oder logischen Beschädigungen betroffen sind, automatisch wiederhergestellt werden.
+Microsoft 365 die Dienstresilienz durch redundante Architektur, Datenreplikation und automatisierte Integritätsprüfung erreicht. Redundant architecture involves deploying multiple instances of a service on geoly and physically separate hardware, providing increased fault-tolerance for Microsoft 365 services. Die Datenreplikation stellt sicher, dass es immer mehrere Kopien von Kundendaten in verschiedenen Fehlerzonen gibt, sodass kritische Kundendaten wiederhergestellt werden können, wenn sie beschädigt sind, verloren gehen oder sogar versehentlich vom Kunden gelöscht werden. Die automatisierte Integritätsprüfung erhöht die Datenverfügbarkeit, indem Daten, die von vielen Physischen oder logischen Beschädigungen betroffen sind, automatisch wiederhergestellt werden.
 
 ## <a name="related-external-regulations--certifications"></a>Verwandte externe Vorschriften & Zertifizierungen
 

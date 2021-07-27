@@ -14,17 +14,18 @@ localization_priority: Normal
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
+- MS-Compliance
 search.appverid:
 - MET150
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 42cc3db2ce0e072cb42ee4694757896958cd5e5c
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 0af79e7834006940f46643dae678c1a8ca77fad2
+ms.sourcegitcommit: 07578a8e03b931f47c49f4e34b78cf8ba0605e8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53087664"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53573783"
 ---
 # <a name="privacy-overview"></a>Datenschutz (Übersicht)
 
@@ -34,7 +35,7 @@ Die Grundlage des [Microsoft-Datenschutzansatzes](https://privacy.microsoft.com/
 
 ## <a name="how-does-microsoft-implement-its-privacy-commitments"></a>Wie implementiert Microsoft seine Datenschutzverpflichtungen?
 
-Microsoft hält die Microsoft-Datenschutzrichtlinien und den Microsoft-Datenschutzstandard aufrecht, um sicherzustellen, dass wir unsere Datenschutzverpflichtungen im gesamten Unternehmen erfüllen. Zur Unterstützung dieser Verpflichtungen unterhält das Microsoft Customer Data Governance Board (CDBG) eine Taxonomie und ein Framework, um eine angemessene Kategorisierung von Daten sicherzustellen und Sicherheits- und Datenschutzanforderungen für jede Datenkategorisierung festzulegen. Die zugehörigen Datenverarbeitungsstandards bieten Anleitungen zum Verwalten der einzelnen Datenklassifizierungstypen innerhalb bestimmter Aktivitäten oder Szenarien, einschließlich der Anforderungen zur Erfüllung der in der OST/DPA und anderen Standards und Vorschriften beschriebenen Verpflichtungen.
+Microsoft hält die Microsoft-Datenschutzrichtlinien und den Microsoft-Datenschutzstandard aufrecht, um sicherzustellen, dass wir unsere Datenschutzverpflichtungen im gesamten Unternehmen erfüllen. Zur Unterstützung dieser Verpflichtungen verwaltet das Microsoft Customer Data Governance Board (CDBG) eine Taxonomie und ein Framework, um eine angemessene Kategorisierung von Daten sicherzustellen und Sicherheits- und Datenschutzanforderungen für jede Datenkategorisierung festzulegen. Die zugehörigen Datenverarbeitungsstandards bieten Anleitungen zum Verwalten der einzelnen Datenklassifizierungstypen innerhalb bestimmter Aktivitäten oder Szenarien, einschließlich der Anforderungen zur Erfüllung der in der OST/DPA und anderen Standards und Vorschriften beschriebenen Verpflichtungen.
 
 ## <a name="how-does-microsoft-collect-and-process-customer-data"></a>Wie sammelt und verarbeitet Microsoft Kundendaten?
 

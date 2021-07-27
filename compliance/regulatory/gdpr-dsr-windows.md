@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 hideEdit: true
-ms.openlocfilehash: b79d856591566aa1e13633377600c605429ee68e
-ms.sourcegitcommit: 8bf2602d56eedee4447ddb374ef95b0587f254e7
+ms.openlocfilehash: 8715ef1ee8133fe950e3ff42b0c53b49f916a018
+ms.sourcegitcommit: 07578a8e03b931f47c49f4e34b78cf8ba0605e8f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53377962"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53573843"
 ---
 # <a name="windows-diagnostic-data-processor-configuration-data-subject-requests-for-the-gdpr-and-ccpa"></a>Anträge betroffener Personen zur Konfiguration zur Verarbeitung von Windows-Diagnosedaten im Rahmen der DSGVO und des CCPA
 
@@ -104,3 +104,6 @@ Microsoft bietet zudem die Möglichkeit, Windows-Diagnosedaten direkt über eine
 ## <a name="notify-us-about-exporting-or-deleting-issues"></a>Benachrichtigen Sie uns über Probleme beim Exportieren oder Löschen
 
 Wenn beim Exportieren oder Löschen von Windows-Diagnosedaten aus dem Azure-Portal Probleme auftreten, wechseln Sie zum Azure-Portalblatt **Hilfe und Support**, und übermitteln Sie ein neues Ticket unter **Abonnementverwaltung > Datenschutz- und Complianceanforderungen für Abonnements > Blatt "Datenschutz" und DSGVO-Anforderungen**.
+
+>[!NOTE]
+>Es kann bis zu 5 Tage dauern, um eine Exportanforderung für Windows-Diagnosedaten abzuschließen. Wenn Sie Probleme haben, warten Sie bitte mindestens 7 Tage, bevor Sie ein Supportticket öffnen.

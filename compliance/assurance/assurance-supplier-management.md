@@ -14,27 +14,28 @@ localization_priority: Normal
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
+- MS-Compliance
 search.appverid:
 - MET150
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: c22b996ab7abac17a5aa93d0d5b03911a0b521de
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 7d645db077972678674a2f7999a271766e940130
+ms.sourcegitcommit: 07578a8e03b931f47c49f4e34b78cf8ba0605e8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53089498"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53573683"
 ---
 # <a name="supplier-management-overview"></a>Lieferantenmanagement (Übersicht)
 
 ## <a name="how-does-microsoft-manage-risk-related-to-suppliers"></a>Wie verwaltet Microsoft Risiken im Zusammenhang mit Lieferanten?
 
-Microsoft arbeitet mit Drittanbietern zusammen, um die Anforderungen unserer Kunden zu erfüllen. Diese Drittanbieter werden als Lieferanten oder Unterauftragsverarbeiter bezeichnet. Sicherheit und Datenschutz von Lieferanten bei Microsoft unterliegen unserem [Supplier Security and Privacy Assurance (SSPA)-Programm,](https://www.microsoft.com/procurement/sspa?activetab=pivot1%3aprimaryr6)einem unternehmensweiten Satz von Anforderungen für alle Lieferanten, die mit Microsoft zusammenarbeiten, um unsere Onlinedienste bereitzustellen. Während das SSPA-Programm eine umfassende Steuerung und Verwaltung unserer Lieferantenbasis bietet, können einzelne Geschäftseinheiten wie Microsoft 365 zusätzliche Anforderungen für ihre Lieferanten beibehalten.
+Microsoft arbeitet mit Drittanbietern zusammen, um die Anforderungen unserer Kunden zu erfüllen. Diese Drittanbieter werden als Lieferanten oder Unterauftragsverarbeiter bezeichnet. Sicherheit und Datenschutz von Lieferanten bei Microsoft unterliegen unserem [Supplier Security and Privacy Assurance (SSPA)-Programm,](https://www.microsoft.com/procurement/sspa?activetab=pivot1%3aprimaryr6)einem unternehmensweiten Satz von Anforderungen für alle Lieferanten, die mit Microsoft zusammenarbeiten, um unsere Onlinedienste bereitzustellen. Während das SSPA-Programm eine umfassende Governance und Verwaltung unserer Lieferantenbasis bietet, können einzelne Geschäftseinheiten wie Microsoft 365 zusätzliche Anforderungen für ihre Lieferanten beibehalten.
 
 ## <a name="how-does-microsofts-supplier-security-and-privacy-assurance-sspa-program-protect-customer-data"></a>Wie schützt das SSPA-Programm (Supplier Security and Privacy Assurance) von Microsoft Kundendaten?
 
-SSPA ist eine Partnerschaft zwischen Microsoft Beschaffung, externer und rechtlicher Verantwortung von Unternehmen und Unternehmenssicherheit, um sicherzustellen, dass Lieferanten die Datenschutz- und Sicherheitsprinzipien von Microsoft einhalten. Der Umfang des SSPA gilt für alle Lieferanten, die personenbezogene Daten oder vertrauliche Microsoft-Daten verarbeiten. Die Registrierung des SSPA-Programms umfasst die Einhaltung der Datenschutzanforderungen (Data Protection Requirements, DPR) von Microsoft. Die DpR besteht aus Sicherheits- und Datenschutzkontrollen, die Lieferanten implementieren müssen, bevor sie mit der Vertragsarbeit mit Microsoft beginnen. Alle registrierten Lieferanten bestätigen jährlich die Einhaltung der DPR.
+SSPA ist eine Partnerschaft zwischen Microsoft Beschaffung, externer und rechtlicher Fragen von Unternehmen und Unternehmenssicherheit, um sicherzustellen, dass Lieferanten die Datenschutz- und Sicherheitsprinzipien von Microsoft einhalten. Der Umfang des SSPA gilt für alle Lieferanten, die personenbezogene Daten oder vertrauliche Microsoft-Daten verarbeiten. Die Registrierung des SSPA-Programms umfasst die Einhaltung der Datenschutzanforderungen (Data Protection Requirements, DPR) von Microsoft. Die DpR besteht aus Sicherheits- und Datenschutzkontrollen, die Lieferanten implementieren müssen, bevor sie mit der Vertragsarbeit mit Microsoft beginnen. Alle registrierten Lieferanten bestätigen jährlich die Einhaltung der DPR.
 
 Die DPR-Anforderungen basieren auf sechs unterschiedlichen Datenverarbeitungskategorien, für die ein Lieferant im Rahmen seiner Registrierung bei SSPA genehmigt werden kann. Diese Kategorien werden verwendet, um das Risiko im Zusammenhang mit den Diensten zu identifizieren, die ein Lieferant für Microsoft bereitstellt. Das Datenverarbeitungsprofil des Lieferanten bestimmt, welche DPR-Kontrollen als im Umfang berücksichtigt werden, um einen geeigneten Datenschutz zu gewährleisten. Lieferanten, die Daten verarbeiten, die als ein höheres Risiko betrachtet werden, müssen alle DPR-Anforderungen erfüllen und müssen möglicherweise auch eine unabhängige Überprüfung der Compliance bereitstellen. Microsoft-Einkaufstools überprüfen den SSPA-Status aller Lieferanten, einschließlich der Einhaltung der geltenden Teile der DPR, bevor die Beschaffung dieses Lieferanten zugelassen wird.
 

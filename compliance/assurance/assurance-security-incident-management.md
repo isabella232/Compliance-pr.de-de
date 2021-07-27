@@ -16,15 +16,15 @@ f1.keywords:
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
-- MS-Compliance0
+- MS-Compliance
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: a2c2a472d911034952814da51db133acc5744288
-ms.sourcegitcommit: 8bf2602d56eedee4447ddb374ef95b0587f254e7
+ms.openlocfilehash: d52832d34034966eb9373925be2d3f5b31cfad5a
+ms.sourcegitcommit: 07578a8e03b931f47c49f4e34b78cf8ba0605e8f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53377502"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53573723"
 ---
 # <a name="microsoft-security-incident-management"></a>Microsoft-Sicherheitsvorfallverwaltung
 
@@ -45,7 +45,7 @@ Der Ansatz von Microsoft zur Verwaltung eines Sicherheitsvorfalls entspricht dem
 |:------------|:--------------|
 | Microsoft Security Response Center | Identifiziert, überwacht, löst und reagiert auf Sicherheitsvorfälle und Microsoft-Softwaresicherheitsrisiken. |
 | Cyber Defense Operations Center | Das Cyber Defense Operations Center ist der physische Standort, der Sicherheitsteams und Experten aus dem gesamten Unternehmen zusammenführt, um Bedrohungen in Echtzeit zu schützen, zu erkennen und darauf zu reagieren. |
-| Unternehmens-, Außen- und Rechtsbeziehungen | Bietet rechtliche und behördliche Hinweise für einen verdächtigen Sicherheitsvorfall. |
+| Unternehmens-, Externe und Rechtsbeziehungen | Bietet rechtliche und behördliche Hinweise für einen verdächtigen Sicherheitsvorfall. |
 | Microsoft Datacenter Security Team | Team, das sich auf die verschiedenen Dienste konzentriert und sich auf allgemeine Sicherheits-Engineering-Investitionen konzentriert, um Risiken und Bedrohungen der Dienstarchitektur zu schützen, zu erkennen und darauf zu reagieren. |
 | Microsoft Security Response Teams | Unabhängige Azure, Dynamics 365 und Microsoft 365 Sicherheitsteams, die mit Serviceteams zusammenarbeiten, um den entsprechenden Prozess zur Verwaltung von Sicherheitsvorfällen zu erstellen und die Reaktion auf Sicherheitsvorfälle zu fördern. |
 | Microsoft Governance-, Risiko- und Compliance-Teams (GRC) | Bereitstellen von Anleitungen zu gesetzlichen Anforderungen, Compliance und Datenschutz. |
