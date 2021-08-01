@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 0af79e7834006940f46643dae678c1a8ca77fad2
-ms.sourcegitcommit: 07578a8e03b931f47c49f4e34b78cf8ba0605e8f
+ms.openlocfilehash: ee0645b13594585df5d940732fa420f2ccd4473b
+ms.sourcegitcommit: 0ffa79db0bbb35258496c7702285ed9d473b4ad9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53573783"
+ms.lasthandoff: 07/31/2021
+ms.locfileid: "53678240"
 ---
 # <a name="privacy-overview"></a>Datenschutz (Übersicht)
 
@@ -35,7 +35,7 @@ Die Grundlage des [Microsoft-Datenschutzansatzes](https://privacy.microsoft.com/
 
 ## <a name="how-does-microsoft-implement-its-privacy-commitments"></a>Wie implementiert Microsoft seine Datenschutzverpflichtungen?
 
-Microsoft hält die Microsoft-Datenschutzrichtlinien und den Microsoft-Datenschutzstandard aufrecht, um sicherzustellen, dass wir unsere Datenschutzverpflichtungen im gesamten Unternehmen erfüllen. Zur Unterstützung dieser Verpflichtungen verwaltet das Microsoft Customer Data Governance Board (CDBG) eine Taxonomie und ein Framework, um eine angemessene Kategorisierung von Daten sicherzustellen und Sicherheits- und Datenschutzanforderungen für jede Datenkategorisierung festzulegen. Die zugehörigen Datenverarbeitungsstandards bieten Anleitungen zum Verwalten der einzelnen Datenklassifizierungstypen innerhalb bestimmter Aktivitäten oder Szenarien, einschließlich der Anforderungen zur Erfüllung der in der OST/DPA und anderen Standards und Vorschriften beschriebenen Verpflichtungen.
+Microsoft hält die Microsoft-Datenschutzrichtlinien und den Microsoft-Datenschutzstandard aufrecht, um sicherzustellen, dass wir unsere Datenschutzverpflichtungen im gesamten Unternehmen erfüllen. Zur Unterstützung dieser Verpflichtungen unterhält das Microsoft Customer Data Governance Board (CDBG) eine Taxonomie und ein Framework, um eine angemessene Kategorisierung von Daten sicherzustellen und Sicherheits- und Datenschutzanforderungen für jede Datenkategorisierung festzulegen. Die zugehörigen Datenverarbeitungsstandards bieten Anleitungen zum Verwalten der einzelnen Datenklassifizierungstypen innerhalb bestimmter Aktivitäten oder Szenarien, einschließlich der Anforderungen zur Erfüllung der in der OST/DPA und anderen Standards und Vorschriften beschriebenen Verpflichtungen.
 
 ## <a name="how-does-microsoft-collect-and-process-customer-data"></a>Wie sammelt und verarbeitet Microsoft Kundendaten?
 
@@ -49,18 +49,28 @@ Die Freigabe von Drittanbietern ist die Freigabe oder Weitergabe von Daten an Dr
 
 ## <a name="how-does-microsoft-delete-customer-data-when-a-customer-leaves-the-service"></a>Wie löscht Microsoft Kundendaten, wenn ein Kunde den Dienst verlässt?
 
-Der Microsoft Data Handling Standard gibt an, wie lange Kundendaten nach der Löschung aufbewahrt werden. Wenn ein Kunde sein Abonnement beendet, bewahrt Microsoft die Kundendaten 90 Tage lang in einem Konto mit eingeschränkten Funktionen auf, damit der Kunde seine Daten extrahieren kann. Nach Beendigung des 90-tägigen Aufbewahrungszeitraums löscht Microsoft Kundendaten – außer wenn es zur Aufbewahrung berechtigt wurde oder dazu gesetzlich verpflichtet ist. Spätestens 180 Tage nach Ablauf oder Kündigung eines Microsoft 365-Abonnements deaktiviert Microsoft das-Konto und löscht alle Kundendaten daraus. Sobald der maximale Aufbewahrungszeitraum für Daten abgelaufen ist, werden die Daten kommerziell nicht mehr wiederhergestellt.
+Der Microsoft Data Handling Standard gibt an, wie lange Kundendaten nach der Löschung aufbewahrt werden. Wenn ein Kunde sein Abonnement beendet, bewahrt Microsoft die Kundendaten 90 Tage lang in einem Konto mit eingeschränkten Funktionen auf, damit der Kunde seine Daten extrahieren kann. Nach Beendigung des 90-tägigen Aufbewahrungszeitraums löscht Microsoft Kundendaten – außer wenn es zur Aufbewahrung berechtigt wurde oder dazu gesetzlich verpflichtet ist. Microsoft deaktiviert das Konto nicht länger als 180 Tage nach Ablauf oder Beendigung eines Abonnements für Microsoft-Onlinedienste und löscht alle Kundendaten aus dem Konto. Sobald der maximale Aufbewahrungszeitraum für Daten abgelaufen ist, werden die Daten kommerziell nicht mehr wiederhergestellt.
 
-Microsoft löscht auch alle vom Dienst generierten und Diagnosedaten als Teil des Standardmäßigen Microsoft-Datenlebenszyklus, es sei denn, die Daten sind erforderlich, um die Sicherheit und Stabilität des Diensts aufrechtzuerhalten. Für jedes Abonnement kann ein Abonnent den Microsoft-Support kontaktieren und eine beschleunigte Deaktivierung anfordern. Wenn ein Kunde diesen Prozess nutzt, werden alle Benutzerdaten drei Tage nach der Eingabe des von Microsoft bereitgestellten Sperrcodes durch den Administrator gelöscht. Diese Löschung umfasst Daten in SharePoint Online und Exchange Online in inaktiven Postfächern aufbewahrt oder gespeichert.
+Microsoft löscht auch alle vom Dienst generierten und Diagnosedaten als Teil des Standardmäßigen Microsoft-Datenlebenszyklus, es sei denn, die Daten sind erforderlich, um die Sicherheit und Stabilität des Diensts aufrechtzuerhalten. Für jedes Abonnement kann ein Abonnent den Microsoft-Support kontaktieren und eine beschleunigte Deaktivierung anfordern. Wenn ein Kunde diesen Prozess verwendet, werden alle Benutzerdaten drei Tage nach Eingabe des von Microsoft bereitgestellten Sperrcodes durch den Administrator gelöscht. Diese Löschung umfasst Daten in SharePoint Online und Exchange Online in inaktiven Postfächern aufbewahrt oder gespeichert.
 
 ## <a name="related-external-regulations--certifications"></a>Verwandte externe Vorschriften & Zertifizierungen
 
 Die Onlinedienste von Microsoft werden regelmäßig auf die Einhaltung externer Vorschriften und Zertifizierungen überprüft. In der folgenden Tabelle finden Sie Informationen zur Überprüfung von Steuerelementen im Zusammenhang mit dem Datenschutz.
 
+### <a name="azure-and-dynamics-365"></a>Azure und Dynamics 365
+
 | **Externe Überwachungen** | **Section** | **Aktuelles Berichtsdatum** |
 |:--------------------|:------------|:-----------------------|  
-| [ISO 27018 (Office 365)](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=8d625374-4f2d-49f8-9d37-a4281ba98222&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [Erklärung zur Anwendbarkeit](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br> [Zertifizierung](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=43e89534-f48d-42ea-a7a7-3523ff516036&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A-2.1: Zweck des Verarbeiters von personenbezogenen Informationen in der öffentlichen Cloud | 20. April 2021 |
-| [SOC 2 (Office 365)](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=a73c1738-7892-42b7-acd3-87b6371c53f6&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-12: Vereinbarungen zum Servicelevel (SERVICE Level Agreements, SLAs) <br> CA-17: Microsoft-Sicherheitsrichtlinie <br> CA-25: Control Framework-Updates | 24. Dezember 2020 |
+| [ISO 27018](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=e9116047-f327-430c-a83f-166b7e561ad6&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [Erklärung zur Anwendbarkeit](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=00af6c3e-7f3e-4e0d-8b0e-79f45ef2cef1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br> [Zertifizierung](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=56904fc3-0942-4ff5-9eef-7cabc751a25c&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A-2.1: Zweck des Verarbeiters von personenbezogenen Informationen in der öffentlichen Cloud | 2. Dezember 2020 |
+| [SOC 1](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=b8721ebd-af20-42fe-b22f-8332b0a19517&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | DS-15: Kündigung/Ablauf des Kundenabonnements <br> SDL-1: Security Development Lifecycle (SDL)-Methodik <br> LA-4: Schutz vertraulicher Kundendaten | 21. März 2021 |
+| [SOC 2](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=234a0f57-83c1-4afc-a586-a0e7a59592f7&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) <br> [SOC 3](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=75c8cbf6-e456-473c-a05e-34fea888ec2a&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | DS-15: Kündigung/Ablauf des Kundenabonnements <br> SDL-1: Security Development Lifecycle (SDL)-Methodik <br> LA-4: Schutz vertraulicher Kundendaten <br> SOC2-1: Klassifizierung von Ressourcen <br> SOC2-7: Veröffentlichte Vertraulichkeits- und Sicherheitsverpflichtungen | 31. März 2021 |
+
+### <a name="office-365"></a>Office 365
+
+| **Externe Überwachungen** | **Section** | **Aktuelles Berichtsdatum** |
+|:--------------------|:------------|:-----------------------|  
+| [ISO 27018](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=8d625374-4f2d-49f8-9d37-a4281ba98222&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [Erklärung zur Anwendbarkeit](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A-2.1: Zweck des Verarbeiters von personenbezogenen Informationen in der öffentlichen Cloud | 20. April 2021 |
+| [SOC 2](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=a73c1738-7892-42b7-acd3-87b6371c53f6&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-12: Vereinbarungen zum Servicelevel (SERVICE Level Agreements, SLAs) <br> CA-17: Microsoft-Sicherheitsrichtlinie <br> CA-25: Control Framework-Updates | 24. Dezember 2020 |
 
 ## <a name="resources"></a>Ressourcen
 
