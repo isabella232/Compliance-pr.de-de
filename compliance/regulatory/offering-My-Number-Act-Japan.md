@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 92e67729125916b1ec34f7e305468f7e07489d12
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: 37b5fbaa0ba98bcf79be65a3eeebb0926339164c08bc720daff714476d0f1e2b
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53384465"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293922"
 ---
 # <a name="my-number-act-japan"></a>„My Number“-Gesetz (Japan)
 
@@ -60,7 +60,7 @@ Microsoft Business Cloud Services unterstützt daher die Vorschriften des „My 
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365-Anwendbarkeit und eingeschlossene Dienste
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365-Anwendbarkeit und im Leistungsumfang enthaltene Dienste
 
 Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Dienste und -Abonnements zu bestimmen:
 
@@ -85,7 +85,7 @@ Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Di
 ## <a name="resources"></a>Ressourcen
 
 - [Azure-Compliance und die Sicherheits- und Datenschutzanforderungen Japans](https://gallery.technet.microsoft.com/Azure-Compliance-and-the-53409748)
-- [Datenschutz bei Microsoft](https://privacy.microsoft.com/de-DE/)
+- [Datenschutz bei Microsoft](https://privacy.microsoft.com/en-US/)
 - [Microsoft-Datenschutzbestimmungen](https://privacy.microsoft.com/privacystatement)
 - [Berücksichtigung des Datenschutzes in der Cloud](https://download.microsoft.com/download/0/9/D/09DE47F6-F9E5-4C14-B9E8-E8119A130ACC/Privacy_considerations_in_the_cloud.pdf)
 - [Compliance im Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)

@@ -22,18 +22,18 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 0ac1cdfb315c872e78872d144fa24d28500be096
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: f9cd84fed225764b61049aefc3ec95b2eb75fce845b2b9ef752fc194d949c409
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53088654"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292442"
 ---
 # <a name="datacenter-security-overview"></a>Sicherheit von Rechenzentren (Übersicht)
 
 ## <a name="how-does-microsoft-host-its-online-services"></a>Wie hoste Microsoft seine Onlinedienste?
 
-Microsoft bietet mehr als 200 Clouddienste, einschließlich Enterprise-Dienste wie Microsoft Azure, Microsoft 365 und Microsoft Dynamics 365, an Kunden mit einer 24 x 7 x 365.000.000.000. Diese Dienste werden in der Cloudinfrastruktur von Microsoft gehostet, die aus global verteilten Rechenzentren, Edgecomputingknoten und Service Operations Centern besteht. Sie werden von einem der weltweit größten globalen Netzwerke mit einem umfangreichen Fibre Footprint unterstützt und verbunden.
+Microsoft bietet mehr als 200 Clouddienste, einschließlich Enterprise-Dienste wie Microsoft Azure, Microsoft 365 und Microsoft Dynamics 365, an Kunden mit einer 24 x 7 x 365.000. Diese Dienste werden in der Cloudinfrastruktur von Microsoft gehostet, die aus global verteilten Rechenzentren, Edgecomputingknoten und Service Operations Centern besteht. Sie werden von einem der weltweit größten globalen Netzwerke mit einem umfangreichen Fibre Footprint unterstützt und verbunden.
 
 Der Fokus der Rechenzentren, die unsere Cloudangebote unterstützen, liegt auf hoher Zuverlässigkeit, erstklassigen Betriebsprozessen, Kosteneffektivität, Umweltfreundlichkeit und einer vertrauenswürdigen Online-Benutzeroberfläche für Kunden und Partner weltweit. Microsoft testet die Sicherheit der Rechenzentren regelmäßig durch interne Audits und Drittanbieter-Audits. Deshalb vertrauen die am stärksten regulierten Organisationen der Welt der Microsoft-Cloud, die mit mehr Zertifizierungen kompatibel ist als jeder andere Clouddienst.
 
@@ -51,7 +51,7 @@ Katastrophen sind nicht vorhersehbar, aber die Rechenzentren und das Betriebsper
 
 ## <a name="how-does-microsoft-verify-the-effectiveness-of-datacenter-security"></a>Wie überprüft Microsoft die Effektivität der Sicherheit von Rechenzentren?
 
-Wir wissen, dass unsere Kunden die Vorteile der Cloud nur dann in vollem Umfang nutzen können, wenn sie ihrem Cloud-Dienstanbieter vertrauen können. Unsere Infrastruktur und breite Palette an Clouddiensten wurde von Grund auf so entwickelt, dass sie die höchsten Anforderungen unserer Kunden im Hinblick auf Sicherheit und Datenschutz erfüllt. Wir helfen unseren Kunden bei der Einhaltung der nationalen, regionalen und branchenspezifischen Anforderungen für die Erfassung und Verwendung von Personendaten, indem wir die umfassendsten Complianceangebote jedes Clouddienstanbieters bereitstellen.
+Wir wissen, dass unsere Kunden die Vorteile der Cloud nur dann in vollem Umfang nutzen können, wenn sie ihrem Cloud-Dienstanbieter vertrauen können. Unsere Infrastruktur und breite Palette an Clouddiensten wurde von Grund auf so entwickelt, dass sie die höchsten Anforderungen unserer Kunden im Hinblick auf Sicherheit und Datenschutz erfüllt. Wir unterstützen unsere Kunden bei der Einhaltung nationaler, regionaler und branchenspezifischer Anforderungen an die Erfassung und Verwendung von personenbezogenen Daten, indem wir das umfassendste Compliance-Angebot aller Cloud-Dienstanbieter bereitstellen..
 
 Unsere Cloudinfrastruktur und Angebote erfüllen eine breite Palette internationaler und branchenspezifischer Compliance-Standards, z. B. SO, HIPAA, FedRAMP und SOC, sowie landesspezifische Standards wie IRAP (Australien), G-Cloud (Großbritannien) und MTCS (Singapur). Strenge Überwachungen von Drittanbietern überprüfen unsere Einhaltung der strengen Sicherheitskontrollen, die diese Standards erfordern. Überwachungsberichte für unsere Rechenzentrumsinfrastruktur und Cloudangebote sind im [Microsoft Service Trust Portal](https://servicetrust.microsoft.com/)verfügbar.
 

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: ee0645b13594585df5d940732fa420f2ccd4473b
-ms.sourcegitcommit: 0ffa79db0bbb35258496c7702285ed9d473b4ad9
+ms.openlocfilehash: 910c1ddf0ba1f52a7862457387a923753199ae7913b07dfa4e03de8a7b361868
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/31/2021
-ms.locfileid: "53678240"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292294"
 ---
 # <a name="privacy-overview"></a>Datenschutz (Übersicht)
 
@@ -45,7 +45,7 @@ Microsoft beschränkt die Erfassung von Kundendaten auf vier spezifische [Datenk
 
 ## <a name="how-does-microsoft-handle-third-party-sharing"></a>Wie behandelt Microsoft die Freigabe von Drittanbietern?
 
-Die Freigabe von Drittanbietern ist die Freigabe oder Weitergabe von Daten an Drittanbieter. Microsoft gibt Daten nur frei, wenn sie vom Kunden autorisiert wurden oder nach geltendem Recht dazu verpflichtet sind. Microsoft gewährt keiner Regierung (einschließlich Strafverfolgungs- oder anderer Regierungsbehörden) direkten oder ungehinderten Zugriff auf Kundendaten. Microsoft [hält sich an die internationalen Datenschutzgesetze](https://www.microsoft.com/trust-center/privacy/data-location) hinsichtlich der übertragung von Kundendaten über Grenzen hinweg.
+Die Freigabe von Drittanbietern ist die Freigabe oder Weitergabe von Daten an Drittanbieter. Microsoft gibt Daten nur frei, wenn sie vom Kunden autorisiert wurden oder nach geltendem Recht dazu verpflichtet sind. Microsoft gewährt keiner Behörde (einschließlich Strafverfolgungs- oder anderer Regierungsbehörden) direkten oder ungehinderten Zugriff auf Kundendaten. Microsoft [hält sich an die internationalen Datenschutzgesetze](https://www.microsoft.com/trust-center/privacy/data-location) hinsichtlich der übertragung von Kundendaten über Grenzen hinweg.
 
 ## <a name="how-does-microsoft-delete-customer-data-when-a-customer-leaves-the-service"></a>Wie löscht Microsoft Kundendaten, wenn ein Kunde den Dienst verlässt?
 

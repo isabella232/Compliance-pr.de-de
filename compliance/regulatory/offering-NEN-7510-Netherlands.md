@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 79dc7fc209b85048189016a9bed8f5ca45b99bdb
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: 68f238785dbe3eb0146c3d95982a7e95eefab74a0b042f49fa66dff066227be0
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53384455"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293887"
 ---
 # <a name="nen-7510"></a>NEN 7510
 
@@ -47,7 +47,7 @@ So können Sie Ihre NEN 7510-Implementierung mithilfe der Azure Security and Com
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365-Anwendbarkeit und eingeschlossene Dienste
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365-Anwendbarkeit und im Leistungsumfang enthaltene Dienste
 
 Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Dienste und -Abonnements zu bestimmen:
 

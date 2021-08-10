@@ -19,12 +19,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 965c7d6d0d469b9eea981252805bda598c92a4c8
-ms.sourcegitcommit: 8bf2602d56eedee4447ddb374ef95b0587f254e7
+ms.openlocfilehash: 5962a910a65744bae70277d10867c3046310cdf1ead4f99ef285e40c72dc8ce6
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53377532"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291853"
 ---
 # <a name="microsoft-security-incident-management-post-incident-activity"></a>Microsoft-Sicherheitsvorfallverwaltung: Aktivitäten nach dem Vorfall
 
@@ -34,13 +34,13 @@ Einige Sicherheitsvorfälle, insbesondere solche, die auswirkungen auf den Kunde
 
 - Dokumentieren Sie die Abfolge der Ereignisse, die den Vorfall verursacht haben.
 - Erstellen Sie eine technische Zusammenfassung des Vorfalls, die durch die Nachweise unterstützt wird, die die an der Verletzung beteiligten Akteure (sofern bekannt) umfassen. Diese Zusammenfassung enthält die Ausführung der Antwort und andere Wichtigeinkäufe.
-- Identifizieren von technischen Fehlern, Verfahrensfehlern, manuellen Fehlern, Prozessfehlern und Kommunikationsfehlern und/oder zuvor unbekannten Angriffsvektoren, die während der Reaktion auf Sicherheitsvorfälle identifiziert wurden.
+- Identifizieren Von technischen Fehlern, Verfahrensfehlern, manuellen Fehlern, Prozessfehlern und Kommunikationsfehlern und/oder zuvor unbekannten Angriffsvektoren, die während der Reaktion auf Sicherheitsvorfälle identifiziert wurden.
 
 Das Postmortem wirkt sich direkt auf die Verbesserung des Microsoft-Onlinediensts, die betrieblichen Prozesse und die Dokumentation aus, indem neue Prioritäten im Entwicklungszyklus der Microsoft-Onlinedienste festgelegt werden.
 
 ## <a name="documentation"></a>Dokumentation
 
-Alle wichtigen technischen Ergebnisse im postirtischen Prozess werden in einem Bericht erfasst, in dem Investitionen in Dienste oder Korrekturen in Form von Fehlern oder Entwicklungsänderungsanforderungen vorgenommen werden. Diese Ergebnisse werden mit den entsprechenden Entwicklungsteams nachverfolgt. Bei Prozessfehlern und organisationsübergreifenden Problemen werden Probleme in der Datenbank des Sicherheitsreaktionsteams dokumentiert und mit den entsprechenden Gruppen verfolgt, um sie zu beheben.
+Alle wichtigen technischen Ergebnisse im Posturtemprozess werden in einem Bericht erfasst, in dem Investitionen in Dienste oder Korrekturen in Form von Fehlern oder Entwicklungsänderungsanforderungen vorgenommen werden. Diese Ergebnisse werden mit den entsprechenden Entwicklungsteams nachverfolgt. Bei Prozessfehlern und organisationsübergreifenden Problemen werden Probleme in der Datenbank des Sicherheitsreaktionsteams dokumentiert und mit den entsprechenden Gruppen verfolgt, um sie zu beheben.
 
 ## <a name="process-improvement"></a>Prozessverbesserung
 

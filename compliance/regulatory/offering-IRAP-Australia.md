@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 8fb98bfab57008cdee3c2fbb049c7f34af361c37
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: a9f621e31b2ea7c0becd528915e1377fcaa33c68940235a6b195139a61c824c0
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53384825"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293862"
 ---
 # <a name="australian-government-information-security-registered-assessor-program-irap"></a>Australian Government Information Security Registered Assessor Program (IRAP)
 
@@ -31,7 +31,7 @@ Das IRAP (Information Security Registered Assessor Program) bietet einen umfasse
 
 Das Information Security Registered Assessors Program (IRAP) wird vom Australian Cyber Security Center (ACSC) gesteuert und verwaltet. IRAP bietet den Rahmen, um Einzelpersonen aus dem privaten und öffentlichen Sektor zu unterstützen, um der australischen Regierung Dienste zur Cybersicherheitsbewertung bereitzustellen. Bestätigte IRAP-Prüfer können eine unabhängige Bewertung der ICT-Sicherheit bereitstellen, Risikominderungen vorschlagen und Restrisiken hervorheben. IRAP bietet einen umfassenden Prozess für die unabhängige Bewertung der Sicherheit eines Systems im Vergleich zu Richtlinien und Richtlinien der australischen Regierung. Das IRAP-Ziel besteht darin, die Sicherheit der Daten der australischen Behörden zu maximieren, indem sie sich auf die Informations- und Kommunikationstechnologieinfrastruktur konzentriert, die diese speichert, verarbeitet und kommuniziert.
 
-- Im Jahr 2014 wurde Azure als erster von IRAP bewerteter Clouddienst in Australien gestartet, der von Rechenzentren in Australia und Sid sid gehostet wurde. Diese beiden Rechenzentren ermöglichen australischen Kunden die Kontrolle darüber, wo ihre Kundendaten gespeichert werden, und bieten gleichzeitig eine verbesserte Datenfreundlichkeit bei Notfalls durch Sicherungen an beiden Standorten.
+- Im Jahr 2014 wurde Azure als erster von IRAP bewerteter Clouddienst in Australien gestartet, der von Rechenzentren in Australia und Sid sid gehostet wurde. Diese beiden Rechenzentren ermöglichen australischen Kunden die Kontrolle darüber, wo ihre Kundendaten gespeichert werden, und bieten gleichzeitig eine verbesserte Datensicherung bei Notfalls durch Sicherungen an beiden Standorten.
 - Anfang 2015 wurde Office 365 der erste Cloudproduktivitätsdienst, der diese Bewertung abgeschlossen hat.
 - Im April 2015 hat die ASD die CCSL-Zertifizierung von Azure und Office 365 sowie im November 2015 von Dynamics 365 angekündigt.
 - Im Juni 2017 hat ASD die erneute Zertifizierung von Microsoft Azure und Office 365 für einen erheblich erweiterten Satz von Diensten angekündigt.
@@ -41,7 +41,7 @@ Das Information Security Registered Assessors Program (IRAP) wird vom Australian
 
 ## <a name="microsoft-and-irap"></a>Microsoft und IRAP
 
-Im Dezember 2020 hat Microsoft zwei inkrementelle Azure & Dynamics- und Office 365-Bewertungen abgeschlossen. Diese Bewertungen haben weitere Dienste hinzugefügt, die auf der Klassifizierungsstufe "GESCHÜTZT" bewertet wurden. Darüber hinaus wurden diese Bewertungen unter dem neuen, post CCSL Cloud Security Guidance durchgeführt, wie in der [Anleitung zur Anatomie einer Cloudbewertung und Autorisierung](https://www.cyber.gov.au/acsc/government/cloud-security-guidance) des ACSC beschrieben.
+Im Dezember 2020 hat Microsoft zwei inkrementelle Azure & Dynamics- und Office 365-Bewertungen abgeschlossen. Diese Bewertungen haben weitere Dienste hinzugefügt, die auf der Klassifizierungsstufe "GESCHÜTZT" bewertet wurden. Darüber hinaus wurden diese Bewertungen im Rahmen der neuen, post CCSL Cloud Security Guidance durchgeführt, wie im [Leitfaden zur Anatomie einer Cloudbewertung und Autorisierung](https://www.cyber.gov.au/acsc/government/cloud-security-guidance) des ACSC beschrieben.
 
 Für jede Bewertung hat Microsoft einen von ACSC akkreditierten IRAP-Prüfer beauftragt, der die vom IT-Betriebsteam von Microsoft verwendeten Sicherheitskontrollen und Prozesse, physische Rechenzentren, Angriffserkennung, Kryptografie, domänenübergreifende und Netzwerksicherheit, Zugriffssteuerung und Informationssicherheits-Risikomanagement von In-Scope-Diensten untersuchte. Die IRAP-Bewertungen haben festgestellt, dass die Microsoft-Systemarchitektur auf soliden Sicherheitsprinzipien basiert und dass die geltenden ISM-Kontrollen (Australian Government Information Security Manual) in unseren bewerteten Diensten eingerichtet und voll wirksam sind.
 
@@ -54,11 +54,11 @@ Das vom ISM verwendete Risikomanagement-Framework basiert auf [der Sonderpublika
 - Autorisieren des Systems
 - Überwachen des Systems
 
-Wie immer können zusätzliche Ausgleichsteuerelemente von einzelnen Behörden auf risikogesteuerter Basis vor der Autorisierung der Agentur und der nachfolgenden Nutzung dieser Clouddienste implementiert werden.
+Wie immer können zusätzliche Ausgleichsteuerelemente von einzelnen Behörden auf risikogesteuerter Basis vor der Autorisierung der Agentur und der nachfolgenden Verwendung dieser Clouddienste implementiert werden.
 
 Die IRAP-Bewertung der Dienste und Cloud-Vorgänge von Microsoft trägt dazu bei, kunden im öffentlichen Sektor und deren Partnern zu gewährleisten, dass Microsoft über geeignete und effektive Sicherheitskontrollen für die Verarbeitung, Speicherung und Übertragung von Daten verfügt, die bis einschließlich des Schutzniveaus klassifiziert wurden. Diese Bewertung umfasst die meisten Daten aus Behörden, Gesundheitswesen und Bildungseinrichtungen in Australien.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft-cloudbasierte Plattformen &-Dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
 
 - Azure
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
@@ -71,15 +71,15 @@ Weitere Informationen zu Azure, Dynamics 365 und anderen Onlinediensten finden S
 
 ## <a name="office-365-and-irap"></a>Office 365 und IRAP
 
-### <a name="office-365-cloud-environments"></a>Office 365 Cloudumgebungen
+### <a name="office-365-cloud-environments"></a>Office 365-Cloudumgebungen
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 Anwendbarkeit und In-Scope-Dienste
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365-Anwendbarkeit und im Leistungsumfang enthaltene Dienste
 
-Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365 Dienste und Abonnements zu ermitteln:
+Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Dienste und -Abonnements zu bestimmen:
 
-| **Anwendbarkeit** | **In-Scope-Dienste** |
+| **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
 |:------------------|:----------------------|
 | **Office 365** | Exchange Online, Exchange Online Protection, Forms, Microsoft Teams, Office 365 Customer Portal, Office Online, Office Service Infrastructure, OneDrive for Business, Planner, SharePoint Online, Skype for Business, Whiteboard, Yammer |
 

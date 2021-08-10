@@ -19,12 +19,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 95e52107df2f3e745d393c62929f7c169bcf9a33
-ms.sourcegitcommit: 8bf2602d56eedee4447ddb374ef95b0587f254e7
+ms.openlocfilehash: 6614f3997310a227320865aa0f0da99b64420084534e47afd25bb15441ddb451
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53377552"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292053"
 ---
 # <a name="microsoft-security-incident-management-containment-eradication-and-recovery"></a>Microsoft Security Incident Management: Eindämmung, Beseitigung und Wiederherstellung
 

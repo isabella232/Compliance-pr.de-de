@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 19b312d1b9f31683d775049010d390710554df01
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: 4b5f8bfd19193b3a05b5ffa6476271bc6da05c7ec1c669a2f1614535a54942e1
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53385665"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294302"
 ---
 # <a name="nist-sp-800-171"></a>NIST SP 800-171
 
@@ -42,9 +42,9 @@ Akkreditierte Drittanbieterbewertungsorganisationen, Kratos Secureinfo und Coalf
 
 NIST SP 800-171-Anforderungen sind eine Teilmenge von NIST SP 800-53, dem von FedRAMP verwendeten Standard. Anhang D von NIST SP 800-171 enthält eine direkte Zuordnung der CUI-Sicherheitsanforderungen zu den relevanten Sicherheitskontrollen in NIST SP 800-53, für die die im Umfang enthaltenen Clouddienste bereits im Rahmen des FedRAMP-Programms bewertet und autorisiert wurden.
 
-Jede Entität, die CUI der US-Regierung verarbeitet oder speichert – Forschungseinrichtungen, Beratungsunternehmen, Auftragnehmer der Fertigung , muss die strengen Anforderungen von NIST SP 800-171 erfüllen. Dieser Nachweis bedeutet, dass Microsoft-Clouddienste im Umfang Kunden, die CUI-Workloads bereitstellen möchten, mit der Gewissheit erfüllen können, dass Microsoft die vollständige Compliance erfüllt. Beispielsweise erfüllen alle DoD-Vertragsnehmer, die "erfasste Verteidigungsinformationen" mithilfe von Microsoft Cloud Services in ihren Informationssystemen verarbeiten, speichern oder übertragen, die DFARS-Klauseln des US-Verteidigungsministeriums, die die Einhaltung der Sicherheitsanforderungen von NIST SP 800-171 erfordern.
+Jede Organisation, die CUI der US-Regierung verarbeitet oder speichert – Forschungseinrichtungen, Beratungsunternehmen, Auftragnehmer der Fertigung – muss die strengen Anforderungen von NIST SP 800-171 erfüllen. Dieser Nachweis bedeutet, dass Microsoft-Clouddienste im Umfang Kunden, die CUI-Workloads bereitstellen möchten, mit der Gewissheit erfüllen können, dass Microsoft die vollständige Compliance erfüllt. Beispielsweise erfüllen alle DoD-Vertragsnehmer, die "abgedeckte Verteidigungsinformationen" mithilfe von Microsoft Cloud Services in ihren Informationssystemen verarbeiten, speichern oder übertragen, die DFARS-Klauseln des US-Verteidigungsministeriums, die die Einhaltung der Sicherheitsanforderungen von NIST SP 800-171 erfordern.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft-cloudbasierte Plattformen &-Dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Eingeschlossene Cloudplattformen und -dienste von Microsoft
 
 - Azure Commercial, Azure Government
 - Dynamics 365 U.S. Government
@@ -57,18 +57,18 @@ Weitere Informationen zu Azure, Dynamics 365 und anderen Onlinediensten finden S
 
 ## <a name="office-365-and-nist-sp-800-171"></a>Office 365 und NIST SP 800-171
 
-### <a name="office-365-cloud-environments"></a>Office 365 Cloudumgebungen
+### <a name="office-365-cloud-environments"></a>Office 365-Cloudumgebungen
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 Anwendbarkeit und In-Scope-Dienste
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365-Anwendbarkeit und im Leistungsumfang enthaltene Dienste
 
-Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365 Dienste und Abonnements zu ermitteln:
+Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Dienste und -Abonnements zu bestimmen:
 
-| **Anwendbarkeit** | **In-Scope-Dienste** |
+| **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
 |:------------------|:----------------------|
 | **GCC** | Activity Feed Service, Bing Services, Delve, Exchange Online, Intelligent Services, Microsoft Teams, Office 365 Customer Portal, Office Online, Office Service Infrastructure, Office Usage Reports, OneDrive for Business, People Card, SharePoint Online, Skype for Business, Windows Ink |
-| **GCC High** | Activity Feed Service, Bing Services, Exchange Online, Intelligent Services, Microsoft Teams, Office 365 Customer Portal, Office Online, Office Service Infrastructure, Office Usage Reports, OneDrive for Business, People Card, 
+| **GCC Hoch** | Activity Feed Service, Bing Services, Exchange Online, Intelligent Services, Microsoft Teams, Office 365 Customer Portal, Office Online, Office Service Infrastructure, Office Usage Reports, OneDrive for Business, People Card, 
 SharePoint Online, Skype for Business, Windows Ink |
 | **DoD** | Activity Feed Service, Bing Services, Exchange Online, Intelligent Services, Office 365 Customer Portal, Office Online, Office Service Infrastructure, Office Usage Reports, OneDrive for Business, People Card, Microsoft Teams, SharePoint Online, Skype for Business, Windows Ink |
 

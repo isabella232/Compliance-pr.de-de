@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d8eebfff19667ee96298179843b7b39f071b9f0a
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: 6406c63d73e30a62d3cbe54bf8cef632cc5564b2cae3d1a9588652644b8f8c96
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53384805"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293902"
 ---
 # <a name="us-internal-revenue-service-publication-1075"></a>US Internal Revenue Service Publication 1075
 
@@ -37,22 +37,22 @@ Microsoft Azure Government and [Microsoft Office 365 U.S. Government](https://pr
   
 Diese Microsoft-Clouddienste für Behörden bieten eine Plattform, auf der Kunden ihre Lösungen erstellen und betreiben können. Kunden müssen jedoch selbst bestimmen, ob diese spezifischen Lösungen gemäß IRS 1075 betrieben werden und daher der IRS-Prüfung unterliegen.  
   
-Um Regierungsbehörden bei ihren Compliance-Anstrengungen zu unterstützen, hilft Microsoft:
+Um Regierungsbehörden bei ihren Compliance-Anstrengungen zu unterstützen, microsoft:
 
-- Bietet detaillierte Anleitungen, um Behörden dabei zu helfen, ihre Zuständigkeiten zu verstehen und wie verschiedene IRS-Steuerelemente den Funktionen in Azure Government und Office 365 U.S. Government zugeordnet werden. Der IRS 1075 Safeguard Security Report (SSR) dokumentiert sorgfältig, wie Microsoft-Dienste die anwendbaren IRS-Kontrollen implementieren, und basiert auf den FedRAMP-Paketen von Azure Government und Office 365 U.S. Government. Da sowohl IRS 1075 als auch FedRAMP auf NIST 800-53 basieren, ist die Compliancegrenze für IRS 1075 identisch mit der FedRAMP-Autorisierung.
+- Bietet detaillierte Anleitungen, die Behörden dabei helfen, ihre Zuständigkeiten zu verstehen und wie verschiedene IRS-Steuerelemente den Funktionen in Azure Government und Office 365 U.S. Government zugeordnet werden. Der IRS 1075 Safeguard Security Report (SSR) dokumentiert sorgfältig, wie Microsoft-Dienste die anwendbaren IRS-Kontrollen implementieren, und basiert auf den FedRAMP-Paketen von Azure Government und Office 365 U.S. Government. Da sowohl IRS 1075 als auch FedRAMP auf NIST 800-53 basieren, ist die Compliancegrenze für IRS 1075 identisch mit der FedRAMP-Autorisierung.
 - Der IRS muss die Veröffentlichung von IRS-Sicherheitsdokumenten explizit genehmigen, damit nur Regierungskunden unter NDA den SSR überprüfen können.
 - Stellt Überwachungsberichte und Überwachungsinformationen zur Verfügung, die von unabhängigen Prüfern für ihre Clouddienste erstellt wurden.
-- Enthält informationen zu den Complianceüberlegungen und Office 365 Complianceüberlegungen für IRS Azure Government und Office 365 U.S. Government Compliance- Überlegungen, in denen beschrieben wird, wie eine Organisation Microsoft Cloud for Government-Dienste in einer Weise verwenden kann, die IRS 1075 entspricht. Behördenkunden unter NDA können diese Dokumente anfordern.
+- Enthält informationen zu den Complianceüberlegungen und Office 365 Complianceüberlegungen für IRS Azure Government und Office 365 U.S. Government Compliance-Überlegungen, in denen beschrieben wird, wie eine Organisation Microsoft Cloud for Government-Dienste in einer Weise verwenden kann, die IRS 1075 entspricht. Behördenkunden unter NDA können diese Dokumente anfordern.
 - Bietet Kunden die Möglichkeit (auf ihre Kosten), bei Bedarf mit Microsoft-Fachexperten oder externen Prüfern zu kommunizieren.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft-cloudbasierte Plattformen &-Dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Eingeschlossene Cloudplattformen und -dienste von Microsoft
 
-FedRAMP-Autorisierungen werden auf drei Auswirkungsstufen basierend auf den NIST-Richtlinien gewährt – niedrig, mittel und hoch. Diese bewerten die Auswirkungen, die der Verlust der Vertraulichkeit, Integrität oder Verfügbarkeit auf eine Organisation haben könnte – niedrig (begrenzte Auswirkung), mittel (schwerwiegende nachteilige Auswirkung) und hoch (schwerwiegender oder schwerwiegender Effekt).
+FedRAMP-Autorisierungen werden auf drei Auswirkungsstufen basierend auf den NIST-Richtlinien gewährt – niedrig, mittel und hoch. Diese bewerten die Auswirkungen, die der Verlust der Vertraulichkeit, Integrität oder Verfügbarkeit auf eine Organisation haben könnte – niedrig (begrenzte Auswirkung), mittel (schwerwiegende nachteilige Auswirkung) und hoch (schwerwiegende oder schwerwiegende Auswirkung).
 
 - Azure und Azure Government
 - Dynamics 365 U.S. Government
 - Office 365, Office 365 U.S. Government
-- Power BI-Clouddienst entweder als eigenständiger Dienst oder als Bestandteil eines Office 365 Markenplans oder einer Office 365 Suite
+- Power BI-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365-Plan oder einer -Anwendungssuite enthalten
 
 ## <a name="azure-dynamics-365-and-irs-1075"></a>Azure, Dynamics 365 und IRS 1075
 
@@ -60,20 +60,20 @@ Weitere Informationen zu Azure, Dynamics 365 und anderen Onlinediensten finden S
 
 ## <a name="office-365-and-irs-1075"></a>Office 365 und IRS 1075
 
-### <a name="office-365-cloud-environments"></a>Office 365 Cloudumgebungen
+### <a name="office-365-cloud-environments"></a>Office 365-Cloudumgebungen
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 Anwendbarkeit und In-Scope-Dienste
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365-Anwendbarkeit und im Leistungsumfang enthaltene Dienste
 
-Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365 Dienste und Abonnements zu ermitteln:
+Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Dienste und -Abonnements zu bestimmen:
 
-| **Anwendbarkeit** | **In-Scope-Dienste** |
+| **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
 |:------------------|:----------------------|
 | **Office 365** | Activity Feed Service, Bing Services, Delve, Exchange Online Protection, Exchange Online, Intelligent Services, Microsoft Teams, Office 365 Customer Portal, Office Online, Office Usage Reports, OneDrive for Business, People Card, Service Infrastructure, SharePoint Online, Skype for Business, Windows Ink |
 | **GCC** | Activity Feed Service, Bing Services, Delve, Exchange Online Protection, Exchange Online, Intelligent Services, Microsoft Teams, Office 365 Customer Portal, Office Online, Office Service Infrastructure, Office Usage Reports, OneDrive for Business, People Card, SharePoint Online, Skype for Business, Windows Ink |
 
-### <a name="office-365-audits-reports-and-certificates"></a>Office 365 Überwachungen, Berichte und Zertifikate
+### <a name="office-365-audits-reports-and-certificates"></a>Office 365-Prüfungen, -Berichte und -Zertifikate
 
 Die Einhaltung der grundlegenden Anforderungen von IRS 1075 wird jedes Jahr durch die FedRAMP-Prüfung abgedeckt.
 
@@ -83,15 +83,15 @@ Die Einhaltung der grundlegenden Anforderungen von IRS 1075 wird jedes Jahr durc
 
 **Wie erfüllt Microsoft die Anforderungen von IRS 1075?**
 
-Microsoft überwacht regelmäßig seine Sicherheits-, Datenschutz- und Betriebskontrollen sowie die NIST 800-53 Rev. 4 Kontrollen, die von der FedRAMP-Baseline für Informationssysteme mit moderaten Auswirkungen benötigt werden. Sie bietet vierteljährlichen Zugriff auf diese Informationen über fortlaufende Überwachungsberichte. Azure Government und Office 365 U.S. Government-Kunden können über das [Service Trust Portal](https://aka.ms/stphelp)auf diese vertraulichen Complianceinformationen zugreifen.
+Microsoft überwacht regelmäßig seine Sicherheits-, Datenschutz- und Betriebskontrollen sowie die NIST 800-53 Rev. 4 Kontrollen, die von der FedRAMP-Baseline für Informationssysteme mit moderaten Auswirkungen benötigt werden. Sie bietet vierteljährlichen Zugriff auf diese Informationen über fortlaufende Überwachungsberichte. Azure Government- und Office 365 U.S. Government-Kunden können über das [Service Trust Portal](https://aka.ms/stphelp)auf diese vertraulichen Complianceinformationen zugreifen.
 
-Darüber hinaus hat sich Microsoft verpflichtet, IRS 1075-Steuerelemente in den Master-Steuerelementsatz für Azure Government und Office 365 U.S. Government einzuschlussen und diese jährlich zu überwachen.
+Darüber hinaus hat sich Microsoft verpflichtet, IRS 1075-Steuerelemente in seinen Master-Steuerelementsatz für Azure Government und Office 365 U.S. Government einzuschlussen und diese jährlich zu überwachen.
 
 **Kann ich die FedRAMP-Pakete oder den Systemsicherheitsplan überprüfen?**
 
 Ja, wenn Ihre Organisation die Berechtigungsanforderungen für Azure Government und Office 365 U.S. Government erfüllt. Wenden Sie sich direkt an Ihren Microsoft-Kontomitarbeiter, um diese Dokumente zu überprüfen. Sie können auch auf die FedRAMP-Liste der kompatiblen Clouddienstanbieter verweisen.
 
-**Kann ich azure- oder Office 365 öffentlichen Cloudumgebungen verwenden und trotzdem mit IRS 1075 kompatibel sein?**
+**Kann ich Azure oder Office 365 Public Cloud-Umgebungen verwenden und trotzdem mit IRS 1075 kompatibel sein?**
 
 Nein. Die einzigen Umgebungen, in denen FTI gespeichert und verarbeitet werden kann, sind Azure Government oder Office 365 U.S. Government. Behördenkunden müssen die Berechtigungsanforderungen erfüllen, um diese Umgebungen zu verwenden.
 

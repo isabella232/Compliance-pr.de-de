@@ -16,26 +16,26 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: fbeb7cefc0096225b5de012f62da951ae41d7045
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: eb0e6498a516af763c36163733c6480c9531a584c3820e01701fdcf31089b8e3
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53384355"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294222"
 ---
 # <a name="reserve-bank-of-india-rbi-and-insurance-regulatory-and-development-authority-of-india-irdai"></a>Reserve Bank of India (RBI) and Insurance Regulatory and Development Authority of India (IRDAI)
 
 ## <a name="about-rbi-and-irdai"></a>Informationen zu RBI und IRDAI
 
-Die [Reserve Bank of India](https://www.rbi.org.in/) (RBI), die indische Zentralbank, die [Versicherungsaufsichtsbehörde (Insurance Regulatory and Development Authority of India,](https://www.irdai.gov.in/Defaulthome.aspx?page=H1) IRDAI) und das [Verteidigungsministerium für Unterhaltung und Informationstechnologie](https://meity.gov.in/content/information-technology-act) (MeitY) umfassen drei der wichtigsten Regulierungsbehörden der Finanzbranche, die Banken, Versicherungsorganisationen und Marktinfrastrukturinstitute überwachen. Ihre Richtlinien umfassen Outsourcing- und Risikomanagementrichtlinien und Anforderungen für die Einhaltung von Datenschutzregeln für vertrauliche Daten.
+Die [Reserve Bank of India](https://www.rbi.org.in/) (RBI), das indische Central Banking Institution, die Insurance Regulatory and Development Authority of [India](https://www.irdai.gov.in/Defaulthome.aspx?page=H1) (IRDAI) und das Industry of Electronic and Information [Technology](https://meity.gov.in/content/information-technology-act) (MeitY) umfassen drei der wichtigsten Regulierungsbehörden der Finanzbranche, die Banken, Versicherungsorganisationen und Marktinfrastrukturinstitute überwachen. Ihre Richtlinien umfassen Outsourcing- und Risikomanagementrichtlinien und Anforderungen für die Einhaltung von Datenschutzregeln für vertrauliche Daten.
 
 Die Anleitungen für Outsourcing und Risikomanagement umfassen:
 
 - [Richtlinien zum Verwalten von Risiken und Verhaltensregeln beim Outsourcing von Finanzdienstleistungen durch Banken](https://rbidocs.rbi.org.in/rdocs/notification/PDFs/73713.pdf) (RBI) behandeln die Risiken, denen regulierte Banken ausgesetzt wären, während sie Finanzdienstleistungen auslagern, und tragen dazu bei, sicherzustellen, dass outsourcing die Aufsichtsrolle der RBI nicht beeinträchtigt. Die RBI erfordert keine vorherige Genehmigung für Banken, die Finanzdienstleistungen auslagern möchten; Zentrale Bankfunktionen, z. B. interne Audit- und Compliancefunktionen, sollten jedoch nicht ausgelagert werden.
 - [Richtlinien für Informationssicherheit, Electronic Banking, Technologie-Risikomanagement und Cyber-Betrug](https://rbidocs.rbi.org.in/rdocs/content/PDFs/GBS300411F.pdf) (RBI). Finanzinstitute müssen Outsourcing-Vereinbarungen melden, wenn Umfang und Art der Aktivitäten von Bedeutung sind oder eine umfassende Datenfreigabe mit Dienstanbietern außerhalb Indiens erfordern. Dieser Leitfaden gilt insbesondere, wenn Betriebsdaten außerhalb Indiens gespeichert oder verarbeitet werden.
-- [Outsourcing von Aktivitäten durch die Verordnung über die Regulierung](https://www.irdai.gov.in/ADMINCMS/cms/frmGeneral_Layout.aspx?page=PageNo3149&flag=1) von Indien (IRDAI). Jedes Jahr müssen Versicherungsorganisationen innerhalb von 45 Tagen nach Abschluss des Geschäftsjahrs Das Outsourcing bestimmter Supportfunktionen von Kernaktivitäten an die IRDAI melden. (Auf Seite 7 der [Microsoft-Checkliste](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) wird beschrieben, was "Supportfunktionen von Kernaktivitäten" darstellt.
+- [Outsourcing von Aktivitäten durch die Verordnung über die Regulierung](https://www.irdai.gov.in/ADMINCMS/cms/frmGeneral_Layout.aspx?page=PageNo3149&flag=1) von Indien (IRDAI). Jedes Jahr müssen Versicherungsorganisationen innerhalb von 45 Tagen nach Abschluss des Geschäftsjahrs das Outsourcing bestimmter Supportfunktionen von Kernaktivitäten an die IRDAI melden. (Auf Seite 7 der [Microsoft-Checkliste](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) wird beschrieben, was "Supportfunktionen von Kernaktivitäten" darstellt.
 
-Finanzunternehmen, die Clouddienste nutzen, müssen auch die Datenschutzregeln einhalten, einschließlich der Regeln für [die Informationstechnologie (Angemessene Sicherheitspraktiken und -verfahren und vertrauliche personenbezogene Daten oder Informationen) 2011](https://meity.gov.in/sites/upload_files/dit/files/GSR313E_10511\(1\).pdf) (MeitY). Diese Regeln wurden entwickelt, um die Indin-Datenschutzgesetze zu stärken, und regeln den Schutz und die Verarbeitung vertraulicher personenbezogener Daten.
+Finanzunternehmen, die Clouddienste nutzen, müssen auch die Datenschutzregeln einhalten, einschließlich der Regeln für [die Informationstechnologie (angemessene Sicherheitspraktiken und -verfahren und vertrauliche personenbezogene Daten oder Informationen) 2011](https://meity.gov.in/sites/upload_files/dit/files/GSR313E_10511\(1\).pdf) (MeitY). Diese Regeln wurden entwickelt, um die Indin-Datenschutzgesetze zu stärken, und regeln den Schutz und den Umgang mit vertraulichen personenbezogenen Daten.
 
 ## <a name="microsoft-rbi-and-irdai"></a>Microsoft, RBI und IRDAI
 
@@ -48,7 +48,7 @@ Die Microsoft-Checkliste unterstützt Finanzunternehmen in Indien bei der Durchf
 - Eine Übersicht über die aufsichtsrechtliche Landschaft für den Kontext.
 - Eine Checkliste, die die zu behandelnden Probleme festlegt und Microsoft Azure, Microsoft Dynamics 365 und Microsoft Office 365 Diensten diesen regulatorischen Verpflichtungen zusetzt. Die Checkliste dazu verwendet werden, die Compliance anhand eines regulatorischen Rahmens zu messen und eine interne Struktur für die Dokumentation der Compliance bereitzustellen; sie kann Kunden auch bei der Durchführung ihrer eigenen Risikobewertungen von Microsoft Business-Clouddiensten unterstützen.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft-cloudbasierte Plattformen &-Dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
 - [Azure](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
@@ -64,7 +64,7 @@ Die Microsoft-Checkliste unterstützt Finanzunternehmen in Indien bei der Durchf
 
 **Gibt es verbindliche Bedingungen, die in den Vertrag mit dem Cloud-Dienstanbieter aufgenommen werden müssen?**
 
-Ja. Die oben genannten Richtlinien legen einige spezifische Punkte fest, die Finanzinstitute in ihre Clouddienstverträge integrieren müssen. Teil 2 der [Checkliste](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) (Seite 70) ordnet diese den Abschnitten in den Microsoft-Vertragsdokumenten zu, in denen sie adressiert sind.
+Ja. Die oben genannten Richtlinien legen einige spezifische Punkte fest, die Finanzinstitute in ihre Clouddienstleistungsverträge integrieren müssen. Teil 2 der [Checkliste](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) (Seite 70) ordnet diese den Abschnitten in den Microsoft-Vertragsdokumenten zu, in denen sie adressiert sind.
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
 

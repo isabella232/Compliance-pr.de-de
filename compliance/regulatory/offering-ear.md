@@ -16,18 +16,18 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b3867c9d8c165c451813929d49dc5936e643e95c
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: 2438db5a94871e60bb7181c3acfe250e8552e94aa9b127d5e800ab8d6edfcf93
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53384225"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293592"
 ---
 # <a name="us-export-administration-regulations-ear"></a>US Export Administration Regulations (EAR)
 
 ## <a name="about-the-ear"></a>Informationen zum EAR
 
-Das US-Handelsministerium setzt die Export Administration Regulations (EAR) über das [Bureau of Industry and Security (BIS)](https://www.bis.doc.gov/)durch. Das EAR steuert und erzwingt weitgehend Kontrollen für den Export und den Wiederexport der meisten kommerziellen Waren, Software und Technologien, einschließlich "Dual-Use"-Elemente, die sowohl für kommerzielle als auch für behördliche Zwecke und bestimmte Verteidigungselemente verwendet werden können.
+Das US-Handelsministerium setzt die Export Administration Regulations (EAR) über das [Bureau of Industry and Security (BIS)](https://www.bis.doc.gov/)durch. Das EAR steuert und erzwingt im Wesentlichen Kontrollen für den Export und den Wiederexport der meisten kommerziellen Waren, Software und Technologien, einschließlich "Dual-Use"-Elemente, die sowohl für kommerzielle als auch für behördliche Zwecke und bestimmte Verteidigungselemente verwendet werden können.
 
 Der BIS-Leitfaden sieht vor, dass beim Hochladen von Daten oder Software in die Cloud oder übertragen zwischen Benutzerknoten der Kunde, nicht der Cloudanbieter, der "Exporteur" ist, der dafür verantwortlich ist, sicherzustellen, dass übertragungen, Speicherung und Zugriff auf diese Daten oder Software mit dem EAR konform sind.
 
@@ -51,7 +51,7 @@ Die US-Handelsabteilung, die die EAR erzwingt, hat die Position eingenommen, das
 - **End-to-End-Verschlüsselung**. Durch die Nutzung der End-to-End-Verschlüsselungssicherheit für physische Speicherorte, die im EAR angegeben sind, bieten microsoft-bezogene Clouddienste Verschlüsselungsfunktionen, die zum Schutz vor Exportkontrollrisiken beitragen können. Sie bieten Kunden auch eine [Vielzahl von Optionen zum Verschlüsseln von Daten](https://aka.ms/Azure-Encryption-Overview) während der Übertragung und im Ruhezustand sowie die Flexibilität, zwischen Verschlüsselungsoptionen zu wählen.
 - **Tools und Protokolle, um nicht autorisierten Export zu verhindern.** Die Verwendung von Verschlüsselung trägt auch zum Schutz vor einem potenziellen export (oder als reexport betrachtet) im Rahmen des EAR bei, denn selbst wenn eine Nicht-US-Person Zugriff auf verschlüsselte Daten hat, wird nichts offengelegt, wenn sie die Daten während der Verschlüsselung nicht lesen oder verstehen können; daher gibt es keine "Freigabe" von kontrollierten Daten.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft-cloudbasierte Plattformen &-Dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
 
 - [Azure und Azure Government](https://aka.ms/AzureCompliance)
 - [Office 365 Government (GCC-Hoch und DoD)](https://aka.ms/Office-365-Export-Controls)
@@ -68,7 +68,7 @@ Die US-Handelsabteilung, die die EAR erzwingt, hat die Position eingenommen, das
 
 **Was sollte ich tun, um exportsteuerelemente bei Verwendung von Microsoft-Clouddiensten einzuhalten?**
 
-Wenn Daten auf einen Cloudserver wie die Microsoft-Cloud hochgeladen werden, gilt unter dem EAR der Kunde, der die Daten besitzt – nicht der Clouddienstanbieter – als Exporteur. Aus diesem Grund muss der Besitzer der Daten – d. h. der Microsoft-Kunde – sorgfältig bewerten, wie sich die Nutzung der Microsoft-Cloud auf EXPORTkontrollen in den USA auswirken kann, und bestimmen, ob die Daten, die er dort verwenden oder speichern möchte, ear-Kontrollen unterliegen können, und falls ja, welche Kontrollen gelten. Erfahren Sie mehr darüber, wie [Azure](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=c24c11f2-2cd4-444a-9160-19762855ad3a&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers) und [Office 365](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE1s5kI) Clouddienste Kunden dabei helfen können, die vollständige Compliance mit den US-Exportsteuerelementen sicherzustellen.
+Wenn Daten auf einen Cloudserver wie die Microsoft-Cloud hochgeladen werden, gilt unter dem EAR der Kunde, der die Daten besitzt – nicht der Clouddienstanbieter – als Exporteur. Aus diesem Grund muss der Besitzer der Daten – d. h. der Microsoft-Kunde – sorgfältig bewerten, wie sich ihre Nutzung der Microsoft-Cloud auf EXPORTkontrollen in den USA auswirken kann, und bestimmen, ob die Daten, die er dort verwenden oder speichern möchte, ear-Kontrollen unterliegen können, und falls ja, welche Kontrollen gelten. Erfahren Sie mehr darüber, wie [Azure](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=c24c11f2-2cd4-444a-9160-19762855ad3a&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers) und [Office 365](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE1s5kI) Clouddienste Kunden dabei helfen können, die vollständige Compliance mit den US-Exportsteuerelementen sicherzustellen.
 
 **Unterliegen Microsoft-Technologien, -Produkte und -Dienste dem EAR?**
 

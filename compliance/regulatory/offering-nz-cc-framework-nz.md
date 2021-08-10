@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4c27c84d2abc2de4866471d652d8b11351bc3168
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: c333fc2d6bdb9889dafefd2571b8381edd15e5158a4783aa7a17cec7ce1bcc7c
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53385655"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293382"
 ---
 # <a name="new-zealand-government-information-security-and-privacy-considerations-ispc"></a>Überlegungen zur Informationssicherheit und zum Datenschutz in Neuseeland (NEW Zealand Government Information Security and Privacy Considerations, ISPC)
 
@@ -37,25 +37,25 @@ Um NZ-Regierungsbehörden bei der Durchführung konsistenter und robuster Due Di
 
 Um Behörden bei der Analyse und Bewertung von Microsoft Enterprise Cloud Services zu unterstützen, hat Microsoft Neuseeland Dokumente erstellt, die zeigen, wie ihre Unternehmensclouddienste die im "Cloud Computing ISPC" aufgeführten Fragen beantworten, indem sie sie mit den Standards verknüpfen, nach denen Microsoft Cloud Services zertifiziert sind. Diese Zertifizierungen sind von zentraler Bedeutung, um kunden aus dem öffentlichen und privaten Sektor zu gewährleisten, dass ihre Clouddienste entworfen, erstellt und betrieben werden, um Datenschutz- und Sicherheitsrisiken effektiv zu mindern und Bedenken hinsichtlich der Datenhoheit zu beheben. Die [Azure-Antwort auf Cloud Computing ISPC](https://azure.microsoft.com/resources/microsoft-azure-response-to-nz-gcio-cloud-computing-information-security-privacy-considerations/) steht Kunden zum Download zur Verfügung.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft-cloudbasierte Plattformen &-Dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
 
 - Azure und Azure Government
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
 - Office 365
-- Power BI-Clouddienst entweder als eigenständiger Dienst oder als Bestandteil eines Office 365 Markenplans oder einer Office 365 Suite
+- Power BI-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365-Plan oder einer -Anwendungssuite enthalten
 
 ## <a name="office-365-and-ispc"></a>Office 365 und ISPC
 
-### <a name="office-365-cloud-environments"></a>Office 365 Cloudumgebungen
+### <a name="office-365-cloud-environments"></a>Office 365-Cloudumgebungen
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 Anwendbarkeit und In-Scope-Dienste
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365-Anwendbarkeit und im Leistungsumfang enthaltene Dienste
 
-Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365 Dienste und Abonnements zu ermitteln:
+Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Dienste und -Abonnements zu bestimmen:
 
-| **Anwendbarkeit** | **In-Scope-Dienste** |
+| **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
 |:------------------|:----------------------|
 | **Office 365** | Exchange Online, SharePoint Online, Skype for Business |
 
@@ -77,7 +77,7 @@ Wenn Ihre Organisation die Zertifizierung und Akkreditierung ihres ICT-Systems g
 - [Sicherheitsanforderungen für gehostete Office Produktivitätsdienste: Konformitätshandbuch für Office 365](https://aka.ms/o365-gcio-conformance-guidance)
 - [NZ Government ICT Strategy 2015](https://www.ict.govt.nz/strategy-and-action-plan/strategy/)
 - [Cloud Computing: Überlegungen zur Informationssicherheit und zum Datenschutz (ISPC)](https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/cloud-services/)
-- [Nutzungsbedingungen für Microsoft-Onlinedienste](https://aka.ms/Online-Services-Terms)
+- [Microsoft Online Services-Nutzungsbedingungen](https://aka.ms/Online-Services-Terms)
 - [Compliance im Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="microsoft-responses-to-cloud-computing-ipsc"></a>Microsoft-Antworten auf Cloud Computing IPSC

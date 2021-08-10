@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 0797161b0c7bfca8d4fda37cbf05a037d29322de
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: d5bebc4a270a11518989c548ef17ac48b8f79b5cc5720f09bc8677c40e422421
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53384635"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293886"
 ---
 # <a name="international-traffic-in-arms-regulations-itar"></a>International Traffic in Arms Regulations (ITAR)
 
@@ -31,17 +31,17 @@ Das US Department of State ist für die Verwaltung des Exports und des vorüberg
 
 ## <a name="microsoft-and-itar"></a>Microsoft und ITAR
 
-Microsoft bietet bestimmte Clouddienste oder Dienstfunktionen, die Kunden mit ITAR-Verpflichtungen unterstützen können. Es gibt zwar keine Compliance-Zertifizierung für itar, Microsoft betreibt und hat im Umfang Dienste entwickelt, die in der Lage sind, die ITAR-Verpflichtungen und das Compliance-Programm eines Kunden zu unterstützen.  
+Microsoft bietet bestimmte Clouddienste oder Dienstfunktionen, die Kunden mit ITAR-Verpflichtungen unterstützen können. Es gibt zwar keine Compliance-Zertifizierung für itar, Microsoft betreibt und hat In-Scope-Dienste entwickelt, um die ITAR-Verpflichtungen und das Compliance-Programm eines Kunden zu unterstützen.  
   
 Microsoft Azure Government and Microsoft Office 365 U.S. Government for Defense bieten Unterstützung für Kunden, die dem ITAR unterliegen, durch zusätzliche vertragliche Verpflichtungen gegenüber Kunden hinsichtlich des Speicherorts gespeicherter Daten und Einschränkungen hinsichtlich der Möglichkeit, auf diese Daten für US-Personen zuzugreifen. Microsoft bietet diese Zusicherungen für die Infrastruktur und die operativen Komponenten dieser Government Cloud Services, aber die Kunden sind letztendlich für den Schutz und die Architektur ihrer Anwendungen in ihren Umgebungen verantwortlich.  
   
 Kunden müssen zusätzliche Vereinbarungen unterzeichnen, die Microsoft formell darüber informieren, dass sie ITAR-gesteuerte Daten speichern möchten, damit Microsoft den Verantwortlichkeiten sowohl gegenüber unseren Kunden als auch gegenüber der US-Regierung gerecht wird.  
   
-Der ITAR hat spezifische Verpflichtungen zur Meldung von Verstößen, die bestimmte Vorteile für die Risikominderung bieten können. Die Änderung von Microsoft Enterprise Agreement ermöglicht Es Microsoft und dem Kunden, bei der Meldung solcher Verstöße zusammenzuarbeiten.  
+Der ITAR hat spezifische Verpflichtungen zur Meldung von Verstößen, die bestimmte Vorteile für die Risikominderung bieten können. Die Microsoft Enterprise Agreement-Änderung ermöglicht Es Microsoft und dem Kunden, bei der Meldung solcher Verstöße zusammenzuarbeiten.  
   
 Kunden, die ITAR-regulierte Daten hosten möchten, sollten mit ihrem Microsoft-Konto und ihren Lizenzierungsteams zusammenarbeiten, um mehr zu erfahren, ordnungsgemäße Vereinbarungen zu erhalten und auf relevante Systemarchitekturinformationen zuzugreifen.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft-cloudbasierte Plattformen &-Dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Eingeschlossene Cloudplattformen und -dienste von Microsoft
 
 - Azure Government
 - Office 365 U.S. Government – High, Office 365 Defense
@@ -52,17 +52,17 @@ Weitere Informationen zu Azure, Dynamics 365 und anderen Onlinediensten finden S
 
 ## <a name="office-365-and-itar"></a>Office 365 und ITAR
 
-### <a name="office-365-cloud-environments"></a>Office 365 Cloudumgebungen
+### <a name="office-365-cloud-environments"></a>Office 365-Cloudumgebungen
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 Anwendbarkeit und In-Scope-Dienste
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365-Anwendbarkeit und im Leistungsumfang enthaltene Dienste
 
-Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365 Dienste und Abonnements zu ermitteln:
+Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Dienste und -Abonnements zu bestimmen:
 
-| **Anwendbarkeit** | **In-Scope-Dienste** |
+| **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
 |:------------------|:----------------------|
-| **GCC High** | Activity Feed Service, Bing Services, Exchange Online, Intelligent Services, Microsoft Teams, Office 365 Customer Portal, Office Online, Office Service Infrastructure, Office Usage Reports, OneDrive for Business, People Card, SharePoint Online, Skype for Business, Windows Ink |
+| **GCC Hoch** | Activity Feed Service, Bing Services, Exchange Online, Intelligent Services, Microsoft Teams, Office 365 Customer Portal, Office Online, Office Service Infrastructure, Office Usage Reports, OneDrive for Business, People Card, SharePoint Online, Skype for Business, Windows Ink |
 | **DoD** | Activity Feed Service, Bing Services, Exchange Online, Intelligent Services, Microsoft Teams, Office 365 Customer Portal, Office Online, Office Service Infrastructure, Office Usage Reports, OneDrive for Business, People Card, SharePoint Online, Skype for Business, Windows Ink |
 
 ### <a name="frequently-asked-questions"></a>Häufig gestellte Fragen

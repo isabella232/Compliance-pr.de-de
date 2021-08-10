@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d9b7988b2ab236a26aad0981879f9b49c9ed028a
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: f613e35cfcfa6f15946572901cb0c9f3c7a5fa0407a970ccd3b4e19d8efc138a
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53384945"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292772"
 ---
 # <a name="federal-risk-and-authorization-management-program-fedramp"></a>FedRAMP (Federal Risk and Authorization Management Program)
 
@@ -47,13 +47,13 @@ Die Clouddienste von Microsoft, einschließlich Azure Government, Dynamics 365 G
 
 Microsoft Government Cloud Services bieten Kunden aus dem öffentlichen Sektor eine vielzahl von Diensten, die FedRAMP entsprechen, sowie robuste Anleitungen und Implementierungstools, einschließlich des [FedRAMP High-Blueprints,](https://aka.ms/fedrampblueprint)das Kunden dabei hilft, eine reihe von Kernrichtlinien für alle von Azure bereitgestellten Architekturen bereitzustellen, die FedRAMP High-Kontrollen implementieren müssen.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft-cloudbasierte Plattformen &-Dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
 
 - Azure und Azure Government
 - [Dynamics 365 U.S. Government](https://aka.ms/d365-compliance-list)
 - Intune
 - Office 365 U.S. Government, Office 365 U.S. Government – High, Office 365 U.S. Government Defense
-- Power BI-Clouddienst entweder als eigenständiger Dienst oder als Bestandteil eines Office 365 Markenplans oder einer Office 365 Suite
+- Power BI-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365-Plan oder einer -Anwendungssuite enthalten
 
 ## <a name="azure-dynamics-365-and-fedramp"></a>Azure, Dynamics 365 und FedRAMP
 
@@ -62,24 +62,24 @@ Weitere Informationen zu Azure, Dynamics 365 und anderen Onlinediensten finden S
 ## <a name="office-365-and-fedramp"></a>Office 365 und FedRAMP
 
 - Office 365 und Office 365 U.S. Government verfügen über eine ATO des US Department of Health and Human Services (DHHS).
-- Office 365 Us Government Defense verfügt über einen P-ATO der US Defense Information Systems Agency (DISA). Jeder Kunde, der Office 365 U.S. Government Defense bereitstellen möchte, kann die DISA P-ATO verwenden, um eine Agentur-ATO zu generieren, um deren Zustimmung zu dokumentieren.
-- Office 365 (Unternehmens- und Geschäftspläne) und Office 365 US-Regierung verfügen über eine FedRAMP-Agentur ATO auf der Stufe "Moderate Auswirkungen" aus der DHHS-Office des Generalinspektors. Office 365 U.S. Government war der erste cloudbasierte E-Mail- und Zusammenarbeitsdienst, der diese Autorisierung erhielt.
+- Office 365 Us Government Defense has a P-ATO from the US Defense Information Systems Agency (DISA). Jeder Kunde, der Office 365 U.S. Government Defense bereitstellen möchte, kann die DISA P-ATO verwenden, um eine Agentur-ATO zu generieren, um deren Zustimmung zu dokumentieren.
+- Office 365 (Unternehmens- und Geschäftspläne) und Office 365 US-Regierung verfügen über eine FedRAMP-Agentur-ATO auf der Stufe "Moderate Auswirkungen" der DHHS-Office des Generalinspektors. Office 365 U.S. Government war der erste cloudbasierte E-Mail- und Zusammenarbeitsdienst, der diese Autorisierung erhielt.
 
-### <a name="office-365-cloud-environments"></a>Office 365 Cloudumgebungen
+### <a name="office-365-cloud-environments"></a>Office 365-Cloudumgebungen
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 Anwendbarkeit und In-Scope-Dienste
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365-Anwendbarkeit und im Leistungsumfang enthaltene Dienste
 
-Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365 Dienste und Abonnements zu ermitteln:
+Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Dienste und -Abonnements zu bestimmen:
 
-| **Anwendbarkeit** | **In-Scope-Dienste** |
+| **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
 |:------------------|:----------------------|
 | **GCC** | Activity Feed Service, Bing Services, Delve, Exchange Online, Exchange Online Protection, Infrastructure, Intelligent Services, Microsoft Teams, Office 365 Customer Portal, Office Online, Office Service, Office Usage Reports, OneDrive for Business, People Card, SharePoint Online, Skype for Business, Windows Ink |
-| **GCC High** | Activity Feed Service, Bing Services, Exchange Online, Exchange Online Protection, Intelligent Services, Microsoft Teams, Office 365 Customer Portal, Office Online, Office Service Infrastructure, Office Usage Reports, OneDrive for Business, People Card, SharePoint Online, Skype for Business, Windows Ink |
+| **GCC Hoch** | Activity Feed Service, Bing Services, Exchange Online, Exchange Online Protection, Intelligent Services, Microsoft Teams, Office 365 Customer Portal, Office Online, Office Service Infrastructure, Office Usage Reports, OneDrive for Business, People Card, SharePoint Online, Skype for Business, Windows Ink |
 | **DoD** | Activity Feed Service, Bing Services, Exchange Online Protection, Exchange Online, Intelligent Services, Microsoft Teams, Office 365 Customer Portal, Office Online, Office Service Infrastructure, Office Usage Reports, OneDrive for Business, People Card, SharePoint Online, Skype for Business, Windows Ink |
 
-### <a name="office-365-audits-reports-and-certificates"></a>Office 365 Überwachungen, Berichte und Zertifikate
+### <a name="office-365-audits-reports-and-certificates"></a>Office 365-Prüfungen, -Berichte und -Zertifikate
 
 Microsoft muss seine Clouddienste jedes Jahr rezertifizieren, um seine P-ATOs und ATOs zu behalten. Dazu muss Microsoft seine Sicherheitskontrollen kontinuierlich überwachen und bewerten und nachweisen, dass die Sicherheit seiner Dienste weiterhin eingehalten wird.
 

@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f9b5924ce8f8424479bd4320f6e33e6fec7e636d
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: ca3ecd5dc99f71c76c2b8e724a1b6ace3350d947a3bbb278a5ec6ab00c13fe7d
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53384505"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292452"
 ---
 # <a name="ministry-of-electronics-and-information-technology-meity"></a>MeitY (Abteilung für Unterhaltung und Informationstechnologie)
 
@@ -41,9 +41,9 @@ Im November 2017 wurde Microsoft einer der ersten globalen Clouddienstanbieter, 
 - Government Virtual Private Cloud, die logisch von den öffentlichen und anderen Angeboten des Clouddienstanbieters getrennt sein muss
 - Government Community Cloud, für Clouddienste, die Behördenabteilungen zugeordnet sind und physisch von den öffentlichen und anderen Angeboten des Clouddienstanbieters getrennt sind
 
-Die MeitY-Akkreditierung von Microsoft war das Ergebnis einer strengen Prüfung, die von der Direktion für Standardisierungstests und Qualitätszertifizierung (STQC) durchgeführt wurde, einer Regierungsbehörde, die Qualitätssicherungsdienste mithilfe eines Bewertungsframeworks basierend auf der Arbeit der MeghRaj Cloud Initiative bereitstellt. Über Microsoft Azure können Organisationen des öffentlichen Dienstes jetzt auf eine Vielzahl von Bereitstellungsmodellen und Dienstangeboten zurückgreifen, einschließlich Infrastructure as a Service (IaaS), Platform as a Service (PaaS), Notfallwiederherstellung, DevOps und verwalteter Sicherung.
+Die MeitY-Akkreditierung von Microsoft war das Ergebnis einer strengen Prüfung, die von der Direktion für Standardisierungstests und Qualitätszertifizierung (STQC) durchgeführt wurde, einer Regierungsbehörde, die Qualitätssicherungsdienste mithilfe eines Bewertungsframeworks basierend auf der Arbeit der MeghRaj Cloud Initiative bereitstellt. Über Microsoft Azure können Organisationen des öffentlichen Dienstes jetzt auf eine Vielzahl von Bereitstellungsmodellen und Dienstangeboten zurückgreifen, einschließlich Infrastructure as a Service (IaaS), Platform as a Service (PaaS), Notfallwiederherstellung, DevOps und verwaltete Sicherung.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft-cloudbasierte Plattformen &-Dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)

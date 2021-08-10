@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 8145c8e4fc1617371acdfa10cd20daa4f3ba3bf3
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: df9b502dcad818199de63de3585c902b0c60d2c0a13c0b582e64aa4fa93ced7b
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53384865"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293832"
 ---
 # <a name="health-insurance-portability-and-accountability-act-hipaa--health-information-technology-for-economic-and-clinical-health-hitech-act"></a>Health Insurance Portability and Accountability Act (HIPAA) & Health Information Technology for Economic and Clinical Health (HITECH) Act
 
@@ -43,11 +43,11 @@ Es gibt derzeit keinen Zertifizierungsstandard, der vom Department of Health and
 
 Microsoft-Dienste unter den BAA fallen, wurden von akkreditierten unabhängigen Auditoren für die Zertifizierung nach Microsoft ISO/IEC 27001 und die HITRUST CSF-Zertifizierung auditiert.
 
-Microsoft Enterprise Cloud-Dienste sind auch durch FedRAMP-Bewertungen abgedeckt. Microsoft Azure und Microsoft Azure Regierung erhielten eine vorläufige Behörde zum Arbeiten vom FedRAMP Joint Authorization Board; Microsoft Dynamics 365 U.S. Government erhielt eine Agenturautorität zum Arbeiten vom US Department of Health and Coding Development, ebenso wie Microsoft Office 365 U.S. Government vom U.S. Department of Health and Human Services.
+Microsoft Enterprise Cloud-Dienste sind auch durch FedRAMP-Bewertungen abgedeckt. Microsoft Azure und Microsoft Azure Regierung eine vorläufige Behörde für die Arbeitsweise vom gemeinsamen FedRAMP-Autorisierungsrat erhalten haben; Microsoft Dynamics 365 U.S. Government erhielt eine Agenturautorität zum Arbeiten vom US Department of Health and Western Development, ebenso wie Microsoft Office 365 U.S. Government vom U.S. Department of Health and Human Services.
 
 Wenn Sie erfahren möchten, wie die Microsoft-Cloud Kunden dabei unterstützt, HIPAA und die HITECH-Anforderungen zu erfüllen, besuchen Sie die [Microsoft-Kundenreferenzen](https://customers.microsoft.com/).
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft-cloudbasierte Plattformen &-Dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
 
 - Azure und Azure Government
 - Azure DevOps Services
@@ -57,7 +57,7 @@ Wenn Sie erfahren möchten, wie die Microsoft-Cloud Kunden dabei unterstützt, H
 - [Microsoft Cloud for Healthcare](https://aka.ms/MicrosoftCloudforHealthcareCompliance)
 - Microsoft Healthcare Bot Service
 - [Microsoft Managed Desktop](/microsoft-365/managed-desktop/intro/compliance)
-- Microsoft Professional Services: Premier und On-Premises für Azure, Dynamics 365, Intune und Medium Business- und Enterprise-Kunden von Microsoft 365 for Business
+- Microsoft Professional Services: Premier und On-Premises für Azure, Dynamics 365, Intune und Medium Business- und Enterprise-Kunden von Microsoft 365 for Business
 - Office 365, Office 365 U.S. Government
 - Power Automate-Clouddienst (ehemals Microsoft Flow) als eigenständiger Dienst oder in einem Office 365- oder Dynamics 365-Plan bzw. -Anwendungssuite enthalten
 - PowerApps-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365- oder Dynamics 365-Plan oder einer -Anwendungssuite enthalten
@@ -69,18 +69,18 @@ Weitere Informationen zu Azure, Dynamics 365 und anderen Onlinediensten finden S
 
 ## <a name="office-365-and-hipaa"></a>Office 365 und HIPAA
 
-### <a name="office-365-cloud-environments"></a>Office 365 Cloudumgebungen
+### <a name="office-365-cloud-environments"></a>Office 365-Cloudumgebungen
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 Anwendbarkeit und In-Scope-Dienste
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365-Anwendbarkeit und im Leistungsumfang enthaltene Dienste
 
-Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365 Dienste und Abonnements zu ermitteln:
+Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Dienste und -Abonnements zu bestimmen:
 
-| **Anwendbarkeit** | **In-Scope-Dienste** |
+| **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
 |:------------------|:----------------------|
-| **Office 365** | Access Online, Azure Active Directory, Azure Communications Service, Compliance-Manager, Kunden-Lockbox, Delve, Exchange Online, Formulare, Griffin, Identity Manager, Lockbox (Torus), Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Kundenportal, Office 365 Microservices (einschließlich, aber nicht beschränkt auf Kaizala, ObjectStore, Sway, Power Automate, PowerPoint Online Document Service, Query Annotation Service, School Data Sync, Sifon, Speech, StaffHub, eXtensible Application Program), Office 365 Security & Compliance Center, Office Online, Office Pro Plus, Office Services Infrastructure, OneDrive for Business, Planner, PowerApps, Power BI, Project Online, Service Encryption with Customer Key, SharePoint Online, Skype for Business, Stream |
-| **GCC** | Azure Active Directory, Azure Communications Service, Compliance Manager, Delve, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, Stream |
+| **Office 365** | Access Online, Azure Active Directory, Azure Communications Service, Compliance-Manager, Kunden-Lockbox, Delve, Exchange Online, Formulare, Griffin, Identity Manager, Lockbox (Torus), Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Kundenportal, Office 365 Microservices (einschließlich, aber nicht beschränkt auf Kaizala, ObjectStore, Sway, Power Automate, PowerPoint Onlinedokumentdienst, Abfrageanmerkungsdienst, School Data Sync, Sifon, Speech, StaffHub, eXtensible Application Program), Office 365 Security & Compliance Center, Office Online, Office Pro Plus, Office Services Infrastructure, OneDrive for Business, Planner, PowerApps, Power BI, Project Online, Service Encryption with Customer Key, SharePoint Online, Skype for Business, Stream |
+| **GCC** | Azure Active Directory, Azure Communications Service, Compliance-Manager, Delve, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, Stream |
 
 ### <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
@@ -108,7 +108,7 @@ Das [Vertrauensstellungsportal](https://www.microsoft.com/trustcenter/STP/defaul
 
 Um Kunden bei dieser Aufgabe zu unterstützen, hat Microsoft die folgenden Leitfäden veröffentlicht:
 
-- Der HIPAA/HITECH Act-Implementierungsleitfaden für [Azure](/azure/governance/blueprints/samples/hipaa-hitrust-9-2/) für Datenschutz-, Sicherheits- und Compliance-Beauftragte und andere, die für die HIPAA- und HITECH Act-Implementierung verantwortlich sind, beschreibt konkrete Schritte, die Ihre Organisation unternehmen kann, um die Compliance aufrechtzuerhalten.
+- Der HIPAA/HITECH Act-Implementierungsleitfaden für [Azure](/azure/governance/blueprints/samples/hipaa-hitrust-9-2/) für Datenschutz-, Sicherheits- und Compliance-Beauftragte und andere, die für die HIPAA- und HITECH Act-Implementierung verantwortlich sind, beschreibt konkrete Schritte, die Ihre Organisation zur Einhaltung der Compliance ergreifen kann.
 - [Praktischer Leitfaden zum Entwerfen von sicheren Gesundheitslösungen mit Microsoft Azure](https://aka.ms/azureindustrysecurity) hilft Ihnen, besser zu verstehen, was für die erfolgreiche, sichere Einführung eines Clouddiensts nötig ist.
 
 ### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos

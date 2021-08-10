@@ -1,6 +1,6 @@
 ---
-title: Datenklassifizierung & Vertraulichkeitsbezeichnungstaxonomie
-description: In diesem Artikel finden Sie eine Übersicht über die Verwendung der Datenklassifizierung & Vertraulichkeitsbezeichnungstaxonomie mit Microsoft 365.
+title: Taxonomie der Datenklassifizierung & Vertraulichkeitsbezeichnungen
+description: In diesem Artikel finden Sie eine Übersicht über die Verwendung der Datenklassifizierung & Taxonomie von Vertraulichkeitsbezeichnungen mit Microsoft 365.
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -20,54 +20,56 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: fcfe98116f4d0629f322383f2992605d2dcf19de
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: 0a178b23182427c0d202be38a9986c9e9069e1af2b71290a248c33aae19e0eaa
+ms.sourcegitcommit: 07b748b28a7815fb5824be0dea3edba29353361d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51497801"
+ms.lasthandoff: 08/10/2021
+ms.locfileid: "57833882"
 ---
-# <a name="data-classification--sensitivity-label-taxonomy"></a>Datenklassifizierung & Vertraulichkeitsbezeichnungstaxonomie
+# <a name="data-classification--sensitivity-label-taxonomy"></a>Taxonomie der Datenklassifizierung & Vertraulichkeitsbezeichnungen
 
-Vertrauliche Daten sind für ein Unternehmen ein erhebliches Risiko, wenn sie gestohlen, versehentlich freigegeben oder durch eine Verletzung verfügbar gemacht werden. Zu den Risikofaktoren gehören Reputationsschäden, finanzielle Auswirkungen und der Verlust von Wettbewerbsvorteilen. Der Schutz der Daten und Informationen, die Ihr Unternehmen verwaltet, hat für Ihre Organisation oberste Priorität. Es kann jedoch schwierig sein, zu wissen, ob Ihre Bemühungen angesichts der Menge an Inhalten ihres Unternehmens wirklich effektiv sind.
+Vertrauliche Daten stellen ein erhebliches Risiko für ein Unternehmen dar, wenn sie gestohlen, versehentlich freigegeben oder durch eine Verletzung offengelegt werden. Zu den Risikofaktoren gehören Reputationsschäden, finanzielle Auswirkungen und Verlust von Wettbewerbsvorteilen. Der Schutz der Daten und Informationen, die Ihr Unternehmen verwaltet, hat für Ihre Organisation oberste Priorität. Es kann jedoch schwierig sein, zu wissen, ob Ihre Anstrengungen angesichts der Menge an Inhalten in Ihrem Unternehmen wirklich effektiv sind.
 
-Neben der Lautstärke können Ihre Inhalte von hochsensiblen und auswirkungenreichen bis zu trivialen und vorübergehenden Inhalten reichen. Es kann auch unter der Aufsicht verschiedener gesetzlicher Complianceanforderungen sein. Es kann eine Herausforderung sein, zu wissen, was priorisiert und wo Steuerelemente angewendet werden sollen. Lesen Sie weiter, um mehr über die Datenklassifizierung *zu* erfahren, ein wichtiges Tool zum Schutz Ihrer Inhalte vor Diebstahl, Sabotage oder unbeabsichtigter Zerstörung und darüber, wie Microsoft 365 Ihnen dabei helfen kann, Ihre Ziele für die Informationssicherheit zu erreichen.
+Zusätzlich zum Volume können Ihre Inhalte von hochgradig vertraulicher und wirkungsvoller bis zu trivialer und vorübergehender Bedeutung reichen. Es kann auch unter dem Blick auf verschiedene gesetzliche Compliance-Anforderungen stehen. Es kann eine Herausforderung sein, zu wissen, was priorisiert werden muss und wo Steuerelemente angewendet werden sollen. Lesen Sie weiter, um mehr über *die Datenklassifizierung* zu erfahren, ein wichtiges Tool zum Schutz Ihrer Inhalte vor Diebstahl, Simplifizierung oder unbeabsichtigter Vernichtung, und wie Microsoft 365 Ihnen helfen können, Ihre Ziele in Bezug auf die Informationssicherheit zu erreichen.
 
-## <a name="what-is-data-classification"></a>Was ist datenklassifizierung?
+## <a name="what-is-data-classification"></a>Was ist die Datenklassifizierung?
 
-[Die](/microsoft-365/compliance/data-classification-overview) Datenklassifizierung ist ein spezieller Begriff, der in den Bereichen Cybersicherheit und Informationsverwaltung verwendet wird, um den Prozess der Identifizierung, Kategorisierung und des Abwehrens von Inhalten entsprechend ihrer Vertraulichkeits- oder Auswirkungsebene zu beschreiben. In ihrer grundlegendsten Form ist die Datenklassifizierung ein Mittel zum Schutz Ihrer Daten vor nicht autorisierter Offenlegung, Änderung oder Zerstörung basierend auf ihrer Sensiblen oder Auswirkung.
+[Die Datenklassifizierung](/microsoft-365/compliance/data-classification-overview) ist ein spezieller Begriff, der in den Bereichen Internetsicherheit und Informationsgovernance verwendet wird, um den Prozess der Identifizierung, Kategorisierung und des Schutzes von Inhalten gemäß ihrer Vertraulichkeits- oder Auswirkungsstufe zu beschreiben. In ihrer grundlegendsten Form ist die Datenklassifizierung ein Mittel zum Schutz Ihrer Daten vor unbefugter Offenlegung, Änderung oder Zerstörung basierend auf ihrer Vertraulichkeit oder Auswirkung.
 
 ## <a name="what-is-a-data-classification-framework"></a>Was ist ein Datenklassifizierungsframework?
 
-Häufig in einer formalen, unternehmensweiten Richtlinie kodifiziert, besteht ein Datenklassifizierungsframework (manchmal auch als "Datenklassifizierungsrichtlinie" bezeichnet) in der Regel aus 3 bis 5 Klassifizierungsstufen. Diese umfassen in der Regel drei Elemente: einen Namen, eine Beschreibung und reale Beispiele. Microsoft empfiehlt nicht mehr als fünf übergeordnete Bezeichnungen auf oberster Ebene mit jeweils fünf Unterbezeichnungen (insgesamt 25), um die Benutzeroberfläche (Ui) verwaltbar zu halten. Ebenen werden in der Regel von der geringsten bis zur sensibelsten Ebene angeordnet, z. B. *öffentlich,* *intern,* *vertraulich* und *streng* 
- *vertraulich.* Andere Variationen von Ebenennamen, auf die Sie stoßen können, sind *Restricted*, *Unrestricted* und *Consumer Protected*. Microsoft empfiehlt Bezeichnungsnamen, die selbstdeskriptiv sind und deren relative Vertraulichkeit deutlich hervorheben. Beispielsweise können *vertrauliche* *und* eingeschränkte Benutzer erraten, welche  Bezeichnung geeignet ist, während *Vertrauliche* und Streng Vertrauliche klarer sind, was sensibler ist. Die folgende Tabelle enthält Beispiele für Datenklassifizierungsframeworkebenen.
+Häufig in einer formalen, unternehmensweiten Richtlinie codiert, besteht ein Datenklassifizierungsframework (manchmal auch als "Datenklassifizierungsrichtlinie" bezeichnet) in der Regel aus 3 bis 5 Klassifizierungsebenen. Diese enthalten in der Regel drei Elemente: einen Namen, eine Beschreibung und Beispiele aus der Praxis. Microsoft empfiehlt nicht mehr als fünf übergeordnete Beschriftungen auf oberster Ebene mit jeweils fünf Unterbezeichnungen (insgesamt 25), um die Benutzeroberfläche (UI) verwaltbar zu halten. Ebenen werden in der Regel von der niedrigsten bis zur sensibelsten Ebene angeordnet, z. B. *öffentlich,* *intern,* *vertraulich* und *streng* 
+ *vertraulich.* Andere Ebenennamenvarianten, auf die Sie möglicherweise stoßen können, sind *eingeschränkt,* *uneingeschränkt* und *verbrauchergeschützt.* Microsoft empfiehlt Bezeichnungsnamen, die selbstdeskriptiv sind und ihre relative Vertraulichkeit deutlich hervorheben. Beispielsweise können *"Vertraulich"* und *"Eingeschränkt"* benutzerdeklarieren, welche Bezeichnung angemessen ist, während *"Vertraulich"* und *"Streng vertraulich"* eindeutiger sind, was sensibler ist. 
 
-|**Klassifizierungsebene**|**Beschreibung**|**Beispiele**|
+Die folgende Tabelle zeigt ein Beispiel für eine Frameworkebene der Datenklassifizierung *"Streng vertraulich":*
+
+|**Klassifizierungsstufe**|**Beschreibung**|**Beispiele**|
 |:-----------------------|:--------------|:-----------|
-| Streng vertraulich | Streng vertrauliche Daten sind die vertraulichsten Arten von Daten, die vom Unternehmen gespeichert oder verwaltet werden und möglicherweise rechtliche Benachrichtigungen erfordern, wenn sie verletzt oder anderweitig offengelegt werden. <br><br> Eingeschränkte Daten erfordern die höchste Ebene an Kontrolle und Sicherheit, und der Zugriff sollte auf "Bedürfnis nach Wissen" beschränkt sein. | Vertrauliche personenbezogene Informationen (vertrauliche PII) <br> Cardholder-Daten <br> Geschützte Integritätsinformationen (Protected Health Information, PHI) <br> Bankkontodaten |
+| Streng vertraulich | Streng vertrauliche Daten sind die vertraulichsten Daten, die vom Unternehmen gespeichert oder verwaltet werden, und erfordern möglicherweise rechtliche Benachrichtigungen, wenn sie verletzt oder anderweitig offengelegt werden. <br><br> Eingeschränkte Daten erfordern das höchste Maß an Kontrolle und Sicherheit, und der Zugriff sollte auf "Erforderlichkeit" beschränkt werden. | Vertrauliche personenbezogene Informationen (vertrauliche personenbezogene Informationen) <br> Karteninhaberdaten <br> Geschützte Integritätsinformationen (Protected Health Information, PHI) <br> Bankkontodaten |
 
 >[!TIP]
->Das Microsoft-Framework für die Unternehmensdatenklassifizierung verwendete ursprünglich eine Kategorie und Bezeichnung namens "Internal" während der Pilotphase, stellte jedoch fest, dass es legitime Gründe für die externe Freigabe eines Dokuments und die Umstellung auf "Allgemein" gab.
+>Das Microsoft-Framework für die Unternehmensdatenklassifizierung verwendete ursprünglich während der Pilotphase eine Kategorie und Bezeichnung namens "Intern", es gab jedoch berechtigte Gründe dafür, dass ein Dokument extern freigegeben und auf "Allgemein" umgestellt wurde.
 
-Eine weitere wichtige Komponente eines Datenklassifizierungsframework sind die Steuerelemente, die jeder Ebene zugeordnet sind. Datenklassifizierungsstufen sind einfach Bezeichnungen (oder Tags), die den Wert oder die Vertraulichkeit des Inhalts angeben. Um *diese* Inhalte zu schützen, definieren Datenklassifizierungsframeworks die Steuerelemente, die für jede Ihrer Datenklassifizierungsstufen verwendet werden sollten. Diese Steuerelemente können Anforderungen im Zusammenhang mit folgenden Themen umfassen:
+Eine weitere wichtige Komponente eines Datenklassifizierungsframeworks sind die Steuerelemente, die jeder Ebene zugeordnet sind. Datenklassifizierungsebenen selbst sind einfach Bezeichnungen (oder Tags), die den Wert oder die Vertraulichkeit des Inhalts angeben. Um diese Inhalte zu *schützen,* definieren Datenklassifizierungsframeworks die Steuerelemente, die für jede Ihrer Datenklassifizierungsebenen vorhanden sein sollten. Diese Steuerelemente können Anforderungen in Bezug auf Folgendes umfassen:
 
-- Speichertyp und Speicherort
+- Storage Typ und Speicherort
 - Verschlüsselung
 - Zugriffssteuerung
 - Datenvernichtung
 - Verhinderung von Datenverlust
 - Öffentliche Offenlegung
-- Protokollierung und Nachverfolgung des Zugriffs
-- Andere Kontrollziele nach Bedarf
+- Protokollieren und Nachverfolgen des Zugriffs
+- Andere Kontrollziele, je nach Bedarf
 
-Ihre Sicherheitssteuerelemente variieren je nach Datenklassifizierungsstufe, damit die in Ihrem Framework definierten Schutzmaßnahmen der Vertraulichkeit Ihrer Inhalte mehrEntsprechen. Beispielsweise variieren die Anforderungen für die Datenspeicherung abhängig von den verwendeten Medien sowie von der Klassifizierungsstufe, die auf einen bestimmten Inhalt angewendet wird. Die folgende Tabelle zeigt ein Beispiel für Datenklassifizierungssteuerelemente für einen bestimmten Speichertyp:
+Ihre Sicherheitskontrollen variieren je nach Datenklassifizierungsstufe, sodass die in Ihrem Framework definierten Schutzmaßnahmen der Vertraulichkeit Ihrer Inhalte entsprechen. Die Anforderungen an die Datenspeicherungssteuerung variieren z. B. je nach verwendeten Medien sowie nach der Klassifizierungsstufe, die auf einen bestimmten Inhalt angewendet wird. Die folgende Tabelle zeigt ein Beispiel für Datenklassifizierungssteuerelemente für einen bestimmten Speichertyp:
 
-|**Speichertyp**|**Vertraulich**|**Intern**|**Uneingeschränkt**|
+|**Speichertyp**|**Vertraulich**|**Intern**|**Uneingeschränkte**|
 |:---------------|:---------------|:-----------|:---------------|
-| Wechselmedienspeicher | Verboten | Verboten, es sei denn, verschlüsselt | Kein Steuerelement erforderlich |
+| Wechselmedien Storage | Verboten | Unzulässig, es sei denn, er verschlüsselt | Kein Steuerelement erforderlich |
 
-Das richtige Anwenden der richtigen Ebene der Datenklassifizierung kann in realen Situationen komplex sein und manchmal die Endbenutzer überfordern. Nachdem eine Richtlinie oder ein Standard erstellt wurde, die die erforderlichen Ebenen der Datenklassifizierung definiert, ist es wichtig, endbenutzern zu zeigen, wie sie dieses Framework in ihrer täglichen Arbeit zum Leben erhalten. In diesem Bereich werden Regeln oder Richtlinien für die Verarbeitung von Datenklassifizierungen verwendet.
+Das richtige Anwenden der richtigen Datenklassifizierungsstufe kann in realen Situationen komplex sein und endbenutzer manchmal überfordern. Sobald eine Richtlinie oder ein Standard erstellt wurde, die die erforderlichen Ebenen der Datenklassifizierung definiert, ist es wichtig, Endbenutzer zu führen, wie sie dieses Framework in ihrer täglichen Arbeit zum Leben erwecken können. In diesem Bereich kommen Regeln oder Richtlinien für die Behandlung von Datenklassifizierungen ins Raum.
 
-Richtlinien für die Verarbeitung von Datenklassifizierungen helfen Endbenutzern mit spezifischen Anleitungen zum angemessenen Umgang mit den einzelnen Datenebenen für unterschiedliche Speichermedien während ihres gesamten Lebenszyklus. Diese Richtlinien helfen Endbenutzern bei der ordnungsgemäßen Anwendung von Regeln in der Praxis, z. B. beim Freigeben von Dokumenten, beim Senden von E-Mails oder bei der Zusammenarbeit über verschiedene Plattformen und Organisationen hinweg.
+Richtlinien für die Behandlung von Datenklassifizierungen helfen Endbenutzern mit spezifischen Anleitungen zum ordnungsgemäßen Umgang mit den einzelnen Datenebenen für unterschiedliche Speichermedien während des gesamten Lebenszyklus. Diese Richtlinien helfen Endbenutzern bei der richtigen Anwendung von Regeln in der Praxis, z. B. beim Teilen von Dokumenten, Senden von E-Mails oder Zusammenarbeiten über verschiedene Plattformen und Organisationen hinweg.
 
-Microsoft-Kunden geben an, dass ca. 50 % eines Information Protection-Projekts geschäftsorientiert und nicht technisch ausgerichtet sind, sodass Endbenutzerschulungen und -kommunikation entscheidend für den Erfolg sind.
+Microsoft-Kunden geben an, dass etwa 50 % eines Information Protection-Projekts nicht auf technische, sondern auf Geschäftsaktivitäten ausgerichtet sind. Daher sind Schulungen und Kommunikation für Endbenutzer entscheidend für den Erfolg.

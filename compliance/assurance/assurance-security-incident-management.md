@@ -19,12 +19,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: d52832d34034966eb9373925be2d3f5b31cfad5a
-ms.sourcegitcommit: 07578a8e03b931f47c49f4e34b78cf8ba0605e8f
+ms.openlocfilehash: 38bb8c8492c3bbff6ed96380ac3a4d284f220a0ec5b2fb7b7c00814033a5c02c
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53573723"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292187"
 ---
 # <a name="microsoft-security-incident-management"></a>Microsoft-Sicherheitsvorfallverwaltung
 
@@ -47,7 +47,7 @@ Der Ansatz von Microsoft zur Verwaltung eines Sicherheitsvorfalls entspricht dem
 | Cyber Defense Operations Center | Das Cyber Defense Operations Center ist der physische Standort, der Sicherheitsteams und Experten aus dem gesamten Unternehmen zusammenführt, um Bedrohungen in Echtzeit zu schützen, zu erkennen und darauf zu reagieren. |
 | Unternehmens-, Externe und Rechtsbeziehungen | Bietet rechtliche und behördliche Hinweise für einen verdächtigen Sicherheitsvorfall. |
 | Microsoft Datacenter Security Team | Team, das sich auf die verschiedenen Dienste konzentriert und sich auf allgemeine Sicherheits-Engineering-Investitionen konzentriert, um Risiken und Bedrohungen der Dienstarchitektur zu schützen, zu erkennen und darauf zu reagieren. |
-| Microsoft Security Response Teams | Unabhängige Azure, Dynamics 365 und Microsoft 365 Sicherheitsteams, die mit Serviceteams zusammenarbeiten, um den entsprechenden Prozess zur Verwaltung von Sicherheitsvorfällen zu erstellen und die Reaktion auf Sicherheitsvorfälle zu fördern. |
+| Microsoft Security Response Teams | Unabhängige Azure, Dynamics 365 und Microsoft 365 Sicherheitsteams, die mit Serviceteams zusammenarbeiten, um den geeigneten Prozess zur Verwaltung von Sicherheitsvorfällen zu erstellen und die Reaktion auf Sicherheitsvorfälle zu fördern. |
 | Microsoft Governance-, Risiko- und Compliance-Teams (GRC) | Bereitstellen von Anleitungen zu gesetzlichen Anforderungen, Compliance und Datenschutz. |
 | Serviceteams | Entwicklungsteams für Azure, Dynamics 365 Microsoft 365, die für sicherheitsbezogene Richtlinien und Entscheidungen für jeden Dienst verantwortlich sind. |
 | Azure-Betriebsmanager | Überwacht die Untersuchung und Lösung von Azure-bezogenen Sicherheits- und Datenschutzvorfällen. |
@@ -61,7 +61,7 @@ Sicherheitsteams und Serviceteams von Microsoft Online Services arbeiten zusamme
 - **Vorbereitung:** Bezieht sich auf die organisatorische Vorbereitung, die erforderlich ist, um reagieren zu können, einschließlich Tools, Prozessen, Kompetenzen und Bereitschaft.
 - **Erkennung & Analyse:** Bezieht sich auf die Aktivität, um einen Sicherheitsvorfall in einer Produktionsumgebung zu erkennen und alle Ereignisse zu analysieren, um die Echtheit des Sicherheitsvorfalls zu bestätigen.
 - **Eindämmung, Beseitigung, Wiederherstellung:** Bezieht sich auf die erforderlichen und geeigneten Maßnahmen, um den Sicherheitsvorfall basierend auf der in der vorherigen Phase durchgeführten Analyse einzudämmen. In dieser Phase kann auch eine weitere Analyse erforderlich sein, um die vollständige Wiederherstellung nach dem Sicherheitsvorfall zu gewährleisten.
-- **Aktivität nach dem Vorfall:** Bezieht sich auf die nachträgliche Analyse, die nach der Wiederherstellung eines Sicherheitsvorfalls durchgeführt wurde. Die während des Prozesses durchgeführten betrieblichen Aktionen werden überprüft, um festzustellen, ob Änderungen in den Vorbereitungs- oder Erkennungs- und Analysephasen vorgenommen werden müssen.
+- **Aktivität nach dem Vorfall:** Bezieht sich auf die nachträgliche Analyse, die nach der Wiederherstellung eines Sicherheitsvorfalls durchgeführt wurde. Die während des Prozesses durchgeführten operativen Aktionen werden überprüft, um festzustellen, ob Änderungen in den Vorbereitungs- oder Erkennungs- und Analysephasen vorgenommen werden müssen.
 
 ![Phasen der Verwaltung von Sicherheitsvorfällen](../media/assurance-sim-phases.png)
 

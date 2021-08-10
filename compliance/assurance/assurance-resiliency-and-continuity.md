@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 730a694455a3e8bcbd6b6ab3daa7f0f8e0ebf503
-ms.sourcegitcommit: 12cec299197fbc7b05c8d7604e7047b9392e3bc8
+ms.openlocfilehash: 9fb013647bc558856f7005c2d5e1ccdb656db9b9b04ceb5882df35a599e7ebff
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53589674"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292163"
 ---
 # <a name="resiliency-and-continuity-overview"></a>Ausfallsicherheit und Kontinuität (Übersicht)
 
@@ -39,7 +39,7 @@ Die Geschäftskontinuitätsstrategien von Microsoft Online Services verwenden Ha
 
 ## <a name="how-does-microsoft-test-business-continuity-and-disaster-recovery-plans"></a>Wie teste Microsoft Geschäftskontinuitäts- und Notfallwiederherstellungspläne?
 
-Die Ebcm-Richtlinie (Enterprise Business Continuity Management) von Microsoft legt fest, dass alle Microsoft-Pläne für Geschäftskontinuität und Notfallwiederherstellung jährlich getestet, aktualisiert und überprüft werden müssen. Microsoft-Onlinedienste testen ihre Geschäftskontinuitätspläne mindestens einmal jährlich pro EBCM-Richtlinien. Nachdem Aktionsberichte erstellt und überprüft wurden, um Aktualisierungen zu überprüfen, zu testen und Planupdates als Reaktion auf während der Tests erkannte Probleme zu informieren.
+Die EbCM-Richtlinie (Enterprise Business Continuity Management) von Microsoft legt fest, dass alle Microsoft-Pläne für Geschäftskontinuität und Notfallwiederherstellung jährlich getestet, aktualisiert und überprüft werden müssen. Microsoft-Onlinedienste testen ihre Geschäftskontinuitätspläne mindestens einmal jährlich pro EBCM-Richtlinien. Nachdem Aktionsberichte erstellt und überprüft wurden, um Aktualisierungen zu überprüfen, zu testen und Planupdates als Reaktion auf während der Tests erkannte Probleme zu informieren.
 
 Zum Überprüfen von Resilienz- und Wiederherstellungsstrategien mit einer breiten Palette potenzieller Vorfälle definiert das EBCM-Programm mehrere Kategorien von Testszenarien, die sich auf Personen, Standorte und Technologie auswirken. Die für jeden Dienst erforderliche Überprüfungsebene basiert auf dem Maß, in dem der Dienst kritisch ist, wobei kritischere Dienste einer strengeren Überprüfung unterzogen werden. Jedes Microsoft-Onlinedienstteam testet seinen Geschäftskontinuitätsplan gemäß den EBCM-Richtlinien, um die Effektivität des Plans und die Bereitschaft des Serviceteams zur Ausführung des Plans zu messen.
 

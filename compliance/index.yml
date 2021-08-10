@@ -189,13 +189,13 @@ conceptualContent:
 additionalContent:
   sections:
     - title: Erste Schritte mit der Compliance in Microsoft 365
-      summary: 'Wenn Sie noch nicht mit Microsoft 365 Compliance begonnen haben und sich fragen, wo Sie beginnen sollten, enthält dieser Abschnitt Links zu wichtigen Lösungen und priorisiert wichtige Compliancebereiche.'
+      summary: 'Wenn Sie noch nicht mit der Microsoft 365 der Compliance begonnen haben und sich fragen, wo Sie beginnen sollten, enthält dieser Abschnitt Links zu wichtigen Lösungen und priorisiert wichtige Compliancebereiche.'
       items:
         - title: Informationen zu Compliance-Manager
           summary: 'Erfahren Sie, was Compliance-Manager ist, wie er dazu beiträgt, die Compliance zu vereinfachen und Risiken zu reduzieren, und wie er die wichtigsten Komponenten aufweist.'
           url: /microsoft-365/compliance/compliance-manager
         - title: Verwalten der Insider-Risiken
-          summary: 'Minimieren Sie interne Risiken, indem Sie böswillige und unbeabsichtigte Aktivitäten in Ihrer Organisation erkennen, untersuchen und darauf einwirken.'
+          summary: 'Minimieren Sie interne Risiken, indem Sie bösartige und unbeabsichtigte Aktivitäten in Ihrer Organisation erkennen, untersuchen und darauf einwirken.'
           url: /microsoft-365/compliance/insider-risk-solution-overview
         - title: Informationsschutz verwalten
           summary: 'Verwenden Sie Microsoft Information Protection (MIP), um vertrauliche Informationen zu ermitteln, zu klassifizieren und zu schützen, unabhängig davon, wo sie sich befinden oder unterwegs sind.'

@@ -18,12 +18,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft GDPR
 hideEdit: true
-ms.openlocfilehash: d3429d3fb35317146e32fddc71bae2f12c40269d
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: a83a39ec6f60dae780d1082f534c094c45ac4d2c6788c851c6c1cf35b1a7d256
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53089508"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293090"
 ---
 # <a name="fasttrack-migration-toolset-for-submitting-delete-request"></a>FastTrack-Migrationstoolset zum Übermitteln von Löschanforderungen
 
@@ -35,9 +35,9 @@ Für den Fall, dass Sie als Kunde derzeit an FastTrack-Migrationen beteiligt sin
 
 Microsoft unterstützt die erste Version dieses Toolsets auf der Windows-Plattform und der PowerShell-Konsole. Die folgenden bekannten Plattformen werden von diesem Toolset unterstützt:
 
-***Tabelle 1 – Von diesem Toolset unterstützte Plattformen** _
+***Tabelle 1 – Von diesem Toolset unterstützte Plattformen***
 
-_***
+****
 
 |PowerShell-Version|Windows 7|Windows 8|Windows 10|Windows Server 2012|Windows Server 2016|
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -61,7 +61,7 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 
 Sie werden aufgefordert, diese Aktion zu bestätigen, da der Administrator den Bereich nach eigenem Ermessen ändern kann.
 
-**_Festlegen der Ausführungsrichtlinie_* _
+***Festlegen der Ausführungsrichtlinie***
 
 ![Festlegen einer Änderung der Ausführungsrichtlinie in PowerShell](../media/powershell-set-execution-policy_image.png)
 
@@ -83,7 +83,7 @@ Login-FastTrackAccount -ApiKey <API Key provided by FastTrack MVM>
 
 Nach der erfolgreichen Anmeldung werden die Anmeldeinformationen und der Schlüssel zur Verwendung mit FastTrack-Modulen für den Rest der aktuellen PowerShell-Sitzung gespeichert.
 
-Wenn Sie eine Verbindung mit einer Cloudumgebung für andere als kommerzielle Zwecke herstellen müssen, muss dem *Login*-Befehl _-Environment* mit einer der folgenden gültigen Umgebungen hinzugefügt werden:
+Wenn Sie eine Verbindung mit einer Cloudumgebung für andere als kommerzielle Zwecke herstellen müssen, muss dem *Login*-Befehl *-Environment* mit einer der folgenden gültigen Umgebungen hinzugefügt werden:
 
 - AzureCloud
 - AzureChinaCloud

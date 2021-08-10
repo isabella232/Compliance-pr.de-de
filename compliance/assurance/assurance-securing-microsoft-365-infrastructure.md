@@ -1,5 +1,5 @@
 ---
-title: Sichern der Microsoft 365-Infrastruktur
+title: Sichern der Microsoft 365 Infrastruktur
 description: Erfahren Sie, wie Microsoft die Microsoft 365-Infrastruktur sichert.
 ms.author: robmazz
 author: robmazz
@@ -20,16 +20,16 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 224900bd60f2fd5637e7264f1aed98d5ff878b20
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: d0ef6dc92820089259cd315713c0e7e4a9e11aaec50d731b15cd6e826a721107
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53089638"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292752"
 ---
-# <a name="securing-the-microsoft-365-infrastructure"></a>Sichern der Microsoft 365-Infrastruktur
+# <a name="securing-the-microsoft-365-infrastructure"></a>Sichern der Microsoft 365 Infrastruktur
 
-Microsoft 365 ist einer der größten Clouddienste für Unternehmen und Verbraucher weltweit und wächst weiterhin schnell, sowohl in der Kundenbasis als auch bei Produkten und Features. Kunden nutzen Microsoft 365 nicht nur für erstklassige Produktivitätslösungen, sondern auch, um ihre vertraulichsten Informationen vor der sich ständig weiterentwickelnden Cyberbedrohungslandschaft zu schützen. Es ist microsofts oberste Priorität, Kundendaten zu schützen und das Kundenvertrauen aufrechtzuerhalten.
+Microsoft 365 ist einer der größten Clouddienste für Unternehmen und Verbraucher weltweit und wächst weiterhin schnell, sowohl in der Kundenbasis als auch in den Produkten und Features. Kunden nutzen Microsoft 365 nicht nur für erstklassige Produktivitätslösungen, sondern auch, um ihre vertraulichsten Informationen vor der sich ständig weiterentwickelnden Cyberbedrohungslandschaft zu schützen. Es ist microsofts oberste Priorität, Kundendaten zu schützen und das Kundenvertrauen aufrechtzuerhalten.
 
 Das Sichern eines Systems dieses Umfangs und dieser Komplexität ist nicht möglich, wenn die Sicherheit eine Nachfolgelösung ist, sie ist nur wirksam, wenn die Sicherheit während des anfänglichen Entwurfsprozesses integriert wird. Es erfordert ein robustes Bedrohungserkennungssystem mit prompten Antworten sowohl von automatisierten Systemen als auch von hoch qualifizierten Technikern. Die kontinuierliche Bewertung und Validierung dieser Systeme ist unerlässlich, um sicherzustellen, dass sichere Konfigurationen erhalten bleiben und zuvor unbekannte Sicherheitsrisiken identifiziert werden.
 
@@ -39,7 +39,7 @@ Sieben Sicherheitsprinzipien bilden die Grundlage für unseren Rahmen des *Schut
 
 - **Datenschutz:** Kunden besitzen ihre Daten, und Microsoft ist der Verwahrer. Microsoft 365 Dienste sind so konzipiert, dass sie ohne Techniker funktionieren, die auf Kundendaten zugreifen, es sei denn, der Kunde hat dies ausdrücklich angefordert und genehmigt.
 - **Gehen Sie von einem Verstoß aus:** Personal und Dienste werden so behandelt, als wäre eine Kompromittierung eine echte Möglichkeit.
-- **Geringste Rechte:** Der Zugriff und die Berechtigungen auf Ressourcen sind auf das beschränkt, was zum Ausführen der erforderlichen Aufgaben erforderlich ist.
+- **Geringste Rechte:** Der Zugriff und die Berechtigungen für Ressourcen sind auf das beschränkt, was zum Ausführen der erforderlichen Aufgaben erforderlich ist.
 - **Grenzen von Sicherheitsverletzungen:** Identitäten und Infrastruktur in einer Grenze sind von Ressourcen in anderen Grenzen isoliert. Eine Gefährdung einer Grenze sollte nicht zu einer Gefährdung einer anderen führen.
 - Integrierte Sicherheit in **Service Fabric:** Sicherheitsprioritäten und -anforderungen sind in den Entwurf neuer Features und Funktionen integriert, um sicherzustellen, dass ein starker Sicherheitsstatus bei jedem Dienst skaliert wird.
 - **Automatisiert und automatisch:** Microsoft konzentriert sich auf die Entwicklung dauerhafter Produkte und Architekturen, die die Dienstsicherheit intelligent und automatisch erzwingen können, während Microsoft-Technikern die Möglichkeit gegeben wird, Antworten auf Sicherheitsbedrohungen im großen Maßstab sicher zu verwalten.
@@ -61,7 +61,7 @@ Weitere Informationen zur Zugriffssteuerung finden Sie unter [Identity and Acces
 
 Während Zugriffssteuerungen eine wichtige Rolle bei der Verteidigung Microsoft 365 Dienste spielen, wird die Verschlüsselung während des gesamten Datenlebenszyklus verwendet, um die Vertraulichkeit und den Datenschutz für Microsoft-Kunden weiter zu schützen.
 
-Daten, die zwischen Clientcomputern, Microsoft 365-Servern und Servern ohne Microsoft 365 übertragen werden, werden mit TLS 1.2 verschlüsselt. Wir überprüfen regelmäßig die verwendeten Verschlüsselungen und Protokolle, fügen ggf. verbesserte Protokolle hinzu und entfernen bei Bedarf schwächere Protokolle.
+Daten, die zwischen Clientcomputern, Microsoft 365-Servern und Nicht-Microsoft 365-Servern übertragen werden, werden mit TLS 1.2 verschlüsselt. Wir überprüfen regelmäßig die verwendeten Verschlüsselungen und Protokolle, fügen ggf. verbesserte Protokolle hinzu und entfernen bei Bedarf schwächere Protokolle.
 
 Kundeninhalte, die sich auf Microsoft-Servern befinden, werden auf Volumeebene mit BitLocker verschlüsselt. Die Verschlüsselung auf Anwendungsebene kann zusätzlich mithilfe von Schlüsseln angewendet werden, die von Microsoft oder dem Kunden verwaltet werden. Der Zugriff auf von Microsoft verwaltete Schlüssel ist nur möglich, wenn sie über den JIT- und JEA-Prozess autorisiert und genehmigt werden.
 
@@ -69,7 +69,7 @@ Weitere Informationen zur Verschlüsselung in Microsoft 365 finden Sie unter [Ve
 
 ### <a name="network-isolation"></a>Netzwerkisolation
 
-Gemäß dem Prinzip der geringsten Rechte schränkt Microsoft 365 die Kommunikation zwischen verschiedenen Teilen der Dienstinfrastruktur auf das für den Betrieb erforderliche Maß ein. Der gesamte Netzwerkdatenverkehr wird standardmäßig verweigert, wobei nur explizit definierte Kommunikation zulässig ist. Diese Einschränkung legt Grenzen für Sicherheitsverletzungen in der gesamten Infrastruktur fest. Teams, die neue Netzwerkpfade hinzufügen möchten, um ein neues Feature zu ihrem Dienst aufzunehmen, müssen die Anforderung auswerten und genehmigen lassen, bevor sie geöffnet werden kann.
+Gemäß dem Prinzip der geringsten Rechte schränkt Microsoft 365 die Kommunikation zwischen verschiedenen Teilen der Dienstinfrastruktur auf das für den Betrieb erforderliche Maß ein. Der gesamte Netzwerkdatenverkehr wird standardmäßig verweigert, wobei nur explizit definierte Kommunikation zulässig ist. Diese Einschränkung legt Grenzen für Sicherheitsverletzungen in der gesamten Infrastruktur fest. Teams, die neue Netzwerkpfade hinzufügen möchten, um ihrem Dienst ein neues Feature hinzuzufügen, muss die Anforderung ausgewertet und genehmigt werden, bevor sie geöffnet werden kann.
 
 Weitere Informationen zur Netzwerkisolation in Microsoft 365 finden Sie unter [Microsoft 365 Isolationssteuerelemente.](/microsoft-365/enterprise/microsoft-365-isolation-controls)
 
@@ -87,17 +87,17 @@ Weitere Informationen zur Sicherheitsüberwachung in Microsoft 365 finden Sie un
 
 ### <a name="automated-assessments"></a>Automatisierte Bewertungen
 
-Unabhängig davon, wie ein System konzipiert ist, kann der Sicherheitsstatus aufgrund absichtlicher und unbeabsichtigter Konfigurationsabschiebung im Laufe der Zeit beeinträchtigt werden. Automatisierte Tools bewerten ständig Microsoft 365 Systeme, die nach nicht gepatchten und falsch konfigurierten Diensten suchen. Diese Bewertung wird häufig als Patching, Virenschutz, Sicherheitsrisiko und Konfigurationsüberprüfung (PATCHC) bezeichnet.
+Unabhängig davon, wie ein System konzipiert ist, kann sich der Sicherheitsstatus aufgrund einer absichtlichen und unbeabsichtigten Konfigurationsverschiebung im Laufe der Zeit beeinträchtigen. Automatisierte Tools bewerten ständig Microsoft 365 Systeme, die nach nicht gepatchten und falsch konfigurierten Diensten suchen. Diese Bewertung wird häufig als Patching, Virenschutz, Sicherheitsrisiko und Konfigurationsüberprüfung (PATCHC) bezeichnet.
 
-Unsere Architektur wird auch häufig überprüft und identifiziert Instanzen wie nicht verwendete offene Ports und Konten mit ständigem Administratorzugriff. Alle Dienste, die von einem vordefinierten gewünschten Zustand abweichen, werden automatisch wieder in die Ausrichtung zurückvergesetzt.
+Unsere Architektur wird auch häufig überprüft und identifiziert Instanzen wie nicht verwendete offene Ports und Konten mit ständigem Administratorzugriff. Alle Dienste, die von einem vordefinierten gewünschten Zustand abweichen, werden automatisch wieder in die Ausrichtung zurückgesetzt.
 
-Weitere Informationen zur Sicherheitsüberwachung in Microsoft 365 finden Sie in der [Übersicht über die Sicherheitsrisikoverwaltung.](assurance-vulnerability-management.md)
+Weitere Informationen zur Sicherheitsüberwachung in Microsoft 365 finden Sie unter [Übersicht über die Sicherheitsrisikoverwaltung.](assurance-vulnerability-management.md)
 
 ### <a name="attack-simulation-and-penetration-testing"></a>Angriffssimulation und Penetrationstests
 
-Microsoft 365 hat oberste Priorität, um zu verhindern, dass Angriffe die Abwehr infiltrieren. Microsoft 365 verfügt über ein dediziertes Team von Sicherheitsexperten, die ständig simulierte Angriffe durchführen, um zuvor unbekannte Sicherheitsrisiken zu identifizieren und einen konstanten Datenstrom bereitzustellen, um die Sicherheitsüberwachungsfunktionen zu verbessern. Diese simulierten Angriffe haben die Form häufiger automatisierter Angriffe in kleinem Maßstab und von Experten gesteuerter Deep Dives. Anhand dieser Aktivitäten bewertet Microsoft die Fähigkeit, Angreifer zu erkennen, darauf zu reagieren und sie zu entfernen.
+Microsoft 365 hat oberste Priorität, um zu verhindern, dass Angriffe die Abwehr infiltrieren. Microsoft 365 verfügt über ein dediziertes Team von Sicherheitsexperten, die ständig simulierte Angriffe durchführen, um zuvor unbekannte Sicherheitsrisiken zu identifizieren und einen konstanten Datenstrom zur Verbesserung der Sicherheitsüberwachungsfunktionen bereitzustellen. Diese simulierten Angriffe haben die Form häufiger automatisierter Angriffe in kleinem Maßstab und von Experten gesteuerter Deep Dives. Anhand dieser Aktivitäten bewertet Microsoft die Fähigkeit, Angreifer zu erkennen, darauf zu reagieren und sie zu entfernen.
 
-Weitere Informationen zur Sicherheitsüberwachung in Microsoft 365 finden Sie unter [Angriffssimulation in Microsoft 365](assurance-monitoring-and-testing.md).
+Weitere Informationen zur Sicherheitsüberwachung in Microsoft 365 finden Sie unter [Angriffssimulation in Microsoft 365.](assurance-monitoring-and-testing.md)
 
 ## <a name="resources"></a>Ressourcen
 
