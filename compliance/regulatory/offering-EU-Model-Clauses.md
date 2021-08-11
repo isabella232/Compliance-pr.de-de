@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 456ce920d3327926541c78b1153577dcc6bb8e42
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: 20dccebdb31eff3e502efe8fe6eba6fbdd4881c4ac864927566fc786dff09a15
+ms.sourcegitcommit: 07b748b28a7815fb5824be0dea3edba29353361d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53385155"
+ms.lasthandoff: 08/10/2021
+ms.locfileid: "57833892"
 ---
 # <a name="european-union-model-clauses"></a>Standardvertragsklauseln der Europäischen Union
 
@@ -33,15 +33,11 @@ In der Praxis bedeutet eine Compliance mit den EU-Datenschutzgesetzen, dass die 
 
 ## <a name="microsoft-and-european-union-model-clauses"></a>Microsoft und Standardvertragsklauseln der Europäischen Union
 
-Microsoft hat in die betrieblichen Abläufe investiert, die erforderlich sind, um die hohen Anforderungen der Musterklauseln für die Übertragung von personenbezogenen Daten an Datenverarbeiter zu erfüllen. Microsoft bietet Kunden Modellklauseln, die als Standardvertragsklauseln bezeichnet werden, die spezifische vertragliche Garantien in Bezug auf die Übertragung personenbezogener Daten für im Umfang enthaltene Microsoft-Clouddienste umfassen. So wird sichergestellt, dass die Kunden von Microsoft Daten ungehindert über die Microsoft Cloud aus dem EWR in Drittländer übertragen können.
+Die [Datenschutz-Grundverordnung](/compliance/regulatory/gdpr) (DSGVO) der Europäischen Union (EU) regelt die Übertragung personenbezogener Kundendaten in Länder außerhalb des Europäischen Wirtschaftsraums (EWR), wozu alle EU-Länder sowie Island, Liechtenstein und Norwegen gehören. Microsoft bietet Kunden die [Standard-Vertragsklauseln](https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc_en) (Standard Contractual Clauses, SCC) der EU (auch als EU-Modellklauseln bezeichnet), die spezifische Garantien für die Übertragung personenbezogener Daten für im Umfang enthaltene Dienste bieten. Die EU-Modellklauseln werden in Vereinbarungen zwischen Dienstanbietern (z. B. Microsoft) und ihren Kunden verwendet, um sicherzustellen, dass alle personenbezogenen Daten, die den EWR verlassen, in Übereinstimmung mit der DSGVO übertragen werden.
 
-Die Unternehmenskunden von Microsoft, die die personenbezogenen Daten selbst kontrollieren, sind jedoch primär zum Schutz dieser Daten verpflichtet. Das bedeutet, dass Unternehmenskunden im EWR großes Interesse daran haben, dass ihr Clouddienstanbieter die EU-Datenschutzgesetze befolgt. Andernfalls kann der Kunde haftbar gemacht und ggf. von der Nutzung eines Diensts ausgeschlossen werden.
+Im Juli 2020 hat der Gerichtshof der Europäischen Union (EuGH) das EU-US-Datenschutzschild-Framework für die Übertragung personenbezogener Daten aus der EU an die USA für ungültig erklärt. Die EU-Standardklauseln bieten jedoch weiterhin einen gültigen Mechanismus für die Übertragung personenbezogener Daten aus der EU und dem EWR, sowie aus der Schweiz und dem Vereinigten Königreich. Microsoft stellt Kunden die EU-Modellklauseln zur Verfügung, wie im[Datenschutz-Nachtrag](https://aka.ms/DPA) (Data Protection Addendum, DPA) der Bedingungen für Microsoft-Onlinedienste (Online Services Terms, OST) beschrieben.
 
-Microsoft hat seine Standardvertragsklauseln der Artikel-29-Datenschutzgruppe der EU zur Prüfung und Genehmigung vorgelegt. Der Artikel-29-Datenschutzgruppe gehören u. a. Vertreter des Europäischen Datenschutzbeauftragten, der Europäischen Kommission sowie alle 28 EU-Datenschutzbehörden an.
-
-Die Gruppe hat festgestellt, dass die Implementierung der Bestimmungen in den Vereinbarungen von Microsoft ihre strengen Anforderungen erfüllt. (Microsoft erhielt als erster Clouddienstanbieter ein Bestätigungs- und Genehmigungsschreiben seitens der Datenschutzgruppe.) Die Genehmigung bezog sich auf die in den Standardvertragsklauseln 2010/87/EU dargelegten Vereinbarungen, jedoch nicht auf die Anhänge, die die Übertragung von Daten und die vom Datenimporteur implementierten Sicherheitsmaßnahmen beschreiben. Die Anhänge können von der Datenschutzbehörde separat analysiert werden.
-
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
 
 - Azure und Azure Government
 - Azure DevOps Services
@@ -61,13 +57,13 @@ Die Gruppe hat festgestellt, dass die Implementierung der Bestimmungen in den Ve
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365-Anwendbarkeit und eingeschlossene Dienste
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365-Anwendbarkeit und im Leistungsumfang enthaltene Dienste
 
 Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Dienste und -Abonnements zu bestimmen:
 
 | **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
 |:------------------|:----------------------|
-| **Office 365** | Advanced Threat Protection, Azure Active Directory, Azure Information Protection, Bookings, Compliance Manager, Delve, Exchange Online, Exchange Online Protection, Forms, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Graph, Microsoft Teams, Microsoft To Do für das Web, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Cloud App Security, Office 365-Gruppen, Office 365 Security & Compliance Center, Office 365 Video, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
+| **Kommerziell** | Advanced Threat Protection, Azure Active Directory, Azure Information Protection, Bookings, Compliance Manager, Delve, Exchange Online, Exchange Online Protection, Forms, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Graph, Microsoft Teams, Microsoft To Do für das Web, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Cloud App Security, Office 365-Gruppen, Office 365 Security & Compliance Center, Office 365 Video, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
 
 ## <a name="audits-reports-and-certificates"></a>Prüfungen, Berichte und Zertifikate
 
@@ -103,5 +99,5 @@ Sie können eine Vereinbarung wie die [Nutzungsbedingungen für Onlinedienste](h
 - [EU-Datenschutzbehörde](https://edpb.europa.eu/)
 - [Häufig gestellte Fragen zu den EU-Standardvertragsklauseln für Dynamics 365 und Office 365](https://products.office.com/business/office-365-trust-center-eu-model-clauses-faq)
 - [Microsoft Common Controls Hub-Complianceframework](https://www.microsoft.com/trustcenter/common-controls-hub)
-- [Nutzungsbedingungen für Microsoft-Onlinedienste](https://aka.ms/Online-Services-Terms)
+- [Microsoft Online Services-Nutzungsbedingungen](https://aka.ms/Online-Services-Terms)
 - [Compliance im Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)

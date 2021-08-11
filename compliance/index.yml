@@ -42,8 +42,8 @@ highlightedContent:
       itemType: learn
       url: /learn/paths/compliance-discover/
 productDirectory:
-  title: Einhaltung gesetzlicher Bestimmungen
-  summary: Microsoft-Leitfaden zur Einhaltung von internationalen und nationalen Standards und Vorschriften.
+  title: Einhaltung gesetzlicher & Branche
+  summary: Microsoft-Leitfaden zur Einhaltung von Branchenbereichen und internationalen & nationalen Standards und Vorschriften.
   items:
     - title: DSGVO (Datenschutz-Grundverordnung der EU)
       imageSrc: /office/media/icons/compliance-blue.svg
@@ -53,10 +53,10 @@ productDirectory:
       imageSrc: /office/media/icons/globe-internet.svg
       summary: 'Microsoft bietet eine umfassende Reihe von Compliance-Angeboten, mit denen Ihre Organisation nationale, regionale und branchenspezifische Anforderungen hinsichtlich der Erfassung und Verwendung von Daten erfüllen kann.'
       url: /compliance/regulatory/offering-home
-    - title: Einhaltung gesetzlicher Vorschriften und Microsoft Azure
-      imageSrc: /media/logos/logo_azure.svg
-      summary: Erfahren Sie mehr über die Einhaltung gesetzlicher Vorschriften und Microsoft Azure.
-      url: /azure/compliance/
+    - title: Microsoft Cloud für Branchen
+      imageSrc: /office/media/icons/on-premises-blue.png
+      summary: 'Erfahren Sie, wie Microsoft Azure, Dynamics 365, Microsoft 365 und Microsoft Power Platform Compliance-Anforderungen für Ihre Branche unterstützen können.'
+      url: /industry/
 conceptualContent:
   title: Dienstüberprüfung
   summary: 'Beginnen Sie Ihre Sicherheits- und Risikobewertungen mit einem Verständnis, wie Microsoft Kundendaten schützt.'
@@ -188,24 +188,15 @@ conceptualContent:
           text: Bedrohungs- und Sicherheitsrisikomanagement (Übersicht)
 additionalContent:
   sections:
-    - title: Erste Schritte mit der Compliance in Microsoft 365
-      summary: 'Wenn Sie noch nicht mit der Microsoft 365 der Compliance begonnen haben und sich fragen, wo Sie beginnen sollten, enthält dieser Abschnitt Links zu wichtigen Lösungen und priorisiert wichtige Compliancebereiche.'
+    - title: Erste Schritte mit Compliance in Microsoft-Onlinediensten
+      summary: 'Wenn Sie noch nicht mit Compliance vertraut sind und sich fragen, wo Sie mit Microsoft-Onlinediensten beginnen sollten, enthält dieser Abschnitt Links zu den wichtigsten Compliancebereichen für jeden Dienst.'
       items:
-        - title: Informationen zu Compliance-Manager
-          summary: 'Erfahren Sie, was Compliance-Manager ist, wie er dazu beiträgt, die Compliance zu vereinfachen und Risiken zu reduzieren, und wie er die wichtigsten Komponenten aufweist.'
-          url: /microsoft-365/compliance/compliance-manager
-        - title: Verwalten der Insider-Risiken
-          summary: 'Minimieren Sie interne Risiken, indem Sie bösartige und unbeabsichtigte Aktivitäten in Ihrer Organisation erkennen, untersuchen und darauf einwirken.'
-          url: /microsoft-365/compliance/insider-risk-solution-overview
-        - title: Informationsschutz verwalten
-          summary: 'Verwenden Sie Microsoft Information Protection (MIP), um vertrauliche Informationen zu ermitteln, zu klassifizieren und zu schützen, unabhängig davon, wo sie sich befinden oder unterwegs sind.'
-          url: /microsoft-365/compliance/protect-information
-        - title: Verwalten der Informationsgovernance
-          summary: 'Verwenden Sie die Microsoft Information Governance (MIG)-Funktionen, um Ihre Daten im Rahmen von Compliance- oder behördlichen Anforderungen zu verwalten.'
-          url: /microsoft-365/compliance/manage-information-governance
-        - title: Verwalten von eDiscovery
-          summary: 'Verwenden Sie eDiscovery, um Inhalte in Rechtsfällen als Nachweise zu identifizieren und zu analysieren.'
-          url: /microsoft-365/compliance/ediscovery
-        - title: Bereitstellen des Informationsschutzes für Datenschutzbestimmungen
-          summary: 'Identifizieren, Suchen, Schützen, Verwalten und Reagieren auf Datenschutzvorfälle für personenbezogene Daten, die in Microsoft 365 Diensten gespeichert sind, die den Datenschutzbestimmungen unterliegen.'
-          url: /microsoft-365/solutions/information-protection-deploy
+        - title: Microsoft Azure
+          summary: 'Azure Compliance bietet Ihnen Complianceangebote, Blueprints, Compliance-Leitfäden und Ressourcen, die Ihnen helfen, Ihre Compliance-Verpflichtungen zu erfüllen.'
+          url: /azure/compliance/
+        - title: Dynamics 365
+          summary: 'Business Central enthält Funktionen und basiert auf einer Plattform, die es Kunden erleichtert, compliance- und behördliche Vorschriften einzuhalten.'
+          url: /dynamics365/business-central/compliance/compliance-overview
+        - title: Microsoft 365
+          summary: 'Wenn Ihr Unternehmen gesetzliche oder behördliche Standards einhalten muss, beginnen Sie hier, um mehr über die Compliance von Microsoft 365 zu erfahren.'
+          url: /microsoft-365/compliance/
