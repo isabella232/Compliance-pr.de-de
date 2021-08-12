@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 42f5677b923edc225833882bc3916e698fde369e
-ms.sourcegitcommit: 48b8ec2dd00e957508e5af82458bf697e1a97ebb
+ms.openlocfilehash: f732ccf412272ec7138ac24fcc1f89dcf9bacacf1e64865ebfb9ba4e9dc6daf8
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53395645"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291003"
 ---
 # <a name="human-resources-overview"></a>Personalwesen (Übersicht)
 
@@ -48,7 +48,7 @@ Zusätzlich zur Überprüfung vor dem Anstellungsstatus müssen Microsoft-Mitarb
 
 ## <a name="how-does-microsoft-ensure-employees-maintain-sufficient-skills-and-knowledge-to-perform-their-responsibilities-and-follow-microsoft-policies"></a>Wie stellt Microsoft sicher, dass Die Mitarbeiter über ausreichende Fähigkeiten und Kenntnisse verfügen, um ihre Aufgaben zu erfüllen und die Microsoft-Richtlinien zu befolgen?
 
-Alle Microsoft-Mitarbeiter müssen eine grundlegende Sicherheitssensibilisierungsschulung durchführen. Die Erstschulung findet statt, wenn ein neuer Mitarbeiter seine Arbeit bei Microsoft aufnimmt, und danach findet jedes Jahr eine jährliche Auffrischungsschulung statt. Die Schulung soll den Mitarbeitern ein Verständnis des grundlegenden Sicherheitsansatzes von Microsoft vermitteln. Eine entsprechende rollenbasierte Sicherheitsschulung ist auch erforderlich, bevor ein bestimmter Zugriff gewährt wird, der für die Beruflichen Verantwortlichkeiten einer Person erforderlich ist. Die Sicherheitsschulungen der Microsoft-Mitarbeiter werden jährlich aktualisiert, und wenn System- oder Richtlinienänderungen neue Schulungen erfordern.
+Alle Microsoft-Mitarbeiter müssen eine grundlegende Sicherheitssensibilisierungsschulung durchführen. Die Erstschulung findet statt, wenn ein neuer Mitarbeiter seine Arbeit bei Microsoft aufnimmt, und danach findet jedes Jahr eine jährliche Auffrischungsschulung statt. Die Schulung ist so konzipiert, dass die Mitarbeiter ein Verständnis für den grundlegenden Sicherheitsansatz von Microsoft erhalten. Eine entsprechende rollenbasierte Sicherheitsschulung ist auch erforderlich, bevor ein bestimmter Zugriff gewährt wird, der für die Beruflichen Verantwortlichkeiten einer Person erforderlich ist. Die Sicherheitsschulungen der Microsoft-Mitarbeiter werden jährlich aktualisiert, und wenn System- oder Richtlinienänderungen neue Schulungen erfordern.
 
 Zusätzlich zur Schulung zur Sicherheitssensibilisierung müssen Microsoft-Mitarbeiter Schulungen zu Den Standards of Business Conduct durchführen. Diese Schulung umfasst Geschäftsweisheit, Sicherheit der Mitarbeiter, Datenschutz, Anti-Belästigung und Nulltoleranz für nicht-ethisches Verhalten. Am Ende des Kurses müssen die Mitarbeiter bestätigen, dass sie sich an den Microsoft-Verhaltenskodex halten, der auf Organisationsebene nachverfolgt wird. Die Schulung "Standards of Business Conduct" wird jährlich aktualisiert.
 
@@ -60,7 +60,7 @@ Wenn die Anstellung eines Serviceteambenutzers als beendet gekennzeichnet ist, w
 
 ## <a name="how-does-microsoft-ensure-third-party-suppliers-meet-the-same-personnel-requirements-as-microsoft-employees"></a>Wie stellt Microsoft sicher, dass Drittanbieter die gleichen Personalanforderungen erfüllen wie Microsoft-Mitarbeiter?
 
-Microsoft-Onlinedienste erfordern, dass Drittanbieter über einen signierten Master Supplier Services Agreement (MSSA) verfügen. Dieser Vertrag erfordert, dass der Lieferant die Microsoft-Richtlinien und -Verfahren, einschließlich der Personalsicherheitsrichtlinien und -verfahren, einhält. Microsoft überwacht die Einhaltung der Überprüfungsanforderungen für Mitarbeiter von Drittanbietern, indem das Ergebnis des Screenings direkt nachzuverfolgen. Microsoft verlangt von Lieferanten, dass sie Die Ergebnisse von Überprüfungen für Mitarbeiter von Drittanbietern direkt an Microsoft übermitteln.
+Microsoft-Onlinedienste erfordern, dass Drittanbieter über einen signierten Master Supplier Services Agreement (MSSA) verfügen. Dieser Vertrag erfordert, dass der Lieferant die Microsoft-Richtlinien und -Verfahren, einschließlich der Personalsicherheitsrichtlinien und -verfahren, einhält. Microsoft überwacht die Einhaltung der Überprüfungsanforderungen für Mitarbeiter von Drittanbietern, indem das Ergebnis des Screenings direkt nachzuverfolgen. Microsoft verlangt von Lieferanten, dass Sie Die Ergebnisse der Überprüfung für Mitarbeiter von Drittanbietern direkt an Microsoft übermitteln.
 
 ## <a name="related-external-regulations--certifications"></a>Verwandte externe Vorschriften & Zertifizierungen
 

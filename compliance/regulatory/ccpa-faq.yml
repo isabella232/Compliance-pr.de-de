@@ -15,12 +15,12 @@ metadata:
   ms.collection:
   - M365-security-compliance
   - MS-Compliance
-  ms.openlocfilehash: 2c0cbda2280ee8fad77dd5d879341b291bbe3aa2
-  ms.sourcegitcommit: 5d8e670e9d9968458047b51b6b2930f7bd14a011
+  ms.openlocfilehash: 9ed5d5c7062dcdbd2b572b32b4a9ef082d46bc764dc9e46a195a6677d4623a0d
+  ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 06/25/2021
-  ms.locfileid: "53142280"
+  ms.lasthandoff: 08/05/2021
+  ms.locfileid: "54290253"
 title: California Consumer Privacy Act (CCPA) – häufig gestellte Fragen
 summary: >
   > [!Note]
@@ -121,7 +121,7 @@ sections:
   - question: >
       Was unternimmt Microsoft zur Einhaltung der CCPA-Compliance?
     answer: >
-      Da Microsoft DSGVO-bezogene DSRs weltweit implementiert hat, sind wir derzeit hervorragend positioniert, um die damit verbundenen CCPA-Anforderungen zu erfüllen. Wir haben auch unsere Vereinbarungen zum Teilen von Daten von Drittanbietern überprüft und Schritte unternommen, um sicherzustellen, dass die erforderlichen Vertragsbedingungen vorhanden sind, um sicherzustellen, dass wir keine persönlichen Daten "verkaufen".
+      Da Microsoft DSGVO-bezogene DSRs weltweit implementiert hat, sind wir derzeit hervorragend positioniert, um die damit verbundenen CCPA-Anforderungen zu erfüllen. Wir haben auch unsere Vereinbarungen über die Gemeinsame Nutzung von Daten von Drittanbietern überprüft und Schritte unternommen, um sicherzustellen, dass die erforderlichen Vertragsbedingungen vorhanden sind, um sicherzustellen, dass wir keine persönlichen Daten "verkaufen".
   - question: >
       Was sind einige Tools, die meiner Organisation bei der Vorbereitung für CCPA helfen können?
     answer: >

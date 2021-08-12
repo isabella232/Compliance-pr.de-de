@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 579e300213f15d6416b7c0c8f9d37668c9934faa
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: 6683d038027ac940ec480af6baca58c7f6bae0d682b023e1bee4259344862019
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53384735"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289363"
 ---
 # <a name="isoiec-27018-code-of-practice-for-protecting-personal-data-in-the-cloud"></a>ISO/IEC 27018-Verhaltenskodex zum Schutz von personenbezogenen Daten in der Cloud
 
@@ -75,15 +75,15 @@ Weitere Informationen zur Compliance mit Azure, Dynamics 365 und anderen Onlined
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365-Anwendbarkeit und eingeschlossene Dienste
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365-Anwendbarkeit und im Leistungsumfang enthaltene Dienste
 
 Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Dienste und -Abonnements zu bestimmen:
 
 | **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
 |:------------------|:----------------------|
 | **Office 365** | Access Online, Azure Active Directory, Azure Communications Service, Compliance Manager, Kunden-Lockbox, Delve, Exchange Online Protection, Exchange Online, Forms, Griffin, Identity Manager, Lockbox (Torus), Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365-Kundenportal, Office 365-Microservices (einschließlich, aber nicht beschränkt auf Kaizala, ObjectStore, Sway, PowerPoint Online-Dokumentdienst, Abfrageanmerkungsdienst, School Data Sync, Sifon, Speech, StaffHub, eXtensible-Anwendungsprogramm), Office 365 Security & Compliance Center, Office Online, Office Pro Plus, Office Services-Infrastruktur, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, Project Online, Dienstverschlüsselung mit Kundenschlüssel, SharePoint Online, Skype for Business, Stream |
-| **GCC** | Azure Active Directory, Azure Communications Service, Compliance Manager, Delve, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, Stream |
-| **GCC – High** | Azure Active Directory, Azure Communications Service, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business |
+| **GCC** | Azure Active Directory, Azure Communications Service, Compliance-Manager, Delve, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, Stream |
+| **GCC Hoch** | Azure Active Directory, Azure Communications Service, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business |
 | **DoD** | Azure Active Directory, Azure Communications Service, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, Power BI, SharePoint Online, Skype for Business |
 
 ### <a name="office-365-audits-reports-and-certificates"></a>Office 365-Audits, -Berichte und -Zertifikate

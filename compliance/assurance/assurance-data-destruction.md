@@ -1,6 +1,6 @@
 ---
 title: Datenvernichtung in Microsoft 365
-description: Eine Übersicht über Microsoft-Richtlinien zum Recycling, zur Entsorgung oder Zerstörung von Microsoft 365-Datenträgerlaufwerken und -servern.
+description: Eine Übersicht über Microsoft-Richtlinien zur Wiederverwendung, Entsorgung oder Vernichtung Microsoft 365 Datenträgerlaufwerke und -server im Rechenzentrum.
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -19,20 +19,20 @@ f1.keywords:
 - NOCSH
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 1b9d410422e22fe67cb27617ba16e2ddbbaec0fd
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: bf7769852a41e8f78724c64e9a189ba7652c8f95a4cb71db1d5a7c3d286892e5
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51497638"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288703"
 ---
 # <a name="data-destruction-in-microsoft-365"></a>Datenvernichtung in Microsoft 365
 
 ## <a name="physical-data-destruction"></a>Phyische Datenvernichtung
 
-Microsoft verfügt über Standardrichtlinien für die Umgang mit Daten, die das Recyceln und die Entsorgung von Festplattenlaufwerken sowie die Außerbetriebnahme von Servern behandeln. Bevor Microsoft 365-Festplattenlaufwerke erneut verwendet werden, führt Microsoft einen physikalischen Bestörungsprozess durch, der mit dem National Institute of Standards and Technology Special Publication 800-88 ([NIST SP 800-88 Guidelines for Media Sanitization](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-88r1.pdf)) konsistent ist. Da alle Festplattenlaufwerke in Microsoft 365 mithilfe der BitLocker-Verschlüsselung auf Volumeebene verschlüsselt werden, ist eine NIST SP 800-88-kompatible Löschung technisch nicht erforderlich. Dennoch führt Microsoft diesen Prozess durch.
+Microsoft verfügt über Standardrichtlinien für die Umgang mit Daten, die das Recyceln und die Entsorgung von Festplattenlaufwerken sowie die Außerbetriebnahme von Servern behandeln. Bevor Microsoft 365 Laufwerke wiederverwendet werden, führt Microsoft einen physischen Bereinigungsprozess durch, der mit dem National Institute of Standards and Technology Special Publication 800-88 ([NIST SP 800-88 Guidelines for Media Sanitization](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-88r1.pdf)) konsistent ist. Da alle Laufwerke in Microsoft 365 mithilfe der BitLocker-Volumeebene verschlüsselt werden, ist das Löschen von NIST SP 800-88 technisch nicht erforderlich. Dennoch führt Microsoft diesen Prozess durch.
 
-Fehlgeschlagene Datenträger, die in Microsoft 365-Rechenzentren verwendet werden, werden physisch zerstört und über den ISO-Prozess überwacht. Anhand des Ressourcentyps werden die jeweils geeigneten Entsorgungsmethoden ermittelt. Bei Festplatten, die nicht gelöscht werden können, verwendet Microsoft einen Vernichtungsprozess, um die Medien zu zerstören und die Wiederherstellung von Informationen unmöglich zu machen. So werden beispielsweise Datenträger physisch vernichtet, pulverisiert oder verbrannt. Microsoft behält alle Aufzeichnungen der Zerstörung bei und führt einen ähnlichen Besentisierungsprozess auf Servern durch, die in Microsoft 365 wiederverwendet werden. Diese Richtlinien umfassen sowohl elektronische als auch physische Bereinigung.
+Fehlerhafte Datenträger, die in Microsoft 365 Rechenzentren verwendet werden, werden physisch zerstört und über den ISO-Prozess überwacht. Anhand des Ressourcentyps werden die jeweils geeigneten Entsorgungsmethoden ermittelt. Bei Festplatten, die nicht gelöscht werden können, verwendet Microsoft einen Vernichtungsprozess, um die Medien zu zerstören und die Wiederherstellung von Informationen unmöglich zu machen. So werden beispielsweise Datenträger physisch vernichtet, pulverisiert oder verbrannt. Microsoft bewahrt alle Aufzeichnungen der Vernichtung auf und führt einen ähnlichen Bereinigungsprozess auf Servern durch, die innerhalb Microsoft 365 wiederverwendet werden. Diese Richtlinien umfassen sowohl elektronische als auch physische Bereinigung.
 
 Jedes Rechenzentrum verwendet einen lokalen physischen Vernichtungsprozess, um seine Datenträger zu entsorgen. In jedem Bereich des Rechenzentrums sind sichere Container für Speichermedien vorhanden, die zur Entsorgung bestimmt sind. Jeder sichere Container für Speichermedien ist videoüberwacht. Sobald ein solcher Container eine Füllmenge von ungefähr 50% erreicht hat, kontaktiert das Standortdienst-Team das Team für physische Sicherheit, um die Entfernung zu koordinieren. Mitarbeiter des Standortdienstes und eines Sicherheitsbüros entfernen den sicheren Entsorgungsbehälter und legen ihn in einem festgelegten, geschützten Lagerbereich ab. Die Richtlinien und Verfahren zur Regelung der Handhabung von Datenträgern während der Entsorgung werden routinemäßig getestet, einschließlich Verfahren zur Sicherstellung des Zustands der Maschinen, die zur Vernichtung zugelassen sind.
 

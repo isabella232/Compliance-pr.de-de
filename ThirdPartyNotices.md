@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 788258d786752d9430c25170ce67efe4b74c6e7a
-ms.sourcegitcommit: 4e61ccf2bbb069c1c8647686edb79df3016c6c1a
+ms.openlocfilehash: cd29b96580830a6ad502cdfaa77ae7d09c6fde68b020d505038428a7c2510b88
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506669"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288174"
 ---
 ## <a name="legal-notices"></a>Rechtliche Hinweise
 Microsoft und alle Mitwirkenden erteilen Ihnen eine Lizenz für die Microsoft-Dokumentation und andere Inhalte in diesem Repository unter der [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode) gemäß der [LIZENZ](LICENSE)-Datei, und Sie erhalten eine Lizenz für jeden Code im Repository unter der [MIT-Lizenz](https://opensource.org/licenses/MIT) gemäß der [LIZENZCODE](LICENSE-CODE)-Datei.

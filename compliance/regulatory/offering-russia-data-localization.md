@@ -1,6 +1,6 @@
 ---
 title: Lokalisierungsanforderungen für personenbezogene Daten in Russisch
-description: Erfahren Sie, wie die Erfassung personenbezogener Daten, die Aufzeichnung personenbezogener Daten russischer Bürger, die Systematisierung, das Auffangen, die Speicherung, die Klarstellung und die Extraktion in Microsoft-Dienste und Datenbanken in Russland durchgeführt werden.
+description: Erfahren Sie, wie die Erfassung von personenbezogenen Daten, die Aufzeichnung von personenbezogenen Daten von russischen Bürgern, die Systematisierung, die Behebung, die Speicherung, die Klarstellung und die Extraktion in Microsoft-Dienste und Datenbanken in Russland durchgeführt werden.
 keywords: Microsoft 365, Compliance, Angebote
 localization_priority: None
 ms.prod: microsoft-365-enterprise
@@ -16,20 +16,20 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 1dff74da16ca0a58dd7c11445ee4b435d8737855
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 559614554eb661be33a751c212080bea20d967565daf37de59a292851b9a28e8
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53088904"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54287144"
 ---
 # <a name="russian-personal-data-localization-requirements"></a>Lokalisierungsanforderungen für personenbezogene Daten in Russisch
 
 Seit dem 1. September 2015 müssen Organisationen, die als Operatoren für personenbezogene Daten gelten, sicherstellen, dass bei der Erfassung personenbezogener Daten die Aufzeichnung, Systematisierung, Speicherung, Klarstellung (Aktualisierung, Änderung) und Extraktion von personenbezogenen Daten durch die Datenbanken in Russland durchgeführt werden ("Anforderung der Lokalisierung personenbezogener Daten"). <sup>1</sup>
 
-Microsoft-Dienste für Organisationen verfügbar (einschließlich, aber nicht beschränkt auf Bildungseinrichtungen) (nachfolgend als "Kunde" bezeichnet), einschließlich derjenigen, die die Verarbeitung personenbezogener Daten wie Microsoft Azure, Microsoft 365, Dynamics 365 und Power Platform ermöglichen, werden von Rechenzentren außerhalb Von Russland bereitgestellt (weitere Informationen finden Sie im [Microsoft Trust Center).](https://www.microsoft.com/trust-center)
+Microsoft-Dienste für Organisationen verfügbar (einschließlich, aber nicht beschränkt auf Bildungseinrichtungen) (nachfolgend als "Kunde" bezeichnet), einschließlich derjenigen, die die Verarbeitung personenbezogener Daten wie Microsoft Azure, Microsoft 365, Dynamics 365 und Power Platform ermöglichen, werden von Rechenzentren außerhalb von Russland bereitgestellt (weitere Informationen finden Sie im [Microsoft Trust Center).](https://www.microsoft.com/trust-center)
 
-Basierend auf der Art und dem Inhalt von Informationen, die von Kundeninformationssystemen verarbeitet werden, können solche Systeme, einschließlich derjenigen, die Microsoft-Cloudprodukte verwenden, als personenbezogenes Dateninformationssystem ("PDIS", "ISPD") betrachtet werden. In Fällen, in denen der Kunde Microsoft-Dienste in einem System verwenden möchte, das durch seine Architektur und die Art der verarbeiteten Informationen als PDIS gekennzeichnet ist, lädt Microsoft seine Kunden ein, unter anderem die unten angegebenen verfügbaren Lösungen zu berücksichtigen. Alle bereitgestellten Szenarien sind für Kunden als zusätzliche Option für standardmäßige Geschäftsangebote verfügbar.
+Basierend auf der Art und dem Inhalt von Informationen, die von Kundeninformationssystemen verarbeitet werden, können solche Systeme, einschließlich derjenigen, die Microsoft-Cloudprodukte verwenden, als personenbezogenes Dateninformationssystem ("PDIS", "ISPD") betrachtet werden. In Fällen, in denen der Kunde Microsoft-Dienste in einem System verwenden möchte, das durch seine Architektur und die Art der verarbeiteten Informationen als PDIS qualifiziert ist, lädt Microsoft seine Kunden ein, unter anderem die unten angegebenen verfügbaren Lösungen zu berücksichtigen. Alle bereitgestellten Szenarien sind für Kunden als zusätzliche Option für standardmäßige Geschäftsangebote verfügbar.
 
 Es ist zu beachten, dass es der Kunde als PDIS-Betreiber für personenbezogene Daten ist, der für die Einhaltung zuständig ist, und die geltenden rechtlichen Anforderungen für die Lokalisierung personenbezogener Daten analysiert und bewertet und nach eigenem Ermessen unabhängig ausreichende Maßnahmen bestimmt, um sicherzustellen, dass die Verarbeitung personenbezogener Daten in PDIS dem russischen Gesetz über personenbezogene Daten entspricht. <sup>2</sup>
 

@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 55f576c4fdfd22b487a948c16eca4327f45494c6
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: 929b83821fcb68059f9a091bf1bf4b043613dad24f0de2830b58b6ca72b5e091
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53385165"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54287634"
 ---
 # <a name="spain-esquema-nacional-de-seguridad-ens-high-level-security-measures"></a>Esquema Nacional de Seguridad (ENS) Spaniens – Sicherheitsmaßnahmen
 
@@ -52,11 +52,11 @@ Microsoft Azure und Microsoft Office 365 wurden einer strengen Bewertung durch B
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365-Anwendbarkeit und eingeschlossene Dienste
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365-Anwendbarkeit und im Leistungsumfang enthaltene Dienste
 
 Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Dienste und -Abonnements zu bestimmen:
 
-| **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienstes** |
+| **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
 |:------------------|:----------------------|
 | **Office 365** | Exchange Online, Exchange Online Protection, Microsoft Teams, MyAnalytics, Office 365-Kundenportal, Office Online, Office-Dienstinfrastruktur, Outlook Mobile, SharePoint Online, Skype for Business |
 

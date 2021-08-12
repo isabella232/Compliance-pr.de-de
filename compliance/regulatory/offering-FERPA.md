@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: abded0cc92e49ed1c12eb44a3200ffdebed18b4f
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: 10300b66564465e8362ca72c8cbb1604d590a45f91608b7b5dbcb0a55054d4b5
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53385115"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54287584"
 ---
 # <a name="family-educational-rights-and-privacy-act-ferpa"></a>FERPA (Family Educational Rights and Privacy Act)
 
@@ -43,7 +43,7 @@ FERPA erfordert oder erkennt keine Audits oder andere Zertifizierungen an. Daher
 
 Aufgrund dieser vertraglichen Verpflichtungen können Kunden, die FERPA unterliegen – sowohl Bildungseinrichtungen als auch Dritte, denen sie Zugriff auf vertrauliche Schülerdaten gewähren – die im Umfang enthaltenen Microsoft Business Cloud Services sicher verwenden, um diese Daten zu verarbeiten, zu speichern und zu übertragen.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft-cloudbasierte Plattformen &-Dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Eingeschlossene Cloudplattformen und -dienste von Microsoft
 
 Zu den Diensten, für die Microsoft zustimmt, als "Schulfunktionär" mit "berechtigten Bildungs interessen" in Kundendaten bezeichnet zu werden, gehören:
 
@@ -59,22 +59,22 @@ Weitere Informationen zu Azure, Dynamics 365 und anderen Onlinediensten finden S
 
 ## <a name="office-365-and-ferpa"></a>Office 365 und FERPA
 
-### <a name="office-365-cloud-environments"></a>Office 365 Cloudumgebungen
+### <a name="office-365-cloud-environments"></a>Office 365-Cloudumgebungen
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 Anwendbarkeit und In-Scope-Dienste
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365-Anwendbarkeit und im Leistungsumfang enthaltene Dienste
 
-Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365 Dienste und Abonnements zu ermitteln:
+Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Dienste und -Abonnements zu bestimmen:
 
-| **Anwendbarkeit** | **In-Scope-Dienste** |
+| **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
 |:------------------|:----------------------|
-| **Office 365** | Azure Active Directory, Azure Information Protection, Bookings, Compliance Manager, Delve, Exchange Online, Exchange Online Protection, Formulare, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Defender für Office 365, Microsoft Graph, Microsoft Teams, Microsoft To-Do for Web, MyAnalytics, Office 365 Advanced Compliance Add-On, Office 365 Cloud App Security, Office 365 Groups, Office 365 Security & Compliance Center, Office 365 Video, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
+| **Office 365** | Azure Active Directory, Azure Information Protection, Bookings, Compliance Manager, Delve, Exchange Online, Exchange Online Protection, Forms, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Defender für Office 365, Microsoft Graph, Microsoft Teams, Microsoft To Do für das Web, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Cloud App Security, Office 365-Gruppen, Office 365 Security & Compliance Center, Office 365 Video, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
 | **GCC** | Azure Active Directory, Compliance-Manager, Delve, Exchange Online, Formulare, Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, harePoint Online, Skype for Business, Stream |
-| **GCC High** | Azure Active Directory, Exchange Online, Formulare, Microsoft Defender für Office 365, Microsoft Teams, Office 365 Advanced Compliance Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business |
-| **DoD** | Azure Active Directory, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, Office 365 Advanced Compliance Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, Power BI, SharePoint Online, Skype for Business |
+| **GCC Hoch** | Azure Active Directory, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business |
+| **DoD** | Azure Active Directory, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, Power BI, SharePoint Online, Skype for Business |
 
-### <a name="office-365-audits-reports-and-certificates"></a>Office 365 Überwachungen, Berichte und Zertifikate
+### <a name="office-365-audits-reports-and-certificates"></a>Office 365-Prüfungen, -Berichte und -Zertifikate
 
 FERPA erfordert oder erkennt keine Audits oder Zertifizierungen.
 
@@ -98,5 +98,5 @@ Dieses US-Bundesgesetz schreibt den Schutz der Privatsphäre der Bildungsdatens�
 - [Family Educational Rights and Privacy Act](https://www.ed.gov/policy/gen/guid/fpco/ferpa/index.html)
 - [Electronic Code of Federal Regulations: FERPA](https://aka.ms/FERPA-GPO)
 - [Federal Register: FERPA Final Rule](https://aka.ms/ferpa-reg)
-- [Nutzungsbedingungen für Microsoft-Onlinedienste](https://aka.ms/Online-Services-Terms)
+- [Microsoft Online Services-Nutzungsbedingungen](https://aka.ms/Online-Services-Terms)
 - [Compliance im Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)

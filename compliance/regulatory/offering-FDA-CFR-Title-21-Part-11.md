@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f5710d392e1d2293bfee976873e5d7c603918e67
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: 39c7e69ab980a7d75fced1d59474478df6f05c9ec9549db6e7fa72ba7f9278a8
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53385125"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54287564"
 ---
 # <a name="food-and-drug-administration-cfr-title-21-part-11"></a>Cfr-Titel 21 Teil 11 der Verwaltung von Produkten und Suchtmitteln
 
@@ -29,7 +29,7 @@ ms.locfileid: "53385125"
 
 Der Code of Federal Regulations (CFR) enthält die Regeln und Bestimmungen für Leitende Abteilungen und Behörden der US-Regierung. Jeder der 50 Titel des CFR bezieht sich auf einen anderen regulierten Bereich.
 
-[DER TITEL 21](https://aka.ms/FDA-CFR) von FDA CFR regelt In den Vereinigten Staaten hergestellte oder konsumierte Produkte und Suchtmittel unter der Zuständigkeit der Food and Drug Administration (FDA), der Drug Enforcement Administration und der Office der National Drug Control Policy. Die in CFR-Titel 21 Teil 11 beschriebenen Bestimmungen legen die Grundregeln für die Technologiesysteme fest, die Informationen verwalten, die von Organisationen verwendet werden, die der Aufsicht über DIE VONRM unterliegen. Jedes Technologiesystem, das solche GxP-Prozesse wie Good Practice (GLP), Good Clinical Practices (GCP) und Good Manufacturing Practices (GIF) steuert, erfordert auch eine Überprüfung seiner Einhaltung von GxP.
+[DER TITEL 21](https://aka.ms/FDA-CFR) von FDA CFR regelt In den VEREINIGTEn Staaten hergestellte oder konsumierte Produkte und Konsummittel unter der Zuständigkeit der Food and Drug Administration (FDA), der Drug Enforcement Administration und der Office der National Drug Control Policy. Die in CFR-Titel 21 Teil 11 beschriebenen Bestimmungen legen die Grundregeln für die Technologiesysteme fest, die Informationen verwalten, die von Organisationen verwendet werden, die der Aufsicht über DIE VONRM unterliegen. Jedes Technologiesystem, das solche GxP-Prozesse wie Good Practice (GLP), Good Clinical Practices (GCP) und Good Manufacturing Practices (GIF) steuert, erfordert auch eine Überprüfung seiner Einhaltung von GxP.
 
 CFR Title 21 Part 11 legt Anforderungen fest, um sicherzustellen, dass elektronische Datensätze und Signaturen vertrauenswürdige, zuverlässige und gleichwertige Ersatz für Papieraufzeichnungen und handschriftliche Signaturen sind. Es bietet auch Richtlinien zur Verbesserung der Sicherheit von Computersystemen in VON DER FDA regulierten Branchen. Subjektunternehmen müssen nachweisen, dass ihre Prozesse und Produkte so funktionieren, wie sie vorgesehen sind, und wenn sich diese Prozesse und Produkte ändern, müssen sie diesen Nachweis erneut bestätigen. Die Richtlinien für bewährte Methoden umfassen:
 
@@ -41,13 +41,13 @@ CFR Title 21 Part 11 legt Anforderungen fest, um sicherzustellen, dass elektroni
 
 Microsoft Enterprise Cloud Services werden regelmäßig unabhängigen SOC 1 Type 2- und SOC 2 Type 2-Prüfungen von Drittanbietern unterzogen und sind nach iso/IEC 27001- und ISO/IEC 27018-Standards zertifiziert.
 
-Obwohl sich diese regelmäßigen Audits und Zertifizierungen nicht speziell auf die Einhaltung gesetzlicher Vorschriften von DERA konzentrieren, sind ihr Zweck und ihre Ziele denen des CFR-Titels 21, Teil 11, ähnlich und dienen dazu, die Vertraulichkeit, Integrität und Verfügbarkeit von in Microsoft Cloud Services gespeicherten Daten sicherzustellen. Unser Qualifizierungsansatz basiert auch auf bewährten Methoden der Branche, einschließlich der GAMP-Reihe der GAMP-Reihe (International Systems for Engineering, ISPE) und des Pic/S -Good Practices (Pic/S) good Practices für computerisierte Systeme in regulierten GxP-Umgebungen.
+Obwohl sich diese regelmäßigen Audits und Zertifizierungen nicht speziell auf die Einhaltung gesetzlicher Vorschriften von DERA konzentrieren, sind ihr Zweck und ihre Ziele denen des CFR-Titels 21, Teil 11, ähnlich und dienen dazu, die Vertraulichkeit, Integrität und Verfügbarkeit von in Microsoft Cloud Services gespeicherten Daten sicherzustellen. Unser Qualifizierungsansatz basiert auch auf bewährten Methoden der Branche, einschließlich der GAMP-Reihe der GAMP-Leitfäden für die International Systems for Engineering (ISPE) und des Pic/S -Good Practices (Pic/S) Good Practices for Computerized Systems in Regulated GxP Environments.
 
-Kunden können den Zugriff auf die Complianceberichte anfordern, sofern die Bedingungen des Geheimhaltungsvertrags eingehalten werden, über ihren Microsoft-Kontomitarbeiter oder über das [Service Trust Portal.](https://aka.ms/stphelp) Darüber hinaus bieten Qualifikationsrichtlinien für Microsoft Azure und Microsoft Office 365 eine ausführliche Erklärung dazu, wie Microsoft-Überwachungskontrollen den Anforderungen von CFR-Titel 21 Teil 11 entsprechen, Anleitungen für die Implementierung einer FDA-Qualifizierungsstrategie und eine Beschreibung der Bereiche der gemeinsamen Verantwortung.
+Kunden können den Zugriff auf die Complianceberichte anfordern, sofern die Bedingungen des Geheimhaltungsvertrags eingehalten werden, über ihren Microsoft-Kontomitarbeiter oder über das [Service Trust Portal.](https://aka.ms/stphelp) Darüber hinaus bieten Qualifikationsrichtlinien für Microsoft Azure und Microsoft Office 365 eine ausführliche Erläuterung, wie Microsoft-Überwachungskontrollen den Anforderungen des CFR-Titels 21 Teil 11 entsprechen, Anleitungen für die Implementierung einer FDA-Qualifizierungsstrategie und eine Beschreibung der Bereiche der gemeinsamen Verantwortung.
 
 Erfahren Sie, wie Sie Ihre CFR Title 21-Bereitstellung mit DEM TITEL 21 von FDA beschleunigen: [Herunterladen des Azure FDA 21-Qualifikationshandbuchs](https://go.microsoft.com/fwlink/p/?linkid=2086604)
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft-cloudbasierte Plattformen &-Dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Eingeschlossene Cloudplattformen und -dienste von Microsoft
 
 Obwohl es keine Zertifizierung für die Einhaltung von CFR-Titel 21 Teil 11 gibt, wurden die folgenden Microsoft Enterprise Cloud Services unabhängigen Audits von Drittanbietern unterzogen, die Kunden bei ihren Compliance-Bemühungen helfen können. Zu diesen Diensten gehören:
 
@@ -65,7 +65,7 @@ Die Prüfberichte für die Standards SOC 1 und SOC 2 Typ 2, ISO/IEC 27001 und IS
 
 **Für wen gilt der Standard?**
 
-DER CFR-Titel 21, Teil 11, gilt für Organisationen mit Produkten und Dienstleistungen, die sich mit DEN VON DEREN regulierten Aspekten der Forschung, der klinikbezogenen Studie, der Wartung, der Herstellung und des Vertriebs von Life Science-Produkten befassen.
+DER CFR-Titel 21, Teil 11, gilt für Organisationen mit Produkten und Dienstleistungen, die sich mit von DER FDA regulierten Aspekten der Forschung, der klinikbezogenen Studie, der Wartung, der Herstellung und des Vertriebs von Life Science-Produkten befassen.
 
 **Wie demonstrieren Microsoft Enterprise Cloud Services die Compliance mit DEM CFR-Titel 21 Teil 11 von FDA?**
 
@@ -95,7 +95,7 @@ Microsoft stellt sicher, dass seine Clouddienste für Unternehmen die in den gel
 - [Code of Federal Regulations Title 21](https://aka.ms/FDA-CFR)
 - [LEITFADEN für Branche Teil 11: Elektronische Datensätze und Signaturen](https://www.fda.gov/RegulatoryInformation/Guidances/ucm125067.htm)
 - [Qualifikationsrichtlinien für Azure](https://aka.ms/azurefda21cfrpart11qualguide)
-- [Qualifikationsrichtlinien für Office 365](https://aka.ms/o365-qualification-guideline)
+- [Qualifizierungsrichtlinien für Office 365](https://aka.ms/o365-qualification-guideline)
 - [Microsoft Common Controls Hub-Complianceframework](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 - [Microsoft Online Services-Nutzungsbedingungen](https://aka.ms/Online-Services-Terms)
 - [Microsoft Cloud for Government](https://aka.ms/govt-cloud)

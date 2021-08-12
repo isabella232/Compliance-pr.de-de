@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 93a45f3da668ef9f6115fe352b5bbbce49e15d7f
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: 04fcc05bcde30bb3ecd6e33336789839cb5a6e404e650d16875692cea38bb7b5
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53385525"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54287924"
 ---
 # <a name="title-23-nycrr-part-500"></a>Titel 23 NYCRR Teil 500
 
@@ -61,7 +61,7 @@ Nach den New Yorker Bestimmungen muss jedes Finanzinstitut:
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365-Anwendbarkeit und eingeschlossene Dienste
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365-Anwendbarkeit und im Leistungsumfang enthaltene Dienste
 
 Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Dienste und -Abonnements zu bestimmen:
 

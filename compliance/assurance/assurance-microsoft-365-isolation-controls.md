@@ -20,16 +20,16 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 1876ee933b0f94057abb2a6edd8fae9ca66111a4
-ms.sourcegitcommit: 07578a8e03b931f47c49f4e34b78cf8ba0605e8f
+ms.openlocfilehash: 2278a2475887e93733ce32b82a1d7d0b15cce91a1f1e70dbe72a6469bdd3e0b7
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53573446"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290602"
 ---
 # <a name="microsoft-365-isolation-controls"></a>Microsoft 365-Isolierungssteuerungen
 
-Microsoft arbeitet kontinuierlich daran, sicherzustellen, dass die mehrinstanzenfähige Architektur von Microsoft 365 Sicherheit, Vertraulichkeit, Datenschutz, Integrität, lokale, internationale und [Verfügbarkeitsstandards](https://www.microsoft.com/trust-center/compliance/compliance-overview)auf Unternehmensebene unterstützt. Aufgrund des Umfangs und des Umfangs der von Microsoft bereitgestellten Dienste ist es schwierig und nicht unzuverwalten, Microsoft 365 mit erheblichen menschlichen Interaktionen zu verwalten. Microsoft 365 Dienste werden über global verteilte Rechenzentren bereitgestellt, die jeweils hochgradig automatisiert sind und nur wenige Vorgänge erfordern, die eine menschliche Toucheingabe oder zugriff auf Kundeninhalte erfordern. Unsere Mitarbeiter unterstützen diese Dienste und Rechenzentren mit automatisierten Tools und äußerst sicherem Remotezugriff.
+Microsoft arbeitet kontinuierlich daran, sicherzustellen, dass die mehrinstanzenfähige Architektur von Microsoft 365 Sicherheit, Vertraulichkeit, Datenschutz, Integrität, lokale, internationale und [Verfügbarkeitsstandards](https://www.microsoft.com/trust-center/compliance/compliance-overview)auf Unternehmensebene unterstützt. Aufgrund des Umfangs und des Umfangs der von Microsoft bereitgestellten Dienste ist es schwierig und nicht unzuverwalten, Microsoft 365 mit erheblichen menschlichen Interaktionen zu verwalten. Microsoft 365 Dienste werden über global verteilte Rechenzentren bereitgestellt, die jeweils hochgradig automatisiert sind und nur wenige Vorgänge erfordern, die eine menschliche Toucheingabe oder jeglichen Zugriff auf Kundeninhalte erfordern. Unsere Mitarbeiter unterstützen diese Dienste und Rechenzentren mit automatisierten Tools und äußerst sicherem Remotezugriff.
 
 Microsoft 365 besteht aus mehreren Diensten, die wichtige Geschäftsfunktionen bereitstellen und zur gesamten Microsoft 365 Erfahrung beitragen. Jeder dieser Dienste ist eigenständig und für die Integration ineinander konzipiert. Microsoft 365 ist auf die folgenden Prinzipien ausgelegt:
 
@@ -49,12 +49,12 @@ Die beiden Hauptziele der Aufrechterhaltung der Mandantenisolation in einer mehr
 - Verhindern von Lecks oder nicht autorisiertem Zugriff auf Kundeninhalte über Mandanten hinweg; Und
 - Verhindern, dass sich aktionen eines Mandanten negativ auf den Dienst für einen anderen Mandanten auswirken
 
-In Microsoft 365 wurden mehrere Schutzformen implementiert, um zu verhindern, dass Kunden Microsoft 365 Dienste oder Anwendungen gefährden oder nicht autorisierten Zugriff auf die Informationen anderer Mandanten oder des Microsoft 365 Systems selbst erhalten, einschließlich:
+In Microsoft 365 wurden mehrere Schutzformen implementiert, um zu verhindern, dass Kunden Microsoft 365 Dienste oder Anwendungen beeinträchtigen oder nicht autorisierten Zugriff auf die Informationen anderer Mandanten oder des Microsoft 365 Systems selbst erhalten, einschließlich:
 
 - Die logische Isolierung von Kundeninhalten innerhalb jedes Mandanten für Microsoft 365 Dienste wird durch Azure Active Directory Autorisierung und rollenbasierte Zugriffssteuerung erreicht.
 - SharePoint Online bietet Datenisolationsmechanismen auf Speicherebene.
 - Microsoft verwendet strenge physische Sicherheit, Hintergrundprüfung und eine mehrstufige Verschlüsselungsstrategie, um die Vertraulichkeit und Integrität von Kundeninhalten zu schützen. Alle Microsoft 365 Rechenzentren verfügen über biometrische Zugriffssteuerungen, wobei die meisten Handflächendrucke für den physischen Zugriff erforderlich sind. Darüber hinaus müssen alle IN den USA ansässigen Microsoft-Mitarbeiter im Rahmen des Einstellungsprozesses eine Standard-Hintergrundüberprüfung erfolgreich abschließen. Weitere Informationen zu den Steuerelementen, die für den administrativen Zugriff in Microsoft 365 verwendet werden, finden Sie unter [Microsoft 365 Administrative Zugriffssteuerungen.](assurance-administrative-access-controls-overview.md)
-- Microsoft 365 verwendet dienstseitige Technologien, die Ruhe- und Transitinhalte von Kunden verschlüsseln, einschließlich BitLocker, Dateiverschlüsselung, TLS (Transport Layer Security) und Internet Protocol Security (IPsec). Spezifische Informationen zur Verschlüsselung in Microsoft 365 finden Sie unter [Datenverschlüsselungstechnologien in Microsoft 365](/microsoft-365/compliance/office-365-encryption-in-the-microsoft-cloud-overview).
+- Microsoft 365 verwendet dienstseitige Technologien, die Ruhe- und Übertragungsdaten von Kundeninhalten verschlüsseln, einschließlich BitLocker, Dateiverschlüsselung, TLS (Transport Layer Security) und Internet Protocol Security (IPsec). Ausführliche Informationen zur Verschlüsselung in Microsoft 365 finden Sie unter ["Datenverschlüsselungstechnologien" in Microsoft 365.](/microsoft-365/compliance/office-365-encryption-in-the-microsoft-cloud-overview)
 
 Zusammen bieten die oben aufgeführten Schutzmaßnahmen robuste logische Isolationskontrollen, die Bedrohungsschutz und Risikominderung bieten, die dem durch physische Isolation allein bereitgestellten entsprechen.
 

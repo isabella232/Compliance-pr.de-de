@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 0a178b23182427c0d202be38a9986c9e9069e1af2b71290a248c33aae19e0eaa
-ms.sourcegitcommit: 07b748b28a7815fb5824be0dea3edba29353361d
+ms.openlocfilehash: dc2a1a27994c1f3fc69f35b4b764ae80d3df7defd3b4d0dec97520de7760f815
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "57833882"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288713"
 ---
 # <a name="data-classification--sensitivity-label-taxonomy"></a>Taxonomie der Datenklassifizierung & Vertraulichkeitsbezeichnungen
 
@@ -40,9 +40,7 @@ Zusätzlich zum Volume können Ihre Inhalte von hochgradig vertraulicher und wir
 ## <a name="what-is-a-data-classification-framework"></a>Was ist ein Datenklassifizierungsframework?
 
 Häufig in einer formalen, unternehmensweiten Richtlinie codiert, besteht ein Datenklassifizierungsframework (manchmal auch als "Datenklassifizierungsrichtlinie" bezeichnet) in der Regel aus 3 bis 5 Klassifizierungsebenen. Diese enthalten in der Regel drei Elemente: einen Namen, eine Beschreibung und Beispiele aus der Praxis. Microsoft empfiehlt nicht mehr als fünf übergeordnete Beschriftungen auf oberster Ebene mit jeweils fünf Unterbezeichnungen (insgesamt 25), um die Benutzeroberfläche (UI) verwaltbar zu halten. Ebenen werden in der Regel von der niedrigsten bis zur sensibelsten Ebene angeordnet, z. B. *öffentlich,* *intern,* *vertraulich* und *streng* 
- *vertraulich.* Andere Ebenennamenvarianten, auf die Sie möglicherweise stoßen können, sind *eingeschränkt,* *uneingeschränkt* und *verbrauchergeschützt.* Microsoft empfiehlt Bezeichnungsnamen, die selbstdeskriptiv sind und ihre relative Vertraulichkeit deutlich hervorheben. Beispielsweise können *"Vertraulich"* und *"Eingeschränkt"* benutzerdeklarieren, welche Bezeichnung angemessen ist, während *"Vertraulich"* und *"Streng vertraulich"* eindeutiger sind, was sensibler ist. 
-
-Die folgende Tabelle zeigt ein Beispiel für eine Frameworkebene der Datenklassifizierung *"Streng vertraulich":*
+ *vertraulich.* Andere Ebenennamenvarianten, auf die Sie möglicherweise stoßen können, sind *eingeschränkt,* *uneingeschränkt* und *verbrauchergeschützt.* Microsoft empfiehlt Bezeichnungsnamen, die selbstdeskriptiv sind und ihre relative Vertraulichkeit deutlich hervorheben. Beispielsweise können *"Vertraulich"* und *"Eingeschränkt"* benutzerdeklarieren, welche Bezeichnung geeignet ist, während *"Vertraulich"* und *"Streng vertraulich"* eindeutiger sind, was sensibler ist. Die folgende Tabelle zeigt Beispiele für Frameworkebenen der Datenklassifizierung.
 
 |**Klassifizierungsstufe**|**Beschreibung**|**Beispiele**|
 |:-----------------------|:--------------|:-----------|

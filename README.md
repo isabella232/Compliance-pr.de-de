@@ -1,56 +1,56 @@
 ---
-ms.openlocfilehash: 61aafc556b30f5de9dabe5e67a5176b02b19ab28
-ms.sourcegitcommit: fc1da22cf40dfd807c182d3f6df967eee192eacd
+ms.openlocfilehash: 51c917585c8138a476e9aacd349c6dd46c545d2c140696ebfc4d0aee6f0a67cc
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49669706"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288164"
 ---
 # <a name="overview"></a>Übersicht
 
-## <a name="learn-how-to-contribute"></a>Informationen zum mitwirken
+## <a name="learn-how-to-contribute"></a>Erfahren Sie, wie Sie einen Beitrag leisten können
 
-Jeder, der interessiert ist, kann zu den Themen beitragen. Wenn Sie mitwirken, wird Ihre Arbeit direkt nach dem Zusammenführen in die Inhaltsgruppe aufgenommen. Es wird dann auf docs.Microsoft.com angezeigt, und Sie werden als Teilnehmer an aufgeführt: <https://github.com/MicrosoftDocs/compliance/graphs/contributors> .
+Jeder, der interessiert ist, kann zu den Themen beitragen. Wenn Sie mitwirken, wird Ihre Arbeit direkt in den Inhaltssatz eingefügt, nachdem sie zusammengeführt wurde. Es wird dann auf docs.microsoft.com angezeigt, und Sie werden als Mitwirkender aufgeführt unter: <https://github.com/MicrosoftDocs/compliance/graphs/contributors> .
 
-### <a name="quickly-update-an-article-using-githubcom"></a>Schnelles Aktualisieren eines Artikels mithilfe von github.com
+### <a name="quickly-update-an-article-using-githubcom"></a>Schnelles Aktualisieren eines Artikels mithilfe von GitHub.com
 
-Mitwirkende, die nur selten oder kleine Aktualisierungen vornehmen, können die Datei direkt auf GitHub.com bearbeiten, ohne zusätzliche Software installieren zu müssen. In diesem Artikel erfahren Sie, wie Sie. In [diesem zweiminütigen Video](https://www.microsoft.com/videoplayer/embed/RE1XQTG) wird auch beschrieben, wie Sie mitwirken.
+Mitwirkende, die nur selten oder kleine Updates vornehmen, können die Datei direkt auf GitHub.com bearbeiten, ohne zusätzliche Software installieren zu müssen. In diesem Artikel wird gezeigt, wie. [In diesem zweiminütigen Video](https://www.microsoft.com/videoplayer/embed/RE1XQTG) wird auch erläutert, wie sie beitragen.
 
-1. Stellen Sie sicher, dass Sie mit Ihrem GitHub-Konto bei github.com angemeldet sind.
-2. Wechseln Sie zu der Seite, die Sie in docs.Microsoft.com bearbeiten möchten.
-3. Klicken Sie auf der rechten Seite des Zeichenblatts auf **Bearbeiten** (Bleistiftsymbol).
+1. Stellen Sie sicher, dass Sie mit Ihrem GitHub Konto bei GitHub.com angemeldet sind.
+2. Wechseln Sie zu der Seite, die Sie auf docs.microsoft.com bearbeiten möchten.
+3. Klicken Sie auf der rechten Seite der Seite auf **Bearbeiten** (Stiftsymbol).
 
-   ![Schaltfläche "Bearbeiten" auf docs.Microsoft.com](compliance/media/quick-update-edit.png)
+   ![Schaltfläche "Bearbeiten" auf docs.microsoft.com](compliance/media/quick-update-edit.png)
 
-4. Die entsprechende Themen Datei auf GitHub wird geöffnet, in der Sie auf das Bleistiftsymbol " **Diese Datei bearbeiten** " klicken müssen.
+4. Die entsprechende Themendatei auf GitHub wird geöffnet, wo Sie auf das Symbol **"Dateistift bearbeiten"** klicken müssen.
 
-   ![Schaltfläche "Bearbeiten" auf GitHub.com](compliance/media/quick-update-github.png)
+   ![Schaltfläche "Bearbeiten" auf github.com](compliance/media/quick-update-github.png)
 
-5. Das Thema wird in einer Bearbeitungsseite mit Nummerierung geöffnet, auf der Sie Änderungen an der Datei vornehmen können. Dateien in GitHub werden unter Verwendung von Abschriften Sprache geschrieben und bearbeitet. Hilfe zur Verwendung von Abschlägen finden Sie unter [Mastering Abschlag](https://guides.github.com/features/mastering-markdown/). Wählen Sie die Registerkarte **Vorschau der Änderungen** aus, um Ihre Änderungen während des Wechselns anzuzeigen.
+5. Das Thema wird auf einer zeilennummerierten Bearbeitungsseite geöffnet, auf der Sie Änderungen an der Datei vornehmen können. Dateien in GitHub werden mit markdown geschrieben und bearbeitet. Hilfe zur Verwendung von Markdown finden Sie unter [Mastering Markdown](https://guides.github.com/features/mastering-markdown/). Wählen Sie die Registerkarte **"Vorschauänderungen"** aus, um Die Änderungen während des Vorgangs anzuzeigen.
 
-6. Wenn Sie die Änderungen abgeschlossen haben, wechseln Sie im Abschnitt **vorschlagen von Datei** Änderungen am unteren Rand der Seite:
+6. Wenn Sie die Änderungen abgeschlossen haben, wechseln Sie zum Abschnitt **"Dateiänderung vorschlagen"** am unteren Rand der Seite:
 
-   - Ein kurzer Titel ist erforderlich. Standardmäßig ist der Titel der Name der Datei, aber Sie können ihn ändern.
-   - Optional können Sie weitere Details in das Feld **Hinzufügen einer optionalen erweiterten Beschreibung** eingeben.
+   - Ein kurzer Titel ist erforderlich. Standardmäßig ist der Titel der Name der Datei, sie kann jedoch geändert werden.
+   - Optional können Sie weitere Details in das Feld **"Optionale erweiterte Beschreibung hinzufügen"** eingeben.
 
-   Wenn Sie fertig sind, klicken Sie auf die grüne Schaltfläche **Dateiänderung vorschlagen** .
+   Wenn Sie fertig sind, klicken Sie auf die grüne Schaltfläche **"Dateiänderung vorschlagen".**
 
    ![Abschnitt "Dateiänderung vorschlagen"](compliance/media/propose-file-change.png)
 
-7. Klicken Sie auf der Seite **Vergleichs Änderungen** , die angezeigt wird, auf die Schaltfläche **Pull-Anforderung grün erstellen** .
+7. Klicken Sie auf der angezeigten Seite **"Änderungen vergleichen"** auf die grüne Schaltfläche **"Pullanforderung erstellen".**
 
-   ![Seite "Vergleich der Änderungen"](compliance/media/comparing-changes-page.png)
+   ![Seite "Änderungen vergleichen"](compliance/media/comparing-changes-page.png)
 
-8. Klicken Sie auf der Seite **Pull-Anforderung öffnen** , die angezeigt wird, auf die grüne Schaltfläche **Pull-Anforderung erstellen** .
+8. Klicken Sie auf der angezeigten Seite **"Pullanforderung öffnen"** auf die grüne Schaltfläche **"Pullanforderung erstellen".**
 
-   ![Öffnen einer Pull-Anforderungsseite](compliance/media/open-a-pull-request-page.png)
+   ![Öffnen einer Pullanforderungsseite](compliance/media/open-a-pull-request-page.png)
 
 > [!NOTE]
-> Ihre Berechtigungen im Repo bestimmen, was Sie in den letzten Schritten sehen. Personen ohne spezielle Privilegien wird der Abschnitt **vorschlagen von Dateiänderungen** und nachfolgende Bestätigungsseiten wie beschrieben angezeigt. Personen mit Berechtigungen zum Erstellen und genehmigen eigener Pull-Anforderungen wird ein ähnlicher Abschnitt **Commit changes** mit zusätzlichen Optionen zum Erstellen einer neuen Verzweigung und weniger Bestätigungsseiten angezeigt.<br/><br/>Der folgende Hinweis lautet: Klicken Sie auf alle grünen Schaltflächen, die Ihnen angezeigt werden, bis keine weiteren vorhanden sind.
+> Ihre Berechtigungen im Repository bestimmen, was In den letzten Schritten angezeigt wird. Personen ohne besondere Berechtigungen werden der Abschnitt **"Dateiänderung vorschlagen"** und nachfolgende Bestätigungsseiten wie beschrieben angezeigt. Personen mit Berechtigungen zum Erstellen und Genehmigen ihrer eigenen Pullanforderungen sehen einen ähnlichen **Commit-Änderungsbereich** mit zusätzlichen Optionen zum Erstellen einer neuen Verzweigung und weniger Bestätigungsseiten.<br/><br/>Der Punkt ist: Klicken Sie auf alle grünen Schaltflächen, die Ihnen angezeigt werden, bis sie nicht mehr vorhanden sind.
 
-Der in den Metadaten des Themas identifizierte Writer wird benachrichtigt und überprüft und genehmigt die Änderungen, sodass das Thema in docs.Microsoft.com aktualisiert wird. Wenn es Fragen oder Probleme mit den Updates gibt, wird sich der Writer mit Ihnen in Verbindung setzen.
+Der in den Metadaten des Themas identifizierte Writer wird benachrichtigt und überprüft und genehmigt ihre Änderungen, damit das Thema auf docs.microsoft.com aktualisiert wird. Wenn Fragen oder Probleme mit den Updates auftreten, wird der Writer Sie kontaktieren.
 
-## <a name="microsoft-open-source-code-of-conduct"></a>Microsoft Open Source-Verhaltensregeln
+## <a name="microsoft-open-source-code-of-conduct"></a>Microsoft Open Source-Verhaltenskodex
 
 In diesem Projekt wurden die [Microsoft Open Source-Verhaltensregeln](https://opensource.microsoft.com/codeofconduct/) übernommen.
 
@@ -60,7 +60,7 @@ Weitere Informationen finden Sie unter [Häufig gestellte Fragen zu Verhaltensre
 
 In diesem Projekt sind Beiträge und Vorschläge willkommen.  Bei den meisten Beiträgen müssen Sie die Lizenzvereinbarung für Teilnehmer (CLA) akzeptieren, und deklarieren, dass Sie das Recht haben, die Rechte für die Verwendung Ihres Beitrags zu gewähren, und dies auch tun. Weitere Informationen finden Sie unter <https://cla.microsoft.com>.
 
-Wenn Sie eine Pull-Anforderung übermitteln, ermittelt ein CLA-bot automatisch, ob Sie eine CLA bereitstellen und die PR entsprechend dekorieren müssen (beispielsweise "Label", "comment"). Folgen Sie einfach den Anweisungen des Bot. Sie müssen dies nur einmal für alle unsere Repos mit CLA tun.
+Wenn Sie eine Pullanforderung übermitteln, bestimmt ein CLA-Bot automatisch, ob Sie eine CLA bereitstellen und die PR entsprechend versehen müssen (z. B. Bezeichnung, Kommentar). Folgen Sie einfach den Anweisungen des Bot. Sie müssen dies nur einmal für alle unsere Repos mit CLA tun.
 
 ### <a name="legal-notices"></a>Rechtliche Hinweise
 

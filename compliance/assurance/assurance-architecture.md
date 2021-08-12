@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: ecb66b923f1d9ce239000910ad282ae3e69514de
-ms.sourcegitcommit: 76553d505d88ea868622bebebda17c27df5f7a39
+ms.openlocfilehash: ca26f1cb12fd7440b143ec27f7abfb1977acc0a2addc71baa3e265d262aeb57a
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/28/2021
-ms.locfileid: "53617686"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289243"
 ---
 # <a name="architecture-overview"></a>Architekturübersicht
 
@@ -37,21 +37,21 @@ Alle Microsoft-Onlinedienste haben das gleiche Ziel, die von ihnen verwalteten D
 
 ## <a name="what-is-azure"></a>Was ist Azure?
 
-Microsoft Azure ist eine Cloud Computing-Plattform zum Erstellen, Bereitstellen und Verwalten von Anwendungen über ein globales Netzwerk von von Microsoft und von Drittanbietern verwalteten Rechenzentren. Es unterstützt sowohl Platform as a Service (PaaS) als auch Infrastructure as a Service (IaaS)-Clouddienstmodelle und ermöglicht Hybridlösungen, die Clouddienste in die lokalen Ressourcen der Kunden integrieren. Microsoft Azure unterstützt viele Kunden, Partner und Behörden, die sich über eine breite Palette von Produkten und Diensten, Regionen und Branchen erstrecken. Microsoft Azure wurde entwickelt, um ihre Sicherheits-, Vertraulichkeits- und Complianceanforderungen zu erfüllen.
+Microsoft Azure ist eine Cloud Computing-Plattform zum Erstellen, Bereitstellen und Verwalten von Anwendungen über ein globales Netzwerk von von Microsoft und von Drittanbietern verwalteten Rechenzentren. Es unterstützt sowohl Platform as a Service (PaaS) als auch Infrastructure as a Service (IaaS)-Clouddienstmodelle und ermöglicht Hybridlösungen, die Clouddienste in die lokalen Ressourcen der Kunden integrieren. Microsoft Azure unterstützt viele Kunden, Partner und Behörden, die sich über eine breite Palette von Produkten und Diensten, Regionen und Branchen erstrecken. Microsoft Azure ist darauf ausgelegt, ihre Sicherheits-, Vertraulichkeits- und Complianceanforderungen zu erfüllen.
 
 ## <a name="what-is-dynamics-365"></a>Was ist Dynamics 365?
 
-Dynamics 365 ist eine Online-Business-Anwendungssuite, die die Crm-Funktionen (Customer Relationship Management) und deren Erweiterungen in die Funktionen Enterprise Resource Planning (ERP) integriert. Diese End-to-End-Geschäftsanwendungen helfen Kunden, Beziehungen in Umsatz umzuwandeln, Kunden zu verdienen und das Wachstum des Unternehmens zu beschleunigen. Dynamics 365 ist eine SaaS-Suite (Software as a Service), die auf der Azure-Infrastruktur basiert und kunden weltweit über ihre global verteilten Rechenzentren zur Verfügung gestellt wird.
+Dynamics 365 ist eine Online-Business-Anwendungssuite, die die Crm-Funktionen (Customer Relationship Management) und deren Erweiterungen in die Erp-Funktionen (Enterprise Resource Planning) integriert. Diese End-to-End-Geschäftsanwendungen helfen Kunden, Beziehungen in Umsatz umzuwandeln, Kunden zu verdienen und das Unternehmensplus zu beschleunigen. Dynamics 365 ist eine SaaS-Suite (Software as a Service), die auf der Azure-Infrastruktur basiert und kunden weltweit über ihre global verteilten Rechenzentren zur Verfügung gestellt wird.
 
 ## <a name="what-is-microsoft-365"></a>Was ist Microsoft 365?
 
 Microsoft 365 ist die cloudbasierte, abonnementbasierte Version von Office, Windows 10, Enterprise Mobility + Security und Compliance. Microsoft 365 Kunden Clients wie Outlook und Windows erhalten, und sie profitieren auch von Diensten, die Microsoft in ihrem Auftrag hostet, z. B. Exchange Online, Microsoft Teams und SharePoint Online. Alle Komponenten des Diensts werden regelmäßig als Teil des Abonnementmodells aktualisiert, sodass unsere Kunden über ein "evergreen"-Produkt verfügen. Microsoft verwaltet die Dienstinfrastruktur im Auftrag von Kunden, was bedeutet, dass Microsoft für die Sicherung der Infrastruktur verantwortlich ist, in der Kundendaten gespeichert sind.
 
-Hinsichtlich der Skalierung verwendet Microsoft derzeit fast eine Million Computer, um Microsoft 365 Dienste zu unterstützen. Die Infrastruktur, die diese Dienste unterstützt, ist je nach dienstspezifischer Hardware und virtualisierten Umgebungen in Azure, Windows und Linux sowie auf mehreren Mandanten und dedizierten Plattformen sehr unterschiedlich. Microsoft 365 ist ein globales Unternehmen, und unsere Infrastruktur ist in Rechenzentren auf der ganzen Welt verteilt, so dass unsere Kunden die Anforderungen an die Datenspeicherung und Souveränität der Daten erfüllen können.
+Hinsichtlich der Skalierung verwendet Microsoft derzeit fast eine Million Computer, um Microsoft 365 Dienste zu nutzen. Die Infrastruktur für diese Dienste variiert je nach dienstspezifischer Hardware und virtualisierten Umgebungen in Azure, Windows und Linux sowie auf mehreren Mandanten und dedizierten Plattformen. Microsoft 365 ist ein globales Unternehmen, und unsere Infrastruktur ist in Rechenzentren auf der ganzen Welt verteilt, so dass unsere Kunden die Anforderungen an die Datenspeicherung und Souveränität der Daten erfüllen können.
 
 ## <a name="how-do-microsoft-online-services-ensure-isolation-between-customer-tenants"></a>Wie stellen Microsoft-Onlinedienste die Isolierung zwischen Kundenmandanten sicher?
 
-Die Clouddienste von Microsoft basieren auf der Annahme, dass alle Mandanten potenziell ungern gegenüber allen anderen Mandanten sind. Um Mandanten ordnungsgemäß voneinander zu isolieren, implementiert Microsoft verschiedene Isolationstechnologien und -steuerelemente. Diese Steuerelemente dienen zum Schutz vor Informationslecks oder nicht autorisiertem Zugriff auf Kundendaten über Mandanten hinweg und um zu verhindern, dass die Aktionen eines Mandanten den Dienst für einen anderen Mandanten beeinträchtigen.
+Die Clouddienste von Microsoft basieren auf der Annahme, dass alle Mandanten potenziell ungern gegenüber allen anderen Mandanten sind. Um Mandanten ordnungsgemäß voneinander zu isolieren, implementiert Microsoft verschiedene Isolationstechnologien und -steuerelemente. Diese Steuerelemente dienen zum Schutz vor Informationslecks oder unbefugtem Zugriff auf Kundendaten über Mandanten hinweg und um zu verhindern, dass die Aktionen eines Mandanten den Dienst für einen anderen Mandanten beeinträchtigen.
 
 Kundeninhalte werden logisch innerhalb von Mandanten isoliert, indem Azure Active Directory (Azure AD) verwendet wird. Die Benutzerauthentifizierung in Microsoft-Onlinediensten überprüft nicht nur die Benutzeridentität, sondern auch die Mandantenidentität, zu der das Benutzerkonto gehört, und verhindert, dass Benutzer auf Daten außerhalb ihrer Mandantenumgebung zugreifen können. Um die logische Isolierung von Azure AD zu ergänzen, werden Kundeninhalte immer im Ruhezustand und während der Übertragung verschlüsselt. Einzelne Dienste können auch zusätzliche Ebenen der Mandantenisolation bereitstellen, z. B. SharePoint Onlineisolation von Mandantendaten in separaten, verschlüsselten Datenbanken.
 
@@ -65,7 +65,7 @@ Die Datenresilienz ergänzt die Dienstresilienz durch den Schutz der Integrität
 
 ## <a name="how-do-microsoft-online-services-track-dependencies-and-prevent-unauthorized-external-system-connections"></a>Wie verfolgen Microsoft-Onlinedienste Abhängigkeiten und verhindern nicht autorisierte externe Systemverbindungen?
 
-Microsoft Online Services-Teams identifizieren wichtige Systemkomponenten und deren Abhängigkeiten als Teil des Geschäftskontinuitätsmanagements. Darüber hinaus dokumentiert und verfolgt Microsoft alle externen Systemverbindungen, um sicherzustellen, dass nur autorisierte Verbindungen in Netzwerkfirewallkonfigurationen zulässig sind. Microsoft-Onlinedienstsysteme, Abhängigkeiten und externe Verbindungen sind in der Informationssicherheitsarchitektur von Microsoft-Onlinediensten dokumentiert. Sowohl die Informationssicherheitsarchitektur als auch die entsprechenden Datenflussdiagramme werden mindestens einmal jährlich überprüft und aktualisiert, sowie bei wichtigen Änderungen am System.
+Microsoft online services teams identify critical system components and their dependencies as part of Business Continuity Management. Darüber hinaus dokumentiert und verfolgt Microsoft alle externen Systemverbindungen, um sicherzustellen, dass nur autorisierte Verbindungen in Netzwerkfirewallkonfigurationen zulässig sind. Microsoft-Onlinedienstsysteme, Abhängigkeiten und externe Verbindungen sind in der Informationssicherheitsarchitektur von Microsoft-Onlinediensten dokumentiert. Sowohl die Informationssicherheitsarchitektur als auch die entsprechenden Datenflussdiagramme werden mindestens einmal jährlich überprüft und aktualisiert, sowie bei wichtigen Änderungen am System.
 
 Die Architektur von Microsoft-Onlinediensten wird regelmäßig und automatisch mithilfe von cloudbasierten Tools überprüft, um die Übereinstimmung mit unseren Sicherheitsprinzipien zu überprüfen und die Isolations- und Resilienzfeatures kontinuierlich zu testen. Die Architekturüberprüfung dient zum automatischen Identifizieren von Instanzen, in denen der aktuelle Status des Diensts vom gewünschten Zustand abweicht, und kennzeichnet alle Abweichungen zur Überprüfung und Risikominderung. Das Ziel der Architekturüberprüfung besteht darin, sicherzustellen, dass die Sicherheitsfunktionen unserer Dienstinfrastruktur weiterhin wie erwartet funktionieren.
 

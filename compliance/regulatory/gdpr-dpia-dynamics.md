@@ -18,12 +18,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 40e756f8f359189825a1474a9d8531a9a3d5891e
-ms.sourcegitcommit: 8bf2602d56eedee4447ddb374ef95b0587f254e7
+ms.openlocfilehash: 2fbe694f2dc16560a04ea2ffb96253024ebdce1835cd05d4586bec016522e96f
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53377762"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288264"
 ---
 # <a name="data-protection-impact-assessments-guidance-for-data-controllers-using-dynamics-365"></a>Datenschutz-Folgenabschätzung: Leitfaden für Datenverantwortliche, die Dynamics 365 verwenden
 

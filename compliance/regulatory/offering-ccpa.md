@@ -1,6 +1,6 @@
 ---
 title: California Consumer Privacy Act (CCPA)
-description: Microsoft-Dienste und dem California Consumer Privacy Act (CCPA)
+description: Microsoft-Dienste und dem California Consumer Privacy Act (CCPA).
 keywords: Microsoft 365, Compliance, Angebote
 localization_priority: None
 ms.prod: microsoft-365-enterprise
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 2d06aefc89312dece2ecbe81aa6c0a9f10500369
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: 75f814c49395e5b945d0b9092b1158fad3376ce684ea3a8fb43115d51fe6bba5
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53384155"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288254"
 ---
 # <a name="california-consumer-privacy-act-ccpa"></a>California Consumer Privacy Act (CCPA)
 
@@ -29,7 +29,7 @@ ms.locfileid: "53384155"
 
 Der California Consumer Privacy Act (CCPA) ist das erste umfassende Datenschutzgesetz in den VEREINIGTEn Staaten. Sie bietet den Verbrauchern in Kalifornien eine Vielzahl von Datenschutzrechten.  Unternehmen, die durch das CCPA reguliert werden, haben eine Reihe von Verpflichtungen gegenüber diesen Verbrauchern, einschließlich Offenlegungen, der Datenschutz-Grundverordnung (DSGVO) wie verbraucherbezogenen Datensubjektrechten (DSRs), einem "Opt-Out" für bestimmte Datenübertragungen und einer "Opt-In"-Anforderung für Minderjährige.
 
-Das CCPA gilt nur für Unternehmen, die in Kalifornien Tätig sind und mindestens eine der folgenden Voraussetzungen erfüllen: (1) einen jährlichen Umsatz von mehr als 25 Millionen US$Dollar erzielen oder (2) mehr als 50 % ihrer jährlichen Einnahmen aus dem Verkauf von persönlichen Informationen von Verbrauchern in Kalifornien ableiten oder (3) die persönlichen Informationen von mehr als 50.000 Kalifornischen Verbrauchern jährlich kaufen, verkaufen oder teilen.
+Das CCPA gilt nur für Unternehmen, die in Kalifornien Tätig sind und mindestens eine der folgenden Voraussetzungen erfüllen: (1) einen jährlichen Umsatz von mehr als 25 Millionen US-Dollar erzielen oder (2) mehr als 50 % ihrer jährlichen Einnahmen aus dem Verkauf von persönlichen Informationen von Verbrauchern in Kalifornien ableiten oder (3) die persönlichen Informationen von mehr als 50.000 Kalifornischen Verbrauchern jährlich kaufen, verkaufen oder teilen.
 
 Das CCPA tritt am 1. Januar 2020 in Kraft. Die Durchsetzung durch die California Attorney General (AG) beginnt jedoch am 1. Juli 2020.
 
@@ -37,11 +37,11 @@ Die California AG setzt das CCPA durch und ist berechtigt, Verstöße gegen die 
 
 ## <a name="microsoft-and-the-ccpa"></a>Microsoft und das CCPA
 
-Für kommerzielle Kunden, die in Kalifornien tätig sind, wird Microsoft als "Dienstanbieter" in Bezug auf unsere Onlinedienste und Professional-Dienste fungieren.  Die Bedingungen der Onlinedienstbedingungen (OST) und des Microsoft Professional Services Data Protection Addendum (MSDPA) erfüllen bereits die Anforderungen für Dienstanbieter im Rahmen des CCPA und sind in der Regel ausreichend, damit Kunden weiterhin Daten an unsere Onlinedienste übertragen können. Daher sind keine zusätzlichen vertraglichen Änderungen erforderlich, damit Sich Kunden im Rahmen des CCPA auf Microsoft als Dienstanbieter verlassen können.
+Für kommerzielle Kunden, die in Kalifornien tätig sind, wird Microsoft als "Dienstanbieter" in Bezug auf unsere Onlinedienste und Professional-Dienste fungieren.  Die Bedingungen der Onlinedienstbedingungen (ONLINE Services Terms, OST) und des Microsoft Professional Services Data Protection Addendum (MSDPA) erfüllen bereits die Anforderungen für Dienstanbieter im Rahmen des CCPA und sind in der Regel ausreichend, damit Kunden weiterhin Daten an unsere Onlinedienste übertragen können. Daher sind keine zusätzlichen vertraglichen Änderungen erforderlich, damit Sich Kunden im Rahmen des CCPA auf Microsoft als Dienstanbieter verlassen können.
 
 Wie im OST festgelegt, hält Microsoft alle Gesetze und Bestimmungen ein, die für die Bereitstellung der Onlinedienste gelten, einschließlich des CCPA.  
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft-cloudbasierte Plattformen &-Dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
 
 - [Azure](https://aka.ms/AzureCompliance)
 - Azure DevOps
@@ -81,7 +81,7 @@ Der größte Unterschied in CCPA ist die Kernanforderung, die es ermöglicht, de
 
 **Welche Rechte müssen Unternehmen laut der CCPA gewähren?**
 
-Das CCPA erfordert regulierte Unternehmen, die persönliche Informationen sammeln, übertragen und verkaufen, unter anderem an:
+Das CCPA erfordert regulierte Unternehmen, die persönliche Informationen sammeln, übertragen und verkaufen, unter anderem:
 
 - Den Verbrauchern vor der Erfassung Informationen über die Kategorien und Zwecke der Erfassung zur Verfügung zu stellen.
 - Detailliertere Offenlegungen in einer Datenschutzrichtlinie in Bezug auf die Quellen, Geschäftszwecke und Kategorien von personenbezogenen Informationen, die gesammelt werden, einschließlich der Art und Weise, wie diese Kategorien verkauft oder an andere Entitäten übertragen werden.

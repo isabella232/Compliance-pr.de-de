@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: ef8f44309a8560341f456b3b2cace3b8038ae993
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: 763f2f9d342692ea3cbed237b76fea841bd686487b61b22aad43ade42fec765f
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53384855"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288683"
 ---
 # <a name="health-information-trust-alliance-hitrust-common-security-framework-csf"></a>Health Information Trust Alliance (HITRUST) Common Security Framework (CSF)
 
@@ -35,13 +35,13 @@ Das CSF ist in 19 verschiedene Domänen unterteilt, einschließlich Endpunktschu
 
 Health Information Trust Alliance (HITRUST) Common Security Framework (CSF)
 
-HITRUST bietet drei Zuverlässigkeitsgrade oder Bewertungsstufen: Selbstbewertung, CSF-validiert und CSF-zertifiziert. Jede Ebene baut mit zunehmender Strenge auf der ebene darunter auf. Eine Organisation mit der höchsten Stufe, CSF-zertifiziert, erfüllt alle Zertifizierungsanforderungen des CSF. Microsoft Azure und Office 365 sind die ersten Hyperscale-Clouddienste, die eine Zertifizierung für den HITRUST-CSF erhalten. Coalfire, ein HITRUST-Prüferunternehmen, führte die Bewertungen basierend darauf durch, wie Azure und Office 365 Sicherheits-, Datenschutz- und behördliche Anforderungen zum Schutz vertraulicher Informationen implementieren. Microsoft unterstützt das HITRUST-Programm für gemeinsame Verantwortung.
+HITRUST bietet drei Zuverlässigkeitsgrade oder Bewertungsstufen: Selbstbewertung, CSF-validiert und CSF-zertifiziert. Jede Ebene baut mit zunehmender Strenge auf der ebene darunter auf. Eine Organisation mit der höchsten Stufe, CSF-zertifiziert, erfüllt alle Zertifizierungsanforderungen des CSF. Microsoft Azure und Office 365 sind die ersten Hyperscale-Clouddienste, die eine Zertifizierung für hitrust csf erhalten. Coalfire, ein HITRUST-Prüferunternehmen, führte die Bewertungen basierend darauf durch, wie Azure und Office 365 Sicherheits-, Datenschutz- und behördliche Anforderungen zum Schutz vertraulicher Informationen implementieren. Microsoft unterstützt das HITRUST-Programm für gemeinsame Verantwortung.
 
 Erfahren Sie, wie Sie Ihre HITRUST-Bereitstellung mit unserem Azure Security and Compliance Blueprint beschleunigen.
 
 [Herunterladen des Blueprints für die Microsoft Azure HITRUST Customer Responsibility Matrix (CRM) v9.0d](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=3ccde498-4761-4be0-be8b-cd8d379a3a4f&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_Healthcare_Blueprint)
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft-cloudbasierte Plattformen &-Dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
 
 - Azure und Azure Government
 - Intune
@@ -54,21 +54,21 @@ Weitere Informationen zu Azure, Dynamics 365 und anderen Onlinediensten finden S
 
 ## <a name="office-365-and-hitrust"></a>Office 365 und HITRUST
 
-### <a name="office-365-cloud-environments"></a>Office 365 Cloudumgebungen
+### <a name="office-365-cloud-environments"></a>Office 365-Cloudumgebungen
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 Anwendbarkeit und In-Scope-Dienste
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365-Anwendbarkeit und im Leistungsumfang enthaltene Dienste
 
-Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365 Dienste und Abonnements zu ermitteln:
+Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Dienste und -Abonnements zu bestimmen:
 
-| **Anwendbarkeit** | **In-Scope-Dienste** |
+| **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
 |:------------------|:----------------------|
-| **Office 365** | Aktivitätsfeeddienst, Bing-Dienste, Delve, Exchange Online Protection, Exchange Online, Microsoft Teams, Office 365 Kundenportal, Office Online, Office-Dienstinfrastruktur, Office Nutzungsberichte, OneDrive for Business, Personenkarte, SharePoint Online, Skype for Business, Windows Ink |
+| **Office 365** | Activity Feed Service, Bing Services, Delve, Exchange Online Protection, Exchange Online, Microsoft Teams, Office 365 Customer Portal, Office Online, Office Service Infrastructure, Office Usage Reports, OneDrive for Business, People Card, SharePoint Online, Skype for Business, Windows Ink |
 
-### <a name="office-365-audits-reports-and-certificates"></a>Office 365 Überwachungen, Berichte und Zertifikate
+### <a name="office-365-audits-reports-and-certificates"></a>Office 365-Prüfungen, -Berichte und -Zertifikate
 
-Die HITRUST CSF-Zertifizierung von Office 365 ist zwei Jahre gültig.
+Die HITRUST CSF-Zertifizierung von Office 365 ist zwei Jahre lang gültig.
 
 - [Office 365 HITRUST-Zertifizierungsschreiben](https://aka.ms/O365HITRUSTcertification)
 
@@ -76,13 +76,13 @@ Die HITRUST CSF-Zertifizierung von Office 365 ist zwei Jahre gültig.
 
 **Warum sind einige Office 365 Dienste nicht im Rahmen dieser Zertifizierung?**
 
-Microsoft bietet im Vergleich zu anderen Clouddienstanbietern die umfassendsten Angebote. Um mit unseren umfassenden Complianceangeboten über Regionen und Branchen hinweg Schritt zu halten, umfassen wir Dienstleistungen im Rahmen unserer Assurance-Bemühungen basierend auf der Marktanforderung, dem Kundenfeedback und dem Produktlebenszyklus. Wenn ein Dienst nicht im aktuellen Umfang eines bestimmten Complianceangebots enthalten ist, hat Ihre Organisation die Verantwortung, die Risiken basierend auf Ihren Complianceverpflichtungen zu bewerten und die Art und Weise zu bestimmen, wie Sie die Daten in diesem Dienst verarbeiten. Wir sammeln kontinuierlich Feedback von Kunden und arbeiten mit Regulierungsbehörden und Auditoren zusammen, um unsere Compliance-Abdeckung zu erweitern, um Ihre Sicherheits- und Complianceanforderungen zu erfüllen.
+Microsoft bietet im Vergleich zu anderen Clouddienstanbietern die umfassendsten Angebote. Um mit unseren umfassenden Complianceangeboten über Regionen und Branchen hinweg Schritt zu halten, umfassen wir Dienstleistungen im Rahmen unserer Assurance-Bemühungen basierend auf der Marktanforderung, dem Kundenfeedback und dem Produktlebenszyklus. Wenn ein Dienst nicht in den aktuellen Umfang eines bestimmten Compliance-Angebots einbezogen wird, hat Ihre Organisation die Verantwortung, die Risiken basierend auf Ihren Complianceverpflichtungen zu bewerten und die Art und Weise zu bestimmen, wie Sie die Daten in diesem Dienst verarbeiten. Wir sammeln kontinuierlich Feedback von Kunden und arbeiten mit Regulierungsbehörden und Auditoren zusammen, um unsere Compliance-Abdeckung zu erweitern, um Ihre Sicherheits- und Complianceanforderungen zu erfüllen.
 
-**Bedeutet die Microsoft-Zertifizierung, dass, wenn meine Organisation Office 365 verwendet, sie mit HITRUST CSF konform ist?**
+**Bedeutet die Microsoft-Zertifizierung, dass, wenn meine Organisation Office 365 verwendet, hitrust csf konform ist?**
 
-Wenn Sie Ihre Daten in einem SaaS wie Office 365 speichern, liegt es in der gemeinsamen Verantwortung von Microsoft und Ihrer Organisation, die Compliance zu erreichen. Microsoft verwaltet den Großteil der Infrastrukturkontrollen, einschließlich physischer Sicherheit, Netzwerksteuerelemente, Steuerelemente auf Anwendungsebene usw., und Ihre Organisation ist dafür verantwortlich, Zugriffskontrollen zu verwalten und Ihre vertraulichen Daten zu schützen. Die Office 365 HITRUST-Zertifizierung veranschaulicht die Compliance des Kontrollframeworks von Microsoft. Auf dieser Grundlage muss Ihre Organisation Ihre eigenen Datenschutzkontrollen implementieren und verwalten, um die HITRUST CSF-Anforderungen zu erfüllen.
+Wenn Sie Ihre Daten in einem SaaS wie Office 365 speichern, liegt es in der gemeinsamen Verantwortung von Microsoft und Ihrer Organisation, Compliance zu erreichen. Microsoft verwaltet den Großteil der Infrastrukturkontrollen, einschließlich physischer Sicherheit, Netzwerksteuerelemente, Steuerelemente auf Anwendungsebene usw., und Ihre Organisation ist dafür verantwortlich, Zugriffskontrollen zu verwalten und Ihre vertraulichen Daten zu schützen. Die Office 365 HITRUST-Zertifizierung veranschaulicht die Compliance des Kontrollframeworks von Microsoft. Auf dieser Grundlage muss Ihre Organisation Ihre eigenen Datenschutzkontrollen implementieren und verwalten, um die HITRUST CSF-Anforderungen zu erfüllen.
 
-**Stellt Microsoft meiner Organisation Anleitungen zur Implementierung geeigneter Steuerelemente bereit, wenn Office 365 verwendet wird?**
+**Bietet Microsoft Anleitungen für meine Organisation, um geeignete Steuerelemente zu implementieren, wenn Office 365 verwendet wird?**
 
 Ja, Sie finden empfohlene Kundenaktionen in der Compliancebewertung, microsoftübergreifende Cloudlösungen, die Ihrer Organisation helfen, komplexe Complianceverpflichtungen bei der Verwendung von Clouddiensten zu erfüllen. Insbesondere für HITRUST CSF empfehlen wir, Risikobewertungen mithilfe der NIST 800-53- und NIST CSF-Bewertungen in der Compliancebewertung durchzuführen. In den Bewertungen stellen wir Ihnen schrittweise Anleitungen und die Microsoft-Lösungen zur Verfügung, mit denen Sie Ihre Datenschutzkontrollen implementieren können. Weitere Informationen zur Compliancebewertung finden Sie im [Microsoft Compliance Manager.](/microsoft-365/compliance/compliance-manager)
 

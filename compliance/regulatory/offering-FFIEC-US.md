@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: dc7fa7f7762d503097ef4bd6fd9ec948993ab10b
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: 4da808976b7c9afd040417a0fe4025888f07a34bc43c03cb151410244bb437df
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53385075"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54287574"
 ---
 # <a name="federal-financial-institutions-examination-council-ffiec"></a>Federal Financial Institutions Examination Council (FFIEC)
 
@@ -29,22 +29,22 @@ ms.locfileid: "53385075"
 
 Der Federal Financial Institutions Examination Council (FFIEC) ist eine formelle Interagency-Stelle, die fünf Bankaufsichtsbehörden umfasst, die für die Prüfungen von Finanzinstituten in den USA durch die US-Regierung verantwortlich sind. Die FFIEC Examiner Education Office veröffentlicht IT-Prüfungshandbücher, die für Feldprüfer von FFIEC-Mitgliedsstellen vorgesehen sind.
 
-Das [FFIEC Audit IT Examination Handbook](https://ithandbook.ffiec.gov/it-booklets/audit.aspx) enthält Anleitungen für diese Prüfer, um die Qualität und Effektivität von IT-Prüfungsprogrammen von Finanzinstituten und TSPs zu bewerten. Es enthält insbesondere die Erwähnung von SOC 1-, SOC 2- und SOC 3-Nachweisberichten des American Institute of Certified Public Accountants (AICPA) als Beispiele für unabhängige Prüfberichte. Die FFIEC empfiehlt jedoch, dass sich Finanzinstitute nicht ausschließlich auf die in diesen Berichten enthaltenen Informationen verlassen, sondern auch Überprüfungs- und Überwachungsverfahren verwenden, die im Handbuch zur [IT-Prüfung von FFIEC Outsourcing Technology Services](https://ithandbook.ffiec.gov/it-booklets/outsourcing-technology-services.aspx)ausführlich behandelt werden.
+Das [FFIEC Audit IT Examination Handbook](https://ithandbook.ffiec.gov/it-booklets/audit.aspx) enthält Anleitungen für diese Prüfer, um die Qualität und Effektivität von IT-Prüfungsprogrammen von Finanzinstituten und TSPs zu bewerten. Es enthält insbesondere die Erwähnung von SOC 1-, SOC 2- und SOC 3-Nachweisberichten des American Institute of Certified Public Accountants (AICPA) als Beispiele für unabhängige Prüfberichte. Die FFIEC empfiehlt jedoch, dass sich Finanzinstitute nicht nur auf die in diesen Berichten enthaltenen Informationen verlassen, sondern auch Überprüfungs- und Überwachungsverfahren verwenden, die im HANDBUCH zur [IT-Prüfung von FFIEC Outsourcing Technology Services](https://ithandbook.ffiec.gov/it-booklets/outsourcing-technology-services.aspx)ausführlich behandelt werden.
 
 ## <a name="microsoft-and-ffiec"></a>Microsoft und FFIEC
 
-Microsoft Azure, Microsoft Power BI und Microsoft Office 365 sind so aufgebaut, dass sie die strengen Anforderungen der Bereitstellung von Clouddiensten für Finanzinstitute erfüllen. Im Rahmen unserer Unterstützung bieten wir Anleitungen, die Ihnen bei der Einhaltung der FFIEC-Auditanforderungen für die Informationstechnologie und der Möglichkeit helfen, Azure SOC-Bescheinigungen zu verwenden, wenn Sie Ihre FFIEC-Complianceverpflichtungen erfüllen.
+Microsoft Azure, Microsoft Power BI und Microsoft Office 365 sind so aufgebaut, dass sie die strengen Anforderungen der Bereitstellung von Clouddiensten für Finanzinstitute erfüllen. Im Rahmen unserer Unterstützung bieten wir Anleitungen, die Ihnen bei der Einhaltung der FFIEC-Prüfungsanforderungen für die Informationstechnologie und der Möglichkeit helfen, Azure SOC-Bescheinigungen zu verwenden, wenn Sie Ihre FFIEC-Complianceverpflichtungen erfüllen.
 
 Um Kunden von Finanzinstituten dabei zu unterstützen, ihre FFIEC-Complianceanforderungen mit Azure zu erfüllen, hat Microsoft den [Azure Security and Compliance Blueprint für FFIEC Regulated Services Workloads](https://servicetrust.microsoft.com/ViewPage/FFIECBlueprint)entwickelt. Es bietet Anleitungen zur Verwendung von Azure-Clouddiensten und Überlegungen zur Einhaltung von FFIEC-Anforderungen und Richtlinien zur Risikobewertung für Kunden.
 
 Um Sie bei der Einhaltung der FFIEC-Anforderungen weiter zu unterstützen, stellen Microsoft Cloud Services [SOC-Nachweisberichte](offering-SOC.md) bereit, die von einem unabhängigen CPA-Unternehmen erstellt wurden. Der SOC 1 Type 2-Nachweis basiert beispielsweise auf dem AICPA SSAE 18-Standard (siehe AT-C Abschnitt 105), der SAS 70 ersetzt hat, und eignet sich für die Berichterstellung über bestimmte Steuerelemente für die Finanzberichterstattung. Die SOC-Berichte enthalten die Meinung des Prüfers zur Effektivität von Microsoft-Kontrollen beim Erreichen der zugehörigen Kontrollziele während des angegebenen Überwachungszeitraums. Finanzinstitute können diese formale Prüfung verwenden, wenn sie FFIEC-spezifische Compliance-Verpflichtungen für in Azure, Power BI und Office 365 bereitgestellte Objekte erfüllen.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Microsoft-cloudbasierte Plattformen &-Dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
 
 - Azure
 - Intune
 - Office 365, Office 365 U.S. Government
-- Power BI Clouddienst (entweder als eigenständiger Dienst oder wie in einem Office 365 Plan oder einer Suite mit Branding enthalten)
+- Power BI-Clouddienst (entweder als eigenständiger Dienst oder in einem firmenspezifischen Office 365-Plan oder einer -Anwendungssuite enthalten)
 
 ## <a name="azure-dynamics-365-and-ffiec"></a>Azure, Dynamics 365 und FFIEC
 
@@ -52,20 +52,20 @@ Weitere Informationen zu Azure, Dynamics 365 und anderen Onlinediensten finden S
 
 ## <a name="office-365-and-ffiec"></a>Office 365 und FFIEC
 
-### <a name="office-365-cloud-environments"></a>Office 365 Cloudumgebungen
+### <a name="office-365-cloud-environments"></a>Office 365-Cloudumgebungen
 
 [!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
 
-### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 Anwendbarkeit und In-Scope-Dienste
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365-Anwendbarkeit und im Leistungsumfang enthaltene Dienste
 
-Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365 Dienste und Abonnements zu ermitteln:
+Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Dienste und -Abonnements zu bestimmen:
 
-| **Anwendbarkeit** | **In-Scope-Dienste** |
+| **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
 |:------------------|:----------------------|
-| **Office 365** | Azure Active Directory, Azure Information Protection, Bookings, Compliance Manager, Delve, Exchange Online, Exchange Online Protection, Formulare, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Defender für Office 365, Microsoft Graph, Microsoft Teams, Microsoft To-Do for Web, MyAnalytics, Office 365 Advanced Compliance Add-On, Office 365 Cloud App Security, Office 365 Groups, Office 365 Security & Compliance Center, Office 365 Video, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
-| **GCC** | Azure Active Directory, Compliance-Manager, Delve, Exchange Online, Formulare, Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, Stream |
+| **Office 365** | Azure Active Directory, Azure Information Protection, Bookings, Compliance Manager, Delve, Exchange Online, Exchange Online Protection, Forms, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Defender für Office 365, Microsoft Graph, Microsoft Teams, Microsoft To Do für das Web, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Cloud App Security, Office 365-Gruppen, Office 365 Security & Compliance Center, Office 365 Video, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
+| **GCC** | Azure Active Directory, Compliance-Manager, Delve, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, Stream |
 
-### <a name="office-365-audits-reports-and-certificates"></a>Office 365 Überwachungen, Berichte und Zertifikate
+### <a name="office-365-audits-reports-and-certificates"></a>Office 365-Prüfungen, -Berichte und -Zertifikate
 
 Siehe Office 365 SOC-Nachweisberichte.
 

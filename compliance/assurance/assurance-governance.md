@@ -20,20 +20,20 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: bf17ec68648efbc5f149bad0671a4e035d27a307
-ms.sourcegitcommit: 8bf2602d56eedee4447ddb374ef95b0587f254e7
+ms.openlocfilehash: 953255f96acbc22349d9f00a83edff7d65106ec6360b42930fe5985fcb4df3f5
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53377472"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291063"
 ---
 # <a name="governance-overview"></a>Governance (Übersicht)
 
 ## <a name="how-does-microsoft-provide-effective-security-governance-across-the-enterprise"></a>Wie bietet Microsoft eine effektive Sicherheitsgovernance im gesamten Unternehmen?
 
-Microsoft ist sich bewusst, dass effektive Sicherheitsrichtlinien unternehmensweit konsistent implementiert werden müssen, um Microsoft-Informationssysteme und -Kunden zu schützen. Sicherheitsrichtlinien müssen außerdem Abweichungen bei Geschäftsfunktionen und Informationssystemen für eine universelle Anwendbarkeit berücksichtigen. Um diese Anforderungen zu erfüllen, implementiert Microsoft ein umfassendes Security Governance-Programm als Teil des Microsoft Policy Framework. Die Sicherheitsgovernance fällt unter die Microsoft-Sicherheitsrichtlinie (Microsoft Security Policy, MSP).
+Microsoft ist sich bewusst, dass effektive Sicherheitsrichtlinien unternehmensweit konsistent implementiert werden müssen, um Microsoft-Informationssysteme und -Kunden zu schützen. Sicherheitsrichtlinien müssen außerdem Abweichungen bei Geschäftsfunktionen und Informationssystemen für eine universelle Anwendbarkeit berücksichtigen. Um diese Anforderungen zu erfüllen, implementiert Microsoft ein umfassendes Security Governance-Programm als Teil des Microsoft Policy Frameworks. Die Sicherheitsgovernance fällt unter die Microsoft-Sicherheitsrichtlinie (Microsoft Security Policy, MSP).
 
-Der MSP organisiert die Sicherheitsrichtlinien, Standards und Anforderungen von Microsoft, sodass sie in allen Microsoft-Engineering-Gruppen und -Geschäftsbereichen implementiert werden können. Einzelne Unternehmenseinheiten sind für spezifische Implementierungen von Microsoft-Sicherheitsrichtlinien verantwortlich. Beispielsweise dokumentiert Microsoft 365 seine Sicherheitsimplementierungen in der Microsoft 365 Information Security Policy und im zugehörigen Microsoft 365 Control Framework. Azure und Dynamics 365 dokumentieren ihre Sicherheitsimplementierungen in den Standardvorgehensweisen (SOPs) und im Azure Control Framework. Diese Sicherheitsimplementierungen entsprechen den Zielen und Zielen des MSP.
+In der MSP werden die Sicherheitsrichtlinien, Standards und Anforderungen von Microsoft organisiert, damit sie für sämtliche Microsoft Engineering-Gruppen und -Unternehmenseinheiten implementiert werden können. Einzelne Unternehmenseinheiten sind für spezifische Implementierungen von Microsoft Security-Richtlinien verantwortlich. Beispielsweise dokumentiert Microsoft 365 seine Sicherheitsimplementierungen in der Microsoft 365 Information Security Policy und im zugehörigen Microsoft 365 Control Framework. Azure und Dynamics 365 dokumentieren ihre Sicherheitsimplementierungen in den Standardvorgehensweisen (SOPs) und im Azure Control Framework. Diese Sicherheitsimplementierungen entsprechen den Zielen und Zielen des MSP.
 
 Das Sicherheitsgovernance-Programm von Microsoft wird von verschiedenen regulatorischen und Compliance-Frameworks informiert und entspricht diesem. Sicherheitsanforderungen werden ständig weiterentwickelt, um neue Technologien, behördliche und Complianceanforderungen sowie Sicherheitsbedrohungen zu berücksichtigen. Aufgrund dieser Änderungen aktualisiert Microsoft regelmäßig unsere Sicherheitsrichtlinien und unterstützenden Dokumente, um Microsoft-Systeme und -Kunden zu schützen, unsere Verpflichtungen zu erfüllen und das Kundenvertrauen aufrechtzuerhalten.
 
@@ -49,7 +49,7 @@ Die Informationssysteme umfassen die folgenden Komponenten, die durch die Micros
 - Verfahren: Die programmierten und manuellen Verfahren für den Betrieb von Azure-, Dynamics 365- und Microsoft 365-Systemen
 - Daten: Die von Azure, Dynamics 365 und Microsoft 365 Systemen generierten, gesammelten und verarbeiteten Informationen (Transaktionsdatenströme, Dateien, Datenbanken und Tabellen)
 
-Die Microsoft 365-Richtlinien zur Informationssicherheit werden durch das Microsoft 365 Control Framework ergänzt. Im Microsoft 365 Control Framework werden die Mindestsicherheitsanforderungen für alle Microsoft 365 Dienste und Komponenten des Informationssystems beschrieben. Es verweist auch auf die rechtlichen und geschäftlichen Anforderungen hinter jedem Steuerelement. Das Framework umfasst Kontrollaktivitätsnamen, Beschreibungen und Anleitungen zur Sicherstellung effektiver Kontrollimplementierungen durch Serviceteams. Microsoft 365 verwendet das Steuerungsframework, um Kontrollimplementierungen für interne und externe Berichte nachzuverfolgen. Auf ähnliche Weise werden Azure und Dynamics 365-Datensatzsteuerungsimplementierungen im Azure Control Framework implementiert.
+Die Microsoft 365-Richtlinien zur Informationssicherheit werden durch das Microsoft 365 Control Framework ergänzt. Das Microsoft 365 Control Framework beschreibt die Mindestsicherheitsanforderungen für alle Microsoft 365 Dienste und Komponenten des Informationssystems. Es verweist auch auf die rechtlichen und geschäftlichen Anforderungen hinter jedem Steuerelement. Das Framework umfasst Kontrollaktivitätsnamen, Beschreibungen und Anleitungen zur Sicherstellung effektiver Kontrollimplementierungen durch Serviceteams. Microsoft 365 verwendet das Steuerungsframework, um Kontrollimplementierungen für interne und externe Berichte nachzuverfolgen. Auf ähnliche Weise werden Azure und Dynamics 365-Datensatzsteuerungsimplementierungen im Azure Control Framework implementiert.
 
 ## <a name="how-do-online-services-limit-and-track-exceptions-to-established-policies-and-procedures"></a>Wie beschränken und verfolgen Onlinedienste Ausnahmen von etablierten Richtlinien und Verfahren?
 

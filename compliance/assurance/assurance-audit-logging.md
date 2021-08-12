@@ -20,18 +20,18 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: e6bf564f182f2dfabc6561602e5a4cb5c8c3445e
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 5a851373660fbc64de8fbfbb191e7b631493bae6534f687e73917f10fa605ac7
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53088687"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289297"
 ---
 # <a name="audit-logging-overview"></a>Überwachungsprotokollierung (Übersicht)
 
 ## <a name="how-does-microsoft-365-employ-audit-logging"></a>Wie verwendet Microsoft 365 die Überwachungsprotokollierung?
 
-Microsoft 365 verwendet die Überwachungsprotokollierung, um nicht autorisierte Aktivitäten in seinen Produkten und Diensten zu erkennen und die Verantwortlichkeit für Microsoft-Mitarbeiter zu gewährleisten. Überwachungsprotokolle erfassen Details zu Systemkonfigurationsänderungen und Zugriffsereignissen mit Details, um zu identifizieren, wer für die Aktivität verantwortlich war, wann und wo die Aktivität stattgefunden hat und was das Ergebnis der Aktivität war. Die automatische Protokollanalyse unterstützt nahezu in Echtzeit die Erkennung verdächtigen Verhaltens. Potenzielle Vorfälle werden zur weiteren Untersuchung an das Microsoft 365 Security Response-Team eskaliert.
+Microsoft 365 verwendet die Überwachungsprotokollierung, um nicht autorisierte Aktivitäten in seinen Produkten und Diensten zu erkennen und die Verantwortlichkeit für Microsoft-Mitarbeiter zu gewährleisten. Überwachungsprotokolle erfassen Details zu Systemkonfigurationsänderungen und Zugriffsereignissen mit Details, um zu ermitteln, wer für die Aktivität verantwortlich war, wann und wo die Aktivität stattgefunden hat und was das Ergebnis der Aktivität war. Die automatische Protokollanalyse unterstützt nahezu in Echtzeit die Erkennung verdächtigen Verhaltens. Potenzielle Vorfälle werden zur weiteren Untersuchung an das Microsoft 365 Security Response-Team eskaliert.
 
 Microsoft 365 interne Überwachungsprotokollierung erfasst Protokolldaten aus verschiedenen Quellen, z. B.:
 
@@ -58,9 +58,9 @@ Weitere Informationen zur Sicherheitsüberwachung und -warnung finden Sie in der
 
 ## <a name="how-does-microsoft-365-protect-audit-logs"></a>Wie schützt Microsoft 365 Überwachungsprotokolle?
 
-Die in Microsoft 365 zum Sammeln und Verarbeiten von Überwachungsdatensätzen verwendeten Tools ermöglichen keine dauerhaften oder nicht rückgängig gemachten Änderungen am ursprünglichen Inhalt des Überwachungsdatensatzes oder an der Zeitreihenfolge. Der Zugriff auf Microsoft 365 in Cosmos gespeicherten Daten ist auf autorisiertes Personal beschränkt. Darüber hinaus beschränkt Microsoft 365 die Verwaltung von Überwachungsprotokollen auf eine begrenzte Teilmenge der Sicherheitsteammitglieder, die für die Überwachungsfunktionen verantwortlich sind. Das Sicherheitsteam hat keinen ständigen administrativen Zugriff auf Cosmos. Für den Administrativen Zugriff ist die Genehmigung des JIT-Zugriffs (Just-In-Time) erforderlich, und alle Änderungen an Protokollierungsmechanismen für Cosmos werden aufgezeichnet und überwacht. Überwachungsprotokolle werden lange genug aufbewahrt, um Vorfalluntersuchungen zu unterstützen und behördliche Anforderungen zu erfüllen. Der genaue Zeitraum der Aufbewahrung von Überwachungsprotokolldaten in Cosmos wird von den Serviceteams bestimmt. die meisten Überwachungsprotokolldaten werden 90 Tage oder länger aufbewahrt.
+Die in Microsoft 365 zum Sammeln und Verarbeiten von Überwachungsdatensätzen verwendeten Tools ermöglichen keine dauerhaften oder nicht rückgängig gemachten Änderungen am ursprünglichen Inhalt des Überwachungsdatensatzes oder an der Zeitreihenfolge. Der Zugriff auf Microsoft 365 in Cosmos gespeicherten Daten ist auf autorisiertes Personal beschränkt. Darüber hinaus beschränkt Microsoft 365 die Verwaltung von Überwachungsprotokollen auf eine begrenzte Teilmenge der Sicherheitsteammitglieder, die für die Überwachungsfunktionen verantwortlich sind. Das Sicherheitsteam hat keinen ständigen administrativen Zugriff auf Cosmos. Für den administrativen Zugriff ist eine JIT-Zugriffsgenehmigung (Just-In-Time) erforderlich, und alle Änderungen an Protokollierungsmechanismen für Cosmos werden aufgezeichnet und überwacht. Überwachungsprotokolle werden lange genug aufbewahrt, um Vorfalluntersuchungen zu unterstützen und behördliche Anforderungen zu erfüllen. Der genaue Zeitraum der Aufbewahrung von Überwachungsprotokolldaten in Cosmos wird von den Serviceteams bestimmt. die meisten Überwachungsprotokolldaten werden 90 Tage oder länger aufbewahrt.
 
-## <a name="how-does-microsoft-365-protect-end-user-identifiable-information-that-may-be-captured-in-audit-logs"></a>Wie schützt Microsoft 365 identifizierbare Endbenutzerinformationen, die möglicherweise in Überwachungsprotokollen erfasst werden?
+## <a name="how-does-microsoft-365-protect-end-user-identifiable-information-that-may-be-captured-in-audit-logs"></a>Wie schützt Microsoft 365 Identifizierbare Endbenutzerinformationen, die möglicherweise in Überwachungsprotokollen erfasst werden?
 
 Vor dem Hochladen von Protokolldaten verwendet die ODL-Anwendung einen Scrubbing-Dienst, um alle Felder zu entfernen, die Kundendaten enthalten, z. B. Mandanteninformationen und Endbenutzerinformationen, und diese Felder durch einen Hashwert zu ersetzen. Die anonymisierten und gehashten Protokolle werden umgeschrieben und dann in Cosmos hochgeladen. Alle Protokollübertragungen erfolgen über eine TLS-verschlüsselte Verbindung (FIPS 140-2).
 

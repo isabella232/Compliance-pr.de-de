@@ -20,12 +20,12 @@ f1.keywords:
 - NOCSH
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: ca0371d51bfe0b403805f259d87a8162e32bfd1e
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 287611c897a14b87fdfcd280e1457291863cdba339b6281fe0755eda3f2a859a
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53088584"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290927"
 ---
 # <a name="isolation-and-access-control-in-microsoft-365"></a>Isolation und Zugriffssteuerung in Microsoft 365
 
@@ -57,15 +57,15 @@ Jede Postfachdatenbank innerhalb Exchange Online enthält Postfächer aus mehrer
 
 Skype for Business speichert Daten an verschiedenen Stellen:
 
-- Benutzer- und Kontoinformationen, einschließlich Verbindungsendpunkte, Mandanten-IDs, Wählpläne, Roamingeinstellungen, Anwesenheitsstatus, Kontaktlisten usw., werden in den Skype for Business Active Directory-Servern und auf verschiedenen Skype for Business Datenbankservern gespeichert. Kontaktlisten werden im Exchange Online Postfach des Benutzers gespeichert, wenn der Benutzer für beide Produkte aktiviert ist, oder auf Skype for Business Servern, wenn dies nicht der Fall ist. Skype for Business Datenbankserver werden nicht pro Mandant partitioniert, aber die Isolation von Daten mit mehreren Mandanten wird durch die rollenbasierte Zugriffssteuerung (RBAC) erzwungen.
+- Benutzer- und Kontoinformationen, einschließlich Verbindungsendpunkte, Mandanten-IDs, Wählpläne, Roamingeinstellungen, Anwesenheitsstatus, Kontaktlisten usw., werden in den Skype for Business Active Directory-Servern und in verschiedenen Skype for Business-Datenbankservern gespeichert. Kontaktlisten werden im Exchange Online Postfach des Benutzers gespeichert, wenn der Benutzer für beide Produkte aktiviert ist, oder auf Skype for Business Servern, wenn dies nicht der Fall ist. Skype for Business Datenbankserver werden nicht pro Mandant partitioniert, aber die Isolation von Daten mit mehreren Mandanten wird durch die rollenbasierte Zugriffssteuerung (RBAC) erzwungen.
 - Besprechungsinhalte und hochgeladene Daten werden in DFS-Freigaben (Distributed File System) gespeichert. Dieser Inhalt kann auch in Exchange Online archiviert werden, wenn er aktiviert ist. Die DFS-Freigaben werden nicht pro Mandant partitioniert. Der Inhalt wird mit ACLs gesichert, und der Mehrmandant wird über RBAC erzwungen.
-- Anrufdetaildatensätze, die den Aktivitätsverlauf darstellen, z. B. Anrufverlauf, Chatsitzungen, Anwendungsfreigabe, Chatverlauf usw., können auch in Exchange Online gespeichert werden. Die meisten Anrufdetaildatensätze werden jedoch vorübergehend auf KDS-Servern (Call Detail Record) gespeichert. Inhalte werden nicht pro Mandant partitioniert, sondern mehrinstanzenfähig über RBAC erzwungen.
+- Anrufdetaildatensätze, bei denen es sich um den Aktivitätsverlauf handelt, z. B. Anrufverlauf, Chatsitzungen, Anwendungsfreigabe, Chatverlauf usw., können auch in Exchange Online gespeichert werden, die meisten Anrufdetaildatensätze werden jedoch vorübergehend auf KDS-Servern (Call Detail Record) gespeichert. Inhalte werden nicht pro Mandant partitioniert, sondern mehrinstanzenfähig über RBAC erzwungen.
 
 ## <a name="sharepoint-online"></a>SharePoint Online
 
 SharePoint Online verfügt über mehrere unabhängige Mechanismen, die Datenisolation bereitstellen. Es speichert Objekte als abstrahierten Code in Anwendungsdatenbanken. Wenn ein Benutzer beispielsweise eine Datei in SharePoint Online hochlädt, wird die Datei zerlegt, in Anwendungscode übersetzt und in mehreren Tabellen über mehrere Datenbanken hinweg gespeichert.
 
-Wenn ein Benutzer direkten Zugriff auf den Speicher erhalten könnte, der die Daten enthält, kann der Inhalt nicht für ein menschliches oder ein anderes System als SharePoint Online interpretiert werden. Zu diesen Mechanismen gehören sicherheitsbezogene Zugriffssteuerung und Eigenschaften. Alle SharePoint Onlineressourcen werden durch den Autorisierungscode und die RBAC-Richtlinie geschützt, auch innerhalb eines Mandanten. Die Zugriffssteuerungsliste (Access Control List, ACL), die eine Ressource sichert, enthält eine Identität, die auf Mandantenebene authentifiziert wurde. SharePoint Onlinedaten für einen Mandanten sind auf Identitäten beschränkt, die vom Authentifizierungsanbieter für den Mandanten authentifiziert wurden.
+Wenn ein Benutzer direkten Zugriff auf den Speicher erhalten könnte, der die Daten enthält, kann der Inhalt nicht für ein menschliches oder ein anderes System als SharePoint Online interpretiert werden. Zu diesen Mechanismen gehören sicherheitsbezogene Zugriffssteuerung und Eigenschaften. Alle SharePoint Onlineressourcen werden durch den Autorisierungscode und die RBAC-Richtlinie gesichert, auch innerhalb eines Mandanten. Die Zugriffssteuerungsliste (Access Control List, ACL), die eine Ressource sichert, enthält eine Identität, die auf Mandantenebene authentifiziert wurde. SharePoint Onlinedaten für einen Mandanten sind auf Identitäten beschränkt, die vom Authentifizierungsanbieter für den Mandanten authentifiziert wurden.
 
 Zusätzlich zu den ACLs wird eine Eigenschaft auf Mandantenebene, die den Authentifizierungsanbieter angibt (d. h. der mandantenspezifische Azure AD), einmal geschrieben und kann nicht geändert werden, sobald er festgelegt wurde. Sobald die Mandanteneigenschaft des Authentifizierungsanbieters für einen Mandanten festgelegt wurde, kann sie nicht mithilfe von APIs geändert werden, die für einen Mandanten verfügbar gemacht werden.
 
@@ -81,7 +81,7 @@ Ihre Teams Daten werden je nach Inhaltstyp unterschiedlich gespeichert.
 
 Eine ausführliche Erläuterung finden Sie in der [Ignite-Breakoutsitzung zu Microsoft Teams Architektur.](https://channel9.msdn.com/Events/Ignite/Microsoft-Ignite-Orlando-2017/BRK3071)
 
-### <a name="core-teams-customer-data"></a>Kernkundendaten Teams
+### <a name="core-teams-customer-data"></a>Core Teams Kundendaten
 
 Wenn Ihr Mandant in Australien, Kanada, der Europäischen Union, Frankreich, Deutschland, Indien, Japan, Südafrika, Südkorea, der Schweiz (einschließlich Liechtenstein), den Vereinigten Arabischen Emiraten, dem Vereinigten Königreich oder den Vereinigten Staaten bereitgestellt wird, speichert Microsoft die folgenden ruhenden Kundendaten nur an diesem Standort:
 
@@ -95,7 +95,7 @@ Jedes Team in Teams wird von einer Microsoft 365-Gruppe sowie deren SharePoint W
 
 #### <a name="voicemail-and-contacts"></a>Voicemail und Kontakte
 
-Voicemails werden in Exchange gespeichert. Kontakte werden in Exchange-basierten Clouddatenspeicher gespeichert. Exchange und der Exchange-basierte Cloudspeicher bieten bereits Datenaufbewahrung in jedem der weltweiten Rechenzentrumsregionen. Für alle Teams werden Voicemail und Kontakte in einem Land für Australien, Kanada, Frankreich, Deutschland, Indien, Japan, die Vereinigten Arabischen Emirate, das Vereinigte Königreich, Südafrika, Südkorea, die Schweiz (einschließlich Liechtenstein) und die Vereinigten Staaten gespeichert. Für alle anderen Länder werden Dateien basierend auf der Mandantenaffinität in den USA, Europa oder Asia-Pacific Speicherort gespeichert.
+Voicemails werden in Exchange gespeichert. Kontakte werden im Exchange-basierten Clouddatenspeicher gespeichert. Exchange und der Exchange-basierte Cloudspeicher bieten bereits Datenaufbewahrung in jedem der weltweiten Rechenzentrumsregionen. Für alle Teams werden Voicemail und Kontakte in einem Land für Australien, Kanada, Frankreich, Deutschland, Indien, Japan, die Vereinigten Arabischen Emirate, das Vereinigte Königreich, Südafrika, Südkorea, die Schweiz (einschließlich Liechtenstein) und die Vereinigten Staaten gespeichert. Für alle anderen Länder werden Dateien basierend auf der Mandantenaffinität in den USA, Europa oder Asia-Pacific Gespeichert.
 
 #### <a name="images-and-media"></a>Bilder und Medien
 

@@ -20,18 +20,18 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: d634883baf9ce6abe99b33d6394be86885b49656
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 5cca0c3cf70a0fe2c660c0b168a157056e1d4c56942fdeee2b71e7448c1dc50b
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53087594"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291013"
 ---
 # <a name="identity-and-access-management-overview"></a>Identitäts- und Zugriffsverwaltung (Übersicht)
 
 ## <a name="how-does-microsoft-365-protect-production-systems-from-unauthorized-or-malicious-access"></a>Wie schützt Microsoft 365 Produktionssysteme vor unbefugtem oder böswilligem Zugriff?
 
-Microsoft 365 ist so konzipiert, dass Die Techniker von Microsoft den Dienst ohne Zugriff auf Kundeninhalte ausführen können. Standardmäßig verfügen Microsoft 365 Techniker über Zero Standing Access (ZSA) für Kundeninhalte und keinen privilegierten Zugriff auf die Produktionsumgebung. Microsoft 365 verwendet ein Just-In-Time (JIT), Just-Enough-Access (JEA)-Modell, um Serviceteamtechnikern temporären privilegierten Zugriff auf Produktionsumgebungen zu gewähren, wenn ein solcher Zugriff erforderlich ist, um Microsoft 365 zu unterstützen. Das JIT-Zugriffsmodell ersetzt den traditionellen, dauerhaften administrativen Zugriff durch einen Prozess, bei dem Techniker bei Bedarf eine vorübergehende Erhöhung in privilegierte Rollen beantragen können.
+Microsoft 365 ist so konzipiert, dass Die Techniker von Microsoft den Dienst ausführen können, ohne auf Kundeninhalte zuzugreifen. Standardmäßig verfügen Microsoft 365 Techniker über Zero Standing Access (ZSA) für Kundeninhalte und keinen privilegierten Zugriff auf die Produktionsumgebung. Microsoft 365 verwendet ein Just-In-Time (JIT), Just-Enough-Access (JEA)-Modell, um Serviceteamtechnikern temporären privilegierten Zugriff auf Produktionsumgebungen zu gewähren, wenn ein solcher Zugriff erforderlich ist, um Microsoft 365 zu unterstützen. Das JIT-Zugriffsmodell ersetzt den traditionellen, dauerhaften administrativen Zugriff durch einen Prozess, bei dem Techniker bei Bedarf eine vorübergehende Erhöhung in privilegierte Rollen beantragen können.
 
 Techniker, die einem Serviceteam zur Unterstützung von Produktionsdiensten zugewiesen sind, fordern die Berechtigung für ein Serviceteamkonto über das Identity Management Tool (IDM) an. Die Anforderung der Berechtigung löst eine Reihe von Personalüberprüfungen aus, um sicherzustellen, dass der Techniker alle Cloud-Prüfungsanforderungen erfüllt, die erforderlichen Schulungen abgeschlossen und vor der Kontoerstellung eine entsprechende Verwaltungsgenehmigung erhalten hat. Erst nach Erfüllung aller Berechtigungsanforderungen kann ein Serviceteamkonto für die angeforderte Umgebung erstellt werden. Um die Berechtigung für ein Serviceteamkonto aufrechtzuerhalten, muss das Personal jährlich eine rollenbasierte Schulung durchlaufen und alle zwei Jahre erneut prüfen. Wenn diese Überprüfungen nicht abgeschlossen oder bestanden werden, werden die Berechtigungen automatisch widerrufen.
 

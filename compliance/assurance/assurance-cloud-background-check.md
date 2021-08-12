@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 96cd820b597970e6e4611700dbbfaed8621ac497
-ms.sourcegitcommit: 48b8ec2dd00e957508e5af82458bf697e1a97ebb
+ms.openlocfilehash: 4871d95164ffa4050e03af071b851cd555e411f1a3bfdf97781fa5060a8ed2b3
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53395625"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290003"
 ---
 # <a name="microsoft-cloud-background-check"></a>Microsoft Cloud-Hintergrundprüfung
 
@@ -41,7 +41,7 @@ Die Ergebnisse der Microsoft Cloud-Hintergrundüberprüfung werden in unserer Mi
 
 Die Stadien der Vereinigten Staaten werden für alle Mitarbeiter mit physischem oder logischem Zugriff auf die Umgebungen überprüft, in denen Us-Regierungsdienste ausgeführt werden. Um die Stundschaft zu überprüfen, treffen sich Mitarbeiter und/oder Kandidaten für Neueinstellungen mit einem Stellvertreter der US-Stundschaft, der zum Überprüfen der Dokumentation zur Überprüfung der US-Stundung geschult ist. Mitarbeiter oder Kandidaten für Neueinstellungen müssen die erforderliche Dokumentation mit sich bringen und ein Nachweisformular bei einer Besprechung mit der Stellvertreterin für Dietschaft für ihre Region signieren. Die Besprechung muss persönlich erfolgen. Nachdem sich die Person mit dem Stellvertreter für die Stellvertreterin für die Stellvertreterschaft getroffen und die erforderlichen Dokumentationen und Signaturen bereitgestellt hat, leitet der Stellvertreter eine Kopie der Dokumente an Microsoft Staffing Operations weiter, die die Kopie an die Datensatzführung übermitteln.
 
-Mitarbeiter mit logischem Zugriff auf Microsoft-Onlinedienste für die USA Government Community Cloud sind verpflichtet, die Anforderungen der Bundesbehörden der [Strafverfolgungsbehörden](https://www.fbi.gov/services/cjis) des FBI zu erfüllen, einschließlich der Personalprüfung. Das CJIS-Screening zur Unterstützung des Microsoft 365 U.S. Government-Diensts umfasst eine Fingerabdruck-basierte Prüfung des strafrechtlichen Hintergrunds, die von der CJIS-Systemorganisation als Verwalter in Staaten bezeichnet wird, die sich für das CJIS-Supportprogramm von Microsoft Online Services [registriert haben.](https://blogs.office.com/2013/10/23/california-and-microsoft-sign-cjis-security-policy-agreement/)
+Mitarbeiter mit logischem Zugriff auf Microsoft-Onlinedienste für die USA Government Community Cloud sind verpflichtet, die Anforderungen der Bundesbehörden der Strafverfolgungsbehörden der [FBI](https://www.fbi.gov/services/cjis) zu erfüllen, einschließlich der Personalprüfung. Das CJIS-Screening zur Unterstützung des Microsoft 365 U.S. Government-Dienstes umfasst eine Fingerabdruck-basierte Prüfung des strafrechtlichen Hintergrunds, die von der CJIS-Systemorganisation als Verwalter in Staaten bezeichnet wird, die sich im Microsoft Online Services CJIS-Supportprogramm [registriert haben.](https://blogs.office.com/2013/10/23/california-and-microsoft-sign-cjis-security-policy-agreement/)
 
 ## <a name="periodic-rescreening"></a>Regelmäßige erneute Überprüfung
 

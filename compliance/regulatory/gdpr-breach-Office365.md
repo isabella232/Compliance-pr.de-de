@@ -17,12 +17,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft GDPR
 hideEdit: true
-ms.openlocfilehash: d9c879259b94229ea27f1f42132dc12a575e57e5
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: e2ee52d466ea3ca082c818c9186be0763cb648c787ec50d0942469c46bff0d91
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51496456"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288294"
 ---
 # <a name="breach-notification-under-the-gdpr"></a>Informationspflicht bei Verletzung des Schutzes personenbezogener Daten im Rahmen der Datenschutz-Grundverordnung (DSGVO)
 

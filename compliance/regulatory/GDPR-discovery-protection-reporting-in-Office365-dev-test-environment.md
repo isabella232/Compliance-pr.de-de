@@ -21,12 +21,12 @@ ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
 hideEdit: true
-ms.openlocfilehash: a12e8e735df05004e63080f22c3c9b4de5749506
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: f49762321e33ee72835c352abdc96dfe8af96eddfc87f91f093137f4ad08204f
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51496651"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288334"
 ---
 # <a name="gdpr-discovery-protection-and-reporting-in-the-devtest-environment"></a>Suche, Schutz und Berichterstellung für die DSGVO in der Entwicklungs-/Testumgebung
 
@@ -240,7 +240,7 @@ In dieser Phase erstellen Sie eine neue DLP-Richtlinie und veranschaulichen, wie
 
 ## <a name="phase-6-demonstrate-reporting"></a>Phase 6: Veranschaulichen der Berichterstellung
 
-In dieser Phase veranschaulichen Sie die Microsoft 365-Berichterstellung basierend auf der in Phase 5 konfigurierten DLP-Richtlinie.
+In dieser Phase veranschaulichen Sie die Microsoft 365-Berichterstellung basierend auf der in Phase 5 konfigurierten DLP-Richtlinie.
 
    1. Klicken Sie auf der Registerkarte „Sicherheit und Compliance“ im Browser auf **Start**.
    2. Klicken Sie auf **Berichte** > **Dashboard** > **DLP-Richtlinienübereinstimmungen**.

@@ -17,12 +17,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: fc8964f453c5a2924fc9a4b43a2c89aa1dec4271
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 59316ed6c9a2935047cc9c3c137f886eecd3e77d427d3ac6e8c3808bf29f9b7d
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53088574"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290913"
 ---
 # <a name="built-in-service-resiliency-in-microsoft-365"></a>Integrierte Dienstresilienz in Microsoft 365
 
@@ -55,7 +55,7 @@ Fehlerisolationsmaßnahmen werden in mehreren Phasen der Entwicklung und Bereits
 
 Der Microsoft Security Development Lifecycle (SDL) fördert die Resilienz weiter und besteht aus einer Reihe von Praktiken, die Sicherheits-und Compliance-Anforderungen unterstützen. SDL leitet unsere Entwickler in den Aufbau widerstandsfähiger, sicherer und kompatibler Dienste. Zu den Schlüsselelementen von SDL gehören Codeüberprüfungen, Bedrohungsmodellierung, Penetrationstests und standardisierte Prozesse zur Ereignisreaktion in der Microsoft-Cloud.
 
-Microsoft 365 Dienste sind in hohem Maße miteinander verbunden, aber die systeme und die technologie hinter ihnen sind so konzipiert, dass die Auswirkungen eines Dienstvorfalls durch das Übertragen auf andere Dienste begrenzt werden. Beispielsweise wirkt sich ein Problem, das sich auf Exchange Online auswirkt, nicht auf die Kernfunktionalität in Teams aus, oder ein Problem mit der Suchfunktion in SharePoint Online wirkt sich nicht auf die Möglichkeit der Benutzer aus, Dateien hoch- oder herunterzuladen.
+Microsoft 365 Dienste sind in hohem Maße miteinander verbunden, aber die systeme und technologie hinter ihnen sind so konzipiert, dass die Auswirkungen eines Dienstvorfalls auf andere Dienste begrenzt werden. Beispielsweise wirkt sich ein Problem, das sich auf Exchange Online auswirkt, nicht auf die Kernfunktionen in Teams aus, oder ein Problem mit suchfunktionen in SharePoint Online wirkt sich nicht auf die Möglichkeit der Benutzer aus, Dateien hoch- oder herunterzuladen.
 
 ## <a name="continuous-service-improvement"></a>Kontinuierliche Serviceverbesserung
 

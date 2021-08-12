@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e2653fbe30a6bde61260ac825d3c2e08f6d11dbb
-ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
+ms.openlocfilehash: a1409518fd83f6c43a562cabe7dde09005390a0bb378fc4dd37f70b7e4aaf6cf
+ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53385505"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54287904"
 ---
 # <a name="dutch-authority-for-the-financial-markets-and-the-central-bank-of-the-netherlands"></a>Niederländische Aufsichtsbehörde für die Finanzmärkte und die Zentralbank der Niederlande
 
@@ -54,7 +54,7 @@ Die Microsoft-Checkliste unterstützt Finanzunternehmen in den Niederlanden bei 
 - eine Übersicht über die aufsichtsrechtliche Landschaft für den Kontext.
 - Eine Checkliste, welche die zu behandelnden Probleme darlegt und die Dienste von Microsoft Azure, Microsoft Dynamics 365 und Microsoft 365 den regulatorischen Verpflichtungen zuordnet. Die Checkliste dazu verwendet werden, die Compliance anhand eines regulatorischen Rahmens zu messen und eine interne Struktur für die Dokumentation der Compliance bereitzustellen; sie kann Kunden auch bei der Durchführung ihrer eigenen Risikobewertungen von Microsoft Business-Clouddiensten unterstützen.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und Dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
