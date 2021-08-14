@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 88a5e554fc2307dfa427ccb0023e7a00e006d536fc8cca276d550aa9510dbc29
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: c6f9a01ff954465240b74f9526c93b926fb08006
+ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287298"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58260487"
 ---
 # <a name="center-for-financial-industry-information-systems-fisc"></a>Center for Financial Industry Information Systems (FISC)
 
@@ -67,7 +67,7 @@ Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Di
 
 | **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
 |:------------------|:----------------------|
-| **Office 365** | Access Online, Azure Active Directory, Delve, Exchange Online, Exchange Online Protection, Microsoft Teams, Office 365 ProPlus, Office Online, OneDrive for Business, Power BI für Office 365, Project Online, SharePoint Online, Skype for Business |
+| **Kommerziell** | Access Online, Azure Active Directory, Delve, Exchange Online, Exchange Online Protection, Microsoft Teams, Office 365 ProPlus, Office Online, OneDrive for Business, Power BI für Office 365, Project Online, SharePoint Online, Skype for Business |
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
@@ -84,7 +84,7 @@ Das FISC hat zwei Berichte seines Expertenrats veröffentlicht:
 
 **Wo erhalte ich Details der Antworten von Microsoft auf das FISC-Rahmenwerk?**
 
-Sie können auch Sicherheitsempfehlungen ([in Japanisch](https://aka.ms/microsoftresponsetofiscguidancejapanese)) von Drittparteien sehen, welche die FISC-Compliance von Microsoft Cloud Services evaluiert haben.
+Wenn Sie Sicherheitsreferenzen von Drittanbietern benötigen, die die FISC-Compliance von Microsoft Cloud Services bewertet haben, wenden Sie sich an Ihren Microsoft-Kundenbetreuer.
 
 **Kann ich die Antworten von Microsoft auf dieses Rahmenwerk für den Qualifizierungsprozess meiner Organisation verwenden?**
 

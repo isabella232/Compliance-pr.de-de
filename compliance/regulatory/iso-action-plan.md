@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 ms.custom: seo-marvel-apr2020
 hideEdit: true
-ms.openlocfilehash: 0453e148c38de9cc6e7171becd21576646dd4be50796ecb674a02fc8fef4ff43
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 525870883b67ef37b45af2aa690ce849acd9217d
+ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287914"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58261122"
 ---
 # <a name="microsoft-365-iso-27001-action-plan--top-priorities-for-your-first-30-days-90-days-and-beyond"></a>ISO 27001-Aktionsplan für Microsoft 365: die wichtigsten Prioritäten für die ersten 30 Tage, 90 Tage und danach
 
@@ -29,7 +29,7 @@ Die International Organization for Standardization (ISO) ist ein unabhängiger n
 
 Die ISO/IEC 27001 ist die internationale Norm für die Implementierung eines Informationssicherheit-Managementsystems (ISMS). Ein ISMS beschreibt die erforderlichen Umsetzungsmethoden und Nachweise im Zusammenhang mit den Anforderungen, die für ein zuverlässiges Management der Informationssicherheit in jedem Unternehmen essenziell sind.  
 
-In diesem Artikel finden Sie einen nach Priorität aufgeschlüsselten Aktionsplan, den Sie abarbeiten können, um die Anforderungen der ISO/IEC 27001 zu erfüllen. Dieser Aktionsplan wurde in Zusammenarbeit mit Protiviti entwickelt, einem auf gesetzliche Compliance spezialisierten Microsoft-Partner. Weitere Informationen zur Nutzung dieses Aktionsplans erhalten Sie auf Microsoft Ignite in der Session [Chart your Microsoft 365 compliance path and information protection strategy](https://myignite.techcommunity.microsoft.com/videos/65720), präsentiert von Maithili Dandige (Microsoft) und Antonio Maio (Protiviti).
+Dieser Artikel beinhaltet einen nach Prioritäten aufgeschlüsselten Aktionsplan, dem Sie folgen können, um die Anforderungen von ISO/IEC 27001 zu erfüllen. Dieser Aktionsplan wurde in Zusammenarbeit mit Protiviti entwickelt, einem Microsoft-Partner, der sich auf die Einhaltung gesetzlicher Vorschriften spezialisiert hat.
 
 ## <a name="action-plan-outcomes"></a>Ergebnisse des Aktionsplans
 
