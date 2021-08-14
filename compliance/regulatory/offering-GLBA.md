@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3765100048d7f17afc27781775487574c6f5219d72e246c4670ccbe91f91f307
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 7d4e4066704e15354113709e480455db2c1c48a1
+ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293492"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58259804"
 ---
 # <a name="gramm-leach-bliley-act-glba"></a>Gramm-Leach-Bliley Act (GLBA)
 
@@ -31,9 +31,9 @@ Der Gramm-Leach-Bliley Act (GLBA) ist ein US-Gesetz, das die Finanzdienstleistun
 
 ## <a name="microsoft-and-glba"></a>Microsoft und GLBA
 
-Microsoft Azure, Microsoft Office 365, Dynamics 365 und Microsoft Power BI können dazu beitragen, die strengen Anforderungen der Bereitstellung von Clouddiensten für Finanzinstitute zu erfüllen. Im Rahmen unseres Supports bieten wir Anleitungen, die Ihnen helfen, die Anforderungen der GLBA zu erfüllen, indem wir technische und organisatorische Sicherheitsmaßnahmen bereitstellen, um die Sicherheit aufrechtzuerhalten und unbefugte Nutzung zu verhindern.
+Microsoft Azure, Microsoft Office 365, Dynamics 365 und Microsoft Power BI können dazu beitragen, die strengen Anforderungen der Bereitstellung von Clouddiensten für Finanzinstitute zu erfüllen. Im Rahmen unseres Supports bieten wir Anleitungen, die Ihnen helfen, die Anforderungen der GLBA zu erfüllen, indem sie technische und organisatorische Sicherheitsmaßnahmen bereitstellen, um die Sicherheit aufrechtzuerhalten und unbefugte Nutzung zu verhindern.
 
-Microsoft hat Tools zur Risikobewertung für [Azure](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=6b218946-c235-4234-9beb-d557e39a3f44&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) und [Office 365](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=55702ffd-c35a-4619-8722-ab71c0c02002&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) entwickelt, die Ihnen helfen, eine Risikobewertung von Azure und Office 365-Diensten effizienter durchzuführen. Das Tool (eine Excel-Tabelle) bietet zahlreiche Informationssicherheitsdomänen (z. B. Sicherheitsrichtlinien und Risikomanagement), die die Anforderungen der Finanzdienstleistungsvorschriften und anderer relevanter Standards nachverfolgen, einschließlich GLBA (in Spalte R in der Azure-Tabelle und Spalte Q im Office 365 Arbeitsblatt). Die Tools erläutern, wie Azure und Office 365 die anforderungen erfüllen, die für Clouddienstanbieter gelten, und können Ihnen helfen, glba-Sicherheitsanforderungen zu erfüllen.
+Microsoft hat Tools zur Risikobewertung für [Azure](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=6b218946-c235-4234-9beb-d557e39a3f44&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) und [Office 365](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=55702ffd-c35a-4619-8722-ab71c0c02002&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) entwickelt, die Ihnen helfen, eine Risikobewertung von Azure und Office 365-Diensten effizienter durchzuführen. Das Tool (ein Excel Tabellenkalkulation) bietet zahlreiche Informationssicherheitsdomänen (z. B. Sicherheitsrichtlinien und Risikomanagement), die die Anforderungen der Finanzdienstleistungsvorschriften und anderer relevanter Standards nachverfolgen, einschließlich GLBA (in Spalte R in der Azure-Tabelle und Spalte Q in der Office 365 Tabellenkalkulation). Die Tools erläutern, wie Azure und Office 365 die anforderungen erfüllen, die für Clouddienstanbieter gelten, und können Ihnen helfen, glba-Sicherheitsanforderungen zu erfüllen.
 
 ## <a name="promote-your-glba-compliance"></a>Bewerben der GLBA-Compliance
 
@@ -64,7 +64,7 @@ Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Di
 
 | **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
 |:------------------|:----------------------|
-| **Office 365** | Azure Active Directory, Azure Information Protection, Bookings, Compliance Manager, Delve, Exchange Online, Exchange Online Protection, Forms, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Defender für Office 365, Microsoft Graph, Microsoft Teams, Microsoft To Do für das Web, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Cloud App Security, Office 365-Gruppen, Office 365 Security & Compliance Center, Office 365 Video, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
+| **Kommerziell** | Azure Active Directory, Azure Information Protection, Bookings, Compliance Manager, Delve, Exchange Online, Exchange Online Protection, Forms, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Defender für Office 365, Microsoft Graph, Microsoft Teams, Microsoft To Do für das Web, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Cloud App Security, Office 365-Gruppen, Office 365 Security & Compliance Center, Office 365 Video, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
 | **GCC** | Azure Active Directory, Compliance-Manager, Delve, Exchange Online, Formulare, Microsoft Defender für Office 365 Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, Stream |
 
 ### <a name="frequently-asked-questions"></a>Häufig gestellte Fragen

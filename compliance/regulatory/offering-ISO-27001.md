@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 587b05960289bc64932c23db099238af7bf971d6063c9f6568d690ee77bb4c5d
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: a09374f9515e4c215da5d2f61d6d5e3996e15f84
+ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288653"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58260531"
 ---
 # <a name="isoiec-270012013-information-security-management-standards"></a>ISO/IEC 27001:2013 Information Security Management Standards
 
@@ -79,7 +79,7 @@ Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Di
 
 | **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
 |:------------------|:----------------------|
-| **Office 365** | Access Online, Azure Active Directory, Azure Communications Service, Compliance-Manager, Kunden-Lockbox, Delve, Exchange Online, Exchange Online Protection, Forms, Griffin, Identity Manager, Lockbox (Torus), Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365-Kundenportal, Office 365-Microservices (einschließlich, aber nicht beschränkt auf Kaizala, ObjectStore, Sway, PowerPoint Online-Dokumentdienst, Abfrage-Anmerkungsdienst, School Data Sync, Siphon, Speech, StaffHub, eXtensible-Anwendungsprogramm), Office 365 Security & Compliance Center, Office Online, Office Pro Plus, Office Services-Infrastruktur, OneDrive for Business, Planner, PowerApps, Power BI, Project Online, Dienstverschlüsselung mit Kundenschlüssel, SharePoint Online, Skype for Business, Stream |
+| **Kommerziell** | Access Online, Azure Active Directory, Azure Communications Service, Compliance-Manager, Kunden-Lockbox, Delve, Exchange Online, Exchange Online Protection, Forms, Griffin, Identity Manager, Lockbox (Torus), Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365-Kundenportal, Office 365-Microservices (einschließlich, aber nicht beschränkt auf Kaizala, ObjectStore, Sway, PowerPoint Online-Dokumentdienst, Abfrage-Anmerkungsdienst, School Data Sync, Siphon, Speech, StaffHub, eXtensible-Anwendungsprogramm), Office 365 Security & Compliance Center, Office Online, Office Pro Plus, Office Services-Infrastruktur, OneDrive for Business, Planner, PowerApps, Power BI, Project Online, Dienstverschlüsselung mit Kundenschlüssel, SharePoint Online, Skype for Business, Stream |
 | **GCC** | Azure Active Directory, Azure Communications Service, Compliance-Manager, Delve, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, Stream |
 | **GCC Hoch** | Azure Active Directory, Azure Communications Service, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business |
 | **DoD** | Azure Active Directory, Azure Communications Service, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, Power BI, SharePoint Online, Skype for Business |
@@ -128,6 +128,7 @@ Ja. Wenn Ihr Unternehmen eine Zertifizierung nach ISO/IEC 27001 für Installatio
 
 ### <a name="resources"></a>Ressourcen
 
+- [Aktionsplan zu Microsoft 365 ISO 27001](iso-action-plan.md)
 - [Zuordnung der Microsoft Cyber-Angebote: NIST Cybersecurity (CSF), CIS Controls und ISO27001:2013-Frameworks](https://download.microsoft.com/download/B/1/8/B18F4C7D-5CBA-4E68-A437-31F1E908ACBA/Microsoft_Cyber_Offerings_Mapped_to_Security_Frameworks_EN_US.pdf)
 - [Das ISO/IEC 27000-Verzeichnis](https://www.27000.org/index.htm)
 - [ISO/IEC 27001:2013-Standard](https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=54534) (für den Kauf)

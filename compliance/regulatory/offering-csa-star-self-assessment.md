@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 7550d81794162ace15441360a3175c0efcf03ddaf1fb94ccc27e683b8077a110
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 2e3864912d214e6649425c9434e346a01d20c87e
+ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288214"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58260511"
 ---
 # <a name="cloud-security-alliance-csa-star-self-assessment"></a>Cloud Security Alliance (CSA) STAR Selbsteinschätzung
 
@@ -66,7 +66,7 @@ Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Di
 
 | **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
 |:------------------|:----------------------|
-| **Office 365** |Exchange Online, Exchange Online Protection, Office 365-Kundenportal, Office Online, Office-Dienstinfrastruktur, OneDrive for Business, SharePoint Online, Skype for Business |
+| **Kommerziell** |Exchange Online, Exchange Online Protection, Office 365-Kundenportal, Office Online, Office-Dienstinfrastruktur, OneDrive for Business, SharePoint Online, Skype for Business |
 
 ### <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 

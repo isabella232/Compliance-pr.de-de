@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 2c866391c08b4a69db3cb54bdbfbe367007e32ce59207f0d42df0bb29cf98f9f
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 39ab743755b949502d4f63c36a64d5785d85f6ab
+ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293402"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58260682"
 ---
 # <a name="securities-and-exchange-commission-sec-rule-17a-4f-united-states"></a>Securities and Exchange Commission (SEC) Rule 17a-4(f) United States
 
@@ -39,10 +39,10 @@ Finanzdienstleistungskunden, die eine der am stärksten regulierten Branchen der
 
 Microsoft Azure Unveränderliche Blob-Storage mit Richtliniensperre und Microsoft Office 365 mit Erhaltungssperre können Finanzinstituten helfen, die unveränderlichen Speicheranforderungen der SEC-Regel 17a-4(f) zu erfüllen.
 
-Um die Compliance von Azure und Office 365 SEC-Regel 17a-4(f) zu bewerten, bewahre Microsoft ein unabhängiges Bewertungsunternehmen, das sich auf die Datensatzverwaltung und Informationsgovernance spezialisiert hat, Cohasset Associates. Im resultierenden Bericht für:
+Um azure und Office 365 Einhaltung der SEC-Regel 17a-4(f) zu bewerten, bewahre Microsoft ein unabhängiges Bewertungsunternehmen, das sich auf datensatzverwaltung und Informationsgovernance spezialisiert hat, Cohasset Associates. Im resultierenden Bericht für:
 
-- **Azure**: [SEC 17a-4(f) Compliance Assessment: Microsoft Azure Storage](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=19b08fd4-d276-43e8-9461-715981d0ea20&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_GRC_Assessment_Reports), Cohasset hat überprüft, dass [Azure Immutable Blob Storage](/azure/storage/blobs/storage-blob-immutable-storage) mit der Option "Richtliniensperre" verwendet wird, wenn es verwendet wird, um zeitbasierte Blobs in einem nicht löschbaren und nicht beschreibbaren (WORM)-Format beizubehalten, die unveränderlichen Speicheranforderungen der SEC-Regel zu erfüllen. Jedes Blob (Datensatz) ist vor Änderungen, Überschreibungen oder Löschungen geschützt, bis der erforderliche Aufbewahrungszeitraum abgelaufen ist und alle zugehörigen rechtlichen Haltebereiche freigegeben wurden. Softwareanbieter und Partner mit vertraulichen Workloads können sich jetzt auf Azure Immutable Blob Storage als Onestop-Shop-Cloudlösung für die Aufbewahrung von Datensätzen und unveränderlichen Speicher verlassen. Finanzinstitute können jetzt ihre eigenen Anwendungen erstellen, die diese Features nutzen und gleichzeitig konform bleiben.
-- **Microsoft 365:** Für [SEC 17a-4(f)-Anforderungen](/microsoft-365/compliance/retention-regulatory-requirements#sec-17a-4f-finra-4511c-and-cftc-131c-d) hat Cohasset überprüft, dass Microsoft 365 Archivierungsfunktionen umfasst, mit denen regulierte Kunden, einschließlich Broker-Händler, Daten auf eine Weise speichern können, die ihnen hilft, die SEC-Anforderungen für die Datensatzaufbewahrung zu erfüllen. Aufbewahrungsfunktionen in Microsoft 365 dabei helfen, eine vielzahl von Daten zu erhalten, einschließlich E-Mail, Voicemail, freigegebene Dokumente, Chatnachrichten und Daten von Drittanbietern. Insbesondere die Archivierung in Microsoft 365 ermöglicht Es Kunden, globale oder granulare Aufbewahrungsrichtlinien für Messaging festzulegen, um Daten für einen definierten Zeitraum und darüber hinaus in einem nicht umschreibbaren, nicht löschbaren Format zu speichern.
+- **Azure**: [SEC 17a-4(f) Compliance Assessment: Microsoft Azure Storage](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=19b08fd4-d276-43e8-9461-715981d0ea20&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_GRC_Assessment_Reports), Cohasset hat überprüft, dass [Azure Immutable Blob Storage](/azure/storage/blobs/storage-blob-immutable-storage) mit der Option "Richtliniensperre" verwendet wird, wenn es verwendet wird, um zeitbasierte Blobs in einem nicht löschbaren und nicht neu beschreibbaren (WORM)-Format beizubehalten, die unveränderlichen Speicheranforderungen der SEC-Regel erfüllt. Jedes Blob (Datensatz) ist vor Änderungen, Überschreibungen oder Löschungen geschützt, bis der erforderliche Aufbewahrungszeitraum abgelaufen ist und alle zugehörigen rechtlichen Haltebereiche freigegeben wurden. Softwareanbieter und Partner mit vertraulichen Workloads können sich jetzt auf Azure Immutable Blob Storage als Eine-Top-Shop-Cloudlösung für die Aufbewahrung von Datensätzen und unveränderlichen Speicher verlassen. Finanzinstitute können jetzt ihre eigenen Anwendungen erstellen, die diese Features nutzen und gleichzeitig konform bleiben.
+- **Microsoft 365:** Für [SEC 17a-4(f)-Anforderungen](/microsoft-365/compliance/retention-regulatory-requirements#sec-17a-4f-finra-4511c-and-cftc-131c-d) hat Cohasset überprüft, dass Microsoft 365 Archivierungsfunktionen umfasst, mit denen regulierte Kunden, einschließlich Broker-Händler, Daten auf eine Weise speichern können, die ihnen hilft, die SEC-Anforderungen für die Datensatzaufbewahrung zu erfüllen. Mithilfe von Aufbewahrungsfunktionen in Microsoft 365 können Sie eine vielzahl von Daten aufbewahren, einschließlich E-Mails, Voicemail, freigegebene Dokumente, Chatnachrichten und Daten von Drittanbietern. Insbesondere die Archivierung in Microsoft 365 ermöglicht Es Kunden, globale oder granulare Aufbewahrungsrichtlinien für Messaging festzulegen, um Daten für einen definierten Zeitraum und darüber hinaus in einem nicht umschreibbaren, nicht löschbaren Format zu speichern.
 
 ## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
 
@@ -53,11 +53,11 @@ Um die Compliance von Azure und Office 365 SEC-Regel 17a-4(f) zu bewerten, bewah
 
 ### <a name="azure--sec-rule-17"></a>Azure & SEC-Regel 17
 
-[SEC 17a-4(f) & CFTC 1.31 (c-d) Compliance Assessment of Azure Storage](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=19b08fd4-d276-43e8-9461-715981d0ea20&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_GRC_Assessment_Reports)
+- [SEC 17a-4(f) & CFTC 1.31 (c-d) Compliance Assessment of Azure Storage](https://azure.microsoft.com/resources/azure-immutable-storage-assessment-for-sec-17a-4f-by-cohasset/)
 
 ### <a name="office-365--sec-rule-17"></a>Office 365 & SEC-Regel 17
 
-[SEC 17a-4(f) Compliance Assessment: Microsoft Security & Compliance Center mit SharePoint, OneDrive, Teams, Exchange und Skype for Business](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=2dc92867-5f83-49d8-ad04-9e7295c9e40e&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_FAQ_and_White_Papers)
+- [SEC 17a-4(f) Compliance Assessment: Microsoft Security & Compliance Center mit SharePoint, OneDrive, Teams, Exchange und Skype for Business](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=2dc92867-5f83-49d8-ad04-9e7295c9e40e&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_FAQ_and_White_Papers)
 
 ## <a name="how-to-implement"></a>Implementierung
 

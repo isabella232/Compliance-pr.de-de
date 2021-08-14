@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 405a752b9a6d8e1bdb5d7d5c0ad937aba634806033ea87a36c92629bf458bf3a
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: ff74580117a3ff1883b35331f2c9bed076d17bb8
+ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292502"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58261006"
 ---
 # <a name="financial-market-supervisory-authority-finma-switzerland"></a>Finanzmarktaufsichtsbehörde (FINMA) Schweiz
 
@@ -33,7 +33,7 @@ Die FINMA hat das [Rundschreiben 2018/3 „Outsourcing – Banken und Versichere
 
 ## <a name="microsoft-and-finma"></a>Microsoft und die FINMA
 
-Um Finanzinstitute in der Schweiz bei der Auslagerung von Geschäftsfunktionen in die Cloud zu unterstützen, hat Microsoft die Publikation [Eine Compliance-Checkliste für Finanzinstitute in der Schweiz](https://aka.ms/FinServ-Guide-Switzerland) veröffentlicht. Durch die Überprüfung und Vervollständigung der Checkliste können Finanzunternehmen Microsoft Business-Clouddienste mit der Gewissheit einführen, dass sie die geltenden gesetzlichen Anforderungen erfüllen.
+Um Finanzinstitute in der Schweiz bei der Auslagerung von Geschäftsfunktionen in die Cloud zu unterstützen, hat Microsoft die Publikation [Eine Compliance-Checkliste für Finanzinstitute in der Schweiz](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=343ee8d6-db99-4e03-903c-1c24c9ce893c&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Compliance_Guides) veröffentlicht. Durch die Überprüfung und Vervollständigung der Checkliste können Finanzunternehmen Microsoft Business-Clouddienste mit der Gewissheit einführen, dass sie die geltenden gesetzlichen Anforderungen erfüllen.
 
 Wenn Schweizerische Finanzinstitute Geschäftsaktivitäten auslagern, müssen sie den Anforderungen der Eidgenössischen Finanzmarktaufsicht (FINMA) nachkommen und sich anderer Anforderungen und Richtlinien bewusst sein, zu denen u. a. jene des Schweizerischen Nationalbankgesetzes, der Schweizerischen Nationalbankverordnung und des Schweizerischen Versicherungsaufsichtsgesetzes zählen.
 
@@ -50,7 +50,7 @@ Die Microsoft-Checkliste unterstützt Schweizerische Finanzunternehmen bei der D
 
 ## <a name="how-to-implement"></a>Implementierung
 
-- [Compliance-Checkliste: Schweiz](https://aka.ms/FinServ-Guide-Switzerland): Finanzunternehmen können sich bei der Durchführung von Risikobewertungen von Microsoft Business-Clouddiensten unterstützen lassen.
+- [Compliance-Checkliste: Schweiz](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=343ee8d6-db99-4e03-903c-1c24c9ce893c&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Compliance_Guides): Finanzunternehmen können sich bei der Durchführung von Risikobewertungen von Microsoft Business-Clouddiensten unterstützen lassen.
 - [Leitfaden für Risikobewertung und Compliance](https://aka.ms/RiskGovernanceGuide): Erstellen Sie ein Governance-Modell für die Risikobewertung von Microsoft-Clouddiensten und die Benachrichtigung der Aufsichtsbehörden.
 - [Anwendungsfälle in der Finanzbranche](/azure/industry/financial/): Verwenden Sie Fallübersichten, Lernprogramme und andere Ressourcen, um Azure-Lösungen für Finanzdienstleistungen zu entwickeln.
 

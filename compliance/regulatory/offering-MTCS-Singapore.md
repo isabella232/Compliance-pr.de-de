@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 1754a102b87b68e36feb8bd18b4194c50cfd2622a9adacea75449cb8f624e441
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: bb0cb0d194dce63c2de6e42d7def9fb855c981a2
+ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293482"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58260979"
 ---
 # <a name="multi-tier-cloud-security-mtcs-standard-for-singapore"></a>Multi-Tier Cloud Security (MTCS) Standard für Singapur
 
@@ -70,7 +70,7 @@ Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Di
 
 | **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
 |:------------------|:----------------------|
-| **Office 365** | Delve, Exchange Online, Exchange Online Protection, Loki, Microsoft Teams, Office 365-Kundenportal, Office Online, Office-Dienstinfrastruktur, SharePoint Online, Skype for Business |
+| **Kommerziell** | Delve, Exchange Online, Exchange Online Protection, Loki, Microsoft Teams, Office 365-Kundenportal, Office Online, Office-Dienstinfrastruktur, SharePoint Online, Skype for Business |
 
 ## <a name="audits-reports-and-certificates"></a>Prüfungen, Berichte und Zertifikate
 

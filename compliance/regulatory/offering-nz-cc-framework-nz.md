@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: c333fc2d6bdb9889dafefd2571b8381edd15e5158a4783aa7a17cec7ce1bcc7c
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: f135cf64356a55ba3ed6c0010e8273d2854c005e
+ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293382"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58259814"
 ---
 # <a name="new-zealand-government-information-security-and-privacy-considerations-ispc"></a>Überlegungen zur Informationssicherheit und zum Datenschutz in Neuseeland (NEW Zealand Government Information Security and Privacy Considerations, ISPC)
 
@@ -43,7 +43,7 @@ Um Behörden bei der Analyse und Bewertung von Microsoft Enterprise Cloud Servic
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
 - Office 365
-- Power BI-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365-Plan oder einer -Anwendungssuite enthalten
+- Power BI-Clouddienst entweder als eigenständiger Dienst oder als Bestandteil eines Office 365 Markenplans oder einer Office 365 Suite
 
 ## <a name="office-365-and-ispc"></a>Office 365 und ISPC
 
@@ -57,7 +57,7 @@ Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Di
 
 | **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
 |:------------------|:----------------------|
-| **Office 365** | Exchange Online, SharePoint Online, Skype for Business |
+| **Kommerziell** | Exchange Online, SharePoint Online, Skype for Business |
 
 >[!Note]
 >Microsoft NZ hat mit dem GCIO-Team zusammengearbeitet, um eine Referenzarchitektur für die Integration von Exchange Online und SEEMail zu entwickeln, die in Office 365 beschrieben wird: SEEMail-Integration und Referenzarchitektur.

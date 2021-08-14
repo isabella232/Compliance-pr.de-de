@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a9f621e31b2ea7c0becd528915e1377fcaa33c68940235a6b195139a61c824c0
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: df88a1837b948f5f1dc31ad04244b5d9a84442bc
+ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293862"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58260310"
 ---
 # <a name="australian-government-information-security-registered-assessor-program-irap"></a>Australian Government Information Security Registered Assessor Program (IRAP)
 
@@ -41,7 +41,7 @@ Das Information Security Registered Assessors Program (IRAP) wird vom Australian
 
 ## <a name="microsoft-and-irap"></a>Microsoft und IRAP
 
-Im Dezember 2020 hat Microsoft zwei inkrementelle Azure & Dynamics- und Office 365-Bewertungen abgeschlossen. Diese Bewertungen haben weitere Dienste hinzugefügt, die auf der Klassifizierungsstufe "GESCHÜTZT" bewertet wurden. Darüber hinaus wurden diese Bewertungen im Rahmen der neuen, post CCSL Cloud Security Guidance durchgeführt, wie im [Leitfaden zur Anatomie einer Cloudbewertung und Autorisierung](https://www.cyber.gov.au/acsc/government/cloud-security-guidance) des ACSC beschrieben.
+Im Dezember 2020 hat Microsoft zwei inkrementelle Azure & Dynamics- und Office 365-Bewertungen abgeschlossen. Diese Bewertungen haben weitere Dienste hinzugefügt, die auf der Klassifizierungsstufe "GESCHÜTZT" bewertet wurden. Darüber hinaus wurden diese Bewertungen unter dem neuen, post CCSL Cloud Security Guidance durchgeführt, wie in der [Anleitung zur Anatomie einer Cloudbewertung und Autorisierung](https://www.cyber.gov.au/acsc/government/cloud-security-guidance) des ACSC beschrieben.
 
 Für jede Bewertung hat Microsoft einen von ACSC akkreditierten IRAP-Prüfer beauftragt, der die vom IT-Betriebsteam von Microsoft verwendeten Sicherheitskontrollen und Prozesse, physische Rechenzentren, Angriffserkennung, Kryptografie, domänenübergreifende und Netzwerksicherheit, Zugriffssteuerung und Informationssicherheits-Risikomanagement von In-Scope-Diensten untersuchte. Die IRAP-Bewertungen haben festgestellt, dass die Microsoft-Systemarchitektur auf soliden Sicherheitsprinzipien basiert und dass die geltenden ISM-Kontrollen (Australian Government Information Security Manual) in unseren bewerteten Diensten eingerichtet und voll wirksam sind.
 
@@ -81,7 +81,7 @@ Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Di
 
 | **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
 |:------------------|:----------------------|
-| **Office 365** | Exchange Online, Exchange Online Protection, Forms, Microsoft Teams, Office 365 Customer Portal, Office Online, Office Service Infrastructure, OneDrive for Business, Planner, SharePoint Online, Skype for Business, Whiteboard, Yammer |
+| **Kommerziell** | Exchange Online, Exchange Online Protection, Forms, Microsoft Teams, Office 365 Customer Portal, Office Online, Office Service Infrastructure, OneDrive for Business, Planner, SharePoint Online, Skype for Business, Whiteboard, Yammer |
 
 ### <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 

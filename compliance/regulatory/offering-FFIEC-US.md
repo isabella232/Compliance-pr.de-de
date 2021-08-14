@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4da808976b7c9afd040417a0fe4025888f07a34bc43c03cb151410244bb437df
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 1830d0d61fe0787d7f8e8034af2e4ca64bdb0bc8
+ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287574"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58261023"
 ---
 # <a name="federal-financial-institutions-examination-council-ffiec"></a>Federal Financial Institutions Examination Council (FFIEC)
 
@@ -33,9 +33,9 @@ Das [FFIEC Audit IT Examination Handbook](https://ithandbook.ffiec.gov/it-bookle
 
 ## <a name="microsoft-and-ffiec"></a>Microsoft und FFIEC
 
-Microsoft Azure, Microsoft Power BI und Microsoft Office 365 sind so aufgebaut, dass sie die strengen Anforderungen der Bereitstellung von Clouddiensten für Finanzinstitute erfüllen. Im Rahmen unserer Unterstützung bieten wir Anleitungen, die Ihnen bei der Einhaltung der FFIEC-Prüfungsanforderungen für die Informationstechnologie und der Möglichkeit helfen, Azure SOC-Bescheinigungen zu verwenden, wenn Sie Ihre FFIEC-Complianceverpflichtungen erfüllen.
+Microsoft Azure, Microsoft Power BI und Microsoft Office 365 sind so aufgebaut, dass sie die strengen Anforderungen der Bereitstellung von Clouddiensten für Finanzinstitute erfüllen. Im Rahmen unserer Unterstützung bieten wir Anleitungen, die Ihnen bei der Einhaltung der FFIEC-Auditanforderungen für die Informationstechnologie und der Möglichkeit helfen, Azure SOC-Bescheinigungen zu verwenden, wenn Sie Ihre FFIEC-Complianceverpflichtungen erfüllen.
 
-Um Kunden von Finanzinstituten dabei zu unterstützen, ihre FFIEC-Complianceanforderungen mit Azure zu erfüllen, hat Microsoft den [Azure Security and Compliance Blueprint für FFIEC Regulated Services Workloads](https://servicetrust.microsoft.com/ViewPage/FFIECBlueprint)entwickelt. Es bietet Anleitungen zur Verwendung von Azure-Clouddiensten und Überlegungen zur Einhaltung von FFIEC-Anforderungen und Richtlinien zur Risikobewertung für Kunden.
+Um Kunden von Finanzinstituten dabei zu unterstützen, ihre FFIEC-Complianceanforderungen mit Azure zu erfüllen, hat Microsoft den [Azure Security and Compliance Blueprint für FFIEC Regulated Services Workloads](https://servicetrust.microsoft.com/ViewPage/FFIECBlueprint)entwickelt. Es bietet Anleitungen zur Verwendung von Azure-Clouddiensten und Überlegungen zur Einhaltung von FFIEC-Anforderungen und Richtlinien zur Risikobewertung durch den Kunden.
 
 Um Sie bei der Einhaltung der FFIEC-Anforderungen weiter zu unterstützen, stellen Microsoft Cloud Services [SOC-Nachweisberichte](offering-SOC.md) bereit, die von einem unabhängigen CPA-Unternehmen erstellt wurden. Der SOC 1 Type 2-Nachweis basiert beispielsweise auf dem AICPA SSAE 18-Standard (siehe AT-C Abschnitt 105), der SAS 70 ersetzt hat, und eignet sich für die Berichterstellung über bestimmte Steuerelemente für die Finanzberichterstattung. Die SOC-Berichte enthalten die Meinung des Prüfers zur Effektivität von Microsoft-Kontrollen beim Erreichen der zugehörigen Kontrollziele während des angegebenen Überwachungszeitraums. Finanzinstitute können diese formale Prüfung verwenden, wenn sie FFIEC-spezifische Compliance-Verpflichtungen für in Azure, Power BI und Office 365 bereitgestellte Objekte erfüllen.
 
@@ -62,7 +62,7 @@ Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Di
 
 | **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
 |:------------------|:----------------------|
-| **Office 365** | Azure Active Directory, Azure Information Protection, Bookings, Compliance Manager, Delve, Exchange Online, Exchange Online Protection, Forms, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Defender für Office 365, Microsoft Graph, Microsoft Teams, Microsoft To Do für das Web, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Cloud App Security, Office 365-Gruppen, Office 365 Security & Compliance Center, Office 365 Video, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
+| **Kommerziell** | Azure Active Directory, Azure Information Protection, Bookings, Compliance Manager, Delve, Exchange Online, Exchange Online Protection, Forms, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Defender für Office 365, Microsoft Graph, Microsoft Teams, Microsoft To Do für das Web, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Cloud App Security, Office 365-Gruppen, Office 365 Security & Compliance Center, Office 365 Video, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
 | **GCC** | Azure Active Directory, Compliance-Manager, Delve, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, Stream |
 
 ### <a name="office-365-audits-reports-and-certificates"></a>Office 365-Prüfungen, -Berichte und -Zertifikate
@@ -83,7 +83,7 @@ Um Ihnen bei der Erfüllung dieser Verpflichtungen zu helfen, stellt Microsoft d
 
 - [Federal Financial Institutions Examination Council (FFIEC)](https://www.ffiec.gov/)
 - [Compliance-Karte von Cloud Computing und regulatorischen Prinzipien in den USA](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5b483567-00b0-4d86-96ae-ee887dadb61c&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
-- [Handbuch für die FFIEC-Prüfung der IT](https://ithandbook.ffiec.gov/it-booklets/audit.aspx)
+- [Handbuch zur FFIEC-Prüfung der IT](https://ithandbook.ffiec.gov/it-booklets/audit.aspx)
 - [FFIEC Outsourcing Technology Services – IT-Prüfungshandbuch](https://ithandbook.ffiec.gov/it-booklets/outsourcing-technology-services.aspx)
 
 ### <a name="other-microsoft-resources-for-financial-services"></a>Weitere Microsoft-Ressourcen für Finanzdienste

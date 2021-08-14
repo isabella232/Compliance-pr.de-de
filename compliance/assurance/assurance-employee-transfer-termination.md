@@ -20,22 +20,22 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 8ff06dab5367ee8cf734384efd1e2f57b2d6499c4151b75bd335693852dead47
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 999e5106cb50fc5d5e25555299a555992b2dedaa
+ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287214"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58260888"
 ---
 # <a name="microsoft-employee-transfer-and-termination"></a>Microsoft-Mitarbeiterübertragung und -kündigung
 
 Microsoft verarbeitet wie jede andere Organisation Mitarbeiterübertragungen und Kündigungen als Teil ihres normalen Geschäftsbetriebs. Wenn ein Mitarbeiter seine Position ändert oder das Unternehmen verlässt, ist es wichtig, unangemessenen Zugriff zeitnah zu widerrufen. Um effiziente Zugriffsänderungen und Zugriffssperrungen zu ermöglichen, verwendet Microsoft standardisierte Verfahren und automatisierte Prozesse, um das Personalinformationssystem (HRIS) mit dem Identity Management (IDM)-System zu koordinieren. Die automatisierte Orchestrierung zwischen diesen beiden Systemen ist wichtig, um die betriebsbereite Konsistenz zu gewährleisten, die Onlinedienste und -daten von Microsoft zu schützen, das Isolieren von Rechten zu verhindern und Risiken im Zusammenhang mit Insider-Bedrohungen zu verringern.
 
-Microsoft-Onlinedienste sind für den Betrieb ohne ständigen administrativen Zugriff auf Produktionsumgebungen für unsere Techniker konzipiert. Microsoft verwendet ein Just-In-Time (JIT), Just-Enough-Access (JEA)-Modell, um Technikern den temporären Zugriff bereitzustellen, der erforderlich ist, um ihren Dienst bei Bedarf zu unterstützen. Um ein Serviceteamkonto für JIT-Zugriff anzufordern und zu verwenden, müssen Techniker Berechtigungen über das IDM-Tool anfordern und verwalten. Wenn Mitarbeiter übertragen oder beendet werden, werden ihr Serviceteamkonto und die zugehörigen Berechtigungen automatisch geändert, um unangemessenen Zugriff zu verhindern.
+Microsoft-Onlinedienste sind für den Betrieb ohne ständigen administrativen Zugriff auf Produktionsumgebungen für unsere Techniker konzipiert. Microsoft verwendet ein Just-In-Time (JIT), Just-Enough-Access (JEA)-Modell, um Technikern den temporären Zugriff bereitzustellen, der erforderlich ist, um ihren Dienst zu unterstützen. Um ein Serviceteamkonto für JIT-Zugriff anzufordern und zu verwenden, müssen Techniker Berechtigungen über das IDM-Tool anfordern und verwalten. Wenn Mitarbeiter übertragen oder beendet werden, werden ihr Serviceteamkonto und die zugehörigen Berechtigungen automatisch geändert, um unangemessenen Zugriff zu verhindern.
 
 ## <a name="transfer-and-reassignment"></a>Übertragung und Neuzuweisung
 
-Mitarbeiterübertragungen werden durch eine Übertragungstransaktionsanforderung durch den Vorgesetzten des Mitarbeiters initiiert. Der Manager erstellt eine Anforderung und setzt sich für den Angebotsschreibenprozess mit global talent acquisition ein. Sobald der Mitarbeiter das Angebot für die neue Rolle annimmt, schließt der Personaldienst die Übertragung in den HR-Kerntools ab, wodurch IDM ein Ablaufdatum für alle Berechtigungen des Mitarbeiters festlegen kann. Der Mitarbeiter muss eine Anforderung übermitteln und die Genehmigung des neuen Vorgesetzten erhalten, um seine Berechtigung beizubehalten. Wenn Sie keine Anforderung übermitteln oder die Genehmigung durch den Vorgesetzten erhalten, führt dies zur Sperrung der Berechtigungsberechtigungen des übertragenen Mitarbeiters. Bei Übertragungen mit bestimmten Sicherheitsauswirkungen werden Systemzugriffe und Sicherheitsgruppenmitgliedschaften sofort neu ausgewertet, um ihre neue Rolle widerzuspiegeln.
+Mitarbeiterübertragungen werden durch eine Übertragungstransaktionsanforderung durch den Vorgesetzten des Mitarbeiters initiiert. Der Manager erstellt eine Anforderung und setzt sich für den Angebotsschreibenprozess mit global talent acquisition ein. Sobald der Mitarbeiter das Angebot für die neue Rolle annimmt, schließt der Personaldienst die Übertragung in den HR-Kerntools ab, wodurch IDM ein Ablaufdatum für alle Berechtigungen des Mitarbeiters festlegen kann. Der Mitarbeiter muss eine Anforderung übermitteln und die Genehmigung des neuen Vorgesetzten erhalten, um seine Berechtigung beizubehalten. Wenn Sie keine Anforderung übermitteln oder die Genehmigung durch den Vorgesetzten erhalten, führt dies zum Widerruf der Berechtigungen des übertragenen Mitarbeiters. Bei Übertragungen mit bestimmten Sicherheitsauswirkungen werden Systemzugriffe und Sicherheitsgruppenmitgliedschaften sofort neu ausgewertet, um ihre neue Rolle widerzuspiegeln.
 
 ## <a name="termination"></a>Abschluss
 

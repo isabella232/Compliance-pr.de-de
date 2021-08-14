@@ -1,6 +1,6 @@
 ---
 title: Sarbanes-Oxley Act von 2002 (SOX)
-description: Finanzdienstleistungsunternehmen können Microsoft-Complianceberichte verwenden, um ihre Compliance mit dem Sarbanes-Oxley Act zu adressieren.
+description: Finanzdienstleistungsunternehmen können Microsoft-Complianceberichte verwenden, um auf ihre Einhaltung des Sarbanes-Oxley Act zu reagieren.
 keywords: Microsoft 365, Compliance, Angebote
 localization_priority: None
 ms.prod: microsoft-365-enterprise
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: ef436314bc6b9d49bea046b66cbfa44905943001e5c91dff2441dcd9fab55768
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 6fb3ec963487169e01c9a69eca3b76f9f21a46cf
+ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290053"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58260433"
 ---
 # <a name="sarbanes-oxley-act-of-2002-sox"></a>Sarbanes-Oxley Act von 2002 (SOX)
 
@@ -35,11 +35,11 @@ Die SEC definiert oder erzwingt keinen SOX-Zertifizierungsprozess. Stattdessen e
 
 Microsoft Cloud Services-Kunden, die der Einhaltung des Sarbanes-Oxley Act (SOX) unterliegen, können den SOC 1 Typ 2-Nachweis verwenden, den Microsoft von einer unabhängigen Überwachungsgesellschaft erhalten hat, wenn sie ihre eigenen SOX-Complianceverpflichtungen erfüllen. Dieser Nachweis ist für die Berichterstattung über interne Kontrollen der Finanzberichterstattung geeignet.
 
-Obwohl es keine SOX-Zertifizierung oder -Validierung für Clouddienstanbieter gibt, kann Microsoft Kunden dabei helfen, ihre SOX-Verpflichtungen zu erfüllen. SoX erfordert beispielsweise interne Kontrollen für die Vorbereitung und Überprüfung von Rechnungen, insbesondere Kontrollen, die sich auf die Genauigkeit, Vollständigkeit, Effektivität und Veröffentlichung von wesentlichen Änderungen im Zusammenhang mit der Finanzberichterstattung auswirken. Um Unternehmen zu helfen, verwaltet Microsoft einen SOC 1 Type 2-Nachweis, der für die Berichterstattung über solche Steuerelemente in einem breiten Portfolio von Diensten geeignet ist, die zum Erstellen einer vielzahl von Anwendungen verwendet werden können. Sie basiert auf der Erklärung des American Institute of Certified Public Accountings (AICPA) zu Standards for Attestation Engagements 18 (SSAE 18) und dem International Standard on Assurance Engagements No. 3402 (ISAE 3402). (Dieser Nachweis ersetzt SAS 70.)
+Obwohl es keine SOX-Zertifizierung oder -Validierung für Cloud-Dienstanbieter gibt, kann Microsoft Kunden dabei helfen, ihre SOX-Verpflichtungen zu erfüllen. SoX erfordert beispielsweise interne Kontrollen für die Vorbereitung und Überprüfung von Rechnungen, insbesondere Kontrollen, die sich auf die Genauigkeit, Vollständigkeit, Effektivität und Veröffentlichung von wesentlichen Änderungen im Zusammenhang mit der Finanzberichterstattung auswirken. Um Unternehmen zu helfen, verwaltet Microsoft einen SOC 1 Type 2-Nachweis, der für die Berichterstattung über solche Steuerelemente in einem breiten Portfolio von Diensten geeignet ist, die zum Erstellen einer vielzahl von Anwendungen verwendet werden können. Sie basiert auf der Erklärung des American Institute of Certified Public Accountings (AICPA) zu Standards for Attestation Engagements 18 (SSAE 18) und dem International Standard on Assurance Engagements No. 3402 (ISAE 3402). (Dieser Nachweis ersetzt SAS 70.)
 
 Der von einem drittanbieterweiten Überwachungsunternehmen erstellte Prüfbericht bestätigt, dass die Microsoft-Kontrollen ordnungsgemäß entworfen wurden, an einem bestimmten Datum ausgeführt wurden und über einen bestimmten Zeitraum effektiv funktionieren. Kunden können die Berichte überprüfen, um mehr über die Kontrollziele von Microsoft und die Effektivität der Kontrollen zu erfahren und Zugriff auf ergänzende Steuerelemente zu erhalten.
 
-Bei Microsoft teilen wir die Verantwortung für die Compliance mit unseren Kunden. Wir stellen die Einzelheiten zu unseren Complianceprogrammen zur Verfügung, die Sie überprüfen können, indem Sie detaillierte Auditergebnisse von den zertifizierenden Drittanbietern anfordern. Letztendlich liegt es jedoch an Ihnen, zu bestimmen, ob unsere Dienste den spezifischen Gesetzen und Bestimmungen entsprechen, die für Ihr Unternehmen gelten. Es gibt beispielsweise SOX-bezogene Sicherheitskontrollen, z. B. den Benutzerzugriff auf Cloudressourcen, die In Ihre Verantwortung fallen: Ihre Organisation muss im Rahmen Ihrer SOX-Compliance eine geeignete Überwachung dieser Steuerelemente entwickeln.
+Bei Microsoft teilen wir die Verantwortung für die Compliance mit unseren Kunden. Wir stellen die Einzelheiten zu unseren Complianceprogrammen zur Verfügung, die Sie überprüfen können, indem Sie detaillierte Auditergebnisse von den zertifizierenden Drittanbietern anfordern. Letztendlich liegt es jedoch an Ihnen, zu bestimmen, ob unsere Dienste den spezifischen Gesetzen und Bestimmungen entsprechen, die für Ihr Unternehmen gelten. Es gibt beispielsweise SOX-bezogene Sicherheitskontrollen, z. B. den Benutzerzugriff auf Cloudressourcen, die in Ihrer Verantwortung liegen: Ihre Organisation muss im Rahmen Ihrer SOX-Compliance eine geeignete Überwachung dieser Steuerelemente entwickeln.
 
 ## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
 
@@ -65,7 +65,7 @@ Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Di
 
 | **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
 |:------------------|:----------------------|
-| **Office 365** | Augmentation Loop, Auto Alt Text, Azure Information Protection, Binary Conversion Services, Bookings, Delve, Document Item, Editor, Exchange Online, Forms, Insert Online Media, Insights, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Graph, Microsoft Teams, MyAnalytics, Office 365 Cloud App Security, Office 365 Groups, Office 365 Video, OneDrive for Business, Planner, Power Apps, PowerApps, Power Automate, Power BI, PowerPoint Designer, PowerPoint Online Document Service, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, To-Do, Web Rendering Service, Yammer Enterprise  |
+| **Kommerziell** | Augmentation Loop, Auto Alt Text, Azure Information Protection, Binary Conversion Services, Bookings, Delve, Document Item, Editor, Exchange Online, Forms, Insert Online Media, Insights, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Graph, Microsoft Teams, MyAnalytics, Office 365 Cloud App Security, Office 365 Groups, Office 365 Video, OneDrive for Business, Planner, Power Apps, PowerApps, Power Automate, Power BI, PowerPoint Designer, PowerPoint Online Document Service, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, To-Do, Web Rendering Service, Yammer Enterprise  |
 
 ### <a name="audits-reports-and-certificates"></a>Prüfungen, Berichte und Zertifikate
 

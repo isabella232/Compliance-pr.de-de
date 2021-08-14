@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 49b18d0e758f0c83b2f56be2cd9bb1447c63349165e9cef868adbcf17adeb7f0
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 84a7515c8d23a3e224118bbf56175e6ec79f1ecb
+ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54294292"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58259794"
 ---
 # <a name="national-institute-of-standards-and-technology-nist-cybersecurity-framework-csf"></a>National Institute of Standards and Technology (NIST) Cybersecurity Framework (CSF)
 
@@ -35,14 +35,14 @@ Die FICIC verweist auf global anerkannten Standards, einschließlich NIST SP 800
 
 ## <a name="microsoft-and-the-nist-csf"></a>Microsoft und der NIST CSF
 
-NIST Cybersecurity Framework (CSF) ist ein freiwilligen Framework, das aus Standards, Richtlinien und bewährten Methoden zur Verwaltung von Risiken im Zusammenhang mit der Cybersicherheit besteht. Microsoft Cloud Services wurden unabhängigen FedRAMP Moderate- und High Baseline-Audits von Drittanbietern unterzogen und sind gemäß den FedRAMP-Standards zertifiziert. Darüber hinaus wird Office 365 durch eine von HITRUST, einer führenden Entwicklungs- und Akkreditierungsorganisation für Sicherheits- und Datenschutzstandards, durchgeführte Bewertung gemäß den im NIST CSF angegebenen Zielen zertifiziert.
+NIST Cybersecurity Framework (CSF) ist ein freiwilligen Framework, das aus Standards, Richtlinien und bewährten Methoden zur Verwaltung von Risiken im Zusammenhang mit der Cybersicherheit besteht. Microsoft Cloud Services wurden unabhängigen FedRAMP Moderate- und High Baseline-Audits von Drittanbietern unterzogen und sind gemäß den FedRAMP-Standards zertifiziert. Durch eine von HITRUST, einer führenden Entwicklungs- und Akkreditierungsorganisation für Sicherheits- und Datenschutzstandards, durchgeführte validierte Bewertung wird Office 365 außerdem gemäß den im NIST CSF angegebenen Zielen zertifiziert.
 
 Erfahren Sie, wie Sie Ihre NIST Cybersecurity Framework-Bereitstellung mit der Compliancebewertung und unserem Azure Security and Compliance Blueprint beschleunigen:
 
 - [Übersicht über das NIST SP 800-53 R4-Blueprintbeispiel](/azure/governance/blueprints/samples/nist-sp-800-53-rev4/)
 - [Weitere Informationen zur NIST CSF-Bewertung für Office 365 in der Compliancebewertung](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/New-NIST-CSF-and-CSA-CCM-assessments-available-in-Compliance/ba-p/218554)
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Eingeschlossene Cloudplattformen und -dienste von Microsoft
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
 
 - Azure Government
 - Dynamics 365 for Government
@@ -64,11 +64,11 @@ Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Di
 
 | **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
 |:------------------|:----------------------|
-| **Office 365** | Activity Feed Service, Bing Services, Delve, Exchange Online, Intelligent Services, Microsoft Teams, Office 365 Customer Portal, Office Online, Office Service Infrastructure, Office Usage Reports, OneDrive for Business, People Card, SharePoint Online, Skype for Business, Windows Ink |
+| **Kommerziell** | Activity Feed Service, Bing Services, Delve, Exchange Online, Intelligent Services, Microsoft Teams, Office 365 Customer Portal, Office Online, Office Service Infrastructure, Office Usage Reports, OneDrive for Business, People Card, SharePoint Online, Skype for Business, Windows Ink |
 
 ### <a name="office-365-audit-cycle-and-certification"></a>Office 365 Prüfzyklus und Zertifizierung
 
-Die NIST CSF-Zertifizierung von Office 365 ist zwei Jahre lang gültig.
+Die NIST CSF-Zertifizierung von Office 365 ist zwei Jahre gültig.
 
 - [Office 365 NIST CSF Letter of Certification](https://aka.ms/O365NISTCSFcertification)
 
@@ -80,7 +80,7 @@ Ja, Office 365 im Juli 2019 [das NIST CSF-Zertifizierungsschreiben](https://serv
 
 **Wie demonstrieren Microsoft Cloud Services die Einhaltung des Frameworks?**
 
-Mithilfe der formalen Prüfberichte, die von Dritten für die FedRAMP-Akkreditierung erstellt wurden, kann Microsoft zeigen, wie die in diesen Berichten aufgeführten relevanten Kontrollen die Einhaltung des NIST-Frameworks zur Verbesserung der Cybersicherheit kritischer Infrastrukturen demonstrieren. Die von Microsoft implementierten überwachten Kontrollen dienen dazu, die Vertraulichkeit, Integrität und Verfügbarkeit von Daten sicherzustellen, die von Azure, Office 365 und Dynamics 365 gespeichert, verarbeitet und übertragen werden, die als Verantwortlichkeit von Microsoft identifiziert wurden.
+Mithilfe der formalen Prüfberichte, die von Dritten für die FedRAMP-Akkreditierung erstellt wurden, kann Microsoft zeigen, wie die in diesen Berichten aufgeführten relevanten Kontrollen die Einhaltung des NIST-Frameworks zur Verbesserung der Cybersicherheit kritischer Infrastrukturen demonstrieren. Von Microsoft implementierte überwachte Kontrollen dienen dazu, die Vertraulichkeit, Integrität und Verfügbarkeit von Daten zu gewährleisten, die von Azure, Office 365 und Dynamics 365 gespeichert, verarbeitet und übertragen werden, die als Verantwortlichkeit von Microsoft identifiziert wurden.
 
 **Was sind die Zuständigkeiten von Microsoft für die Einhaltung dieser Initiative?**
 
@@ -94,7 +94,7 @@ Ja. Die unabhängigen Complianceberichte von Drittanbietern an die FedRAMP-Stand
 
 Laut [Department of Healthcare Security](https://www.dhs.gov/critical-infrastructure-sectors)umfassen dies Organisationen in den folgenden Bereichen: "Industrial", "Commercial Facilities", "Communications", "Critical Manufacturing", "Dams", "Defense Industrial Base", "Emergency Services", "Energy", "Financial Services", "Food and Labor", "Government Facilities", "Healthcare and Public Health", "Information Technology", "Healthcares Materials and Waste", "Transport Systems and Water" (and "Environmental").
 
-**Warum sind einige Office 365 Dienste nicht im Rahmen dieser Zertifizierung?**
+**Warum befinden sich einige Office 365 Dienste nicht im Rahmen dieser Zertifizierung?**
 
 Microsoft bietet im Vergleich zu anderen Clouddienstanbietern die umfassendsten Angebote. Um mit unseren umfassenden Complianceangeboten über Regionen und Branchen hinweg Schritt zu halten, umfassen wir Dienstleistungen im Rahmen unserer Assurance-Bemühungen basierend auf der Marktanforderung, dem Kundenfeedback und dem Produktlebenszyklus. Wenn ein Dienst nicht im aktuellen Umfang eines bestimmten Complianceangebots enthalten ist, hat Ihre Organisation die Verantwortung, die Risiken basierend auf Ihren Complianceverpflichtungen zu bewerten und die Art und Weise zu bestimmen, wie Sie Daten in diesem Dienst verarbeiten. Wir sammeln kontinuierlich Feedback von Kunden und arbeiten mit Regulierungsbehörden und Auditoren zusammen, um unsere Compliance-Abdeckung zu erweitern, um Ihre Sicherheits- und Complianceanforderungen zu erfüllen.
 
