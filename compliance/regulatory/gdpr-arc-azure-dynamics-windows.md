@@ -18,12 +18,12 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2105ed6301734e418de30583ae2e265ae2a1b3b2faa557750eeb2856d9d7f4b5
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 7ac7722d3524277f68d371e2b55729cd0f7cbd67
+ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54291363"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58259722"
 ---
 # <a name="azure-dynamics-365-and-windows-accountability-readiness-checklist-for-the-gdpr"></a>Checkliste für die Bereitschaft zur Verantwortlichkeit von Azure, Dynamics 365 und Windows für die DSGVO
 
@@ -34,4 +34,4 @@ Um die Datenschutz-Grundverordnung (DSGVO) bei der Verwendung von Microsoft Azur
 
 Microsoft Azure- und Dynamics 365-Dienste sind gemäß [ISO 27701 (PIMS)](offering-iso-27701.md) [zertifiziert](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=00af6c3e-7f3e-4e0d-8b0e-79f45ef2cef1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports).
 
-Die [Windows-Diagnosedaten Prozessorkonfiguration](/windows/privacy/configure-windows-diagnostic-data-in-your-organization) folgt den gleichen Datenschutz- und Sicherheitskontrollen wie oben erwähnt.
+Die [Windows-Diagnosedaten-Auftragsverarbeiterdienst](/windows/privacy/configure-windows-diagnostic-data-in-your-organization) nutzt den Enterprise Data Platform-Dienst innerhalb der Azure-Clouddienstinfrastruktur.  Sie unterliegt denselben Datenschutz- und Sicherheitskontrollen sowie den oben erwähnten Zertifizierungen.
