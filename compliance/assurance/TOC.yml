@@ -80,8 +80,8 @@
       href: assurance-identity-and-access-management.md
     - name: Azure-Kunden-Lockbox
       href: /azure/security/fundamentals/customer-lockbox-overview?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json
-    - name: Administrative Zugriffssteuerungen in Microsoft 365
-      href: assurance-administrative-access-controls-overview.md
+    - name: Microsoft 365-Kontoverwaltung
+      href: assurance-microsoft-365-account-management.md
     - name: Microsoft 365-Technologiesteuerungen
       href: assurance-technology-controls.md
     - name: Office 365-Kunden-Lockbox
