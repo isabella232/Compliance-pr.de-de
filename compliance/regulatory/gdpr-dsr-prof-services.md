@@ -2,7 +2,7 @@
 title: Microsoft-Support und Professional Services für Anträge betroffener Personen für die DSGVO und den CCPA
 description: Erfahren Sie, wie Microsoft-Support und Professional Services Daten für Anträge betroffener Personen für die DSGVO und den CCPA bearbeiten.
 keywords: Professional Services, Microsoft 365, Microsoft 365 Education, Microsoft 365-Dokumentation, DSGVO, CCPA
-localization_priority: Priority
+ms.localizationpriority: high
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -18,12 +18,12 @@ ms.collection:
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
 hideEdit: true
-ms.openlocfilehash: bee4db3f01fe2add3a031c07e0f97869b08339ed
-ms.sourcegitcommit: 5d8e670e9d9968458047b51b6b2930f7bd14a011
+ms.openlocfilehash: 06dbe8eeeddc32fb98b7b4bf0351834fb6a34944
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53141456"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482630"
 ---
 # <a name="microsoft-support-and-professional-services-data-subject-requests-for-the-gdpr-and-ccpa"></a>Microsoft-Support und Professional Services für Anträge betroffener Personen für die DSGVO und den CCPA
 
@@ -47,10 +47,10 @@ Sämtliche Anträge müssen wie später in diesem Artikel beschrieben über eine
 
 #### <a name="overview-of-the-processes-outlined-in-this-guide"></a>Übersicht über die in diesem Leitfaden beschriebenen Prozesse
 
-- **Erkennung:** Sie können Kundendaten, die ggf. Gegenstand eines Antrags einer betroffenen Person sind, mithilfe von Such- und Ermittlungstools finden. Sobald Sie potenziell relevante Dokumente ermittelt haben, können Sie dem Antrag entsprechend eine oder mehrere der in den folgenden Schritten beschriebenen Aktionen ausführen. Möglicherweise stellen Sie jedoch fest, dass der Antrag nicht den Vorgaben Ihrer Organisation für die Reaktion auf Anträge betroffener Personen entspricht.
+- **Ermittlung:** Verwenden Sie Such- und Ermittlungstools, um Kundendaten leichter zu finden, die möglicherweise Gegenstand eines Antrags einer betroffenen Person sind. Sobald potenziell geeignete Dokumente gefunden wurden, können Sie eine oder mehrere der Aktionen für Anträge betroffener Personen durchführen, die in den folgenden Schritten beschrieben sind, um auf den Antrag der betroffenen Person zu reagieren. Andernfalls können Sie bestimmen, dass der Antrag nicht den Unternehmensrichtlinien für die Reaktion auf Anträge betroffener Personen entspricht.
 - **Zugriff:** Rufen Sie personenbezogene Daten ab, die sich in der Microsoft Cloud befinden, und erstellen Sie eine Kopie, die der betroffenen Person zur Verfügung gestellt werden kann, sofern dies beantragt wurde.
 - **Berichtigung:** Nehmen Sie gegebenenfalls Änderungen an den personenbezogenen Daten vor oder führen Sie andere Aktionen aus, die für die Daten angefordert werden.
-- **Einschränkung:** Schränken Sie die Verarbeitung von personenbezogenen Daten ein, indem Sie entweder die Lizenzen für verschiedene Onlinedienste entfernen oder die gewünschten Dienste, wenn möglich, deaktivieren. Sie können auch Daten aus der Microsoft Cloud entfernen und lokal oder an einem anderen Speicherort speichern.
+- **Einschränkung:** Schränken Sie die Verarbeitung personenbezogener Daten entweder durch Zurückziehen von Lizenzen für verschiedenen Azure-Dienste oder durch Deaktivieren der gewünschten Dienste wo möglich ein. Des Weiteren können Sie Daten aus der Microsoft-Cloud entfernen und diese lokal oder an einem anderen Ort aufbewahren.
 - **Löschung:** Entfernen Sie personenbezogene Daten, die sich in der Microsoft-Cloud befinden, dauerhaft.
 - **Exportieren/Empfangen (Portierbarkeit):** Stellen Sie der betroffenen Person eine elektronische Kopie (in einem maschinenlesbaren Format) von personenbezogenen Daten oder persönlichen Informationen zur Verfügung. Personenbezogene Informationen gemäß CCPA sind alle Informationen, die eine identifizierte oder identifizierbare Person betreffen. Es wird nicht zwischen privaten, öffentlichen oder beruflichen Rollen einer Person unterschieden. Der definierte Begriff "persönliche Informationen" entspricht in etwa dem Begriff "persönliche Daten" unter der DSGVO. Allerdings umfasst das CCPA auch Familien- und Haushaltsdaten. Weitere Informationen zum CCPA finden Sie im ["California Consumer Privacy Act](offering-ccpa.md) und in den [häufig gestellten Fragen zum California Consumer Privacy Act](ccpa-faq.yml).
 
@@ -64,9 +64,9 @@ Nachstehend sind die für diesen Leitfaden relevanten Definitionen von Ausdrück
 
 #### <a name="additional-terms-and-definitions-that-may-be-helpful-in-understanding-this-guide"></a>Zusätzliche Begriffe und Definitionen, die möglicherweise hilfreich für das Verständnis dieses Leitfadens sind
 
-- **Support- und Beratungsdaten:** Alle Daten, einschließlich Text-, Ton-, Video-, Bilddateien und Software, die Microsoft vom Kunden selbst oder in seinem Auftrag im Rahmen einer Vereinbarung mit Microsoft übermittelt werden (oder deren Abruf über einen Onlinedienst vom Kunden gestattet wird), um Support oder Professional Services zu erhalten. Um das nochmal deutlich zu machen: Dazu zählen keine Daten, die Microsoft als Datenverantwortlicher erfasst, z. B. Kontaktdaten des Kunden.
-- **Kundenkontakt:** Personenbezogene Daten, die möglicherweise Bestandteil Ihrer Geschäftsbeziehung mit Microsoft sind, z. B. personenbezogene Daten, die in Ihren Kundenkontaktinformationen enthalten sind. Dazu gehören beispielsweise Ihr Name, Ihre E-Mail-Adresse oder die Telefonnummer des Premier Contract Service Managers (CSM), des globalen oder IT-Administrators für einen Onlinedienst oder vergleichbare Rollen.
-- **Pseudonymisierte Daten:** Wenn Sie den Microsoft-Support für die Enterprise-Produkte und -Dienste von Microsoft nutzen, generiert Microsoft Daten, die mit einer numerischen ID verknüpft sind, um den Support bereitzustellen. Diese Informationen werden häufig als "pseudonymisierte Daten" bezeichnet. Obwohl diese Daten nicht ohne Hinzuziehen weiterer Informationen einer bestimmten betroffenen Person zugeordnet werden können, ist es möglich, dass manche dieser Daten unter der DSGVO im weitesten Sinne als personenbezogen betrachtet werden. In Professional Services werden deshalb beim Ausfüllen oder beim Unterstützen des Ausfüllens von Anträgen betroffener Personen immer auch pseudonymisierte Daten berücksichtigt.
+- **Support- und Beratungsdaten:** Alle Daten, einschließlich Text, Ton, Video, Bilddateien und Software, die Microsoft durch den Kunden oder in dessen Namen durch ein Engagement mit Microsoft übermittelt werden (oder deren Abruf durch Microsoft über einen Onlinedienst vom Kunden genehmigt wird), um Support oder Professional Services zu erhalten. Dies beinhaltet keine erfassten Daten, für die Microsoft der Daten-Controller ist, einschließlich Kontaktdaten des Kunden.
+- **Kundenkontakt:** Personenbezogene Daten, die möglicherweise Teil Ihrer Geschäftsbeziehungen mit Microsoft sind, z. B. personenbezogene Daten, die in Ihren Kundenkontaktinformationen enthalten sind. Dies kann Ihr Name, E-Mail-Adresse oder Telefonnummer des Premier-Contract-Service-Managers (CSM), des globalen Administrators oder IT-Administrators für einen Online-Dienst oder eine ähnliche Rolle sein.
+- **Pseudonymisierte Daten:** Wenn Sie den Microsoft-Support für Enterprise-Produkte und -Dienste von Microsoft verwenden, generiert Microsoft Informationen, die mit einem numerischen Bezeichner von Microsoft verknüpft sind, um den Support bereitzustellen. Diese Informationen werden oft als „Pseudonymisierte Daten“ bezeichnet. Zwar können diese Daten ohne zusätzliche Informationen keiner spezifischen Person zugeordnet werden, jedoch fallen einige unter die weite Definition personenbezogener Daten gemäß der DSGVO. Innerhalb von Professional Services umfassen Anträge zur Erfüllung oder Unterstützung bei der Erfüllung von Anträgen betroffener Personen immer automatisch auch die Behandlung pseudonymisierter Daten.
 
 ### <a name="how-to-use-this-guide"></a>Verwenden dieses Leitfadens
 
@@ -89,7 +89,7 @@ Wenn die personenbezogenen Daten des Kundenkontakts im Rahmen der Bereitstellung
 
 Kunden müssen wissen, dass sich Anträge betroffener Personen nur auf die personenbezogenen Daten des Kundenkontakts beziehen und keine Änderungen oder Löschungen an Daten des Kunden vorgenommen werden, die im Rahmen des Engagements übermittelt wurden (z. B. Transkripte, Fallbeschreibungen, Dateien, Arbeitsergebnisse), da Microsoft der Datenverarbeiter ist. Zudem werden zur Beibehaltung historischer Datensätze des Engagements keinerlei Änderungen an geschlossenen Engagements vorgenommen, einschließlich des Datensatzes desjenigen, der das Engagement eröffnet hat.
 
-Bei Eingang einer Anfrage eines Kundenkontakts zu einem Antrag einer betroffenen Person, bei dem Microsoft der Data Controller ist, leiten Microsoft-Mitarbeiter den Kundenkontakt zum [Privacy Response Center](https://go.microsoft.com/fwlink/?LinkId=321116) weiter. Dies ist der primäre Eingabemechanismus von Microsoft für Anfragen und Beschwerden im Bereich des Datenschutzes. Bei Eingang einer Anfrage identifiziert das Privacy Response Center, dass diese Teil eines kommerziellen oder Organisationskontos ist, und reagiert entsprechend.
+Bei Eingang einer Anfrage eines Kundenkontakts zu einem Antrag einer betroffenen Person, bei dem Microsoft der Datenverantwortliche ist, leiten Microsoft-Mitarbeiter den Kundenkontakt zum [Datenschutz-Support-Center von Microsoft](https://go.microsoft.com/fwlink/?LinkId=321116) weiter. Dies ist der primäre Eingabemechanismus von Microsoft für Anfragen und Beschwerden im Bereich des Datenschutzes. Bei Eingang einer Anfrage identifiziert das Datenschutz-Support-Center, dass diese Teil eines kommerziellen oder Organisationskontos ist und reagiert entsprechend.
 
 Wann Microsoft der Auftragsverarbeiter ist, finden Sie unter <b>Antrag einer betroffenen Person für vom Kunden bereitgestellte Daten: Kommerzieller Support</b> weiter unten.
 
@@ -133,7 +133,7 @@ Während er relevante Daten ausfindig macht und sich die Unterstützung von Micr
 
 *Option A: Microsoft-Support-übergreifender Antrag einer betroffenen Person durch den Kunden*. Anwenden des Antrags einer betroffenen Person auf alle Supportdaten des Kunden in der Support-Umgebung von Microsoft. Der Kunde muss Microsoft lediglich bitten, genau dies zu tun.
 
-*Option B: Spezifische Kundenengagements.* Verwenden von Onlinesystemen zum Überprüfen von Tickets und anschließendes Identifizieren bestimmter Engagements, welche die relevanten personenbezogenen Daten enthalten, um sie an Microsoft zu melden. Microsoft wird versuchen, Sie bei der Suche zu unterstützen, wenn der Kunde nicht die Möglichkeit hat, Engagements (Tickets) zu durchsuchen.
+*Option B: Spezifische Kunden-Engagements.* Nutzen Sie Online-Systeme, um Tickets zu überprüfen, und identifizieren Sie dann spezifische Engagements, die die relevanten personenbezogenen Daten enthalten, und melden Sie sie an Microsoft. Microsoft wird versuchen, bei der Ausführung einer Suche Unterstützung anzubieten, falls der Kunde nicht die Möglichkeit hat, Engagements (Tickets) zu durchsuchen.
 
 *Nachdem Engagements identifiziert wurden, fordern Sie an, dass der Antrag der betroffenen Person auf einen spezifischen Teil des Datensatzes oder Microsoft-weit auf alles in Verbindung mit diesem Engagement angewendet wird.*
 
@@ -176,13 +176,13 @@ Nachfolgend finden Sie einige wichtige Hinweise, wie das Löschen für den Micro
 
 Auf alle Daten bei Microsoft wird eine Richtlinie zur Aufbewahrung und Löschung angewendet, die je nach Risiko und anderen Faktoren variiert.
 
-Kunden können die Löschung der personenbezogenen Daten einer betroffenen Person universell für alle Supportsysteme über Ihren TAM oder durch Übermittlung einer Supportanforderung in Services Hub oder einem gleichwertigen System beantragen. Sie *müssen* darauf hinweisen, dass dies eine Anforderung zur Unterstützung bei einem Antrag einer betroffenen Person gemäß der DSGVO ist.
+Kunden können die Löschung der personenbezogenen Daten einer betroffenen Person universell für alle Supportsysteme über Ihren TAM oder durch Übermittlung einer Supportanforderung im Servicehub oder einem gleichwertigen System beantragen. Sie *müssen* darauf hinweisen, dass dies eine Anforderung zur Unterstützung bei einem Antrag einer betroffenen Person gemäß der DSGVO ist.
 
-*Option A : Microsoft-Support-übergreifender Antrag einer betroffenen Person durch den Kunden*. Bei einem systemübergreifenden Antrag einer betroffenen Person muss der Kunde die personenbezogenen Daten bereitstellen, die Microsoft benötigt, um die erforderlichen Daten ermitteln zu können (z. B. E-Mail-Adresse, Telefonnummer). Microsoft korreliert oder recherchiert keine Datensätze und sucht nur direkt nach den vom Kunden bereitgestellten Kennzeichnern. Wenn Daten gefunden werden, löscht Microsoft alle Engagements und alle zugehörigen Daten.
+*Option A: Microsoft-Support-übergreifende Kundenanträge betroffener Personen*. Bei einem systemübergreifenden Antrag einer betroffenen Person muss der Kunde die personenbezogenen Daten bereitstellen, die Microsoft zur Identifizierung der erforderlichen Daten benötigt (z. B. E-Mail-Adresse, Telefonnummer). Microsoft wird keine Datensätze korrelieren oder untersuchen, sondern nur direkt nach Bezeichnern suchen, die vom Kunden bereitgestellt wurden. Wenn Daten gefunden werden, löscht Microsoft alle Engagements und alle zugehörigen Daten.
 
-> Wichtiger Hinweis: **Dies kann dazu führen, dass historische Datensätze, die für die Organisation des Kunden wichtig sind, verloren gehen.
+> Wichtiger Hinweis: Dies kann dazu führen, dass historische Datensätze, die für die Organisation des Kunden wichtig sind, verloren gehen.
 
-*Option B: Spezifische Kundenengagements*. Für spezifische Engagements, die der Kunde identifiziert hat und löschen lassen möchte, dürfen Sie keine Tickets aus Services Hub löschen. Dies kann sonst dazu führen, dass personenbezogene Daten in Protokollen und nachgelagerten Systemen verbleiben und nicht innerhalb des erforderlichen Zeitrahmens gelöscht werden. Identifizieren Sie stattdessen das Ticket oder die personenbezogenen Daten in dem Ticket, die gelöscht werden müssen, und wenden Sie sich an den Microsoft-Support, um sich beim Löschen dieser Daten unterstützen zu lassen.
+*Option B: Spezifische Kunden-Engagements*. Löschen Sie für bestimmte Engagements, die der Kunde identifiziert hat und löschen möchte, keine Tickets aus dem Servicehub. Dies führt dazu, dass personenbezogene Daten in Protokollen und nachgeschalteten Systemen verbleiben, die nicht innerhalb des erforderlichen Zeitrahmens gelöscht werden können. Identifizieren Sie stattdessen das Ticket oder die personenbezogenen Daten innerhalb des Tickets, das gelöscht werden muss, und wenden Sie sich an den Microsoft-Support, damit er sie bei der Löschung dieser Daten unterstützt.
 
 ### <a name="microsoft-support-data-transfer-and-management-tool-dtm-instructions"></a>Anweisungen zum Data Transfer and Management Tool (DTM) des Microsoft-Supports
 

@@ -1,7 +1,7 @@
 ---
 title: Anträge betroffener Personen im Rahmen der DSGVO und des CCPA
 keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365-Dokumentation, DSGVO, CCPA
-localization_priority: Priority
+ms.localizationpriority: high
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -18,12 +18,12 @@ titleSuffix: Microsoft GDPR
 description: Hier erfahren Sie, wie Sie DSRs im Rahmen der Datenschutz-Grundverordnung (DSGVO) und der kalifornischen Verbraucherschutzgesetzgebung (CCPA) mithilfe von Microsoft-Produkten und -Diensten durchführen.
 ms.custom: seo-marvel-mar2020
 hideEdit: true
-ms.openlocfilehash: 8e6b862de3e52b171d886613af8529c082bad56d
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: b5ef9464a686a5f2c8823f196408fd71026fa52d
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51496265"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58479837"
 ---
 # <a name="data-subject-requests-and-the-gdpr-and-ccpa"></a>Anträge betroffener Personen im Rahmen der DSGVO und des CCPA
 
@@ -50,7 +50,7 @@ Hilfreiche Definitionen für DSGVO-Ausdrücke, die in diesem Dokument verwendet 
 
 ## <a name="what-is-a-dsr"></a>Was sind Anfragen von betroffenen Personen?
 
-Die Allgemeine Datenschutz-Grundverordnung (DSGVO) räumt natürlichen Personen (in der Verordnung als betroffene Personen bezeichnet) das Recht ein, vom Arbeitgeber oder einer anderen Einrichtung oder Organisation ( Datenverantwortlicher oder Verantwortlicher) erhobene personenbezogene Daten zu verwalten. Die DSGVO gewährt betroffenen Personen bestimmte Rechte an ihren personenbezogenen Daten. Es sind dies das Recht auf Erhalt einer Kopie dieser Daten, das Recht auf Korrektur der Daten, das Recht auf Beschränkung der Bearbeitung dieser Daten und das Recht auf Empfang dieser Daten in einem elektronischen Format, sodass sie an einen anderen Verantwortlichen übermittelt werden können.
+Die Allgemeine Datenschutz-Grundverordnung (DSGVO) räumt natürlichen Personen (in der Verordnung als betroffene Personen bezeichnet) das Recht ein, vom Arbeitgeber oder einer anderen Einrichtung oder Organisation (Datenverantwortlicher oder Verantwortlicher) erhobene personenbezogene Daten zu verwalten. Die DSGVO gewährt betroffenen Personen bestimmte Rechte an ihren personenbezogenen Daten. Zu diesen Rechten gehören das Abrufen von Kopien der Daten, das Anfordern von Änderungen daran, die Beschränkung deren Verarbeitung, das Löschen der Daten oder das Empfangen der Daten in einem elektronischen Format, damit sie auf einen anderen Controller verschoben werden können.
 
 Der California Consumer Privacy Act (CCPA) bietet den kalifornischen Verbrauchern Datenschutzrechte und -pflichten, einschließlich von Rechten, die den Rechten von betroffenen Personen der DSGVO entsprechen, wie z. B. das Recht auf Löschung, Zugriff und Empfang (Portabilität) der persönlichen Informationen.  
 
@@ -81,7 +81,7 @@ Protokolle und verwandte Daten, die von Microsoft generiert werden, enthalten m�
 
 ### <a name="yammer-and-kaizala"></a>Yammer und Kaizala
 
-Durch das Löschen eines Benutzerkontos werden keine vom System generierten Protokolle für „Yammer“ und „Kaizala“ entfernt. Wenn Sie die Daten aus diesen Anwendungen entfernen möchten, lesen Sie eine der folgenden Ressourcen:
+Durch das Löschen eines Benutzerkontos werden keine vom System generierten Protokolle für Yammer und Kaizala entfernt. Informationen zum Entfernen der Daten aus diesen Anwendungen finden Sie in einer der folgenden Ressourcen:
 
 - [Verwalten von DSGVO-Datensubjektanforderungen in Yammer Enterprise](/yammer/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise)
 - [Exportieren oder Löschen von Organisationsdaten eines Benutzers in Kaizala](/office365/kaizala/export-or-delete-a-user-s-data)

@@ -2,7 +2,7 @@
 title: Azure-, Dynamics 365- und Windows-Benachrichtigungen zu Sicherheitsverletzungen gemäß der DSGVO
 description: Hier erfahren Sie, wie Azure und Dynamics 365 Sie vor Verletzungen des Schutzes personenbezogener Daten schützen und wie Microsoft reagiert und Sie benachrichtigt, wenn eine Verletzung auftritt.
 keywords: Azure, Microsoft 365, Dynamics 365, Microsoft 365-Dokumentation, DSGVO
-localization_priority: Priority
+ms.localizationpriority: high
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -17,12 +17,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft GDPR
 hideEdit: true
-ms.openlocfilehash: ac740f31a7d09353752eea93a4ce41f2230e3178
-ms.sourcegitcommit: 8bf2602d56eedee4447ddb374ef95b0587f254e7
+ms.openlocfilehash: 23d6b1ebb30f34fcb549e3e1f44c98a0c0e11b12
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53378252"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58479807"
 ---
 # <a name="azure-dynamics-365-and-windows-breach-notification-under-the-gdpr"></a>Azure-, Dynamics 365- und Windows-Benachrichtigungen zu Sicherheitsverletzungen gemäß der DSGVO
 
@@ -59,7 +59,7 @@ Die Erkennungsprozesse von Microsoft Azure sind darauf ausgelegt, Ereignisse zu 
 
 ## <a name="azures-data-breach-response"></a>Reaktion auf Datenschutzverletzungen in Azure
 
-Microsoft weist der Untersuchung geeignete Prioritäts- und Schweregrade zu, indem die funktionellen Auswirkungen, die Wiederherstellbarkeit und die Beeinträchtigung von Daten durch den Vorfall bestimmt werden. Sowohl Prioritäten als auch Schweregrade können sich im Verlauf der Untersuchung aufgrund neuer Erkenntnisse und Schlussfolgerungen ändern. Sicherheitsereignisse, die ein unmittelbares oder bestätigtes Risiko für Kundendaten darstellen, werden als Ereignisse mit hohem Schweregrad behandelt, den deren Behebung rund um die Uhr gearbeitet wird.
+Microsoft weist der Untersuchung angemessene Prioritäts- und Schweregrade zu, indem die funktionellen Auswirkungen, die Wiederherstellbarkeit und die Beeinträchtigung von Daten durch den Vorfall bestimmt werden. Priorität und Schweregrad können sich im Laufe der Untersuchung basierend auf neuen Erkenntnissen und Schlussfolgerungen ändern. Sicherheitsereignisse im Zusammenhang mit bevorstehenden oder bestätigten Risiken für Kundendaten werden als hoher Schweregrad behandelt und rund um die Uhr bearbeitet, um Lösungen zu finden.
 
 Das Sicherheitsteam arbeitet mit Sicherheitstechnikern und Sicherheitsexperten (Subject Matter Experts, SMEs) von Microsoft Azure zusammen, um das Ereignis basierend auf Fakten aus den gewonnenen Erkenntnissen zu klassifizieren. Ein Sicherheitsereignis kann wie folgt klassifiziert werden:
 
@@ -69,7 +69,7 @@ Das Sicherheitsteam arbeitet mit Sicherheitstechnikern und Sicherheitsexperten (
 - **Datenschutzereignis**: Ein Sicherheitsereignis, das sich auf personenbezogene Daten oder die Datenverarbeitung auswirkt und unbeabsichtigte Folgen für den Datenschutz hat, einschließlich der Nichtkonformität mit Microsoft-Datenschutzrichtlinien, -Standards und -Kontrollen.
 - **Datenschutzvorfall/Vom Kunden meldepflichtiger Sicherheits-/Datenschutzvorfall (Customer Reportable Security/Privacy Incident, CRSPI)**: Ein Sicherheitsvorfall, der sich auf personenbezogene Daten, Daten oder die Datenverarbeitung auswirkt, die unbeabsichtigte Folgen für den Datenschutz haben, einschließlich der Nichtkonformität mit Microsoft-Datenschutzrichtlinien, -Standards und -Kontrollen.
 
-Damit ein CRSPI deklariert werden kann, muss Microsoft feststellen, dass wahrscheinlich ein nicht autorisierter Zugriff auf Kundendaten stattgefunden hat und/oder dass eine gesetzliche oder vertragliche Verpflichtung zur Benachrichtigung besteht. Es ist wünschenswert, aber nicht zwingend erforderlich, dass die spezifische Auswirkung auf den Kunden, der Ressourcenzugriff und die Reparaturschritte bekannt sind. Ein Vorfall wird im Allgemeinen nach Abschluss der Diagnosestufe eines Sicherheitsvorfalls als CRSPI deklariert. Allerdings kann dies auch zu jedem beliebigen anderen Zeitpunkt stattfinden, an dem alle relevanten Informationen verfügbar sind.
+Damit ein CRSPI deklariert werden kann, muss Microsoft feststellen, dass wahrscheinlich ein nicht autorisierter Zugriff auf Kundendaten stattgefunden hat und/oder dass eine gesetzliche oder vertragliche Verpflichtung zur Benachrichtigung besteht. Es ist wünschenswert, aber nicht zwingend erforderlich, dass die spezifische Auswirkung auf den Kunden, der Ressourcenzugriff und die Reparaturschritte bekannt sind.Ein Vorfall wird im Allgemeinen nach Abschluss der Diagnosestufe eines Sicherheitsvorfalls als CRSPI deklariert. Allerdings kann dies auch zu jedem beliebigen anderen Zeitpunkt stattfinden, an dem alle relevanten Informationen verfügbar sind.
 
 Microsoft überprüft, ob das Risiko für Kunden und Unternehmen erfolgreich gebannt wurde und ob Abhilfemaßnahmen implementiert wurden. Bei Bedarf werden Notfallverfahren zum Beheben unmittelbarer Sicherheitsrisiken im Zusammenhang mit dem Ereignis ausgeführt.
 
@@ -81,7 +81,7 @@ Microsoft benachrichtigt Kunden und Aufsichtsbehörden vorgabengerecht über Dat
 
 Der Benachrichtigungsprozess nach einem deklarierten CRSPI wird so rasch wie möglich in Gang gesetzt, wobei auch die Sicherheitsrisiken eines schnellen Handelns berücksichtigt werden. Im Allgemeinen erfolgt der Prozess des Benachrichtigungsentwurfs, während der Vorfall untersucht wird. Ab dem Zeitpunkt, an dem wir eine Datenschutzverletzung deklarieren, vergehen nicht mehr als 72 Stunden, bis wir unsere Kunden informieren, *außer* in den folgenden Situationen:
 
-- Microsoft ist der Meinung, dass eine Benachrichtigung das Risiko für andere Kunden erhöht. Beispielsweise kann die Benachrichtigung an sich einen Gegenspieler über interne Abläufe informieren, wodurch es unmöglich wird, das Risiko zu beseitigen.
+- Microsoft ist der Meinung, dass eine Benachrichtigung das Risiko für andere Kunden erhöht. Beispielsweise kann die Benachrichtigung einem Angreifer einen Hinweis darauf geben, dass er nicht in der Lage ist, Abhilfe zu schaffen.
 - Andere ungewöhnliche oder extreme Umstände, die von der Rechtsabteilung und dem leitenden Vorfall-Manager von Microsoft überprüft werden.
 - Im Verlauf des 72-Stunden-Zeitlimits ergeben sich möglicherweise neue Erkenntnisse zum Vorfall. Diese Details werden Kunden und Aufsichtsbehörden bereitgestellt, sobald die Untersuchung fortschreitet.
 

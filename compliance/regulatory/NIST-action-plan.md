@@ -3,7 +3,7 @@ title: Microsoft 365 NIST 800-53 Aktionsplan, Prioritäten für die ersten 30 Ta
 description: Ein nach Priorität aufgeschlüsselter Aktionsplan, den Sie abarbeiten können, um die Anforderungen des National Institute of Standards and Technology (NIST) zu erfüllen.
 keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365-Dokumentation, NIST, NIST 800-53
 author: BrendaCarter
-localization_priority: Priority
+ms.localizationpriority: high
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 ms.custom: seo-marvel-apr2020
 hideEdit: true
-ms.openlocfilehash: b0840cf87ede602c1bcc324de9a036126e4e1b2b
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 71f2dcaaafc8dd4452ab8a556aafcb50a7da87d3
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53087564"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58481597"
 ---
 # <a name="microsoft-365-nist-800-53-action-plan--top-priorities-for-your-first-30-days-90-days-and-beyond"></a>Aktionsplan für Microsoft 365 NIST 800-53 – Die wichtigsten Prioritäten für die ersten 30 Tage, 90 Tage und danach
 
@@ -61,7 +61,7 @@ Diese Aufgaben erfordern etwas mehr Zeit für die Planung und Implementierung.
 |:-----|:-----|
 |Verbessern Ihres Antischadsoftware-, Patching- und Konfigurationsverwaltungsprogramms|•   Schutz von Unternehmensressourcen und Desktops durch Bereitstellen und Aktivieren von [ Windows Defender Antivirus](/windows/security/threat-protection/windows-defender-antivirus/deploy-windows-defender-antivirus) in Ihrer Organisation und Nutzen der engen Integration mit Windows 10<br>• Verfolgen von in Quarantäne befindlichen infizierten Systemen und Verhindern weiterer Schäden, bis Maßnahmen getroffen werden<br>•   Vertrauen in den strengen standardmäßigen Change Management-Prozess von Microsoft 365 für vertrauenswürdige Updates, Hotfixes und Patches|
 |Steuern des Zugriffs auf die Umgebung und Schutz der Unternehmensinformationen und Unternehmensressourcen mit den Microsoft 365-Sicherheitsfunktionen|•   Implementieren der [empfohlenen Identitäts- und Gerätezugriffsrichtlinien](/microsoft-365/security/office-365-security/microsoft-365-policies-configurations), um Benutzer- und Administratorkonten zu schützen <br>• Implementieren der Funktionen für die [Office 365-Nachrichtenverschlüsselung (OME)](/microsoft-365/compliance/ome), um Benutzern bei der Einhaltung der Richtlinien Ihrer Organisation beim Senden vertraulicher Daten per E-Mail zu helfen.<br>•   Bereitstellen von [Microsoft Defender für Endpunkt](/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint) auf allen Desktops zum Schutz vor böswilligen Codes sowie zur Verhinderung und Reaktion auf Datenschutzverletzungen.<br>• Konfigurieren, Testen und Bereitstellen von Richtlinien zum Identifizieren, Überwachen und [automatischen Schutz](/microsoft-365/compliance/apply-protection-to-personal-data-in-office-365) von über 80 gängigen Typen vertraulichen Datentypen in Dokumenten und E-Mails, einschließlich finanzieller, medizinischer und personenbezogener Informationen.<br>•    Konfigurieren von [Richtlinientipps](/exchange/security-and-compliance/data-loss-prevention/policy-tips), die Absender von E-Mails bereits vor dem Senden einer nicht konformen Nachricht automatisch darüber informieren, dass sie möglicherweise im Begriff sind, eine Richtlinie zu verletzen (Richtlinientipps lassen sich so konfigurieren, dass auf Geräten bei der Erstellung einer Nachricht in Outlook, Outlook im Web oder OWA ein kurzer Hinweis auf mögliche Richtlinienverstöße angezeigt wird.)<br>•   Schützen vertraulicher Unternehmensdaten und Erfüllen der Richtlinien zur Informationsfreigabe Ihrer Organisation durch die Implementierung von Steuerelementen für die [externe Freigabe in SharePoint Online und OneDrive for Business](/onedrive/manage-sharing). Sicherstellen, dass nur authentifizierte externe Benutzer auf Unternehmensdaten zugreifen können.|
-|Nutzen der integrierten Prüffunktionen zum Überwachen vertraulicher oder riskanter Aktivitäten mit Office 365|•   Aktivieren von [Warnungsrichtlinien](/microsoft-365/compliance/alert-policies) im Microsoft 365 Security Center oder Microsoft 365 Compliance Center, um automatische Benachrichtigungen zu senden, wenn vertrauliche Aktivitäten auftreten, beispielsweise wenn die Berechtigungen eines Benutzerkontos erhöht oder auf vertrauliche Daten zugegriffen wird. Alle Funktionen, die Berechtigungen erfordern, müssen geprüft und überwacht werden.<br>• Regelmäßiges [Durchsuchen Ihrer Überwachungsprotokolle](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) im Security oder Compliance Center, um Änderungen zu prüfen, die an den Konfigurationseinstellungen des Mandanten vorgenommen wurden.<br>•   Verwendung der Referenz zur Office 365-Verwaltungsaktivitäts-API zur Integration mit einem SIEM-Tool (Security Information and Event Management) für die langfristige Speicherung von Überwachungsprotokolldaten.|
+|Nutzen der integrierten Prüffunktionen zum Überwachen vertraulicher oder riskanter Aktivitäten mit Office 365|•   Aktivieren von [Warnungsrichtlinien](/microsoft-365/compliance/alert-policies) im Microsoft 365 Security oder Compliance Center, um automatische Benachrichtigungen zu senden, wenn vertrauliche Aktivitäten stattfinden, z. B. wenn die Berechtigungen eines Benutzerkontos erhöht oder auf vertrauliche Daten zugegriffen wird. Alle privilegierten Funktionen müssen geprüft und überwacht werden.<br>• Regelmäßiges [Durchsuchen Ihrer Überwachungsprotokolle](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) im Security oder Compliance Center, um Änderungen zu prüfen, die an den Konfigurationseinstellungen des Mandanten vorgenommen wurden.<br>•   Verwendung der Referenz zur Office 365-Verwaltungsaktivitäts-API zur Integration mit einem SIEM-Tool (Security Information and Event Management) für die langfristige Speicherung von Überwachungsprotokolldaten.|
 |Bereitstellen von Microsoft Defender für Office 365 sowohl für Links als auch für Anlagen in E-Mails und Office-Dokumenten.|Implementieren von [Microsoft Defender für Office 365](/microsoft-365/security/office-365-security/defender-for-office-365) zur Absicherung gegen die häufigsten Angriffsvektoren wie Phishing-E-Mails und Office-Dokumente mit schädlichen Links und Anlagen.|
 |||
 
