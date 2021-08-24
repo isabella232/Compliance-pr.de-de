@@ -3,7 +3,7 @@ metadata:
   title: California Consumer Privacy Act (CCPA) – häufig gestellte Fragen
   description: Häufig gestellte Fragen zu Microsoft-Diensten und zum California Consumer Privacy Act (CCPA)
   keywords: Microsoft 365, compliance, CCPA, GDPR
-  localization_priority: Priority
+  ms.localizationpriority: high
   ms.prod: microsoft-365-enterprise
   ms.topic: article
   f1.keywords:
@@ -15,12 +15,12 @@ metadata:
   ms.collection:
   - M365-security-compliance
   - MS-Compliance
-  ms.openlocfilehash: 9ed5d5c7062dcdbd2b572b32b4a9ef082d46bc764dc9e46a195a6677d4623a0d
-  ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+  ms.openlocfilehash: 7c324a175f3c5e2cb6eeca07fa7f5046b5e7c28f
+  ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 08/05/2021
-  ms.locfileid: "54290253"
+  ms.lasthandoff: 08/23/2021
+  ms.locfileid: "58481297"
 title: California Consumer Privacy Act (CCPA) – häufig gestellte Fragen
 summary: >
   > [!Note]
@@ -103,7 +103,7 @@ sections:
   - question: >
       Wie werden Daten unter dem CCPA "verkauft"?
     answer: >
-      Die Definition von "Verkaufen" im CCPA ist unglaublich breit, einschließlich der "Bereitstellung persönlicher Informationen für" einen Dritten für finanzielle oder andere wertvolle Überlegungen. Wenn sich ein Verbraucher für "Opt-out" entschieden hat, muss das Unternehmen den Fluss personenbezogener Informationen an Dritte deaktivieren.
+      Die Definition des "Verkaufens" im CCPA ist unglaublich breit, einschließlich der "Bereitstellung persönlicher Informationen für" einen Dritten für finanzielle oder andere wertvolle Überlegungen. Wenn sich ein Verbraucher für "Opt-out" entschieden hat, muss das Unternehmen den Fluss personenbezogener Informationen an Dritte deaktivieren.
 
 
       Das CCPA bietet eine Reihe von Ausgliederungen für dieses "Sonderangebot"-Opt-Out-Steuerelement. Die drei primären Ausgliederungen sind Übertragungen (i) an einen Dienstanbieter, (ii) an eine "ausgenommene Entität" oder "Vertragsnehmer" und (iii) auf Anweisung des Verbrauchers. Selbst wenn sich ein Verbraucher für "Opt-out" entschieden hat, können persönliche Informationen weiterhin an Dritte übertragen werden, die in diese Ausgliederungen passen.
@@ -121,7 +121,7 @@ sections:
   - question: >
       Was unternimmt Microsoft zur Einhaltung der CCPA-Compliance?
     answer: >
-      Da Microsoft DSGVO-bezogene DSRs weltweit implementiert hat, sind wir derzeit hervorragend positioniert, um die damit verbundenen CCPA-Anforderungen zu erfüllen. Wir haben auch unsere Vereinbarungen über die Gemeinsame Nutzung von Daten von Drittanbietern überprüft und Schritte unternommen, um sicherzustellen, dass die erforderlichen Vertragsbedingungen vorhanden sind, um sicherzustellen, dass wir keine persönlichen Daten "verkaufen".
+      Da Microsoft DSGVO-bezogene DSRs weltweit implementiert hat, sind wir derzeit hervorragend positioniert, um die damit verbundenen CCPA-Anforderungen zu erfüllen. Wir haben auch unsere Vereinbarungen zum Teilen von Daten von Drittanbietern überprüft und Schritte unternommen, um sicherzustellen, dass die erforderlichen Vertragsbedingungen vorhanden sind, um sicherzustellen, dass wir keine persönlichen Daten "verkaufen".
   - question: >
       Was sind einige Tools, die meiner Organisation bei der Vorbereitung für CCPA helfen können?
     answer: >

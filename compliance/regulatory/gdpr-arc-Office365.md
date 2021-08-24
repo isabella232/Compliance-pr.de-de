@@ -2,7 +2,7 @@
 title: Prüfliste zu den Verantwortlichkeiten für die DSGVO
 description: In dieser Prüfliste zu den Verantwortlichkeiten erhalten Sie Informationen, die Sie zur Unterstützung der DSGVO bei der Arbeit mit Office 365 benötigen.
 keywords: DSGVO-Verantwortlichkeiten, Prüflisten zu den Verantwortlichkeiten, Microsoft 365, Microsoft 365 Education, DSGVO-Dokumentation, DSGVO
-localization_priority: Priority
+ms.localizationpriority: high
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 30f571ca36a80c66d7e23a472d048691ac3b6865c4b7f2a7675e91e497201509
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 7bce2fc5aaac14442eb466921d3acc130389446c
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290233"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58480397"
 ---
 # <a name="accountability-readiness-checklist-for-microsoft-365"></a>Prüfliste zu den Verantwortlichkeiten für die DSGVO für Microsoft 365
 

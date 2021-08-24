@@ -2,7 +2,7 @@
 title: Microsoft-Support, Dienstleistungen und Benachrichtigungen bei Sicherheitsverletzungen im Rahmen der DSGVO
 description: Wie Microsoft-Support und Professional Services Sie vor Verletzungen des Schutzes personenbezogener Daten schützen und wie Microsoft reagiert und Sie benachrichtigt, wenn eine Verletzung auftritt.
 keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365-Dokumentation, DSGVO
-localization_priority: Priority
+ms.localizationpriority: high
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -17,12 +17,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft GDPR
 hideEdit: true
-ms.openlocfilehash: 85d325e9b8292cbbba6ca1f453a64d75622fb40391de8837da0348fcf9260f95
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: bb21ec78b048562211f977d365dacdfb83aacb55
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288314"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58480357"
 ---
 # <a name="microsoft-support-and-professional-services-and-breach-notification-under-the-gdpr"></a>Microsoft-Support, Dienstleistungen und Benachrichtigungen bei Sicherheitsverletzungen im Rahmen der DSGVO
 

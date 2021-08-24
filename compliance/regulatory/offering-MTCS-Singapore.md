@@ -2,7 +2,7 @@
 title: Multi-Tier Cloud Security (MTCS) Standard für Singapur
 description: Microsoft erhielt die Zertifizierung gemäß Multi-Tier Cloud Security Standard für Singapur.
 keywords: Microsoft 365, Compliance, Angebote
-localization_priority: Priority
+ms.localizationpriority: high
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: bb0cb0d194dce63c2de6e42d7def9fb855c981a2
-ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
+ms.openlocfilehash: 81de800d437427d77c5004f20e0cdf672db3a533
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58260979"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58479747"
 ---
 # <a name="multi-tier-cloud-security-mtcs-standard-for-singapore"></a>Multi-Tier Cloud Security (MTCS) Standard für Singapur
 

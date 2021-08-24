@@ -3,7 +3,7 @@ title: Datenschutzbeauftragter von Microsoft
 description: Dieser Artikel enthält Informationen zum EU-Datenschutzbeauftragten (DSB) von Microsoft für die DSGVO.
 keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365-Dokumentation, DSGVO
 ms.custom: seo-marvel-apr2020
-localization_priority: Priority
+ms.localizationpriority: high
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -18,12 +18,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft GDPR
 hideEdit: true
-ms.openlocfilehash: e8d7eeb34f60afa138dda64d34c06d32771419975b075bf6f19d034850721fe0
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: c5d5b994bfc48fb226e179b11b66a342c9f0a47e
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289963"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58479777"
 ---
 # <a name="microsofts-data-protection-officer"></a>Datenschutzbeauftragter von Microsoft
 

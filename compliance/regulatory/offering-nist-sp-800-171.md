@@ -2,7 +2,7 @@
 title: NIST SP 800-171
 description: Microsoft Cloud Services entsprechen den NIST SP 800-171-Richtlinien zum Schutz kontrollierter nicht klassifizierter Informationen (NIST SP 800-171) in nichtfederalen Informationssystemen.
 keywords: Microsoft 365, Compliance, Angebote
-localization_priority: None
+ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,18 +16,18 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4b5f8bfd19193b3a05b5ffa6476271bc6da05c7ec1c669a2f1614535a54942e1
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: bce6847fe4c0cd1541348b70aadacc9c13238c31
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54294302"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58481137"
 ---
 # <a name="nist-sp-800-171"></a>NIST SP 800-171
 
 ## <a name="about-nist-sp-800-171"></a>Informationen zu NIST SP 800-171
 
-Das US National Institute of Standards and Technology (NIST) fördert und verwaltet Messstandards und Richtlinien zum Schutz der Informations- und Informationssysteme von Bundesbehörden. Als Reaktion auf die Executive Order 13556 zur Verwaltung kontrollierter nicht klassifizierter Informationen (NIST SP 800-171) zum *Schutz von kontrollierten nicht klassifizierten Informationen in nichtfederalen Informationssystemen und Organisationen* wurde [NIST SP 800-171](https://csrc.nist.gov/publications/detail/sp/800-171/rev-1/final)veröffentlicht. CUI ist als digitale und physische Informationen definiert, die von einer Regierung (oder einer Entität in ihrem Auftrag) erstellt werden, die zwar nicht klassifiziert, aber dennoch vertraulich ist und Schutz erfordert.
+Das US National Institute of Standards and Technology (NIST) fördert und verwaltet Messstandards und Richtlinien zum Schutz der Informations- und Informationssysteme von Bundesbehörden. Als Reaktion auf die Executive Order 13556 zur Verwaltung kontrollierter nicht klassifizierter Informationen (NIST SP 800-171) zum *Schutz von kontrollierten nicht klassifizierten Informationen in nichtfederalen Informationssystemen und Organisationen* wurde [NIST SP 800-171](https://csrc.nist.gov/publications/detail/sp/800-171/rev-1/final)veröffentlicht. CUI wird als digitale und physische Informationen definiert, die von einer Regierung (oder einer Entität in ihrem Auftrag) erstellt werden, die zwar nicht klassifiziert, aber dennoch vertraulich ist und Schutz erfordert.
 
 NIST SP 800-171 wurde ursprünglich im Juni 2015 veröffentlicht und wurde seitdem als Reaktion auf sich entwickelnde Cyberbedrohungen mehrmals aktualisiert. Es enthält Richtlinien dazu, wie auf CUI sicher zugegriffen, übertragen und in nichtfederischen Informationssystemen und Organisationen gespeichert werden sollte; Die Anforderungen lassen sich in vier Hauptkategorien unterteilen:
 
@@ -38,13 +38,13 @@ NIST SP 800-171 wurde ursprünglich im Juni 2015 veröffentlicht und wurde seitd
 
 ## <a name="microsoft-and-nist-sp-800-171"></a>Microsoft und NIST SP 800-171
 
-Akkreditierte Drittanbieterbewertungsorganisationen, Kratos Secureinfo und Coalfire, haben sich mit Microsoft zusammengehörig, um zu bestätigen, dass die zugehörigen Clouddienste die Kriterien in NIST SP 800-171, *Protecting Controlled Unclassified Information (CUI) in nonfederal Information Systems and Organizations,* erfüllen, wenn sie CUI verarbeiten. Die [Microsoft-Implementierung der FedRAMP-Anforderungen](offering-fedramp.md) trägt dazu bei, sicherzustellen, dass die microsoft-in-Scope-Clouddienste die Anforderungen von NIST SP 800-171 mithilfe der bereits eingerichteten Systeme und Praktiken erfüllen oder überschreiten.
+Akkreditierte Drittanbieterbewertungsorganisationen, Kratos Secureinfo und Coalfire, haben sich mit Microsoft zusammengehörig, um zu bestätigen, dass die zugehörigen Clouddienste die Kriterien in NIST SP 800-171, *Protecting Controlled Unclassified Information (CUI) in nonfederal Information Systems and Organizations,* erfüllen, wenn sie CUI verarbeiten. Die [Microsoft-Implementierung der FedRAMP-Anforderungen](offering-fedramp.md) trägt dazu bei, dass die Microsoft-Clouddienste im Umfang die Anforderungen von NIST SP 800-171 mithilfe der bereits eingerichteten Systeme und Praktiken erfüllen oder überschreiten.
 
 NIST SP 800-171-Anforderungen sind eine Teilmenge von NIST SP 800-53, dem von FedRAMP verwendeten Standard. Anhang D von NIST SP 800-171 enthält eine direkte Zuordnung der CUI-Sicherheitsanforderungen zu den relevanten Sicherheitskontrollen in NIST SP 800-53, für die die im Umfang enthaltenen Clouddienste bereits im Rahmen des FedRAMP-Programms bewertet und autorisiert wurden.
 
-Jede Organisation, die CUI der US-Regierung verarbeitet oder speichert – Forschungseinrichtungen, Beratungsunternehmen, Auftragnehmer der Fertigung – muss die strengen Anforderungen von NIST SP 800-171 erfüllen. Dieser Nachweis bedeutet, dass Microsoft-Clouddienste im Umfang Kunden, die CUI-Workloads bereitstellen möchten, mit der Gewissheit erfüllen können, dass Microsoft die vollständige Compliance erfüllt. Beispielsweise erfüllen alle DoD-Vertragsnehmer, die "abgedeckte Verteidigungsinformationen" mithilfe von Microsoft Cloud Services in ihren Informationssystemen verarbeiten, speichern oder übertragen, die DFARS-Klauseln des US-Verteidigungsministeriums, die die Einhaltung der Sicherheitsanforderungen von NIST SP 800-171 erfordern.
+Jede Entität, die CUI der US-Regierung verarbeitet oder speichert – Forschungseinrichtungen, Beratungsunternehmen, Auftragnehmer der Fertigung , muss die strengen Anforderungen von NIST SP 800-171 erfüllen. Dieser Nachweis bedeutet, dass Microsoft-Clouddienste im Umfang Kunden, die CUI-Workloads bereitstellen möchten, mit der Gewissheit erfüllen können, dass Microsoft die vollständige Compliance erfüllt. Beispielsweise erfüllen alle DoD-Vertragsnehmer, die "abgedeckte Verteidigungsinformationen" mithilfe von Microsoft Cloud Services in ihren Informationssystemen verarbeiten, speichern oder übertragen, die DFARS-Klauseln des US-Verteidigungsministeriums, die die Einhaltung der Sicherheitsanforderungen von NIST SP 800-171 erfordern.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Eingeschlossene Cloudplattformen und -dienste von Microsoft
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
 - Azure Commercial, Azure Government
 - Dynamics 365 U.S. Government

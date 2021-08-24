@@ -2,7 +2,7 @@
 title: US Section 508
 description: Microsoft bietet detaillierte Konformitätsberichte zur Barrierefreiheit für viele seiner Clouddienste, die die Barrierefreiheitsfunktionen dieser Dienste beschreiben.
 keywords: Microsoft 365, Compliance, Angebote
-localization_priority: None
+ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 237fe4ed402679f156042902f7c25526eee354de
-ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
+ms.openlocfilehash: 728050d20babd819c2153cd04b3eae849120eeee
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58259737"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58480527"
 ---
 # <a name="us-section-508"></a>US Section 508
 
@@ -35,7 +35,7 @@ Microsoft ist ein wichtiger Software- und Cloud-Dienstanbieter für Us-Bundessta
 
 Die Berücksichtigung von Abschnitt 508 der USA bei der Entwicklung von Produkten und Diensten durch Microsoft verweist auf sein Engagement, Technologien und Daten für alle Kunden zugänglich zu machen.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
 - Azure und Azure Government
 - Azure DevOps Services
