@@ -8,7 +8,7 @@ ms.reviewer: sosstah
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection:
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 764b56a0f950d0b933bb86bb86ad505481bce482cbed4d2a0b06a4969b1c6661
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 633873434620266d0fc9f24bbe7a3470554c35f3
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292302"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58481827"
 ---
 # <a name="microsoft-pre-employment-screening"></a>Überprüfung vor der Einstellung durch Microsoft
 
@@ -56,7 +56,7 @@ Soweit dies nach lokalem Recht zulässig ist, umfassen die Prüfungen Folgendes:
 - Die Strafrechtliche Verfolgung überprüft bis zu sieben Jahre auf Straftaten aufgrund von Straftaten aufgrund von Straftaten auf Bundesstaats-, Kreis- und lokaler Ebene sowie auf Bundesebene, sofern dies in den VEREINIGTEn Staaten angemessen ist. Für Bereiche außerhalb der VEREINIGTEn Staaten gilt eine internationale Überprüfung der Vorregisterregister (abhängig von den lokalen Gesetzen).
 - Bestätigung des höchsten akademischen Abschlusses
 - Fünfjähriger Arbeitsverlauf
-- Globale Sanktions- und Durchsetzungsprüfungen, einschließlich Office der Liste der Ofac-Listen (Foreign Assets Control), der Liste des Bis-Büros (Bureau of Industry and Security) und Office der Liste der Debarred Persons (DDTC)-Listenüberprüfungen (Defense Trade Controls Debarred Persons, DDTC).
+- Globale Sanktions- und Durchsetzungsüberprüfungen, einschließlich Office der Ofac-Liste (Foreign Assets Control), der Bis-Liste (Bureau of Industry and Security) und Office of Defense Trade Controls Debarred Persons (DDTC)-Listenprüfungen.
 
 ## <a name="supplier-screening"></a>Lieferantenprüfung
 
@@ -69,10 +69,10 @@ Soweit dies nach dem lokalen Recht zulässig ist, umfassen lieferantenprüfungsp
 - Bestätigung des höchsten akademischen Abschlusses
 - Globale Sanktions- und Vollstreckungsüberprüfung
 
-In den Vereinigten Staaten führt der Lieferant vor jeder Platzierung jedes Lieferantenmitarbeiters, der für Microsoft tätig ist, eine Vorabplatzierung und für bestimmte Platzierungen eine regelmäßige Hintergrundüberprüfung durch, sofern dies nach lokalem Recht zulässig ist, und für bestimmte Platzierungen eine regelmäßige Hintergrundüberprüfung mithilfe des bevorzugten Anbieters von Hintergrundüberprüfungen von Microsoft, der Microsoft gegenüber bestätigt, dass das Screening den Microsoft-Standard erfüllt. 
+In den Vereinigten Staaten führt der Lieferant vor jeder Platzierung jedes Lieferantenmitarbeiters, der für Microsoft tätig ist, eine Vorabplatzierung und für bestimmte Platzierungen eine regelmäßige Hintergrundüberprüfung durch, sofern dies nach den lokalen Gesetzen zulässig ist, und für bestimmte Platzierungen eine regelmäßige Hintergrundüberprüfung mithilfe des bevorzugten Anbieters für die Hintergrundüberprüfung von Microsoft, der Microsoft gegenüber bestätigt, dass das Screening den Microsoft-Standard erfüllt. 
 
 International wird die entsprechende Anforderung bis September 2020 in allen Ländern implementiert, und wenn sie derzeit nicht implementiert ist, legt der Vertrag mit dem Drittanbieter die Anforderungen von Microsoft für die Überprüfung fest, die durchgeführt werden müssen, und der Lieferant ist dafür verantwortlich, Microsoft schriftlich zu bestätigen, dass die Hintergrundüberprüfung erfolgreich abgeschlossen wurde.
 
 ## <a name="microsoft-cloud-background-check"></a>Microsoft Cloud-Hintergrundprüfung
 
-Für Kandidaten, die für die Bereitstellung von Microsoft-Onlinediensten in den VEREINIGTEn Staaten eingestellt wurden, ist eine zusätzliche Microsoft Cloud Background Check erforderlich. Weitere Informationen finden Sie unter [Microsoft Cloud-Hintergrundüberprüfung.](assurance-cloud-background-check.md)
+Für Kandidaten, die für die Bereitstellung von Microsoft-Onlinediensten in den VEREINIGTEn Staaten eingestellt wurden, ist eine zusätzliche Microsoft Cloud-Hintergrundüberprüfung erforderlich. Weitere Informationen finden Sie unter [Microsoft Cloud-Hintergrundüberprüfung.](assurance-cloud-background-check.md)

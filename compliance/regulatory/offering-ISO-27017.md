@@ -2,7 +2,7 @@
 title: ISO/IEC 27017:2015-Verhaltenskodex für Informationssicherheitskontrollen
 description: Microsoft-Clouddienste haben diesen Verhaltenskodex für Informationssicherheitskontrollen implementiert.
 keywords: Microsoft 365, Compliance, Angebote
-localization_priority: Priority
+ms.localizationpriority: high
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 54ae2345f72e6ea0b9b0e856721acc7ff6590e52
-ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
+ms.openlocfilehash: efd0e2c90018c8fb32e39f83bdafa7f02bf0f230
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58260477"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482930"
 ---
 # <a name="isoiec-270172015-code-of-practice-for-information-security-controls"></a>ISO/IEC 27017:2015 Verhaltenskodex für Informationssicherheitskontrollen
 

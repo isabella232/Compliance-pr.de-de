@@ -10,19 +10,19 @@ f1.keywords:
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 78c27f10d963dd3653e7ab444143baae7c989e3ff7f3ce62cb2f45db7a55922f
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 71e84ad97c560cd90b8ba49a1c568dd70fd516f5
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287269"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482068"
 ---
 # <a name="developing-your-business-continuity-plan"></a>Entwickeln Ihres Geschäftskontinuitätsplans
 
@@ -96,7 +96,7 @@ Während der Analyse geschäftlicher Auswirkungen und der Abhängigkeitsanalyse 
 - Wenn E-Mail Ihre primäre Methode ist, Benutzer und Stakeholder auf dem Laufenden zu halten, und Ihr E-Mail-Dienst heruntergestuft wird oder nicht verfügbar ist, können Sie zur Sicherung einen anderen Dienst wie Microsoft Teams, Yammer oder einen anderen Drittanbieterdienst verwenden. Der entscheidende Punkt besteht darin, diese im Vorfeld einzurichten und Ihre Benutzer darin zu schulen, wohin sie sich wenden sollen. Ein Yammer Thread ist nicht hilfreich, wenn niemand weiß, dass er vorhanden ist oder wenn niemand ein Lesezeichen hat.  
 - Wenn sich Ihre internen Vorfallsmanagementprozesse bei der Koordinierung der Antworten auf Sprachkommunikation stützen, richten Sie eine alternative Telefonielösung zur Nutzung während einer Krise ein. Diese Lösung benötigt keine vollständige Parität mit Ihrem primären Dienst, sollte jedoch das Mindestmaß an Zusammenarbeit bereitstellen, um Ihre Business Continuity- und Incident Management-Teams zu koordinieren. Darüber hinaus kann das Auffordern von Benutzern, ihre Mobiltelefonnummern in Ihrer globalen Adressliste zu veröffentlichen, in Extremfällen eine zusätzliche Sicherung der Kommunikation darstellen.
 - Sie können ein benutzerdefiniertes Service Health Dashboard oder eine andere derartige Website erstellen, die Statusaktualisierungen während eines Vorfalls bereitstellen kann. Die Schulung von Benutzern, wo Sie sich im Voraus informieren können, trägt dazu bei, unnötige Anrufe beim Helpdesk zu reduzieren und Ihrer Benutzerbasis Vertrauen einzuflößen, dass die Situation schnell und effizient gehandhabt wird. Verwenden Sie die O365-Dienstkommunikations-API, um diese Informationen in Microsoft 365 zu binden, um eine noch bessere Sichtbarkeit zu bieten.  
-- Es ist von entscheidender Bedeutung, dass der Speicherort Ihrer Geschäftskontinuitätspläne und Standardbetriebsverfahren bekannt ist. Wir empfehlen, Online- und Offlinekopien wichtiger Dokumente zu pflegen, z. B. mit SharePoint Online oder OneDrive for Business, die für die automatische Synchronisierung lokaler Geräte konfiguriert sind. Für Service-/Netzwerkbetriebscenter und andere ähnliche Teams, die für die Wiederherstellung wichtig sind, sollten Sie auch Hard copies verfügbar halten, um im Notfall verwendet zu werden.
+- Es ist von entscheidender Bedeutung, dass der Speicherort Ihrer Geschäftskontinuitätspläne und Standardbetriebsverfahren bekannt ist. Wir empfehlen, Online- und Offlinekopien wichtiger Dokumente zu pflegen, z. B. mit SharePoint Online oder OneDrive for Business, die für die automatische Synchronisierung lokaler Geräte konfiguriert sind. Für Service/Network Operations Center und andere ähnliche Teams, die für die Wiederherstellung wichtig sind, sollten Sie auch Hard copies zur Verfügung stellen, um im Notfall verwendet werden zu können.
 
 ## <a name="know-your-external-points-of-integration"></a>Kennen Ihrer externen Integrationspunkte
 

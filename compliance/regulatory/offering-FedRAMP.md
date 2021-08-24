@@ -2,7 +2,7 @@
 title: FedRAMP (Federal Risk and Authorization Management Program)
 description: Microsoft wurde das Us Federal Risk and Authorization Management Program P-ATOs und ATOs gewährt.
 keywords: Microsoft 365, Compliance, Angebote
-localization_priority: None
+ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f613e35cfcfa6f15946572901cb0c9f3c7a5fa0407a970ccd3b4e19d8efc138a
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 3f178689655662272fc8149259cf769ce122a18a
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292772"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482940"
 ---
 # <a name="federal-risk-and-authorization-management-program-fedramp"></a>FedRAMP (Federal Risk and Authorization Management Program)
 
@@ -43,11 +43,11 @@ FedRAMP-Autorisierungen werden auf drei Auswirkungsstufen basierend auf den NIST
 
 ## <a name="microsoft-and-fedramp"></a>Microsoft und FedRAMP
 
-Die Clouddienste von Microsoft, einschließlich Azure Government, Dynamics 365 Government und Office 365 U.S. Government, erfüllen die anspruchsvollen Anforderungen des US Federal Risk and Authorization Management Program (FedRAMP), sodass US-Bundesbehörden von den Kosteneinsparungen und der strengen Sicherheit der Microsoft Cloud profitieren können.
+Die Microsoft Government Cloud Services, einschließlich Azure Government, Dynamics 365 Government und Office 365 U.S. Government erfüllen die anspruchsvollen Anforderungen des US Federal Risk and Authorization Management Program (FedRAMP), sodass US-Bundesbehörden von den Kosteneinsparungen und der strengen Sicherheit der Microsoft Cloud profitieren können.
 
 Microsoft Government Cloud Services bieten Kunden aus dem öffentlichen Sektor eine vielzahl von Diensten, die FedRAMP entsprechen, sowie robuste Anleitungen und Implementierungstools, einschließlich des [FedRAMP High-Blueprints,](https://aka.ms/fedrampblueprint)das Kunden dabei hilft, eine reihe von Kernrichtlinien für alle von Azure bereitgestellten Architekturen bereitzustellen, die FedRAMP High-Kontrollen implementieren müssen.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
 - Azure und Azure Government
 - [Dynamics 365 U.S. Government](https://aka.ms/d365-compliance-list)
@@ -63,7 +63,7 @@ Weitere Informationen zu Azure, Dynamics 365 und anderen Onlinediensten finden S
 
 - Office 365 und Office 365 U.S. Government verfügen über eine ATO des US Department of Health and Human Services (DHHS).
 - Office 365 Us Government Defense has a P-ATO from the US Defense Information Systems Agency (DISA). Jeder Kunde, der Office 365 U.S. Government Defense bereitstellen möchte, kann die DISA P-ATO verwenden, um eine Agentur-ATO zu generieren, um deren Zustimmung zu dokumentieren.
-- Office 365 (Unternehmens- und Geschäftspläne) und Office 365 US-Regierung verfügen über eine FedRAMP-Agentur-ATO auf der Stufe "Moderate Auswirkungen" der DHHS-Office des Generalinspektors. Office 365 U.S. Government war der erste cloudbasierte E-Mail- und Zusammenarbeitsdienst, der diese Autorisierung erhielt.
+- Office 365 (Unternehmens- und Geschäftspläne) und Office 365 US-Regierung verfügen über eine FedRAMP-Agentur ATO auf der Stufe "Moderate Auswirkungen" aus der DHHS-Office des Generalinspektors. Office 365 U.S. Government war der erste cloudbasierte E-Mail- und Zusammenarbeitsdienst, der diese Autorisierung erhielt.
 
 ### <a name="office-365-cloud-environments"></a>Office 365-Cloudumgebungen
 

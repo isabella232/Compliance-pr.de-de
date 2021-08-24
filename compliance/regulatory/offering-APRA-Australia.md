@@ -2,7 +2,7 @@
 title: Australian Prudential Regulation Authority (APRA)
 description: Microsoft-Leitfaden zur Unterstützung von Finanzdienstleistungskunden bei der Einhaltung der Outsourcing-Standards der Australian Prudential Regulation Authority.
 keywords: Microsoft 365, Compliance, Angebote
-localization_priority: None
+ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 912b9770f4b8afb54fb98455b313498d7ebf7af4
-ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
+ms.openlocfilehash: e8e6ca43cbce4755ab29f3ef7cadc06a5dda7e32
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58260627"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482288"
 ---
 # <a name="australian-prudential-regulation-authority-apra"></a>Australian Prudential Regulation Authority (APRA)
 
@@ -37,7 +37,7 @@ Für Finanzinstitute in Australien, die Cloudanbieter und deren Dienste bewerten
 - [Microsoft Cloud Services: eine Compliance-Checkliste für Finanzinstitute in Australien](https://www.microsoft.com/cms/api/am/binary/RE3ez0C)
 - [Microsoft Cloud Services: Compliance mit APRA Prudential Standard CPS 234](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2OsZg)
 
-Zusammen demonstrieren sie, wie Finanzunternehmen Daten und Workloads in Microsoft Azure verschieben können, mit der Gewissheit, dass sie die Bestimmungen und Anleitungen der Australian Prudential Regulation Authority (APRA) einhalten.
+Zusammen zeigen sie, wie Finanzunternehmen Daten und Workloads in Microsoft Azure verschieben können, mit der Gewissheit, dass sie die Bestimmungen und Anleitungen der Australian Prudential Regulation Authority (APRA) einhalten.
 
 Um mehr über die Vorteile von APRA-konformen Finanzdienstleistungen in Azure zu erfahren, lesen Sie den Artikel ["Regtech meets Gif: Perpetual und Microsoft transformieren den Finanzbereich".](https://news.microsoft.com/en-au/features/regtech-meets-fintech-perpetual-microsoft-transform-finance-sector/)
 
@@ -45,9 +45,9 @@ Um mehr über die Vorteile von APRA-konformen Finanzdienstleistungen in Azure zu
 
 Dieses Microsoft-Dokument enthält detaillierte Anleitungen für Finanzdienstleistungen mit einer detaillierten Antwort auf jedes Problem, das im APRA Information Paper [Outsourcing im Zusammenhang mit Cloud Computing-Diensten](https://www.apra.gov.au/sites/default/files/information_paper_-_outsourcing_involving_cloud_computing_services.pdf)aufgekommen ist. Die APRA-Richtlinien identifizieren drei Risikokategorien, in die die Cloudnutzung in der Regel fällt – niedriges, erhöhtes und extremes inhärentes Risiko – und heben wichtige Probleme hervor, die regulierte Entitäten im Rahmen ihrer Risikobewertung berücksichtigen müssen.
 
-Die Microsoft-Antwort konzentriert sich auf die beiden höchsten Risikokategorien. Clouddienste sind zwar nicht durch eine Risikokategorie verboten, aber APRA erwartet, dass Sie eine entsprechend höhere Stufe der Sorgfalt durchführen, und Sie sollten mit einer zunehmenden APRA-Prüfung rechnen, wenn Sie die Risikokategorien nach oben verschieben. APRA listet eine Reihe von Faktoren auf, die in der Regel auf ein hohes oder extremes inhärentes Risiko für Cloud-Outsourcing hindeuten. Microsoft geht ausführlich auf jeden dieser Faktoren ein und stellt Informationen und Tools bereit, mit denen Sie das Risiko einer Verschiebung Ihrer Daten und Workloads nach Azure bewerten und verwalten können.
+Die Microsoft-Antwort konzentriert sich auf die beiden höchsten Risikokategorien. Clouddienste sind zwar nicht durch eine Risikokategorie verboten, aber APRA erwartet, dass Sie eine entsprechend höhere Stufe der Sorgfalt durchführen, und Sie sollten mit einer zunehmenden APRA-Prüfung rechnen, wenn Sie die Risikokategorien nach oben verschieben. APRA listet eine Reihe von Faktoren auf, die in der Regel auf ein hohes oder extremes inhärentes Risiko für cloudbasiertes Outsourcing hindeuten. Microsoft geht ausführlich auf jeden dieser Faktoren ein und stellt Informationen und Tools bereit, mit denen Sie das Risiko einer Verschiebung Ihrer Daten und Workloads nach Azure bewerten und verwalten können.
 
-Microsoft befasst sich auch mit jeder Berücksichtigung des APRA-Risikomanagements: Strategie, Governance, Lösungsauswahlprozess, APRA-Zugriff und -Fähigkeit, Übergangsansatz, Risikobewertungen und Sicherheit, fortlaufende Überwachung, Geschäftsunterbrechungen sowie Audit und Zusicherung. Punkt für Punkt geben wir Ratschläge und bieten Tools an, die Ihnen bei der Reaktion auf jedes Problem bei der Bereitstellung von Azure helfen.
+Microsoft befasst sich auch mit jeder Berücksichtigung des APRA-Risikomanagements: Strategie, Governance, Lösungsauswahlprozess, APRA-Zugriff und -Fähigkeit, Übergangsansatz, Risikobewertungen und Sicherheit, fortlaufende Überwachung, Geschäftsunterbrechungen sowie Audit und Zuverlässigkeit. Punkt für Punkt geben wir Ratschläge und bieten Tools an, die Ihnen bei der Reaktion auf jedes Problem bei der Bereitstellung von Azure helfen.
 
 Erhalten Sie praktische Unterstützung für das Verschieben von Daten und Workloads nach Azure in Übereinstimmung mit den APRA-Bestimmungen: [Laden Sie die Microsoft-Antwort auf das APRA-Informationsdokument zur Cloud herunter.](https://aka.ms/navigatecloudaustralia)
 
@@ -62,7 +62,7 @@ APRA [Prudential Standard CPS 234 Information Security](https://www.legislation.
 
 CPS 234 entspricht genau dem zentralen Microsoft-Sicherheitsframework: Schützen, Erkennen und Reagieren.
 
-[Microsoft Cloud Services: Compliance mit APRA Prudential Standard CPS 234 Information Security](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2OsZg) legt jede der relevanten regulatorischen CpS 234-Verpflichtungen fest und ordnet ihr die Kontrollen, Funktionen, Funktionen, Vertragsverpflichtungen und unterstützenden Informationen von Microsoft Cloud Service zu, um Ihre APRA-regulierte Organisation bei der Einhaltung ihrer gesetzlichen Verpflichtungen gemäß CPS 234 zu unterstützen.
+[Microsoft Cloud Services: Compliance mit APRA Prudential Standard CPS 234 Information Security](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2OsZg) legt jede der relevanten regulatorischen CPS 234-Verpflichtungen fest und ordnet ihr die Kontrollen, Funktionen, Funktionen, Vertragsverpflichtungen und unterstützenden Informationen von Microsoft Cloud Service zu, um Ihre APRA-regulierte Organisation bei der Einhaltung ihrer gesetzlichen Verpflichtungen gemäß CPS 234 zu unterstützen.
 
 ## <a name="navigating-your-way-to-the-cloud-a-compliance-checklist-for-financial-institutions-in-australia"></a>Navigieren in die Cloud: Eine Compliance-Checkliste für Finanzinstitute in Australien
 
@@ -72,7 +72,7 @@ Indem wir uns auf unseren umfassenden Ansatz zur Risikosicherung in der Cloud ve
 
 Erhalten Sie praktische Unterstützung für das Verschieben von Daten und Workloads nach Azure in Übereinstimmung mit den APRA-Bestimmungen: [Laden Sie Microsoft Cloud Services herunter: eine Compliance-Checkliste für Finanzinstitute in Australien.](https://www.microsoft.com/cms/api/am/binary/RE3ez0C)
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
 - Azure
 - [Dynamics 365](https://aka.ms/d365-compliance-list)

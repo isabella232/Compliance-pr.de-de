@@ -2,7 +2,7 @@
 title: International Traffic in Arms Regulations (ITAR)
 description: Azure Government unterstützt Kunden beim Aufbau von Systemen, die für den internationalen Us-Amerikanischen Datenverkehr in DerWaffen-Registrierungen geeignet sind.
 keywords: Microsoft 365, Compliance, Angebote
-localization_priority: None
+ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d5bebc4a270a11518989c548ef17ac48b8f79b5cc5720f09bc8677c40e422421
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 5f3a17ca4f06f61b62bcc13e44b74ad4d436a6da
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293886"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482920"
 ---
 # <a name="international-traffic-in-arms-regulations-itar"></a>International Traffic in Arms Regulations (ITAR)
 
@@ -37,11 +37,11 @@ Microsoft Azure Government and Microsoft Office 365 U.S. Government for Defense 
   
 Kunden müssen zusätzliche Vereinbarungen unterzeichnen, die Microsoft formell darüber informieren, dass sie ITAR-gesteuerte Daten speichern möchten, damit Microsoft den Verantwortlichkeiten sowohl gegenüber unseren Kunden als auch gegenüber der US-Regierung gerecht wird.  
   
-Der ITAR hat spezifische Verpflichtungen zur Meldung von Verstößen, die bestimmte Vorteile für die Risikominderung bieten können. Die Microsoft Enterprise Agreement-Änderung ermöglicht Es Microsoft und dem Kunden, bei der Meldung solcher Verstöße zusammenzuarbeiten.  
+Der ITAR hat spezifische Verpflichtungen zur Meldung von Verstößen, die bestimmte Vorteile für die Risikominderung bieten können. Die Änderung von Microsoft Enterprise Agreement ermöglicht es Microsoft und dem Kunden, bei der Meldung solcher Verstöße zusammenzuarbeiten.  
   
 Kunden, die ITAR-regulierte Daten hosten möchten, sollten mit ihrem Microsoft-Konto und ihren Lizenzierungsteams zusammenarbeiten, um mehr zu erfahren, ordnungsgemäße Vereinbarungen zu erhalten und auf relevante Systemarchitekturinformationen zuzugreifen.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Eingeschlossene Cloudplattformen und -dienste von Microsoft
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
 - Azure Government
 - Office 365 U.S. Government – High, Office 365 Defense

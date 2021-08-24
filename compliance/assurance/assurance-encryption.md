@@ -10,7 +10,7 @@ ms.topic: article
 f1.keywords:
 - NOCSH
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: d0eb38519ff0eb8d186d2f539e4a99d62410bfd5b5e25125100cd04e5cef82f0
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: dc53f42c6aa7ce16e1291538bfad6d63c5a1689d
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54291132"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482007"
 ---
 # <a name="encryption-and-key-management-overview"></a>Verschlüsselung und Schlüsselverwaltung (Übersicht)
 
@@ -57,7 +57,7 @@ Kunden mit Anforderungen zum Steuern ihrer eigenen Stammverschlüsselungsschlüs
 
 ## <a name="related-external-regulations--certifications"></a>Verwandte externe Vorschriften & Zertifizierungen
 
-Die Onlinedienste von Microsoft werden regelmäßig auf die Einhaltung externer Vorschriften und Zertifizierungen überprüft. In der folgenden Tabelle finden Sie Informationen zur Überprüfung von Steuerelementen im Zusammenhang mit Verschlüsselung und Schlüsselverwaltung.
+Die Onlinedienste von Microsoft werden regelmäßig auf die Einhaltung externer Vorschriften und Zertifizierungen überprüft. Informationen zur Überprüfung von Steuerelementen im Zusammenhang mit Verschlüsselung und Schlüsselverwaltung finden Sie in der folgenden Tabelle.
 
 ### <a name="azure-and-dynamics-365"></a>Azure und Dynamics 365
 

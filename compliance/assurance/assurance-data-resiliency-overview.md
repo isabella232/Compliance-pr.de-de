@@ -8,7 +8,7 @@ ms.reviewer: sosstah
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection:
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: a0745cda440b2262f4b09764e71514aeab946a6e8e0adcd4cdbccaffd14c5fe3
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 48fe50347e7e81c7e5f8552299c04a268b8b449c
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54291333"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482108"
 ---
 # <a name="data-resiliency-in-microsoft-365"></a>Datenresilienz in Microsoft 365
 
@@ -46,13 +46,13 @@ Kunden erwarten heute kontinuierliche Innovationen von Microsoft, ohne die Quali
 
 Resilienz bezieht sich auf die Fähigkeit eines cloudbasierten Diensts, bestimmte Arten von Fehlern zu beheben und dennoch aus Sicht des Kunden voll funktionsfähig zu bleiben. Datenresilienz bedeutet, dass kritische Kundendaten unabhängig davon, welche Fehler innerhalb Microsoft 365 auftreten, intakt und nicht betroffen bleiben. Zu diesem Zweck wurden Microsoft 365 Dienste auf fünf spezifische Resilienzprinzipien ausgelegt:
 
-- Es gibt kritische und nicht kritische Daten. Nicht kritische Daten (z. B. ob eine Nachricht gelesen wurde) können in seltenen Fehlerszenarien gelöscht werden. Kritische Daten (z. B. Kundendaten wie E-Mail-Nachrichten) sollten mit extrem hohen Kosten geschützt werden. Als Entwurfsziel sind zugestellte E-Mail-Nachrichten immer kritisch, und Dinge wie das Lesen einer Nachricht sind nicht kritisch.
+- Es gibt kritische und nicht kritische Daten. Nicht kritische Daten (z. B. ob eine Nachricht gelesen wurde) können in seltenen Fehlerszenarien gelöscht werden. Kritische Daten (z. B. Kundendaten wie E-Mail-Nachrichten) sollten zu extrem hohen Kosten geschützt werden. Als Entwurfsziel sind zugestellte E-Mail-Nachrichten immer kritisch, und Dinge wie das Lesen einer Nachricht sind nicht kritisch.
 - Kopien von Kundendaten müssen in verschiedene Fehlerzonen oder so viele Fehlerdomänen wie möglich unterteilt werden (z. B. Rechenzentren, auf die über einzelne Anmeldeinformationen (Prozess, Server oder Operator) zugegriffen werden kann, um Fehlerisolation bereitzustellen. 
 - Kritische Kundendaten müssen überwacht werden, wenn ein Teil der Atomität, Konsistenz, Isolation, Empfindlichkeit (ATOMICY) nicht erfüllt wird.
 - Kundendaten müssen vor Beschädigungen geschützt werden. Es muss aktiv gescannt oder überwacht, repariert und wiederhergestellt werden können.
 - Die meisten Datenverluste ergeben sich aus Kundenaktionen, sodass Kunden die Wiederherstellung selbst mithilfe einer GUI durchführen können, mit der sie versehentlich gelöschte Elemente wiederherstellen können.
 
-Durch die Weiterentwicklung unserer Clouddienste auf diese Prinzipien, gepaart mit robusten Tests und Validierungen, ist Microsoft 365 in der Lage, die Anforderungen der Kunden zu erfüllen und zu überschreiten und gleichzeitig eine Plattform für kontinuierliche Innovation und Verbesserung zu gewährleisten.
+Durch den Aufbau unserer Clouddienste auf diese Prinzipien, in Kombination mit robusten Tests und Validierungen, ist Microsoft 365 in der Lage, die Anforderungen von Kunden zu erfüllen und zu überschreiten und gleichzeitig eine Plattform für kontinuierliche Innovation und Verbesserung zu gewährleisten.
 
 ## <a name="related-articles"></a>Verwandte Artikel
 

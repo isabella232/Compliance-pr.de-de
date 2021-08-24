@@ -8,7 +8,7 @@ ms.reviewer: sosstah
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection:
@@ -20,16 +20,16 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 1811b118ffdbfce72ba7b387c499d7ce68be2911417611c3ae4fa39624511daf
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 20a21fe0d67f8986ec6e89b8ecbfd2915f9b8245
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290973"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58481937"
 ---
 # <a name="internal-logging-for-microsoft-365-engineering"></a>Interne Protokollierung für Microsoft 365-Engineering
 
-Zusätzlich zu den für Kunden verfügbaren Ereignissen und Protokolldaten verwaltet Microsoft ein internes System zur Erfassung von Protokolldaten, das Microsoft 365 Technikern zur Verfügung steht. Viele verschiedene Arten von Protokolldaten werden von Microsoft 365 Servern in eine proprietäre Lösung für die Sicherheitsüberwachung für die Analyse nahezu in Echtzeit (NRT) und einen internen Big Data Computing-Dienst (Cosmos) für die langfristige Speicherung hochgeladen. Diese Datenübertragung erfolgt über eine FIPS 140-2-validierte TLS-Verbindung an genehmigten Ports und Protokollen mithilfe eines proprietären Automatisierungstools namens Office Data Loader (ODL). Die in Microsoft 365 zum Sammeln und Verarbeiten von Überwachungsdatensätzen verwendeten Tools ermöglichen keine dauerhaften oder nicht rückgängig gemachten Änderungen am ursprünglichen Inhalt des Überwachungsdatensatzes oder an der Zeitreihenfolge.
+Zusätzlich zu den für Kunden verfügbaren Ereignissen und Protokolldaten unterhält Microsoft ein internes Protokolldatenerfassungssystem, das Microsoft 365 Technikern zur Verfügung steht. Viele verschiedene Arten von Protokolldaten werden von Microsoft 365 Servern in eine proprietäre Sicherheitsüberwachungslösung für die Analyse nahezu in Echtzeit (NRT) und einen internen Big Data Computing-Dienst (Cosmos) für die langfristige Speicherung hochgeladen. Diese Datenübertragung erfolgt über eine FIPS 140-2-validierte TLS-Verbindung an genehmigten Ports und Protokollen mithilfe eines proprietären Automatisierungstools namens Office Data Loader (ODL). Die in Microsoft 365 zum Sammeln und Verarbeiten von Überwachungsdatensätzen verwendeten Tools ermöglichen keine dauerhaften oder nicht rückgängig gemachten Änderungen am ursprünglichen Inhalt des Überwachungsdatensatzes oder an der Zeitreihenfolge.
 
 Serviceteams verwenden Cosmos als zentrales Repository, um eine Analyse der Anwendungsnutzung durchzuführen, die System- und Betriebsleistung zu messen und nach Anomalien und Mustern zu suchen, die auf Probleme oder Sicherheitsprobleme hinweisen können. Jedes Serviceteam lädt einen Basisplan hoch, der Folgendes umfasst:
 

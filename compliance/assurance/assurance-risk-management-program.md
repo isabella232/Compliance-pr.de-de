@@ -10,7 +10,7 @@ ms.topic: article
 f1.keywords:
 - NOCSH
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -20,18 +20,18 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 8909d2c3029050a18f3f37862f7dd342696b1fc0f92c5e8bb03aa190f03f2c25
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: ed400fabf50cfcd7f02d9246bb4d552f62f26eef
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290557"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58481777"
 ---
-# <a name="microsoft-365-risk-management-program"></a>Microsoft 365 Risikomanagementprogramm
+# <a name="microsoft-365-risk-management-program"></a>Microsoft 365 Risikomanagement-Programm
 
-Der Zweck des Microsoft 365-Risikomanagementprogramms besteht darin, Risiken für Microsoft 365 zu identifizieren, zu bewerten und zu verwalten. Microsoft 365 hat Vorrang vor der Erfüllung vertraglicher Verpflichtungen und Akkreditierungen, der Steigerung des Kundenvertrauens und der Aufrechterhaltung unseres Wettbewerbsvorteils. Während das Microsoft 365-Risikomanagementprogramm unabhängig funktioniert, entspricht es den übergeordneten Richtlinien, Prioritäten und Methoden des ERM-Programms (Enterprise Risk Management). Die Arbeit mit dem ERM-Programm ermöglicht einen konsistenten Vergleich zwischen Geschäftsbereichen und Engineering-Gruppen und trägt zu einem einheitlicheren Ansatz für das Risikomanagement im gesamten Unternehmen bei.
+Der Zweck des Microsoft 365-Risikomanagementprogramms besteht darin, Risiken für Microsoft 365 zu identifizieren, zu bewerten und zu verwalten. Microsoft 365 priorität hat, vertragliche Verpflichtungen und Akkreditierungen zu erfüllen, das Kundenvertrauen zu erhöhen und unseren Wettbewerbsvorteil aufrechtzuerhalten. Das Microsoft 365-Risikomanagementprogramm funktioniert zwar unabhängig, richtet sich jedoch nach den übergeordneten Richtlinien, Prioritäten und Methoden des ERM-Programms (Enterprise Risikomanagement). Die Arbeit mit dem ERM-Programm ermöglicht einen konsistenten Vergleich zwischen Geschäftsbereichen und Engineering-Gruppen und trägt zu einem einheitlicheren Ansatz für das Risikomanagement im gesamten Unternehmen bei.
 
-Das Microsoft 365 Trust-Team ist für die Verwaltung des Microsoft 365-Risikomanagementprogramms und die Durchführung der vom ERM-Programm festgelegten Aktivitäten verantwortlich. Das Vertrauensteam konzentriert sich auf die Integration des Risikomanagement-Frameworks in vorhandene Microsoft 365 Engineering-, Service- und Compliance-Prozesse, um das Risikomanagementprogramm effektiver und effizienter zu gestalten.
+Das Microsoft 365 Trust-Team ist für die Verwaltung des Microsoft 365-Risikomanagementprogramms und die Durchführung der vom ERM-Programm festgelegten Aktivitäten verantwortlich. Das Trust-Team konzentriert sich auf die Integration des Risikomanagement-Frameworks in vorhandene Microsoft 365 Engineering-, Service- und Compliance-Prozesse, um das Risikomanagementprogramm effektiver und effizienter zu gestalten.
 
 Das Vertrauensteam verwaltet auch das Microsoft 365 Controls Framework, eine Reihe rationalisierter Steuerelemente, die es Entwicklungsteams ermöglichen, wichtige Vorschriften und Zertifizierungen einzuhalten, wenn sie ordnungsgemäß mit unterstützenden Complianceaktivitäten implementiert werden. Dieses Framework wird basierend auf Feedback und Ergebnissen im Rahmen des Risikomanagementprozesses kontinuierlich aktualisiert.
 
@@ -51,7 +51,7 @@ Die Identifizierungsphase erfolgt auch, wenn Entscheidungsprotokolle, aktive Sic
 
 Jedes identifizierte Risiko wird anhand von drei Metriken bewertet: Auswirkung, Wahrscheinlichkeit und Kontrollschwäche.
 
-- Auswirkung bezieht sich auf den Schaden, der dem Dienst, dem Unternehmen oder Microsoft entstehen würde, wenn dieses Risiko erkannt würde. Die Auswirkungen auf Microsoft können Schäden an der Reputation, Verlust von Kunden oder rechtliche/Compliance-Auswirkungen umfassen.
+- Auswirkung bezieht sich auf den Schaden, der dem Dienst, dem Unternehmen oder Microsoft entstehen würde, wenn dieses Risiko erkannt würde. Die Auswirkungen auf Microsoft können Schäden am Ruf, Verlust von Kunden oder rechtliche/Compliance-Auswirkungen umfassen.
 - Wahrscheinlichkeit definiert die Wahrscheinlichkeit, mit der das potenzielle Risiko erkannt wird, und wird durch Analysieren der Wahrscheinlichkeit und Häufigkeit berechnet, mit der es eintritt.
 - Kontrollmangel misst die Effektivität der implementierten Kontrollen zur Risikominderung.
 
@@ -66,10 +66,10 @@ Anhand der überprüften Liste der Risiken für Microsoft 365 weist das Vertraue
 - Überwachen: Bereiche mit hoher Risikoexposition, in denen Kontrollen als ausreichend angesehen werden, die aber auf Effizienz überwacht werden sollten.
 - Verbessern: Bereiche mit hohem Risiko mit geringem Steuerungsgrad, die bei der Behandlung oberste Priorität haben.
 
-Das Vertrauensteam koordiniert sich mit Serviceteams, um Pläne zur Behandlung der einzelnen Risiken zu entwickeln. Der Schweregrad bestimmt die geeignete Überprüfungs- und Genehmigungsstufe für jeden Plan. Für Risiken, die Maßnahmen erfordern, werden vorhandene Engineeringfehlerprozesse zum Nachverfolgen, Verwalten und Treffen von Ausnahmeentscheidungen verwendet. Die Verwendung eines Prozesses, der den Entwicklungs- und Betriebsteams vertraut ist, macht die Risikoreaktion effizienter und effektiver.
+Das Vertrauensteam koordiniert sich mit Serviceteams, um Pläne zur Behandlung der einzelnen Risiken zu entwickeln. Der Schweregrad bestimmt die entsprechende Überprüfungs- und Genehmigungsstufe für jeden Plan. Für Risiken, die Maßnahmen erfordern, werden vorhandene Engineeringfehlerprozesse zum Nachverfolgen, Verwalten und Treffen von Ausnahmeentscheidungen verwendet. Die Verwendung eines Prozesses, der den Entwicklungs- und Betriebsteams vertraut ist, macht die Risikoreaktion effizienter und effektiver.
 
 ## <a name="monitoring-and-reporting"></a>Überwachung und Berichterstellung
 
 Im Rahmen der Risikobewertung identifizierte Risiken werden überwacht und den relevanten Interessengruppen gemeldet. Zu den Überwachungsstrategien gehören Sicherheitsüberwachung, regelmäßige Risikoüberprüfungen, Penetrationstests und Sicherheitsrisiko-Scans. Diese Überwachungsaktivitäten dienen als Datenquellen für die Berichterstattung über wichtige Leistungsindikatoren, die Erstellung von Dashboards und die Entwicklung formaler Berichte, die alle informationen zu zukünftigen Risikoentscheidungen liefern.
 
-Mehrmals pro Jahr trifft sich das Trust-Team mit Risikobesitzern von jedem Dienst, um Risikobewertungen zu überprüfen, die Effektivität ihrer Aktionsplane zu bewerten und bei Bedarf Aktualisierungen vorzunehmen. Darüber hinaus tragen die Aktivitäten zur Risikobewertung Microsoft 365 zu den Enterprise Risikobewertungen des ERM-Programms bei, die eine allgemeine Übersicht über den Risikostatus von Microsoft für die Geschäftsleitung von Microsoft und das ERM-Programm bieten.
+Mehrmals pro Jahr trifft sich das Trust-Team mit Risikobesitzern aus jedem Dienst, um Risikobewertungen zu überprüfen, die Effektivität ihrer Aktionsplane zu bewerten und bei Bedarf Aktualisierungen vorzunehmen. Darüber hinaus tragen Microsoft 365 die Aktivitäten zur Risikobewertung zu den Enterprise Risikobewertungen des ERM-Programms bei, die eine allgemeine Übersicht über den Risikostatus von Microsoft für die Geschäftsleitung von Microsoft und das ERM-Programm bieten.

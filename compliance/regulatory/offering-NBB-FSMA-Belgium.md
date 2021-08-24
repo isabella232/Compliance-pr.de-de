@@ -2,7 +2,7 @@
 title: Die Belgische Nationalbank (National Bank of Belgium, NBB) und die Autorität Finanzielle Dienste und Märkte (Financial Services and Markets Authority, FSMA)
 description: Microsoft-Leitlinie zur Unterstützung von Finanzinstituten in Belgien durch Cloud-Einführung.
 keywords: Microsoft 365, Compliance, Angebote
-localization_priority: Priority
+ms.localizationpriority: high
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 561d978301f5078f8b244e3262c7afa7cd81f1c890b692b2b619b4a2c563c6fb
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: c98d95da506ceafb148baa8a4b63a8326c0839d3
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293412"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482910"
 ---
 # <a name="national-bank-of-belgium-nbb-and-the-financial-services-and-markets-authority-fsma"></a>Die Belgische Nationalbank (National Bank of Belgium, NBB) und die Aufsichtsbehörde für Finanzdienstleistungen und -märkte (Financial Services and Markets Authority, FSMA)
 

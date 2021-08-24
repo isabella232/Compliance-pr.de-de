@@ -2,7 +2,7 @@
 title: FERPA (Family Educational Rights and Privacy Act)
 description: Microsoft entspricht den Anforderungen des US Family Educational Rights and Privacy Act.
 keywords: Microsoft 365, Compliance, Angebote
-localization_priority: None
+ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d41c5fea8e0f6f45703bfe25cae9dbaa491dcd2c
-ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
+ms.openlocfilehash: 6957f3e1c93dd73821456bc45ef1d8e2e12681a0
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58261047"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482238"
 ---
 # <a name="family-educational-rights-and-privacy-act-ferpa"></a>FERPA (Family Educational Rights and Privacy Act)
 
@@ -39,13 +39,13 @@ FERPA erfordert oder erkennt keine Audits oder andere Zertifizierungen an. Daher
 
 - In den [Onlinedienstbedingungen](https://aka.ms/Online-Services-Terms)stimmt Microsoft zu, als "Schulmitarbeiter" mit "legitimen Bildungs interessen" in Kundendaten gemäß FERPA festgelegt zu werden. (Kundendaten umfassen alle Schülerdatensätze, die über die Nutzung von Microsoft-Clouddiensten durch eine Schule bereitgestellt werden.) Bei der Verarbeitung von Datensätzen für Schüler/Studenten stimmt Microsoft zu, die Einschränkungen und Anforderungen von 34 CFR 99.33(a) genau wie Schulmitarbeiter einzuhalten.
 - Darüber hinaus verpflichtet sich Microsoft, Kundendaten nur für die Bereitstellung von Clouddiensten und kompatiblen Zwecken (z. B. verbesserung der Schadsoftwareerkennung) zu verwenden, und miniert keine Kundendaten für Werbung.
-- Microsoft verpflichtet sich außerdem vertraglich, Kundendaten nicht offenzulegen, es sei denn, die Bildungseinrichtung leitet dies, wie im Vertrag beschrieben oder gesetzlich vorgeschrieben. Schulen, die Microsoft Schulungsdatensätze durch die Verwendung eines Microsoft-Clouddiensts bereitstellen, können daher sicher sein, dass diese Datensätze strengen vertraglichen Einschränkungen hinsichtlich ihrer Nutzung und Offenlegung unterliegen.
+- Microsoft verpflichtet sich außerdem vertraglich, Kundendaten nicht offenzulegen, es sei denn, die Bildungseinrichtung leitet dies, wie im Vertrag beschrieben oder gesetzlich vorgeschrieben. Schulen, die Microsoft Schulungsdatensätze durch die Verwendung eines Microsoft-Clouddiensts bereitstellen, können daher sicher sein, dass diese Aufzeichnungen strengen vertraglichen Einschränkungen hinsichtlich ihrer Nutzung und Offenlegung unterliegen.
 
 Aufgrund dieser vertraglichen Verpflichtungen können Kunden, die FERPA unterliegen – sowohl Bildungseinrichtungen als auch Dritte, denen sie Zugriff auf vertrauliche Schülerdaten gewähren – die im Umfang enthaltenen Microsoft Business Cloud Services sicher verwenden, um diese Daten zu verarbeiten, zu speichern und zu übertragen.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
-Zu den Diensten, für die Microsoft zustimmt, als "Schulfunktionär" mit "berechtigten Bildungs interessen" in Kundendaten bezeichnet zu werden, gehören:
+Zu den Diensten, für die Microsoft zustimmt, als "Schulfunktionär" mit "legitimen Bildungs interessen" in Kundendaten bezeichnet zu werden, gehören:
 
 - Azure
 - Azure DevOps Services
@@ -98,5 +98,5 @@ Dieses US-Bundesgesetz schreibt den Schutz der Privatsphäre der Bildungsdatens�
 - [Family Educational Rights and Privacy Act](https://www.ed.gov/policy/gen/guid/fpco/ferpa/index.html)
 - [Electronic Code of Federal Regulations: FERPA](https://aka.ms/FERPA-GPO)
 - [Federal Register: FERPA Final Rule](https://aka.ms/ferpa-reg)
-- [Microsoft Online Services-Nutzungsbedingungen](https://aka.ms/Online-Services-Terms)
+- [Nutzungsbedingungen für Microsoft-Onlinedienste](https://aka.ms/Online-Services-Terms)
 - [Compliance im Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)

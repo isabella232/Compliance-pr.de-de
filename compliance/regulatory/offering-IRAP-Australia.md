@@ -2,7 +2,7 @@
 title: Australian Government Information Security Registered Assessor Program (IRAP)
 description: Microsoft ist in der Australian Certified Cloud Services-Liste sowohl für DLM -Daten (Unclassified Cybersecurity Limiting Markers) als auch für GESCHÜTZTE Daten basierend auf einer IRAP-Bewertung und -Zertifizierung durch das Australian Cyber Security Center (ACSC) enthalten.
 keywords: Microsoft 365, Compliance, Angebote
-localization_priority: None
+ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: df88a1837b948f5f1dc31ad04244b5d9a84442bc
-ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
+ms.openlocfilehash: cd7ad9a68f69f134689262ad7e379eec89284035
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58260310"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58483010"
 ---
 # <a name="australian-government-information-security-registered-assessor-program-irap"></a>Australian Government Information Security Registered Assessor Program (IRAP)
 
@@ -54,11 +54,11 @@ Das vom ISM verwendete Risikomanagement-Framework basiert auf [der Sonderpublika
 - Autorisieren des Systems
 - Überwachen des Systems
 
-Wie immer können zusätzliche Ausgleichsteuerelemente von einzelnen Behörden auf risikogesteuerter Basis vor der Autorisierung der Agentur und der nachfolgenden Verwendung dieser Clouddienste implementiert werden.
+Wie immer können zusätzliche Ausgleichsteuerelemente von einzelnen Behörden auf risikogesteuerter Basis vor der Autorisierung der Agentur und der nachfolgenden Nutzung dieser Clouddienste implementiert werden.
 
 Die IRAP-Bewertung der Dienste und Cloud-Vorgänge von Microsoft trägt dazu bei, kunden im öffentlichen Sektor und deren Partnern zu gewährleisten, dass Microsoft über geeignete und effektive Sicherheitskontrollen für die Verarbeitung, Speicherung und Übertragung von Daten verfügt, die bis einschließlich des Schutzniveaus klassifiziert wurden. Diese Bewertung umfasst die meisten Daten aus Behörden, Gesundheitswesen und Bildungseinrichtungen in Australien.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
 - Azure
 - [Dynamics 365](https://aka.ms/d365-compliance-list)

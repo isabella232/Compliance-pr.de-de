@@ -2,7 +2,7 @@
 title: Federal Financial Institutions Examination Council (FFIEC)
 description: Microsoft hilft Finanzdienstleistungskunden bei der Einhaltung der Prüfungsvoraussetzungen des Federal Financial Institutions Examination Council (FFIEC).
 keywords: Microsoft 365, Compliance, Angebote
-localization_priority: None
+ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 1830d0d61fe0787d7f8e8034af2e4ca64bdb0bc8
-ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
+ms.openlocfilehash: 1c2d1167a68362be700a7cf39cf2cdd7bf61ca97
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58261023"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482690"
 ---
 # <a name="federal-financial-institutions-examination-council-ffiec"></a>Federal Financial Institutions Examination Council (FFIEC)
 
@@ -33,13 +33,13 @@ Das [FFIEC Audit IT Examination Handbook](https://ithandbook.ffiec.gov/it-bookle
 
 ## <a name="microsoft-and-ffiec"></a>Microsoft und FFIEC
 
-Microsoft Azure, Microsoft Power BI und Microsoft Office 365 sind so aufgebaut, dass sie die strengen Anforderungen der Bereitstellung von Clouddiensten für Finanzinstitute erfüllen. Im Rahmen unserer Unterstützung bieten wir Anleitungen, die Ihnen bei der Einhaltung der FFIEC-Auditanforderungen für die Informationstechnologie und der Möglichkeit helfen, Azure SOC-Bescheinigungen zu verwenden, wenn Sie Ihre FFIEC-Complianceverpflichtungen erfüllen.
+Microsoft Azure, Microsoft Power BI und Microsoft Office 365 sind so aufgebaut, dass sie die strengen Anforderungen der Bereitstellung von Clouddiensten für Finanzinstitute erfüllen. Im Rahmen unserer Unterstützung bieten wir Anleitungen, die Ihnen bei der Einhaltung der FFIEC-Prüfungsanforderungen für die Informationstechnologie und der Möglichkeit helfen, Azure SOC-Bescheinigungen zu verwenden, wenn Sie Ihre FFIEC-Complianceverpflichtungen erfüllen.
 
-Um Kunden von Finanzinstituten dabei zu unterstützen, ihre FFIEC-Complianceanforderungen mit Azure zu erfüllen, hat Microsoft den [Azure Security and Compliance Blueprint für FFIEC Regulated Services Workloads](https://servicetrust.microsoft.com/ViewPage/FFIECBlueprint)entwickelt. Es bietet Anleitungen zur Verwendung von Azure-Clouddiensten und Überlegungen zur Einhaltung von FFIEC-Anforderungen und Richtlinien zur Risikobewertung durch den Kunden.
+Um Kunden von Finanzinstituten dabei zu unterstützen, ihre FFIEC-Complianceanforderungen mit Azure zu erfüllen, hat Microsoft den [Azure Security and Compliance Blueprint für FFIEC Regulated Services Workloads](https://servicetrust.microsoft.com/ViewPage/FFIECBlueprint)entwickelt. Es bietet Anleitungen zur Verwendung von Azure-Clouddiensten und Überlegungen zur Einhaltung von FFIEC-Anforderungen und Richtlinien zur Risikobewertung für Kunden.
 
 Um Sie bei der Einhaltung der FFIEC-Anforderungen weiter zu unterstützen, stellen Microsoft Cloud Services [SOC-Nachweisberichte](offering-SOC.md) bereit, die von einem unabhängigen CPA-Unternehmen erstellt wurden. Der SOC 1 Type 2-Nachweis basiert beispielsweise auf dem AICPA SSAE 18-Standard (siehe AT-C Abschnitt 105), der SAS 70 ersetzt hat, und eignet sich für die Berichterstellung über bestimmte Steuerelemente für die Finanzberichterstattung. Die SOC-Berichte enthalten die Meinung des Prüfers zur Effektivität von Microsoft-Kontrollen beim Erreichen der zugehörigen Kontrollziele während des angegebenen Überwachungszeitraums. Finanzinstitute können diese formale Prüfung verwenden, wenn sie FFIEC-spezifische Compliance-Verpflichtungen für in Azure, Power BI und Office 365 bereitgestellte Objekte erfüllen.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
 - Azure
 - Intune
@@ -67,7 +67,7 @@ Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Di
 
 ### <a name="office-365-audits-reports-and-certificates"></a>Office 365-Prüfungen, -Berichte und -Zertifikate
 
-Siehe Office 365 SOC-Nachweisberichte.
+Weitere Informationen finden Sie in den Office 365 SOC-Nachweisberichten.
 
 ### <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 

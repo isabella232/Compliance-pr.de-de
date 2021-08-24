@@ -2,7 +2,7 @@
 title: Titel 23 NYCRR Teil 500
 description: Microsoft hat einen Leitfaden erstellt, in dem erläutert wird, wie Azure, Office 365 und Power BI Finanzinstituten helfen können, die Anforderungen von 23 NYCRR 500 zu erfüllen.
 keywords: Microsoft 365, Compliance, Angebote
-localization_priority: Priority
+ms.localizationpriority: high
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 36d8bd6a0fa27056188b48fef4e1cc8d6e123372
-ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
+ms.openlocfilehash: 717b3d7b024b0fddc4916fff3558d95fb2cedcc2
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58261112"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482590"
 ---
 # <a name="title-23-nycrr-part-500"></a>Titel 23 NYCRR Teil 500
 

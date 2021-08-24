@@ -2,7 +2,7 @@
 title: Benchmarks des Center for Internet Security (CIS)
 description: Das Center for Internet Security (CIS) hat eine Reihe von Benchmarks für Microsoft-Produkte und -Dienste veröffentlicht.
 keywords: Microsoft 365, Compliance, Angebote
-localization_priority: Priority
+ms.localizationpriority: high
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 7af6dd77d4b67e6912d3b57c823820751b7fb8f6ab3e18c063555d14d1c916cd
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 3084bc6e70bb1c2d9aa1e199a8e1bc4bde8fb2b5
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287794"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482498"
 ---
 # <a name="center-for-internet-security-cis-benchmarks"></a>Benchmarks des Center for Internet Security (CIS)
 

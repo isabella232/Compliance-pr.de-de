@@ -2,7 +2,7 @@
 title: Gramm-Leach-Bliley Act (GLBA)
 description: Microsoft hilft Finanzdienstleistungskunden bei der Einhaltung der Datenschutz- und Sicherheitsanforderungen des Gramm-Leach-Bliley Act (GLBA).
 keywords: Microsoft 365, Compliance, Angebote
-localization_priority: None
+ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 7d4e4066704e15354113709e480455db2c1c48a1
-ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
+ms.openlocfilehash: b7b1e3ea3600023c2ec95d4db7f318d70183b197
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58259804"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482680"
 ---
 # <a name="gramm-leach-bliley-act-glba"></a>Gramm-Leach-Bliley Act (GLBA)
 
@@ -33,14 +33,14 @@ Der Gramm-Leach-Bliley Act (GLBA) ist ein US-Gesetz, das die Finanzdienstleistun
 
 Microsoft Azure, Microsoft Office 365, Dynamics 365 und Microsoft Power BI können dazu beitragen, die strengen Anforderungen der Bereitstellung von Clouddiensten für Finanzinstitute zu erfüllen. Im Rahmen unseres Supports bieten wir Anleitungen, die Ihnen helfen, die Anforderungen der GLBA zu erfüllen, indem sie technische und organisatorische Sicherheitsmaßnahmen bereitstellen, um die Sicherheit aufrechtzuerhalten und unbefugte Nutzung zu verhindern.
 
-Microsoft hat Tools zur Risikobewertung für [Azure](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=6b218946-c235-4234-9beb-d557e39a3f44&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) und [Office 365](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=55702ffd-c35a-4619-8722-ab71c0c02002&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) entwickelt, die Ihnen helfen, eine Risikobewertung von Azure und Office 365-Diensten effizienter durchzuführen. Das Tool (ein Excel Tabellenkalkulation) bietet zahlreiche Informationssicherheitsdomänen (z. B. Sicherheitsrichtlinien und Risikomanagement), die die Anforderungen der Finanzdienstleistungsvorschriften und anderer relevanter Standards nachverfolgen, einschließlich GLBA (in Spalte R in der Azure-Tabelle und Spalte Q in der Office 365 Tabellenkalkulation). Die Tools erläutern, wie Azure und Office 365 die anforderungen erfüllen, die für Clouddienstanbieter gelten, und können Ihnen helfen, glba-Sicherheitsanforderungen zu erfüllen.
+Microsoft hat Tools zur Risikobewertung für [Azure](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=6b218946-c235-4234-9beb-d557e39a3f44&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) und [Office 365](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=55702ffd-c35a-4619-8722-ab71c0c02002&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) entwickelt, die Ihnen helfen, eine Risikobewertung von Azure und Office 365-Diensten effizienter durchzuführen. Das Tool (eine Excel-Tabelle) bietet zahlreiche Informationssicherheitsdomänen (z. B. Sicherheitsrichtlinien und Risikomanagement), die die Anforderungen der Finanzdienstleistungsvorschriften und anderer relevanter Standards nachverfolgen, einschließlich GLBA (in Spalte R in der Azure-Tabelle und Spalte Q in der Office 365-Tabelle). Die Tools erläutern, wie Azure und Office 365 die anforderungen erfüllen, die für Clouddienstanbieter gelten, und können Ihnen helfen, glba-Sicherheitsanforderungen zu erfüllen.
 
 ## <a name="promote-your-glba-compliance"></a>Bewerben der GLBA-Compliance
 
 - [Herunterladen des Azure Financial Services Cloud Risk Assessment Tool](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=6b218946-c235-4234-9beb-d557e39a3f44&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
 - [Herunterladen des Tools für die Office 365 Cloudrisikobewertung](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=55702ffd-c35a-4619-8722-ab71c0c02002&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
 - Azure
 - [Dynamics 365](https://aka.ms/d365-compliance-list)

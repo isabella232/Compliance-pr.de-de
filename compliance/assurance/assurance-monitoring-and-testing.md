@@ -8,7 +8,7 @@ ms.reviewer: sosstah
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection:
@@ -20,20 +20,20 @@ f1.keywords:
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 04c4f73df051273620fdd1ef2fb328a069761788118c94a580b0b6cdd40aa95d
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 940e5a4aa0a1327da6d964d9babf0ae3fb897598
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290650"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58481857"
 ---
 # <a name="attack-simulation-in-microsoft-365"></a>Angriffssimulation in Microsoft 365
 
 Microsoft überwacht und testet kontinuierlich explizit auf Schwachstellen und Schwachstellen in Mandantengrenzen, einschließlich der Überwachung auf Eindringversuche, Berechtigungsverletzungsversuche und Ressourcenhunger. Wir verwenden auch mehrere interne Systeme, um kontinuierlich auf unangemessene Ressourcennutzung zu überwachen, die, wenn erkannt, eine integrierte Drosselung auslöst.
 
-Microsoft 365 verfügt über interne Überwachungssysteme, die kontinuierlich auf Fehler überwachen und die automatische Wiederherstellung steuern, wenn ein Fehler erkannt wird. Microsoft 365 Systeme analysieren Abweichungen im Dienstverhalten und initiieren Selbstkorrekturprozesse, die in das System integriert sind. Microsoft 365 verwendet auch externe Überwachung, bei der die Überwachung von mehreren Standorten aus sowohl von vertrauenswürdigen Diensten von Drittanbietern (für die unabhängige SLA-Überprüfung) als auch von unseren eigenen Rechenzentren ausgeführt wird, um Warnungen auszulösen. Für die Diagnose verfügen wir über umfangreiche Protokollierung, Überwachung und Ablaufverfolgung. Eine präzise Ablaufverfolgung und Überwachung hilft uns, Probleme zu isolieren und eine schnelle und effektive Ursachenanalyse durchzuführen.
+Microsoft 365 verfügt über interne Überwachungssysteme, die kontinuierlich auf Fehler überwachen und die automatische Wiederherstellung steuern, wenn ein Fehler erkannt wird. Microsoft 365 Systeme analysieren Abweichungen im Dienstverhalten und initiieren Selbstkorrekturprozesse, die in das System integriert sind. Microsoft 365 verwendet auch externe Überwachung, bei der die Überwachung von mehreren Standorten aus sowohl von vertrauenswürdigen Diensten von Drittanbietern (für die unabhängige SLA-Überprüfung) als auch von unseren eigenen Rechenzentren durchgeführt wird, um Warnungen auszulösen. Für die Diagnose verfügen wir über umfangreiche Protokollierung, Überwachung und Ablaufverfolgung. Eine präzise Ablaufverfolgung und Überwachung hilft uns, Probleme zu isolieren und eine schnelle und effektive Ursachenanalyse durchzuführen.
 
-Während Microsoft 365 nach Möglichkeit automatisierte Wiederherstellungsaktionen hat, stehen Bereitschaftstechniker von Microsoft 24 x 7 zur Verfügung, um alle Sicherheitseskalationen des Schweregrads 1 zu untersuchen, und nachträgliche Überprüfungen jedes Dienstvorfalls tragen zur kontinuierlichen Schulung und Verbesserung bei. Dieses Team umfasst Supporttechniker, Produktentwickler, Programmmanager, Produktmanager und leitende Führungskräfte. Unsere Bereitschaftsexperten bieten eine zeitnahe Sicherung und können häufig Wiederherstellungsaktionen automatisieren, sodass ein Ereignis beim nächsten Auftreten selbstgeschützt werden kann.
+Während Microsoft 365 nach Möglichkeit automatisierte Wiederherstellungsaktionen hat, stehen Die Bereitschaftstechniker von Microsoft 24 x 7 zur Verfügung, um alle Sicherheitseskalationen des Schweregrads 1 zu untersuchen, und nachträgliche Überprüfungen jedes Dienstvorfalls tragen zur kontinuierlichen Schulung und Verbesserung bei. Dieses Team umfasst Supporttechniker, Produktentwickler, Programmmanager, Produktmanager und leitende Führungskräfte. Unsere Bereitschaftsexperten bieten eine zeitnahe Sicherung und können häufig Wiederherstellungsaktionen automatisieren, sodass ein Ereignis beim nächsten Auftreten selbstgeschützt werden kann.
 
 Microsoft führt jedes Mal, wenn ein Microsoft 365 Sicherheitsvorfall auftritt, eine umfassende Überprüfung nach dem Vorfall durch, unabhängig von der Größe der Auswirkungen. Eine Überprüfung nach einem Vorfall besteht aus einer Analyse der Ereignisse, der Reaktion und der Verhinderung ähnlicher Vorfälle in der Zukunft. Im Interesse von Transparenz und Rechenschaftspflicht teilen wir Nach-Vorfall-Überprüfungen für alle wichtigen Dienstvorfälle mit betroffenen Kunden. Spezifische Details finden Sie unter [Microsoft Security Incident Management.](assurance-security-incident-management.md)
 
@@ -41,7 +41,7 @@ Microsoft führt jedes Mal, wenn ein Microsoft 365 Sicherheitsvorfall auftritt, 
 
 Basierend auf der detaillierten Analyse von Sicherheitstrends empfiehlt und hebt Microsoft die Notwendigkeit anderer Investitionen in reaktive Sicherheitsprozesse und -technologien hervor, die sich auf die Erkennung und Reaktion auf neue Bedrohungen konzentrieren, anstatt nur die Verhinderung dieser Bedrohungen. Aufgrund von Änderungen in der Bedrohungslandschaft und einer eingehenden Analyse hat Microsoft seine Sicherheitsstrategie über die Vermeidung von Sicherheitsverletzungen hinaus auf eine weise optimiert, die besser für die Behandlung von Sicherheitsverletzungen geeignet ist, wenn sie auftreten. Eine Strategie, die wichtige Sicherheitsereignisse nicht als Eine Frage des Falls, sondern wann betrachtet.
 
-Während Microsoft [davon ausgeht, dass Es](https://www.microsoft.com/TrustCenter/Security/default.aspx) bereits seit vielen Jahren Praktiken bei Sicherheitsverletzungen gibt, sind vielen Kunden die Arbeit, die hinter den Kulissen zur Härtung der Microsoft-Cloud ausgeführt wird, nicht bewusst. Es wird davon ausgegangen, dass eine Verletzung eine Mentalität ist, die sicherheitsbezogene Investitionen, Entwurfsentscheidungen und betriebliche Sicherheitspraktiken leitet. Gehen Sie davon aus, dass die Verletzung das Vertrauen in Anwendungen, Dienste, Identitäten und Netzwerke einschränkt, indem sie alle – internen und externen – als unsicher und bereits kompromittiert behandeln. Obwohl die Annahme, dass die Strategie für Sicherheitsverletzungen nicht von einer tatsächlichen Verletzung eines Microsoft-Unternehmens oder von Clouddiensten abgeleitet wurde, wurde erkannt, dass viele Organisationen in der gesamten Branche trotz aller Versuche, dies zu verhindern, verletzt wurden. Die Verhinderung von Verstößen ist zwar ein wichtiger Bestandteil der Vorgänge einer Organisation, diese Praktiken müssen jedoch kontinuierlich getestet und erweitert werden, um moderne Angreifer und fortgeschrittene dauerhafte Bedrohungen effektiv zu beheben. Damit sich jede Organisation auf eine Verletzung vorbereiten kann, müssen sie zuerst robuste, wiederholbare und sorgfältig getestete Sicherheitsmaßnahmen erstellen und aufrechterhalten.
+Obwohl Microsoft [davon ausgeht, dass Es](https://www.microsoft.com/TrustCenter/Security/default.aspx) bereits seit vielen Jahren Praktiken bei Sicherheitsverletzungen gibt, sind vielen Kunden die Arbeit, die hinter den Kulissen zur Härtung der Microsoft-Cloud durchgeführt wird, nicht bewusst. Es wird davon ausgegangen, dass eine Verletzung eine Mentalität ist, die sicherheitsbezogene Investitionen, Entwurfsentscheidungen und betriebliche Sicherheitspraktiken leitet. Gehen Sie davon aus, dass die Verletzung das Vertrauen in Anwendungen, Dienste, Identitäten und Netzwerke einschränkt, indem sie alle – internen und externen – als unsicher und bereits kompromittiert behandeln. Obwohl die Annahme, dass die Strategie für Sicherheitsverletzungen nicht von einer tatsächlichen Verletzung eines Microsoft-Unternehmens oder von Clouddiensten abgeleitet wurde, wurde erkannt, dass viele Organisationen in der gesamten Branche trotz aller Versuche, dies zu verhindern, verletzt wurden. Die Verhinderung von Verstößen ist zwar ein wichtiger Bestandteil der Vorgänge einer Organisation, diese Praktiken müssen jedoch kontinuierlich getestet und erweitert werden, um moderne Angreifer und fortgeschrittene dauerhafte Bedrohungen effektiv zu beheben. Damit sich jede Organisation auf eine Verletzung vorbereiten kann, müssen sie zuerst robuste, wiederholbare und sorgfältig getestete Sicherheitsmaßnahmen erstellen und aufrechterhalten.
 
 Während sicherheitsbezogene Sicherheitsprozesse wie Bedrohungsmodellierung, Codeüberprüfungen und Sicherheitstests im Rahmen des [Security Development Lifecycles](https://www.microsoft.com/securityengineering/sdl/)sehr nützlich sind, wird davon ausgegangen, dass Sicherheitsverletzungen zahlreiche Vorteile bieten, die dazu beitragen, die Gesamtsicherheit zu berücksichtigen, indem reaktive Funktionen im Falle einer Verletzung ausgeführt und gemessen werden.
 
@@ -52,7 +52,7 @@ Microsoft führt seine Sicherheitsstrategie zur Annahme von Sicherheitsverletzun
 - Rote Teams (Angreifer)
 - Blaue Teams (Verteidiger)
 
-Sowohl Microsoft Azure als auch Microsoft 365 Mitarbeiter trennen die red Teams und die blaue Teams in Vollzeit.
+Sowohl Microsoft Azure als auch Microsoft 365 Mitarbeiter trennen die red Teams- und blue-Teams in Vollzeit.
 
 Der Ansatz, der als["Rotes Teaming"](https://go.microsoft.com/fwlink/?linkid=518599)bezeichnet wird, besteht darin, Azure und Microsoft 365 Systeme und Vorgänge mit denselben Taktiken, Techniken und Verfahren wie echte Angreifer gegen die Liveproduktionsinfrastruktur zu testen, ohne dass die Engineering- oder Operations-Teams bekannt sind. Dadurch werden die Sicherheitserkennungs- und Reaktionsfunktionen von Microsoft getestet und Produktionssicherheitsrisiken, Konfigurationsfehler, ungültige Annahmen und andere Sicherheitsprobleme auf kontrollierte Weise identifiziert. Auf jede Verletzung des roten Teams folgt eine vollständige Offenlegung zwischen beiden Teams, um Lücken zu identifizieren, Ergebnisse zu beheben und die Reaktion auf Sicherheitsverletzungen zu verbessern.
 
@@ -68,7 +68,7 @@ Die Rolle des roten Teams besteht darin, Umgebungen mit denselben Schritten wie 
 
 Unter anderem versuchen rote Teams, die Grenzen der Mandantenisolation zu überschreiten, um Fehler oder Lücken in unserem Isolationsdesign zu finden.
 
-Um die Angriffssimulation zu skalieren, hat das rote Team ein automatisiertes Angriffsemulationstool erstellt, das regelmäßig sicher in bestimmten Microsoft 365 Umgebungen ausgeführt wird. Das Tool verfügt über eine Vielzahl vordefinierter Angriffe, die ständig erweitert und verbessert werden, um die sich entwickelnde Bedrohungslandschaft widerzuspiegeln. Zusätzlich zur Erweiterung der Abdeckung der Tests des roten Teams hilft es dem blauen Team, seine Sicherheitsüberwachungslogik zu überprüfen und zu verbessern. Die regelmäßige, fortlaufende Angriffsemulation bietet dem blauen Team einen konsistenten und vielfältigen Signalstrom, der mit den erwarteten Antworten verglichen und überprüft wird. Dies führt zu Verbesserungen der Sicherheitsüberwachungslogik und -reaktionsfunktionen Microsoft 365.
+Um die Angriffssimulation zu skalieren, hat das rote Team ein automatisiertes Angriffsemulationstool erstellt, das regelmäßig sicher in bestimmten Microsoft 365 Umgebungen ausgeführt wird. Das Tool verfügt über eine Vielzahl vordefinierter Angriffe, die ständig erweitert und verbessert werden, um die sich entwickelnde Bedrohungslandschaft widerzuspiegeln. Zusätzlich zur Erweiterung der Abdeckung der Tests des roten Teams hilft es dem blauen Team, seine Sicherheitsüberwachungslogik zu überprüfen und zu verbessern. Die regelmäßige, fortlaufende Angriffsemulation bietet dem blauen Team einen konsistenten und vielfältigen Signalstrom, der mit den erwarteten Antworten verglichen und überprüft wird. Dies führt zu Verbesserungen der Sicherheitsüberwachungslogik und -reaktionsfunktionen von Microsoft 365.
 
 ## <a name="blue-teams"></a>Blaue Teams
 

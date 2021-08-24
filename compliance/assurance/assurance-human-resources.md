@@ -10,7 +10,7 @@ ms.topic: article
 f1.keywords:
 - NOCSH
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: f732ccf412272ec7138ac24fcc1f89dcf9bacacf1e64865ebfb9ba4e9dc6daf8
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 1cecf95d167e75f1c31360bca831184dee3e322e
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54291003"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58481967"
 ---
 # <a name="human-resources-overview"></a>Personalwesen (Übersicht)
 
@@ -44,7 +44,7 @@ Hintergrundüberprüfungen für Anstellungskandidaten umfassen in der Regel die 
 
 ## <a name="what-additional-checks-are-performed-for-employees-that-manage-cloud-services"></a>Welche zusätzlichen Überprüfungen werden für Mitarbeiter durchgeführt, die Clouddienste verwalten?
 
-Zusätzlich zur Überprüfung vor dem Anstellungsstatus müssen Microsoft-Mitarbeiter, die Microsoft-Onlinedienste in den VEREINIGTEn Staaten verwalten, eine Microsoft Cloud Background Check als Voraussetzung für den Zugriff auf Onlinedienstsysteme durchlaufen. Die Anforderungen der Hintergrundüberprüfung variieren, um die geltenden Gesetze und Dienstbereitstellungsmodelle einzuhalten. Die Ergebnisse der Microsoft Cloud-Hintergrundüberprüfung werden in unserer Mitarbeiterdatenbank gespeichert und müssen mindestens alle zwei Jahre verlängert werden. Wenn die Microsoft Cloud-Hintergrundüberprüfung abläuft und der Mitarbeiter sie nicht erneuert, wird der Zugriff auf Onlinedienste widerrufen und nicht mehr verfügbar, bis die Microsoft Cloud-Hintergrundüberprüfung abgeschlossen ist. Ebenso wird nach Dem Ende der Anstellungsbeziehung mit Microsoft der gesamte Zugriff sofort widerrufen.
+Zusätzlich zur Überprüfung vor der Einstellung müssen Microsoft-Mitarbeiter, die Microsoft-Onlinedienste in den VEREINIGTEn Staaten verwalten, eine Microsoft Cloud Background Check als Voraussetzung für den Zugriff auf Onlinedienstsysteme durchlaufen. Die Anforderungen der Hintergrundüberprüfung variieren, um die geltenden Gesetze und Dienstbereitstellungsmodelle einzuhalten. Die Ergebnisse der Microsoft Cloud-Hintergrundüberprüfung werden in unserer Mitarbeiterdatenbank gespeichert und müssen mindestens alle zwei Jahre verlängert werden. Wenn die Microsoft Cloud-Hintergrundüberprüfung abläuft und der Mitarbeiter sie nicht erneuert, wird der Zugriff auf Onlinedienste widerrufen und nicht mehr verfügbar, bis die Microsoft Cloud-Hintergrundüberprüfung abgeschlossen ist. Ebenso wird nach Dem Ende der Anstellungsbeziehung mit Microsoft der gesamte Zugriff sofort widerrufen.
 
 ## <a name="how-does-microsoft-ensure-employees-maintain-sufficient-skills-and-knowledge-to-perform-their-responsibilities-and-follow-microsoft-policies"></a>Wie stellt Microsoft sicher, dass Die Mitarbeiter über ausreichende Fähigkeiten und Kenntnisse verfügen, um ihre Aufgaben zu erfüllen und die Microsoft-Richtlinien zu befolgen?
 
@@ -60,7 +60,7 @@ Wenn die Anstellung eines Serviceteambenutzers als beendet gekennzeichnet ist, w
 
 ## <a name="how-does-microsoft-ensure-third-party-suppliers-meet-the-same-personnel-requirements-as-microsoft-employees"></a>Wie stellt Microsoft sicher, dass Drittanbieter die gleichen Personalanforderungen erfüllen wie Microsoft-Mitarbeiter?
 
-Microsoft-Onlinedienste erfordern, dass Drittanbieter über einen signierten Master Supplier Services Agreement (MSSA) verfügen. Dieser Vertrag erfordert, dass der Lieferant die Microsoft-Richtlinien und -Verfahren, einschließlich der Personalsicherheitsrichtlinien und -verfahren, einhält. Microsoft überwacht die Einhaltung der Überprüfungsanforderungen für Mitarbeiter von Drittanbietern, indem das Ergebnis des Screenings direkt nachzuverfolgen. Microsoft verlangt von Lieferanten, dass Sie Die Ergebnisse der Überprüfung für Mitarbeiter von Drittanbietern direkt an Microsoft übermitteln.
+Microsoft-Onlinedienste erfordern, dass Drittanbieter über einen signierten Master Supplier Services Agreement (MSSA) verfügen. Dieser Vertrag erfordert, dass der Lieferant die Microsoft-Richtlinien und -Verfahren, einschließlich der Personalsicherheitsrichtlinien und -verfahren, einhält. Microsoft überwacht die Einhaltung der Überprüfungsanforderungen für Mitarbeiter von Drittanbietern, indem das Ergebnis des Screenings direkt nachzuverfolgen. Microsoft verlangt von Lieferanten, dass sie Die Ergebnisse von Überprüfungen für Mitarbeiter von Drittanbietern direkt an Microsoft übermitteln.
 
 ## <a name="related-external-regulations--certifications"></a>Verwandte externe Vorschriften & Zertifizierungen
 

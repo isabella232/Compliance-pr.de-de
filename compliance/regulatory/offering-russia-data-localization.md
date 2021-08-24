@@ -1,8 +1,8 @@
 ---
 title: Lokalisierungsanforderungen für personenbezogene Daten in Russisch
-description: Erfahren Sie, wie die Erfassung von personenbezogenen Daten, die Aufzeichnung von personenbezogenen Daten von russischen Bürgern, die Systematisierung, die Behebung, die Speicherung, die Klarstellung und die Extraktion in Microsoft-Dienste und Datenbanken in Russland durchgeführt werden.
+description: Erfahren Sie, wie die Erfassung personenbezogener Daten, die Aufzeichnung personenbezogener Daten russischer Bürger, die Systematisierung, die Behebung, die Speicherung, die Klarstellung und die Extraktion in Microsoft-Dienste und Datenbanken in Russland durchgeführt werden.
 keywords: Microsoft 365, Compliance, Angebote
-localization_priority: None
+ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 559614554eb661be33a751c212080bea20d967565daf37de59a292851b9a28e8
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 093ec578cd83dc6c52485101d232d9ccff88489e
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287144"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482800"
 ---
 # <a name="russian-personal-data-localization-requirements"></a>Lokalisierungsanforderungen für personenbezogene Daten in Russisch
 
@@ -37,7 +37,7 @@ Es ist zu beachten, dass es der Kunde als PDIS-Betreiber für personenbezogene D
 
 ### <a name="microsoft-id-management"></a>Microsoft-ID-Verwaltung
 
-Microsoft lädt Kunden ein, das Abonnieren von Microsoft-Dienste in Betracht zu ziehen. Microsoft Azure, Microsoft 365, Dynamics 365 und Power Platform – über einen CSP-Partner (Microsoft Cloud Solution Provider). Weitere Informationen finden Sie in [dieser Liste der CSP-Partner.](https://pinpoint.microsoft.com/search?type=services&campaign=691)
+Microsoft lädt Kunden ein, das Abonnieren von Microsoft-Dienste in Betracht zu ziehen. Microsoft Azure, Microsoft 365, Dynamics 365 und Power Platform – über einen Microsoft Cloud Solution Provider (CSP)-Partner. Weitere Informationen finden Sie in [dieser Liste der CSP-Partner.](https://pinpoint.microsoft.com/search?type=services&campaign=691)
 
 ### <a name="managing-user-identity-and-access-for-microsoft-services"></a>Verwalten der Benutzeridentität und des Zugriffs für Microsoft-Dienste
 

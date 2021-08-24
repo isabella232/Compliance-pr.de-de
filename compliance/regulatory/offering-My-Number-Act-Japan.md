@@ -2,7 +2,7 @@
 title: „My Number“-Gesetz (Japan)
 description: Microsoft Business Cloud Services entsprechen den Standards des „My Number“-Gesetzes zum Schutz der „My Number“-Daten.
 keywords: Microsoft 365, Compliance, Angebote
-localization_priority: Priority
+ms.localizationpriority: high
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b42632e272946b13e2b4055ae3411f44a37c0f24
-ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
+ms.openlocfilehash: e38e5f2c370692a60d07ac25491ae457e0ed34c0
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58260969"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482208"
 ---
 # <a name="my-number-act-japan"></a>„My Number“-Gesetz (Japan)
 

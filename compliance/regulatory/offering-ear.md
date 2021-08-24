@@ -2,7 +2,7 @@
 title: US Export Administration Regulations (EAR)
 description: Microsoft Cloud Services helfen Kunden, die den US Export Administration Regulations (EAR) unterliegen, ihre Compliance-Anforderungen zu erfüllen und das Exportkontrollrisiko zu verwalten.
 keywords: Microsoft 365, Compliance, Angebote
-localization_priority: None
+ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 2438db5a94871e60bb7181c3acfe250e8552e94aa9b127d5e800ab8d6edfcf93
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 859067495b6811b2264ab3a379f305d428771bce
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293592"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482980"
 ---
 # <a name="us-export-administration-regulations-ear"></a>US Export Administration Regulations (EAR)
 
@@ -51,7 +51,7 @@ Die US-Handelsabteilung, die die EAR erzwingt, hat die Position eingenommen, das
 - **End-to-End-Verschlüsselung**. Durch die Nutzung der End-to-End-Verschlüsselungssicherheit für physische Speicherorte, die im EAR angegeben sind, bieten microsoft-bezogene Clouddienste Verschlüsselungsfunktionen, die zum Schutz vor Exportkontrollrisiken beitragen können. Sie bieten Kunden auch eine [Vielzahl von Optionen zum Verschlüsseln von Daten](https://aka.ms/Azure-Encryption-Overview) während der Übertragung und im Ruhezustand sowie die Flexibilität, zwischen Verschlüsselungsoptionen zu wählen.
 - **Tools und Protokolle, um nicht autorisierten Export zu verhindern.** Die Verwendung von Verschlüsselung trägt auch zum Schutz vor einem potenziellen export (oder als reexport betrachtet) im Rahmen des EAR bei, denn selbst wenn eine Nicht-US-Person Zugriff auf verschlüsselte Daten hat, wird nichts offengelegt, wenn sie die Daten während der Verschlüsselung nicht lesen oder verstehen können; daher gibt es keine "Freigabe" von kontrollierten Daten.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
 - [Azure und Azure Government](https://aka.ms/AzureCompliance)
 - [Office 365 Government (GCC-Hoch und DoD)](https://aka.ms/Office-365-Export-Controls)

@@ -2,7 +2,7 @@
 title: California Consumer Privacy Act (CCPA)
 description: Microsoft-Dienste und dem California Consumer Privacy Act (CCPA).
 keywords: Microsoft 365, Compliance, Angebote
-localization_priority: None
+ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 75f814c49395e5b945d0b9092b1158fad3376ce684ea3a8fb43115d51fe6bba5
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 61b15a095dec310aac74bac10b2d062eb1011750
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288254"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482660"
 ---
 # <a name="california-consumer-privacy-act-ccpa"></a>California Consumer Privacy Act (CCPA)
 
@@ -37,11 +37,11 @@ Die California AG setzt das CCPA durch und ist berechtigt, Verstöße gegen die 
 
 ## <a name="microsoft-and-the-ccpa"></a>Microsoft und das CCPA
 
-Für kommerzielle Kunden, die in Kalifornien tätig sind, wird Microsoft als "Dienstanbieter" in Bezug auf unsere Onlinedienste und Professional-Dienste fungieren.  Die Bedingungen der Onlinedienstbedingungen (ONLINE Services Terms, OST) und des Microsoft Professional Services Data Protection Addendum (MSDPA) erfüllen bereits die Anforderungen für Dienstanbieter im Rahmen des CCPA und sind in der Regel ausreichend, damit Kunden weiterhin Daten an unsere Onlinedienste übertragen können. Daher sind keine zusätzlichen vertraglichen Änderungen erforderlich, damit Sich Kunden im Rahmen des CCPA auf Microsoft als Dienstanbieter verlassen können.
+Für kommerzielle Kunden, die in Kalifornien tätig sind, wird Microsoft als "Dienstanbieter" in Bezug auf unsere Onlinedienste und Professional-Dienste fungieren.  Die Bedingungen der Onlinedienstbedingungen (OST) und des Microsoft Professional Services Data Protection Addendum (MSDPA) erfüllen bereits die Anforderungen für Dienstanbieter im Rahmen des CCPA und sind in der Regel ausreichend, damit Kunden weiterhin Daten an unsere Onlinedienste übertragen können. Daher sind keine zusätzlichen vertraglichen Änderungen erforderlich, damit Sich Kunden im Rahmen des CCPA auf Microsoft als Dienstanbieter verlassen können.
 
 Wie im OST festgelegt, hält Microsoft alle Gesetze und Bestimmungen ein, die für die Bereitstellung der Onlinedienste gelten, einschließlich des CCPA.  
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
 - [Azure](https://aka.ms/AzureCompliance)
 - Azure DevOps
@@ -81,10 +81,10 @@ Der größte Unterschied in CCPA ist die Kernanforderung, die es ermöglicht, de
 
 **Welche Rechte müssen Unternehmen laut der CCPA gewähren?**
 
-Das CCPA erfordert regulierte Unternehmen, die persönliche Informationen sammeln, übertragen und verkaufen, unter anderem:
+Das CCPA erfordert regulierte Unternehmen, die persönliche Informationen sammeln, übertragen und verkaufen, unter anderem an:
 
 - Den Verbrauchern vor der Erfassung Informationen über die Kategorien und Zwecke der Erfassung zur Verfügung zu stellen.
-- Detailliertere Offenlegungen in einer Datenschutzrichtlinie in Bezug auf die Quellen, Geschäftszwecke und Kategorien von personenbezogenen Informationen, die gesammelt werden, einschließlich der Art und Weise, wie diese Kategorien verkauft oder an andere Entitäten übertragen werden.
+- Detailliertere Offenlegungen in einer Datenschutzrichtlinie in Bezug auf Quellen, Geschäftszwecke und Kategorien von personenbezogenen Informationen, die gesammelt werden, einschließlich der Art und Weise, wie diese Kategorien verkauft oder an andere Entitäten übertragen werden.
 - Aktivieren Sie die Rechte von Anträgen betroffener Personen auf Zugriff, Löschung und Portabilität für die spezifischen persönlichen Informationen, die von Ihnen erfasst wurden.
 - Aktivieren Sie ein Steuerelement, das es Verbrauchern ermöglicht, den Verkauf der Daten des Verbrauchers zu deaktivieren. Übertragungen an ausgenommene Entitäten, z. B. Dienstanbieter, sind jedoch zulässig.
 - Aktivieren Sie für Minderjährige unter 16 Jahren einen Teilnahmeprozess, sodass kein Verkauf der persönlichen Informationen des Minderjährigen erfolgen kann, ohne sich aktiv für den Verkauf zu entscheiden.

@@ -10,7 +10,7 @@ ms.topic: article
 f1.keywords:
 - NOCSH
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 373c910f4c97f7f9ff89ea346c8dceef84dd6a07
-ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
+ms.openlocfilehash: 933db3783c6672fa952f70f18c4815955bcedb21
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58260836"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58481957"
 ---
 # <a name="identity-and-access-management-overview"></a>Identitäts- und Zugriffsverwaltung (Übersicht)
 
@@ -44,7 +44,7 @@ JEA wird durch Berechtigungsberechtigungen und Lockbox-Rollen zum Zeitpunkt der 
 Serviceteamkonten gewähren keinen ständigen Administratorrechten oder Zugriff auf Kundeninhalte. JIT-Anforderungen für eingeschränkte Administratorrechte werden über Lockbox verwaltet. Lockbox verwendet RBAC, um die Arten von JIT-Rechteerweiterungsanforderungen einzuschränken, die Techniker ausführen können, und bietet eine zusätzliche Schutzebene, um die geringsten Rechte zu erzwingen. RBAC hilft auch bei der Durchsetzung der Aufgabentrennung, indem Serviceteamkonten auf die entsprechenden Rollen beschränkt werden.
 Technikern, die einen Dienst unterstützen, wird basierend auf ihrer Rolle die Mitgliedschaft in Sicherheitsgruppen gewährt. Die Mitgliedschaft in einer Sicherheitsgruppe gewährt keinen privilegierten Zugriff. Sicherheitsgruppen ermöglichen Es Entwicklern stattdessen, Lockbox zu verwenden, um JIT-Rechteerweiterung anzufordern, wenn dies für die Unterstützung des Systems erforderlich ist. Die spezifischen JIT-Anforderungen, die ein Techniker stellen kann, sind durch ihre Sicherheitsgruppenmitgliedschaften begrenzt.
 
-## <a name="how-do-microsoft-online-services-handle-remote-access-to-production-systems"></a>Wie verarbeiten Microsoft-Onlinedienste den Remotezugriff auf Produktionssysteme?
+## <a name="how-do-microsoft-online-services-handle-remote-access-to-production-systems"></a>Wie behandeln Microsoft-Onlinedienste den Remotezugriff auf Produktionssysteme?
 
 Microsoft Online Services-Systemkomponenten befinden sich in Rechenzentren, die geografisch von den Betriebsteams getrennt sind. Mitarbeiter von Rechenzentren haben keinen logischen Zugriff auf Microsoft-Onlinedienstsysteme. Daher verwalten Mitarbeiter des Microsoft-Serviceteams die Umgebung über den Remotezugriff. Serviceteammitarbeiter, die Remotezugriff benötigen, um Microsoft-Onlinedienste zu unterstützen, erhalten nur nach genehmigung durch einen autorisierten Vorgesetzten Remotezugriff. Für den Remotezugriff wird ausschließlich FIPS 140-2-kompatibles TLS für sichere Remoteverbindungen verwendet.
 

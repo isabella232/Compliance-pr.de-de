@@ -2,7 +2,7 @@
 title: Anträge betroffener Personen zur Konfiguration zur Verarbeitung von Windows-Diagnosedaten im Rahmen der DSGVO und des CCPA
 description: Erlernen Sie die Verwendung von Microsoft-Produkten, -Diensten und -Verwaltungstools, um nach personenbezogenen Daten zu suchen und auf DSRs zu reagieren.
 keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365-Dokumentation, DSGVO
-localization_priority: Priority
+ms.localizationpriority: high
 ROBOTS: NOINDEX, NOFOLLOW
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 hideEdit: true
-ms.openlocfilehash: 365aa84ce2c88468b7f6689aa73507e458a435fd2d3bc58583114f37f50537ac
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 202b8aa75d3dd6fc94025a1a30f922563fc73e7b
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293052"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482378"
 ---
 # <a name="windows-diagnostic-data-processor-configuration-data-subject-requests-for-the-gdpr-and-ccpa"></a>Anträge betroffener Personen zur Konfiguration zur Verarbeitung von Windows-Diagnosedaten im Rahmen der DSGVO und des CCPA
 

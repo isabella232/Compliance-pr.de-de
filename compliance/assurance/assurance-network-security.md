@@ -10,7 +10,7 @@ ms.topic: article
 f1.keywords:
 - NOCSH
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 18f5bfa40fc8827ec840a764ae3224765aadae81156738fe30a51acd6ca244ab
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 92da9e7bb2716f61088e02c244cb9905af142ead
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292762"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58481837"
 ---
 # <a name="network-security-overview"></a>Netzwerksicherheit (Übersicht)
 
@@ -37,11 +37,11 @@ Microsoft-Onlinedienste verwenden mehrere Strategien zum Sichern der Netzwerkgre
 
 Die große Internetpräsenz von Microsoft schützt sie vor den negativen Auswirkungen vieler verteilter Denial-of-Service (DDoS)-Angriffe. Verteilte Instanzen jedes Microsoft-Onlinediensts und mehrere Routen zu jedem Dienst begrenzen die Auswirkungen von DDoS-Angriffen auf das System. Diese Redundanz verbessert die Fähigkeit von Microsoft-Onlinediensten, DDoS-Angriffe aufzufangen, und erhöht den Zeitaufwand, um DDoS-Angriffe zu erkennen und zu mindern, bevor sie sich auf die Dienstverfügbarkeit auswirken.
 
-Zusätzlich zur redundanten Systemarchitektur von Microsoft verwendet Microsoft komplexe Erkennungs- und Risikominderungstools, um auf DDoS-Angriffe zu reagieren. Spezielle Firewalls überwachen und löschen unerwünschten Datenverkehr, bevor sie die Grenze in das Netzwerk überschreiten, wodurch der Stress auf Systemen innerhalb der Netzwerkgrenze reduziert wird. Um unsere Clouddienste weiter zu schützen, verwendet Microsoft ein DDoS-Abwehrsystem, das als Teil der Microsoft Azure bereitgestellt wird. Das Azure DDoS-Abwehrsystem wurde entwickelt, um Angriffe von außen und von anderen Azure-Mandanten zu verhindern.
+Zusätzlich zur redundanten Systemarchitektur von Microsoft verwendet Microsoft komplexe Erkennungs- und Risikominderungstools, um auf DDoS-Angriffe zu reagieren. Spezielle Firewalls überwachen und löschen unerwünschten Datenverkehr, bevor sie die Grenze in das Netzwerk überschreiten, wodurch der Stress auf Systemen innerhalb der Netzwerkgrenze reduziert wird. Um unsere Clouddienste weiter zu schützen, verwendet Microsoft ein DDoS-Abwehrsystem, das als Teil Microsoft Azure bereitgestellt wird. Das Azure DDoS-Abwehrsystem wurde entwickelt, um Angriffe von außen und von anderen Azure-Mandanten zu verhindern.
 
 ## <a name="how-does-microsoft-protect-users-against-spam-and-malware-being-uploaded-or-sent-through-online-services"></a>Wie schützt Microsoft Benutzer vor Spam und Schadsoftware, die über Onlinedienste hochgeladen oder gesendet werden?
 
-Microsoft Online services build antimalware protection into services that might be vectors for malicious code, such as Exchange Online and SharePoint Online. Exchange Online Protection (EOP) überprüft alle E-Mails und E-Mail-Anlagen beim Ein- und Verlassen des Systems auf Schadsoftware, um zu verhindern, dass infizierte Nachrichten und Anlagen zugestellt werden. Die erweiterte Spamfilterung wird automatisch auf eingehende und ausgehende Nachrichten angewendet, um zu verhindern, dass Kundenorganisationen Spam empfangen und senden. Diese Schutzebene schützt vor Angriffen, die unerwünschte oder nicht autorisierte E-Mails wie Phishingangriffe nutzen. SharePoint Online verwendet dasselbe Virenerkennungsmodul, um hochgeladene Dateien selektiv auf Schadsoftware zu überprüfen. Wenn eine Datei als infiziert markiert ist, können Benutzer die Datei nicht herunterladen oder synchronisieren, um Clientendpunkte zu schützen. Ebenso vergleicht Azure Hashes im Zusammenhang mit Dateien, die in Azure Storage hochgeladen wurden, mit diesen Hashes bekannter Schadsoftware. Wenn Übereinstimmungen gefunden werden, wird eine Warnung im Azure Security Center ausgelöst, in der eine Entscheidung über die Dringlichkeit der Warnung und deren Behebung getroffen wird.
+Microsoft Online services build antimalware protection into services that might be vectors for malicious code, such as Exchange Online and SharePoint Online. Exchange Online Protection (EOP) scannt alle E-Mails und E-Mail-Anlagen beim Ein- und Verlassen des Systems auf Schadsoftware, um zu verhindern, dass infizierte Nachrichten und Anlagen zugestellt werden. Die erweiterte Spamfilterung wird automatisch auf eingehende und ausgehende Nachrichten angewendet, um zu verhindern, dass Kundenorganisationen Spam empfangen und senden. Diese Schutzebene schützt vor Angriffen, die unerwünschte oder nicht autorisierte E-Mails wie Phishingangriffe nutzen. SharePoint Online verwendet dasselbe Virenerkennungsmodul, um hochgeladene Dateien selektiv auf Schadsoftware zu überprüfen. Wenn eine Datei als infiziert markiert ist, können Benutzer die Datei nicht herunterladen oder synchronisieren, um Clientendpunkte zu schützen. Ebenso vergleicht Azure Hashes im Zusammenhang mit Dateien, die in Azure Storage hochgeladen wurden, mit diesen Hashes bekannter Schadsoftware. Wenn Übereinstimmungen gefunden werden, wird eine Warnung im Azure Security Center ausgelöst, in der eine Entscheidung über die Dringlichkeit der Warnung und deren Behebung getroffen wird.
 
 ## <a name="related-external-regulations--certifications"></a>Verwandte externe Vorschriften & Zertifizierungen
 

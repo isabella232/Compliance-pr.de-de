@@ -2,7 +2,7 @@
 title: ENISA Information Assurance Framework
 description: Microsoft orientiert sich an den Tools zur Risikobewertung des ENISA Information Assurance Frameworks, basierend auf dessen CSA STAR-Selbstbewertung.
 keywords: Microsoft 365, Compliance, Angebote
-localization_priority: Priority
+ms.localizationpriority: high
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d1272c1fe9756960ccf21cab82404a8971a48b87
-ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
+ms.openlocfilehash: 91735f08e93777a7ffa1a9c86d3a4776cc8cf1a0
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58260644"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482830"
 ---
 # <a name="enisa-information-assurance-framework"></a>ENISA Information Assurance Framework
 

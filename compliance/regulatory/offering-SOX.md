@@ -2,7 +2,7 @@
 title: Sarbanes-Oxley Act von 2002 (SOX)
 description: Finanzdienstleistungsunternehmen können Microsoft-Complianceberichte verwenden, um auf ihre Einhaltung des Sarbanes-Oxley Act zu reagieren.
 keywords: Microsoft 365, Compliance, Angebote
-localization_priority: None
+ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6fb3ec963487169e01c9a69eca3b76f9f21a46cf
-ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
+ms.openlocfilehash: 9b5b9b3a1e398c804aad7f7a42a0b2770de20525
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58260433"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482850"
 ---
 # <a name="sarbanes-oxley-act-of-2002-sox"></a>Sarbanes-Oxley Act von 2002 (SOX)
 
@@ -37,11 +37,11 @@ Microsoft Cloud Services-Kunden, die der Einhaltung des Sarbanes-Oxley Act (SOX)
 
 Obwohl es keine SOX-Zertifizierung oder -Validierung für Cloud-Dienstanbieter gibt, kann Microsoft Kunden dabei helfen, ihre SOX-Verpflichtungen zu erfüllen. SoX erfordert beispielsweise interne Kontrollen für die Vorbereitung und Überprüfung von Rechnungen, insbesondere Kontrollen, die sich auf die Genauigkeit, Vollständigkeit, Effektivität und Veröffentlichung von wesentlichen Änderungen im Zusammenhang mit der Finanzberichterstattung auswirken. Um Unternehmen zu helfen, verwaltet Microsoft einen SOC 1 Type 2-Nachweis, der für die Berichterstattung über solche Steuerelemente in einem breiten Portfolio von Diensten geeignet ist, die zum Erstellen einer vielzahl von Anwendungen verwendet werden können. Sie basiert auf der Erklärung des American Institute of Certified Public Accountings (AICPA) zu Standards for Attestation Engagements 18 (SSAE 18) und dem International Standard on Assurance Engagements No. 3402 (ISAE 3402). (Dieser Nachweis ersetzt SAS 70.)
 
-Der von einem drittanbieterweiten Überwachungsunternehmen erstellte Prüfbericht bestätigt, dass die Microsoft-Kontrollen ordnungsgemäß entworfen wurden, an einem bestimmten Datum ausgeführt wurden und über einen bestimmten Zeitraum effektiv funktionieren. Kunden können die Berichte überprüfen, um mehr über die Kontrollziele von Microsoft und die Effektivität der Kontrollen zu erfahren und Zugriff auf ergänzende Steuerelemente zu erhalten.
+Der von einem drittanbieterweiten Überwachungsunternehmen erstellte Prüfbericht bestätigt, dass Microsoft-Kontrollen ordnungsgemäß entworfen wurden, an einem bestimmten Datum ausgeführt wurden und über einen bestimmten Zeitraum effektiv funktionieren. Kunden können die Berichte überprüfen, um mehr über die Kontrollziele von Microsoft und die Effektivität der Kontrollen zu erfahren und Zugriff auf ergänzende Steuerelemente zu erhalten.
 
 Bei Microsoft teilen wir die Verantwortung für die Compliance mit unseren Kunden. Wir stellen die Einzelheiten zu unseren Complianceprogrammen zur Verfügung, die Sie überprüfen können, indem Sie detaillierte Auditergebnisse von den zertifizierenden Drittanbietern anfordern. Letztendlich liegt es jedoch an Ihnen, zu bestimmen, ob unsere Dienste den spezifischen Gesetzen und Bestimmungen entsprechen, die für Ihr Unternehmen gelten. Es gibt beispielsweise SOX-bezogene Sicherheitskontrollen, z. B. den Benutzerzugriff auf Cloudressourcen, die in Ihrer Verantwortung liegen: Ihre Organisation muss im Rahmen Ihrer SOX-Compliance eine geeignete Überwachung dieser Steuerelemente entwickeln.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
 - Azure
 - [Dynamics 365](https://aka.ms/d365-compliance-list)

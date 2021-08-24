@@ -10,7 +10,7 @@ ms.topic: article
 f1.keywords:
 - NOCSH
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -20,16 +20,16 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: d0ef6dc92820089259cd315713c0e7e4a9e11aaec50d731b15cd6e826a721107
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 6c20c62feb1ff3ab23eeb97d5ad11abb5ad85a07
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292752"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58481757"
 ---
 # <a name="securing-the-microsoft-365-infrastructure"></a>Sichern der Microsoft 365 Infrastruktur
 
-Microsoft 365 ist einer der größten Clouddienste für Unternehmen und Verbraucher weltweit und wächst weiterhin schnell, sowohl in der Kundenbasis als auch in den Produkten und Features. Kunden nutzen Microsoft 365 nicht nur für erstklassige Produktivitätslösungen, sondern auch, um ihre vertraulichsten Informationen vor der sich ständig weiterentwickelnden Cyberbedrohungslandschaft zu schützen. Es ist microsofts oberste Priorität, Kundendaten zu schützen und das Kundenvertrauen aufrechtzuerhalten.
+Microsoft 365 ist einer der größten Clouddienste für Unternehmen und Verbraucher weltweit und wächst weiterhin schnell, sowohl in der Kundenbasis als auch bei Produkten und Features. Kunden nutzen Microsoft 365 nicht nur für erstklassige Produktivitätslösungen, sondern auch, um ihre vertraulichsten Informationen vor der sich ständig weiterentwickelnden Cyberbedrohungslandschaft zu schützen. Es ist microsofts oberste Priorität, Kundendaten zu schützen und das Kundenvertrauen aufrechtzuerhalten.
 
 Das Sichern eines Systems dieses Umfangs und dieser Komplexität ist nicht möglich, wenn die Sicherheit eine Nachfolgelösung ist, sie ist nur wirksam, wenn die Sicherheit während des anfänglichen Entwurfsprozesses integriert wird. Es erfordert ein robustes Bedrohungserkennungssystem mit prompten Antworten sowohl von automatisierten Systemen als auch von hoch qualifizierten Technikern. Die kontinuierliche Bewertung und Validierung dieser Systeme ist unerlässlich, um sicherzustellen, dass sichere Konfigurationen erhalten bleiben und zuvor unbekannte Sicherheitsrisiken identifiziert werden.
 
@@ -97,7 +97,7 @@ Weitere Informationen zur Sicherheitsüberwachung in Microsoft 365 finden Sie un
 
 Microsoft 365 hat oberste Priorität, um zu verhindern, dass Angriffe die Abwehr infiltrieren. Microsoft 365 verfügt über ein dediziertes Team von Sicherheitsexperten, die ständig simulierte Angriffe durchführen, um zuvor unbekannte Sicherheitsrisiken zu identifizieren und einen konstanten Datenstrom zur Verbesserung der Sicherheitsüberwachungsfunktionen bereitzustellen. Diese simulierten Angriffe haben die Form häufiger automatisierter Angriffe in kleinem Maßstab und von Experten gesteuerter Deep Dives. Anhand dieser Aktivitäten bewertet Microsoft die Fähigkeit, Angreifer zu erkennen, darauf zu reagieren und sie zu entfernen.
 
-Weitere Informationen zur Sicherheitsüberwachung in Microsoft 365 finden Sie unter [Angriffssimulation in Microsoft 365.](assurance-monitoring-and-testing.md)
+Weitere Informationen zur Sicherheitsüberwachung in Microsoft 365 finden Sie unter [Angriffssimulation in Microsoft 365](assurance-monitoring-and-testing.md).
 
 ## <a name="resources"></a>Ressourcen
 

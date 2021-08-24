@@ -1,6 +1,6 @@
 ---
 title: Risikomanagement
-description: Erfahren Sie mehr über das Risikomanagement in Microsoft 365
+description: Informationen zum Risikomanagement in Microsoft 365
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -10,7 +10,7 @@ ms.topic: article
 f1.keywords:
 - NOCSH
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: e21a8c8fe0583e0481b11b75e5c65df79bf5c430
-ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
+ms.openlocfilehash: ae5177f524fd8f2025198aa5155821f4aa759050
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58260760"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58481767"
 ---
 # <a name="risk-management-overview"></a>Risikomanagement (Übersicht)
 
@@ -37,7 +37,7 @@ Das Risikomanagement von Microsoft richtet sich nach dem Enterprise-Risikomanage
 
 ![Struktur des Risikomanagements](../media/assurance-risk-management-structure.png)
 
-Microsoft ERM ermöglicht allgemeine Grundsätze des Risikomanagements im gesamten Unternehmen, sodass Geschäftseinheiten unabhängig voneinander konsistente und vergleichende Risikobewertungen ermöglichen können. Diese Koordination ermöglicht Es Microsoft, Risikoinformationen für die Verwaltung konsolidiert zu aggregieren und zu melden. ERM stellt Geschäftsbereichen bei Microsoft gemeinsame Methoden, Tools und Ziele für den Risikomanagementprozess bereit. Microsoft 365 und andere Engineering-Gruppen und Geschäftseinheiten verwenden diese Tools, um individuelle Risikobewertungen als Teil ihrer eigenen Risikomanagementprogramme unter der Anleitung von ERM durchzuführen.
+Microsoft ERM ermöglicht allgemeine Grundsätze des Risikomanagements im gesamten Unternehmen, sodass Geschäftseinheiten unabhängig konsistente und vergleichende Risikobewertungen ermöglichen können. Diese Koordination ermöglicht Es Microsoft, Risikoinformationen für die Verwaltung konsolidiert zu aggregieren und zu melden. ERM stellt Geschäftsbereichen bei Microsoft gemeinsame Methoden, Tools und Ziele für den Risikomanagementprozess bereit. Microsoft 365 und andere Engineering-Gruppen und Geschäftseinheiten verwenden diese Tools, um individuelle Risikobewertungen im Rahmen ihrer eigenen Risikomanagementprogramme unter der Anleitung von ERM durchzuführen.
 
 ## <a name="how-do-microsoft-online-services-work-with-erm"></a>Wie funktionieren Microsoft-Onlinedienste mit ERM?
 

@@ -12,7 +12,7 @@ ms.topic: article
 f1_keywords:
 - ms.o365.cc.SupervisoryReview
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -22,18 +22,18 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: f9cd84fed225764b61049aefc3ec95b2eb75fce845b2b9ef752fc194d949c409
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: b2f88172d2a8158a2232acd1c4312217d7c3fef4
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292442"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482088"
 ---
 # <a name="datacenter-security-overview"></a>Sicherheit von Rechenzentren (Übersicht)
 
 ## <a name="how-does-microsoft-host-its-online-services"></a>Wie hoste Microsoft seine Onlinedienste?
 
-Microsoft bietet mehr als 200 Clouddienste, einschließlich Enterprise-Dienste wie Microsoft Azure, Microsoft 365 und Microsoft Dynamics 365, an Kunden mit einer 24 x 7 x 365.000. Diese Dienste werden in der Cloudinfrastruktur von Microsoft gehostet, die aus global verteilten Rechenzentren, Edgecomputingknoten und Service Operations Centern besteht. Sie werden von einem der weltweit größten globalen Netzwerke mit einem umfangreichen Fibre Footprint unterstützt und verbunden.
+Microsoft bietet mehr als 200 Clouddienste, einschließlich Enterprise-Dienste wie Microsoft Azure, Microsoft 365 und Microsoft Dynamics 365, an Kunden mit 24 x 7 x 365. Diese Dienste werden in der Cloudinfrastruktur von Microsoft gehostet, die aus global verteilten Rechenzentren, Edgecomputingknoten und Service Operations Centern besteht. Sie werden von einem der weltweit größten globalen Netzwerke mit einem umfangreichen Fibre Footprint unterstützt und verbunden.
 
 Der Fokus der Rechenzentren, die unsere Cloudangebote unterstützen, liegt auf hoher Zuverlässigkeit, erstklassigen Betriebsprozessen, Kosteneffektivität, Umweltfreundlichkeit und einer vertrauenswürdigen Online-Benutzeroberfläche für Kunden und Partner weltweit. Microsoft testet die Sicherheit der Rechenzentren regelmäßig durch interne Audits und Drittanbieter-Audits. Deshalb vertrauen die am stärksten regulierten Organisationen der Welt der Microsoft-Cloud, die mit mehr Zertifizierungen kompatibel ist als jeder andere Clouddienst.
 
@@ -45,7 +45,7 @@ Unsere Sicherheitszentren (Security Operations Centers) verwenden Videoüberwach
 
 ## <a name="how-does-microsoft-protect-its-datacenters-from-environmental-hazards"></a>Wie schützt Microsoft seine Rechenzentren vor Umweltrisiken?
 
-Microsoft setzt eine Vielzahl von Sicherheitsvorkehrungen ein, um die Verfügbarkeit von Rechenzentren vor Umweltbedrohungen zu schützen. Rechenzentrumsstandorte werden strategische ausgewählt, um das Risiko durch eine Vielzahl von Faktoren zu minimieren, einschließlich Überschwemmungen, Risikobewertungen, Naturkatastrophen und anderen Naturkatastrophen. Unsere Rechenzentren verwenden die Wetterkontrolle, um optimierte kontrollgeschützte Räume für Mitarbeiter, Geräte und Hardware zu überwachen und zu warten. Branderkennungs- und Unterdrückungssysteme und Wassersensoren helfen dabei, Schieß- und Wasserschäden an Geräten zu erkennen und zu verhindern.
+Microsoft setzt eine Vielzahl von Sicherheitsvorkehrungen ein, um die Verfügbarkeit von Rechenzentren vor Umweltbedrohungen zu schützen. Rechenzentrumsstandorte werden strategische ausgewählt, um das Risiko durch eine Vielzahl von Faktoren zu minimieren, z. B. Überschwemmungen, Erdbeben, Naturkatastrophen und andere Naturkatastrophen. Unsere Rechenzentren verwenden die Wetterkontrolle, um optimierte kontrollgeschützte Räume für Mitarbeiter, Geräte und Hardware zu überwachen und zu warten. Branderkennungs- und -unterdrückungssysteme und Wassersensoren helfen dabei, Schieß- und Wasserschäden an Geräten zu erkennen und zu verhindern.
 
 Katastrophen sind nicht vorhersehbar, aber die Rechenzentren und das Betriebspersonal von Microsoft bereiten sich auf Katastrophen vor, um die Kontinuität des Betriebs zu gewährleisten, falls unerwartete Ereignisse eintreten sollten. Eine robuste Architektur und aktuelle, getestete Kontinuitätspläne mindern potenzielle Schäden und fördern die schnelle Wiederherstellung des Rechenzentrumsbetriebs. Krisenmanagementpläne schaffen Klarheit über Rollen, Verantwortlichkeiten und Minderungsaktivitäten vor, während und nach einer Krise. Die in diesen Plänen festgelegten Rollen und Kontakte erleichtern in Krisensituationen eine wirksame Eskalation in der Befehlskette nach oben.
 

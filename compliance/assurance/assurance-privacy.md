@@ -10,7 +10,7 @@ ms.topic: article
 f1.keywords:
 - NOCSH
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 910c1ddf0ba1f52a7862457387a923753199ae7913b07dfa4e03de8a7b361868
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 29d0c6633c67d65c6bef27a9768fa213a9e50ac4
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292294"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58481817"
 ---
 # <a name="privacy-overview"></a>Datenschutz (Übersicht)
 
@@ -35,7 +35,7 @@ Die Grundlage des [Microsoft-Datenschutzansatzes](https://privacy.microsoft.com/
 
 ## <a name="how-does-microsoft-implement-its-privacy-commitments"></a>Wie implementiert Microsoft seine Datenschutzverpflichtungen?
 
-Microsoft hält die Microsoft-Datenschutzrichtlinien und den Microsoft-Datenschutzstandard aufrecht, um sicherzustellen, dass wir unsere Datenschutzverpflichtungen im gesamten Unternehmen erfüllen. Zur Unterstützung dieser Verpflichtungen unterhält das Microsoft Customer Data Governance Board (CDBG) eine Taxonomie und ein Framework, um eine angemessene Kategorisierung von Daten sicherzustellen und Sicherheits- und Datenschutzanforderungen für jede Datenkategorisierung festzulegen. Die zugehörigen Datenverarbeitungsstandards bieten Anleitungen zum Verwalten der einzelnen Datenklassifizierungstypen innerhalb bestimmter Aktivitäten oder Szenarien, einschließlich der Anforderungen zur Erfüllung der in der OST/DPA und anderen Standards und Vorschriften beschriebenen Verpflichtungen.
+Microsoft hält die Microsoft-Datenschutzrichtlinien und den Microsoft-Datenschutzstandard aufrecht, um sicherzustellen, dass wir unsere Datenschutzverpflichtungen im gesamten Unternehmen erfüllen. Zur Unterstützung dieser Verpflichtungen verwaltet das Microsoft Customer Data Governance Board (CDBG) eine Taxonomie und ein Framework, um eine angemessene Kategorisierung von Daten sicherzustellen und Sicherheits- und Datenschutzanforderungen für jede Datenkategorisierung festzulegen. Die zugehörigen Datenverarbeitungsstandards bieten Anleitungen zum Verwalten der einzelnen Datenklassifizierungstypen innerhalb bestimmter Aktivitäten oder Szenarien, einschließlich der Anforderungen zur Erfüllung der in der OST/DPA und anderen Standards und Vorschriften beschriebenen Verpflichtungen.
 
 ## <a name="how-does-microsoft-collect-and-process-customer-data"></a>Wie sammelt und verarbeitet Microsoft Kundendaten?
 
@@ -45,7 +45,7 @@ Microsoft beschränkt die Erfassung von Kundendaten auf vier spezifische [Datenk
 
 ## <a name="how-does-microsoft-handle-third-party-sharing"></a>Wie behandelt Microsoft die Freigabe von Drittanbietern?
 
-Die Freigabe von Drittanbietern ist die Freigabe oder Weitergabe von Daten an Drittanbieter. Microsoft gibt Daten nur frei, wenn sie vom Kunden autorisiert wurden oder nach geltendem Recht dazu verpflichtet sind. Microsoft gewährt keiner Behörde (einschließlich Strafverfolgungs- oder anderer Regierungsbehörden) direkten oder ungehinderten Zugriff auf Kundendaten. Microsoft [hält sich an die internationalen Datenschutzgesetze](https://www.microsoft.com/trust-center/privacy/data-location) hinsichtlich der übertragung von Kundendaten über Grenzen hinweg.
+Die Freigabe von Drittanbietern ist die Freigabe oder Weitergabe von Daten an Drittanbieter. Microsoft gibt Daten nur frei, wenn sie vom Kunden autorisiert wurden oder nach geltendem Recht dazu verpflichtet sind. Microsoft gewährt keiner Regierung (einschließlich Strafverfolgungs- oder anderer Regierungsbehörden) direkten oder ungehinderten Zugriff auf Kundendaten. Microsoft [hält sich an die internationalen Datenschutzgesetze](https://www.microsoft.com/trust-center/privacy/data-location) hinsichtlich der übertragung von Kundendaten über Grenzen hinweg.
 
 ## <a name="how-does-microsoft-delete-customer-data-when-a-customer-leaves-the-service"></a>Wie löscht Microsoft Kundendaten, wenn ein Kunde den Dienst verlässt?
 

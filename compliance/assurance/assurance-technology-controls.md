@@ -8,7 +8,7 @@ ms.reviewer: sosstah
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection:
@@ -21,29 +21,29 @@ ms.custom:
 - seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: b82dfdbe3de63f8b5ded42c037d0d574da051047462c6900d368a70efd625fcf
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 06d8f500a96c84bf961dc47f6b8d259e0fffe02d
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54291723"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58481647"
 ---
 # <a name="technology-controls-in-microsoft-365"></a>Technologiesteuerelemente in Microsoft 365 
 
-Microsoft verwendet mehrere Tools und Technologien, um den Zugriff auf Kundendaten in seinen Onlinediensten zu steuern, zu verwalten und zu überwachen. Diese gelten für Exchange Online, SharePoint Online, Lockbox und Kunden-Lockbox, mehrstufige Authentifizierung und vieles mehr. Yammer ähnliche Steuerelemente verwendet, die in [Yammer Enterprise Zugriffssteuerungen](assurance-yammer-enterprise-access-controls.md)beschrieben sind.
+Microsoft verwendet mehrere Tools und Technologien, um den Zugriff auf Kundendaten in seinen Onlinediensten zu steuern, zu verwalten und zu überwachen. Diese gelten für Exchange Online, SharePoint Online, Lockbox und Kunden-Lockbox, mehrstufige Authentifizierung und vieles mehr. Yammer verwendet ähnliche Steuerelemente, die in [Yammer Enterprise Zugriffssteuerungen](assurance-yammer-enterprise-access-controls.md)beschrieben sind.
 
 Microsoft 365 Techniker haben keinen ständigen Zugriff auf Microsoft 365 Kundendaten. Techniker müssen einen Microsoft-Genehmigungsprozess durchlaufen, bevor der Zugriff auf Kundendaten für Servicevorgänge erfolgt. Wenn der Kunde die Kunden-Lockbox-Funktion für Exchange Online und SharePoint Online lizenziert, erfordert der Zugriff auf Kundendaten eine Genehmigung durch den Kunden. Nach der Genehmigung werden dienstspezifische Administratorkonten just-in-time-Zugriff für Aufgaben bereitgestellt, die für die Serviceanfrage erforderlich sind.
 
 ## <a name="lockbox-and-customer-lockbox"></a>Lockbox und Kunden-Lockbox
 
-Obwohl selten, könnte ein Kunde Unterstützung von Microsoft anfordern, die Kundeninhalte für einen Microsoft-Techniker verfügbar macht. Um den Zugriff auf Exchange Online zu steuern, verwendet Microsoft ein Zugriffssteuerungssystem namens Lockbox. Bevor ein Microsoft-Techniker auf Exchange Online oder SharePoint Onlinesysteme oder -Daten zugreift, muss er eine Zugriffsanforderung mithilfe von Lockbox senden. Alle Serviceanfragen für Exchange Online und SharePoint Online werden vom Lockbox-System verarbeitet. Mit Lockbox und Kunden-Lockbox kann der gesamte genehmigte Zugriff für einen eindeutigen Benutzer nachverfolgt werden, sodass Techniker für ihre Verarbeitung von Kundendaten verantwortlich sind.
+Obwohl selten, könnte ein Kunde Unterstützung von Microsoft anfordern, die Kundeninhalte für einen Microsoft-Techniker verfügbar macht. Um den Zugriff auf Exchange Online zu steuern, verwendet Microsoft ein Zugriffssteuerungssystem namens Lockbox. Bevor ein Microsoft-Techniker auf Exchange Online oder SharePoint Onlinesysteme oder -Daten zugreift, muss er eine Zugriffsanforderung mithilfe von Lockbox senden. Alle Dienstanforderungen für Exchange Online und SharePoint Online werden vom Lockbox-System verarbeitet. Mit Lockbox und Kunden-Lockbox kann der gesamte genehmigte Zugriff für einen eindeutigen Benutzer nachverfolgt werden, sodass Techniker für ihre Verarbeitung von Kundendaten verantwortlich sind.
 
 > [!NOTE]
 > Exchange Online enthält alle Skype for Business Daten, die in Benutzerpostfächern gespeichert sind. Skype for Business Abdeckung umfasst nicht Skype-Besprechung Aufzeichnungen oder Inhalte, die von Benutzern in Besprechungen hochgeladen wurden. SharePoint Online umfasst OneDrive for Business.
 
 Lockbox verarbeitet Anforderungen für Berechtigungen, die Technikern die Möglichkeit geben, operative und administrative Funktionen innerhalb des Diensts auszuführen. Techniker übermitteln Anforderungen über Lockbox, und ein Microsoft-Manager muss die Anforderung genehmigen, bevor der Techniker auf Kundendaten zugreifen kann. Nach der Genehmigung durch den Vorgesetzten hat der Techniker zeitlich begrenzten und eingeschränkten Zugriff auf Kundendaten, um das Problem des Kunden zu bearbeiten.
 
-Kunden-Lockbox für Microsoft 365 hilft Ihnen bei der Erfüllung von Complianceverpflichtungen, wenn Sie Verfahren für die explizite Autorisierung des Datenzugriffs benötigen. Dies ist eine Anforderung für einige Compliancestandards, z. B. FedRAMP und HIPAA. Kunden-Lockbox fügt Sie in den Lockbox-Genehmigungsprozess ein und bietet Ihnen die Möglichkeit, die Autorisierung des Microsoft-Zugriffs auf Ihre Exchange Online oder SharePoint Onlineinhalte für Dienstvorgänge zu steuern.
+Kunden-Lockbox für Microsoft 365 hilft Ihnen, Compliance-Verpflichtungen zu erfüllen, wenn Sie Verfahren für die explizite Autorisierung des Datenzugriffs benötigen. Dies ist eine Anforderung für einige Compliancestandards, z. B. FedRAMP und HIPAA. Kunden-Lockbox fügt Sie in den Lockbox-Genehmigungsprozess ein und bietet Ihnen die Möglichkeit, die Autorisierung des Microsoft-Zugriffs auf Ihre Exchange Online oder SharePoint Onlineinhalte für Dienstvorgänge zu steuern.
 
 In den seltenen Fällen, in denen ein Microsoft-Servicetechniker Zugriff auf Ihre Daten benötigt, gewähren Sie nur Zugriff auf Daten, die zur Behebung des Problems erforderlich sind, und für einen begrenzten Zeitraum. Wenn Sie eine Zugriffsanforderung ablehnen, haben Microsoft-Techniker keinen Zugriff auf Ihre Inhalte und können keine Dienstvorgänge ausführen. Wenn Sie die Anforderung genehmigen, haben die Microsoft-Techniker begrenzten Just-in-Time-Zugriff auf Ihre Inhalte über die überwachten und eingeschränkten Verwaltungsschnittstellen.
 
@@ -54,9 +54,9 @@ Aktionen, die vom Supporttechniker ausgeführt werden, werden zu Überwachungszw
 
 ## <a name="just-in-time-access"></a>Just-in-Time-Zugriff
 
-Microsoft verwendet das JIT-Zugriffsprinzip (Just-in-Time) für Microsoft 365, um Risiken bei der Manipulation von Anmeldeinformationen und laterale Angriffe zu mindern. JIT entfernt beständigen administrativen Zugriff auf Dienste und ersetzt Berechtigungen durch die Möglichkeit, bei Bedarf in diese Rollen zu erhöhen. Durch das Entfernen persistenter Zugriffsrechte von Administratoren wird sichergestellt, dass Anmeldeinformationen nur verfügbar sind, wenn sie benötigt werden, und das Risiko des Diebstahls von Anmeldeinformationen wird reduziert.
+Microsoft verwendet das Just-in-Time (JIT)-Zugriffsprinzip für Microsoft 365, um Risiken bei der Manipulation von Anmeldeinformationen und laterale Angriffe zu mindern. JIT entfernt beständigen administrativen Zugriff auf Dienste und ersetzt Berechtigungen durch die Möglichkeit, bei Bedarf in diese Rollen zu erhöhen. Durch das Entfernen persistenter Zugriffsrechte von Administratoren wird sichergestellt, dass Anmeldeinformationen nur verfügbar sind, wenn sie benötigt werden, und das Risiko des Diebstahls von Anmeldeinformationen wird reduziert.
 
-Das JIT-Zugriffsmodell erfordert, dass Techniker erhöhte Berechtigungen für einen begrenzten Zeitraum anfordern, um administrative Aufgaben auszuführen. Darüber hinaus verwenden Techniker temporäre Konten, die mit computergenerierten komplexen Kennwörtern erstellt wurden, und gewährten nur die Rollen, mit denen sie die erforderlichen Aufgaben ausführen können. Beispielsweise ist der von Lockbox gewährte Administratorzugriff zeitgebunden, und der gewährte Zeitzugriff hängt von der angeforderten Rolle ab. Ein Techniker gibt die Dauer des Zugriffs an, die in der Anforderung an das Lockbox-System benötigt wird. Das Lockbox-System lehnt Anforderungen ab, wenn die angeforderte Zeit die maximal zulässige Zeit für die Rechteerweiterung überschreitet. Nach Ablauf wird der Administratorzugriff entfernt, und das temporäre Konto läuft ab.
+Das JIT-Zugriffsmodell erfordert, dass Techniker erhöhte Berechtigungen für einen begrenzten Zeitraum anfordern, um administrative Aufgaben auszuführen. Darüber hinaus verwenden Techniker temporäre Konten, die mit computergenerierten komplexen Kennwörtern erstellt wurden, und gewährten nur die Rollen, mit denen sie die erforderlichen Aufgaben ausführen können. Beispielsweise ist der von Lockbox gewährte administrative Zugriff zeitgebunden, und der gewährte Zeitzugriff hängt von der angeforderten Rolle ab. Ein Techniker gibt die Dauer des Zugriffs an, die in der Anforderung an das Lockbox-System benötigt wird. Das Lockbox-System lehnt Anforderungen ab, wenn die angeforderte Zeit die maximal zulässige Zeit für die Rechteerweiterung überschreitet. Nach Ablauf wird der Administratorzugriff entfernt, und das temporäre Konto läuft ab.
 
 Wenn die Techniker autorisiert und für den Zugriff genehmigt wurden, erhalten sie ein einmaliges, vom Autorisierungssystem generiertes Administratives Kennwort. Jedes Mal, wenn eine Anforderung für erhöhten Zugriff genehmigt wird, werden neue Kennwörter generiert. Das Kennwort wird in einen kennwortsicheren Ordner kopiert, ist von den Anmeldeinformationen des Technikers für die Microsoft-Unternehmensumgebung getrennt und eignet sich nur für die genehmigte Sitzung mit erhöhten Zugriffen.
 
@@ -74,6 +74,6 @@ Nutzungseinschränkungen und Verbindungs- und Konfigurationsanforderungen für M
 
 Verbindungen mit TSGs erfordern auch eine MFA mit einer separaten physischen Smartcard und einem Konto, das von den Microsoft-Unternehmensanmeldeinformationen des Technikers getrennt ist. Techniker erhalten unterschiedliche Smartcards für verschiedene Plattformen und geheime Verwaltungsplattformen, um die sichere Speicherung von Anmeldeinformationen zu gewährleisten. TSGs verwenden Active Directory-Gruppenrichtlinien, um zu steuern, wer sich bei Remoteservern anmelden kann, wie viele Sitzungen zulässig sind und welche Timeout-Einstellungen im Leerlauf zulässig sind. Zusätzliche Richtlinien schränken den Zugriff auf zulässige Anwendungen und den Internetzugriff ein.
 
-Zusätzlich zum Remotezugriff mit speziell konfigurierten TSGs ermöglicht Exchange Online Benutzern mit der Rolle "Service Engineer Operations" den Zugriff auf bestimmte Administrative Funktionen auf Produktionsservern mithilfe von Remote PowerShell. Zu diesem Zweck muss der Benutzer für den schreibgeschützten Zugriff (Debuggen) auf die Microsoft 365 Produktionsumgebung autorisiert sein. Die Berechtigungseskalation wird auf die gleiche Weise aktiviert, wie sie für TSGs mithilfe des Lockbox-Prozesses aktiviert ist.
+Zusätzlich zum Remotezugriff mit speziell konfigurierten TSGs ermöglicht Exchange Online Benutzern mit der Rolle "Service Engineer Operations" den Zugriff auf bestimmte Administrative Funktionen auf Produktionsservern mithilfe von Remote PowerShell. Hierzu muss der Benutzer für den schreibgeschützten Zugriff (Debuggen) auf die Microsoft 365 Produktionsumgebung autorisiert sein. Die Berechtigungseskalation wird auf die gleiche Weise aktiviert, wie sie für TSGs mithilfe des Lockbox-Prozesses aktiviert ist.
 
-Für den Remotezugriff verfügt jedes Rechenzentrum über eine virtuelle IP mit Lastenausgleich, die als einzelner Zugriffspunkt dient. Die verfügbaren Remote-PowerShell-Cmdlets basieren auf der Berechtigungsstufe, die in dem Während der Authentifizierung abgerufenen Zugriffsanspruch angegeben ist. Diese Cmdlets bieten die einzige Verwaltungsfunktionalität, auf die Benutzer mit dieser Methode zugreifen können. Remote-PowerShell schränkt den Umfang der Befehle ein, die dem Techniker zur Verfügung stehen, und basiert auf der Zugriffsebene, die über den Lockbox-Prozess gewährt wird. In Exchange Online beispielsweise sind möglicherweise Get-Mailbox verfügbar, Set-Mailbox jedoch nicht.
+Für den Remotezugriff verfügt jedes Rechenzentrum über eine virtuelle IP mit Lastenausgleich, die als einzelner Zugriffspunkt dient. Die verfügbaren Remote-PowerShell-Cmdlets basieren auf der Berechtigungsstufe, die in dem Während der Authentifizierung abgerufenen Zugriffsanspruch angegeben ist. Diese Cmdlets bieten die einzige Verwaltungsfunktionalität, auf die Benutzer mit dieser Methode zugreifen können. Remote-PowerShell schränkt den Umfang der Befehle ein, die dem Techniker zur Verfügung stehen, und basiert auf der Zugriffsebene, die über den Lockbox-Prozess gewährt wird. In Exchange Online sind möglicherweise Get-Mailbox verfügbar, Set-Mailbox jedoch nicht.

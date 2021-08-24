@@ -8,7 +8,7 @@ ms.reviewer: sosstah
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 f1.keywords:
@@ -19,12 +19,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 5962a910a65744bae70277d10867c3046310cdf1ead4f99ef285e40c72dc8ce6
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 820c912dc55d5cc98cedc38676b5039591cf5baa
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54291853"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58481677"
 ---
 # <a name="microsoft-security-incident-management-post-incident-activity"></a>Microsoft-Sicherheitsvorfallverwaltung: Aktivitäten nach dem Vorfall
 
@@ -40,7 +40,7 @@ Das Postmortem wirkt sich direkt auf die Verbesserung des Microsoft-Onlinedienst
 
 ## <a name="documentation"></a>Dokumentation
 
-Alle wichtigen technischen Ergebnisse im Posturtemprozess werden in einem Bericht erfasst, in dem Investitionen in Dienste oder Korrekturen in Form von Fehlern oder Entwicklungsänderungsanforderungen vorgenommen werden. Diese Ergebnisse werden mit den entsprechenden Entwicklungsteams nachverfolgt. Bei Prozessfehlern und organisationsübergreifenden Problemen werden Probleme in der Datenbank des Sicherheitsreaktionsteams dokumentiert und mit den entsprechenden Gruppen verfolgt, um sie zu beheben.
+Alle wichtigen technischen Ergebnisse im postirtischen Prozess werden in einem Bericht erfasst, in dem Investitionen in Dienste oder Korrekturen in Form von Fehlern oder Entwicklungsänderungsanforderungen vorgenommen werden. Diese Ergebnisse werden mit den entsprechenden Entwicklungsteams nachverfolgt. Bei Prozessfehlern und organisationsübergreifenden Problemen werden Probleme in der Datenbank des Sicherheitsreaktionsteams dokumentiert und mit den entsprechenden Gruppen verfolgt, um sie zu beheben.
 
 ## <a name="process-improvement"></a>Prozessverbesserung
 

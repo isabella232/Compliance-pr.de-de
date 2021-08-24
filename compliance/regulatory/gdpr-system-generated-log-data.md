@@ -2,7 +2,7 @@
 title: Zusätzliche Schritte zum Exportieren der vom System generierten Protokolldaten
 description: Zusätzliche Schritte zum Exportieren der vom System generierten Protokolldaten
 keywords: Protokolldaten exportieren, Office 365 Microsoft 365 Education, Microsoft 365-Dokumentation, DSGVO
-localization_priority: Priority
+ms.localizationpriority: high
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -17,12 +17,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft GDPR
 hideEdit: true
-ms.openlocfilehash: d2157080d99a770fecbbb08aa7e3d10f2fc101a7ed100bf4bfb39c0ce72174ae
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: f634224f02726f0e0ee49c268bf4a77027481c2f
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287941"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482308"
 ---
 # <a name="additional-steps-to-export-system-generated-log-data"></a>Zusätzliche Schritte zum Exportieren der vom System generierten Protokolldaten
 

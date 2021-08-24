@@ -8,7 +8,7 @@ ms.reviewer: sosstah
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 ms.collection:
@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 02a0e3832d8511bd2f1e65742fc322cfea51701a2e03f89de4493bbc4164fa4c
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: f23dba6e215e9b4b8f890b05066bb693ed0e62e8
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287284"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482098"
 ---
 # <a name="data-retention-deletion-and-destruction-in-microsoft-365"></a>Aufbewahrung, Löschung und Vernichtung von Daten in Microsoft 365
 
@@ -39,7 +39,7 @@ Für jedes dieser Löschszenarien zeigt die folgende Tabelle den maximalen Daten
 
 | Datenkategorie | Datenklassifikation | Beschreibung | Beispiele | Aufbewahrungszeitraum |
 |-----------------|-----------------|-----------------|----------------------------------|-------------------------------|
-| Kundendaten | Kundeninhalte| Inhalte, die direkt von Administratoren und Benutzern bereitgestellt/erstellt werden <br><br> Enthält alle Text-, Sound-, Video-, Bilddateien und Software, die in Microsoft-Rechenzentren erstellt und gespeichert werden, wenn sie die Dienste in Microsoft 365 | Beispiele für die am häufigsten verwendeten Microsoft 365 Anwendungen, mit denen Benutzer Daten erstellen können, sind Word, Excel, PowerPoint, Outlook und OneNote <br><br> Kundeninhalte umfassen auch vom Kunden bereitgestellte geheime Schlüssel (Kennwörter, Zertifikate, Verschlüsselungsschlüssel, Speicherschlüssel). | **Aktives Löschszenario:** höchstens 30 Tage <br><br> **Passives Löschszenario:** höchstens 180 Tage |
+| Kundendaten | Kundeninhalte| Inhalte, die direkt von Administratoren und Benutzern bereitgestellt/erstellt werden <br><br> Enthält alle Text-, Ton-, Video-, Bilddateien und Software, die in Microsoft-Rechenzentren erstellt und gespeichert werden, wenn die Dienste in Microsoft 365 | Beispiele für die am häufigsten verwendeten Microsoft 365 Anwendungen, mit denen Benutzer Daten erstellen können, sind Word, Excel, PowerPoint, Outlook und OneNote <br><br> Kundeninhalte umfassen auch vom Kunden bereitgestellte geheime Schlüssel (Kennwörter, Zertifikate, Verschlüsselungsschlüssel, Speicherschlüssel). | **Aktives Löschszenario:** höchstens 30 Tage <br><br> **Passives Löschszenario:** höchstens 180 Tage |
 | Kundendaten | Informationen zur Identifizierung von Endbenutzern (END USER Identifiable Information, EUII) | Daten, die den Benutzer eines Microsoft-Diensts identifizieren oder verwenden können. EUII enthält keine Kundeninhalte | Benutzername oder Anzeigename (DOMAIN\UserName) <br><br> Benutzerprinzipalname (name@domain) <br><br>  Benutzerspezifische IP-Adressen | **Aktives Löschszenario:** höchstens 180 Tage (nur eine Mandantenadministratoraktion) <br><br> **Passives Löschszenario:** höchstens 180 Tage |
 | Persönliche Daten <br> (Daten, die nicht in Kundendaten enthalten sind) | Pseudonyme Bezeichner für Endbenutzer (EUPI) | Ein von Microsoft erstellter Bezeichner, der an den Benutzer eines Microsoft-Diensts gebunden ist. In Kombination mit anderen Informationen, z. B. einer Zuordnungstabelle, identifiziert EUPI den Endbenutzer. <br><br> EUPI enthält keine Informationen, die vom Kunden hochgeladen oder erstellt wurden | Benutzer-GUIDs, PUIDs oder SIDs <br><br> Sitzungs-IDs | **Aktives Löschszenario:** höchstens 30 Tage <br><br> **Passives Löschszenario:** höchstens 180 Tage |
 

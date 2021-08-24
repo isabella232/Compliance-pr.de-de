@@ -15,7 +15,7 @@ metadata:
   author: robmazz
   ms.author: robmazz
   ms.date: 11/30/2020
-  localization_priority: Normal
+  ms.localizationpriority: medium
 conceptualContent:
   title: 'Complianceangebote für Azure, Dynamics 365 und Microsoft 365'
   summary: 'Informationen für Azure, Dynamics 365, Microsoft 365 und Power Platform sowie andere Dienste zur Unterstützung bei nationalen, regionalen und branchenspezifischen Vorschriften für die Datenerfassung und -verwendung.'

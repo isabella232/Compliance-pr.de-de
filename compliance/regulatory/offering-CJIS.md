@@ -2,7 +2,7 @@
 title: Security Policy (CJIS)-Sicherheitsrichtlinie für straffällige Strafverfolgungsdienste (CJIS)
 description: Microsoft Government Cloud Services halten sich an die Sicherheitsrichtlinie für us-amerikanische Strafvollstäterinformationsdienste.
 keywords: Microsoft 365, Compliance, Angebote
-localization_priority: None
+ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: cdcf6bb91e7bd6b01a7a4372f33e2f52089d1f0c4fed3c327b85a3a13eafeac2
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 313905ec68c7d730cd2372ebd4679943ff124993
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292532"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482730"
 ---
 # <a name="criminal-justice-information-services-cjis-security-policy"></a>Security Policy (CJIS)-Sicherheitsrichtlinie für straffällige Strafverfolgungsdienste (CJIS)
 
@@ -39,11 +39,11 @@ Darüber hinaus müssen alle privaten Auftragnehmer, die CJI verarbeiten, den CJ
 
 Microsoft signiert den CJIS-Sicherheits-Nachtrag in Staaten mit CJIS-Informationsvereinbarungen. Diese informieren die für die Einhaltung der CJIS-Sicherheitsrichtlinie zuständigen Staatlichen Strafverfolgungsbehörden, wie die Cloudsicherheitskontrollen von Microsoft dazu beitragen, den gesamten Lebenszyklus von Daten zu schützen und eine geeignete Hintergrundprüfung des Betriebspersonals mit Zugriff auf CJI sicherzustellen. Microsoft arbeitet weiterhin mit Staatlichen Behörden, um CJIS-Informationsverträge abzuschließen.
 
-Microsoft hat die Betriebsrichtlinien und -verfahren von Microsoft Azure Government, Microsoft Office 365 U.S. Government und Microsoft Dynamics 365 U.S. Government bewertet und wird nachweisen, dass sie in den geltenden Servicevereinbarungen in der Lage sind, die FBI-Anforderungen für die Nutzung von In-Scope-Diensten zu erfüllen.
+Microsoft hat die Betriebsrichtlinien und -verfahren von Microsoft Azure Government, Microsoft Office 365 U.S. Government und Microsoft Dynamics 365 U.S. Government bewertet und wird bestätigen, dass sie in den geltenden Servicevereinbarungen in der Lage sind, die FBI-Anforderungen für die Nutzung von in-Scope-Diensten zu erfüllen.
 
 Erfahren Sie mehr über die Vorteile der CJIS-Sicherheitsrichtlinie in der Microsoft Cloud: [Erfahren Sie, wie Genetec strafrechtliche Untersuchungen gelöscht hat.](https://customers.microsoft.com/story/genetec)
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Eingeschlossene Cloudplattformen und -dienste von Microsoft
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
 - Azure Government
 - Dynamics 365 U.S. Government
@@ -78,7 +78,7 @@ Das FBI bietet keine Zertifizierung der Microsoft-Compliance mit CJIS-Anforderun
 
 Zu den 45 Bundesstaaten und dem Schulbezirk mit Verwaltungsvereinbarungen, die auf der Karte in Grün hervorgehoben sind, gehören:
 
-Arkansas, Arkansas, ( 2013) Kalifornien, Seattle, Seattle, Chicago, California, Georgia, Idaho, Idaho, Fox, Iowa, Islands, Islands, Maine, Massachusetts, Mary, Minnesota, Islands, Islands, Islands, Nebraska, Cook, New Jersey, New Jersey, New Mexico, New York, North Canada, North California, Mary, California, Californiae Island, South Fox, The California, Texa, Texan, Verdis, Kate, Washington, West(
+Arkansas, Arkansas, ( 2013) Kalifornien, Seattle, Chicago, Chicago, Georgia, Texanisch, Idaho, Idaho, Fox, Iowa, Islands, Islands, Maine, Massachusetts, Chicago, Islands, Islands, Islands, Nebraska, Cook, New Jersey, New Jersey, New Mexico, New York, North Canada, North California, Mary, Fox, Seattle, Theurne Island, South Fox, Thea, Texas, Tex, Verdis, Kate, Washington, West( ( West) und Der Schulbezirk von Seattle.
 
 Die Verpflichtung von Microsoft, die geltenden regulatorischen CJIS-Kontrollen zu erfüllen, ermöglicht es Organisationen von Strafrechtlichen Hilfsorganisationen, cloudbasierte Lösungen zu implementieren und mit der CJIS-Sicherheitsrichtlinie V5.9 konform zu sein.
 

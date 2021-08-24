@@ -8,7 +8,7 @@ ms.reviewer: sosstah
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid:
 - MET150
 f1.keywords:
@@ -19,12 +19,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 38bb8c8492c3bbff6ed96380ac3a4d284f220a0ec5b2fb7b7c00814033a5c02c
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: a35e6757d64dd0c2bffc1b1cbc62e23f524b8ac9
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292187"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58481737"
 ---
 # <a name="microsoft-security-incident-management"></a>Microsoft-Sicherheitsvorfallverwaltung
 
@@ -47,7 +47,7 @@ Der Ansatz von Microsoft zur Verwaltung eines Sicherheitsvorfalls entspricht dem
 | Cyber Defense Operations Center | Das Cyber Defense Operations Center ist der physische Standort, der Sicherheitsteams und Experten aus dem gesamten Unternehmen zusammenführt, um Bedrohungen in Echtzeit zu schützen, zu erkennen und darauf zu reagieren. |
 | Unternehmens-, Externe und Rechtsbeziehungen | Bietet rechtliche und behördliche Hinweise für einen verdächtigen Sicherheitsvorfall. |
 | Microsoft Datacenter Security Team | Team, das sich auf die verschiedenen Dienste konzentriert und sich auf allgemeine Sicherheits-Engineering-Investitionen konzentriert, um Risiken und Bedrohungen der Dienstarchitektur zu schützen, zu erkennen und darauf zu reagieren. |
-| Microsoft Security Response Teams | Unabhängige Azure, Dynamics 365 und Microsoft 365 Sicherheitsteams, die mit Serviceteams zusammenarbeiten, um den geeigneten Prozess zur Verwaltung von Sicherheitsvorfällen zu erstellen und die Reaktion auf Sicherheitsvorfälle zu fördern. |
+| Microsoft Security Response Teams | Unabhängige Azure, Dynamics 365 und Microsoft 365 Sicherheitsteams, die mit Serviceteams zusammenarbeiten, um den entsprechenden Prozess zur Verwaltung von Sicherheitsvorfällen zu erstellen und die Reaktion auf Sicherheitsvorfälle zu fördern. |
 | Microsoft Governance-, Risiko- und Compliance-Teams (GRC) | Bereitstellen von Anleitungen zu gesetzlichen Anforderungen, Compliance und Datenschutz. |
 | Serviceteams | Entwicklungsteams für Azure, Dynamics 365 Microsoft 365, die für sicherheitsbezogene Richtlinien und Entscheidungen für jeden Dienst verantwortlich sind. |
 | Azure-Betriebsmanager | Überwacht die Untersuchung und Lösung von Azure-bezogenen Sicherheits- und Datenschutzvorfällen. |
@@ -61,7 +61,7 @@ Sicherheitsteams und Serviceteams von Microsoft Online Services arbeiten zusamme
 - **Vorbereitung:** Bezieht sich auf die organisatorische Vorbereitung, die erforderlich ist, um reagieren zu können, einschließlich Tools, Prozessen, Kompetenzen und Bereitschaft.
 - **Erkennung & Analyse:** Bezieht sich auf die Aktivität, um einen Sicherheitsvorfall in einer Produktionsumgebung zu erkennen und alle Ereignisse zu analysieren, um die Echtheit des Sicherheitsvorfalls zu bestätigen.
 - **Eindämmung, Beseitigung, Wiederherstellung:** Bezieht sich auf die erforderlichen und geeigneten Maßnahmen, um den Sicherheitsvorfall basierend auf der in der vorherigen Phase durchgeführten Analyse einzudämmen. In dieser Phase kann auch eine weitere Analyse erforderlich sein, um die vollständige Wiederherstellung nach dem Sicherheitsvorfall zu gewährleisten.
-- **Aktivität nach dem Vorfall:** Bezieht sich auf die nachträgliche Analyse, die nach der Wiederherstellung eines Sicherheitsvorfalls durchgeführt wurde. Die während des Prozesses durchgeführten operativen Aktionen werden überprüft, um festzustellen, ob Änderungen in den Vorbereitungs- oder Erkennungs- und Analysephasen vorgenommen werden müssen.
+- **Aktivität nach dem Vorfall:** Bezieht sich auf die nachträgliche Analyse, die nach der Wiederherstellung eines Sicherheitsvorfalls durchgeführt wurde. Die während des Prozesses durchgeführten betrieblichen Aktionen werden überprüft, um festzustellen, ob Änderungen in den Vorbereitungs- oder Erkennungs- und Analysephasen vorgenommen werden müssen.
 
 ![Phasen der Verwaltung von Sicherheitsvorfällen](../media/assurance-sim-phases.png)
 
@@ -73,7 +73,7 @@ Diese Tabelle enthält die betriebsbereiten Grenzen zwischen den verschiedenen M
 
 |**Aktivität**|**Microsoft Security Team Operations**|**Microsoft Service Team Operations**|
 |:-----------|:-----------------------------------------|:----------------------------------------|
-| Erkennung und Analyse | – Erkennungsanforderungen <br> – Sicherheitsüberwachung und -analyse <br> - Indikator für Kompromittierungen (Indicator of compromise, IOC) – Sweeps <br> – Suche nach Sicherheitsverletzungen <br> - 24 x 7 Lead für Sicherheit bei Anrufen und Reaktion auf Vorfälle | – Erkennungsanforderungen <br> – Überwachen der Infrastrukturbereitstellung <br> – Dienstanalyse und Einblicke <br> – Ereignis- und Warnungstriage <br> - 24 x 7 Service Engineering on-Call  |
+| Erkennung und Analyse | – Erkennungsanforderungen <br> – Sicherheitsüberwachung und -analyse <br> – Indikator für Kompromittierungen (Indicator of compromise, IOC) <br> – Suche nach Sicherheitsverletzungen <br> - 24 x 7 Lead für Sicherheit bei Anrufen und Reaktion auf Vorfälle | – Erkennungsanforderungen <br> – Überwachen der Infrastrukturbereitstellung <br> – Dienstanalyse und Einblicke <br> – Ereignis- und Warnungstriage <br> - 24 x 7 Service Engineering on-Call  |
 | Eindämmung, Beseitigung, Wiederherstellung | – Lead für die Reaktion auf Vorfälle <br> – Forensische Untersuchung <br> – Sicherheitskenntnisse und Beratung <br> - Anleitung zur Wiederherstellung | – Besitzer von Sicherheitsvorfällen <br> – Einblick und Expertise des Diensts <br> – Ausführung von Eindämmung, Beseitigung und Wiederherstellung |
 | Aktivitäten nach dem Vorfall | – Lead für die Analyse nach dem Vorfall <br> – Datensammlung und Archivierung <br> – Erkenntnisse und Fehleranforderungen <br> – Vorfallberichterstattung | – Dienstseitige Vorfallanalyse <br> – Priorisieren von Nachverfolgungsaktivitäten <br> – Implementierung von Sicherheitsinvestitionen <br> – Bereitschaft zur Dienstsicherheit |
 

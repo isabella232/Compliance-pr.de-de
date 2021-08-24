@@ -10,19 +10,19 @@ f1.keywords:
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 186de3ed38db1714b84fc59d72b6be0826d66b04b6e6775fd7672666e4534ad6
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: 48b438ba764c0210acf028dc3d7acc7c66c783f2
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287204"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482047"
 ---
 # <a name="train-for-business-continuity-in-your-organization"></a>Trainieren der Geschäftskontinuität in Ihrer Organisation
 
@@ -38,7 +38,7 @@ Achten Sie darauf, diese Schlüsselthemen in Ihr Dienstresilienztraining aufzune
 
 ## <a name="plan-the-exercise-and-exercise-the-plan"></a>Planen Sie die Übung und üben Sie den Plan aus
 
-Sie sollten Ihre Kontinuitätspläne regelmäßig üben und auf der Grundlage der Erkenntnisse aus der Praxis aktualisieren. Wenn Sie sie nicht testen, werden Ihre Kontinuitätspläne schnell veraltet, und die meisten Tabletop-Übungen sind keine ausreichende Vorbereitung für die Behandlung der Probleme, die bei realen Tests auftreten. Eine gängige Verfahrensweise ist es, jeden Geschäftskontinuitätsplan (BCP) innerhalb von 12 Monaten (mindestens) nach der letzten Validierung auszuüben. Microsoft empfiehlt, Kontinuitätsübungen häufiger in Ihre Routineabläufe zu integrieren, was dazu führen kann, dass Systeme offline gehen oder primäre Kommunikationsmethoden vorübergehend deaktiviert werden.  
+Sie sollten Ihre Kontinuitätspläne regelmäßig üben und auf der Grundlage der Erkenntnisse aus der Praxis aktualisieren. Wenn Sie sie nicht testen, werden Ihre Kontinuitätspläne schnell veraltet, und die meisten Tabletop-Übungen sind nicht ausreichend vorbereitet, um die Probleme zu beheben, die bei realen Tests auftreten. Eine gängige Verfahrensweise ist es, jeden Geschäftskontinuitätsplan (BCP) innerhalb von 12 Monaten (mindestens) nach der letzten Validierung auszuüben. Microsoft empfiehlt, Kontinuitätsübungen häufiger in Ihre Routineabläufe zu integrieren, was dazu führen kann, dass Systeme offline gehen oder primäre Kommunikationsmethoden vorübergehend deaktiviert werden.  
 
 Wenn Sie Testszenarien in Betracht ziehen, müssen Sie die potenziellen Auswirkungen der Einschleierung von Fehlern in Ihre Produktionsumgebung auf Ihr Unternehmen im Vergleich zu den Vorteilen von hochgradig ausgefeilten Geschäftskontinuitätsprozessen und -fähigkeiten abwägen.
 Achten Sie bei jeder Übung besonders auf alle Annahmen, die sich als falsch erwiesen haben, und identifizieren Sie etwaige Lücken in den von Ihnen eingerichteten Prozessen. Eine fehlgeschlagene Notfallwiederherstellungstestübung ist nicht unbedingt eine schlechte Sache, da sie es Ihnen ermöglicht, Probleme im Plan zu identifizieren und zu beheben, bevor ein echtes Notfall auftritt. Stellen Sie sicher, dass Sie diese Punkte in Ihre Übungsplanung einschließen.

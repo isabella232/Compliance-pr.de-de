@@ -2,7 +2,7 @@
 title: Cloud Security Mark Gold (CS Gold Mark)
 description: Microsoft erhielt die CS Gold Mark-Zertifizierung in Japan für Azure (IaaS und PaaS) und Office 365 (SaaS).
 keywords: Microsoft 365, Compliance, Angebote
-localization_priority: Priority
+ms.localizationpriority: high
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: bd3f8abd471e8c1587c24885a42c9443e9938a56
-ms.sourcegitcommit: 01938022a292c07e98041dc6ae1312a1b8c617db
+ms.openlocfilehash: 3972a5d470db8f0a75e7717e671be5a268308d5b
+ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58260551"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58482488"
 ---
 # <a name="cloud-security-mark-gold-cs-gold-mark"></a>Cloud Security Mark Gold (CS Gold Mark)
 
