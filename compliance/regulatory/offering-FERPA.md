@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6957f3e1c93dd73821456bc45ef1d8e2e12681a0
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.openlocfilehash: 0ec79c5be17018f8b01eb3d938b65392b021ce77
+ms.sourcegitcommit: 16cec8f7ca799a415bfbae937b177a628a0f2987
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482238"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58505948"
 ---
 # <a name="family-educational-rights-and-privacy-act-ferpa"></a>FERPA (Family Educational Rights and Privacy Act)
 
@@ -35,27 +35,24 @@ Sicherheit ist von zentraler Bedeutung für die Einhaltung von FERPA, was den Sc
 
 ## <a name="microsoft-and-ferpa"></a>Microsoft und FERPA
 
-FERPA erfordert oder erkennt keine Audits oder andere Zertifizierungen an. Daher muss jede akademische Einrichtung, die FERPA unterliegt, selbst bewerten, ob und wie sich die Nutzung eines Clouddiensts auf die Fähigkeit zur Einhaltung von FERPA-Anforderungen auswirkt. Microsoft hat jedoch die folgenden vertraglichen Verpflichtungen gemacht, die seine Einhaltung bestätigen:
-
-- In den [Onlinedienstbedingungen](https://aka.ms/Online-Services-Terms)stimmt Microsoft zu, als "Schulmitarbeiter" mit "legitimen Bildungs interessen" in Kundendaten gemäß FERPA festgelegt zu werden. (Kundendaten umfassen alle Schülerdatensätze, die über die Nutzung von Microsoft-Clouddiensten durch eine Schule bereitgestellt werden.) Bei der Verarbeitung von Datensätzen für Schüler/Studenten stimmt Microsoft zu, die Einschränkungen und Anforderungen von 34 CFR 99.33(a) genau wie Schulmitarbeiter einzuhalten.
-- Darüber hinaus verpflichtet sich Microsoft, Kundendaten nur für die Bereitstellung von Clouddiensten und kompatiblen Zwecken (z. B. verbesserung der Schadsoftwareerkennung) zu verwenden, und miniert keine Kundendaten für Werbung.
-- Microsoft verpflichtet sich außerdem vertraglich, Kundendaten nicht offenzulegen, es sei denn, die Bildungseinrichtung leitet dies, wie im Vertrag beschrieben oder gesetzlich vorgeschrieben. Schulen, die Microsoft Schulungsdatensätze durch die Verwendung eines Microsoft-Clouddiensts bereitstellen, können daher sicher sein, dass diese Aufzeichnungen strengen vertraglichen Einschränkungen hinsichtlich ihrer Nutzung und Offenlegung unterliegen.
-
-Aufgrund dieser vertraglichen Verpflichtungen können Kunden, die FERPA unterliegen – sowohl Bildungseinrichtungen als auch Dritte, denen sie Zugriff auf vertrauliche Schülerdaten gewähren – die im Umfang enthaltenen Microsoft Business Cloud Services sicher verwenden, um diese Daten zu verarbeiten, zu speichern und zu übertragen.
+FERPA erfordert oder erkennt keine Audits oder andere Zertifizierungen an. Daher muss jede akademische Einrichtung, die FERPA unterliegt, selbst bewerten, ob und wie sich die Nutzung eines Clouddiensts auf die Fähigkeit zur Einhaltung von FERPA-Anforderungen auswirkt. In den Online services Terms [Data Protection Addendum](https://aka.ms/DPA) (DPA) stimmt Microsoft zu, als "Schulmitarbeiter" mit "legitimen Bildungs interessen" in Kundendaten gemäß FERPA festgelegt zu werden. Kundendaten umfassen alle Schülerdatensätze, die über die Verwendung von Azure durch eine Bildungseinrichtung bereitgestellt werden. Bei der Verarbeitung von Datensätzen für Schüler/Studenten stimmt Microsoft zu, die Einschränkungen und Anforderungen von 34 CFR 99.33(a) genau wie Schulmitarbeiter einzuhalten.  Microsoft hat eine Anleitungsdokumentation veröffentlicht, um Azure-Kunden bei der Erfüllung ihrer FERPA-Complianceanforderungen zu unterstützen.
 
 ## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
-Zu den Diensten, für die Microsoft zustimmt, als "Schulfunktionär" mit "legitimen Bildungs interessen" in Kundendaten bezeichnet zu werden, gehören:
+Zu den Diensten, für die Microsoft zustimmt, als "Schulfunktionär" mit "berechtigten Bildungs interessen" in Kundendaten bezeichnet zu werden, gehören:
 
-- Azure
+- Azure und Azure Government
 - Azure DevOps Services
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
 - Office 365, Office 365 U.S. Government, Office 365 U.S. Government – High und Office 365 U.S. Government Defense
 
-## <a name="azure-dynamics-365-and-ferpa"></a>Azure, Dynamics 365 und FERPA
+## <a name="azure-guidance-documents"></a>Azure-Leitfadendokumente
 
-Weitere Informationen zu Azure, Dynamics 365 und anderen Onlinediensten finden Sie im [Azure FERPA-Angebot.](/azure/compliance/offerings/offering-ferpa)
+Sie können die folgenden Dokumente herunterladen, um Unterstützung bei der Erfüllung der FERPA-Complianceanforderungen zu erhalten:
+
+- [FERPA-Implementierungshandbuch für Azure](https://azure.microsoft.com/resources/microsoft-azure-ferpa-implementation-guide/)
+- [Azure FERPA Compliance Framework-Zuordnung](https://aka.ms/AzureFERPAMapping)
 
 ## <a name="office-365-and-ferpa"></a>Office 365 und FERPA
 
@@ -84,10 +81,9 @@ FERPA erfordert oder erkennt keine Audits oder Zertifizierungen.
 
 Dieses US-Bundesgesetz schreibt den Schutz der Privatsphäre der Bildungsdatensätze von Schülern/Studenten vor. Außerdem erhalten Eltern und berechtigte Schüler/Studenten Zugriff auf diese Datensätze und die Möglichkeit, diese zu korrigieren, sowie bestimmte Rechte im Zusammenhang mit der Veröffentlichung von Datensätzen an Dritte.
 
-**Wo finde ich weitere Informationen zu FERPA?**
+**Welche Compliance-Auswirkungen haben COPPA und CIPA auf Azure?**
 
-- [Federal Register: FERPA Final Rule](https://aka.ms/ferpa-reg) (Dezember 2011)
-- [Ferpa allgemeine Anleitung für Eltern](https://www2.ed.gov/policy/gen/guid/fpco/ferpa/parents.html)
+COPPA und CIPA sind zusätzliche Gesetze zum Schutz der Privatsphäre von Kinder; Sie gelten jedoch nicht direkt für Azure. Das Children's Online Privacy Protection Act (COPPA) ist ein US-Amerikanisches Bundesgesetz zum Schutz der Privatsphäre von Kinder unter 13 Jahren. Es wird von der Federal Trade Commission (FTC) verwaltet. COPPA gilt für Websites und Onlinedienste, die an Kinder gerichtet sind, und legt fest, dass für diese Websites und Dienste die Zustimmung der Eltern für die Sammlung und Verwendung von persönlichen Informationen erforderlich ist, die zu Kinder gehören. Das Children's Internet Protection Act (CIPA) wurde eingeführt, um Bedenken hinsichtlich des Zugriffs von Kinder auf schädliche Inhalte über das Internet zu beheben. Die Federal Communications Commission (FCC) hat Regeln zur Implementierung von CIPA und definierte Anforderungen für Schulen und Bibliotheken herausgegeben, die cipa unterliegen. Kunden, die sich im Zusammenhang mit der Azure-Einführung über COPPA und CIPA informieren, sollten den Abschnitt mit dem Titel "Bildungseinrichtungen" in den Onlinedienstbedingungen [(DPA)](https://aka.ms/DPA) lesen, in dem erläutert wird, dass Kunden für die Einholung der Zustimmung der Eltern für die Nutzung von Microsoft-Onlinediensten durch Endbenutzer verantwortlich sind.
 
 ### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
 
@@ -95,8 +91,11 @@ Dieses US-Bundesgesetz schreibt den Schutz der Privatsphäre der Bildungsdatens�
 
 ### <a name="resources"></a>Ressourcen
 
+- [Azure Compliance-Dokumentation](/azure/compliance/)
+- [Azure ermöglicht eine Welt der Compliance](https://azure.microsoft.com/resources/azure-enables-a-world-of-compliance/)
 - [Family Educational Rights and Privacy Act](https://www.ed.gov/policy/gen/guid/fpco/ferpa/index.html)
 - [Electronic Code of Federal Regulations: FERPA](https://aka.ms/FERPA-GPO)
-- [Federal Register: FERPA Final Rule](https://aka.ms/ferpa-reg)
-- [Nutzungsbedingungen für Microsoft-Onlinedienste](https://aka.ms/Online-Services-Terms)
-- [Compliance im Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- Microsoft Online Services – [Nachtrag zum Datenschutz](https://aka.ms/DPA)
+- [FERPA (Family Educational Rights and Privacy Act)](https://www.ecfr.gov/cgi-bin/text-idx?tpl=/ecfrbrowse/Title34/34cfr99_main_02.tpl)
+- [Federal Register: FERPA Final Rule](https://www.govinfo.gov/content/pkg/FR-2011-12-02/pdf/2011-30683.pdf)
+- [FERPA-Startseite des US-Bildungsministeriums](https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html)

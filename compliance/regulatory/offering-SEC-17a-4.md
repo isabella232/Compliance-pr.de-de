@@ -1,6 +1,6 @@
 ---
 title: Securities and Exchange Commission (SEC) Rule 17a-4(f) United States
-description: Ein unabhängiges Bewertungsunternehmen hat überprüft, dass Azure und Office 365 Finanzunternehmen dabei helfen können, die Sec-Regel 17a-4(f) für die Aufbewahrung von Datensätzen und unveränderliche Speicheranforderungen zu erfüllen.
+description: Ein unabhängiges Bewertungsunternehmen hat überprüft, dass Azure und Office 365 Finanzunternehmen dabei helfen können, DIE SEC-Regel 17a-4(f) für die Aufbewahrung von Datensätzen und unveränderliche Speicheranforderungen zu erfüllen.
 keywords: Microsoft 365, Compliance, Angebote
 ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
@@ -16,44 +16,59 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e4fd87384f7be620ab755f29031b52e8877582ce
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.openlocfilehash: 57e5a9140c7a4aaff49bceb798bb6815e675f328
+ms.sourcegitcommit: 16cec8f7ca799a415bfbae937b177a628a0f2987
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482458"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58505928"
 ---
 # <a name="securities-and-exchange-commission-sec-rule-17a-4f-united-states"></a>Securities and Exchange Commission (SEC) Rule 17a-4(f) United States
 
 ## <a name="about-sec-rule-17a-4f"></a>Informationen zu SEC-Regel 17a-4(f)
 
-Die [US Securities and Exchange Commission (SEC)](https://www.sec.gov/) ist eine unabhängige Agentur der US-Regierung und der primären Aufsicht und Regulierungsbehörde der US-Amerikanischen Wertpapiermärkte. Sie verfügt über die Durchsetzungsbehörde über die Bundesgesetze, schlägt neue Wertpapierregeln vor und überwacht die Marktbestimmungen der Wertpapierbranche.
+Die [US Securities and Exchange Commission (SEC)](https://www.sec.gov/) ist eine unabhängige Agentur der US-Regierung und der primären Aufseher und Regulierungsbehörde der US-Amerikanischen Wertpapiermärkte. Sie verfügt über die Durchsetzungsbehörde über die Bundesgesetze, schlägt neue Wertpapierregeln vor und überwacht die Marktbestimmungen der Wertpapierbranche.
 
 Die SEC definiert strenge und explizite Anforderungen für regulierte Entitäten, die entscheiden, Bücher und Aufzeichnungen auf elektronischen Speichermedien aufzubewahren. Es hat [17 CFR 240.17a-3](https://www.govinfo.gov/app/details/CFR-2012-title17-vol3/CFR-2012-title17-vol3-sec240-17a-3) und [17 CFR 240.17a-4](https://www.ecfr.gov/cgi-bin/text-idx?mc=true&node=pt17.4.240&rgn=div5#se17.4.240_117a_64) eingerichtet, um die Datensatzführung, einschließlich Aufbewahrungszeiträumen, für Wertpapierbroker-Händler zu regeln. Später [änderte](https://www.sec.gov/rules/interp/34-47806.htm) die SEC 17 CFR 240.17a-4 Absatz (f) und gibt zwei Interpretationsversionen aus, die ausdrücklich zulassen, dass Bücher und Datensätze auf elektronischen Speichermedien aufbewahrt werden, solange bestimmte Bedingungen erfüllt sind.
 
-Ein elektronisches Speichersystem erfüllt diese Bedingungen, wenn es die Änderung oder Löschung von Datensätzen für den erforderlichen Aufbewahrungszeitraum verhindert. Aufbewahrungszeiträume variieren je nach Datensatztypen zwischen drei und sechs Jahren, wobei die sofortige Barrierefreiheit für die ersten beiden Jahre vorgeschrieben ist. Darüber hinaus erfordert eine der interpretativen Versionen, dass das Speichersystem Datensätze über den von der SEC festgelegten Aufbewahrungszeitraum hinaus aufbewahren kann, um Vorladungen, gesetzliche Aufbewahrungspflicht oder andere solche Anforderungen einzuhalten.
+Ein elektronisches Speichersystem erfüllt diese Bedingungen, wenn es die Änderung oder Löschung von Datensätzen für den erforderlichen Aufbewahrungszeitraum verhindert. Aufbewahrungszeiträume variieren je nach Datensatztypen zwischen drei und sechs Jahren, wobei die sofortige Barrierefreiheit für die ersten beiden Jahre vorgeschrieben ist. Darüber hinaus erfordert eine der interpretativen Versionen, dass das Speichersystem Datensätze über den von der SEC festgelegten Aufbewahrungszeitraum hinaus aufbewahren kann, um Vorladungen, gesetzliche Aufbewahrungspflicht oder andere solche Anforderungen zu erfüllen.
 
 ## <a name="microsoft-and-sec-rule-17a-4f"></a>Microsoft- und SEC-Regel 17a-4(f)
 
-Finanzdienstleistungskunden, die eine der am stärksten regulierten Branchen der Welt darstellen, unterliegen komplexen Bestimmungen wie der Aufbewahrung von Finanztransaktionen und der damit verbundenen Kommunikation in einem nicht löschbaren und nicht veränderbaren Zustand. Zu den wichtigsten Bestimmungen zählt Regel 17a-4(f) der US Security and Exchange Commission (SEC), die strenge Anforderungen für regulierte Entitäten festlegt, die entscheiden, Bücher und Aufzeichnungen auf elektronischen Speichermedien aufzubewahren. Gespeicherte Datensätze müssen manipulationssicher sein, ohne dass sie bis nach dem festgelegten Aufbewahrungszeitraum geändert oder gelöscht werden können.
+Finanzdienstleistungskunden, die eine der am stärksten regulierten Branchen der Welt darstellen, unterliegen komplexen Bestimmungen wie der Aufbewahrung von Finanztransaktionen und der damit verbundenen Kommunikation in einem nicht löschbaren und nicht veränderbaren Zustand. Eine der wichtigsten Bestimmungen ist Regel 17a-4(f) der US Security and Exchange Commission (SEC), die strenge Anforderungen für regulierte Entitäten festlegt, die entscheiden, Bücher und Aufzeichnungen auf elektronischen Speichermedien aufzubewahren. Gespeicherte Datensätze müssen manipulationssicher sein, ohne dass sie bis nach dem festgelegten Aufbewahrungszeitraum geändert oder gelöscht werden können.
 
 Microsoft Azure Unveränderliche Blob-Storage mit Richtliniensperre und Microsoft Office 365 mit Erhaltungssperre können Finanzinstituten helfen, die unveränderlichen Speicheranforderungen der SEC-Regel 17a-4(f) zu erfüllen.
-
-Um azure und Office 365 Einhaltung der SEC-Regel 17a-4(f) zu bewerten, bewahre Microsoft ein unabhängiges Bewertungsunternehmen, das sich auf datensatzverwaltung und Informationsgovernance spezialisiert hat, Cohasset Associates. Im resultierenden Bericht für:
-
-- **Azure**: [SEC 17a-4(f) Compliance Assessment: Microsoft Azure Storage](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=19b08fd4-d276-43e8-9461-715981d0ea20&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_GRC_Assessment_Reports), Cohasset hat überprüft, dass [Azure Immutable Blob Storage](/azure/storage/blobs/storage-blob-immutable-storage) mit der Option "Richtliniensperre" verwendet wird, wenn es verwendet wird, um zeitbasierte Blobs in einem nicht löschbaren und nicht umschreibbaren (WORM)-Format beizubehalten, die unveränderlichen Speicheranforderungen der SEC-Regel erfüllt. Jedes Blob (Datensatz) ist vor Änderungen, Überschreibungen oder Löschungen geschützt, bis der erforderliche Aufbewahrungszeitraum abgelaufen ist und alle zugehörigen rechtlichen Haltebereiche freigegeben wurden. Softwareanbieter und Partner mit vertraulichen Workloads können sich jetzt auf Azure Immutable Blob Storage als Eine-Top-Shop-Cloudlösung für die Aufbewahrung von Datensätzen und unveränderlichen Speicher verlassen. Finanzinstitute können jetzt ihre eigenen Anwendungen erstellen, die diese Features nutzen und gleichzeitig konform bleiben.
-- **Microsoft 365:** Cohasset hat für [sec 17a-4(f)-Anforderungen](/microsoft-365/compliance/retention-regulatory-requirements#sec-17a-4f-finra-4511c-and-cftc-131c-d) überprüft, dass Microsoft 365 Archivierungsfunktionen umfasst, mit denen regulierte Kunden, einschließlich Broker-Händler, Daten auf eine Weise speichern können, die ihnen hilft, die SEC-Anforderungen für die Datensatzaufbewahrung zu erfüllen. Aufbewahrungsfunktionen in Microsoft 365 dabei helfen, eine vielzahl von Daten zu erhalten, einschließlich E-Mail, Voicemail, freigegebene Dokumente, Chatnachrichten und Daten von Drittanbietern. Insbesondere die Archivierung in Microsoft 365 ermöglicht Es Kunden, globale oder granulare Aufbewahrungsrichtlinien für Messaging festzulegen, um Daten für einen definierten Zeitraum und darüber hinaus in einem nicht umschreibbaren, nicht löschbaren Format zu speichern.
 
 ## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
 - [Azure](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
 - [Office 365](https://aka.ms/Office365ComplianceOfferings)
 
+## <a name="independent-assessments"></a>Unabhängige Bewertungen
+
+Um azure und Office 365 Einhaltung der SEC-Regel 17a-4(f) zu bewerten, hat Microsoft ein unabhängiges Bewertungsunternehmen beibehalten, das sich auf datensatzverwaltung und Informationsgovernance spezialisiert hat, Cohasset Associates.
+
+### <a name="azure"></a>Azure
+
+[Unveränderlicher Speicher für Azure Blob Storage](/azure/storage/blobs/storage-blob-immutable-storage) ermöglicht Es Benutzern, geschäftskritische Datensätze in einem Schreibvorgang zu speichern, sobald viele (WORM) gelesen wurden. Dieser Zustand macht die Daten für ein vom Benutzer angegebenes Intervall nicht löschbar und nicht modifizierbar. Für die Dauer des Aufbewahrungsintervalls können Blobs erstellt und gelesen, aber nicht geändert oder gelöscht werden. Diese Features des unveränderlichen Azure-Speichers können Kunden dabei helfen, ihre Anforderungen an die Aufbewahrung von Datensätzen zu erfüllen.
+
+Microsoft bewahre ein unabhängiges Drittanbieterbewertungsunternehmen, das sich auf datensatzverwaltung und Informationsgovernance spezialisiert hat, um unveränderlichen Speicher für azure Blob Storage compliance with SEC Rule 17a-4(f) requirements zu bewerten. Der resultierende Bericht *["Cohasset Assessment: Microsoft Azure WORM Storage"](https://azure.microsoft.com/resources/azure-immutable-storage-assessment-for-sec-17a-4f-by-cohasset/)* ist für Kunden verfügbar.
+
+Der Prüfer ist der Meinung, dass Azure Storage mit dem *unveränderlichen Speicher für das Azure Blobs-Feature* und der *gesperrten zeitbasierten Richtlinienoption* zeitbasierte Blobs (Datensätze) in einem nicht löschbaren und nicht neu beschreibbaren Format beibehalten. und erfüllt die relevanten Speicheranforderungen der SEC-Regel 17a-4(f), [der FINRA-Regel 4511(c)](/azure/compliance/offering-finra-4511-us.md)und der prinzipienbasierten Anforderungen der [CFTC-Regel 1.31(c)-(d)](offering-cftc-1-31-us.md).
+
+Auf Anforderung stellt Microsoft auch einen *90-tägigen Brief* bereit, der erforderlich ist, um die SEC 17a-4(f)(2)-Anforderungen zu erfüllen, damit Kunden ihre designierte Prüfungsstelle mindestens 90 Tage vor der Verwendung elektronischer Speichermedien benachrichtigen können. Wie in den Bestimmungen angegeben, "muss das Mitglied, der Broker oder der Händler eine eigene Darstellung oder eine vom Anbieter des Speichermediums oder von einem anderen Drittanbieter mit entsprechendem Fachwissen bereitstellen, dass das ausgewählte Speichermedium die in diesem Absatz (f)(2) festgelegten Bedingungen erfüllt." Um den Microsoft *Attestation of Electronic Storage Media Services* for SEC Rule 17a-4 zu erhalten, können Kunden mit einem [Azure-Supportplan](https://azure.microsoft.com/support/plans/) [ein Supportticket](https://azure.microsoft.com/support/create-ticket/) im Azure-Portal erstellen und das Attestation Letter für SEC Rule 17a-4 anfordern. In diesem Dokument bietet Microsoft Zusicherungen, die für die SEC 17a-4(f)(2)-Anforderungen relevant sind.
+
+### <a name="office-365"></a>Office 365
+
+Für [sec 17a-4(f)](/microsoft-365/compliance/retention-regulatory-requirements#sec-17a-4f-finra-4511c-and-cftc-131c-d) requirements, Cohasset validated that Microsoft 365 includes archiving features that enable regulated customers, including broker-händler, to store data in a manner that helps them comply with SEC requirements for records retention. Aufbewahrungsfunktionen in Microsoft 365 dabei helfen, eine vielzahl von Daten zu erhalten, einschließlich E-Mail, Voicemail, freigegebene Dokumente, Chatnachrichten und Daten von Drittanbietern. Insbesondere die Archivierung in Microsoft 365 ermöglicht Es Kunden, globale oder granulare Aufbewahrungsrichtlinien für Messaging festzulegen, um Daten für einen definierten Zeitraum und darüber hinaus in einem nicht umschreibbaren, nicht löschbaren Format zu speichern.
+
 ## <a name="audits-reports-and-certificates"></a>Prüfungen, Berichte und Zertifikate
 
 ### <a name="azure--sec-rule-17"></a>Azure & SEC-Regel 17
 
 - [SEC 17a-4(f) & CFTC 1.31 (c-d) Compliance Assessment of Azure Storage](https://azure.microsoft.com/resources/azure-immutable-storage-assessment-for-sec-17a-4f-by-cohasset/)
+
+Microsoft *Attestation of Electronic Storage Media Services* for SEC Rule 17a-4 can be requested by creating a support [ticket](https://azure.microsoft.com/support/create-ticket/) with [Azure support.](https://azure.microsoft.com/support/plans/) In diesem Nachweisschreiben bietet Microsoft Zusicherungen, um Kunden bei der Einhaltung der SEC 17a-4(f)(2)-Anforderungen zu unterstützen.
 
 ### <a name="office-365--sec-rule-17"></a>Office 365 & SEC-Regel 17
 
@@ -79,11 +94,12 @@ Verwenden Sie Fallübersichten, Lernprogramme und andere Ressourcen, um Azure-L�
 
 ## <a name="resources"></a>Ressourcen
 
+- [Azure Compliance-Dokumentation](/azure/compliance/)
+- [Azure ermöglicht eine Welt der Compliance](https://azure.microsoft.com/resources/azure-enables-a-world-of-compliance/)
+- [Securities and Exchange Commission](https://www.sec.gov/) (SEC) [Rule 17a-4](https://www.sec.gov/rules/final/34-38245.txt)
+- [Microsoft Cloud-Finanzdienstleistungsressourcen](https://servicetrust.microsoft.com/viewpage/financialservicesoverview)
+- [Microsoft Cloud Financial Services Compliance-Programm](https://aka.ms/FSCP-Print)
+- [Compliance-Karte der regulatorischen Prinzipien von Cloud Computing und Microsoft-Onlinediensten](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5b483567-00b0-4d86-96ae-ee887dadb61c&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
+- [Leitfaden zur Risikobewertung und Compliance für Finanzinstitute in der Microsoft Cloud](https://azure.microsoft.com/resources/risk-assessment-and-compliance-guide-for-financial-institutions-in-the-microsoft-cloud-/)
+- [Anwendungsfälle der Finanzdienstleistungsbranche](/azure/industry/financial/)
 - [Archivierung in Microsoft Office 365, Datenaufbewahrung und Regel 17a-4](https://www.microsoft.com/microsoft-365/blog/2015/11/10/office-365-exchange-online-archiving-now-meets-sec-rule-17a-4-requirements/)
-- [Compliance Microsoft Financial Services](https://download.microsoft.com/download/6/4/7/64707E3E-6D3E-45D0-8207-A0EA3201B4A6/Microsoft%20Cloud%20-%20Financial%20Services%20Compliance%20Program%20\(Print\).pdf)
-- [Compliance-Programm Microsoft Business Cloud Services und Finanzdienstleistungen](https://servicetrust.microsoft.com/viewpage/financialservicesoverview)
-- [Finanzdienstleister-Compliance in Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
-- [Azure Financial Services Cloud Risikobewertungstool](https://servicetrust.microsoft.com/ViewPage/FFIECBlueprint?command=Download&downloadType=Document&downloadId=079a1973-711a-428f-9312-9ddd290cff7b&docTab=c726d5c0-2d1e-11e8-a485-57140ec19669_PaaS)
-- [Microsoft Office 365 Aufbewahrungsrichtlinien](/office365/securitycompliance/retention-policies)
-- [Microsoft Financial Services Community](https://techcommunity.microsoft.com/t5/financial-services/ct-p/FinancialServices)
-- [Compliance im Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)

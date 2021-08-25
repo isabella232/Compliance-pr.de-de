@@ -17,30 +17,18 @@ metadata:
   ms.date: 11/30/2020
 highlightedContent:
   items:
-    - title: Schnelle Aufgaben für die ersten Schritte mit Microsoft 365 Compliance
-      itemType: get-started
-      url: /microsoft-365/compliance/compliance-quick-tasks
-    - title: Bereitstellen des Informationsschutzes für Datenschutzbestimmungen
-      itemType: get-started
-      url: /microsoft-365/solutions/information-protection-deploy
-    - title: Erfahren Sie mehr über die gemeinsame Verantwortung in der Cloud
-      itemType: overview
-      url: /azure/security/fundamentals/shared-responsibility
     - title: 'Erfahren Sie, wie Microsoft die Daten seiner Kunden sichert'
       itemType: learn
       url: /learn/paths/audit-safeguard-customer-data/
+    - title: Erfahren Sie mehr über die gemeinsame Verantwortung in der Cloud
+      itemType: overview
+      url: /azure/security/fundamentals/shared-responsibility
     - title: Informationen zu Microsoft Compliance Manager
       itemType: learn
       url: /learn/paths/compmgmt/
-    - title: Verwalten von Insider-Risiken in Microsoft 365
-      itemType: learn
-      url: /learn/paths/m365-compliance-insider/
-    - title: Informationsschutz und Governance verwalten
-      itemType: learn
-      url: /learn/paths/m365-compliance-information/
-    - title: Erfahren Sie mehr über Advanced eDiscovery und erweiterte Überwachung
-      itemType: learn
-      url: /learn/paths/compliance-discover/
+    - title: Erste Schritte mit Microsoft 365 Compliance-Lösungshandbüchern
+      itemType: get-started
+      url: /microsoft-365/solutions/information-protection-deploy
 productDirectory:
   title: Einhaltung gesetzlicher & Branche
   summary: Microsoft-Leitfaden zur Einhaltung von Branchenbereichen und internationalen & nationalen Standards und Vorschriften.
@@ -189,7 +177,7 @@ conceptualContent:
 additionalContent:
   sections:
     - title: Erste Schritte mit Compliance in Microsoft-Onlinediensten
-      summary: 'Wenn Sie noch nicht mit Compliance vertraut sind und sich fragen, wo Sie mit Microsoft-Onlinediensten beginnen sollten, finden Sie in diesem Abschnitt Links zu den wichtigsten Compliancebereichen für jeden Dienst.'
+      summary: 'Wenn Sie noch nicht mit Compliance vertraut sind und sich fragen, wo Sie mit Microsoft-Onlinediensten beginnen sollten, enthält dieser Abschnitt Links zu den wichtigsten Compliancebereichen für jeden Dienst.'
       items:
         - title: Microsoft Azure
           summary: 'Azure Compliance bietet Ihnen Complianceangebote, Blueprints, Compliance-Leitfäden und Ressourcen, die Ihnen helfen, Ihre Compliance-Verpflichtungen zu erfüllen.'
