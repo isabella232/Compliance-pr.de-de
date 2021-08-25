@@ -28,7 +28,7 @@ highlightedContent:
       url: /learn/paths/compmgmt/
     - title: Erste Schritte mit Microsoft 365 Compliance-Lösungshandbüchern
       itemType: get-started
-      url: /microsoft-365/solutions/information-protection-deploy
+      url: /microsoft-365/solutions/
 productDirectory:
   title: Einhaltung gesetzlicher & Branche
   summary: Microsoft-Leitfaden zur Einhaltung von Branchenbereichen und internationalen & nationalen Standards und Vorschriften.

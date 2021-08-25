@@ -16,20 +16,18 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: ad57ba94dbb79e1e8d5536598ef4e2fd3f0fbf55
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.openlocfilehash: e57b10527b5eb1bd1baefebb36c9a8f37a97f59e
+ms.sourcegitcommit: 16cec8f7ca799a415bfbae937b177a628a0f2987
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482248"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58505908"
 ---
 # <a name="european-union-model-clauses"></a>Standardvertragsklauseln der Europäischen Union
 
 ## <a name="european-union-model-clauses-overview"></a>Standardvertragsklauseln der Europäischen Union – Übersicht
 
-Das Datenschutzgesetz der Europäischen Union (EU) regelt die Übertragung personenbezogener Daten von Kunden in der EU in Länder außerhalb des Europäischen Wirtschaftsraums (EWR), wozu alle EU-Länder sowie Island, Liechtenstein und Norwegen gehören. Die EU-Standardvertragsklauseln sind standardisierte Vertragsklauseln, die in Vereinbarungen zwischen Dienstanbietern (wie Microsoft) und ihren Kunden Anwendung finden und sicherstellen sollen, dass personenbezogene Daten, die den EWR verlassen, unter Einhaltung der europäischen Datenschutzgesetze übertragen werden und die Anforderungen der EU-Datenschutzrichtlinie 95/46/EG erfüllen.
-
-In der Praxis bedeutet eine Compliance mit den EU-Datenschutzgesetzen, dass die Kunden weniger Genehmigungen von einzelnen Behörden einholen müssen, um personenbezogene Daten über die Grenzen der EU hinaus zu übertragen. Der Grund hierfür ist, dass die meisten EU-Mitgliedstaaten keine zusätzliche Autorisierung benötigen, wenn die Übertragung auf einer Vereinbarung basiert, die den Musterklauseln entspricht.
+Das Datenschutzgesetz der Europäischen Union (EU) regelt die Übertragung personenbezogener Daten von Kunden in der EU in Länder außerhalb des Europäischen Wirtschaftsraums (EWR), wozu alle EU-Länder sowie Island, Liechtenstein und Norwegen gehören. In der Praxis bedeutet eine Compliance mit den EU-Datenschutzgesetzen, dass die Kunden weniger Genehmigungen von einzelnen Behörden einholen müssen, um personenbezogene Daten über die Grenzen der EU hinaus zu übertragen. Der Grund hierfür ist, dass die meisten EU-Mitgliedstaaten keine zusätzliche Autorisierung benötigen, wenn die Übertragung auf einer Vereinbarung basiert, die den Musterklauseln entspricht.
 
 ## <a name="microsoft-and-european-union-model-clauses"></a>Microsoft und Standardvertragsklauseln der Europäischen Union
 
@@ -71,10 +69,6 @@ Microsoft überprüft die EU-Standards kontinuierlich und aktualisiert seine Die
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
-**Was ist die EU-Datenschutzrichtlinie (95/46/EG)?**
-
-Diese Richtlinie schafft die Grundlage für den Umgang mit personenbezogenen Daten in der EU. Sie bildet einen Rechtsrahmen für Microsoft zur Übertragung von Daten aus der EU. Gemäß dieser Richtlinie und unseren Vertragsvereinbarungen agiert Microsoft als Datenverarbeiter von Kundendaten. Der Kunde agiert als Datenverantwortlicher, der als endgültiger Dateneigentümer die Verantwortung dafür trägt, dass die Daten legal an Microsoft zur Verarbeitung außerhalb des EWR übertragen werden können.
-
 **Warum ist die Compliance mit den Musterklauseln wichtig?**
 
 Ein Dienstanbieter, der sich vertraglich an die Musterklauseln bindet, gibt seinen Kunden die Sicherheit, dass personenbezogene Daten unter Einhaltung des EU-Datenschutzgesetzes übertragen und verarbeitet werden. Die Verwendung der Musterklauseln bedeutet auch, dass die Kunden weniger Genehmigungen von einzelnen Datenschutzbehörden einholen müssen, um personenbezogene Daten über die Grenzen der EU hinaus zu übertragen.
@@ -93,6 +87,7 @@ Sie können eine Vereinbarung wie die [Nutzungsbedingungen für Onlinedienste](h
 
 ## <a name="resources"></a>Ressourcen
 
+- [Azure Compliance-Dokumentation](/azure/compliance/)
 - [EU-Normungsorganisation](https://eur-lex.europa.eu/)
 - [EU-Standardvertragsklauseln](https://aka.ms/EU-model_clauses)
 - [EU-Datenschutzrichtlinie](https://aka.ms/EU-DPD)
