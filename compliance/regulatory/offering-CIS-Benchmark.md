@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3084bc6e70bb1c2d9aa1e199a8e1bc4bde8fb2b5
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.openlocfilehash: 18da1f6b422327f42dc517fa0f9c8abe9c91e253
+ms.sourcegitcommit: 16cec8f7ca799a415bfbae937b177a628a0f2987
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482498"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58505918"
 ---
 # <a name="center-for-internet-security-cis-benchmarks"></a>Benchmarks des Center for Internet Security (CIS)
 
@@ -42,13 +42,17 @@ CIS-Benchmarks bieten zwei Ebenen von Sicherheitseinstellungen:
 
 ## <a name="microsoft-and-the-cis-benchmarks"></a>Microsoft und die CIS-Benchmarks
 
-Das Center for Internet Security (CIS) veröffentlicht Benchmarks für Microsoft-Produkte und -Dienste, einschließlich der Foundation-Benchmarks für Microsoft Azure und Microsoft 365, des Benchmarks für Windows 10 und des Benchmarks für Windows Server 2016.  
+Das Center for Internet Security (CIS) veröffentlicht Benchmarks für Microsoft-Produkte und -Dienste, einschließlich der Foundation-Benchmarks für Microsoft Azure und Microsoft 365, des Benchmarks für Windows 10 und des Benchmarks für Windows Server 2016. Der [CIS Microsoft Azure Foundation Benchmark](https://www.cisecurity.org/benchmark/azure/) richtet sich an Kunden, die Lösungen, die Azure integrieren, entwickeln, bereitstellen, bewerten oder sichern möchten. Das Dokument enthält verbindliche Anweisungen für die Einrichtung einer sicheren Basislinienkonfiguration für Azure.
   
 CIS-Benchmarks werden international als Sicherheitsstandards für den Schutz von IT-Systemen und Daten vor Cyberangriffen anerkannt. Sie werden von Tausenden von Unternehmen verwendet und bieten verbindliche Anweisungen für die Einrichtung einer sicheren Basislinienkonfiguration. System- und Anwendungsadministratoren, Sicherheitsexperten und andere Personen, die Lösungen mithilfe von Microsoft-Produkten und -Diensten entwickeln, können diese bewährten Methoden verwenden, um die Sicherheit ihrer Anwendungen zu bewerten und zu verbessern.  
   
 Wie alle CIS-Benchmarks wurden auch die Microsoft-Benchmarks anhand eines konsensbasierten Überprüfungsprozesses basierend auf den Beiträgen von Sachverständigen mit unterschiedlichen Hintergründen im Hinblick auf Softwareentwicklung, Überwachung und Compliance, Sicherheitsforschung, Arbeitsabläufe, Behörden und Rechtsvorschriften entwickelt. Bei diesen CIS-Bemühungen war Microsoft ein unentbehrlicher Partner. Office 365 wurde beispielsweise anhand der aufgeführten Dienste getestet, und die daraus resultierenden Benchmarks für Microsoft 365 decken ein breites Spektrum von Empfehlungen zum Einrichten geeigneter Sicherheitsrichtlinien ab, die sich auf Konten und Authentifizierung, Datenverwaltung, Anwendungsberechtigungen, Speicher und andere Bereiche von Sicherheitsrichtlinien beziehen.  
   
-Zusätzlich zu den Benchmarks für Microsoft-Produkte und -Dienste hat CIS auch [gehärtete CIS-Images für die Verwendung auf virtuellen Azure-Computern veröffentlicht](https://www.cisecurity.org/blog/cis-hardened-images-now-in-microsoft-azure-marketplace/), die so konfiguriert wurden, dass sie den CIS-Benchmarks entsprechen. Dazu gehört das gehärtete CSI-Image für Microsoft Windows Server 2016, das für die Ausführung auf Azure zertifiziert wurde. CIS gibt an, dass „alle abgesicherten CIS-Abbildungen, die im [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps?search=center%20for%20internet%20security) verfügbar sind, für die Ausführung unter Azure zertifiziert wurden. Diese wurden vorab auf deren Einsatzbereitschaft und Kompatibilität mit der öffentlichen Azure-Cloud, der Microsoft-Cloudplattform, die von den Dienstanbietern über das Netzwerk des Cloudbetriebssystems gehostet wird, und den von Kunden verwalteten Windows Server Hyper-V-Bereitstellungen der lokalen privaten Cloud getestet.“
+Zusätzlich zu den Benchmarks für Microsoft-Produkte und -Dienste hat CIS [gehärtete CIS-Images in Azure](https://www.cisecurity.org/cis-hardened-images/microsoft/) veröffentlicht, die so konfiguriert sind, dass sie CIS-Benchmarks erfüllen und im Microsoft Azure Marketplace verfügbar sind. Zu diesen Images gehören die gehärteten CIS-Images für Windows Server 2016 und Windows Server 2019 sowie verschiedene Versionen von Linux. Alle gehärtete CIS-Images, die im Azure Marketplace verfügbar sind, sind für die Ausführung auf Microsoft Azure zertifiziert. Wie von [CIS erwähnt](https://www.cisecurity.org/blog/cis-hardened-images-now-in-microsoft-azure-marketplace/), „wurden sie vorab auf Bereitschaft und Kompatibilität mit der öffentlichen Microsoft Azure-Cloud, der Microsoft-Cloudplattform, die von Dienstanbietern über das Netzwerk des Cloudbetriebssystems gehostet wird, und den Windows Server Hyper-V-Bereitstellungen in der lokalen privaten Cloud getestet, die von Kunden verwaltet werden“.
+
+[Gehärtete CIS-Images](https://www.cisecurity.org/cis-hardened-images/) sind sicher konfigurierte Images von virtuellen Computern basierend auf CIS-Benchmarks, die auf einem CIS-Benchmarkprofil der Ebene 1 oder Ebene 2 gehärtet wurden. Das „Härten“ ist ein Prozess, der Schutz vor unbefugtem Zugriff, Denial-of-Service-Angriffen und anderen Cyberbedrohungen bietet, indem potenzielle Schwachstellen eingeschränkt werden, die für Cyberattacken anfällig sind. Gehärtete CIS-Images sind sowohl in Azure als auch in Azure Government verfügbar.
+
+Für zusätzliche Kundenunterstützung stellt Microsoft [Azure Blueprints](https://azure.microsoft.com/services/blueprints/)bereit. Dies ist ein Dienst, der Ihnen hilft, Cloudumgebungen auf wiederholbare Weise bereitzustellen und zu aktualisieren, indem sie zusammensetzbare Artefakte wie Azure Resource Manager-Vorlagen zum Bereitstellen von Ressourcen, rollenbasierten Zugriffssteuerungen und Richtlinien verwendet. Ressourcen, die über Azure Blueprints bereitgestellt werden, entsprechen den Standards, Mustern und Complianceanforderungen einer Organisation. Das übergeordnete Ziel von Azure Blueprints ist die Automatisierung der Compliance und des Cybersicherheitsrisikomanagements in Cloudumgebungen. Um Ihnen bei der Bereitstellung eines zentralen Satzes von Richtlinien für jede Azure-basierte Architektur, die CIS Azure Foundations-Benchmarkempfehlungen implementieren muss, zu helfen, hat Microsoft den [Azure Blueprint für den CIS Microsoft Azure Foundation Benchmark](/azure/governance/blueprints/samples/cis-azure-1-3-0) veröffentlicht. Wenn sie einer Architektur zugewiesen sind, werden Ressourcen von Azure Policy auf ihre Kompatibilität mit zugewiesenen Richtliniendefinitionen ausgewertet.
 
 ## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
@@ -94,7 +98,15 @@ CIS betont, dass seine „Benchmarks mithilfe der großzügigen Freiwilligenarbe
 
 ## <a name="resources"></a>Ressourcen
 
-- [Bewährte CIS-Methoden zur sicheren Verwendung von Microsoft 365](https://www.microsoft.com/security/blog/2019/01/10/best-practices-for-securely-using-microsoft-365-the-cis-microsoft-365-foundations-benchmark-now-available/)
+- [Azure Compliance-Dokumentation](/azure/compliance/)
+- [Azure ermöglicht eine Welt der Compliance](https://azure.microsoft.com/resources/azure-enables-a-world-of-compliance/)
+- [Microsoft 365 Compliance-Angebote](/compliance/regulatory/offering-home)
+- [Compliance im Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- Der [CIS Microsoft Azure Foundation Benchmark](https://www.cisecurity.org/benchmark/azure/) bietet eine Schritt-für-Schritt-Checkliste zum Sichern von Azure.
+- [Gehärtete CIS-Images auf Microsoft Azure](https://www.cisecurity.org/cis-hardened-images/microsoft/) sind Azure-zertifiziert und gemäß den Sicherheitsempfehlungen der CIS-Benchmarks vorkonfiguriert.  Sie sind sowohl in Azure als auch in Azure Government verfügbar.
+- Der [Azure Blueprint für CIS Microsoft Azure Foundation Benchmark](/azure/governance/blueprints/samples/cis-azure-1-3-0) hilft Kunden bei der Bereitstellung eines zentralen Richtliniensatzes für alle Azure-basierten Architekturen, die CIS Azure Foundation Benchmarkempfehlungen implementieren müssen.
+- Die [Zuordnung von Azure-Richtlinienempfehlungen](/azure/governance/policy/samples/cis-azure-1-3-0) enthält Details zu Richtliniendefinitionen, die im obigen Blueprint enthalten sind und dazu, wie diese Richtliniendefinitionen den Compliancedomänen und -kontrollen in CIS Microsoft Azure Foundation Benchmark zugeordnet sind. Wenn sie einer Architektur zugewiesen sind, werden Ressourcen von Azure Policy auf ihre Nichtkonformität mit den zugewiesenen Richtliniendefinitionen ausgewertet.
+- Im [CIS Controls Cloud Companion Guide](https://www.cisecurity.org/white-papers/cis-controls-cloud-companion-guide/) finden Sie Anweisungen zum Anwenden bewährter Sicherheitsmethoden in CIS-Steuerungen, Version 7, auf Cloudanwendungen.
+- Der [CIS Microsoft 365 Foundation Benchmark](https://www.cisecurity.org/benchmark/microsoft_office/) bietet eine verbindliche Anleitung zum Einrichten einer sicheren Basiskonfiguration für Microsoft 365.
 - [Sicherheitsrichtlinieneinstellungen in Windows 10](/windows/security/threat-protection/security-policy-settings/security-policy-settings)
 - [Sicherheit in Windows 10 Enterprise](/windows/security/index)
-- [Compliance im Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
