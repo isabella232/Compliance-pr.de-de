@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: efd0e2c90018c8fb32e39f83bdafa7f02bf0f230
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.openlocfilehash: b17c7629918bdf4386ad24d28c6cb6687728603c
+ms.sourcegitcommit: deff41bc5085d0da42c33dd6d1672be0724a067c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482930"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58561353"
 ---
 # <a name="isoiec-270172015-code-of-practice-for-information-security-controls"></a>ISO/IEC 27017:2015 Verhaltenskodex für Informationssicherheitskontrollen
 
@@ -58,6 +58,7 @@ ISO/IEC 27017 ist einzigartig, da es Anleitungen für Anbieter und Kunden von Cl
 - PowerApps-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365- oder Dynamics 365-Plan oder einer -Anwendungssuite enthalten
 - Power BI-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365-Plan oder einer -Anwendungssuite enthalten
 - Power BI Embedded
+- Windows 365
 
 ## <a name="azure-dynamics-365-and-iso-270172015"></a>Azure, Dynamics 365 und ISO 27017:2015
 
