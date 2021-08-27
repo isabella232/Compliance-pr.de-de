@@ -18,12 +18,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft GDPR
 hideEdit: true
-ms.openlocfilehash: e7434613707cec900506e85c5e61b6cd45c98d3c
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.openlocfilehash: 42320db7a7f792e12cb255900c172083794d8070
+ms.sourcegitcommit: 9766d656d0e270f478437bd39c0546ad2e4d846f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482368"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58678664"
 ---
 # <a name="fasttrack-migration-toolset-for-submitting-delete-request"></a>FastTrack-Migrationstoolset zum Übermitteln von Löschanforderungen
 
@@ -49,9 +49,9 @@ Microsoft unterstützt die erste Version dieses Toolsets auf der Windows-Plattfo
 
 Dieses Toolset ist im PowerShell-Katalog in der PowerShell-Konsolenanwendung verfügbar. Zum Suchen und Laden dieses Cmdlet-Moduls öffnen Sie zunächst PowerShell im Administratormodus, damit die erforderlichen Berechtigungen zum Installieren des Moduls vorhanden sind. Wenn Sie PowerShell zum ersten Mal verwenden, geben Sie auf der Windows-Taskleiste im Suchfeld „PowerShell“ ein. Wählen Sie die Konsole mit einem Rechtsklick aus, wählen Sie **als Administrator ausführen**, und klicken Sie dann auf **Ja**, um Windows PowerShell auszuführen.
 
-![PowerShell – Als Administrator ausführen](../media/fasttrack-powershell_image.png)
+![PowerShell – Als Administrator ausführen.](../media/fasttrack-powershell_image.png)
 
-![PowerShell – Änderungen durch App zulassen](../media/fasttrack-run-powershell_image.png)
+![PowerShell – Änderungen durch App zulassen.](../media/fasttrack-run-powershell_image.png)
 
 Nachdem die Konsole geöffnet wurde, müssen Sie Berechtigungen für die Skriptausführung festlegen. Geben Sie den folgenden Befehl ein, um die Ausführung der Skripts zuzulassen:
 
@@ -63,7 +63,7 @@ Sie werden aufgefordert, diese Aktion zu bestätigen, da der Administrator den B
 
 ***Festlegen der Ausführungsrichtlinie***
 
-![Festlegen einer Änderung der Ausführungsrichtlinie in PowerShell](../media/powershell-set-execution-policy_image.png)
+![Festlegen einer Änderung der Ausführungsrichtlinie in PowerShell.](../media/powershell-set-execution-policy_image.png)
 
 Da die Konsole nun so eingerichtet ist, dass die Skriptausführung zulässig ist, führen Sie den folgenden Befehl aus, um das Modul zu installieren:
 

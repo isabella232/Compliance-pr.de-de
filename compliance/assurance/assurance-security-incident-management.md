@@ -1,6 +1,6 @@
 ---
 title: Microsoft-Sicherheitsvorfallverwaltung
-description: Dieser Artikel bietet eine Übersicht über den Prozess zur Verwaltung von Sicherheitsvorfällen in Microsoft-Onlinediensten.
+description: Dieser Artikel bietet eine Übersicht über den Prozess der Verwaltung von Sicherheitsvorfällen in Microsoft-Onlinediensten.
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -19,12 +19,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: a35e6757d64dd0c2bffc1b1cbc62e23f524b8ac9
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.openlocfilehash: cb9d27f02ec53c98e2f00d3106f8e4be8798d78f
+ms.sourcegitcommit: 9766d656d0e270f478437bd39c0546ad2e4d846f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58481737"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58678584"
 ---
 # <a name="microsoft-security-incident-management"></a>Microsoft-Sicherheitsvorfallverwaltung
 
@@ -45,9 +45,9 @@ Der Ansatz von Microsoft zur Verwaltung eines Sicherheitsvorfalls entspricht dem
 |:------------|:--------------|
 | Microsoft Security Response Center | Identifiziert, überwacht, löst und reagiert auf Sicherheitsvorfälle und Microsoft-Softwaresicherheitsrisiken. |
 | Cyber Defense Operations Center | Das Cyber Defense Operations Center ist der physische Standort, der Sicherheitsteams und Experten aus dem gesamten Unternehmen zusammenführt, um Bedrohungen in Echtzeit zu schützen, zu erkennen und darauf zu reagieren. |
-| Unternehmens-, Externe und Rechtsbeziehungen | Bietet rechtliche und behördliche Hinweise für einen verdächtigen Sicherheitsvorfall. |
+| Unternehmens-, Außen- und Rechtsbeziehungen | Bietet rechtliche und behördliche Hinweise für einen verdächtigen Sicherheitsvorfall. |
 | Microsoft Datacenter Security Team | Team, das sich auf die verschiedenen Dienste konzentriert und sich auf allgemeine Sicherheits-Engineering-Investitionen konzentriert, um Risiken und Bedrohungen der Dienstarchitektur zu schützen, zu erkennen und darauf zu reagieren. |
-| Microsoft Security Response Teams | Unabhängige Azure, Dynamics 365 und Microsoft 365 Sicherheitsteams, die mit Serviceteams zusammenarbeiten, um den entsprechenden Prozess zur Verwaltung von Sicherheitsvorfällen zu erstellen und die Reaktion auf Sicherheitsvorfälle zu fördern. |
+| Microsoft Security Response Teams | Unabhängige Azure-, Dynamics 365- und Microsoft 365-Sicherheitsteams, die mit Serviceteams zusammenarbeiten, um den entsprechenden Prozess zur Verwaltung von Sicherheitsvorfällen zu erstellen und die Reaktion auf Sicherheitsvorfälle zu fördern. |
 | Microsoft Governance-, Risiko- und Compliance-Teams (GRC) | Bereitstellen von Anleitungen zu gesetzlichen Anforderungen, Compliance und Datenschutz. |
 | Serviceteams | Entwicklungsteams für Azure, Dynamics 365 Microsoft 365, die für sicherheitsbezogene Richtlinien und Entscheidungen für jeden Dienst verantwortlich sind. |
 | Azure-Betriebsmanager | Überwacht die Untersuchung und Lösung von Azure-bezogenen Sicherheits- und Datenschutzvorfällen. |
@@ -61,9 +61,9 @@ Sicherheitsteams und Serviceteams von Microsoft Online Services arbeiten zusamme
 - **Vorbereitung:** Bezieht sich auf die organisatorische Vorbereitung, die erforderlich ist, um reagieren zu können, einschließlich Tools, Prozessen, Kompetenzen und Bereitschaft.
 - **Erkennung & Analyse:** Bezieht sich auf die Aktivität, um einen Sicherheitsvorfall in einer Produktionsumgebung zu erkennen und alle Ereignisse zu analysieren, um die Echtheit des Sicherheitsvorfalls zu bestätigen.
 - **Eindämmung, Beseitigung, Wiederherstellung:** Bezieht sich auf die erforderlichen und geeigneten Maßnahmen, um den Sicherheitsvorfall basierend auf der in der vorherigen Phase durchgeführten Analyse einzudämmen. In dieser Phase kann auch eine weitere Analyse erforderlich sein, um die vollständige Wiederherstellung nach dem Sicherheitsvorfall zu gewährleisten.
-- **Aktivität nach dem Vorfall:** Bezieht sich auf die nachträgliche Analyse, die nach der Wiederherstellung eines Sicherheitsvorfalls durchgeführt wurde. Die während des Prozesses durchgeführten betrieblichen Aktionen werden überprüft, um festzustellen, ob Änderungen in den Vorbereitungs- oder Erkennungs- und Analysephasen vorgenommen werden müssen.
+- **Aktivität nach dem Vorfall:** Bezieht sich auf die nachträgliche Analyse, die nach der Wiederherstellung eines Sicherheitsvorfalls durchgeführt wurde. Die während des Prozesses durchgeführten operativen Aktionen werden überprüft, um festzustellen, ob Änderungen in den Vorbereitungs- oder Erkennungs- und Analysephasen vorgenommen werden müssen.
 
-![Phasen der Verwaltung von Sicherheitsvorfällen](../media/assurance-sim-phases.png)
+![Phasen der Verwaltung von Sicherheitsvorfällen.](../media/assurance-sim-phases.png)
 
 ## <a name="federated-security-response-model"></a>Antwortmodell für Verbundsicherheit
 

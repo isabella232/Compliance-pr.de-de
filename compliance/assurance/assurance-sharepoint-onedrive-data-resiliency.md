@@ -19,12 +19,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 5da29f30c9f6886ce047f4e3fd51669a2f510ca8
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.openlocfilehash: 02df77f949cf1633017dd25f4cff17175c536d53
+ms.sourcegitcommit: 9766d656d0e270f478437bd39c0546ad2e4d846f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58481717"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58676814"
 ---
 # <a name="sharepoint-and-onedrive-data-resiliency-in-microsoft-365"></a>SharePoint- und OneDrive-Datenresilienz in Microsoft 365
 
@@ -43,7 +43,7 @@ SharePoint verfügt über eine benutzerdefinierte Lösung zum Speichern von Kund
 
 SharePoint verwendet Append-Only Speicher. Dadurch wird sichergestellt, dass Dateien nach einem anfänglichen Speichern nicht geändert oder beschädigt werden können, aber auch mithilfe der produktinternen Versionsverwaltung können alle früheren Versionen des Dateiinhalts abgerufen werden.
 
-![Blobspeicherresilienz](../media/assurance-blob-storage-resiliency-diagram.png)
+![Blobspeicherresilienz.](../media/assurance-blob-storage-resiliency-diagram.png)
 
 SharePoint Umgebungen in beiden Rechenzentren können auf Speichercontainer in beiden Azure-Regionen zugreifen. Aus Leistungsgründen wird der Speichercontainer im selben lokalen Rechenzentrum immer bevorzugt. Leseanforderungen, bei denen keine Ergebnisse innerhalb eines gewünschten Schwellenwerts angezeigt werden, weisen jedoch denselben Vom Remote-Rechenzentrum angeforderten Inhalt auf, um sicherzustellen, dass Daten immer verfügbar sind.
 
@@ -53,13 +53,13 @@ SharePoint Metadaten sind auch für den Zugriff auf Benutzerinhalte wichtig, da 
 
 SharePoint verwendet das von Azure SQL bereitgestellte Replikationsmodell und hat eine proprietäre Automatisierungstechnologie entwickelt, um zu ermitteln, ob ein Failover erforderlich ist, und den Vorgang bei Bedarf zu initiieren. Daher fällt sie aus Sicht von Azure SQL in die Kategorie "Manuelles Datenbankfailover". Die neuesten Metriken für Azure SQL Datenbankwiederherstellung sind [hier](/azure/azure-sql/database/business-continuity-high-availability-disaster-recover-hadr-overview#recover-a-database-to-the-existing-server)verfügbar.
 
-![Metadatenresilienz](../media/assurance-metadata-resiliency-diagram.png)
+![Metadatenresilienz.](../media/assurance-metadata-resiliency-diagram.png)
 
 SharePoint verwendet das Sicherungssystem von Azure SQL, um Point-in-Time Restores (PITR) für bis zu 14 Tage zu aktivieren. PITR wird in einem [späteren Abschnitt](#deletion-backup-and-point-in-time-restore) ausführlicher behandelt.
 
 ## <a name="automated-failover"></a>Automatisches Failover
 
-SharePoint verwendet ein benutzerdefiniertes automatisiertes Failover, um die Auswirkungen auf die Kundenerfahrung zu minimieren, wenn ein standortspezifisches Ereignis auftritt. Die überwachungsgesteuerte Automatisierung, bei der ein Einzelner oder ein Mehrkomponentenfehler über bestimmte Schwellenwerte hinaus erkannt wird, führt zu einer automatischen Umleitung aller Benutzeraktivitäten aus der problematischen Umgebung und zu einer warm sekundären Umgebung. Ein Failover führt dazu, dass Metadaten und Computespeicher vollständig außerhalb des neuen Rechenzentrums bereitgestellt werden. Da blob storage immer vollständig aktiv/aktiv ausgeführt wird, ist für ein Failover keine Änderung erforderlich. Die Computeebene bevorzugt den nächstgelegenen Blobcontainer, verwendet jedoch jederzeit sowohl lokale als auch Remote-Blobspeicherorte, um die Verfügbarkeit sicherzustellen.
+SharePoint verwendet ein benutzerdefiniertes automatisiertes Failover, um die Auswirkungen auf die Kundenfreundlichkeit zu minimieren, wenn ein standortspezifisches Ereignis auftritt. Die überwachungsgesteuerte Automatisierung, bei der ein Einzelner oder ein Mehrkomponentenfehler über bestimmte Schwellenwerte hinaus erkannt wird, führt zu einer automatischen Umleitung aller Benutzeraktivitäten aus der problematischen Umgebung und zu einer warm sekundären Umgebung. Ein Failover führt dazu, dass Metadaten und Computespeicher vollständig außerhalb des neuen Rechenzentrums bereitgestellt werden. Da blob storage immer vollständig aktiv/aktiv ausgeführt wird, ist für ein Failover keine Änderung erforderlich. Die Computeebene bevorzugt den nächstgelegenen Blobcontainer, verwendet jedoch jederzeit sowohl lokale als auch Remote-Blobspeicherorte, um die Verfügbarkeit sicherzustellen.
 
 SharePoint verwendet den Azure Front Door-Dienst, um das routinginterne Routing für das Microsoft-Netzwerk bereitzustellen. Diese Konfiguration ermöglicht eine dnsunabhängige Failoverumleitung und reduziert die Auswirkungen des Zwischenspeicherns auf lokale Computer. Die meisten Failovervorgänge sind für Endbenutzer transparent. Wenn ein Failover vorhanden ist, müssen Kunden keine Änderungen vornehmen, um den Zugriff auf den Dienst aufrechtzuerhalten.
 
@@ -84,7 +84,7 @@ Gelöschte Elemente werden für einen bestimmten Zeitraum in Papierkorb aufbewah
 
 Dieser Prozess ist der Standardmäßige Löschvorgang und berücksichtigt keine Aufbewahrungsrichtlinien oder Bezeichnungen. Weitere Informationen finden Sie unter [Informationen zur Aufbewahrung für SharePoint und OneDrive.](/microsoft-365/compliance/retention-policies-sharepoint)
 
-Nach Abschluss der 93-tägigen Wiederverwendungspipeline erfolgt die Löschung unabhängig voneinander für Metadaten und für Blob-Storage. Metadaten werden sofort aus der Datenbank entfernt, wodurch der Inhalt unlesbar wird, es sei denn, die Metadaten werden aus der Sicherung wiederhergestellt. SharePoint verwaltet Sicherungen von Metadaten für 14 Tage. Diese Sicherungen werden lokal in nahezu Echtzeit durchgeführt und dann in redundanten Azure Storage Containern in einem 5-10-Minuten-Zeitplan gemäß der [Dokumentation](/azure/sql-database/sql-database-automated-backups) zum Zeitpunkt dieser Veröffentlichung an den Speicher übertragen.
+Nach Abschluss der 93-tägigen Wiederverwendungspipeline erfolgt der Löschvorgang unabhängig für Metadaten und für Blob-Storage. Metadaten werden sofort aus der Datenbank entfernt, wodurch der Inhalt unlesbar wird, es sei denn, die Metadaten werden aus der Sicherung wiederhergestellt. SharePoint verwaltet Sicherungen von Metadaten für 14 Tage. Diese Sicherungen werden lokal in nahezu Echtzeit durchgeführt und dann in redundanten Azure Storage Containern in einem 5-10-Minuten-Zeitplan an den Speicher übertragen, gemäß der [Dokumentation](/azure/sql-database/sql-database-automated-backups) zum Zeitpunkt dieser Veröffentlichung.
 
 Beim Löschen von Blob-Storage-Inhalten verwendet SharePoint das Soft Delete-Feature für Azure Blob Storage, um sich vor versehentlichem oder böswilligem Löschen zu schützen. Bei Verwendung dieses Features haben wir insgesamt 14 Tage Zeit, um Inhalte wiederherzustellen, bevor sie endgültig gelöscht werden.
 

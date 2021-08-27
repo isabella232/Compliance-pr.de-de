@@ -1,6 +1,6 @@
 ---
 title: Risikomanagement
-description: Informationen zum Risikomanagement in Microsoft 365
+description: Erfahren Sie mehr über das Risikomanagement in Microsoft 365
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: ae5177f524fd8f2025198aa5155821f4aa759050
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.openlocfilehash: 8be83f6faa3d365e2cb91c996e2c87367797670f
+ms.sourcegitcommit: 9766d656d0e270f478437bd39c0546ad2e4d846f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58481767"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58678594"
 ---
 # <a name="risk-management-overview"></a>Risikomanagement (Übersicht)
 
@@ -35,7 +35,7 @@ Risikomanagement ist der Prozess der Identifizierung, Bewertung und Reaktion auf
 
 Das Risikomanagement von Microsoft richtet sich nach dem Enterprise-Risikomanagement-Framework (ERM). ERM unterstützt den gesamten Prozess des Risikomanagements im Unternehmen und die Zusammenarbeit mit der Unternehmensleitung, um die wichtigsten Risiken bei Microsoft zu erkennen und die Verantwortlichkeiten dafür sicherzustellen.
 
-![Struktur des Risikomanagements](../media/assurance-risk-management-structure.png)
+![Struktur des Risikomanagements.](../media/assurance-risk-management-structure.png)
 
 Microsoft ERM ermöglicht allgemeine Grundsätze des Risikomanagements im gesamten Unternehmen, sodass Geschäftseinheiten unabhängig konsistente und vergleichende Risikobewertungen ermöglichen können. Diese Koordination ermöglicht Es Microsoft, Risikoinformationen für die Verwaltung konsolidiert zu aggregieren und zu melden. ERM stellt Geschäftsbereichen bei Microsoft gemeinsame Methoden, Tools und Ziele für den Risikomanagementprozess bereit. Microsoft 365 und andere Engineering-Gruppen und Geschäftseinheiten verwenden diese Tools, um individuelle Risikobewertungen im Rahmen ihrer eigenen Risikomanagementprogramme unter der Anleitung von ERM durchzuführen.
 

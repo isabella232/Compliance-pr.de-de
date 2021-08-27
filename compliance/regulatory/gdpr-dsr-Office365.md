@@ -18,12 +18,12 @@ ms.collection:
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
 hideEdit: true
-ms.openlocfilehash: 0d48c7bc2c4b3b2dbfa8e4c102e22853c3ba5cc242cfebdf31ee4c6149f95756
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: f5b0acae758e149f2bfde5683a0b9f2c45f0db29
+ms.sourcegitcommit: 9766d656d0e270f478437bd39c0546ad2e4d846f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293569"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58676834"
 ---
 # <a name="office-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>Anträge betroffener Personen für Office 365 im Rahmen der DSGVO und des CCPA
 
@@ -206,7 +206,7 @@ pilar@contoso.com AND filetype="xlxs"
 
 ***GUI***
 
-![Beispiel-Schlüsselwortdialog 1](../media/O365-DSR-Doc_image18.png)
+![Schlüsselwortdialogbeispiel 1.](../media/O365-DSR-Doc_image18.png)
 
 ##### <a name="example-2&quot;></a>Beispiel 2
 
@@ -218,7 +218,7 @@ In diesem Beispiel werden Excel- oder Word-Dateien auf SharePoint Online-Website
 
 ***GUI***
 
-![Beispiel-Schlüsselwortdialog 2](../media/O365-DSR-Doc_image19.png)
+![Schlüsselwortdialogbeispiel 2.](../media/O365-DSR-Doc_image19.png)
 
 ##### <a name="example-3"></a>Beispiel 3
 
@@ -230,7 +230,7 @@ In diesem Beispiel werden E-Mail-Nachrichten zurückgegeben, die die angegebene 
 
 ***GUI***
 
-![Beispiel-Schlüsselwortdialog 3](../media/O365-DSR-Doc_image20.png)
+![Schlüsselwortdialogbeispiel 3.](../media/O365-DSR-Doc_image20.png)
 
 #### <a name="working-with-partially-indexed-items-in-content-search"></a>Arbeiten mit teilweise indizierten Elemente in der Inhaltssuche
 
@@ -446,13 +446,13 @@ Wenn Sie die Ergebnisse einer Inhaltssuche exportieren, können E-Mail-Elemente 
 Um Elemente zu exportieren und herunterzuladen:
 
 1. Öffnen der Inhaltssuche im Security & Compliance Center.
-2. Klicken Sie auf der Fly-out-Seite der Suche auf das ![Herunterladen-Symbol](../media/o365-dsr_image21.png)**Mehr** und dann auf **Ergebnisse exportieren**. Sie können auch einen Bericht exportieren.
+2. Klicken Sie auf der Fly-out-Seite der Suche auf das ![Herunterladen-Symbol](../media/o365-dsr_image21.png) **Mehr** und dann auf **Ergebnisse exportieren**. Sie können auch einen Bericht exportieren.
 3. Füllen Sie die Abschnitte auf der Fly-Out-Navigation der **Exportergebnisse** aus. Stellen Sie sicher, dass Sie Bildlaufleiste verwenden, um alle Exportoptionen anzuzeigen.
 4. Wechseln Sie wieder zur Seite der Inhaltssuche im Security & Compliance Center und wählen Sie die Registerkarte **Export** aus.
 5. Wählen Sie **aktualisieren**, um die Seite zu aktualisieren.
 6. Klicken Sie unter der Spalte **Name** auf den Exportauftrag, den Sie soeben erstellt haben. Der Name des Exportauftrags ist der Name der Inhaltssuche gefolgt von der Endung **\_Export**.
 7. Klicken Sie auf der Fly-out-Seite unter **Schlüssel exportieren** auf **In Zwischenablage kopieren**. Sie werden diesen Schlüssel in Schritt 10 nutzen, um die Suchergebnisse herunterzuladen.
-8. Wählen Sie oben auf der Fly-out-Navigation ![Symbol herunterladen](../media/o365-dsr_image21.png) und **Ergebnisse herunterladen**.
+8. Wählen Sie oben auf der Fly-out-Navigation ![Symbol herunterladen.](../media/o365-dsr_image21.png) **Ergebnisse herunterladen**.
 9. Wenn Sie aufgefordert werden, das **Microsoft Office 365 eDiscovery Export Tool** zu installieren, wählen Sie **installieren** aus.
 10. Fügen Sie im **eDiscovery-Exporttool** den Export-Schlüssel, den Sie in Schritt 7 kopiert haben, in das entsprechende Feld ein.
 11. Wählen Sie **Durchsuchen**, um das Verzeichnis anzugeben, in das die Dateien mit den Suchergebnissen heruntergeladen werden sollen.
@@ -647,7 +647,7 @@ Anwendungen, bei denen die In-App-Funktion verwendet werden kann, um Kundendaten
 - Stream
 - Yammer
 
-### <a name="access"></a>Zugriff
+### <a name="access"></a>Access
 
 In den folgenden Abschnitten wird erläutert, wie die in-App-Funktion in Microsoft Access verwendet werden kann, um personenbezogene Daten zu suchen, auf sie zuzugreifen, sie zu exportieren und zu löschen.
 
@@ -1470,7 +1470,7 @@ Um die Verarbeitung in Delve für Ihre Organisation einzuschränken, können Sie
 
 Benutzer können die folgenden Informationen in Delve löschen:
 
-- **Profilinformationen:** Um Profilinformationen zu löschen, kann ein Benutzer **Ich** \> **Profil aktualisieren** auswählen und Freiformtext löschen. Abhängig von den Einstellungen Ihrer Organisation in der globalen Adressliste können Benutzer möglicherweise nicht alle ihre Profilinformationen, wie z. B. ihren Namen oder ihre Position, löschen.
+- **Profilinformationen:** Um Profilinformationen zu löschen, kann ein Benutzer **Profil** \> **Profil aktualisieren** auswählen und entweder Freiformtext löschen. Abhängig von den Einstellungen Ihrer Organisation in der globalen Adressliste, können Benutzer möglicherweise nicht alle ihre Profilinformationen, wie z. B. ihren Namen oder ihre Position löschen.
 - **Dokumente und E-Mail-Anhänge:** Um ein Dokument oder eine Anlage zu löschen, müssen Benutzer zu dem Dienst gehen, in dem das Dokument oder die Anlage gespeichert ist (z. B. SharePoint Online, OneDrive for Business oder Exchange Online) und das Dokument dort löschen.
 
 ### <a name="myanalytics"></a>MyAnalytics

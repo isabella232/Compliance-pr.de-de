@@ -17,12 +17,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 4ebd8a02efc7bae74504cf22b1b927673e22e7de
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.openlocfilehash: 5bc9f37cdf6d8f30ea71eddb612232b11844a4ba
+ms.sourcegitcommit: 9766d656d0e270f478437bd39c0546ad2e4d846f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482148"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58676821"
 ---
 # <a name="enterprise-business-continuity-management-customer-and-cloud-partner-responsibilities"></a>Verantwortlichkeiten von Kunden und Cloud-Partnern im Rahmen der Steuerung der Geschäftskontinuität 
 
@@ -60,7 +60,7 @@ Microsoft unterhält mehrere Kanäle für Statusmitteilungen zu Diensten, die Ku
 
 Das Bereitstellen von Microsoft 365 Online-Diensten begründet eine Partnerschaft zwischen Ihrer Organisation und Microsoft. Im folgenden Diagramm wird die Verteilung der Verantwortlichkeiten auf Microsoft ebenso wie auf die Kunden während eines Dienstvorfalls und während des normalen Betriebs zusammengefasst.
 
-![Verteilung der Verantwortlichkeiten der Kunden und von Microsoft](../media/responsibilities.png)
+![Balance der Verantwortlichkeiten von Kunden und Microsoft.](../media/responsibilities.png)
 
 ## <a name="your-environment---service-continuity"></a>Ihre Umgebung – Dienstverfügbarkeit
 
@@ -80,6 +80,6 @@ Microsoft veröffentlicht [Grundsätze zur Netzwerkkonnektivität](/microsoft-36
 Zahlreiche Lösungen zur Zusammenarbeit sind systemabhängig, wie z. B.von einem unternehmensweiten Netzwerk (WAN). Wie würde Ihre Organisation reagieren, wenn diese Systeme nicht verfügbar sind?
 Diese Grafik bildet Probleme ab, die sich auf mehr als einen Bereich auswirken können. Die zugehörige Tabelle enthält zu berücksichtigende Beispiele
 
-![Venn-Diagramm von Systemen](../media/venn-diagram.png)
+![Venn-Diagramm der Systeme.](../media/venn-diagram.png)
 
 Ihre Pläne zur Unternehmenskontinuität sollten jeden dieser Bereiche berücksichtigen. Zum Beispiel: Wenn Sie fordern, dass sich Benutzer im Unternehmensnetzwerk befinden und es kommt zu einem Schneesturm, wie erhalten diese Benutzer Zugriff auf die wichtigsten Ressourcen? Wenn der Schnee die Anreise in das Büro verhindert und Servicetechniker die Verbindung zum Unternehmensnetzwerk herstellen müssen, gibt es dann eine Richtlinie, die vorschreibt, dass sie die unternehmenseigenen Laptops zu Hause in Ihrem Besitz haben müssen?

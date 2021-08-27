@@ -19,12 +19,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 5cb8d92a970c73f76de3d9a824c7bab86d13ce2e
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.openlocfilehash: 0c99c28ee6a291acbcfe913a87aa107d3be5c75a
+ms.sourcegitcommit: 9766d656d0e270f478437bd39c0546ad2e4d846f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58481697"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58676804"
 ---
 # <a name="microsoft-security-incident-management-containment-eradication-and-recovery"></a>Microsoft Security Incident Management: Eindämmung, Beseitigung und Wiederherstellung
 
@@ -53,7 +53,7 @@ Ein wichtiger Aspekt der Wiederherstellung besteht darin, dass verbesserte Über
 
 Wenn Microsoft feststellt, dass ein Sicherheitsvorfall aufgetreten ist, benachrichtigen wir Sie mit unangemessener Verzögerung und innerhalb der vertraglichen und Compliance-Anforderungen, denen wir zugestimmt haben. Nachdem alle betroffenen Mandanten identifiziert wurden, arbeitet das entsprechende Kommunikationsteam an der Identifizierung relevanter Vorschriften, die möglicherweise für betroffene Mandanten gelten. Das Kommunikationsteam verwendet den entsprechenden Kommunikationskanal, der in den geltenden Bestimmungen definiert ist, um den entsprechenden Mandantenkontakt zu benachrichtigen.
 
-![Verfahren zur Reaktion auf Vorfälle](../media/assurance-incident-response-process.png)
+![Prozess zur Reaktion auf Vorfälle.](../media/assurance-incident-response-process.png)
 
 Die Benachrichtigung enthält detaillierte Informationen zu dem Vorfall, z. B. eine Beschreibung des Vorfalls, ggf. die Auswirkungen auf Kundendaten, von Microsoft ausgeführte Aktionen und/oder vorgeschlagene Aktionen, die Kunden ergreifen können, um das Problem zu beheben und Wiederholungen zu verhindern. Die Benachrichtigung wird an den/die designierten Administratoren des Microsoft-Onlinedienstmandanten übermittelt. Um sicherzustellen, dass Benachrichtigungen empfangen werden, sollten Sie sicherstellen, dass Ihre Administratoren genaue Kontaktinformationen in ihren Mandantenprofilen bereitstellen und verwalten. Darüber hinaus können Microsoft 365 Kunden je nach Art des Vorfalls auch über das [Microsoft 365 Service Health Dashboard](http://status.yammer.com/)benachrichtigt werden.
 

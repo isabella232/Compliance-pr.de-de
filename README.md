@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 51c917585c8138a476e9aacd349c6dd46c545d2c140696ebfc4d0aee6f0a67cc
-ms.sourcegitcommit: af1925730de60c3b698edc4e1355c38972bdd759
+ms.openlocfilehash: e340c0c21579bbae4294379bf2a2b3adae222cd5
+ms.sourcegitcommit: 9766d656d0e270f478437bd39c0546ad2e4d846f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288164"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58676774"
 ---
 # <a name="overview"></a>Übersicht
 
@@ -20,11 +20,11 @@ Mitwirkende, die nur selten oder kleine Updates vornehmen, können die Datei dir
 2. Wechseln Sie zu der Seite, die Sie auf docs.microsoft.com bearbeiten möchten.
 3. Klicken Sie auf der rechten Seite der Seite auf **Bearbeiten** (Stiftsymbol).
 
-   ![Schaltfläche "Bearbeiten" auf docs.microsoft.com](compliance/media/quick-update-edit.png)
+   ![Schaltfläche "Bearbeiten" auf docs.microsoft.com.](compliance/media/quick-update-edit.png)
 
 4. Die entsprechende Themendatei auf GitHub wird geöffnet, wo Sie auf das Symbol **"Dateistift bearbeiten"** klicken müssen.
 
-   ![Schaltfläche "Bearbeiten" auf github.com](compliance/media/quick-update-github.png)
+   ![Schaltfläche "Bearbeiten" auf github.com.](compliance/media/quick-update-github.png)
 
 5. Das Thema wird auf einer zeilennummerierten Bearbeitungsseite geöffnet, auf der Sie Änderungen an der Datei vornehmen können. Dateien in GitHub werden mit markdown geschrieben und bearbeitet. Hilfe zur Verwendung von Markdown finden Sie unter [Mastering Markdown](https://guides.github.com/features/mastering-markdown/). Wählen Sie die Registerkarte **"Vorschauänderungen"** aus, um Die Änderungen während des Vorgangs anzuzeigen.
 
@@ -35,18 +35,18 @@ Mitwirkende, die nur selten oder kleine Updates vornehmen, können die Datei dir
 
    Wenn Sie fertig sind, klicken Sie auf die grüne Schaltfläche **"Dateiänderung vorschlagen".**
 
-   ![Abschnitt "Dateiänderung vorschlagen"](compliance/media/propose-file-change.png)
+   ![Vorschlagen des Abschnitts "Dateiänderung".](compliance/media/propose-file-change.png)
 
-7. Klicken Sie auf der angezeigten Seite **"Änderungen vergleichen"** auf die grüne Schaltfläche **"Pullanforderung erstellen".**
+7. Klicken Sie auf der angezeigten Seite **"Änderungen** vergleichen" auf die grüne Schaltfläche **"Pullanforderung erstellen".**
 
-   ![Seite "Änderungen vergleichen"](compliance/media/comparing-changes-page.png)
+   ![Vergleich der Seite "Änderungen".](compliance/media/comparing-changes-page.png)
 
 8. Klicken Sie auf der angezeigten Seite **"Pullanforderung öffnen"** auf die grüne Schaltfläche **"Pullanforderung erstellen".**
 
-   ![Öffnen einer Pullanforderungsseite](compliance/media/open-a-pull-request-page.png)
+   ![Öffnen Sie eine Pullanforderungsseite.](compliance/media/open-a-pull-request-page.png)
 
 > [!NOTE]
-> Ihre Berechtigungen im Repository bestimmen, was In den letzten Schritten angezeigt wird. Personen ohne besondere Berechtigungen werden der Abschnitt **"Dateiänderung vorschlagen"** und nachfolgende Bestätigungsseiten wie beschrieben angezeigt. Personen mit Berechtigungen zum Erstellen und Genehmigen ihrer eigenen Pullanforderungen sehen einen ähnlichen **Commit-Änderungsbereich** mit zusätzlichen Optionen zum Erstellen einer neuen Verzweigung und weniger Bestätigungsseiten.<br/><br/>Der Punkt ist: Klicken Sie auf alle grünen Schaltflächen, die Ihnen angezeigt werden, bis sie nicht mehr vorhanden sind.
+> Ihre Berechtigungen im Repository bestimmen, was In den letzten Schritten angezeigt wird. Personen ohne besondere Berechtigungen werden der Abschnitt **"Dateiänderung vorschlagen"** und nachfolgende Bestätigungsseiten wie beschrieben angezeigt. Personen mit Berechtigungen zum Erstellen und Genehmigen ihrer eigenen Pullanforderungen sehen einen ähnlichen **Commit-Änderungsabschnitt** mit zusätzlichen Optionen zum Erstellen einer neuen Verzweigung und weniger Bestätigungsseiten.<br/><br/>Der Punkt ist: Klicken Sie auf alle grünen Schaltflächen, die Ihnen angezeigt werden, bis sie nicht mehr vorhanden sind.
 
 Der in den Metadaten des Themas identifizierte Writer wird benachrichtigt und überprüft und genehmigt ihre Änderungen, damit das Thema auf docs.microsoft.com aktualisiert wird. Wenn Fragen oder Probleme mit den Updates auftreten, wird der Writer Sie kontaktieren.
 
@@ -60,7 +60,7 @@ Weitere Informationen finden Sie unter [Häufig gestellte Fragen zu Verhaltensre
 
 In diesem Projekt sind Beiträge und Vorschläge willkommen.  Bei den meisten Beiträgen müssen Sie die Lizenzvereinbarung für Teilnehmer (CLA) akzeptieren, und deklarieren, dass Sie das Recht haben, die Rechte für die Verwendung Ihres Beitrags zu gewähren, und dies auch tun. Weitere Informationen finden Sie unter <https://cla.microsoft.com>.
 
-Wenn Sie eine Pullanforderung übermitteln, bestimmt ein CLA-Bot automatisch, ob Sie eine CLA bereitstellen und die PR entsprechend versehen müssen (z. B. Bezeichnung, Kommentar). Folgen Sie einfach den Anweisungen des Bot. Sie müssen dies nur einmal für alle unsere Repos mit CLA tun.
+Wenn Sie eine Pull-Anforderung übermitteln, bestimmt ein CLA-Bot automatisch, ob Sie eine CLA bereitstellen und die PR entsprechend auszieren müssen (z. B. Bezeichnung, Kommentar). Folgen Sie einfach den Anweisungen des Bot. Sie müssen dies nur einmal für alle unsere Repos mit CLA tun.
 
 ### <a name="legal-notices"></a>Rechtliche Hinweise
 

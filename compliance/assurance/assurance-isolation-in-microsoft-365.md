@@ -20,18 +20,18 @@ f1.keywords:
 - NOCSH
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 9b152aedd872c43d58b248f846d5550117566442
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.openlocfilehash: 82378b72d8dc17441a1ab92fc7ac222d7b9d4036
+ms.sourcegitcommit: 9766d656d0e270f478437bd39c0546ad2e4d846f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58481927"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58678624"
 ---
 # <a name="isolation-and-access-control-in-microsoft-365"></a>Isolation und Zugriffssteuerung in Microsoft 365
 
 Azure Active Directory (Azure AD) und Microsoft 365 ein hoch komplexes Datenmodell verwenden, das Dutzende von Diensten, Hunderte von Entitäten, Tausende von Beziehungen und Tausende von Attributen umfasst. Auf hoher Ebene sind Azure AD und die Dienstverzeichnisse die Container von Mandanten und Empfängern, die mithilfe von statusbasierten Replikationsprotokollen synchronisiert werden. Zusätzlich zu den verzeichnisbasierten Informationen in Azure AD verfügt jede Dienstarbeitsauslastung über eine eigene Verzeichnisdienstinfrastruktur.
  
-![Microsoft 365 Mandantendatensynchronisierung](../media/office-365-isolation-tenant-data-sync.png)
+![Microsoft 365 Mandantendatensynchronisierung.](../media/office-365-isolation-tenant-data-sync.png)
 
 In diesem Modell gibt es keine einzige Quelle von Verzeichnisdaten. Bestimmte Systeme besitzen einzelne Datenelemente, aber kein einzelnes System enthält alle Daten. Microsoft 365 Dienste arbeiten in diesem Datenmodell mit Azure AD zusammen. Azure AD ist das "System der Wahrheit" für freigegebene Daten, bei dem es sich in der Regel um kleine und statische Daten handelt, die von jedem Dienst verwendet werden. Das in Microsoft 365 und Azure AD verwendete Verbundmodell stellt die freigegebene Ansicht der Daten bereit.
 
@@ -71,11 +71,11 @@ Zusätzlich zu den ACLs wird eine Eigenschaft auf Mandantenebene, die den Authen
 
 Für jeden Mandanten wird eine eindeutige *SubscriptionId* verwendet. Alle Kundenwebsites befinden sich im Besitz eines Mandanten und weisen eine für den Mandanten eindeutige *SubscriptionId* zu. Die *SubscriptionId-Eigenschaft* auf einer Website wird einmal geschrieben und ist dauerhaft. Nachdem eine Website einem Mandanten zugewiesen wurde, kann sie nicht auf einen anderen Mandanten verschoben werden. Die *SubscriptionId* ist der Schlüssel, der zum Erstellen des Sicherheitsumfangs für den Authentifizierungsanbieter verwendet wird und an den Mandanten gebunden ist.
 
-SharePoint Online verwendet SQL Server und Azure Storage für die Speicherung von Inhaltsmetadaten. Der Partitionsschlüssel für den Inhaltsspeicher ist *SiteId* in SQL. Beim Ausführen einer SQL Abfrage verwendet SharePoint Online eine *SiteId, die* als Teil einer *Abonnement-ID-Prüfung* auf Mandantenebene überprüft wurde.
+SharePoint Online verwendet SQL Server und Azure Storage für die Speicherung von Inhaltsmetadaten. Der Partitionsschlüssel für den Inhaltsspeicher ist *"SiteId"* in SQL. Beim Ausführen einer SQL Abfrage verwendet SharePoint Online eine *SiteId, die* als Teil einer *Abonnement-ID-Prüfung* auf Mandantenebene überprüft wurde.
 
 SharePoint Online speichert verschlüsselte Dateiinhalte in Microsoft Azure Blobs. Jede SharePoint Onlinefarm verfügt über ein eigenes Microsoft Azure Konto, und alle in Azure gespeicherten Blobs werden einzeln mit einem Schlüssel verschlüsselt, der im SQL Inhaltsspeicher gespeichert ist. Der Verschlüsselungsschlüssel, der im Code durch die Autorisierungsebene geschützt und nicht direkt für den Endbenutzer verfügbar gemacht wird. SharePoint Online verfügt über eine Echtzeitüberwachung, um zu erkennen, wann eine HTTP-Anforderung Daten für mehr als einen Mandanten liest oder schreibt. Die *SubscriptionId* der Anforderungsidentität wird anhand der *SubscriptionId* der abgerufenen Ressource nachverfolgt. Anforderungen für den Zugriff auf Ressourcen von mehr als einem Mandanten sollten von Endbenutzern niemals ausgeführt werden. Dienstanforderungen in einer mehrinstanzenfähigen Umgebung sind die einzige Ausnahme. Beispielsweise ruft der Suchcrawler Inhaltsänderungen für eine gesamte Datenbank auf einmal ab. Dies umfasst in der Regel das Abfragen von Websites mit mehr als einem Mandanten in einer einzigen Serviceanfrage, was aus Effizienzgründen erfolgt.
 
-## <a name="teams"></a>Microsoft Teams
+## <a name="teams"></a>Teams
 
 Ihre Teams Daten werden je nach Inhaltstyp unterschiedlich gespeichert. 
 

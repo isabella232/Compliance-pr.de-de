@@ -17,12 +17,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 71e84ad97c560cd90b8ba49a1c568dd70fd516f5
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.openlocfilehash: 6a44866d5c82ffa93e6c3c0d9c0ece3946651bd2
+ms.sourcegitcommit: 9766d656d0e270f478437bd39c0546ad2e4d846f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482068"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58676784"
 ---
 # <a name="developing-your-business-continuity-plan"></a>Entwickeln Ihres Geschäftskontinuitätsplans
 
@@ -83,7 +83,7 @@ Hier ist ein Beispiel für eine Abhängigkeitsanalyse (Dependency Analysis, DA),
 Sobald Sie Ihre Geschäftsprozesse inventarisiert und Beziehungen mit anderen Prozessen und Technologien verknüpft haben, müssen Sie Überprüfungsszenarien für alle Prozesse erstellen. Ermitteln Sie, wie Sie Ihre Kontinuitätspläne für Geschäftsprozesse grundsätzlich überprüfen. Sie werden wahrscheinlich feststellen, dass einige wichtiger als andere sind und Sie diese priorisieren möchten.
 Vergessen Sie nicht, dass die regelmäßige Schulung von Mitarbeitern in der Reaktion auf Sicherheitsvorfälle und in Kontinuitätsmaßnahmen nach der Einführung des Plans wichtig ist. Vorfallnachprüfungen sollten dazu verwendet werden, Ihre Ausfallsicherheitsstrategien durch Einbeziehen der Erkenntnisse aus jeder Prüfung und jedem Test zu verbessern.
 
-![Funktionsüberprüfung Visio](../media/capability-validation-visio.png)
+![Visio zur Funktionsüberprüfung.](../media/capability-validation-visio.png)
 
 ## <a name="incident-coordination-and-communication"></a>Vorfallskoordinierung und -kommunikation
 

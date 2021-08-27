@@ -20,12 +20,12 @@ ms.collection:
 ms.assetid: ce9eb942-3589-42cb-88fd-1576ecb09c5c
 ms.custom: seo-marvel-apr2020
 hideEdit: true
-ms.openlocfilehash: 951dd6063477a29fc3d442d07886d5d62e4d0dae
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.openlocfilehash: e29c6501ce4c8f1ee645a8c4b5bf22eee6e9cab8
+ms.sourcegitcommit: 9766d656d0e270f478437bd39c0546ad2e4d846f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482610"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58678644"
 ---
 # <a name="manage-gdpr-data-subject-requests-with-the-dsr-case-tool-in-the-microsoft-365-compliance-center"></a>Verwalten von Anträgen betroffener Personen nach der DSGVO mit dem DSR-Falltool im Microsoft 365 Compliance Center
 
@@ -106,7 +106,7 @@ Im nächsten Schritt erstellen wir einen DSR-Fall (Fall für einen Antrag einer 
 
     Es wird eine Seite mit der Bestätigung angezeigt, dass der neue Fall für einen Antrag einer betroffenen Person erstellt wurde.
 
-    ![Starten der Suche oder Schließen der Seite "Neuer Fall für einen Antrag einer betroffenen Person"](../media/b5e62c2c-cafe-4a8d-a38c-789ed9f9ccbd.png)
+    ![Starten Sie die Suche, oder schließen Sie die Seite für neue DSR-Anträge.](../media/b5e62c2c-cafe-4a8d-a38c-789ed9f9ccbd.png)
   
     An dieser Stelle können Sie zwischen zwei Aktionen wählen:
 
@@ -201,7 +201,7 @@ Der Computer, den Sie für den Export von Daten verwenden, muss folgende Systema
 
 4. Wählen Sie auf der Seite **Ergebnisse exportieren** die folgenden empfohlenen Optionen für DSR-Exportanforderungen aus. 
 
-    ![Konfigurieren der Exporteinstellungen](../media/25416b79-57da-46a1-ae07-e640602a8fa4.png)
+    ![Konfigurieren der Exporteinstellungen.](../media/25416b79-57da-46a1-ae07-e640602a8fa4.png)
   
     a. Wählen sie unter **Ausgabeoptionen** die erste Option aus (**Alle Elemente, mit Ausnahme solcher mit einem unbekannten Format, die verschlüsselt sind oder aus anderen Gründen nicht indiziert wurden**) aus, um nur indizierte Elemente zu exportieren. Der Grund, warum teilweise indizierte Elemente aus der integrierten Suche nicht exportiert werden sollen, liegt daran, dass teilweise indizierte Elemente anderer Benutzer ebenfalls exportiert würden. Wenn Sie nur die teilweise indizierten Elemente für eine betroffene Person exportieren möchten, empfiehlt es sich, eine separate Suche zu erstellen. Weitere Informationen finden Sie unter [Exportieren teilweise indizierter Elemente](#exporting-partially-indexed-items) im Abschnitt "Weitere Informationen zur Verwendung des DSR-Falltools".
 
@@ -221,7 +221,7 @@ Der Computer, den Sie für den Export von Daten verwenden, muss folgende Systema
 
 8. Klicken Sie unter **Exportschlüssel** auf **In die Zwischenablage kopieren**. Dieser Schlüssel wird zum Herunterladen der Suchergebnisse in Schritt 11 verwendet.
 
-9. Klicken Sie oben auf der Export-Flyoutseite auf ![Symbol "Suchergebnisse exportieren"](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) **Ergebnisse herunterladen**. 
+9. Klicken Sie auf ![das "Suchergebnisse exportieren"-Symbol.](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) **Ergebnisse herunterladen** am oberen Rand der Export-Flyoutseite. 
 
 10. Klicken Sie im Popupfenster unten auf der Seite auf **Öffnen**, um das **eDiscovery-Exporttool** zu öffnen. Das **eDiscovery-Exporttool** wird beim ersten Herunterladen von Suchergebnissen installiert. 
 
@@ -262,11 +262,11 @@ So ändern Sie die zu durchsuchenden Inhaltsspeicherorte:
 
 2. Klicken Sie in der Suchabfrage unter **Speicherorte** neben **Bestimmte Speicherorte** auf **Ändern**. 
 
-    ![Klicken Sie auf "Ändern", um die Inhaltsspeicherorte der integrierten Suchabfrage zu ändern.](../media/d66f7ba7-b71f-4ff5-a030-460ff02e3123.png)
+    ![Klicken Sie auf Ändern, um die Inhaltsspeicherorte der integrierten Suchabfrage zu ändern.](../media/d66f7ba7-b71f-4ff5-a030-460ff02e3123.png)
   
     Die Flyoutseite **Speicherorte ändern** wird angezeigt. Hier ist eine Beschreibung der Inhaltsspeicherorte in der integrierten Suche sowie einige Informationen zum Ändern der durchsuchten Speicherorte. 
 
-    ![Flyoutseite "Speichorte ändern"](../media/56c033f6-6735-46ba-abb2-a263a2b79836.png)
+    ![Die Standort-Flyoutseite ändern.](../media/56c033f6-6735-46ba-abb2-a263a2b79836.png)
   
     a. Der Umschalter unter **Alle auswählen** im Abschnitt "Postfach" oben auf der Flyoutseite ist aktiviert, was bedeutet, dass alle Postfächer durchsucht werden. Wenn Sie die Suche eingrenzen möchten, klicken Sie auf den Schalter, um die Auswahl aufzuheben, und dann auf **Benutzer, Gruppen oder Teams auswählen**, und wählen Sie bestimmte Postfächer aus, die durchsucht werden sollen.
 
@@ -305,13 +305,13 @@ Wenn Sie Daten aus dem Office-Roamingdienst exportieren, werden diese in einem s
   
 1. Klicken Sie im Microsoft 365 Compliance Center auf **Anträge betroffener Personen** und dann auf **Fall öffnen** neben dem DSR-Fall für die betroffene Person, für die Sie Nutzungsdaten exportieren möchten. 
 
-2. Klicken Sie oben auf der Seite auf die Registerkarte **Suchen** und dann auf ![Symbol "Hinzufügen"](../media/ITPro-EAC-AddIcon.gif) **Geführte Suche**.
+2. Klicken Sie oben auf der Seite auf die Registerkarte **Suchen** und dann auf ![Symbol Hinzufügen](../media/ITPro-EAC-AddIcon.gif) **Geführte Suche**.
 
 3. Klicken Sie auf der Seite **Namen der Suche** auf **Abbrechen**. 
 
 4. Aktivieren Sie unter **Suchabfrage** in der Bedingung **Typ** das Kontrollkästchen neben **Office-Roamingdienst**. 
 
-    ![Aktivieren des Kontrollkästchens neben "Office-Roamingdienst", um Nutzungsdaten zu exportieren](../media/O365_DSRCase_SDSDataExport1.png)
+    ![Aktivieren Sie das "Office-Roamingdienst"-Kontrollkästchen um Nutzungsdaten zu exportieren.](../media/O365_DSRCase_SDSDataExport1.png)
   
     Die **Typ**-Bedingung (die E-Mail-Nachrichtenklassen betrifft) sollte das einzige Element in der Suchabfrage sein. Sie können das Feld **Schlüsselwörter** löschen oder es leer lassen. 
 
@@ -327,13 +327,13 @@ Wenn Sie Daten aus dem Office-Roamingdienst exportieren, werden diese in einem s
 
  **So exportieren Sie Daten des Office-Roamingdiensts**:
   
-1. Wenn die im vorherigen Schritt erstellte Suche abgeschlossen ist, klicken Sie oben auf der Seite auf die Registerkarte **Suchen** und dann auf das Kontrollkästchen neben der Suche. Möglicherweise müssen Sie auf ![Aktualisieren](../media/165fb3ad-38a8-4dd9-9e76-296aefd96334.png) **Aktualisieren** klicken, um die Suche anzuzeigen.
+1. Wenn die im vorherigen Schritt erstellte Suche abgeschlossen ist, klicken Sie oben auf der Seite auf die Registerkarte **Suchen** und dann auf das Kontrollkästchen neben der Suche. Möglicherweise müssen Sie auf ![Aktualisieren klicken.](../media/165fb3ad-38a8-4dd9-9e76-296aefd96334.png) **aktualisieren,** um die Suche anzuzeigen.
 
 2. Klicken Sie auf der Flyoutseite auf **Ergebnisse exportieren**.
 
 3. Wählen Sie auf der Seite **Ergebnisse exportieren** die empfohlenen Optionen zum Exportieren von Nutzungsdaten aus. 
 
-    ![Exportoptionen beim Exportieren von Nutzungsdaten des Office-Roamingdiensts](../media/470a7d1e-eeae-4b42-95aa-15cb82ce2f68.png)
+    ![Exportoptionen beim Exportieren von Nutzungsdaten des Office-Roamingdiensts.](../media/470a7d1e-eeae-4b42-95aa-15cb82ce2f68.png)
   
     a. Wählen sie unter **Ausgabeoptionen** die erste Option aus (**Alle Elemente, mit Ausnahme solcher mit einem unbekannten Format, die verschlüsselt sind oder aus anderen Gründen nicht indiziert wurden**) aus, um nur indizierte Elemente zu exportieren.
 
@@ -351,7 +351,7 @@ Wenn Sie Daten aus dem Office-Roamingdienst exportieren, werden diese in einem s
 
 7. Klicken Sie unter **Exportschlüssel** auf **In die Zwischenablage kopieren**. Dieser Schlüssel wird zum Herunterladen der Suchergebnisse in Schritt 10 verwendet.
 
-8. Klicken Sie oben auf der Export-Flyoutseite auf ![Symbol "Suchergebnisse exportieren"](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) **Ergebnisse herunterladen**. 
+8. Klicken Sie auf ![das "Suchergebnisse exportieren"-Symbol.](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) **Ergebnisse herunterladen** am oberen Rand der Export-Flyoutseite. 
 
 9. Klicken Sie im Popupfenster unten auf der Seite auf **Öffnen**, um das **eDiscovery-Exporttool** zu öffnen. Das **eDiscovery-Exporttool** wird beim ersten Herunterladen von Suchergebnissen installiert. 
 
