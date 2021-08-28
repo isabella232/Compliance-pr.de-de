@@ -18,12 +18,12 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2c016cb1d13654564dcbbc3a013e6bb52e1fbb2b
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.openlocfilehash: 820197523e37958873853e00afdcff555408f423
+ms.sourcegitcommit: 9766d656d0e270f478437bd39c0546ad2e4d846f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482418"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58676854"
 ---
 # <a name="azure-data-subject-requests-for-the-gdpr-and-ccpa"></a>Anträge betroffener Personen für Azure im Rahmen der DSGVO und des CCPA
 
@@ -97,15 +97,15 @@ Dies ist besonders hilfreich, wenn Sie nach personenbezogenen Daten für einen b
 
 2. Wählen Sie **Azure Active Directory** aus.
 
-     ![Alle Dienste auswählen](../media/gdpr-azure-dsr-azure-portal.png)
+     ![Alle Dienste auswählen.](../media/gdpr-azure-dsr-azure-portal.png)
 
 3. Wählen Sie **Benutzer** aus.
 
-     ![Benutzer auswählen](../media/gdpr-azure-dsr-azure-all-users.png)
+     ![Benutzer auswählen.](../media/gdpr-azure-dsr-azure-all-users.png)
 
 4. Wählen Sie auf dem Blatt **Alle Benutzer** einen Benutzer aus der Liste aus, und wählen Sie dann auf dem Blatt für den ausgewählten Benutzer **Profil** aus, um Benutzerprofilinformationen anzuzeigen, die möglicherweise personenbezogene Daten enthalten.
 
-    ![Profil auswählen](../media/gdpr-azure-dsr-azure-user-profile.png)
+    ![Profil auswählen.](../media/gdpr-azure-dsr-azure-user-profile.png)
 
 5. Wenn Sie Benutzerprofilinformationen hinzufügen oder ändern möchten, können Sie dies tun, indem Sie in der Befehlsleiste **Bearbeiten** auswählen und dann auf **Speichern** klicken, nachdem Sie Änderungen vorgenommen haben.
 
@@ -145,19 +145,19 @@ Sie können in Ihrer [Azure Active Directory](https://azure.microsoft.com/servic
 
 2. Wählen Sie **Azure Active Directory** aus.
 
-    ![Alle Dienste auswählen](../media/gdpr-azure-dsr-azure-portal.png)
+    ![Alle Dienste auswählen.](../media/gdpr-azure-dsr-azure-portal.png)
 
 3. Wählen Sie **Benutzer** aus.
 
-    ![Benutzer auswählen](../media/gdpr-azure-dsr-azure-all-users.png)
+    ![Benutzer auswählen.](../media/gdpr-azure-dsr-azure-all-users.png)
 
 4. Wählen Sie auf dem Blatt **Alle Benutzer** einen Benutzer aus der Liste aus, und wählen Sie dann auf dem Blatt für den ausgewählten Benutzer **Profil** aus, um Benutzerprofilinformationen anzuzeigen, die korrigiert oder aktualisiert werden müssen.
 
-    ![Benutzerprofil auswählen](../media/gdpr-azure-dsr-azure-user-profile.png)
+    ![Benutzerprofil auswählen.](../media/gdpr-azure-dsr-azure-user-profile.png)
 
 5. Korrigieren oder aktualisieren Sie die Benutzerprofilinformationen, einschließlich der Arbeitsinformationen, indem Sie in der Befehlsleiste **Bearbeiten** auswählen und dann auf  **Speichern** klicken, nachdem Sie Änderungen vorgenommen haben.
 
-    ![Bearbeiten auswählen](../media/gdpr-azure-dsr-azure-edit-user-profile.png)
+    ![Wählen Sie "Bearbeiten" aus.](../media/gdpr-azure-dsr-azure-edit-user-profile.png)
 
 #### <a name="service-specific-interfaces"></a>Dienstspezifische Schnittstellen
 
@@ -194,26 +194,26 @@ Im Folgenden finden Sie die grundlegenden Schritte zum Löschen von Benutzern au
 
 2. Wählen Sie **Azure Active Directory** aus.
 
-    ![Alle Dienste auswählen](../media/gdpr-azure-dsr-azure-portal.png)
+    ![Alle Dienste auswählen.](../media/gdpr-azure-dsr-azure-portal.png)
 
 3. Wählen Sie **Benutzer** aus.
 
-    ![Benutzer auswählen](../media/gdpr-azure-dsr-azure-all-users.png)
+    ![Benutzer auswählen.](../media/gdpr-azure-dsr-azure-all-users.png)
 
 4. Aktivieren Sie das Kontrollkästchen neben dem Benutzer, den Sie löschen möchten, wählen Sie **Benutzer löschen** aus, und wählen Sie dann **Ja** in dem Feld aus, in dem Sie gefragt werden, ob Sie den Benutzer löschen möchten.
 
-    ![Benutzerverwaltung](../media/gdpr-azure-dsr-azure-selected-user.png)
+    ![Benutzerverwaltung.](../media/gdpr-azure-dsr-azure-selected-user.png)
 
 5. Wählen Sie auf dem Blatt  **Alle Benutzer**  die Option  **Gelöschte Benutzer** aus.
 
-    ![Benutzerprofil anzeigen](../media/gdpr-azure-dsr-azure-deleted-user.png)
+    ![Benutzerprofil anzeigen.](../media/gdpr-azure-dsr-azure-deleted-user.png)
 
 4. Wählen Sie denselben Benutzer erneut aus, wählen Sie in der Befehlsleiste  **Dauerhaft löschen** aus, und wählen Sie dann  **Ja**  in dem Feld aus, in dem Sie gefragt werden, ob Sie sicher sind.
 
 >[!IMPORTANT]  
 >Beachten Sie, dass Sie den Benutzer und alle verbundenen Daten und vom System generierten Protokolle dauerhaft und unwiderruflich löschen, indem Sie auf **Ja** klicken. Wenn Sie dies versehentlich tun, müssen Sie den Benutzer manuell wieder zum Mandanten hinzufügen. Die verbundenen Daten und die vom System generierten Protokolle werden nicht wiederhergestellt.
 
-   ![Benutzerarbeitsinformationen anzeigen](../media/gdpr-azure-dsr-azure-permanently-deleted-user.png)
+   ![Benutzerarbeitsinformationen anzeigen.](../media/gdpr-azure-dsr-azure-permanently-deleted-user.png)
 
 #### <a name="service-specific-interfaces"></a>Dienstspezifische Schnittstellen
 
@@ -289,15 +289,15 @@ Im Folgenden finden Sie die grundlegenden Schritte zum Exportieren von Daten aus
 
 1. Öffnen Sie das Azure-Portal, wählen Sie **Alle Dienste** aus, geben Sie *Richtlinie* in den Filter ein, und wählen Sie dann **Richtlinie** aus.
 
-     ![Alle Dienste filtern ](../media/gdpr-azure-dsr-azure-policy.png)
+     ![Alle Dienste filtern .](../media/gdpr-azure-dsr-azure-policy.png)
 
 2. Wählen Sie im Blatt **Richtlinie** die Option **Datenschutz** und dann die Option **Benutzeranforderungen verwalten** aus, und wählen Sie dann **Exportanforderung hinzufügen** aus.
 
-    ![Exportanforderung hinzufügen ](../media/gdpr-azure-dsr-azure-add-export-request.png)
+    ![Exportanforderung hinzufügen .](../media/gdpr-azure-dsr-azure-add-export-request.png)
 
 3. Schließen Sie die **Anforderung zum Exportieren von Daten** ab:
 
-    ![Neue Anforderung zum Exportieren von Daten](../media/gdpr-azure-dsr-azure-export-data-request.png)
+    ![Neue Anforderung zum Exportieren von Daten.](../media/gdpr-azure-dsr-azure-export-data-request.png)
 
 - **Benutzer** – geben Sie die E-Mail-Adresse des Azure Active Directory-Benutzers ein, der den Export angefordert hat.
 - **Abonnement** – wählen Sie das Konto aus, über das Sie die Ressourcennutzung berichten und Dienste in Rechnung stellen. Dies ist auch der Speicherort Ihres Azure-Speicherkontos.
