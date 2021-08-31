@@ -22,7 +22,7 @@ highlightedContent:
       url: /learn/paths/audit-safeguard-customer-data/
     - title: Erfahren Sie mehr über die gemeinsame Verantwortung in der Cloud
       itemType: overview
-      url: /azure/security/fundamentals/shared-responsibility
+      url: /azure/security/fundamentals/shared-responsibility?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json
     - title: Informationen zu Microsoft Compliance Manager
       itemType: learn
       url: /learn/paths/compmgmt/
@@ -177,7 +177,7 @@ conceptualContent:
 additionalContent:
   sections:
     - title: Erste Schritte mit Compliance in Microsoft-Onlinediensten
-      summary: 'Wenn Sie noch nicht mit Compliance vertraut sind und sich fragen, wo Sie mit Microsoft-Onlinediensten beginnen sollten, enthält dieser Abschnitt Links zu den wichtigsten Compliancebereichen für jeden Dienst.'
+      summary: 'Wenn Sie noch nicht mit Compliance vertraut sind und sich fragen, wo Sie mit Microsoft-Onlinediensten beginnen sollten, finden Sie in diesem Abschnitt Links zu den wichtigsten Compliancebereichen für jeden Dienst.'
       items:
         - title: Microsoft Azure
           summary: 'Azure Compliance bietet Ihnen Complianceangebote, Blueprints, Compliance-Leitfäden und Ressourcen, die Ihnen helfen, Ihre Compliance-Verpflichtungen zu erfüllen.'

@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 57e5a9140c7a4aaff49bceb798bb6815e675f328
-ms.sourcegitcommit: 16cec8f7ca799a415bfbae937b177a628a0f2987
+ms.openlocfilehash: 50c44b6801e15af02bf4bfa4f4d46758b7a6c7a8
+ms.sourcegitcommit: 70efe7749db2c6dd4ae0faa8ac22da6e87109c79
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58505928"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58707124"
 ---
 # <a name="securities-and-exchange-commission-sec-rule-17a-4f-united-states"></a>Securities and Exchange Commission (SEC) Rule 17a-4(f) United States
 
@@ -35,7 +35,7 @@ Ein elektronisches Speichersystem erfüllt diese Bedingungen, wenn es die Änder
 
 ## <a name="microsoft-and-sec-rule-17a-4f"></a>Microsoft- und SEC-Regel 17a-4(f)
 
-Finanzdienstleistungskunden, die eine der am stärksten regulierten Branchen der Welt darstellen, unterliegen komplexen Bestimmungen wie der Aufbewahrung von Finanztransaktionen und der damit verbundenen Kommunikation in einem nicht löschbaren und nicht veränderbaren Zustand. Eine der wichtigsten Bestimmungen ist Regel 17a-4(f) der US Security and Exchange Commission (SEC), die strenge Anforderungen für regulierte Entitäten festlegt, die entscheiden, Bücher und Aufzeichnungen auf elektronischen Speichermedien aufzubewahren. Gespeicherte Datensätze müssen manipulationssicher sein, ohne dass sie bis nach dem festgelegten Aufbewahrungszeitraum geändert oder gelöscht werden können.
+Finanzdienstleistungskunden, die eine der am stärksten regulierten Branchen der Welt darstellen, unterliegen komplexen Bestimmungen wie der Aufbewahrung von Finanztransaktionen und der damit verbundenen Kommunikation in einem nicht löschbaren und nicht veränderbaren Zustand. Zu den wichtigsten Bestimmungen zählt Regel 17a-4(f) der US Security and Exchange Commission (SEC), die strenge Anforderungen für regulierte Entitäten festlegt, die entscheiden, Bücher und Aufzeichnungen auf elektronischen Speichermedien aufzubewahren. Gespeicherte Datensätze müssen manipulationssicher sein, ohne dass sie bis nach dem festgelegten Aufbewahrungszeitraum geändert oder gelöscht werden können.
 
 Microsoft Azure Unveränderliche Blob-Storage mit Richtliniensperre und Microsoft Office 365 mit Erhaltungssperre können Finanzinstituten helfen, die unveränderlichen Speicheranforderungen der SEC-Regel 17a-4(f) zu erfüllen.
 
@@ -46,7 +46,7 @@ Microsoft Azure Unveränderliche Blob-Storage mit Richtliniensperre und Microsof
 
 ## <a name="independent-assessments"></a>Unabhängige Bewertungen
 
-Um azure und Office 365 Einhaltung der SEC-Regel 17a-4(f) zu bewerten, hat Microsoft ein unabhängiges Bewertungsunternehmen beibehalten, das sich auf datensatzverwaltung und Informationsgovernance spezialisiert hat, Cohasset Associates.
+Um die Compliance von Azure und Office 365 SEC-Regel 17a-4(f) zu bewerten, bewahre Microsoft ein unabhängiges Bewertungsunternehmen, das sich auf datensatzverwaltung und Informationsgovernance spezialisiert hat, Cohasset Associates.
 
 ### <a name="azure"></a>Azure
 
@@ -54,9 +54,9 @@ Um azure und Office 365 Einhaltung der SEC-Regel 17a-4(f) zu bewerten, hat Micro
 
 Microsoft bewahre ein unabhängiges Drittanbieterbewertungsunternehmen, das sich auf datensatzverwaltung und Informationsgovernance spezialisiert hat, um unveränderlichen Speicher für azure Blob Storage compliance with SEC Rule 17a-4(f) requirements zu bewerten. Der resultierende Bericht *["Cohasset Assessment: Microsoft Azure WORM Storage"](https://azure.microsoft.com/resources/azure-immutable-storage-assessment-for-sec-17a-4f-by-cohasset/)* ist für Kunden verfügbar.
 
-Der Prüfer ist der Meinung, dass Azure Storage mit dem *unveränderlichen Speicher für das Azure Blobs-Feature* und der *gesperrten zeitbasierten Richtlinienoption* zeitbasierte Blobs (Datensätze) in einem nicht löschbaren und nicht neu beschreibbaren Format beibehalten. und erfüllt die relevanten Speicheranforderungen der SEC-Regel 17a-4(f), [der FINRA-Regel 4511(c)](/azure/compliance/offering-finra-4511-us.md)und der prinzipienbasierten Anforderungen der [CFTC-Regel 1.31(c)-(d)](offering-cftc-1-31-us.md).
+Der Prüfer ist der Meinung, dass Azure Storage mit dem *Unveränderlichen Speicher für das Azure Blobs-Feature* und der *gesperrten zeitbasierten Richtlinienoption* zeitbasierte Blobs (Datensätze) in einem nicht löschbaren und nicht neu beschreibbaren Format beibehalten. und erfüllt die relevanten Speicheranforderungen der SEC-Regel 17a-4(f), [der FINRA-Regel 4511(c)](offering-FINRA-4511.md)und der prinzipienbasierten Anforderungen der [CFTC-Regel 1.31(c)-(d)](offering-cftc-1-31-us.md).
 
-Auf Anforderung stellt Microsoft auch einen *90-tägigen Brief* bereit, der erforderlich ist, um die SEC 17a-4(f)(2)-Anforderungen zu erfüllen, damit Kunden ihre designierte Prüfungsstelle mindestens 90 Tage vor der Verwendung elektronischer Speichermedien benachrichtigen können. Wie in den Bestimmungen angegeben, "muss das Mitglied, der Broker oder der Händler eine eigene Darstellung oder eine vom Anbieter des Speichermediums oder von einem anderen Drittanbieter mit entsprechendem Fachwissen bereitstellen, dass das ausgewählte Speichermedium die in diesem Absatz (f)(2) festgelegten Bedingungen erfüllt." Um den Microsoft *Attestation of Electronic Storage Media Services* for SEC Rule 17a-4 zu erhalten, können Kunden mit einem [Azure-Supportplan](https://azure.microsoft.com/support/plans/) [ein Supportticket](https://azure.microsoft.com/support/create-ticket/) im Azure-Portal erstellen und das Attestation Letter für SEC Rule 17a-4 anfordern. In diesem Dokument bietet Microsoft Zusicherungen, die für die SEC 17a-4(f)(2)-Anforderungen relevant sind.
+Auf Anforderung stellt Microsoft außerdem einen *90-tägigen Brief* bereit, der erforderlich ist, um die SEC 17a-4(f)(2)-Anforderungen zu erfüllen, damit Kunden ihre designierte Prüfungsstelle mindestens 90 Tage vor der Verwendung elektronischer Speichermedien benachrichtigen können. Wie in den Bestimmungen angegeben, "muss das Mitglied, der Broker oder der Händler eine eigene Darstellung oder eine vom Anbieter des Speichermediums oder von einem anderen Drittanbieter mit entsprechendem Fachwissen bereitstellen, dass das ausgewählte Speichermedium die in diesem Absatz (f)(2) festgelegten Bedingungen erfüllt." Um den Microsoft *Attestation of Electronic Storage Media Services* for SEC Rule 17a-4 zu erhalten, können Kunden mit einem [Azure-Supportplan](https://azure.microsoft.com/support/plans/) [ein Supportticket](https://azure.microsoft.com/support/create-ticket/) im Azure-Portal erstellen und das Attestation Letter für SEC Rule 17a-4 anfordern. In diesem Dokument bietet Microsoft Zusicherungen, die für die SEC 17a-4(f)(2)-Anforderungen relevant sind.
 
 ### <a name="office-365"></a>Office 365
 

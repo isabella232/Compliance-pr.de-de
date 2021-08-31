@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 2e6dc7b7dcd59e3d82d6787b59f698c621f119bb
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.openlocfilehash: 6785c459f8350714b8e4636a0f1a5dc9f4ff667d
+ms.sourcegitcommit: 9bb0e86b2fd4121a3a79a23dde95aa2584ce3167
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58480487"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58744261"
 ---
 # <a name="new-zealand-government-information-security-and-privacy-considerations-ispc"></a>Überlegungen zur Informationssicherheit und zum Datenschutz in Neuseeland (NEW Zealand Government Information Security and Privacy Considerations, ISPC)
 
@@ -77,12 +77,13 @@ Wenn Ihre Organisation die Zertifizierung und Akkreditierung ihres ICT-Systems g
 - [Sicherheitsanforderungen für gehostete Office Produktivitätsdienste: Konformitätshandbuch für Office 365](https://aka.ms/o365-gcio-conformance-guidance)
 - [NZ Government ICT Strategy 2015](https://www.ict.govt.nz/strategy-and-action-plan/strategy/)
 - [Cloud Computing: Überlegungen zur Informationssicherheit und zum Datenschutz (ISPC)](https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/cloud-services/)
-- [Nutzungsbedingungen für Microsoft-Onlinedienste](https://aka.ms/Online-Services-Terms)
+- [Microsoft Online Services-Nutzungsbedingungen](https://aka.ms/Online-Services-Terms)
 - [Compliance im Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="microsoft-responses-to-cloud-computing-ipsc"></a>Microsoft-Antworten auf Cloud Computing IPSC
 
 - [Azure](https://aka.ms/Azure-NZ-response)
+- [Dynamics 365](https://www.microsoft.com/download/details.aspx?id=103390)
 - [Intune](https://aka.ms/Intune-NZ-response)
 - [Office 365](https://aka.ms/O365-NZ-Response)
 - [Power BI](https://download.microsoft.com/download/5/1/7/51726B9B-2E76-49C4-9D4F-A36BF025CB93/Response-to-GCIO-105-questions-Power-BI.pdf)

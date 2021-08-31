@@ -10,6 +10,8 @@
       href: assurance-microsoft-365-isolation-controls.md
     - name: Microsoft 365-Infrastruktursicherheit
       href: assurance-securing-microsoft-365-infrastructure.md
+    - name: Gemeinsame Verantwortung
+      href: /azure/security/fundamentals/shared-responsibility?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json
 - name: Überwachungsprotokollierung
   items:
     - name: Überwachungsprotokollierung (Übersicht)

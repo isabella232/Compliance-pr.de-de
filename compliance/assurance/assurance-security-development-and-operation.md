@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: fc6113dbf5c095cc4b22eb8ed0a4527d84f7e143
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.openlocfilehash: b74c004e63838900f87c774a8acf84ab8aeb03d4
+ms.sourcegitcommit: 70efe7749db2c6dd4ae0faa8ac22da6e87109c79
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58481747"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58707114"
 ---
 # <a name="security-development-and-operations-overview"></a>Übersicht über die Sicherheitsentwicklung und den Sicherheitsbetrieb
 
@@ -56,7 +56,7 @@ Microsoft hat eine allgemeine Strategie für die Verwaltung der Open Source-Sich
 - Ermitteln, ob diese Komponenten Sicherheitsrisiken aufweisen.
 - Bei ermittelten Sicherheitsrisiken, die sich auf diese Komponenten auswirken, angemessen zu reagieren.
 
-Microsoft-Entwicklungsteams sind für die Sicherheit aller Open Source-Software, die in einem Produkt oder Dienst enthalten ist, verantwortlich. Um diese Sicherheit im großen Maßstab zu erreichen, hat Microsoft über CG wesentliche Funktionen in Engineering-Systeme integriert, die die Open Source-Erkennung, rechtliche Anforderungsworkflows und Warnungen für anfällige Komponenten automatisieren. Automatisierte CG-Tools überprüfen Builds bei Microsoft auf Open Source-Komponenten und zugehörige Sicherheitsrisiken oder rechtliche Verpflichtungen. Entdeckte Komponenten werden registriert und den zuständigen Teams für Business-und Security Reviews übermittelt. Diese Überprüfungen sind so ausgelegt, dass sie alle rechtlichen Verpflichtungen oder Sicherheitsrisiken auswerten, die mit Open Source-Komponenten verbunden sind, und diese beheben, bevor sie Komponenten für die Bereitstellung genehmigen.
+Microsoft-Entwicklungsteams sind für die Sicherheit aller Open Source-Software, die in einem Produkt oder Dienst enthalten ist, verantwortlich. Um diese Sicherheit in großem Umfang zu erreichen, hat Microsoft über Component Governance (CG) wesentliche Funktionen in Engineering-Systeme integriert, die die Open Source-Erkennung, gesetzliche Anforderungsworkflows und Warnungen für anfällige Komponenten automatisieren. Automatisierte CG-Tools überprüfen Builds bei Microsoft auf Open Source-Komponenten und zugehörige Sicherheitsrisiken oder rechtliche Verpflichtungen. Entdeckte Komponenten werden registriert und den zuständigen Teams für Business-und Security Reviews übermittelt. Diese Überprüfungen sind so ausgelegt, dass sie alle rechtlichen Verpflichtungen oder Sicherheitsrisiken auswerten, die mit Open Source-Komponenten verbunden sind, und diese beheben, bevor sie Komponenten für die Bereitstellung genehmigen.
 
 ## <a name="related-external-regulations--certifications"></a>Verwandte externe Vorschriften & Zertifizierungen
 
