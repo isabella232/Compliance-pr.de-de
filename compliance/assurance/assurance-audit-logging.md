@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 3212ca2a42677dc27afda8a7598b39d7f24bf27c
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.openlocfilehash: 11695a941e5d5e6740833ab19bf2d68ac487c1c5
+ms.sourcegitcommit: 5e6e25ed264b248522ad49ea25490962db08e471
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482188"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "58832258"
 ---
 # <a name="audit-logging-overview"></a>Überwachungsprotokollierung (Übersicht)
 
@@ -38,7 +38,7 @@ Die interne Überwachungsprotokollierung von Microsoft Online Services erfasst P
 - Ereignisprotokolle
 - AppLocker-Protokolle
 - Leistungsdaten
-- System Center Daten
+- System Center-Daten
 - Anrufdetaildatensätze
 - QoE-Daten
 - IIS-Webserverprotokolle
@@ -48,15 +48,17 @@ Die interne Überwachungsprotokollierung von Microsoft Online Services erfasst P
 
 ## <a name="how-do-microsoft-online-services-centralize-and-report-on-audit-logs"></a>Wie zentralisieren und berichten Microsoft-Onlinedienste über Überwachungsprotokolle?
 
-Viele verschiedene Arten von Protokolldaten werden von Microsoft-Servern in eine proprietäre Sicherheitsüberwachungslösung für die Analyse in nahezu Echtzeit (NRT) und einen internen Big Data Computing-Dienst (Cosmos) oder Azure Data Explorer (Kusto) für die langfristige Speicherung hochgeladen. Diese Datenübertragung erfolgt über eine FIPS 140-2-validierte TLS-Verbindung an genehmigten Ports und Protokollen mithilfe automatisierter Protokollverwaltungstools.
+Viele verschiedene Arten von Protokolldaten werden von Microsoft-Servern in eine proprietäre Sicherheitsüberwachungslösung für die Nahezu-Echtzeit-Analyse (NRT) und einen internen Big Data Computing-Dienst (Cosmos) oder Azure Data Explorer (Kusto) für die langfristige Speicherung hochgeladen. Diese Datenübertragung erfolgt über eine FIPS 140-2-validierte TLS-Verbindung an genehmigten Ports und Protokollen mithilfe automatisierter Protokollverwaltungstools.
 
 Protokolle werden in NRT mithilfe regelbasierter, statistischer und maschineller Lernmethoden verarbeitet, um Systemleistungsindikatoren und potenzielle Sicherheitsereignisse zu erkennen. Machine Learning-Modelle verwenden eingehende Protokolldaten und Verlaufsprotokolldaten, die in Cosmos oder Kusto gespeichert sind, um die Erkennungsfunktionen kontinuierlich zu verbessern. Sicherheitsrelevante Erkennungen generieren Warnungen, benachrichtigen Bereitschaftstechniker über einen potenziellen Vorfall und lösen ggf. automatisierte Abhilfemaßnahmen aus. Zusätzlich zur automatisierten Sicherheitsüberwachung verwenden Serviceteams Analysetools und Dashboards für Datenkorrelation, interaktive Abfragen und Datenanalyse. Diese Berichte werden verwendet, um die Gesamtleistung des Diensts zu überwachen und zu verbessern.
 
 Weitere Informationen zur Sicherheitsüberwachung und -warnung finden Sie in der Übersicht über die [Sicherheitsüberwachung.](assurance-security-monitoring.md)
 
+![Überwachen des Datenflusses.](../media/assurance-audit-data-flow.png)
+
 ## <a name="how-do-microsoft-online-services-protect-audit-logs"></a>Wie schützen Microsoft-Onlinedienste Überwachungsprotokolle?
 
-Die Tools, die in Microsoft-Onlinediensten zum Sammeln und Verarbeiten von Überwachungsdatensätzen verwendet werden, lassen keine dauerhaften oder nicht rückgängig gemachten Änderungen am ursprünglichen Inhalt des Überwachungsdatensatzes oder an der Zeitreihenfolge zu. Der Zugriff auf Microsoft-Onlinedienstdaten, die in Cosmos oder Kusto gespeichert sind, ist auf autorisiertes Personal beschränkt. Darüber hinaus beschränkt Microsoft die Verwaltung von Überwachungsprotokollen auf eine begrenzte Teilmenge von Sicherheitsteammitgliedern, die für die Überwachungsfunktionen verantwortlich sind. Mitarbeiter des Sicherheitsteams haben keinen ständigen administrativen Zugriff auf Cosmos oder Kusto. Für den Administratorzugriff ist die Genehmigung des JIT-Zugriffs (Just-In-Time) erforderlich, und alle Änderungen an Protokollierungsmechanismen für Cosmos werden aufgezeichnet und überwacht. Überwachungsprotokolle werden lange genug aufbewahrt, um Vorfalluntersuchungen zu unterstützen und behördliche Anforderungen zu erfüllen. Der genaue Zeitraum der Aufbewahrung von Überwachungsprotokolldaten, der von den Serviceteams bestimmt wird; Die meisten Überwachungsprotokolldaten werden 90 Tage in Cosmos und 180 Tage in Kusto aufbewahrt.
+Die Tools, die in Microsoft-Onlinediensten zum Sammeln und Verarbeiten von Überwachungsdatensätzen verwendet werden, lassen keine dauerhaften oder nicht rückgängig gemachten Änderungen am ursprünglichen Inhalt des Überwachungsdatensatzes oder an der Zeitreihenfolge zu. Der Zugriff auf Microsoft-Onlinedienstdaten, die in Cosmos oder Kusto gespeichert sind, ist auf autorisiertes Personal beschränkt. Darüber hinaus beschränkt Microsoft die Verwaltung von Überwachungsprotokollen auf eine begrenzte Teilmenge von Sicherheitsteammitgliedern, die für die Überwachungsfunktionen verantwortlich sind. Mitarbeiter des Sicherheitsteams haben keinen ständigen administrativen Zugriff auf Cosmos oder Kusto. Für den administrativen Zugriff ist die Genehmigung des JIT-Zugriffs (Just-In-Time) erforderlich, und alle Änderungen an Protokollierungsmechanismen für Cosmos werden aufgezeichnet und überwacht. Überwachungsprotokolle werden lange genug aufbewahrt, um Vorfalluntersuchungen zu unterstützen und behördliche Anforderungen zu erfüllen. Der genaue Zeitraum der Aufbewahrung von Überwachungsprotokolldaten, der von den Serviceteams bestimmt wird; Die meisten Überwachungsprotokolldaten werden 90 Tage in Cosmos und 180 Tage in Kusto aufbewahrt.
 
 ## <a name="how-do-microsoft-online-services-protect-user-personal-data-that-may-be-captured-in-audit-logs"></a>Wie schützen Microsoft-Onlinedienste personenbezogene Daten von Benutzern, die möglicherweise in Überwachungsprotokollen erfasst werden?
 
