@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: f23dba6e215e9b4b8f890b05066bb693ed0e62e8
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.openlocfilehash: c851b235a70104720457d08c51529ee7b25c65e4
+ms.sourcegitcommit: 1fd50ef5f165228109a3f2f0aef4b0c2aa59b2ff
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482098"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58862355"
 ---
 # <a name="data-retention-deletion-and-destruction-in-microsoft-365"></a>Aufbewahrung, Löschung und Vernichtung von Daten in Microsoft 365
 
@@ -39,7 +39,7 @@ Für jedes dieser Löschszenarien zeigt die folgende Tabelle den maximalen Daten
 
 | Datenkategorie | Datenklassifikation | Beschreibung | Beispiele | Aufbewahrungszeitraum |
 |-----------------|-----------------|-----------------|----------------------------------|-------------------------------|
-| Kundendaten | Kundeninhalte| Inhalte, die direkt von Administratoren und Benutzern bereitgestellt/erstellt werden <br><br> Enthält alle Text-, Ton-, Video-, Bilddateien und Software, die in Microsoft-Rechenzentren erstellt und gespeichert werden, wenn die Dienste in Microsoft 365 | Beispiele für die am häufigsten verwendeten Microsoft 365 Anwendungen, mit denen Benutzer Daten erstellen können, sind Word, Excel, PowerPoint, Outlook und OneNote <br><br> Kundeninhalte umfassen auch vom Kunden bereitgestellte geheime Schlüssel (Kennwörter, Zertifikate, Verschlüsselungsschlüssel, Speicherschlüssel). | **Aktives Löschszenario:** höchstens 30 Tage <br><br> **Passives Löschszenario:** höchstens 180 Tage |
+| Kundendaten | Kundeninhalte| Inhalte, die direkt von Administratoren und Benutzern bereitgestellt/erstellt werden <br><br> Enthält alle Text-, Sound-, Video-, Bilddateien und Software, die in Microsoft-Rechenzentren erstellt und gespeichert werden, wenn die Dienste in Microsoft 365 | Beispiele für die am häufigsten verwendeten Microsoft 365 Anwendungen, mit denen Benutzer Daten erstellen können, sind Word, Excel, PowerPoint, Outlook und OneNote <br><br> Kundeninhalte umfassen auch vom Kunden bereitgestellte geheime Schlüssel (Kennwörter, Zertifikate, Verschlüsselungsschlüssel, Speicherschlüssel). | **Aktives Löschszenario:** höchstens 30 Tage <br><br> **Passives Löschszenario:** höchstens 180 Tage |
 | Kundendaten | Informationen zur Identifizierung von Endbenutzern (END USER Identifiable Information, EUII) | Daten, die den Benutzer eines Microsoft-Diensts identifizieren oder verwenden können. EUII enthält keine Kundeninhalte | Benutzername oder Anzeigename (DOMAIN\UserName) <br><br> Benutzerprinzipalname (name@domain) <br><br>  Benutzerspezifische IP-Adressen | **Aktives Löschszenario:** höchstens 180 Tage (nur eine Mandantenadministratoraktion) <br><br> **Passives Löschszenario:** höchstens 180 Tage |
 | Persönliche Daten <br> (Daten, die nicht in Kundendaten enthalten sind) | Pseudonyme Bezeichner für Endbenutzer (EUPI) | Ein von Microsoft erstellter Bezeichner, der an den Benutzer eines Microsoft-Diensts gebunden ist. In Kombination mit anderen Informationen, z. B. einer Zuordnungstabelle, identifiziert EUPI den Endbenutzer. <br><br> EUPI enthält keine Informationen, die vom Kunden hochgeladen oder erstellt wurden | Benutzer-GUIDs, PUIDs oder SIDs <br><br> Sitzungs-IDs | **Aktives Löschszenario:** höchstens 30 Tage <br><br> **Passives Löschszenario:** höchstens 180 Tage |
 
@@ -57,7 +57,7 @@ Weitere Informationen zur beschleunigten Debereitstellung finden Sie unter [Kün
 
 ## <a name="related-links"></a>Links zu verwandten Themen
 
-- [Zerstörung von Daten](assurance-data-destruction.md)
+- [Vernichtung von Geräten, die Daten tragen](assurance-data-bearing-device-destruction.md)
 - [Unveränderbarkeit in Office 365](assurance-data-immutability.md)
 - [Löschen von Exchange Online-Daten](assurance-exchange-online-data-deletion.md)
 - [Löschen von SharePoint Online-Daten](assurance-sharepoint-online-data-deletion.md)
