@@ -1,6 +1,6 @@
 ---
 title: Verschlüsselung und Schlüsselverwaltung (Übersicht)
-description: Informationen zur Verschlüsselung und Schlüsselverwaltung in Microsoft 365
+description: Erfahren Sie mehr über Verschlüsselung und Schlüsselverwaltung in Microsoft 365
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -21,11 +21,11 @@ search.appverid:
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: dc53f42c6aa7ce16e1291538bfad6d63c5a1689d
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482007"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947099"
 ---
 # <a name="encryption-and-key-management-overview"></a>Verschlüsselung und Schlüsselverwaltung (Übersicht)
 
@@ -57,7 +57,7 @@ Kunden mit Anforderungen zum Steuern ihrer eigenen Stammverschlüsselungsschlüs
 
 ## <a name="related-external-regulations--certifications"></a>Verwandte externe Vorschriften & Zertifizierungen
 
-Die Onlinedienste von Microsoft werden regelmäßig auf die Einhaltung externer Vorschriften und Zertifizierungen überprüft. Informationen zur Überprüfung von Steuerelementen im Zusammenhang mit Verschlüsselung und Schlüsselverwaltung finden Sie in der folgenden Tabelle.
+Die Onlinedienste von Microsoft werden regelmäßig auf die Einhaltung externer Vorschriften und Zertifizierungen überprüft. In der folgenden Tabelle finden Sie Informationen zur Überprüfung von Steuerelementen im Zusammenhang mit Verschlüsselung und Schlüsselverwaltung.
 
 ### <a name="azure-and-dynamics-365"></a>Azure und Dynamics 365
 

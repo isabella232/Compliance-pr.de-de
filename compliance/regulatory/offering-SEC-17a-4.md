@@ -17,11 +17,11 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft Compliance
 ms.openlocfilehash: 50c44b6801e15af02bf4bfa4f4d46758b7a6c7a8
-ms.sourcegitcommit: 70efe7749db2c6dd4ae0faa8ac22da6e87109c79
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58707124"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58948077"
 ---
 # <a name="securities-and-exchange-commission-sec-rule-17a-4f-united-states"></a>Securities and Exchange Commission (SEC) Rule 17a-4(f) United States
 
@@ -46,7 +46,7 @@ Microsoft Azure Unveränderliche Blob-Storage mit Richtliniensperre und Microsof
 
 ## <a name="independent-assessments"></a>Unabhängige Bewertungen
 
-Um die Compliance von Azure und Office 365 SEC-Regel 17a-4(f) zu bewerten, bewahre Microsoft ein unabhängiges Bewertungsunternehmen, das sich auf datensatzverwaltung und Informationsgovernance spezialisiert hat, Cohasset Associates.
+Um die Einhaltung von Azure und Office 365 SEC-Regel 17a-4(f) zu bewerten, bewahre Microsoft ein unabhängiges Bewertungsunternehmen, das sich auf die Datensatzverwaltung und Informationsgovernance spezialisiert hat, Cohasset Associates.
 
 ### <a name="azure"></a>Azure
 
@@ -56,11 +56,11 @@ Microsoft bewahre ein unabhängiges Drittanbieterbewertungsunternehmen, das sich
 
 Der Prüfer ist der Meinung, dass Azure Storage mit dem *Unveränderlichen Speicher für das Azure Blobs-Feature* und der *gesperrten zeitbasierten Richtlinienoption* zeitbasierte Blobs (Datensätze) in einem nicht löschbaren und nicht neu beschreibbaren Format beibehalten. und erfüllt die relevanten Speicheranforderungen der SEC-Regel 17a-4(f), [der FINRA-Regel 4511(c)](offering-FINRA-4511.md)und der prinzipienbasierten Anforderungen der [CFTC-Regel 1.31(c)-(d)](offering-cftc-1-31-us.md).
 
-Auf Anforderung stellt Microsoft außerdem einen *90-tägigen Brief* bereit, der erforderlich ist, um die SEC 17a-4(f)(2)-Anforderungen zu erfüllen, damit Kunden ihre designierte Prüfungsstelle mindestens 90 Tage vor der Verwendung elektronischer Speichermedien benachrichtigen können. Wie in den Bestimmungen angegeben, "muss das Mitglied, der Broker oder der Händler eine eigene Darstellung oder eine vom Anbieter des Speichermediums oder von einem anderen Drittanbieter mit entsprechendem Fachwissen bereitstellen, dass das ausgewählte Speichermedium die in diesem Absatz (f)(2) festgelegten Bedingungen erfüllt." Um den Microsoft *Attestation of Electronic Storage Media Services* for SEC Rule 17a-4 zu erhalten, können Kunden mit einem [Azure-Supportplan](https://azure.microsoft.com/support/plans/) [ein Supportticket](https://azure.microsoft.com/support/create-ticket/) im Azure-Portal erstellen und das Attestation Letter für SEC Rule 17a-4 anfordern. In diesem Dokument bietet Microsoft Zusicherungen, die für die SEC 17a-4(f)(2)-Anforderungen relevant sind.
+Auf Anforderung stellt Microsoft auch einen *90-tägigen Brief* bereit, der erforderlich ist, um die SEC 17a-4(f)(2)-Anforderungen zu erfüllen, damit Kunden ihre designierte Prüfungsstelle mindestens 90 Tage vor der Verwendung elektronischer Speichermedien benachrichtigen können. Wie in den Bestimmungen angegeben, "muss das Mitglied, der Broker oder der Händler eine eigene Darstellung oder eine vom Anbieter des Speichermediums oder von einem anderen Drittanbieter mit entsprechendem Fachwissen bereitstellen, dass das ausgewählte Speichermedium die in diesem Absatz (f)(2) festgelegten Bedingungen erfüllt." Um den Microsoft *Attestation of Electronic Storage Media Services* for SEC Rule 17a-4 zu erhalten, können Kunden mit einem [Azure-Supportplan](https://azure.microsoft.com/support/plans/) [ein Supportticket](https://azure.microsoft.com/support/create-ticket/) im Azure-Portal erstellen und das Attestation Letter für SEC-Regel 17a-4 anfordern. In diesem Dokument bietet Microsoft Zusicherungen, die für die SEC 17a-4(f)(2)-Anforderungen relevant sind.
 
 ### <a name="office-365"></a>Office 365
 
-Für [sec 17a-4(f)](/microsoft-365/compliance/retention-regulatory-requirements#sec-17a-4f-finra-4511c-and-cftc-131c-d) requirements, Cohasset validated that Microsoft 365 includes archiving features that enable regulated customers, including broker-händler, to store data in a manner that helps them comply with SEC requirements for records retention. Aufbewahrungsfunktionen in Microsoft 365 dabei helfen, eine vielzahl von Daten zu erhalten, einschließlich E-Mail, Voicemail, freigegebene Dokumente, Chatnachrichten und Daten von Drittanbietern. Insbesondere die Archivierung in Microsoft 365 ermöglicht Es Kunden, globale oder granulare Aufbewahrungsrichtlinien für Messaging festzulegen, um Daten für einen definierten Zeitraum und darüber hinaus in einem nicht umschreibbaren, nicht löschbaren Format zu speichern.
+Für [sec 17a-4(f)](/microsoft-365/compliance/retention-regulatory-requirements#sec-17a-4f-finra-4511c-and-cftc-131c-d) requirements, Cohasset validated that Microsoft 365 includes archiving features that enable regulated customers, including broker-händler, to store data in a manner that helps them comply with SEC requirements for records retention. Mithilfe von Aufbewahrungsfunktionen in Microsoft 365 können Sie eine vielzahl von Daten aufbewahren, einschließlich E-Mail, Voicemail, freigegebene Dokumente, Chatnachrichten und Daten von Drittanbietern. Insbesondere die Archivierung in Microsoft 365 ermöglicht Es Kunden, globale oder granulare Aufbewahrungsrichtlinien für Messaging festzulegen, um Daten für einen definierten Zeitraum und darüber hinaus in einem nicht umschreibbaren, nicht löschbaren Format zu speichern.
 
 ## <a name="audits-reports-and-certificates"></a>Prüfungen, Berichte und Zertifikate
 
@@ -88,7 +88,7 @@ Erstellen Sie ein Governancemodell für die Risikobewertung von Microsoft-Cloudd
 
 Verwenden Sie Fallübersichten, Lernprogramme und andere Ressourcen, um Azure-Lösungen für Finanzdienstleistungen zu erstellen. [Weitere Informationen](/azure/industry/financial/)
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
 
 [Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center](/microsoft-365/compliance/microsoft-365-compliance-center), die Ihnen hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 

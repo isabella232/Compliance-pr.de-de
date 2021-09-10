@@ -1,6 +1,6 @@
 ---
 title: Verschlüsselung für Daten während der Übertragung
-description: In diesem Artikel finden Sie eine kurze Erläuterung dazu, wie Microsoft Microsoft 365 Kundendaten während der Übertragung verschlüsselt.
+description: In diesem Artikel finden Sie eine kurze Erläuterung, wie Microsoft Microsoft 365 Kundendaten während der Übertragung verschlüsselt.
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -22,11 +22,11 @@ ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: ebeface33b0d5ba419773c13305c277d681e8400
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482017"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947105"
 ---
 # <a name="encryption-for-data-in-transit"></a>Verschlüsselung für Daten während der Übertragung
 
@@ -36,7 +36,7 @@ Zusätzlich zum Schutz von ruhenden Kundendaten verwendet Microsoft Verschlüsse
 - wenn ein Microsoft-Server mit einem anderen Microsoft-Server kommuniziert; Und
 - wenn ein Microsoft-Server mit einem Nicht-Microsoft-Server kommuniziert (z. B. Exchange Online E-Mails an einen E-Mail-Server eines Drittanbieters zuzustellen).
 
-Die kommunikation zwischen Rechenzentren zwischen Microsoft-Servern erfolgt über TLS oder IPsec, und alle kundenorientierten Server handeln eine sichere Sitzung mit TLS mit Clientcomputern aus (z. B. wird Exchange Online TLS 1.2 mit 256-Bit-Verschlüsselungsstärke verwendet (FIPS 140-2 Level 2-validiert). (Eine Liste der von Office 365 unterstützten TLS-Verschlüsselungssammlungen finden Sie in den [technischen Referenzdetails zur Verschlüsselung.)](/microsoft-365/compliance/technical-reference-details-about-encryption) Dies gilt für die Protokolle, die von Clients wie Outlook, Skype for Business, Microsoft Teams und Outlook im Web verwendet werden (z. B. HTTP, POP3 usw.).
+Die Kommunikation zwischen Rechenzentren zwischen Microsoft-Servern erfolgt über TLS oder IPsec, und alle kundenorientierten Server handeln eine sichere Sitzung mit TLS mit Clientcomputern aus (z. B. wird Exchange Online TLS 1.2 mit 256-Bit-Verschlüsselungsstärke verwendet (FIPS 140-2 Level 2-validiert). (Technische [Referenzdetails zur Verschlüsselung](/microsoft-365/compliance/technical-reference-details-about-encryption) finden Sie in einer Liste der TLS-Verschlüsselungssammlungen, die von Office 365 unterstützt werden.) Dies gilt für die Protokolle, die von Clients wie Outlook, Skype for Business, Microsoft Teams und Outlook im Web verwendet werden (z. B. HTTP, POP3 usw.).
 
 Die öffentlichen Zertifikate werden von Microsoft IT SSL mit SSLAdmin ausgestellt, einem internen Microsoft-Tool zum Schutz der Vertraulichkeit übertragener Informationen. Alle von Microsoft IT ausgestellten Zertifikate haben eine Länge von mindestens 2048 Bit, und die Webtrust-Compliance erfordert SSLAdmin, um sicherzustellen, dass Zertifikate nur für öffentliche IP-Adressen von Microsoft ausgestellt werden. Alle IP-Adressen, die dieses Kriterium nicht erfüllen, werden über einen Ausnahmeprozess weitergeleitet.
 

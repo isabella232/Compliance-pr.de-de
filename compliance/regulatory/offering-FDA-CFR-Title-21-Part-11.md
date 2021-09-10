@@ -17,11 +17,11 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft Compliance
 ms.openlocfilehash: 5d6f590a9035b8628645bdfa46f794c1dfbcd4fb
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482700"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947936"
 ---
 # <a name="food-and-drug-administration-cfr-title-21-part-11"></a>Cfr-Titel 21 Teil 11 der Verwaltung von Produkten und Suchtmitteln
 
@@ -41,13 +41,13 @@ CFR Title 21 Part 11 legt Anforderungen fest, um sicherzustellen, dass elektroni
 
 Microsoft Enterprise Cloud Services werden regelmäßig unabhängigen SOC 1 Type 2- und SOC 2 Type 2-Prüfungen von Drittanbietern unterzogen und sind nach iso/IEC 27001- und ISO/IEC 27018-Standards zertifiziert.
 
-Obwohl sich diese regelmäßigen Audits und Zertifizierungen nicht speziell auf die Einhaltung gesetzlicher Vorschriften von DERA konzentrieren, sind ihr Zweck und ihre Ziele denen des CFR-Titels 21, Teil 11, ähnlich und dienen dazu, die Vertraulichkeit, Integrität und Verfügbarkeit von in Microsoft Cloud Services gespeicherten Daten sicherzustellen. Unser Qualifizierungsansatz basiert auch auf bewährten Methoden der Branche, einschließlich der GAMP-Reihe der GAMP-Reihe (International Systems for Engineering, ISPE) und des Pic/S -Good Practices (Pic/S) good Practices für computerisierte Systeme in regulierten GxP-Umgebungen.
+Obwohl sich diese regelmäßigen Audits und Zertifizierungen nicht speziell auf die Einhaltung gesetzlicher Vorschriften von DERA konzentrieren, sind ihr Zweck und ihre Ziele denen des CFR-Titels 21, Teil 11, ähnlich und dienen dazu, die Vertraulichkeit, Integrität und Verfügbarkeit von in Microsoft Cloud Services gespeicherten Daten sicherzustellen. Unser Qualifizierungsansatz basiert auch auf bewährten Methoden der Branche, einschließlich der GAMP-Reihe der GAMP-Leitfäden für die International Systems for Engineering (ISPE) und des Pic/S -Good Practices (Pic/S) Good Practices for Computerized Systems in Regulated GxP Environments.
 
-Kunden können den Zugriff auf die Complianceberichte anfordern, sofern die Bedingungen des Geheimhaltungsvertrags eingehalten werden, über ihren Microsoft-Kontomitarbeiter oder über das [Service Trust Portal.](https://aka.ms/stphelp) Darüber hinaus bieten Qualifikationsrichtlinien für Microsoft Azure und Microsoft Office 365 eine ausführliche Erklärung dazu, wie Microsoft-Überwachungskontrollen den Anforderungen des CFR-Titels 21 Teil 11 entsprechen, Anleitungen für die Implementierung einer FDA-Qualifizierungsstrategie und eine Beschreibung der Bereiche der gemeinsamen Verantwortung.
+Kunden können den Zugriff auf die Complianceberichte anfordern, sofern die Bedingungen des Geheimhaltungsvertrags eingehalten werden, über ihren Microsoft-Kontomitarbeiter oder über das [Service Trust Portal.](https://aka.ms/stphelp) Darüber hinaus bieten Qualifikationsrichtlinien für Microsoft Azure und Microsoft Office 365 eine ausführliche Erläuterung, wie Microsoft-Überwachungskontrollen den Anforderungen des CFR-Titels 21 Teil 11 entsprechen, Anleitungen für die Implementierung einer FDA-Qualifizierungsstrategie und eine Beschreibung der Bereiche der gemeinsamen Verantwortung.
 
 Erfahren Sie, wie Sie Ihre CFR Title 21-Bereitstellung mit DEM TITEL 21 von FDA beschleunigen: [Herunterladen des Azure FDA 21-Qualifikationshandbuchs](https://go.microsoft.com/fwlink/p/?linkid=2086604)
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
 
 Obwohl es keine Zertifizierung für die Einhaltung von CFR-Titel 21 Teil 11 gibt, wurden die folgenden Microsoft Enterprise Cloud Services unabhängigen Audits von Drittanbietern unterzogen, die Kunden bei ihren Compliance-Bemühungen helfen können. Zu diesen Diensten gehören:
 
@@ -65,13 +65,13 @@ Die Prüfberichte für die Standards SOC 1 und SOC 2 Typ 2, ISO/IEC 27001 und IS
 
 **Für wen gilt der Standard?**
 
-DER CFR-Titel 21, Teil 11, gilt für Organisationen mit Produkten und Dienstleistungen, die sich mit von DER FDA regulierten Aspekten der Forschung, der klinikbezogenen Studie, der Wartung, der Herstellung und des Vertriebs von Life Science-Produkten befassen.
+DER CFR-Titel 21, Teil 11, gilt für Organisationen mit Produkten und Dienstleistungen, die sich mit DEN VON DEREN regulierten Aspekten der Forschung, der klinikbezogenen Studie, der Wartung, der Herstellung und des Vertriebs von Life Science-Produkten befassen.
 
 **Wie demonstrieren Microsoft Enterprise Cloud Services die Compliance mit DEM CFR-Titel 21 Teil 11 von FDA?**
 
 Mithilfe der formalen Prüfungen, die von Dritten für SOC 1 Typ 2, SOC 2 Typ 2, ISO/IEC 27001 und ISO/IEC 27018 vorbereitet wurden, kann Microsoft zeigen, wie die in diesen Berichten aufgeführten relevanten Kontrollen die Anforderungen erfüllen.
 
-Überwachte Kontrollen, die von Microsoft implementiert werden, tragen dazu bei, die Vertraulichkeit, Integrität und Verfügbarkeit von Daten sicherzustellen und den geltenden behördlichen Anforderungen gemäß Titel 21 Teil 11 zu entsprechen, die als Verantwortlichkeit von Microsoft identifiziert wurden. In den Qualifizierungsrichtlinien für Azure und Office 365 ausführlich beschrieben, wie Die Microsoft-Überwachungssteuerelemente diesen Anforderungen entsprechen.
+Überwachte Kontrollen, die von Microsoft implementiert werden, tragen dazu bei, die Vertraulichkeit, Integrität und Verfügbarkeit von Daten sicherzustellen und den geltenden behördlichen Anforderungen gemäß Titel 21 Teil 11 zu entsprechen, die als Verantwortlichkeit von Microsoft identifiziert wurden. In den Qualifizierungsrichtlinien für Azure und Office 365 wird beschrieben, wie die Microsoft-Überwachungssteuerelemente diesen Anforderungen entsprechen.
 
 **Wie erhalte ich Kopien der Berichte des Prüfers?**
 
@@ -83,7 +83,7 @@ Ja. Die unabhängigen Complianceberichte von Drittanbietern der Standards IEC/IS
 
 **Welche Pflichten hat Microsoft im Hinblick auf die Wahrung der Compliance mit diesem Standard?**
 
-Microsoft stellt sicher, dass seine Unternehmensclouddienste die in den geltenden [Onlinedienstbedingungen](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31) und den geltenden Vereinbarungen zum Servicelevel (Service Level Agreements, SLAs) definierten Bedingungen erfüllen. Diese Bedingungen definieren unsere Verantwortung für die Implementierung und Verwaltung von Kontrollen, die zum Sichern und Überwachen des Systems angemessen sind.
+Microsoft stellt sicher, dass seine Clouddienste für Unternehmen die in den geltenden [Onlinedienstbedingungen](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31) und den geltenden Vereinbarungen zum Servicelevel (Service Level Agreements, SLAs) definierten Bedingungen erfüllen. Diese Bedingungen definieren unsere Verantwortung für die Implementierung und Verwaltung von Kontrollen, die zum Sichern und Überwachen des Systems angemessen sind.
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
 
@@ -95,7 +95,7 @@ Microsoft stellt sicher, dass seine Unternehmensclouddienste die in den geltende
 - [Code of Federal Regulations Title 21](https://aka.ms/FDA-CFR)
 - [LEITFADEN für Branche Teil 11: Elektronische Datensätze und Signaturen](https://www.fda.gov/RegulatoryInformation/Guidances/ucm125067.htm)
 - [Qualifikationsrichtlinien für Azure](https://aka.ms/azurefda21cfrpart11qualguide)
-- [Qualifizierungsrichtlinien für Office 365](https://aka.ms/o365-qualification-guideline)
+- [Qualifikationsrichtlinien für Office 365](https://aka.ms/o365-qualification-guideline)
 - [Microsoft Common Controls Hub-Complianceframework](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 - [Microsoft Online Services-Nutzungsbedingungen](https://aka.ms/Online-Services-Terms)
 - [Microsoft Cloud for Government](https://aka.ms/govt-cloud)

@@ -21,11 +21,11 @@ search.appverid:
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: b74c004e63838900f87c774a8acf84ab8aeb03d4
-ms.sourcegitcommit: 70efe7749db2c6dd4ae0faa8ac22da6e87109c79
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58707114"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947186"
 ---
 # <a name="security-development-and-operations-overview"></a>Übersicht über die Sicherheitsentwicklung und den Sicherheitsbetrieb
 

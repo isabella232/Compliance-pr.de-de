@@ -17,11 +17,11 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft Compliance
 ms.openlocfilehash: 859067495b6811b2264ab3a379f305d428771bce
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482980"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947905"
 ---
 # <a name="us-export-administration-regulations-ear"></a>US Export Administration Regulations (EAR)
 
@@ -68,7 +68,7 @@ Die US-Handelsabteilung, die die EAR erzwingt, hat die Position eingenommen, das
 
 **Was sollte ich tun, um exportsteuerelemente bei Verwendung von Microsoft-Clouddiensten einzuhalten?**
 
-Wenn Daten auf einen Cloudserver wie die Microsoft-Cloud hochgeladen werden, gilt unter dem EAR der Kunde, der die Daten besitzt – nicht der Clouddienstanbieter – als Exporteur. Aus diesem Grund muss der Besitzer der Daten – d. h. der Microsoft-Kunde – sorgfältig bewerten, wie sich ihre Nutzung der Microsoft-Cloud auf EXPORTkontrollen in den USA auswirken kann, und bestimmen, ob die Daten, die er dort verwenden oder speichern möchte, ear-Kontrollen unterliegen können, und falls ja, welche Kontrollen gelten. Erfahren Sie mehr darüber, wie [Azure](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=c24c11f2-2cd4-444a-9160-19762855ad3a&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers) und [Office 365](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE1s5kI) Clouddienste Kunden dabei helfen können, die vollständige Compliance mit den US-Exportsteuerelementen sicherzustellen.
+Wenn Daten auf einen Cloudserver wie die Microsoft-Cloud hochgeladen werden, gilt unter dem EAR der Kunde, der die Daten besitzt – nicht der Clouddienstanbieter – als Exporteur. Aus diesem Grund muss der Besitzer der Daten – d. h. der Microsoft-Kunde – sorgfältig bewerten, wie sich die Nutzung der Microsoft-Cloud auf EXPORTkontrollen in den USA auswirken kann, und bestimmen, ob die Daten, die er dort verwenden oder speichern möchte, ear-Kontrollen unterliegen können, und falls ja, welche Kontrollen gelten. Erfahren Sie mehr darüber, wie [Azure](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=c24c11f2-2cd4-444a-9160-19762855ad3a&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers) und [Office 365](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE1s5kI) Clouddienste Kunden dabei helfen können, die vollständige Compliance mit den US-Exportsteuerelementen sicherzustellen.
 
 **Unterliegen Microsoft-Technologien, -Produkte und -Dienste dem EAR?**
 

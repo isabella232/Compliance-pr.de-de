@@ -21,17 +21,17 @@ search.appverid:
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: 86885737bb3e6acd0a9503c240b09cb3349da7a8
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58481977"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947108"
 ---
 # <a name="governance-overview"></a>Governance (Übersicht)
 
 ## <a name="how-does-microsoft-provide-effective-security-governance-across-the-enterprise"></a>Wie bietet Microsoft eine effektive Sicherheitsgovernance im gesamten Unternehmen?
 
-Microsoft ist sich bewusst, dass effektive Sicherheitsrichtlinien unternehmensweit konsistent implementiert werden müssen, um Microsoft-Informationssysteme und -Kunden zu schützen. Sicherheitsrichtlinien müssen außerdem Abweichungen bei Geschäftsfunktionen und Informationssystemen für eine universelle Anwendbarkeit berücksichtigen. Um diese Anforderungen zu erfüllen, implementiert Microsoft ein umfassendes Security Governance-Programm als Teil des Microsoft Policy Framework. Die Sicherheitsgovernance fällt unter die Microsoft-Sicherheitsrichtlinie (Microsoft Security Policy, MSP).
+Microsoft ist sich bewusst, dass effektive Sicherheitsrichtlinien unternehmensweit konsistent implementiert werden müssen, um Microsoft-Informationssysteme und -Kunden zu schützen. Sicherheitsrichtlinien müssen außerdem Abweichungen bei Geschäftsfunktionen und Informationssystemen für eine universelle Anwendbarkeit berücksichtigen. Um diese Anforderungen zu erfüllen, implementiert Microsoft ein umfassendes Security Governance-Programm als Teil des Microsoft Policy Frameworks. Die Sicherheitsgovernance fällt unter die Microsoft-Sicherheitsrichtlinie (Microsoft Security Policy, MSP).
 
 In der MSP werden die Sicherheitsrichtlinien, Standards und Anforderungen von Microsoft organisiert, damit sie für sämtliche Microsoft Engineering-Gruppen und -Unternehmenseinheiten implementiert werden können. Einzelne Unternehmenseinheiten sind für spezifische Implementierungen von Microsoft Security-Richtlinien verantwortlich. Beispielsweise dokumentiert Microsoft 365 seine Sicherheitsimplementierungen in der Microsoft 365 Information Security Policy und im zugehörigen Microsoft 365 Control Framework. Azure und Dynamics 365 dokumentieren ihre Sicherheitsimplementierungen in den Standardvorgehensweisen (SOPs) und im Azure Control Framework. Diese Sicherheitsimplementierungen entsprechen den Zielen und Zielen des MSP.
 
@@ -41,7 +41,7 @@ Das Sicherheitsgovernance-Programm von Microsoft wird von verschiedenen regulato
 
 Microsoft 365 dokumentiert Sicherheitsimplementierungen in den Microsoft 365-Richtlinien zur Informationssicherheit. Diese Richtlinie richtet sich nach der Microsoft-Sicherheitsrichtlinie und steuert das Microsoft 365-Informationssystem, einschließlich aller Microsoft 365-Umgebungen und aller Ressourcen, die mit der Sammlung, Verarbeitung, Wartung, Nutzung, Freigabe, Verbreitung und Entsorgung von Daten verbunden sind. Ebenso verwenden Azure und Dynamics 365 die Microsoft-Sicherheitsrichtlinie, um ihr Informationssystem zu steuern.
 
-Die Informationssysteme umfassen die folgenden Komponenten, die durch die Microsoft 365 Information Security Policy (für Microsoft 365) und die Microsoft-Sicherheitsrichtlinie (für Azure und Dynamics 365) geregelt sind:
+Die Informationssysteme umfassen die folgenden Komponenten, die von der Microsoft 365 Information Security Policy (für Microsoft 365) und der Microsoft-Sicherheitsrichtlinie (für Azure und Dynamics 365) geregelt werden:
 
 - Infrastruktur: Die physischen und Hardwarekomponenten von Azure, Dynamics 365 und Microsoft 365 Systemen (Einrichtungen, Geräte und Netzwerke)
 - Software: Die Programme und Die Betriebssoftware von Azure, Dynamics 365 und Microsoft 365 Systemen (Systeme, Anwendungen und Dienstprogramme)

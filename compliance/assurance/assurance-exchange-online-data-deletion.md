@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365 Exchange Online Löschen von Daten
-description: Erfahren Sie, wie vorläufige und feste Datenlöschungen für Postfächer und Elemente in Postfächern in Exchange Online behandelt werden.
+description: Erfahren Sie, wie vorläufige und endgültige Datenlöschungen für Postfächer und Elemente in Postfächern in Exchange Online behandelt werden.
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -21,15 +21,15 @@ ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: 9dd365e075226d8fdbfd1a9f9e371df2668f814d
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58481987"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947078"
 ---
-# <a name="exchange-online-data-deletion-in-microsoft-365"></a>Exchange Online der Datenlöschung in Microsoft 365
+# <a name="exchange-online-data-deletion-in-microsoft-365"></a>Exchange Online Löschen von Daten in Microsoft 365
 
-Innerhalb Exchange Online gibt es zwei Arten von Löschungen: vorläufige Löschungen und endgültige Löschungen. Dies gilt sowohl für Postfächer als auch für Elemente innerhalb eines Postfachs.
+Innerhalb Exchange Online gibt es zwei Arten von Löschungen: vorläufige löschungen und endgültige Löschungen. Dies gilt sowohl für Postfächer als auch für Elemente innerhalb eines Postfachs.
 
 ## <a name="soft-deleted-and-hard-deleted-mailboxes"></a>Vorläufig gelöschte und endgültig gelöschte Postfächer
 
@@ -37,11 +37,11 @@ Ein vorläufig gelöschtes Benutzerpostfach ist ein Postfach, das mit dem Micros
 
 - Die dem Benutzerpostfach zugeordnete Azure Active Directory Benutzerkonto wird vorläufig gelöscht (das Benutzerobjekt liegt außerhalb des Gültigkeitsbereichs oder im Papierkorbcontainer).
 - Das dem Benutzerpostfach zugeordnete Azure Active Directory Benutzerkonto wurde endgültig gelöscht, aber das Exchange Online Postfach unterliegt einem Beweissicherungsverfahren oder einer eDiscovery-Aufbewahrungspflicht.
-- Das dem Benutzerpostfach zugeordnete Azure Active Directory Benutzerkonto wurde innerhalb der letzten 30 Tage gelöscht. Dies ist die maximale Aufbewahrungsdauer, Exchange Online das Postfach in einem vorläufig gelöschten Zustand belässt, bevor es endgültig gelöscht und nicht wiederhergestellt werden kann.
+- Das dem Benutzerpostfach zugeordnete Azure Active Directory Benutzerkonto wurde innerhalb der letzten 30 Tage gelöscht. Dies ist die maximale Aufbewahrungsdauer Exchange Online das Postfach in einem vorläufig gelöschten Zustand belässt, bevor es endgültig gelöscht und nicht wiederhergestellt werden kann.
 
 Ein endgültig gelöschtes Benutzerpostfach ist ein Postfach, das auf eine der folgenden Arten gelöscht wurde:
 
-- Das Benutzerpostfach wurde seit mehr als 30 Tagen vorläufig gelöscht, und die zugeordnete Azure Active Directory Benutzer wurde endgültig gelöscht. Alle Postfachinhalte wie E-Mails, Kontakte und Dateien werden dauerhaft gelöscht.
+- Das Benutzerpostfach wurde für mehr als 30 Tage vorläufig gelöscht, und die zugeordnete Azure Active Directory Benutzer wurde endgültig gelöscht. Alle Postfachinhalte wie E-Mails, Kontakte und Dateien werden dauerhaft gelöscht.
 - Das dem Benutzerpostfach zugeordnete Benutzerkonto wurde aus dem Azure Active Directory endgültig gelöscht. Das Benutzerpostfach wird nun in Exchange Online vorläufig gelöscht und bleibt 30 Tage lang in einem vorläufig gelöschten Zustand. Wenn im Zeitraum von 30 Tagen ein neuer Azure Active Directory Benutzer vom ursprünglichen Empfängerkonto mit demselben **ExchangeGuid-** oder **ArchiveGuid-Konto** synchronisiert wird und dieses neue Konto für Exchange Online lizenziert ist, führt dies zu einem endgültigen Löschen des ursprünglichen Benutzerpostfachs. Alle Postfachinhalte wie E-Mails, Kontakte und Dateien werden dauerhaft gelöscht.
 - Ein vorläufig gelöschtes Postfach wird mit **remove-Mailbox -PermanentlyDelete** gelöscht.
 
@@ -57,7 +57,7 @@ Wenn ein Benutzer ein gelöschtes Element mithilfe der Funktion "Gelöschte Elem
 
 *Zeroing* ist ein Sicherheitsmechanismus, der entweder Nullen oder ein binäres Muster über gelöschte Daten schreibt, sodass die Wiederherstellung der gelöschten Daten schwieriger ist. In Exchange Online verwenden *Postfachdatenbanken Seiten* als Speichereinheit und implementieren einen Überschreibenprozess, der als *Seiten-Nulling* bezeichnet wird. Das Nullen von Seiten ist standardmäßig aktiviert und kann von Kunden oder von Microsoft nicht deaktiviert werden. Vorgänge zum Nullen von Seiten werden in den Transaktionsprotokolldateien aufgezeichnet, sodass alle Kopien einer bestimmten Datenbank auf ähnliche Weise mit Seiten null versehen werden. Durch das Nullen einer Seite in einer aktiven Datenbankkopie wird die Seite bei passiven Kopien der Datenbank mit Null versehen.
 
-Beim Nullen von Seiten wird ein binäres Muster über endgültig gelöschte Datensätze geschrieben. Das Seiten-Null-Muster ist spezifisch für ESE-Vorgänge (Extensible Storage Engine) (der Name des internen Datenbankmoduls, das von Servern in Exchange Online verwendet wird) und unterscheidet sich für Laufzeitvorgänge im Vergleich zu Wartungsvorgängen für Hintergrunddatenbanken. (Die Wartung von Hintergrunddatenbanken ist ein Prozess, bei dem jede Datenbank kontinuierlich überprüft und überprüft wird. Die primäre Funktion besteht in der Überprüfung von Datenbankseiten, aber es behandelt auch das Bereinigen von Speicherplatz und das Nullen von Datensätzen und Seiten, die aufgrund eines Store Absturzes nicht mit Null versehen wurden.)
+Beim Nullen von Seiten wird ein binäres Muster über endgültig gelöschte Datensätze geschrieben. Das Seiten-Null-Muster ist spezifisch für ESE-Vorgänge (Extensible Storage Engine) (der Name des internen Datenbankmoduls, das von Servern in Exchange Online verwendet wird) und unterscheidet sich für Laufzeitvorgänge im Vergleich zu Hintergrunddatenbankwartungsvorgängen. (Die Wartung von Hintergrunddatenbanken ist ein Prozess, bei dem jede Datenbank kontinuierlich überprüft und überprüft wird. Die primäre Funktion besteht darin, Datenbankseiten zu überprüfen, aber es behandelt auch das Bereinigen von Speicherplatz und das Entfernen von Datensätzen und Seiten, die aufgrund eines absturzes Store nicht auf Null 1 festgelegt wurden.)
 
 In der folgenden Tabelle sind die Füllmuster zusammengestellt, die für die speziellen Laufzeitvorgänge verwendet werden.
 
@@ -91,10 +91,10 @@ Der Prozess für das Nullen von Seiten hängt vom Löschszenario ab. In der folg
 Für die folgenden Postfachdatentypen gibt es keine Bestimmungen für das Nullen von Seiten:
 
 - **Postfachdatenbanktransaktionsprotokolle** – Wenn Transaktionsprotokolle im Rahmen des normalen Betriebs gelöscht werden, gibt es keinen Prozess zum Nullen der Blöcke im Dateisystem, in denen die gelöschten Protokolldateien gespeichert wurden. Es ist wahrscheinlich, dass das Dateisystem diesen freien Speicherplatz für neu erstellte Protokolle schnell wieder nutzt, aber es gibt keine Garantie dafür.
-- **Inhaltsindexkatalogdateien** – Exchange Online verwendet Search Foundation (auch als FAST bezeichnet) für die Suchindizierungsfunktionalität. Der Suchindexkatalog besteht aus mehreren Dutzend Dateien, die auf demselben Volume wie die Postfachdatenbankdatei gespeichert sind. Wenn eine Nachricht endgültig aus der Postfachdatenbank gelöscht wird, wird der zugeordnete Inhalt im Suchkatalog nicht sofort gelöscht. Das Löschen von Inhalten erfolgt, wenn Search Foundation einen Schatten (oder master merge) von vielen kleinen Katalogdateien in einer einzigen größeren Datei ausführt. Nach Abschluss der Masterzusammenführung werden die kleineren Katalogdateien gelöscht. Es gibt keinen Prozess zum Nullen der Blöcke, die die gelöschten Katalogdateien gespeichert haben.
+- **Inhaltsindexkatalogdateien** – Exchange Online verwendet Search Foundation (auch als FAST bezeichnet) für die Suchindizierungsfunktion. Der Suchindexkatalog besteht aus mehreren Dutzend Dateien, die auf demselben Volume wie die Postfachdatenbankdatei gespeichert sind. Wenn eine Nachricht endgültig aus der Postfachdatenbank gelöscht wird, wird der zugeordnete Inhalt im Suchkatalog nicht sofort gelöscht. Das Löschen von Inhalten erfolgt, wenn Search Foundation einen Schatten (oder master merge) von vielen kleinen Katalogdateien in einer einzigen größeren Datei ausführt. Nach Abschluss der Masterzusammenführung werden die kleineren Katalogdateien gelöscht. Es gibt keinen Prozess zum Nullen der Blöcke, die die gelöschten Katalogdateien gespeichert haben.
 
 ## <a name="continuous-replication"></a>Fortlaufende Replikation
 
-Die fortlaufende Replikation (auch als Protokollversand und -wiedergabe bezeichnet) ist eine Technologie in Exchange Online, die Kopien jeder Postfachdatenbank erstellt und verwaltet, um hohe Verfügbarkeit, Ausfallsicherheit und Notfallwiederherstellung zu gewährleisten. Bei der kontinuierlichen Replikation wird die Exchange Server Datenbankabstürzwiederherstellungsunterstützung verwendet, um Eine Technologie bereitzustellen, die asynchrone Aktualisierungen einer oder mehrerer Kopien einer Postfachdatenbank durchführt. Jeder Postfachserver zeichnet Datenbankaktualisierungen auf, die in einer aktiven Datenbank (z. B. E-Mail-Aktivität des Benutzers) als Protokolldatensätze in einer sequenziellen Gruppe von 1 MB Transaktionsprotokolldateien vorgenommen wurden. Dieser Satz von Dateien wird als Protokolldatenstrom bezeichnet. Bei der kontinuierlichen Replikation wird der Protokolldatenstrom auch verwendet, um eine oder mehrere Kopien einer Datenbank asynchron zu aktualisieren. Dies wird erreicht, indem die Protokolle an einen Speicherort übertragen werden, der eine passive Kopie der aktiven Datenbank enthält, und diese dann in der passiven Datenbankkopie wiedergeben. Wenn alle Protokolle aus der aktiven Datenbank für eine passive Kopie der Datenbank wiedergegeben werden, sind die beiden Datenbanken gleichwertig, und durch diesen Vorgang werden physische Änderungen an einer aktiven Datenbank in alle passiven Kopien dieser Datenbank repliziert.
+Die fortlaufende Replikation (auch als Protokollversand und -wiedergabe bezeichnet) ist eine Technologie in Exchange Online, die Kopien jeder Postfachdatenbank erstellt und verwaltet, um hohe Verfügbarkeit, Ausfallsicherheit am Standort und Notfallwiederherstellung bereitzustellen. Die fortlaufende Replikation verwendet die Exchange Server Datenbankabstürzwiederherstellungsunterstützung, um Technologie bereitzustellen, die asynchrone Aktualisierungen einer oder mehrerer Kopien einer Postfachdatenbank durchführt. Jeder Postfachserver zeichnet Datenbankaktualisierungen auf, die in einer aktiven Datenbank (z. B. E-Mail-Aktivität des Benutzers) als Protokolleinträge in einer sequenziellen Gruppe von 1 MB Transaktionsprotokolldateien vorgenommen wurden. Dieser Satz von Dateien wird als Protokolldatenstrom bezeichnet. Bei der kontinuierlichen Replikation wird der Protokolldatenstrom auch verwendet, um eine oder mehrere Kopien einer Datenbank asynchron zu aktualisieren. Dies wird erreicht, indem die Protokolle an einen Speicherort übertragen werden, der eine passive Kopie der aktiven Datenbank enthält, und diese dann in der passiven Datenbankkopie wiedergeben. Wenn alle Protokolle aus der aktiven Datenbank für eine passive Kopie der Datenbank wiedergegeben werden, sind die beiden Datenbanken gleichwertig, und durch diesen Vorgang werden physische Änderungen an einer aktiven Datenbank in alle passiven Kopien dieser Datenbank repliziert.
 
 Jeder Löschvorgang aus einer Postfachdatenbank, unabhängig davon, ob es sich um ein Postfachelement oder ein gesamtes Postfach handelt und ob ein vorläufiges oder ein endgültiges Löschen, stellt eine physische Änderung der aktiven Datenbank dar. Das Nullen von Seiten bedeutet auch, dass physische Änderungen an der aktiven Datenbank vorgenommen werden. Diese Änderungen werden über einen Prozess, der als fortlaufende Replikation bezeichnet wird, in die Protokolldateien geschrieben, und wenn diese Protokolldateien für passive Kopien der Datenbank wiedergegeben werden, werden die gleichen physischen Änderungen an diesen passiven Datenbanken vorgenommen.

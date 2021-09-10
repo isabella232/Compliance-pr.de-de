@@ -21,11 +21,11 @@ search.appverid:
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: 6c20c62feb1ff3ab23eeb97d5ad11abb5ad85a07
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58481757"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947159"
 ---
 # <a name="securing-the-microsoft-365-infrastructure"></a>Sichern der Microsoft 365 Infrastruktur
 
@@ -61,7 +61,7 @@ Weitere Informationen zur Zugriffssteuerung finden Sie unter [Identity and Acces
 
 Während Zugriffssteuerungen eine wichtige Rolle bei der Verteidigung Microsoft 365 Dienste spielen, wird die Verschlüsselung während des gesamten Datenlebenszyklus verwendet, um die Vertraulichkeit und den Datenschutz für Microsoft-Kunden weiter zu schützen.
 
-Daten, die zwischen Clientcomputern, Microsoft 365-Servern und Nicht-Microsoft 365-Servern übertragen werden, werden mit TLS 1.2 verschlüsselt. Wir überprüfen regelmäßig die verwendeten Verschlüsselungen und Protokolle, fügen ggf. verbesserte Protokolle hinzu und entfernen bei Bedarf schwächere Protokolle.
+Daten, die zwischen Clientcomputern, Microsoft 365 servern und Servern ohne Microsoft 365 übertragen werden, werden mit TLS 1.2 verschlüsselt. Wir überprüfen regelmäßig die verwendeten Verschlüsselungen und Protokolle, fügen ggf. verbesserte Protokolle hinzu und entfernen bei Bedarf schwächere Protokolle.
 
 Kundeninhalte, die sich auf Microsoft-Servern befinden, werden auf Volumeebene mit BitLocker verschlüsselt. Die Verschlüsselung auf Anwendungsebene kann zusätzlich mithilfe von Schlüsseln angewendet werden, die von Microsoft oder dem Kunden verwaltet werden. Der Zugriff auf von Microsoft verwaltete Schlüssel ist nur möglich, wenn sie über den JIT- und JEA-Prozess autorisiert und genehmigt werden.
 
@@ -97,7 +97,7 @@ Weitere Informationen zur Sicherheitsüberwachung in Microsoft 365 finden Sie un
 
 Microsoft 365 hat oberste Priorität, um zu verhindern, dass Angriffe die Abwehr infiltrieren. Microsoft 365 verfügt über ein dediziertes Team von Sicherheitsexperten, die ständig simulierte Angriffe durchführen, um zuvor unbekannte Sicherheitsrisiken zu identifizieren und einen konstanten Datenstrom zur Verbesserung der Sicherheitsüberwachungsfunktionen bereitzustellen. Diese simulierten Angriffe haben die Form häufiger automatisierter Angriffe in kleinem Maßstab und von Experten gesteuerter Deep Dives. Anhand dieser Aktivitäten bewertet Microsoft die Fähigkeit, Angreifer zu erkennen, darauf zu reagieren und sie zu entfernen.
 
-Weitere Informationen zur Sicherheitsüberwachung in Microsoft 365 finden Sie unter [Angriffssimulation in Microsoft 365](assurance-monitoring-and-testing.md).
+Weitere Informationen zur Sicherheitsüberwachung in Microsoft 365 finden Sie unter [Angriffssimulation in Microsoft 365.](assurance-monitoring-and-testing.md)
 
 ## <a name="resources"></a>Ressourcen
 

@@ -21,11 +21,11 @@ search.appverid:
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: 29d0c6633c67d65c6bef27a9768fa213a9e50ac4
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58481817"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947169"
 ---
 # <a name="privacy-overview"></a>Datenschutz (Übersicht)
 
@@ -41,7 +41,7 @@ Microsoft hält die Microsoft-Datenschutzrichtlinien und den Microsoft-Datenschu
 
 Der Datenlebenszyklus beschreibt, wie Microsoft Daten basierend auf kundenbasierten Anleitungen und in Übereinstimmung mit den geltenden Sicherheits- und Datenschutzbestimmungen verarbeitet. Zu den Phasen des Datenlebenszyklus gehören Sammlung, Verarbeitung, Freigabe von Drittanbietern (sofern zutreffend), Aufbewahrung und Vernichtung. Der Ansatz von Microsoft zum Datenschutz informiert jede Phase des Datenlebenszyklus, um die Privatsphäre unserer Kunden zu schützen.
 
-Microsoft beschränkt die Erfassung von Kundendaten auf vier spezifische [Datenkategorien:](https://www.microsoft.com/trust-center/privacy/customer-data-definitions?rtc=1)Kundendaten, vom Dienst generierte Daten, Diagnosedaten und Professional-Dienstdaten. Microsoft verwendet Daten aus diesen Kategorien, um eine begrenzte Anzahl legitimer Geschäftsvorgänge (LBOs) auszuführen, die für die Bereitstellung von Dienstleistungen für unsere Kunden erforderlich sind. Wenn Daten gesammelt und verarbeitet werden, um LBOs auszuführen, schützt Microsoft einzelne Kunden und Benutzer durch Pseudonymisieren von Diagnosedaten und Aggregieren von Daten vor der Verwendung. Wir greifen nicht auf den Inhalt von Kundendaten zu, um zu bestimmen, welche bestimmten Daten als personenbezogen betrachtet werden können. Stattdessen wird davon ausgegangen, dass alle Kundendaten und alle professionellen Dienstdaten personenbezogene Daten enthalten und die Daten entsprechend schützen.
+Microsoft beschränkt die Erfassung von Kundendaten auf vier spezifische [Datenkategorien:](https://www.microsoft.com/trust-center/privacy/customer-data-definitions?rtc=1)Kundendaten, vom Dienst generierte Daten, Diagnosedaten und Professional Dienstdaten. Microsoft verwendet Daten aus diesen Kategorien, um eine begrenzte Anzahl legitimer Geschäftsvorgänge (LBOs) auszuführen, die für die Bereitstellung von Dienstleistungen für unsere Kunden erforderlich sind. Wenn Daten gesammelt und verarbeitet werden, um LBOs auszuführen, schützt Microsoft einzelne Kunden und Benutzer durch Pseudonymisieren von Diagnosedaten und Aggregieren von Daten vor der Verwendung. Wir greifen nicht auf den Inhalt von Kundendaten zu, um zu bestimmen, welche bestimmten Daten als personenbezogen betrachtet werden können. Stattdessen wird davon ausgegangen, dass alle Kundendaten und alle professionellen Dienstdaten personenbezogene Daten enthalten und die Daten entsprechend schützen.
 
 ## <a name="how-does-microsoft-handle-third-party-sharing"></a>Wie behandelt Microsoft die Freigabe von Drittanbietern?
 

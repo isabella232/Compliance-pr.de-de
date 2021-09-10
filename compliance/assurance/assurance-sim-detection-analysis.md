@@ -20,11 +20,11 @@ ms.collection:
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: b22c078715f2bbbf63ae5d6af8fb073aed1f1b48
-ms.sourcegitcommit: 9766d656d0e270f478437bd39c0546ad2e4d846f
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58676794"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947150"
 ---
 # <a name="microsoft-security-incident-management-detection-and-analysis"></a>Microsoft Security Incident Management: Erkennung und Analyse
 
@@ -43,7 +43,7 @@ Eine der wichtigsten Säulen der Erkennung ist die Benachrichtigung:
 - Jedes Serviceteam ist dafür verantwortlich, alle Aktionen oder Ereignisse innerhalb des Diensts basierend auf den Anforderungen des Sicherheitsteams des Onlinediensts zu protokollieren. Alle von den verschiedenen Serviceteams erstellten Protokolle werden von einer SIEM-Lösung (Security Information and Event Management) mit vordefinierten Sicherheits- und Erkennungsregeln verarbeitet. Diese Regeln werden basierend auf Empfehlungen des Sicherheitsteams, basierend auf Informationen aus vorherigen Sicherheitsvorfällen, weiterentwickelt, um festzustellen, ob verdächtige oder böswillige Aktivitäten vorhanden sind.
 - Wenn ein Kunde feststellt, dass ein Sicherheitsvorfall ausgeführt wird, kann er einen Supportfall bei Microsoft öffnen, der dem Microsoft-Kommunikationsteam zugewiesen und in eine Eskalation für alle entsprechenden Teams umgewandelt wird.
 
-Azure, Dynamics 365 und Microsoft 365-Serviceteams verwenden auch die in der Trendanalyse gewonnenen Informationen durch Sicherheitsüberwachung und -protokollierung, um Anomalien in Microsoft-Onlinedienst-Informationssystemen zu erkennen, die auf einen Angriff oder einen Sicherheitsvorfall hinweisen könnten. Microsoft-Onlinedienstsysteme fassen die Ausgabe aus diesen Protokollen in der Produktionsumgebung in zentralisierte Protokollierungsserver zusammen. Von diesen zentralisierten Protokollierungsservern aus werden Protokolle untersucht, um Trends in der gesamten Produktionsumgebung zu erkennen. Daten, die auf den zentralen Servern aggregiert werden, werden sicher in einen Protokollierungsdienst übertragen, um erweiterte Abfragen, Dashboarderstellung und Erkennung anomaler und bösartiger Aktivitäten zu ermöglichen. Der Dienst verwendet auch maschinelles Lernen, um Anomalien mit protokollbasierter Ausgabe zu erkennen.
+Azure, Dynamics 365 und Microsoft 365-Serviceteams nutzen auch die in der Trendanalyse gewonnenen Informationen durch Sicherheitsüberwachung und -protokollierung, um Anomalien in Microsoft-Onlinedienst-Informationssystemen zu erkennen, die auf einen Angriff oder einen Sicherheitsvorfall hinweisen könnten. Microsoft-Onlinedienstsysteme fassen die Ausgabe aus diesen Protokollen in der Produktionsumgebung in zentralisierte Protokollierungsserver zusammen. Von diesen zentralisierten Protokollierungsservern aus werden Protokolle untersucht, um Trends in der gesamten Produktionsumgebung zu erkennen. Daten, die auf den zentralisierten Servern aggregiert werden, werden sicher in einen Protokollierungsdienst übertragen, um erweiterte Abfragen zu erstellen, Dashboards zu erstellen und anomale und schädliche Aktivitäten zu erkennen. Der Dienst verwendet auch maschinelles Lernen, um Anomalien mit protokollbasierter Ausgabe zu erkennen.
 
 In der Eskalationsphase und je nach Art des Sicherheitsvorfalls können Sicherheitsteams einen oder mehrere Fachexperten aus verschiedenen Teams bei Microsoft einbeziehen:
 
@@ -58,7 +58,7 @@ Bevor eine Eskalation zu einem Sicherheitsreaktionsteam erfolgt, ist das Service
 
 - Datenschutz
 - Auswirkung
-- Umfang
+- Bereich
 - Anzahl der betroffenen Mandanten
 - Region
 - Dienst
@@ -67,7 +67,7 @@ Bevor eine Eskalation zu einem Sicherheitsreaktionsteam erfolgt, ist das Service
 
 Die Priorisierung von Vorfällen wird anhand verschiedener Faktoren bestimmt, einschließlich, aber nicht beschränkt auf die funktionalen Auswirkungen des Vorfalls, die informationsbezogene Auswirkung des Vorfalls und die Wiederherstellbarkeit des Vorfalls.
 
-Nachdem es eine Eskalation zu einem Sicherheitsvorfall erhalten hat, organisiert das Sicherheitsteam ein virtuelles Team (v-Team), das aus Mitgliedern des Microsoft Online Service Security Response-Teams, der Serviceteams und des Vorfallkommunikationsteams besteht. Das v-Team muss dann die Dringlichkeit des Sicherheitsvorfalls bestätigen und falsch positive Ergebnisse ausschließen. Die Genauigkeit der Informationen, die von den in der Vorbereitungsphase ermittelten Indikatoren bereitgestellt werden, ist von entscheidender Bedeutung. Durch die Analyse dieser Informationen nach Kategorie des Vektorangriffs kann das v-Team ermitteln, ob der Sicherheitsvorfall ein berechtigtes Problem ist.
+Nachdem eine Eskalation zu einem Sicherheitsvorfall empfangen wurde, organisiert das Sicherheitsteam ein virtuelles Team (v-Team), das aus Mitgliedern des Microsoft Online Service Security Response-Teams, der Serviceteams und des Teams für die Vorfallkommunikation besteht. Das v-Team muss dann die Dringlichkeit des Sicherheitsvorfalls bestätigen und falsch positive Ergebnisse ausschließen. Die Genauigkeit der Informationen, die von den in der Vorbereitungsphase ermittelten Indikatoren bereitgestellt werden, ist entscheidend. Durch die Analyse dieser Informationen nach Kategorie des Vektorangriffs kann das v-Team ermitteln, ob der Sicherheitsvorfall ein berechtigtes Problem ist.
 
 Zu Beginn der Untersuchung zeichnet das Team für die Reaktion auf Sicherheitsvorfälle alle Informationen zu dem Vorfall gemäß unseren Fallverwaltungsrichtlinien auf. Im weiteren Verlauf des Falls verfolgen wir fortlaufende Aktionen und folgen den Standards für die Beweisverarbeitung zum Sammeln, Aufbewahren und Sichern dieser Daten während des gesamten Vorfalllebenszyklus.
 

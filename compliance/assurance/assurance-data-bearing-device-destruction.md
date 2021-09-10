@@ -1,5 +1,5 @@
 ---
-title: Vernichtung von Geräten, die Daten tragen
+title: Zerstörung von Datenträgern
 description: In diesem Artikel finden Sie eine Übersicht über den Prozess der Gerätevernichtung für Microsoft-Rechenzentren.
 ms.author: robmazz
 author: robmazz
@@ -21,13 +21,13 @@ ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: 6a26334b805be069298302d3ad1e8e5b9e728150
-ms.sourcegitcommit: 1fd50ef5f165228109a3f2f0aef4b0c2aa59b2ff
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58862399"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947024"
 ---
-# <a name="data-bearing-device-destruction"></a>Vernichtung von Geräten, die Daten tragen
+# <a name="data-bearing-device-destruction"></a>Zerstörung von Datenträgern
 
 ## <a name="data-destruction-overview"></a>Übersicht über die Datenvernichtung
 
@@ -50,7 +50,7 @@ Microsoft verwendet drei Kategorien der Datenbereinigung für DBDs und Ressource
 
 - **Klar:** bezieht sich auf die logischen Techniken, die beim Bereinigung von Daten an allen benutzeradressierbaren Speicherorten zum Schutz vor einfachen, nicht dynamischen Datenwiederherstellungstechniken helfen. Dies sind Techniken, die in der Regel über die standardmäßigen Lese- und Schreibbefehle auf das Speichergerät angewendet werden, z. B. durch Umschreiben mit einem neuen Wert oder Verwenden einer Menüoption, um das Gerät auf den Werkszustand zurückzusetzen (wobei das Umschreiben nicht unterstützt wird).
 - **Bereinigung:** bezieht sich auf physische oder logische Techniken, die die Wiederherstellung von Zieldaten mithilfe aktueller Techniken des Labors unbrauchbar machen.
-- **Destroy**: rendert die Zieldatenwiederherstellung mithilfe von neuesten Techniken und führt zu der nachfolgenden Unfähigkeit, die Medien für die Speicherung von Daten zu verwenden.
+- **Destroy**: rendert die Zieldatenwiederherstellung mithilfe aktueller Techniken und führt zu der nachfolgenden Unfähigkeit, die Medien für die Speicherung von Daten zu verwenden.
 
 Das Bereinigen und Zerstören der Bereinigung erfolgt mithilfe von Tools und Prozessen, die von der Sicherheitsgruppe genehmigt wurden. Es werden Aufzeichnungen über die Löschung und Vernichtung von Objekten aufbewahrt. Geräte, die das Löschen nicht abschließen, werden erfolgreich entfernt (nur für magnetische Medien), mehrfach angeheftete (für gechipte basierte Boards wie SSDs) oder zerstört.
 

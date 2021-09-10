@@ -17,11 +17,11 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft Compliance
 ms.openlocfilehash: bce6847fe4c0cd1541348b70aadacc9c13238c31
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58481137"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58948030"
 ---
 # <a name="nist-sp-800-171"></a>NIST SP 800-171
 
@@ -42,9 +42,9 @@ Akkreditierte Drittanbieterbewertungsorganisationen, Kratos Secureinfo und Coalf
 
 NIST SP 800-171-Anforderungen sind eine Teilmenge von NIST SP 800-53, dem von FedRAMP verwendeten Standard. Anhang D von NIST SP 800-171 enthält eine direkte Zuordnung der CUI-Sicherheitsanforderungen zu den relevanten Sicherheitskontrollen in NIST SP 800-53, für die die im Umfang enthaltenen Clouddienste bereits im Rahmen des FedRAMP-Programms bewertet und autorisiert wurden.
 
-Jede Entität, die CUI der US-Regierung verarbeitet oder speichert – Forschungseinrichtungen, Beratungsunternehmen, Auftragnehmer der Fertigung , muss die strengen Anforderungen von NIST SP 800-171 erfüllen. Dieser Nachweis bedeutet, dass Microsoft-Clouddienste im Umfang Kunden, die CUI-Workloads bereitstellen möchten, mit der Gewissheit erfüllen können, dass Microsoft die vollständige Compliance erfüllt. Beispielsweise erfüllen alle DoD-Vertragsnehmer, die "abgedeckte Verteidigungsinformationen" mithilfe von Microsoft Cloud Services in ihren Informationssystemen verarbeiten, speichern oder übertragen, die DFARS-Klauseln des US-Verteidigungsministeriums, die die Einhaltung der Sicherheitsanforderungen von NIST SP 800-171 erfordern.
+Jede Organisation, die CUI der US-Regierung verarbeitet oder speichert – Forschungseinrichtungen, Beratungsunternehmen, Auftragnehmer der Fertigung – muss die strengen Anforderungen von NIST SP 800-171 erfüllen. Dieser Nachweis bedeutet, dass Microsoft-Clouddienste im Umfang Kunden, die CUI-Workloads bereitstellen möchten, mit der Gewissheit erfüllen können, dass Microsoft die vollständige Compliance erfüllt. Beispielsweise erfüllen alle DoD-Vertragsnehmer, die "erfasste Verteidigungsinformationen" mithilfe von Microsoft Cloud Services in ihren Informationssystemen verarbeiten, speichern oder übertragen, die DFARS-Klauseln des US-Verteidigungsministeriums, die die Einhaltung der Sicherheitsanforderungen von NIST SP 800-171 erfordern.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
 
 - Azure Commercial, Azure Government
 - Dynamics 365 U.S. Government
@@ -76,7 +76,7 @@ SharePoint Online, Skype for Business, Windows Ink |
 
 **Kann ich die Microsoft-Compliance mit NIST SP 800-171 für meine Organisation verwenden?**
 
-Ja. Microsoft-Kunden können die in den Berichten von unabhängigen Drittanbieterbewertungsorganisationen (3PAO) beschriebenen auditierten Kontrollen zu FedRAMP-Standards als Teil ihrer eigenen FedRAMP- und NIST-Risikobewertungen und Qualifizierungsaktivitäten verwenden. Diese Berichte belegen die Effektivität der Kontrollen, die Microsoft in seinen cloudbezogenen Diensten implementiert hat. Kunden sind dafür verantwortlich, sicherzustellen, dass ihre CUI-Workloads den NIST SP 800-171-Richtlinien entsprechen.
+Ja. Microsoft-Kunden können die in den Berichten von unabhängigen Drittanbieterbewertungsorganisationen (3PAO) beschriebenen geprüften Kontrollen zu FedRAMP-Standards als Teil ihrer eigenen FedRAMP- und NIST-Risikobewertungen und Qualifizierungsaktivitäten verwenden. Diese Berichte belegen die Effektivität der Kontrollen, die Microsoft in seinen cloudbezogenen Diensten implementiert hat. Kunden sind dafür verantwortlich, sicherzustellen, dass ihre CUI-Workloads den NIST SP 800-171-Richtlinien entsprechen.
 
 ### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
 

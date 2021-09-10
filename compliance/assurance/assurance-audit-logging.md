@@ -21,11 +21,11 @@ search.appverid:
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: 11695a941e5d5e6740833ab19bf2d68ac487c1c5
-ms.sourcegitcommit: 5e6e25ed264b248522ad49ea25490962db08e471
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58832258"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947045"
 ---
 # <a name="audit-logging-overview"></a>Überwachungsprotokollierung (Übersicht)
 
@@ -38,7 +38,7 @@ Die interne Überwachungsprotokollierung von Microsoft Online Services erfasst P
 - Ereignisprotokolle
 - AppLocker-Protokolle
 - Leistungsdaten
-- System Center-Daten
+- System Center Daten
 - Anrufdetaildatensätze
 - QoE-Daten
 - IIS-Webserverprotokolle
@@ -48,7 +48,7 @@ Die interne Überwachungsprotokollierung von Microsoft Online Services erfasst P
 
 ## <a name="how-do-microsoft-online-services-centralize-and-report-on-audit-logs"></a>Wie zentralisieren und berichten Microsoft-Onlinedienste über Überwachungsprotokolle?
 
-Viele verschiedene Arten von Protokolldaten werden von Microsoft-Servern in eine proprietäre Sicherheitsüberwachungslösung für die Nahezu-Echtzeit-Analyse (NRT) und einen internen Big Data Computing-Dienst (Cosmos) oder Azure Data Explorer (Kusto) für die langfristige Speicherung hochgeladen. Diese Datenübertragung erfolgt über eine FIPS 140-2-validierte TLS-Verbindung an genehmigten Ports und Protokollen mithilfe automatisierter Protokollverwaltungstools.
+Viele verschiedene Arten von Protokolldaten werden von Microsoft-Servern in eine proprietäre Sicherheitsüberwachungslösung für die Analyse in nahezu Echtzeit (NRT) und einen internen Big Data Computing-Dienst (Cosmos) oder Azure Data Explorer (Kusto) für die langfristige Speicherung hochgeladen. Diese Datenübertragung erfolgt über eine FIPS 140-2-validierte TLS-Verbindung an genehmigten Ports und Protokollen mithilfe automatisierter Protokollverwaltungstools.
 
 Protokolle werden in NRT mithilfe regelbasierter, statistischer und maschineller Lernmethoden verarbeitet, um Systemleistungsindikatoren und potenzielle Sicherheitsereignisse zu erkennen. Machine Learning-Modelle verwenden eingehende Protokolldaten und Verlaufsprotokolldaten, die in Cosmos oder Kusto gespeichert sind, um die Erkennungsfunktionen kontinuierlich zu verbessern. Sicherheitsrelevante Erkennungen generieren Warnungen, benachrichtigen Bereitschaftstechniker über einen potenziellen Vorfall und lösen ggf. automatisierte Abhilfemaßnahmen aus. Zusätzlich zur automatisierten Sicherheitsüberwachung verwenden Serviceteams Analysetools und Dashboards für Datenkorrelation, interaktive Abfragen und Datenanalyse. Diese Berichte werden verwendet, um die Gesamtleistung des Diensts zu überwachen und zu verbessern.
 

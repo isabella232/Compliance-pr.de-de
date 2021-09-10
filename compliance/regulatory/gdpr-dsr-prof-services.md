@@ -19,11 +19,11 @@ titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
 hideEdit: true
 ms.openlocfilehash: 06dbe8eeeddc32fb98b7b4bf0351834fb6a34944
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482630"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947857"
 ---
 # <a name="microsoft-support-and-professional-services-data-subject-requests-for-the-gdpr-and-ccpa"></a>Microsoft-Support und Professional Services für Anträge betroffener Personen für die DSGVO und den CCPA
 
@@ -31,7 +31,7 @@ ms.locfileid: "58482630"
 
 Microsoft Professional Services umfasst eine heterogene Gruppe aus technischen Architekten, Technikern, Beratern und Supportmitarbeitern, welche die Mission von Microsoft unterstützen, es Kunden zu ermöglichen, mehr zu tun und mehr zu erreichen. Unser Professional Services-Team umfasst insgesamt mehr als 21 000 Berater, Berater für digitale Angelegenheiten, Premier-Support, Techniker und Vertriebsmitarbeiter in 191 Ländern, die 46 unterschiedliche Sprachen sprechen, mehrere Millionen Engagements pro Monat absolvieren und vor Ort oder über Telefon, Internet, Community und automatisierte Tools mit Kunden und Partnern interagieren. Die Organisation liefert umfangreiche Kenntnisse über das gesamte Spektrum des Microsoft-Portfolios hinweg, wofür ein weites Partnernetzwerk, technische Communitys, Tools, Diagnosen und Kanäle verwendet werden, die uns mit unseren Unternehmenskunden verbinden.
 
-Weitere Informationen zu Microsoft Professional Services erhalten Sie unter der [Webseite Microsoft Professional Services Security Documentation ](https://www.microsoft.com/professionalservices/overview). Microsoft Professional Services nimmt seine Verpflichtungen im Rahmen der Datenschutz-Grundverordnung (DSGVO) ernst. Die Informationen in diesem Dokument dienen zur Beantwortung von Kundenfragen, wie die Support- und Beratungsangebote von Microsoft den Data Subject Request(DSR)-Verpflichtungen im Rahmen der DSGVO gerecht werden und Kunden in dieser Hinsicht unterstützen.
+Weitere Informationen zu Microsoft Professional Services finden Sie auf der Webseite [Microsoft Professional Services-Sicherheitsdokumentation](https://www.microsoft.com/professionalservices/overview). Microsoft Professional Services nimmt seine Verpflichtungen im Rahmen der Datenschutz-Grundverordnung (DSGVO) ernst. Die Informationen in diesem Dokument dienen dazu, Kundenfragen zu beantworten, wie z.B. die Support- und Beratungsangebote von Microsoft auf Kunden im Rahmen der DSGVO reagieren und sie bei der Beantwortung von DSR-Verpflichtungen (Data Subject Request) unterstützen.
 
 ### <a name="introduction-to-dsrs"></a>Einführung in Anträge betroffener Personen 
 

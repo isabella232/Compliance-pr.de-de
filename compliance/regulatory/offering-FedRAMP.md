@@ -17,11 +17,11 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft Compliance
 ms.openlocfilehash: 3f178689655662272fc8149259cf769ce122a18a
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482940"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947873"
 ---
 # <a name="federal-risk-and-authorization-management-program-fedramp"></a>FedRAMP (Federal Risk and Authorization Management Program)
 
@@ -43,11 +43,11 @@ FedRAMP-Autorisierungen werden auf drei Auswirkungsstufen basierend auf den NIST
 
 ## <a name="microsoft-and-fedramp"></a>Microsoft und FedRAMP
 
-Die Microsoft Government Cloud Services, einschließlich Azure Government, Dynamics 365 Government und Office 365 U.S. Government erfüllen die anspruchsvollen Anforderungen des US Federal Risk and Authorization Management Program (FedRAMP), sodass US-Bundesbehörden von den Kosteneinsparungen und der strengen Sicherheit der Microsoft Cloud profitieren können.
+Die Clouddienste von Microsoft, einschließlich Azure Government, Dynamics 365 Government und Office 365 U.S. Government, erfüllen die anspruchsvollen Anforderungen des US Federal Risk and Authorization Management Program (FedRAMP), sodass US-Bundesbehörden von den Kosteneinsparungen und der strengen Sicherheit der Microsoft Cloud profitieren können.
 
 Microsoft Government Cloud Services bieten Kunden aus dem öffentlichen Sektor eine vielzahl von Diensten, die FedRAMP entsprechen, sowie robuste Anleitungen und Implementierungstools, einschließlich des [FedRAMP High-Blueprints,](https://aka.ms/fedrampblueprint)das Kunden dabei hilft, eine reihe von Kernrichtlinien für alle von Azure bereitgestellten Architekturen bereitzustellen, die FedRAMP High-Kontrollen implementieren müssen.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
 
 - Azure und Azure Government
 - [Dynamics 365 U.S. Government](https://aka.ms/d365-compliance-list)
@@ -79,7 +79,7 @@ Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Di
 | **GCC Hoch** | Activity Feed Service, Bing Services, Exchange Online, Exchange Online Protection, Intelligent Services, Microsoft Teams, Office 365 Customer Portal, Office Online, Office Service Infrastructure, Office Usage Reports, OneDrive for Business, People Card, SharePoint Online, Skype for Business, Windows Ink |
 | **DoD** | Activity Feed Service, Bing Services, Exchange Online Protection, Exchange Online, Intelligent Services, Microsoft Teams, Office 365 Customer Portal, Office Online, Office Service Infrastructure, Office Usage Reports, OneDrive for Business, People Card, SharePoint Online, Skype for Business, Windows Ink |
 
-### <a name="office-365-audits-reports-and-certificates"></a>Office 365-Prüfungen, -Berichte und -Zertifikate
+### <a name="office-365-audits-reports-and-certificates"></a>Office 365-Audits, -Berichte und -Zertifikate
 
 Microsoft muss seine Clouddienste jedes Jahr rezertifizieren, um seine P-ATOs und ATOs zu behalten. Dazu muss Microsoft seine Sicherheitskontrollen kontinuierlich überwachen und bewerten und nachweisen, dass die Sicherheit seiner Dienste weiterhin eingehalten wird.
 

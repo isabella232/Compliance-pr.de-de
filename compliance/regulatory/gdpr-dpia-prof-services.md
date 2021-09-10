@@ -19,17 +19,17 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft GDPR
 ms.openlocfilehash: 838f6bfbae65770071cfa1e07e668bb6641e89a8
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53088964"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58948101"
 ---
 # <a name="data-protection-impact-assessments-guidance-for-data-controllers-using-microsoft-professional-services"></a>Datenschutz-Folgenabschätzung: Leitfaden für Datenverantwortliche, die Microsoft Professional Services verwenden
 
 ## <a name="introduction-to-microsoft-professional-services"></a>Einführung in Microsoft Professional Services
 
-Microsoft Professional Services umfasst eine heterogene Gruppe aus technischen Architekten, Technikern, Beratern und Supportmitarbeitern, die die Mission von Microsoft unterstützen, Kunden zu befähigen, mehr zu tun und mehr zu erreichen. Weitere Informationen zu Microsoft Professional Services finden Sie auf der [Seite Microsoft Professional Services Trust](https://aka.ms/pstrust).
+Microsoft Professional Services umfasst eine Vielzahl von technischen Architekten, Technikern, Beratern und Supportmitarbeitern, die sich dafür engagieren, die Mission von Microsoft zu erfüllen, Kunden zu befähigen, mehr zu tun und mehr zu erreichen. Weitere Informationen zu Microsoft Professional Services finden Sie auf der [Microsoft Professional Services Trust-Seite](https://aka.ms/pstrust).
 
 Microsoft Professional Services nimmt seine Verpflichtungen im Rahmen der Datenschutz-Grundverordnung (DSGVO) ernst. Die Informationen in diesem Dokument sollen erläutern, welche Support- und Beratungsangebote von Microsoft Kunden bei der Vorbereitung von Datenschutz-Folgenabschätzungen (Data Protection Impact Assessments, DPIAs) gemäß der DSGVO nutzen können.
 
@@ -51,7 +51,7 @@ Artikel 35 der DSGVO legt fest, dass ein Datenverantwortlicher eine Datenschutz-
 |||
 
 > [!Note]
-> <sup>1</sup> In Bezug auf das Kriterium, dass die Verarbeitung in "großem Umfang" erfolgt, wird in Erwägungsgrund 91 der DSGVO klargestellt, dass:„Die Verarbeitung personenbezogener Daten sollte nicht als in großem Umfang angesehen werden, wenn die Verarbeitung personenbezogene Daten von Patienten oder Klienten durch einen einzelnen Arzt, einen anderen Angehörigen der Gesundheitsberufe oder einen Rechtsanwalt betrifft. In diesen Fällen sollte eine Datenschutz-Folgenabschätzung nicht zwingend vorgeschrieben sein.“
+> <sup>1</sup> Bezüglich der Kriterien zu einer „umfangreichen“ Verarbeitung von Daten wird im Erwägungsgrund 91 der DSGVO Folgendes klar gestellt: „Die Verarbeitung personenbezogener Daten sollte nicht als umfangreich gelten, wenn die Verarbeitung personenbezogene Daten von Patienten oder von Mandanten betrifft und durch einen einzelnen Arzt, sonstigen Angehörigen eines Gesundheitsberufes oder Rechtsanwalt erfolgt. In diesen Fällen sollte eine Datenschutz-Folgenabschätzung nicht zwingend vorgeschrieben sein.“
   
 [Hinweis zur benutzerdefinierten Entwicklung] Professional Services bietet eine Vielzahl von Beratungslösungen. Ein Datenverantwortlicher könnte möglicherweise eine Lösung anfordern, die entsprechend den obigen Kriterien eine Lösung mit hohem Risiko wäre. Z. B. könnte ein Datenverantwortlicher von Professional Services eine Lösung zur Entwicklung eines Business Intelligence-Moduls für Personalentscheidungen oder Kreditanträge oder eine Lösung anfordern, die Benutzerüberwachung, eine spezielle Verwendung von künstlicher Intelligenz (KI)/Analytics oder die Verarbeitung besonderer Kategorien personenbezogener Daten umfasst.
 

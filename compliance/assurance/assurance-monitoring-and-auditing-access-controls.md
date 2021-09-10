@@ -20,15 +20,15 @@ f1.keywords:
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: bf760bf68169092f99fe5a668c9f0087060f7ea2
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58481867"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947153"
 ---
 # <a name="monitoring-and-auditing-access-controls-in-microsoft-365"></a>Überwachen und Überwachen von Zugriffssteuerungen in Microsoft 365
 
-Microsoft führt umfassende Überwachung und Überwachung aller Delegierungen, Berechtigungen und Vorgänge durch, die innerhalb Microsoft 365 erfolgen. Microsoft 365 Zugriffssteuerung ist ein automatisierter Prozess, der auf dem Prinzip der geringsten Rechte und der Integration von Datenzugriffssteuerungen und -überwachungen basiert:
+Microsoft führt umfassende Überwachung und Überwachung aller Delegierungen, Berechtigungen und Vorgänge durch, die innerhalb Microsoft 365 auftreten. Microsoft 365 Zugriffssteuerung ist ein automatisierter Prozess, der auf dem Prinzip der geringsten Rechte und der Integration von Datenzugriffssteuerungen und -überwachungen basiert:
 
 - Alle zulässigen Zugriffe können für einen eindeutigen Benutzer nachverfolgt werden. Administratoren sind für die Verarbeitung von Kundeninhalten verantwortlich.
 - Zugriffssteuerungsanforderungen, Genehmigungen und Verwaltungsprotokolle werden zur Analyse von Sicherheits- und böswilligen Ereignissen erfasst.

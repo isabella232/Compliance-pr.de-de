@@ -18,11 +18,11 @@ ms.collection:
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: 592cfcdf3da33e6c26e90d5a83fb6bcd3b4241e0
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58481917"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947111"
 ---
 # <a name="built-in-service-resiliency-in-microsoft-365"></a>Integrierte Dienstresilienz in Microsoft 365
 
@@ -55,7 +55,7 @@ Fehlerisolationsmaßnahmen werden in mehreren Phasen der Entwicklung und Bereits
 
 Der Microsoft Security Development Lifecycle (SDL) fördert die Resilienz weiter und besteht aus einer Reihe von Praktiken, die Sicherheits-und Compliance-Anforderungen unterstützen. SDL leitet unsere Entwickler in den Aufbau widerstandsfähiger, sicherer und kompatibler Dienste. Zu den Schlüsselelementen von SDL gehören Codeüberprüfungen, Bedrohungsmodellierung, Penetrationstests und standardisierte Prozesse zur Ereignisreaktion in der Microsoft-Cloud.
 
-Microsoft 365 Dienste sind in hohem Maße miteinander verbunden, aber die systeme und die technologie hinter ihnen sind so konzipiert, dass die Auswirkungen eines Dienstvorfalls durch Das Übertragen auf andere Dienste begrenzt werden. Beispielsweise wirkt sich ein Problem, das sich auf Exchange Online auswirkt, nicht auf die Kernfunktionen in Teams aus, oder ein Problem mit der Suchfunktion in SharePoint Online wirkt sich nicht auf die Möglichkeit von Benutzern aus, Dateien hoch- oder herunterzuladen.
+Microsoft 365 Dienste sind in hohem Maße miteinander verbunden, aber die systeme und die technologie hinter ihnen sind so konzipiert, dass die Auswirkungen eines Dienstvorfalls durch das Übertragen auf andere Dienste begrenzt werden. Beispielsweise wirkt sich ein Problem, das sich auf Exchange Online auswirkt, nicht auf die Kernfunktionalität in Teams aus, oder ein Problem mit der Suchfunktionalität in SharePoint Online wirkt sich nicht auf die Möglichkeit von Benutzern aus, Dateien hoch- oder herunterzuladen.
 
 ## <a name="continuous-service-improvement"></a>Kontinuierliche Serviceverbesserung
 

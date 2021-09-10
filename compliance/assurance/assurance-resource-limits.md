@@ -21,17 +21,17 @@ ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: 764259e22b23ecc7cea363283fc313a94875a2d1
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58481787"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947163"
 ---
 # <a name="service-resource-limits"></a>Dienstressourcenbeschränkungen
 
-Ressourcenbeschränkungen werden mithilfe von Kontingenten (Grenzwerten) und Drosselung erzwungen. Azure Active Directory (Azure AD) und die einzelnen Microsoft 365-Dienste verwenden beide Dienste. Grenzwerte sind dienstspezifisch und ändern sich im Laufe der Zeit, wenn neue Funktionen hinzugefügt werden. Ausführliche Informationen zu den aktuellen Grenzwerten für die verschiedenen Dienste finden Sie in den folgenden Themen:
+Ressourcenbeschränkungen werden mithilfe von Kontingenten (Grenzwerten) und Drosselung erzwungen. Azure Active Directory (Azure AD) und die einzelnen Microsoft 365-Dienste verwenden beide. Grenzwerte sind dienstspezifisch und ändern sich im Laufe der Zeit, wenn neue Funktionen hinzugefügt werden. Ausführliche Informationen zu den aktuellen Grenzwerten für die verschiedenen Dienste finden Sie in den folgenden Themen:
 
-- [Azure AD-Dienstbeschränkungen und -Einschränkungen](/azure/azure-resource-manager/management/azure-subscription-service-limits)
+- [Azure AD-Dienstbeschränkungen und -einschränkungen](/azure/azure-resource-manager/management/azure-subscription-service-limits)
 - [Exchange Online-Begrenzungen](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)
 - [SharePoint Grenzen und Grenzen von Onlinesoftware](https://support.office.com/article/SharePoint-Online-software-boundaries-and-limits-8F34FF47-B749-408B-ABC0-B605E1F6D498)
 - [Skype for Business Grenzen](https://technet.microsoft.com/library/skype-for-business-online-limits.aspx)
@@ -42,4 +42,4 @@ Zusätzlich zu diesen Grenzwerten werden mehrere Drosselungsmechanismen in Azure
 
 - Azure AD und Microsoft 365 Drosselung auf Featureebene, die die Anzahl der Transaktionen oder gleichzeitigen Aufrufe (durch Skript oder Code) einschränkt, die von einem einzelnen Benutzer ausgeführt werden können.
 - Jeder Mandant wird bei der Mandantenerstellung eine Standardmäßige PowerShell-Einschränkungsrichtlinie zugewiesen. Diese Einstellungen wirken sich auf andere Elemente aus, z. B. die maximale Anzahl gleichzeitiger PowerShell-Sitzungen, die von einem einzelnen Administrator geöffnet werden können.
-- Jeder Exchange Online Kunde verfügt über eine standardmäßige EWS-Richtlinie (Exchange Web Services), die auf EWS-Clientvorgänge abgestimmt ist, sowie eine Einschränkung, die für alle Outlook Clients gilt.
+- Jeder Exchange Online Kunde verfügt über eine standardmäßige Exchange-Webdienstrichtlinie (EWS), die für EWS-Clientvorgänge optimiert ist, und eine Einschränkung, die für alle Outlook Clients gilt.

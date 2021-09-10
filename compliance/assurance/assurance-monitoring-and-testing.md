@@ -21,11 +21,11 @@ ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: ff5860197375d6504bc85f257a442915dfff50cc
-ms.sourcegitcommit: 9766d656d0e270f478437bd39c0546ad2e4d846f
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58678614"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947129"
 ---
 # <a name="attack-simulation-in-microsoft-365"></a>Angriffssimulation in Microsoft 365
 
@@ -35,11 +35,11 @@ Microsoft 365 verfügt über interne Überwachungssysteme, die kontinuierlich au
 
 Während Microsoft 365 nach Möglichkeit automatisierte Wiederherstellungsmaßnahmen hat, stehen Microsoft-Bereitschaftstechniker 24 x 7 zur Verfügung, um alle Sicherheitseskalationen des Schweregrads 1 zu untersuchen, und nachträgliche Überprüfungen jedes Dienstvorfalls tragen zur kontinuierlichen Schulung und Verbesserung bei. Dieses Team umfasst Supporttechniker, Produktentwickler, Programmmanager, Produktmanager und leitende Führungskräfte. Unsere Bereitschaftsexperten bieten eine zeitnahe Sicherung und können häufig Wiederherstellungsaktionen automatisieren, sodass ein Ereignis beim nächsten Auftreten selbstgeschützt werden kann.
 
-Microsoft führt jedes Mal, wenn ein Microsoft 365 Sicherheitsvorfall auftritt, eine sorgfältige Überprüfung nach dem Vorfall durch, unabhängig von der Größe der Auswirkungen. Eine Überprüfung nach einem Vorfall besteht aus einer Analyse der Ereignisse, der Reaktion und der Verhinderung ähnlicher Vorfälle in der Zukunft. Im Interesse von Transparenz und Rechenschaftspflicht teilen wir Nach-Vorfall-Überprüfungen für alle wichtigen Dienstvorfälle mit betroffenen Kunden. Spezifische Details finden Sie unter [Microsoft Security Incident Management.](assurance-security-incident-management.md)
+Microsoft führt jedes Mal, wenn ein Microsoft 365 Sicherheitsvorfall auftritt, eine umfassende Überprüfung nach dem Vorfall durch, unabhängig von der Größe der Auswirkungen. Eine Überprüfung nach einem Vorfall besteht aus einer Analyse der Ereignisse, der Reaktion und der Verhinderung ähnlicher Vorfälle in der Zukunft. Im Interesse von Transparenz und Rechenschaftspflicht teilen wir Nach-Vorfall-Überprüfungen für alle wichtigen Dienstvorfälle mit betroffenen Kunden. Spezifische Details finden Sie unter [Microsoft Security Incident Management.](assurance-security-incident-management.md)
 
 ## <a name="assume-breach-methodology"></a>Gehen Sie von einer Methodik der Verletzung aus
 
-Basierend auf der detaillierten Analyse von Sicherheitstrends empfiehlt und hebt Microsoft die Notwendigkeit anderer Investitionen in reaktive Sicherheitsprozesse und -technologien hervor, die sich auf die Erkennung und Reaktion auf neue Bedrohungen konzentrieren, anstatt nur die Verhinderung dieser Bedrohungen. Aufgrund von Änderungen in der Bedrohungslandschaft und einer eingehenden Analyse hat Microsoft seine Sicherheitsstrategie über die Vermeidung von Sicherheitsverletzungen hinaus auf eine weise optimiert, die besser für die Behandlung von Sicherheitsverletzungen geeignet ist, wenn sie auftreten. Eine Strategie, die wichtige Sicherheitsereignisse nicht als Eine Frage des Falls, sondern wann betrachtet.
+Basierend auf der detaillierten Analyse von Sicherheitstrends empfiehlt und hebt Microsoft die Notwendigkeit anderer Investitionen in reaktive Sicherheitsprozesse und -technologien hervor, die sich auf die Erkennung und Reaktion auf neue Bedrohungen konzentrieren, anstatt nur die Verhinderung dieser Bedrohungen. Aufgrund von Änderungen in der Bedrohungslandschaft und einer eingehenden Analyse hat Microsoft seine Sicherheitsstrategie über die Vermeidung von Sicherheitsverletzungen hinaus auf eine weise optimiert, die besser für die Behandlung von Sicherheitsverletzungen geeignet ist, wenn sie auftreten. Eine Strategie, bei der wichtige Sicherheitsereignisse nicht als Eine Frage des Falls, sondern wann betrachtet werden.
 
 Obwohl Microsoft [davon ausgeht, dass Es](https://www.microsoft.com/TrustCenter/Security/default.aspx) bereits seit vielen Jahren Praktiken bei Sicherheitsverletzungen gibt, sind vielen Kunden die Arbeit, die hinter den Kulissen zur Härtung der Microsoft-Cloud durchgeführt wird, nicht bewusst. Es wird davon ausgegangen, dass eine Verletzung eine Mentalität ist, die sicherheitsbezogene Investitionen, Entwurfsentscheidungen und betriebliche Sicherheitspraktiken leitet. Gehen Sie davon aus, dass die Verletzung das Vertrauen in Anwendungen, Dienste, Identitäten und Netzwerke einschränkt, indem sie alle – internen und externen – als unsicher und bereits kompromittiert behandeln. Obwohl die Annahme, dass die Strategie für Sicherheitsverletzungen nicht von einer tatsächlichen Verletzung eines Microsoft-Unternehmens oder von Clouddiensten abgeleitet wurde, wurde erkannt, dass viele Organisationen in der gesamten Branche trotz aller Versuche, dies zu verhindern, verletzt wurden. Die Verhinderung von Verstößen ist zwar ein wichtiger Bestandteil der Vorgänge einer Organisation, diese Praktiken müssen jedoch kontinuierlich getestet und erweitert werden, um moderne Angreifer und fortgeschrittene dauerhafte Bedrohungen effektiv zu beheben. Damit sich jede Organisation auf eine Verletzung vorbereiten kann, müssen sie zuerst robuste, wiederholbare und sorgfältig getestete Sicherheitsmaßnahmen erstellen und aufrechterhalten.
 
@@ -50,9 +50,9 @@ Bei Microsoft haben wir uns vorgenommen, dies durch laufende Übungen zu Spielen
 Microsoft führt seine Sicherheitsstrategie zur Annahme von Sicherheitsverletzungen mithilfe von zwei Kerngruppen aus:
 
 - Rote Teams (Angreifer)
-- Blaue Teams (Verteidiger)
+- Blue Teams (Defenders)
 
-Sowohl Microsoft Azure- als auch Microsoft 365 Mitarbeiter trennen die rot-Teams und die blaue Teams in Vollzeit.
+Sowohl Microsoft Azure als auch Microsoft 365 Mitarbeiter trennen die rot-Teams und die blaue Teams in Vollzeit.
 
 Der Ansatz, der als["Rotes Teaming"](https://go.microsoft.com/fwlink/?linkid=518599)bezeichnet wird, besteht darin, Azure und Microsoft 365 Systeme und Vorgänge mit denselben Taktiken, Techniken und Verfahren wie echte Angreifer gegen die Liveproduktionsinfrastruktur zu testen, ohne dass die Engineering- oder Operations-Teams bekannt sind. Dadurch werden die Sicherheitserkennungs- und Reaktionsfunktionen von Microsoft getestet und Produktionssicherheitsrisiken, Konfigurationsfehler, ungültige Annahmen und andere Sicherheitsprobleme auf kontrollierte Weise identifiziert. Auf jede Verletzung des roten Teams folgt eine vollständige Offenlegung zwischen beiden Teams, um Lücken zu identifizieren, Ergebnisse zu beheben und die Reaktion auf Sicherheitsverletzungen zu verbessern.
 
@@ -68,7 +68,7 @@ Die Rolle des roten Teams besteht darin, Umgebungen mit denselben Schritten wie 
 
 Unter anderem versuchen rote Teams, die Grenzen der Mandantenisolation zu überschreiten, um Fehler oder Lücken in unserem Isolationsdesign zu finden.
 
-Um die Angriffssimulation zu skalieren, hat das rote Team ein automatisiertes Angriffsemulationstool erstellt, das regelmäßig sicher in bestimmten Microsoft 365 umgebungen ausgeführt wird. Das Tool verfügt über eine Vielzahl vordefinierter Angriffe, die ständig erweitert und verbessert werden, um die sich entwickelnde Bedrohungslandschaft widerzuspiegeln. Zusätzlich zur Erweiterung der Abdeckung der Tests des roten Teams hilft es dem blauen Team, seine Sicherheitsüberwachungslogik zu überprüfen und zu verbessern. Die regelmäßige, fortlaufende Angriffsemulation bietet dem blauen Team einen konsistenten und vielfältigen Signalstrom, der mit den erwarteten Antworten verglichen und überprüft wird. Dies führt zu Verbesserungen der Sicherheitsüberwachungslogik und -reaktionsfunktionen von Microsoft 365.
+Um die Angriffssimulation zu skalieren, hat das rote Team ein automatisiertes Angriffsemulationstool erstellt, das regelmäßig sicher in bestimmten Microsoft 365 Umgebungen ausgeführt wird. Das Tool verfügt über eine Vielzahl vordefinierter Angriffe, die ständig erweitert und verbessert werden, um die sich entwickelnde Bedrohungslandschaft widerzuspiegeln. Zusätzlich zur Erweiterung der Abdeckung der Tests des roten Teams hilft es dem blauen Team, seine Sicherheitsüberwachungslogik zu überprüfen und zu verbessern. Die regelmäßige, fortlaufende Angriffsemulation bietet dem blauen Team einen konsistenten und vielfältigen Signalstrom, der mit den erwarteten Antworten verglichen und überprüft wird. Dies führt zu Verbesserungen der Sicherheitsüberwachungslogik und -reaktionsfunktionen von Microsoft 365.
 
 ## <a name="blue-teams"></a>Blaue Teams
 

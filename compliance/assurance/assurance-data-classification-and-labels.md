@@ -21,17 +21,17 @@ ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: a68332971da909d8739039be6f0c8d84310ff9f9
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482138"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947054"
 ---
 # <a name="data-classification--sensitivity-label-taxonomy"></a>Taxonomie der Datenklassifizierung & Vertraulichkeitsbezeichnungen
 
 Vertrauliche Daten stellen ein erhebliches Risiko für ein Unternehmen dar, wenn sie gestohlen, versehentlich freigegeben oder durch eine Verletzung offengelegt werden. Zu den Risikofaktoren gehören Reputationsschäden, finanzielle Auswirkungen und Verlust von Wettbewerbsvorteilen. Der Schutz der Daten und Informationen, die Ihr Unternehmen verwaltet, hat für Ihre Organisation oberste Priorität. Es kann jedoch schwierig sein, zu wissen, ob Ihre Anstrengungen angesichts der Menge an Inhalten in Ihrem Unternehmen wirklich effektiv sind.
 
-Zusätzlich zum Volume können Ihre Inhalte von hochgradig vertraulicher und wirkungsvoller bis zu trivialer und vorübergehender Bedeutung reichen. Es kann auch unter dem Blick auf verschiedene gesetzliche Compliance-Anforderungen stehen. Es kann eine Herausforderung sein, zu wissen, was priorisiert werden muss und wo Steuerelemente angewendet werden sollen. Lesen Sie weiter, um mehr über *die Datenklassifizierung* zu erfahren, ein wichtiges Tool zum Schutz Ihrer Inhalte vor Diebstahl, Simplifizierung oder unbeabsichtigter Vernichtung, und wie Microsoft 365 Ihnen helfen können, Ihre Ziele in Bezug auf die Informationssicherheit zu erreichen.
+Zusätzlich zum Volume können Ihre Inhalte von hochgradig vertraulicher und wirkungsvoller bis zu trivialer und vorübergehender Bedeutung reichen. Es kann auch unter dem Blick auf verschiedene gesetzliche Compliance-Anforderungen stehen. Es kann eine Herausforderung sein, zu wissen, was priorisiert werden muss und wo Steuerelemente angewendet werden sollen. Lesen Sie weiter, um mehr über *die Datenklassifizierung* zu erfahren, ein wichtiges Tool zum Schutz Ihrer Inhalte vor Diebstahl, Simplifizierung oder unbeabsichtigter Vernichtung, und wie Microsoft 365 Ihnen helfen können, Ihre Informationssicherheitsziele zu erreichen.
 
 ## <a name="what-is-data-classification"></a>Was ist die Datenklassifizierung?
 
@@ -40,7 +40,7 @@ Zusätzlich zum Volume können Ihre Inhalte von hochgradig vertraulicher und wir
 ## <a name="what-is-a-data-classification-framework"></a>Was ist ein Datenklassifizierungsframework?
 
 Häufig in einer formalen, unternehmensweiten Richtlinie codiert, besteht ein Datenklassifizierungsframework (manchmal auch als "Datenklassifizierungsrichtlinie" bezeichnet) in der Regel aus 3 bis 5 Klassifizierungsebenen. Diese enthalten in der Regel drei Elemente: einen Namen, eine Beschreibung und Beispiele aus der Praxis. Microsoft empfiehlt nicht mehr als fünf übergeordnete Beschriftungen auf oberster Ebene mit jeweils fünf Unterbezeichnungen (insgesamt 25), um die Benutzeroberfläche (UI) verwaltbar zu halten. Ebenen werden in der Regel von der niedrigsten bis zur sensibelsten Ebene angeordnet, z. B. *öffentlich,* *intern,* *vertraulich* und *streng* 
- *vertraulich.* Andere Ebenennamenvarianten, auf die Sie möglicherweise stoßen können, sind *eingeschränkt,* *uneingeschränkt* und *verbrauchergeschützt.* Microsoft empfiehlt Bezeichnungsnamen, die selbstdeskriptiv sind und ihre relative Vertraulichkeit deutlich hervorheben. Beispielsweise können *"Vertraulich"* und *"Eingeschränkt"* benutzerdeklarieren, welche Bezeichnung geeignet ist, während *"Vertraulich"* und *"Streng vertraulich"* eindeutiger sind, was sensibler ist. 
+ *vertraulich.* Andere Ebenennamenvarianten, auf die Sie möglicherweise stoßen können, sind *eingeschränkt,* *uneingeschränkt* und *verbrauchergeschützt.* Microsoft empfiehlt Bezeichnungsnamen, die selbstdeskriptiv sind und ihre relative Vertraulichkeit deutlich hervorheben. Beispielsweise können *"Vertraulich"* und *"Eingeschränkt"* benutzerdeklarieren, welche Bezeichnung angemessen ist, während *"Vertraulich"* und *"Streng vertraulich"* eindeutiger sind, was sensibler ist. 
 
 Die folgende Tabelle zeigt ein Beispiel für eine Frameworkebene der Datenklassifizierung *"Streng vertraulich":*
 

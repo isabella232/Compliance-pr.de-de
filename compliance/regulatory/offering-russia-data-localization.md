@@ -17,11 +17,11 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft Compliance
 ms.openlocfilehash: 093ec578cd83dc6c52485101d232d9ccff88489e
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482800"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58948053"
 ---
 # <a name="russian-personal-data-localization-requirements"></a>Lokalisierungsanforderungen für personenbezogene Daten in Russisch
 
@@ -37,11 +37,11 @@ Es ist zu beachten, dass es der Kunde als PDIS-Betreiber für personenbezogene D
 
 ### <a name="microsoft-id-management"></a>Microsoft-ID-Verwaltung
 
-Microsoft lädt Kunden ein, das Abonnieren von Microsoft-Dienste in Betracht zu ziehen. Microsoft Azure, Microsoft 365, Dynamics 365 und Power Platform – über einen Microsoft Cloud Solution Provider (CSP)-Partner. Weitere Informationen finden Sie in [dieser Liste der CSP-Partner.](https://pinpoint.microsoft.com/search?type=services&campaign=691)
+Microsoft lädt Kunden ein, das Abonnieren von Microsoft-Dienste in Betracht zu ziehen. Microsoft Azure, Microsoft 365, Dynamics 365 und Power Platform – über einen CSP-Partner (Microsoft Cloud Solution Provider). Weitere Informationen finden Sie in [dieser Liste der CSP-Partner.](https://pinpoint.microsoft.com/search?type=services&campaign=691)
 
 ### <a name="managing-user-identity-and-access-for-microsoft-services"></a>Verwalten der Benutzeridentität und des Zugriffs für Microsoft-Dienste
 
-Für Microsoft-Dienste wie Microsoft Azure, Microsoft 365, Dynamics 365 und Power Platform werden die Benutzerüberprüfung und die Zugriffsverwaltung über [Azure Active Directory (Azure Active Directory)](https://azure.microsoft.com/services/active-directory/)durchgeführt. In Fällen, in denen ein Microsoft-Kunde ein lokales Identifikationsverwaltungssystem für Microsoft-Clouddienste (z. B. das Windows Server Active Directory (AD) oder ein anderes ID-Verwaltungssystem verwendet, hat der Kunde die Möglichkeit, dieses System schnell mit dem Azure Active Directory (Azure Active Directory) über die Azure AD-Verbinden zu integrieren. Weitere Informationen finden Sie im [Azure AD-Verbinden.](/azure/active-directory/cloud-provisioning/) Microsoft-Kunden können auch die Verwendung von Anwendungen und Lösungen von Drittanbietern in Betracht ziehen, um ihre Benutzer zu verwalten und ihr lokales Identifikationssystem in Azure AD zu integrieren.
+Für Microsoft-Dienste wie Microsoft Azure, Microsoft 365, Dynamics 365 und Power Platform werden die Benutzerüberprüfung und die Zugriffsverwaltung über [Azure Active Directory (Azure Active Directory)](https://azure.microsoft.com/services/active-directory/)durchgeführt. In Fällen, in denen ein Microsoft-Kunde ein lokales Identifikationsverwaltungssystem für Microsoft-Clouddienste (z. B. das Windows Server Active Directory (AD) oder ein anderes ID-Verwaltungssystem verwendet, hat der Kunde die Möglichkeit, dieses System schnell in die Azure Active Directory (Azure Active Directory) über die Azure AD-Verbinden zu integrieren. Weitere Informationen finden Sie im [Azure AD-Verbinden.](/azure/active-directory/cloud-provisioning/) Microsoft-Kunden können auch die Verwendung von Anwendungen und Lösungen von Drittanbietern in Betracht ziehen, um ihre Benutzer zu verwalten und ihr lokales Identifikationssystem in Azure AD zu integrieren.
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
 
@@ -64,7 +64,7 @@ Technische Fragen und Abrechnungsfragen finden Sie unten in den Microsoft-Suppor
 - **Lokaler Anruf**: 499 922 8623
 - **Onlinesupport:** Senden von Abfragen über das [Admin Center](https://portal.office.com/)
 
-### <a name="dynamics-365"></a>Dynamics 365
+### <a name="dynamics-365"></a>Dynamics 365
 
 - **Gebührenfrei**: 8 10 800 2548 1044
 - **Lokaler Anruf**: 499 922 8623

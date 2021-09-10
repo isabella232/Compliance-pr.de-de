@@ -20,11 +20,11 @@ f1.keywords:
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: c851b235a70104720457d08c51529ee7b25c65e4
-ms.sourcegitcommit: 1fd50ef5f165228109a3f2f0aef4b0c2aa59b2ff
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58862355"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947075"
 ---
 # <a name="data-retention-deletion-and-destruction-in-microsoft-365"></a>Aufbewahrung, Löschung und Vernichtung von Daten in Microsoft 365
 
@@ -57,7 +57,7 @@ Weitere Informationen zur beschleunigten Debereitstellung finden Sie unter [Kün
 
 ## <a name="related-links"></a>Links zu verwandten Themen
 
-- [Vernichtung von Geräten, die Daten tragen](assurance-data-bearing-device-destruction.md)
+- [Zerstörung von Datenträgern](assurance-data-bearing-device-destruction.md)
 - [Unveränderbarkeit in Office 365](assurance-data-immutability.md)
 - [Löschen von Exchange Online-Daten](assurance-exchange-online-data-deletion.md)
 - [Löschen von SharePoint Online-Daten](assurance-sharepoint-online-data-deletion.md)

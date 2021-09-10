@@ -1,6 +1,6 @@
 ---
 title: Commodity Futures Trading Commission (CFTC) Rule 1.31(c-d) United States
-description: Ein unabhängiges Bewertungsunternehmen hat überprüft, dass Azure und Office 365 Finanzunternehmen dabei helfen können, die Aufbewahrungsanforderungen für CFTC-Regeln 1.31 und unveränderliche Speicheranforderungen zu erfüllen.
+description: Ein unabhängiges Bewertungsunternehmen hat überprüft, dass Azure und Office 365 Finanzunternehmen dabei helfen können, die Anforderungen der CFTC-Regel 1.31 zur Aufbewahrung von Datensätzen und unveränderlichen Speicheranforderungen zu erfüllen.
 keywords: Microsoft 365, Compliance, Angebote
 ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
@@ -17,11 +17,11 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft Compliance
 ms.openlocfilehash: 8bb9f380d57e932576c969f10512f508de7c6ada
-ms.sourcegitcommit: 70efe7749db2c6dd4ae0faa8ac22da6e87109c79
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58707134"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947872"
 ---
 # <a name="commodity-futures-trading-commission-cftc-rule-131c-d-united-states"></a>Commodity Futures Trading Commission (CFTC) Rule 1.31(c-d) United States
 
@@ -29,9 +29,9 @@ ms.locfileid: "58707134"
 
 Die [Commodity Futures Trading Commission](https://www.cftc.gov/) (CFTC), eine unabhängige US-Federal Agency, reguliert die Märkte für Warentermintermine und Optionen und in letzter Zeit den Swaps-Markt.  
   
-Die langfristige CFTC-Regel 1.31 definiert Aufbewahrungsanforderungen für Datensätze, die durch SEC-Regel 17a-4(f) festgelegt werden. Darüber hinaus wird festgelegt, dass elektronische Aufzeichnungen fünf Jahre lang aufbewahrt werden müssen und dass die Originale während der ersten beiden Jahre "leicht zugänglich" bleiben und während des gesamten Aufbewahrungszeitraums zur Überprüfung durch die Kommission oder das US-Department of Departments of Departments zur Verfügung gestellt werden.  
+Die langfristige CFTC-Regel 1.31 definiert Aufbewahrungsanforderungen für Datensätze, die durch SEC-Regel 17a-4(f) festgelegt werden. Darüber hinaus wird festgelegt, dass elektronische Aufzeichnungen fünf Jahre lang aufbewahrt werden müssen und dass die Originale während der ersten zwei Jahre "leicht zugänglich" bleiben und während des gesamten Aufbewahrungszeitraums zur Überprüfung durch die Kommission oder das US-Department of Departments of Departments zur Verfügung gestellt werden.  
   
-Im Jahr 2017 hat die [CFTC ihre Regel überarbeitet,](https://www.cftc.gov/sites/default/files/idc/groups/public/@lrfederalregister/documents/file/2017-11014a.pdf)ihre Aufzeichnungsregel aktualisiert und modernisiert, um weniger präskriptive, prinzipienbasierte Standards zu übernehmen, die eine größere Flexibilität bei der Verwaltung von Datensätzen bieten. Diese Revision macht die Regel technologieneutraler, sodass regulierte Entitäten die für ihr Unternehmen am besten geeignete Technologie auswählen können, während gleichzeitig die Garantien beibehalten werden, die "die Zuverlässigkeit des Datensatzes sicherstellen". Die überarbeitete Regel entfernt die Anforderung, dass Organisationen die ursprünglichen Aufzeichnungen zwei Jahre lang aufbewahren, behält jedoch den Fünf-Jahres-Wartungszeitraum bei, wodurch Praktiken für Unternehmen, die sowohl von der CFTC als auch von der SEC reguliert werden, beseitigt werden.
+Im Jahr 2017 hat die [CFTC ihre Regel überarbeitet,](https://www.cftc.gov/sites/default/files/idc/groups/public/@lrfederalregister/documents/file/2017-11014a.pdf)ihre Aufzeichnungsregel aktualisiert und modernisiert, um weniger präskriptive, prinzipienbasierte Standards zu übernehmen, die eine größere Flexibilität bei der Verwaltung von Datensätzen bieten. Diese Revision macht die Regel technologieneutraler, sodass regulierte Entitäten die für ihr Unternehmen am besten geeignete Technologie auswählen können, während gleichzeitig die Garantien beibehalten werden, die "die Zuverlässigkeit des Datensatzes sicherstellen". Mit der überarbeiteten Regel wird die Anforderung entfernt, dass Organisationen die ursprünglichen Aufzeichnungen zwei Jahre lang aufbewahren, behält jedoch den fünfjährigen Wartungszeitraum bei, wodurch Praktiken für Unternehmen, die sowohl von der CFTC als auch von der SEC reguliert werden, beseitigt werden.
 
 ## <a name="microsoft-and-cftc-rule-131c-d"></a>Microsoft und CFTC-Regel 1.31(c-d)
 
@@ -39,11 +39,11 @@ Finanzdienstleistungskunden, die eine der am stärksten regulierten Branchen der
 
 ### <a name="microsoft-azure"></a>Microsoft Azure
 
-Um die Azure-Compliance mit CFTC-Regel 1.31(c-d) zu bewerten, bewahre Microsoft ein unabhängiges Bewertungsunternehmen, das sich auf datensatzverwaltung und Informationsgovernance spezialisiert hat, Cohasset Associates. Im resultierenden Bericht hat [CFTC 1.31 (c) (d) Compliance Assessment: Microsoft Azure Storage](https://azure.microsoft.com/resources/azure-immutable-storage-assessment-for-sec-17a-4f-by-cohasset/), Cohasset überprüft, dass [Azure Immutable Blob mit](/azure/storage/blobs/storage-blob-immutable-storage) der Option "Richtliniensperre" Storage, wenn es verwendet wird, um zeitbasierte Blobs in einem nicht löschbaren und nicht beschreibbaren (WORM)-Format beizubehalten, die prinzipienbasierten Anforderungen der CFTC-Regel erfüllt. Jedes Blob (Datensatz) ist vor Änderungen, Überschreibungen oder Löschungen geschützt, bis der erforderliche Aufbewahrungszeitraum abgelaufen ist und alle zugehörigen rechtlichen Haltebereiche freigegeben wurden. Softwareanbieter und Partner mit vertraulichen Workloads können sich jetzt auf Azure Immutable Blob Storage als zentrale Cloudlösung für die Datensatzaufbewahrung verlassen. Finanzinstitute können jetzt ihre eigenen Anwendungen erstellen, die diese Features nutzen und gleichzeitig konform bleiben.
+Um die Azure-Compliance mit CFTC-Regel 1.31(c-d) zu bewerten, bewahre Microsoft ein unabhängiges Bewertungsunternehmen, das sich auf datensatzverwaltung und Informationsgovernance spezialisiert hat, Cohasset Associates. Im resultierenden Bericht hat [CFTC 1.31 (c) (d) Compliance Assessment: Microsoft Azure Storage](https://azure.microsoft.com/resources/azure-immutable-storage-assessment-for-sec-17a-4f-by-cohasset/), Cohasset überprüft, dass [Azure Immutable Blob Storage](/azure/storage/blobs/storage-blob-immutable-storage) mit der Option "Richtliniensperre", wenn es verwendet wird, um zeitbasierte Blobs in einem nicht löschbaren und nicht beschreibbaren (WORM)-Format beizubehalten, die prinzipienbasierten Anforderungen der CFTC-Regel erfüllt. Jedes Blob (Datensatz) ist vor Änderungen, Überschreibungen oder Löschungen geschützt, bis der erforderliche Aufbewahrungszeitraum abgelaufen ist und alle zugehörigen rechtlichen Haltebereiche freigegeben wurden. Softwareanbieter und Partner mit vertraulichen Workloads können sich jetzt auf Azure Immutable Blob Storage als zentrale Cloudlösung für die Datensatzaufbewahrung verlassen. Finanzinstitute können jetzt ihre eigenen Anwendungen erstellen, die diese Features nutzen und gleichzeitig konform bleiben.
 
 ### <a name="microsoft-365"></a>Microsoft 365
 
-Für [CFTC 1.31(c)-(d)-Anforderungen](/microsoft-365/compliance/retention-regulatory-requirements#sec-17a-4f-finra-4511c-and-cftc-131c-d) überprüfte Cohasset, dass Microsoft 365 Archivierungsfunktionen umfasst, mit denen regulierte Kunden, einschließlich Broker-Händler, Daten auf eine Weise speichern können, die ihnen hilft, die SEC-Anforderungen für die Datensatzaufbewahrung zu erfüllen. Aufbewahrungsfunktionen in Microsoft 365 dabei helfen, eine vielzahl von Daten zu erhalten, einschließlich E-Mail, Voicemail, freigegebene Dokumente, Chatnachrichten und Daten von Drittanbietern. Insbesondere die Archivierung in Microsoft 365 ermöglicht Es Kunden, globale oder granulare Aufbewahrungsrichtlinien für Messaging festzulegen, um Daten für einen definierten Zeitraum und darüber hinaus in einem nicht umschreibbaren, nicht löschbaren Format zu speichern.
+Für [CFTC 1.31(c)-(d)-Anforderungen](/microsoft-365/compliance/retention-regulatory-requirements#sec-17a-4f-finra-4511c-and-cftc-131c-d) hat Cohasset überprüft, dass Microsoft 365 Archivierungsfunktionen umfasst, mit denen regulierte Kunden, einschließlich Broker-Händler, Daten auf eine Weise speichern können, die ihnen hilft, die SEC-Anforderungen für die Datensatzaufbewahrung einzuhalten. Aufbewahrungsfeatures in Microsoft 365 dabei helfen, eine vielzahl von Daten zu erhalten, einschließlich E-Mail, Voicemail, freigegebene Dokumente, Chatnachrichten und Daten von Drittanbietern. Insbesondere die Archivierung in Microsoft 365 ermöglicht Es Kunden, globale oder granulare Aufbewahrungsrichtlinien für Messaging festzulegen, um Daten für einen definierten Zeitraum und darüber hinaus in einem nicht umschreibbaren, nicht löschbaren Format zu speichern.
 
 ## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
@@ -52,7 +52,7 @@ Für [CFTC 1.31(c)-(d)-Anforderungen](/microsoft-365/compliance/retention-regula
 
 ## <a name="audits-reports-and-certificates"></a>Prüfungen, Berichte und Zertifikate
 
-- [Azure & CFTC Rule 1.31: SEC 17a-4(f) & CFTC 1.31(c-d) Compliance Assessment of Azure Storage](https://azure.microsoft.com/resources/azure-immutable-storage-assessment-for-sec-17a-4f-by-cohasset/)
+- [Azure & CFTC-Regel 1.31: SEC 17a-4(f) & CFTC 1.31(c-d) Compliance Assessment of Azure Storage](https://azure.microsoft.com/resources/azure-immutable-storage-assessment-for-sec-17a-4f-by-cohasset/)
 - Office 365 & CFTC-Regel 1.31: Archivierung in Office 365, Datenaufbewahrung und SEC-Regel 17a-4 Compliance
 
 ## <a name="how-to-implement"></a>Implementierung

@@ -21,11 +21,11 @@ search.appverid:
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: 92da9e7bb2716f61088e02c244cb9905af142ead
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58481837"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947156"
 ---
 # <a name="network-security-overview"></a>Netzwerksicherheit (Übersicht)
 
@@ -41,7 +41,7 @@ Zusätzlich zur redundanten Systemarchitektur von Microsoft verwendet Microsoft 
 
 ## <a name="how-does-microsoft-protect-users-against-spam-and-malware-being-uploaded-or-sent-through-online-services"></a>Wie schützt Microsoft Benutzer vor Spam und Schadsoftware, die über Onlinedienste hochgeladen oder gesendet werden?
 
-Microsoft Online services build antimalware protection into services that might be vectors for malicious code, such as Exchange Online and SharePoint Online. Exchange Online Protection (EOP) scannt alle E-Mails und E-Mail-Anlagen beim Ein- und Verlassen des Systems auf Schadsoftware, um zu verhindern, dass infizierte Nachrichten und Anlagen zugestellt werden. Die erweiterte Spamfilterung wird automatisch auf eingehende und ausgehende Nachrichten angewendet, um zu verhindern, dass Kundenorganisationen Spam empfangen und senden. Diese Schutzebene schützt vor Angriffen, die unerwünschte oder nicht autorisierte E-Mails wie Phishingangriffe nutzen. SharePoint Online verwendet dasselbe Virenerkennungsmodul, um hochgeladene Dateien selektiv auf Schadsoftware zu überprüfen. Wenn eine Datei als infiziert markiert ist, können Benutzer die Datei nicht herunterladen oder synchronisieren, um Clientendpunkte zu schützen. Ebenso vergleicht Azure Hashes im Zusammenhang mit Dateien, die in Azure Storage hochgeladen wurden, mit diesen Hashes bekannter Schadsoftware. Wenn Übereinstimmungen gefunden werden, wird eine Warnung im Azure Security Center ausgelöst, in der eine Entscheidung über die Dringlichkeit der Warnung und deren Behebung getroffen wird.
+Microsoft Online services build antimalware protection into services that might be vectors for malicious code, such as Exchange Online and SharePoint Online. Exchange Online Protection (EOP) überprüft alle E-Mails und E-Mail-Anlagen beim Ein- und Verlassen des Systems auf Schadsoftware, um zu verhindern, dass infizierte Nachrichten und Anlagen zugestellt werden. Die erweiterte Spamfilterung wird automatisch auf eingehende und ausgehende Nachrichten angewendet, um zu verhindern, dass Kundenorganisationen Spam empfangen und senden. Diese Schutzebene schützt vor Angriffen, die unerwünschte oder nicht autorisierte E-Mails wie Phishingangriffe nutzen. SharePoint Online verwendet dasselbe Virenerkennungsmodul, um hochgeladene Dateien selektiv auf Schadsoftware zu überprüfen. Wenn eine Datei als infiziert markiert ist, können Benutzer die Datei nicht herunterladen oder synchronisieren, um Clientendpunkte zu schützen. Ebenso vergleicht Azure Hashes im Zusammenhang mit Dateien, die in Azure Storage hochgeladen wurden, mit diesen Hashes bekannter Schadsoftware. Wenn Übereinstimmungen gefunden werden, wird eine Warnung im Azure Security Center ausgelöst, in der eine Entscheidung über die Dringlichkeit der Warnung und deren Behebung getroffen wird.
 
 ## <a name="related-external-regulations--certifications"></a>Verwandte externe Vorschriften & Zertifizierungen
 

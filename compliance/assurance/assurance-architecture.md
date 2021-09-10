@@ -21,11 +21,11 @@ search.appverid:
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: 97fe615296f03c8f72dbf23d886501988686b53a
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482198"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947042"
 ---
 # <a name="architecture-overview"></a>Architekturübersicht
 
@@ -47,7 +47,7 @@ Dynamics 365 ist eine Online-Business-Anwendungssuite, die die Crm-Funktionen (C
 
 Microsoft 365 ist die cloudbasierte, abonnementbasierte Version von Office, Windows 10, Enterprise Mobility + Security und Compliance. Microsoft 365 Kunden Clients wie Outlook und Windows erhalten, und sie profitieren auch von Diensten, die Microsoft in ihrem Auftrag hostet, z. B. Exchange Online, Microsoft Teams und SharePoint Online. Alle Komponenten des Diensts werden regelmäßig als Teil des Abonnementmodells aktualisiert, sodass unsere Kunden über ein "evergreen"-Produkt verfügen. Microsoft verwaltet die Dienstinfrastruktur im Auftrag von Kunden, was bedeutet, dass Microsoft für die Sicherung der Infrastruktur verantwortlich ist, in der Kundendaten gespeichert sind.
 
-Hinsichtlich der Skalierung verwendet Microsoft derzeit fast eine Million Computer, um Microsoft 365 Dienste zu unterstützen. Die Infrastruktur, die diese Dienste unterstützt, ist je nach dienstspezifischer Hardware und virtualisierten Umgebungen in Azure, Windows und Linux sowie auf mehreren Mandanten und dedizierten Plattformen sehr unterschiedlich. Microsoft 365 ist ein globales Unternehmen, und unsere Infrastruktur ist in Rechenzentren auf der ganzen Welt verteilt, so dass unsere Kunden die Anforderungen an die Datenspeicherung und Souveränität der Daten erfüllen können.
+Hinsichtlich der Skalierung verwendet Microsoft derzeit fast eine Million Computer, um Microsoft 365 Dienste zu unterstützen. Die Infrastruktur, die diese Dienste unterstützt, variiert je nach dienstspezifischer Hardware und virtualisierten Umgebungen in Azure, Windows und Linux sowie auf mehrinstanzenfähigen und dedizierten Plattformen. Microsoft 365 ist ein globales Unternehmen, und unsere Infrastruktur ist in Rechenzentren auf der ganzen Welt verteilt, so dass unsere Kunden die Anforderungen an die Datenspeicherung und Souveränität der Daten erfüllen können.
 
 ## <a name="how-do-microsoft-online-services-ensure-isolation-between-customer-tenants"></a>Wie stellen Microsoft-Onlinedienste die Isolierung zwischen Kundenmandanten sicher?
 
@@ -65,7 +65,7 @@ Die Datenresilienz ergänzt die Dienstresilienz durch den Schutz der Integrität
 
 ## <a name="how-do-microsoft-online-services-track-dependencies-and-prevent-unauthorized-external-system-connections"></a>Wie verfolgen Microsoft-Onlinedienste Abhängigkeiten und verhindern nicht autorisierte externe Systemverbindungen?
 
-Microsoft online services teams identify critical system components and their dependencies as part of Business Continuity Management. Darüber hinaus dokumentiert und verfolgt Microsoft alle externen Systemverbindungen, um sicherzustellen, dass nur autorisierte Verbindungen in Netzwerkfirewallkonfigurationen zulässig sind. Microsoft-Onlinedienstsysteme, Abhängigkeiten und externe Verbindungen sind in der Informationssicherheitsarchitektur von Microsoft-Onlinediensten dokumentiert. Sowohl die Informationssicherheitsarchitektur als auch die entsprechenden Datenflussdiagramme werden mindestens einmal jährlich überprüft und aktualisiert, sowie bei wichtigen Änderungen am System.
+Microsoft Online Services-Teams identifizieren wichtige Systemkomponenten und deren Abhängigkeiten als Teil des Geschäftskontinuitätsmanagements. Darüber hinaus dokumentiert und verfolgt Microsoft alle externen Systemverbindungen, um sicherzustellen, dass nur autorisierte Verbindungen in Netzwerkfirewallkonfigurationen zulässig sind. Microsoft-Onlinedienstsysteme, Abhängigkeiten und externe Verbindungen sind in der Informationssicherheitsarchitektur von Microsoft-Onlinediensten dokumentiert. Sowohl die Informationssicherheitsarchitektur als auch die entsprechenden Datenflussdiagramme werden mindestens einmal jährlich überprüft und aktualisiert, sowie bei wichtigen Änderungen am System.
 
 Die Architektur von Microsoft-Onlinediensten wird regelmäßig und automatisch mithilfe von cloudbasierten Tools überprüft, um die Übereinstimmung mit unseren Sicherheitsprinzipien zu überprüfen und die Isolations- und Resilienzfeatures kontinuierlich zu testen. Die Architekturüberprüfung dient zum automatischen Identifizieren von Instanzen, in denen der aktuelle Status des Diensts vom gewünschten Zustand abweicht, und kennzeichnet alle Abweichungen zur Überprüfung und Risikominderung. Das Ziel der Architekturüberprüfung besteht darin, sicherzustellen, dass die Sicherheitsfunktionen unserer Dienstinfrastruktur weiterhin wie erwartet funktionieren.
 

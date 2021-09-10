@@ -17,11 +17,11 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft Compliance
 ms.openlocfilehash: 0ec79c5be17018f8b01eb3d938b65392b021ce77
-ms.sourcegitcommit: 16cec8f7ca799a415bfbae937b177a628a0f2987
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58505948"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947952"
 ---
 # <a name="family-educational-rights-and-privacy-act-ferpa"></a>FERPA (Family Educational Rights and Privacy Act)
 
@@ -37,7 +37,7 @@ Sicherheit ist von zentraler Bedeutung für die Einhaltung von FERPA, was den Sc
 
 FERPA erfordert oder erkennt keine Audits oder andere Zertifizierungen an. Daher muss jede akademische Einrichtung, die FERPA unterliegt, selbst bewerten, ob und wie sich die Nutzung eines Clouddiensts auf die Fähigkeit zur Einhaltung von FERPA-Anforderungen auswirkt. In den Online services Terms [Data Protection Addendum](https://aka.ms/DPA) (DPA) stimmt Microsoft zu, als "Schulmitarbeiter" mit "legitimen Bildungs interessen" in Kundendaten gemäß FERPA festgelegt zu werden. Kundendaten umfassen alle Schülerdatensätze, die über die Verwendung von Azure durch eine Bildungseinrichtung bereitgestellt werden. Bei der Verarbeitung von Datensätzen für Schüler/Studenten stimmt Microsoft zu, die Einschränkungen und Anforderungen von 34 CFR 99.33(a) genau wie Schulmitarbeiter einzuhalten.  Microsoft hat eine Anleitungsdokumentation veröffentlicht, um Azure-Kunden bei der Erfüllung ihrer FERPA-Complianceanforderungen zu unterstützen.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
 
 Zu den Diensten, für die Microsoft zustimmt, als "Schulfunktionär" mit "berechtigten Bildungs interessen" in Kundendaten bezeichnet zu werden, gehören:
 
@@ -71,7 +71,7 @@ Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Di
 | **GCC Hoch** | Azure Active Directory, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business |
 | **DoD** | Azure Active Directory, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, Power BI, SharePoint Online, Skype for Business |
 
-### <a name="office-365-audits-reports-and-certificates"></a>Office 365-Prüfungen, -Berichte und -Zertifikate
+### <a name="office-365-audits-reports-and-certificates"></a>Office 365-Audits, -Berichte und -Zertifikate
 
 FERPA erfordert oder erkennt keine Audits oder Zertifizierungen.
 

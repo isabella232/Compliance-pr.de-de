@@ -17,11 +17,11 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft Compliance
 ms.openlocfilehash: 61b15a095dec310aac74bac10b2d062eb1011750
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482660"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947837"
 ---
 # <a name="california-consumer-privacy-act-ccpa"></a>California Consumer Privacy Act (CCPA)
 
@@ -37,7 +37,7 @@ Die California AG setzt das CCPA durch und ist berechtigt, Verstöße gegen die 
 
 ## <a name="microsoft-and-the-ccpa"></a>Microsoft und das CCPA
 
-Für kommerzielle Kunden, die in Kalifornien tätig sind, wird Microsoft als "Dienstanbieter" in Bezug auf unsere Onlinedienste und Professional-Dienste fungieren.  Die Bedingungen der Onlinedienstbedingungen (OST) und des Microsoft Professional Services Data Protection Addendum (MSDPA) erfüllen bereits die Anforderungen für Dienstanbieter im Rahmen des CCPA und sind in der Regel ausreichend, damit Kunden weiterhin Daten an unsere Onlinedienste übertragen können. Daher sind keine zusätzlichen vertraglichen Änderungen erforderlich, damit Sich Kunden im Rahmen des CCPA auf Microsoft als Dienstanbieter verlassen können.
+Für kommerzielle Kunden, die in Kalifornien tätig sind, wird Microsoft als "Dienstanbieter" in Bezug auf unsere Onlinedienste und Professional-Dienste fungieren.  Die Bedingungen der Onlinedienstbedingungen (ONLINE Services Terms, OST) und des Microsoft Professional Services Data Protection Addendum (MSDPA) erfüllen bereits die Anforderungen für Dienstanbieter im Rahmen des CCPA und sind in der Regel ausreichend, damit Kunden weiterhin Daten an unsere Onlinedienste übertragen können. Daher sind keine zusätzlichen vertraglichen Änderungen erforderlich, damit Sich Kunden im Rahmen des CCPA auf Microsoft als Dienstanbieter verlassen können.
 
 Wie im OST festgelegt, hält Microsoft alle Gesetze und Bestimmungen ein, die für die Bereitstellung der Onlinedienste gelten, einschließlich des CCPA.  
 
@@ -66,7 +66,7 @@ Hier sind einige Schritte, die Sie ausführen können, um sich auf das CCPA vorz
 
 Viele der Rechte des CCPA, die den Kaliforniern gewährt werden, ähneln den Rechten, die die DSGVO bereitstellt, einschließlich der Anträge auf Offenlegung und Datensubjektrechte (Data Subject Right, DSR), wie z. B. Zugriff, Löschung und Portabilität. Kunden können daher auf unsere bereits vorhandenen DSGVO-Lösungen zurückgreifen, um ihnen bei der CCPA-Compliance zu helfen.
 
-Um Ihre CCPA-Reise zu beginnen, sollten Sie sich auf die Ermittlung von Informationen konzentrieren, bestimmen, wie personenbezogene Informationen geteilt werden, wie sie verwendet werden, wie sie geschützt sind und ein formales Programm zur Reaktion auf Datenschutzverletzungen eingerichtet haben.
+Um Ihre CCPA-Reise zu beginnen, sollten Sie sich auf die Ermittlung von Informationen konzentrieren, bestimmen, wie persönliche Informationen geteilt werden, wie sie verwendet werden, wie sie geschützt sind und ein formales Programm zur Reaktion auf Datenschutzverletzungen eingerichtet haben.
 
 **Worin unterscheiden sich DSGVO und CCPA?**
 
@@ -81,7 +81,7 @@ Der größte Unterschied in CCPA ist die Kernanforderung, die es ermöglicht, de
 
 **Welche Rechte müssen Unternehmen laut der CCPA gewähren?**
 
-Das CCPA erfordert regulierte Unternehmen, die persönliche Informationen sammeln, übertragen und verkaufen, unter anderem an:
+Das CCPA erfordert regulierte Unternehmen, die persönliche Informationen sammeln, übertragen und verkaufen, unter anderem:
 
 - Den Verbrauchern vor der Erfassung Informationen über die Kategorien und Zwecke der Erfassung zur Verfügung zu stellen.
 - Detailliertere Offenlegungen in einer Datenschutzrichtlinie in Bezug auf Quellen, Geschäftszwecke und Kategorien von personenbezogenen Informationen, die gesammelt werden, einschließlich der Art und Weise, wie diese Kategorien verkauft oder an andere Entitäten übertragen werden.

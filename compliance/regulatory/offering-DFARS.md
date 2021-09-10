@@ -17,11 +17,11 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft Compliance
 ms.openlocfilehash: e190a98a475d6170e793e92e8052012048cc3d7f
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482268"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947904"
 ---
 # <a name="defense-federal-acquisition-regulation-supplement-dfars"></a>Defense Federal Acquisition Regulation Supplement (DFARS)
 
@@ -92,7 +92,7 @@ Im Oktober 2016 hat das Verteidigungsministerium (Department of Defense, DoD) ei
 
 Die folgenden Microsoft Office 365 Clouddienste haben eine moderate FedRAMP-Autorisierung erhalten und sind für DFARS geeignet: Office 365 U.S. Government und Office 365 U.S. Government Defense.
 
-Darüber hinaus werden Microsoft-Angebote außerhalb der FedRAMP-zertifizierten Grenze, die möglicherweise von DoD-Vertragsnehmern zum Verarbeiten, Speichern oder Übertragen von "erfassten Verteidigungsinformationen" verwendet werden könnten, einer Überprüfung unterzogen, um einen Compliance-Stichtag vom 31. Dezember 2017 einzuhalten. Microsoft arbeitet daran, zu dokumentieren, wie diese internen und kundenorientierten Dienste NIST SP 800-171 oder einer akzeptablen Sicherheitsentsprechung entsprechen, um die DFARS-relevanten Klauseln zu erfüllen.
+Darüber hinaus werden Microsoft-Angebote außerhalb der FedRAMP-zertifizierten Grenze, die möglicherweise von DoD-Vertragsnehmern zum Verarbeiten, Speichern oder Übertragen von "abgedeckten Verteidigungsinformationen" verwendet werden könnten, einer Überprüfung unterzogen, um einen Compliance-Stichtag vom 31. Dezember 2017 einzuhalten. Microsoft arbeitet daran, zu dokumentieren, wie diese internen und kundenorientierten Dienste NIST SP 800-171 oder einer akzeptablen Sicherheitsentsprechung entsprechen, um die DFARS-relevanten Klauseln zu erfüllen.
 
 ### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
 

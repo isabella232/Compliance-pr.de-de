@@ -17,11 +17,11 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft Compliance
 ms.openlocfilehash: 31fcc11280e8026bc962136c271713cd5e26078b
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482468"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58948011"
 ---
 # <a name="health-insurance-portability-and-accountability-act-hipaa--health-information-technology-for-economic-and-clinical-health-hitech-act"></a>Health Insurance Portability and Accountability Act (HIPAA) & Health Information Technology for Economic and Clinical Health (HITECH) Act
 
@@ -43,7 +43,7 @@ Es gibt derzeit keinen Zertifizierungsstandard, der vom Department of Health and
 
 Microsoft-Dienste, die unter den BAA fallen, wurden von akkreditierten unabhängigen Auditoren für die Zertifizierung nach Microsoft ISO/IEC 27001 und die HITRUST CSF-Zertifizierung auditiert.
 
-Microsoft Enterprise Cloud-Dienste sind auch durch FedRAMP-Bewertungen abgedeckt. Microsoft Azure und Microsoft Azure Regierung eine vorläufige Behörde für die Arbeitsweise vom fedRAMP Joint Authorization Board erhalten haben; Microsoft Dynamics 365 U.S. Government erhielt eine Agenturautorität zum Arbeiten vom US Department of Health and Coding Development, ebenso wie Microsoft Office 365 U.S. Government vom U.S. Department of Health and Human Services.
+Microsoft Enterprise Cloud-Dienste sind auch durch FedRAMP-Bewertungen abgedeckt. Microsoft Azure und Microsoft Azure Regierung eine vorläufige Behörde für die Arbeitsweise vom gemeinsamen FedRAMP-Autorisierungsrat erhalten haben; Microsoft Dynamics 365 U.S. Government erhielt eine Agenturautorität zum Arbeiten vom US Department of Health and Coding Development, ebenso wie Microsoft Office 365 U.S. Government vom U.S. Department of Health and Human Services.
 
 Wenn Sie erfahren möchten, wie die Microsoft-Cloud Kunden dabei unterstützt, HIPAA und die HITECH-Anforderungen zu erfüllen, besuchen Sie die [Microsoft-Kundenreferenzen](https://customers.microsoft.com/).
 
@@ -79,7 +79,7 @@ Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Di
 
 | **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
 |:------------------|:----------------------|
-| **Kommerziell** | Access Online, Azure Active Directory, Azure Communications Service, Compliance Manager, Kunden-Lockbox, Delve, Exchange Online, Forms, Griffin, Identity Manager, Lockbox (Torus), Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Kundenportal, Office 365 Microservices (einschließlich, aber nicht beschränkt auf Kaizala, ObjectStore, Sway, Power Automate, PowerPoint Online-Dokumentdienst, Abfrageanmerkungsdienst, School Data Sync, Sifon, Speech, StaffHub, eXtensible Application Program), Office 365 Security & Compliance Center, Office Online, Office Pro Plus, Office Services Infrastructure, OneDrive for Business, Planner, PowerApps, Power BI, Project Online, Dienstverschlüsselung mit Kundenschlüssel, SharePoint Online, Skype for Business, Stream |
+| **Kommerziell** | Access Online, Azure Active Directory, Azure Communications Service, Compliance-Manager, Kunden-Lockbox, Delve, Exchange Online, Formulare, Griffin, Identity Manager, Lockbox (Torus), Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Kundenportal, Office 365 Microservices (einschließlich, aber nicht beschränkt auf Kaizala, ObjectStore, Sway, Power Automate, PowerPoint Onlinedokumentdienst, Abfrageanmerkungsdienst, School Data Sync, Sifon, Speech, StaffHub, eXtensible Application Program), Office 365 Security & Compliance Center, Office Online, Office Pro Plus, Office Services Infrastructure, OneDrive for Business, Planner, PowerApps, Power BI, Project Online, Service Encryption with Customer Key, SharePoint Online, Skype for Business, Stream |
 | **GCC** | Azure Active Directory, Azure Communications Service, Compliance-Manager, Delve, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, Stream |
 
 ### <a name="frequently-asked-questions"></a>Häufig gestellte Fragen

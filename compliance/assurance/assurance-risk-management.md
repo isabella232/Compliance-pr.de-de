@@ -21,11 +21,11 @@ search.appverid:
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: 8be83f6faa3d365e2cb91c996e2c87367797670f
-ms.sourcegitcommit: 9766d656d0e270f478437bd39c0546ad2e4d846f
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58678594"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947174"
 ---
 # <a name="risk-management-overview"></a>Risikomanagement (Übersicht)
 
@@ -37,7 +37,7 @@ Das Risikomanagement von Microsoft richtet sich nach dem Enterprise-Risikomanage
 
 ![Struktur des Risikomanagements.](../media/assurance-risk-management-structure.png)
 
-Microsoft ERM ermöglicht allgemeine Grundsätze des Risikomanagements im gesamten Unternehmen, sodass Geschäftseinheiten unabhängig konsistente und vergleichende Risikobewertungen ermöglichen können. Diese Koordination ermöglicht Es Microsoft, Risikoinformationen für die Verwaltung konsolidiert zu aggregieren und zu melden. ERM stellt Geschäftsbereichen bei Microsoft gemeinsame Methoden, Tools und Ziele für den Risikomanagementprozess bereit. Microsoft 365 und andere Engineering-Gruppen und Geschäftseinheiten verwenden diese Tools, um individuelle Risikobewertungen im Rahmen ihrer eigenen Risikomanagementprogramme unter der Anleitung von ERM durchzuführen.
+Microsoft ERM ermöglicht allgemeine Grundsätze des Risikomanagements im gesamten Unternehmen, sodass Geschäftseinheiten unabhängig voneinander konsistente und vergleichende Risikobewertungen ermöglichen können. Diese Koordination ermöglicht Es Microsoft, Risikoinformationen für die Verwaltung konsolidiert zu aggregieren und zu melden. ERM stellt Geschäftsbereichen bei Microsoft gemeinsame Methoden, Tools und Ziele für den Risikomanagementprozess bereit. Microsoft 365 und andere Engineering-Gruppen und Geschäftseinheiten verwenden diese Tools, um individuelle Risikobewertungen im Rahmen ihrer eigenen Risikomanagementprogramme unter der Anleitung von ERM durchzuführen.
 
 ## <a name="how-do-microsoft-online-services-work-with-erm"></a>Wie funktionieren Microsoft-Onlinedienste mit ERM?
 

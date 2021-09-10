@@ -23,17 +23,17 @@ search.appverid:
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: b2f88172d2a8158a2232acd1c4312217d7c3fef4
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482088"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947057"
 ---
 # <a name="datacenter-security-overview"></a>Sicherheit von Rechenzentren (Übersicht)
 
 ## <a name="how-does-microsoft-host-its-online-services"></a>Wie hoste Microsoft seine Onlinedienste?
 
-Microsoft bietet mehr als 200 Clouddienste, einschließlich Enterprise-Dienste wie Microsoft Azure, Microsoft 365 und Microsoft Dynamics 365, an Kunden mit 24 x 7 x 365. Diese Dienste werden in der Cloudinfrastruktur von Microsoft gehostet, die aus global verteilten Rechenzentren, Edgecomputingknoten und Service Operations Centern besteht. Sie werden von einem der weltweit größten globalen Netzwerke mit einem umfangreichen Fibre Footprint unterstützt und verbunden.
+Microsoft bietet mehr als 200 Clouddienste, einschließlich Enterprise-Dienste wie Microsoft Azure, Microsoft 365 und Microsoft Dynamics 365, an Kunden mit einer 24 x 7 x 365.000.000.000. Diese Dienste werden in der Cloudinfrastruktur von Microsoft gehostet, die aus global verteilten Rechenzentren, Edgecomputingknoten und Service Operations Centern besteht. Sie werden von einem der weltweit größten globalen Netzwerke mit einem umfangreichen Fibre Footprint unterstützt und verbunden.
 
 Der Fokus der Rechenzentren, die unsere Cloudangebote unterstützen, liegt auf hoher Zuverlässigkeit, erstklassigen Betriebsprozessen, Kosteneffektivität, Umweltfreundlichkeit und einer vertrauenswürdigen Online-Benutzeroberfläche für Kunden und Partner weltweit. Microsoft testet die Sicherheit der Rechenzentren regelmäßig durch interne Audits und Drittanbieter-Audits. Deshalb vertrauen die am stärksten regulierten Organisationen der Welt der Microsoft-Cloud, die mit mehr Zertifizierungen kompatibel ist als jeder andere Clouddienst.
 

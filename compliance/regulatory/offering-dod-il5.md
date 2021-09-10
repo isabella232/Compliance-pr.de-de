@@ -17,17 +17,17 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft Compliance
 ms.openlocfilehash: c0c987dc5fbe2bee60508f0fab7dbdb8dce97857
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482840"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947896"
 ---
 # <a name="department-of-defense-dod-impact-level-5-il5"></a>Department of Defense (DoD) Impact Level 5 (IL5)
 
 ## <a name="dod-il5-overview"></a>Übersicht über DoD IL5
 
-Die Defense Information Systems Agency (DISA) ist eine Agentur des US-Verteidigungsministeriums (DoD), die für die Entwicklung und Verwaltung des DoD Cloud Computing [Security Requirements Guide (SRG)](https://dl.dod.cyber.mil/wp-content/uploads/cloud/SRG/index.html)verantwortlich ist. Die SRG definiert die grundlegenden Sicherheitsanforderungen, die von DoD verwendet werden, um den Sicherheitsstatus eines Clouddienstanbieters (CSP) zu bewerten, und unterstützt die Entscheidung, eine vorläufige DoD-Autorisierung zu erteilen, die es einem CSP ermöglicht, DoD-Missionen zu hosten. Es integriert, ersetzt und entfernt das zuvor veröffentlichte DoD Cloud Security Model (CSM) und ist dem DoD Risk Management Framework (RMF) zugeordnet.
+Die Defense Information Systems Agency (DISA) ist eine Agentur des US-Verteidigungsministeriums (DoD), die für die Entwicklung und Verwaltung des DoD Cloud Computing [Security Requirements Guide (SRG)](https://dl.dod.cyber.mil/wp-content/uploads/cloud/SRG/index.html)verantwortlich ist. Die SRG definiert die grundlegenden Sicherheitsanforderungen, die doD verwendet, um den Sicherheitsstatus eines Clouddienstanbieters (CSP) zu bewerten und die Entscheidung zu unterstützen, eine vorläufige DoD-Autorisierung (Pa) zu erteilen, die es einem CSP ermöglicht, DoD-Missionen zu hosten. Es integriert, ersetzt und entfernt das zuvor veröffentlichte DoD Cloud Security Model (CSM) und ist dem DoD Risk Management Framework (RMF) zugeordnet.
 
 DISA leitet DoD-Behörden und -Abteilungen bei der Planung und Autorisierung der Verwendung eines CSP. Darüber hinaus werden CSP-Angebote auf Die Einhaltung der SRG ausgewertet. Dabei handelt es sich um einen Autorisierungsprozess, bei dem CSPs Dokumentationen erstellen können, in denen ihre Einhaltung von DoD-Standards beschrieben wird. Es stellt gegebenenfalls vorläufige Genehmigungen (PAs) für DoD aus, sodass DoD-Behörden und unterstützende Organisationen Clouddienste nutzen können, ohne dass sie selbst einen vollständigen Genehmigungsprozess durchlaufen müssen, was Zeit und Mühe spart.
 
@@ -41,7 +41,7 @@ Gemäß [SRG-Abschnitt 3.2](https://dl.dod.cyber.mil/wp-content/uploads/cloud/SR
     - [Die NIST SP 800-59-Richtlinie](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-59.pdf) *zur Identifizierung eines Informationssystems als nationales Sicherheitssystem* stellt Definitionen von NSS bereit.
     - [CNSSI 1253](https://www.dcsa.mil/portals/91/documents/ctp/nao/CNSSI_No1253.pdf) *Security Categorization and Control Selection for National Security Systems* bietet Anleitungen zu den Sicherheitsstandards, die Bundesbehörden anwenden sollten, um nationale Sicherheitsinformationen zu kategorisieren.
 
-Im [DoD-CIO-Memo vom 15. Dezember 2014](https://www.esi.mil/contentview.aspx?id=585) zu *aktualisierten Anleitungen zum Erwerb und zur Verwendung kommerzieller Cloud Computing-Dienste* heißt es: "FedRAMP dient als Mindestsicherheitsgrundwert für alle DoD-Clouddienste". Die SRG verwendet den FedRAMP Moderate-Basisplan auf allen Informationsauswirkungsstufen (Information Impact Levels, IL) und berücksichtigt den high Baseline an einigen.
+Im [DoD-CIO-Memo vom 15. Dezember 2014](https://www.esi.mil/contentview.aspx?id=585) zu *aktualisierten Anleitungen zum Erwerb und zur Verwendung kommerzieller Cloud Computing Services* heißt es: "FedRAMP dient als Mindestsicherheitsgrundwert für alle DoD-Clouddienste". Die SRG verwendet den FedRAMP Moderate-Basisplan auf allen Informationsauswirkungsstufen (Information Impact Levels, IL) und berücksichtigt den high Baseline an einigen.
 
 [SRG Section 5.1.1](https://dl.dod.cyber.mil/wp-content/uploads/cloud/SRG/index.html#5SECURITYREQUIREMENTS) *DoD use of FedRAMP Security Controls* states that a FedRAMP High PA, supplemented with DoD FedRAMP+ controls and control enhancements (C/CEs) and requirements in the SRG, are used to assess CSPs to awarding a DoD PA at IL5. Unabhängig davon, welcher C/CE-Basisplan als Grundlage für eine FedRAMP High PA verwendet wird, müssen zusätzliche Überlegungen und/oder Anforderungen bewertet und genehmigt werden, bevor eine DoD PA an IL5 vergeben werden kann. Insbesondere gibt [SRG Section 5.1.2](https://dl.dod.cyber.mil/wp-content/uploads/cloud/SRG/index.html#5SECURITYREQUIREMENTS) *DoD FedRAMP+ Security Controls/Enhancements* in Tabelle 2 an, dass 10 zusätzliche C/CEs über den FedRAMP High-Basisplan hinaus für eine DoD IL5 PA erforderlich sind.
 
@@ -51,7 +51,7 @@ Darüber hinaus müssen gemäß [SRG-Abschnitt 5.2.2.3](https://dl.dod.cyber.mil
 - Es ist eine physische Trennung von Nicht-DoD-/Nicht-Bundesverwaltungsmandanten (d. h. öffentliche Mandanten, Lokale/Landesverwaltungsmandanten) erforderlich.
 - Der CSP schränkt den potenziellen Zugriff auf DoD- und Community-Informationen auf CSP-Mitarbeiter ein, die US-Bürger sind.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
 
 - Azure
 - Dynamics 365-Kundendienst
@@ -82,9 +82,9 @@ Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Di
 
 ### <a name="attestation-documents"></a>Nachweisdokumente
 
-Kunden von US-Behörden können Office 365 FedRAMP-Dokumentation für us-Regierungsbehörden direkt über den [FedRAMP Marketplace](https://marketplace.fedramp.gov/#!/products?sort=productName&productNameSearch=azure) anfordern, indem sie ein Paketzugriffsanforderungsformular übermitteln. Sie müssen über eine .gov- oder .mil-E-Mail-Adresse verfügen, um direkt über FedRAMP auf ein FedRAMP-Sicherheitspaket zugreifen zu können.
+Kunden von US-Behörden können Office 365 FedRAMP-Dokumentation für us-regierungsbehörden direkt vom [FedRAMP Marketplace](https://marketplace.fedramp.gov/#!/products?sort=productName&productNameSearch=azure) anfordern, indem sie ein Paketzugriffsanforderungsformular übermitteln. Sie müssen über eine .gov- oder .mil-E-Mail-Adresse verfügen, um direkt über FedRAMP auf ein FedRAMP-Sicherheitspaket zugreifen zu können.
 
-Wählen Sie FedRAMP- und DoD-Dokumentation aus, einschließlich Systemsicherheitsplan (SSP), kontinuierlicher Überwachungsberichte, Aktionsplan und Meilensteine (POA \& M) usw., ist für Kunden unter NDA und ausstehende Zugriffsautorisierung über den Abschnitt "Überwachungsberichte des Service Trust Portals [– FedRAMP-Berichte"](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3) verfügbar. Wenden Sie sich an Ihren Microsoft-Kontomitarbeiter, um Unterstützung zu erhalten.
+Wählen Sie FedRAMP- und DoD-Dokumentation aus, einschließlich Systemsicherheitsplan (SSP), kontinuierlicher Überwachungsberichte, Aktionsplan und Meilensteine (POA \& M) usw., ist für Kunden unter NDA und ausstehende Zugriffsautorisierung im Abschnitt "Überwachungsberichte des Service Trust Portals [– FedRAMP-Berichte"](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3) verfügbar. Wenden Sie sich an Ihren Microsoft-Kontomitarbeiter, um Unterstützung zu erhalten.
 
 ### <a name="resources"></a>Ressourcen
 
@@ -92,7 +92,7 @@ Wählen Sie FedRAMP- und DoD-Dokumentation aus, einschließlich Systemsicherheit
 - [Leitfaden zu den Sicherheitsanforderungen für DoD Cloud Computing](https://dl.dod.cyber.mil/wp-content/uploads/cloud/SRG/index.html)
 - [FedRAMP-Dokumente](https://www.fedramp.gov/documents/)
 - [DoD Instruction 8510.01](https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/851001p.pdf) *DoD Risk Management Framework (RMF) für DoD Information Technology (IT)*
-- [NIST SP 800-37 Risk](https://csrc.nist.gov/publications/detail/sp/800-37/rev-2/final) *Management Framework for Information Systems and Organizations: A System Life-Cycle Approach for Security and Privacy*
+- [NIST SP 800-37](https://csrc.nist.gov/publications/detail/sp/800-37/rev-2/final) *Risk Management Framework for Information Systems and Organizations: A System Life-Cycle Approach for Security and Privacy*
 - [NIST SP 800-53](https://csrc.nist.gov/Projects/risk-management/sp800-53-controls/release-search#!/800-53) *Sicherheits- und Datenschutzkontrollen für Informationssysteme und Organisationen*
 - [NIST SP 800-59-Richtlinie](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-59.pdf) *zur Identifizierung eines Informationssystems als nationales Sicherheitssystem*
 - [CNSSI 1253](https://www.dcsa.mil/portals/91/documents/ctp/nao/CNSSI_No1253.pdf) *– Sicherheitskategorisierung und Steuerelementauswahl für nationale Sicherheitssysteme*

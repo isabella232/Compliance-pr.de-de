@@ -21,11 +21,11 @@ ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: 56888f704d3cc5da5e820e3cb80a3d10cbb1ef95
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58481877"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947135"
 ---
 # <a name="microsoft-365-denial-of-service-defense-strategy"></a>Denial-of-Service-Verteidigungsstrategie in Microsoft 365
 
@@ -44,7 +44,7 @@ Daher gibt es zwei primäre Strategien zum Schutz vor DoS-Angriffen:
 - Erhöhen Sie die Kapazität, um die Obergrenze der maximalen Kapazität zu erhöhen (was wiederum mehr Zeit zum Erkennen eines Angriffs bietet); Oder
 - Verringern Sie die Zeit zum Erkennen eines Angriffs.
 
-Ein Sicherheitsvorteil der Verwendung von Microsoft Cloud Services ist, wie großmaßstäblich Microsoft-Dienste Cloudkunden einen starken Netzwerkschutz auf kostengünstige Weise bieten. Auch in großem Umfang muss ein Gleichgewicht zwischen Dermandierung, Erkennung und Risikominderung vorhanden sein. Um dieses Gleichgewicht zu finden, greift Microsoft die Wachstumsraten an, um zu schätzen, wie viel Microsoft-Dienste auffangen müssen.
+Ein Sicherheitsvorteil der Verwendung von Microsoft Cloud Services ist, wie großmaßstäblich Microsoft-Dienste Cloudkunden einen starken Netzwerkschutz auf kostengünstige Weise bieten. Auch in großem Umfang muss ein Gleichgewicht zwischen Dermandierung, Erkennung und Risikominderung vorhanden sein. Um dieses Gleichgewicht zu finden, untersucht Microsoft die Angriffsraten, um zu schätzen, wie viel Microsoft-Dienste auffangen müssen.
 
 ## <a name="denial-of-service-defense-strategy"></a>Strategie für den Schutz vor Denial of Service-Angriffen
 
@@ -56,7 +56,7 @@ Eine der effektivsten und kostengünstigsten Schutzmaßnahmen von Microsoft gege
 
 An der Schnittstelle mit dem öffentlichen Netzwerk verwendet Microsoft spezielle Sicherheitsgeräte für Firewall-, Netzwerkadressübersetzungs- und IP-Filterfunktionen. Microsoft verwendet auch das globale ECMP-Routing (Equal-Cost Multi-Path). Das globale ECMP-Routing ist ein Netzwerkframework, um sicherzustellen, dass es mehrere globale Pfade gibt, um einen Dienst zu erreichen. Bei mehreren Pfaden zu jedem Dienst sind DoS-Angriffe auf die Region beschränkt, aus der der Angriff stammt. Andere Regionen sollten von dem Angriff nicht betroffen sein, da Endbenutzer andere Pfade verwenden würden, um den Dienst in diesen Regionen zu erreichen. Microsoft hat auch interne DoS-Korrelations- und Erkennungssysteme entwickelt, die Flussdaten, Leistungsmetriken und andere Informationen verwenden, um DoS-Angriffe schnell zu erkennen.
 
-Um unsere Clouddienste weiter zu schützen, verwendet Microsoft 365 ein verteiltes Denial-of-Service (DDoS)-Abwehrsystem, das in die kontinuierlichen Überwachungs- und Penetrationstests von Microsoft Azure integriert ist. Das Azure DDoS-Abwehrsystem ist nicht nur darauf ausgelegt, externe Angriffe, sondern auch Angriffe von anderen Azure-Mandanten zu verhindern. Azure verwendet standardmäßige Erkennungs- und Risikominderungstechniken wie SYN-Cookies, Ratenbegrenzungen und Verbindungsgrenzwerte zum Schutz vor DDoS-Angriffen. Zur Unterstützung unserer automatisierten Schutzmaßnahmen identifiziert ein arbeitslastübergreifendes DoS-Team für die Reaktion auf Vorfälle die Rollen und Verantwortlichkeiten in allen Teams, die Kriterien für Eskalationen und die Protokolle für die Behandlung von Sicherheitsvorfällen in den betroffenen Teams.
+Um unsere Clouddienste weiter zu schützen, verwendet Microsoft 365 ein verteiltes Denial-of-Service (DDoS)-Abwehrsystem, das in die kontinuierlichen Überwachungs- und Penetrationstests von Microsoft Azure integriert ist. Das Azure DDoS-Abwehrsystem ist nicht nur darauf ausgelegt, externe Angriffe zu verhindern, sondern auch Angriffe von anderen Azure-Mandanten. Azure verwendet standardmäßige Erkennungs- und Risikominderungstechniken wie SYN-Cookies, Ratenbegrenzungen und Verbindungsgrenzwerte zum Schutz vor DDoS-Angriffen. Zur Unterstützung unseres automatisierten Schutzes identifiziert ein arbeitslastübergreifendes DoS-Team für die Reaktion auf Vorfälle die Rollen und Verantwortlichkeiten in allen Teams, die Kriterien für Eskalationen und die Protokolle für die Behandlung von Sicherheitsvorfällen in den betroffenen Teams.
 
 Die meisten DoS-Angriffe, die gegen Ziele gestartet werden, befinden sich auf der Netzwerk- (L3) und Transportebene (L4) des OsI-Modells [(Open Systems Interconnection).](/windows-hardware/drivers/network/windows-network-architecture-and-the-osi-model) Angriffe, die auf die L3- und L4-Ebene gerichtet sind, sind darauf ausgelegt, eine Netzwerkschnittstelle oder einen Dienst mit Angriffsverkehr zu überlasten, um Ressourcen zu überlasten und die Möglichkeit zu verweigern, auf legitimen Datenverkehr zu reagieren. Um sich vor L3- und L4-Angriffen zu schützen, verwenden die DoS-Lösungen von Microsoft Datenverkehrssamplingdaten von Rechenzentrumsroutern, um die Infrastruktur und Die Kundenziele zu schützen. Datenverkehrssamplingdaten werden von einem Netzwerküberwachungsdienst analysiert, um Angriffe zu erkennen. Wenn ein Angriff erkannt wird, treten automatisierte Abwehrmechanismen ein, um den Angriff zu mindern und sicherzustellen, dass der Angriffsverkehr, der auf einen Kunden gerichtet ist, nicht zu Sicherheitsschäden oder einer verringerten Netzwerkqualität für andere Kunden führt.
 

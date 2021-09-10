@@ -18,11 +18,11 @@ ms.collection:
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: 1b513c80c24ae6c06488972196579aff30e703fa
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482057"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947162"
 ---
 # <a name="enterprise-business-continuity-management-legal-disclaimer"></a>Verwaltung der Enterprise-Geschäftskontinuität – Haftungsausschluss
 
@@ -39,6 +39,6 @@ LESEN SIE DIES! DIES IST EIN VERTRAG ZWISCHEN DER MICROSOFT CORPORATION („MICR
         - (iii) Ihnen/Dem Unternehmen aus einer anderen Quelle als Microsoft bekannt wurde, außer durch die Verletzung einer Gegenüber Microsoft zustehenden Vertraulichkeitspflicht; Oder
         - (iv) unabhängig von Ihnen/Unternehmen entwickelt wird. Im Sinne dieses Absatzes bedeutet der Begriff „Vertrauliche Informationen“ nicht öffentliche Informationen, die Microsoft als vertraulich bezeichnet hat, bzw. die unter den Umständen, unter denen die Offenlegung erfolgt, vom Empfänger vertraulich behandelt werden sollten. "Vertrauliche Informationen" umfassen, ohne Einschränkung, Informationen in physischer oder sensibler Form, die sich auf und/oder einschließlich freigegebener oder nicht freigegebener Software- oder Hardwareprodukte von Microsoft, die Vermarktung oder Werbung eines Microsoft-Produkts, die Geschäftsrichtlinien oder -praktiken von Microsoft sowie von anderen erhaltene Informationen beziehen, die Microsoft als vertraulich zu behandeln verpflichtet ist.
 2. Sie sind nur berechtigt, diese Materialien (a) als Referenz zur Überprüfung der Plattform und zur Unterstützung bei der Überprüfung der zu kaufenden oder zu verwendenden Referenzprodukte zu verwenden. Alle sonstigen Rechte verbleiben bei Microsoft; dieser Vertrag verleiht Ihnen keinerlei Rechte in Bezug auf Microsoft-Patente. Sie sind nicht berechtigt, (i) diese Materialien ganz oder teilweise zu duplizieren, (ii) diesen Vertrag oder etwaige Hinweise aus diesen Materialien zu entfernen, oder (iii) jemand anderem diese Materialien ganz oder teilweise auszuhändigen oder Ihre Rechte aus diesem Vertrag an jemand anderen abzutreten oder ihm anderweitig zur Verfügung zu stellen. 
-3. Wenn Sie eine Entität sind und (a) sich in eine andere Entität zusammenführen oder (b) sich ein kontrollierender Besitz an Ihnen ändert, endet Ihr Recht zur Verwendung dieser Materialien automatisch und Sie müssen sie zerstören. 
+3. Wenn Sie eine Entität sind und (a) sich in eine andere Entität zusammenführen oder (b) sich ein kontrollierender Besitz an Ihnen ändert, endet Ihr Recht zur Verwendung dieser Materialien automatisch, und Sie müssen sie zerstören. 
 4. Schadensersatzzahlungen reichen ggf. nicht aus, um einen Verstoß gegen die vorliegenden Bestimmungen zu kompensieren.  Microsoft ist berechtigt, gerichtliche Verfügungen zu erwirken, um die Offenlegung der Vertraulichen Informationen entgegen diesen Bestimmungen zu erwirken, und zwar ohne, dass eine Verpflichtung zur Sicherheitsleistung besteht.  
 5. Dieser Vertrag unterliegt den Gesetzen des US-Bundesstaates Washington. Etwaige Unstimmigkeiten im Zusammenhang mit diesem Vertrag müssen den Bundes- oder einzelstaatlichen oberen Gerichten in King County, Washington, USA, zur Entscheidung vorgelegt werden, und Sie  verzichten auf etwaige Einreden mit dem Ziel,  die Unstimmigkeit andernorts beilegen zu lassen. Wenn ein Rechtsstreit vorliegt, muss die unterlegene Partei die angemessenen Anwaltsgebühren, Kosten und sonstigen Ausgaben der anderen Partei bezahlen. Falls ein Teil des vorliegenden Vertrags nicht durchsetzbar ist, gilt er als in dem Maße geändert, in dem es erforderlich ist, damit er durchsetzbar wird, und der restliche Vertrag bleibt weiterhin in Kraft. Dieser Vertrag ist der gesamte Vertrag zwischen Ihnen und Microsoft bezüglich dieser Materialien. Sie kann nur durch ein schriftliches Dokument geändert werden, das sowohl von Ihnen als auch von Microsoft signiert wurde.

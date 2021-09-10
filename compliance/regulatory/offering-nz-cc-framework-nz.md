@@ -17,11 +17,11 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft Compliance
 ms.openlocfilehash: 6785c459f8350714b8e4636a0f1a5dc9f4ff667d
-ms.sourcegitcommit: 9bb0e86b2fd4121a3a79a23dde95aa2584ce3167
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58744261"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58948048"
 ---
 # <a name="new-zealand-government-information-security-and-privacy-considerations-ispc"></a>Überlegungen zur Informationssicherheit und zum Datenschutz in Neuseeland (NEW Zealand Government Information Security and Privacy Considerations, ISPC)
 
@@ -37,7 +37,7 @@ Um NZ-Regierungsbehörden bei der Durchführung konsistenter und robuster Due Di
 
 Um Behörden bei der Analyse und Bewertung von Microsoft Enterprise Cloud Services zu unterstützen, hat Microsoft Neuseeland Dokumente erstellt, die zeigen, wie ihre Unternehmensclouddienste die im "Cloud Computing ISPC" aufgeführten Fragen beantworten, indem sie sie mit den Standards verknüpfen, nach denen Microsoft Cloud Services zertifiziert sind. Diese Zertifizierungen sind von zentraler Bedeutung, um kunden aus dem öffentlichen und privaten Sektor zu gewährleisten, dass ihre Clouddienste entworfen, erstellt und betrieben werden, um Datenschutz- und Sicherheitsrisiken effektiv zu mindern und Bedenken hinsichtlich der Datenhoheit zu beheben. Die [Azure-Antwort auf Cloud Computing ISPC](https://azure.microsoft.com/resources/microsoft-azure-response-to-nz-gcio-cloud-computing-information-security-privacy-considerations/) steht Kunden zum Download zur Verfügung.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
 
 - Azure und Azure Government
 - [Dynamics 365](https://aka.ms/d365-compliance-list)

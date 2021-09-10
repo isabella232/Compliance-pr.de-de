@@ -21,17 +21,17 @@ search.appverid:
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
 ms.openlocfilehash: ff1719ce931a50904fb6b7e6069cd29a1883aa90
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58481797"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947175"
 ---
 # <a name="resiliency-and-continuity-overview"></a>Ausfallsicherheit und Kontinuität (Übersicht)
 
 ## <a name="how-does-microsoft-ensure-business-continuity-if-a-disaster-or-other-threat-to-service-availability-occurs"></a>Wie stellt Microsoft die Geschäftskontinuität sicher, wenn ein Notfall oder eine andere Bedrohung für die Dienstverfügbarkeit auftritt?
 
-Das Ebcm-Team (Enterprise Business Continuity Management) von Microsoft überwacht die Geschäftskontinuitätsmanagement- und Notfallwiederherstellungsaktivitäten über Microsoft-Dienste- und Cloudangebote hinweg. Vertreter von Microsoft-Geschäftseinheiten koordinieren sich mit dem EBCM-Team, um Geschäftskontinuitätspläne zu entwickeln und die Einhaltung der Geschäftskontinuitätsanforderungen zu überprüfen.
+Das Team Enterprise Business Continuity Management (EBCM) von Microsoft überwacht die Geschäftskontinuitätsmanagement- und Notfallwiederherstellungsaktivitäten über Microsoft-Dienste- und Cloudangebote hinweg. Vertreter von Microsoft-Geschäftseinheiten koordinieren sich mit dem EBCM-Team, um Geschäftskontinuitätspläne zu entwickeln und die Einhaltung der Geschäftskontinuitätsanforderungen zu überprüfen.
 
 Der Geschäftskontinuitätsverwaltungs-Lebenszyklus (Business Continuity Management, BCM) ist der Kern unserer BCM-Methodik. Dieser dreistufige Prozess ist so konzipiert, dass er anpassungsfähig ist, sodass er von einer Vielzahl von Geschäftsprozessen in Microsoft implementiert werden kann. Es beginnt mit einer **Bewertungsphase,** um kritische Prozesse und Ziele zu identifizieren, die in das Geschäftskontinuitätsprogramm einbezogen werden sollten. Die Bewertungsphase erfordert auch eine Geschäftsauswirkungsanalyse (Business Impact Analysis, BIA). Die **Planungsphase** konzentriert sich auf die Entwicklung und Implementierung von Resilienz- und Wiederherstellungsstrategien und deren Dokumentation in offiziellen Geschäftskontinuitätsplänen. Schließlich testet **die Funktionsüberprüfung** Geschäftskontinuitätspläne und deren Implementierungen, um die Effektivität zu überprüfen und potenzielle Verbesserungen zu identifizieren.
 
@@ -39,7 +39,7 @@ Die Geschäftskontinuitätsstrategien von Microsoft Online Services verwenden Ha
 
 ## <a name="how-does-microsoft-test-business-continuity-and-disaster-recovery-plans"></a>Wie teste Microsoft Geschäftskontinuitäts- und Notfallwiederherstellungspläne?
 
-Die Ebcm-Richtlinie (Enterprise Business Continuity Management) von Microsoft legt fest, dass alle Microsoft-Pläne für Geschäftskontinuität und Notfallwiederherstellung auf jährlicher Basis getestet, aktualisiert und überprüft werden müssen. Microsoft-Onlinedienste testen ihre Geschäftskontinuitätspläne mindestens einmal jährlich pro EBCM-Richtlinien. Nachdem Aktionsberichte erstellt und überprüft wurden, um Aktualisierungen zu überprüfen, zu testen und Planupdates als Reaktion auf während der Tests erkannte Probleme zu informieren.
+Die EBCM-Richtlinie (Enterprise Business Continuity Management) von Microsoft legt fest, dass alle Microsoft-Pläne für Geschäftskontinuität und Notfallwiederherstellung auf jährlicher Basis getestet, aktualisiert und überprüft werden müssen. Microsoft-Onlinedienste testen ihre Geschäftskontinuitätspläne mindestens einmal jährlich pro EBCM-Richtlinien. Nachdem Aktionsberichte erstellt und überprüft wurden, um Aktualisierungen zu überprüfen, zu testen und Planupdates als Reaktion auf während der Tests erkannte Probleme zu informieren.
 
 Zum Überprüfen von Resilienz- und Wiederherstellungsstrategien mit einer breiten Palette potenzieller Vorfälle definiert das EBCM-Programm mehrere Kategorien von Testszenarien, die sich auf Personen, Standorte und Technologie auswirken. Die für jeden Dienst erforderliche Überprüfungsebene basiert auf dem Maß, in dem der Dienst kritisch ist, wobei kritischere Dienste einer strengeren Überprüfung unterzogen werden. Jedes Microsoft-Onlinedienstteam testet seinen Geschäftskontinuitätsplan gemäß den EBCM-Richtlinien, um die Effektivität des Plans und die Bereitschaft des Serviceteams zur Ausführung des Plans zu messen.
 

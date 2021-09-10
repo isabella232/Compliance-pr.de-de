@@ -17,11 +17,11 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft Compliance
 ms.openlocfilehash: cd7ad9a68f69f134689262ad7e379eec89284035
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58483010"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947999"
 ---
 # <a name="australian-government-information-security-registered-assessor-program-irap"></a>Australian Government Information Security Registered Assessor Program (IRAP)
 
@@ -33,7 +33,7 @@ Das Information Security Registered Assessors Program (IRAP) wird vom Australian
 
 - Im Jahr 2014 wurde Azure als erster von IRAP bewerteter Clouddienst in Australien gestartet, der von Rechenzentren in Australia und Sid sid gehostet wurde. Diese beiden Rechenzentren ermöglichen australischen Kunden die Kontrolle darüber, wo ihre Kundendaten gespeichert werden, und bieten gleichzeitig eine verbesserte Datensicherung bei Notfalls durch Sicherungen an beiden Standorten.
 - Anfang 2015 wurde Office 365 der erste Cloudproduktivitätsdienst, der diese Bewertung abgeschlossen hat.
-- Im April 2015 hat die ASD die CCSL-Zertifizierung von Azure und Office 365 sowie im November 2015 von Dynamics 365 angekündigt.
+- Im April 2015 hat die ASD die CCSL-Zertifizierung von Azure und Office 365 und im November 2015 von Dynamics 365 angekündigt.
 - Im Juni 2017 hat ASD die erneute Zertifizierung von Microsoft Azure und Office 365 für einen erheblich erweiterten Satz von Diensten angekündigt.
 - Im April 2018 hat acsc die Zertifizierung von Azure und Office 365 bei der PROTECTED-Klassifizierung angekündigt. Microsoft ist der erste und einzige Öffentliche Cloud-Anbieter, der diese Zertifizierungsstufe erreicht.
 - Im September 2019 wurde der aktualisierte IRAP-Bewertungsbereich von Microsoft um 113 Dienste in der PROTECTED-Klassifizierung erweitert.
@@ -54,11 +54,11 @@ Das vom ISM verwendete Risikomanagement-Framework basiert auf [der Sonderpublika
 - Autorisieren des Systems
 - Überwachen des Systems
 
-Wie immer können zusätzliche Ausgleichsteuerelemente von einzelnen Behörden auf risikogesteuerter Basis vor der Autorisierung der Agentur und der nachfolgenden Nutzung dieser Clouddienste implementiert werden.
+Wie immer können zusätzliche Ausgleichsteuerelemente von einzelnen Behörden auf risikogesteuerter Basis vor der Autorisierung der Agentur und der nachfolgenden Verwendung dieser Clouddienste implementiert werden.
 
 Die IRAP-Bewertung der Dienste und Cloud-Vorgänge von Microsoft trägt dazu bei, kunden im öffentlichen Sektor und deren Partnern zu gewährleisten, dass Microsoft über geeignete und effektive Sicherheitskontrollen für die Verarbeitung, Speicherung und Übertragung von Daten verfügt, die bis einschließlich des Schutzniveaus klassifiziert wurden. Diese Bewertung umfasst die meisten Daten aus Behörden, Gesundheitswesen und Bildungseinrichtungen in Australien.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
 
 - Azure
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
@@ -91,13 +91,13 @@ IRAP gilt für alle australischen Behörden des Bundes, des Bundesstaats und der
 
 **Kann ich die Compliance von Microsoft im Risikobewertungs- und Genehmigungsprozess meiner Organisation verwenden?**
 
-Ja. Wenn Ihre Organisation eine Genehmigung benötigt oder benötigt, um in Übereinstimmung mit dem ISM zu arbeiten, können Sie die IRAP-Sicherheitsbewertungen von Azure, Dynamics 365, Microsoft Managed Desktop und Office 365 in Ihrer Risikobewertung verwenden. Sie sind jedoch dafür verantwortlich, einen Prüfer zu beauftragen, Ihre Implementierung so zu bewerten, wie sie auf den Microsoft-Plattformen bereitgestellt wird, sowie für die Kontrollen und Prozesse in Ihrer eigenen Organisation.
+Ja. Wenn Ihre Organisation eine Genehmigung benötigt oder möchte, um in Übereinstimmung mit dem ISM zu arbeiten, können Sie die IRAP-Sicherheitsbewertungen von Azure, Dynamics 365, Microsoft Managed Desktop und Office 365 in Ihrer Risikobewertung verwenden. Sie sind jedoch dafür verantwortlich, einen Prüfer zu beauftragen, Ihre Implementierung so zu bewerten, wie sie auf den Microsoft-Plattformen bereitgestellt wird, sowie für die Kontrollen und Prozesse in Ihrer eigenen Organisation.
 
 **Wo beginne ich mit der Eigenen Risikobewertung und Genehmigung meiner Organisation für den Betrieb?**
 
 Es wird empfohlen, dass Sie die Richtlinien für [Cloud-Sicherheitsbewertungen](https://www.cyber.gov.au/acsc/government/cloud-security-guidance) des ACSC lesen.
 
-### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
+### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
 
 [Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center](/microsoft-365/compliance/microsoft-365-compliance-center), die Ihnen hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 

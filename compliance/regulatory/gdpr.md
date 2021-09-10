@@ -19,11 +19,11 @@ titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
 hideEdit: true
 ms.openlocfilehash: d0016ed24cec4797ff515efa5614d8016fe7f1c1
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58482770"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58947806"
 ---
 # <a name="general-data-protection-regulation-summary"></a>Zusammenfassung Datenschutz-Grundverordnung
 
@@ -267,7 +267,7 @@ Die Einhaltung der DSGVO wird für die meisten Unternehmen Zeit und Geld kosten,
 
 **Wie kann ich feststellen, ob die Daten, die meine Organisation verarbeitet, unter die DSGVO fallen?**
 
-Die DSGVO regelt die Erhebung, Speicherung, Nutzung und Weitergabe von „personenbezogenen Daten“. Personenbezogene Daten sind in der DSGVO allgemein als Daten definiert, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen.
+Die DSGVO regelt die Erfassung, Speicherung, Verwendung und Weitergabe „personenbezogener Daten“. Personenbezogene Daten werden in der DSGVO allgemein als alle Daten definiert, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen.
 
 Zu den personenbezogenen Daten können unter anderem Online-Identifikatoren (z. B. IP-Adressen), Mitarbeiterinformationen, Vertriebsdatenbanken, Daten des Kundendienstes, Kundenfeedback-Formulare, Standortdaten, biometrische Daten, CCTV-Aufnahmen, Aufzeichnungen über Treueprogramme, Gesundheits- und Finanzinformationen und vieles mehr gehören. Diese können sogar Informationen enthalten, die nicht personenbezogen zu sein scheinen – wie beispielsweise ein Foto einer Landschaft ohne Menschen – wenn diese Informationen durch eine Kontonummer oder einen eindeutigen Code mit einer identifizierbaren Person in Verbindung stehen. Und selbst personenbezogene Daten, die pseudonymisiert wurden, können personenbezogene Daten sein, wenn das Pseudonym mit einer bestimmten Person in Verbindung gebracht werden kann.
 

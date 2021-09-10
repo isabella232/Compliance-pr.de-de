@@ -17,11 +17,11 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft Compliance
 ms.openlocfilehash: 200319178a714383feeca3d58cf608e9a3baa304
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58481017"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "58948047"
 ---
 # <a name="reserve-bank-of-india-rbi-and-insurance-regulatory-and-development-authority-of-india-irdai"></a>Reserve Bank of India (RBI) and Insurance Regulatory and Development Authority of India (IRDAI)
 
@@ -35,13 +35,13 @@ Die Anleitungen für Outsourcing und Risikomanagement umfassen:
 - [Richtlinien für Informationssicherheit, Electronic Banking, Technologie-Risikomanagement und Cyber-Betrug](https://rbidocs.rbi.org.in/rdocs/content/PDFs/GBS300411F.pdf) (RBI). Finanzinstitute müssen Outsourcing-Vereinbarungen melden, wenn Umfang und Art der Aktivitäten von Bedeutung sind oder eine umfassende Datenfreigabe mit Dienstanbietern außerhalb Indiens erfordern. Dieser Leitfaden gilt insbesondere, wenn Betriebsdaten außerhalb Indiens gespeichert oder verarbeitet werden.
 - [Outsourcing von Aktivitäten durch die Verordnung über die Regulierung](https://www.irdai.gov.in/ADMINCMS/cms/frmGeneral_Layout.aspx?page=PageNo3149&flag=1) von Indien (IRDAI). Jedes Jahr müssen Versicherungsorganisationen innerhalb von 45 Tagen nach Abschluss des Geschäftsjahrs Das Outsourcing bestimmter Supportfunktionen von Kernaktivitäten an die IRDAI melden. (Auf Seite 7 der [Microsoft-Checkliste](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) wird beschrieben, was "Supportfunktionen von Kernaktivitäten" darstellt.
 
-Finanzunternehmen, die Clouddienste nutzen, müssen auch die Datenschutzregeln einhalten, einschließlich der Regeln für [die Informationstechnologie (angemessene Sicherheitspraktiken und -verfahren und vertrauliche personenbezogene Daten oder Informationen) 2011](https://meity.gov.in/sites/upload_files/dit/files/GSR313E_10511\(1\).pdf) (MeitY). Diese Regeln wurden entwickelt, um die Indin-Datenschutzgesetze zu stärken, und regeln den Schutz und den Umgang mit vertraulichen personenbezogenen Daten.
+Finanzunternehmen, die Clouddienste nutzen, müssen auch die Datenschutzregeln einhalten, einschließlich der Regeln für [die Informationstechnologie (Angemessene Sicherheitspraktiken und -verfahren und vertrauliche personenbezogene Daten oder Informationen) 2011](https://meity.gov.in/sites/upload_files/dit/files/GSR313E_10511\(1\).pdf) (MeitY). Diese Regeln wurden entwickelt, um die Indin-Datenschutzgesetze zu stärken, und regeln den Schutz und den Umgang mit vertraulichen personenbezogenen Daten.
 
 ## <a name="microsoft-rbi-and-irdai"></a>Microsoft, RBI und IRDAI
 
 Um Finanzinstitute in Indien bei der Auslagerung von Geschäftsfunktionen in die Cloud zu unterstützen, hat Microsoft eine Compliance-Checkliste für Finanzinstitute in Indien veröffentlicht. Durch Die Überprüfung und Vervollständigung der [Checkliste](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)können Finanzorganisationen Microsoft Business Cloud Services mit der Gewissheit einführen, dass sie die geltenden behördlichen Anforderungen einhalten.
 
-Wenn in Indien Finanzinstitute Geschäftsaktivitäten in die Cloud auslagern, müssen sie die Richtlinien der Reserve Bank of India befolgen, um Risiken zu verwalten und die Probleme zu behandeln, die sich aus der Verwendung von Informationstechnologie ergeben. Sie müssen auch die Datenschutz- und Datenschutzanforderungen des Ministeriums für Elektronische Und Informationstechnologie (MeitY) erfüllen. Darüber hinaus müssen Versicherungsorganisationen outsourcing-Richtlinien befolgen, die von der Insurance Regulatory and Development Authority of India (IRDAI) veröffentlicht wurden.
+Wenn in Indien Finanzinstitute Geschäftsaktivitäten in die Cloud auslagern, müssen sie die Richtlinien der Reserve Bank of India befolgen, um Risiken zu verwalten und die Probleme zu behandeln, die sich aus der Verwendung der Informationstechnologie ergeben. Sie müssen auch die Datenschutz- und Datenschutzanforderungen des Ministeriums für Elektronische Und Informationstechnologie (MeitY) erfüllen. Darüber hinaus müssen Versicherungsorganisationen outsourcing-Richtlinien befolgen, die von der Insurance Regulatory and Development Authority of India (IRDAI) veröffentlicht wurden.
 
 Die Microsoft-Checkliste unterstützt Finanzunternehmen in Indien bei der Durchführung von Due-Diligence-Prüfungen von Microsoft Business Cloud Services und umfasst Folgendes:
 
