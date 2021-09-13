@@ -20,8 +20,8 @@ ms.openlocfilehash: 3e7d08c15d126273cbacd75a2cab37e476ebf42d
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947818"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159333"
 ---
 # <a name="financial-authority-amf-and-prudential-authority-acpr-france"></a>Die Finanzaufsichtsbehörde (AMF) und die Aufsichts- und Beschlussaufsichtsbehörde (ACPR) Frankreich
 

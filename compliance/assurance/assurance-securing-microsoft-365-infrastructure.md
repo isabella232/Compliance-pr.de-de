@@ -24,8 +24,8 @@ ms.openlocfilehash: 6c20c62feb1ff3ab23eeb97d5ad11abb5ad85a07
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947159"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159609"
 ---
 # <a name="securing-the-microsoft-365-infrastructure"></a>Sichern der Microsoft 365 Infrastruktur
 
@@ -61,7 +61,7 @@ Weitere Informationen zur Zugriffssteuerung finden Sie unter [Identity and Acces
 
 Während Zugriffssteuerungen eine wichtige Rolle bei der Verteidigung Microsoft 365 Dienste spielen, wird die Verschlüsselung während des gesamten Datenlebenszyklus verwendet, um die Vertraulichkeit und den Datenschutz für Microsoft-Kunden weiter zu schützen.
 
-Daten, die zwischen Clientcomputern, Microsoft 365 servern und Servern ohne Microsoft 365 übertragen werden, werden mit TLS 1.2 verschlüsselt. Wir überprüfen regelmäßig die verwendeten Verschlüsselungen und Protokolle, fügen ggf. verbesserte Protokolle hinzu und entfernen bei Bedarf schwächere Protokolle.
+Daten, die zwischen Clientcomputern, Microsoft 365 Servern und Servern ohne Microsoft 365 übertragen werden, werden mit TLS 1.2 verschlüsselt. Wir überprüfen regelmäßig die verwendeten Verschlüsselungen und Protokolle, fügen ggf. verbesserte Protokolle hinzu und entfernen bei Bedarf schwächere Protokolle.
 
 Kundeninhalte, die sich auf Microsoft-Servern befinden, werden auf Volumeebene mit BitLocker verschlüsselt. Die Verschlüsselung auf Anwendungsebene kann zusätzlich mithilfe von Schlüsseln angewendet werden, die von Microsoft oder dem Kunden verwaltet werden. Der Zugriff auf von Microsoft verwaltete Schlüssel ist nur möglich, wenn sie über den JIT- und JEA-Prozess autorisiert und genehmigt werden.
 

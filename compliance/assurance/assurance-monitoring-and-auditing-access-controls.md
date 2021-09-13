@@ -23,8 +23,8 @@ ms.openlocfilehash: bf760bf68169092f99fe5a668c9f0087060f7ea2
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947153"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159166"
 ---
 # <a name="monitoring-and-auditing-access-controls-in-microsoft-365"></a>Überwachen und Überwachen von Zugriffssteuerungen in Microsoft 365
 

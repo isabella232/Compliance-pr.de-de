@@ -18,8 +18,8 @@ ms.openlocfilehash: ee4dad3a8b3c4bc6ffb67db78cb083c8524ddad5
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58948113"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159135"
 ---
 # <a name="gdpr-for-project-server"></a>DSGVO für Project Server
 

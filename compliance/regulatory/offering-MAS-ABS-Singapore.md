@@ -20,8 +20,8 @@ ms.openlocfilehash: 66e0803e41717cfd80fc4c3e4481457d5a165303
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58948006"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159459"
 ---
 # <a name="monetary-authority-of-singapore-mas-and-association-of-banks-in-singapore-abs"></a>Die Währungsbehörde von Singapur (Monetary Authority of Singapore, MAS) und die Bankvereinigung von Singapur (Association of Banks in Singapore, ABS)
 

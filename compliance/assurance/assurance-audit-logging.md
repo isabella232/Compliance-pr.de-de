@@ -24,8 +24,8 @@ ms.openlocfilehash: 11695a941e5d5e6740833ab19bf2d68ac487c1c5
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947045"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159291"
 ---
 # <a name="audit-logging-overview"></a>Überwachungsprotokollierung (Übersicht)
 

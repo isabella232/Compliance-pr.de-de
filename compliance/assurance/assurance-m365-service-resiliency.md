@@ -21,8 +21,8 @@ ms.openlocfilehash: 592cfcdf3da33e6c26e90d5a83fb6bcd3b4241e0
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947111"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159030"
 ---
 # <a name="built-in-service-resiliency-in-microsoft-365"></a>Integrierte Dienstresilienz in Microsoft 365
 
@@ -43,7 +43,7 @@ In Microsoft 365 setzen wir darauf, dass alle Dienste in einem aktiven/aktiven D
 Der Umfang eines Dienstvorfalls wird anhand des Schweregrads, der Dauer und der Anzahl der Kunden ermittelt. Wir sind bestrebt, den Umfang aller Vorfälle zu begrenzen durch:
 
 - mehrere Instanzen jedes Dienstes voneinander getrennt zu haben
-- die kontrollierte, abgestufte Bereitstellung von Updates mit Hilfe von Validierungsringen, so dass alle Probleme, die sich aus dem Update ergeben könnten, frühzeitig im Bereitstellungsprozess erkannt und behoben werden können. Dieses Design ermöglicht bei Bedarf eine Regression des Updates und tritt zuerst in einer kleinen Gruppe innerhalb von Microsoft (innerer Ring) auf, bevor es für größere Gruppen wie alle 140.000 Microsoft-Mitarbeiter (Ring 2), dann für Early Adopter-Ringe (Ring 3) und letztendlich für alle Kunden global (Ring 4) bereitgestellt wird.
+- die kontrollierte, abgestufte Bereitstellung von Updates mit Hilfe von Validierungsringen, so dass alle Probleme, die sich aus dem Update ergeben könnten, frühzeitig im Bereitstellungsprozess erkannt und behoben werden können. Dieses Design ermöglicht bei Bedarf eine Regression des Updates und tritt zuerst in einer kleinen Gruppe innerhalb von Microsoft (innerer Ring) auf, bevor es für größere Gruppen wie alle 140.000 Microsoft-Mitarbeiter (Ring 2), dann für Early Adopter Ringe (Ring 3) und letztendlich für alle Kunden global (Ring 4) bereitgestellt wird.
 - Verbesserungen bei der Überwachung durch Automatisierung. Microsoft 365 ist ein großer Dienst, und die SLA-Ziel-Betriebszeit ist hoch. Am Anfang eines Dienstvorfalls, wenn Menschen an der Erkennung und Reaktion beteiligt sein mussten, konnten wir nicht schnell genug reagieren, um SLAs zu erfüllen. Die Automatisierung ist der Schlüssel für die schnelle und effektive Erkennung und Reaktion von Dienstvorfällen. Je früher wir etwas wissen, desto schneller lässt es sich beheben.
 
 Zusammen mit den aktiven/aktiven Funktionen, die in Microsoft 365 Dienstarchitektur integriert sind, verringern diese Anstrengungen den Schweregrad, die Dauer und die Anzahl der betroffenen Kunden während eines Dienstvorfalls.  
@@ -55,7 +55,7 @@ Fehlerisolationsmaßnahmen werden in mehreren Phasen der Entwicklung und Bereits
 
 Der Microsoft Security Development Lifecycle (SDL) fördert die Resilienz weiter und besteht aus einer Reihe von Praktiken, die Sicherheits-und Compliance-Anforderungen unterstützen. SDL leitet unsere Entwickler in den Aufbau widerstandsfähiger, sicherer und kompatibler Dienste. Zu den Schlüsselelementen von SDL gehören Codeüberprüfungen, Bedrohungsmodellierung, Penetrationstests und standardisierte Prozesse zur Ereignisreaktion in der Microsoft-Cloud.
 
-Microsoft 365 Dienste sind in hohem Maße miteinander verbunden, aber die systeme und die technologie hinter ihnen sind so konzipiert, dass die Auswirkungen eines Dienstvorfalls durch das Übertragen auf andere Dienste begrenzt werden. Beispielsweise wirkt sich ein Problem, das sich auf Exchange Online auswirkt, nicht auf die Kernfunktionalität in Teams aus, oder ein Problem mit der Suchfunktionalität in SharePoint Online wirkt sich nicht auf die Möglichkeit von Benutzern aus, Dateien hoch- oder herunterzuladen.
+Microsoft 365 Dienste sind in hohem Maße miteinander verbunden, aber die systeme und die technologie hinter ihnen sind so konzipiert, dass die Auswirkungen eines Dienstvorfalls durch das Übertragen auf andere Dienste begrenzt werden. Beispielsweise wirkt sich ein Problem, das sich auf Exchange Online auswirkt, nicht auf die Kernfunktionen in Teams aus, oder ein Problem mit der Suchfunktion in SharePoint Online wirkt sich nicht auf die Möglichkeit der Benutzer aus, Dateien hoch- oder herunterzuladen.
 
 ## <a name="continuous-service-improvement"></a>Kontinuierliche Serviceverbesserung
 

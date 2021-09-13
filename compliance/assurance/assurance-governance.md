@@ -24,8 +24,8 @@ ms.openlocfilehash: 86885737bb3e6acd0a9503c240b09cb3349da7a8
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947108"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159022"
 ---
 # <a name="governance-overview"></a>Governance (Übersicht)
 
@@ -41,7 +41,7 @@ Das Sicherheitsgovernance-Programm von Microsoft wird von verschiedenen regulato
 
 Microsoft 365 dokumentiert Sicherheitsimplementierungen in den Microsoft 365-Richtlinien zur Informationssicherheit. Diese Richtlinie richtet sich nach der Microsoft-Sicherheitsrichtlinie und steuert das Microsoft 365-Informationssystem, einschließlich aller Microsoft 365-Umgebungen und aller Ressourcen, die mit der Sammlung, Verarbeitung, Wartung, Nutzung, Freigabe, Verbreitung und Entsorgung von Daten verbunden sind. Ebenso verwenden Azure und Dynamics 365 die Microsoft-Sicherheitsrichtlinie, um ihr Informationssystem zu steuern.
 
-Die Informationssysteme umfassen die folgenden Komponenten, die von der Microsoft 365 Information Security Policy (für Microsoft 365) und der Microsoft-Sicherheitsrichtlinie (für Azure und Dynamics 365) geregelt werden:
+Die Informationssysteme umfassen die folgenden Komponenten, die durch die Microsoft 365 Informationssicherheitsrichtlinie (für Microsoft 365) und die Microsoft-Sicherheitsrichtlinie (für Azure und Dynamics 365) geregelt sind:
 
 - Infrastruktur: Die physischen und Hardwarekomponenten von Azure, Dynamics 365 und Microsoft 365 Systemen (Einrichtungen, Geräte und Netzwerke)
 - Software: Die Programme und Die Betriebssoftware von Azure, Dynamics 365 und Microsoft 365 Systemen (Systeme, Anwendungen und Dienstprogramme)

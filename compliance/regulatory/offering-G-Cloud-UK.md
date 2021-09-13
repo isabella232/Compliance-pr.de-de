@@ -20,8 +20,8 @@ ms.openlocfilehash: 805820ac031cd1fc1e1216c5e000e4ee2ad10837
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947969"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159765"
 ---
 # <a name="united-kingdom-government-cloud-g-cloud"></a>Vereinigtes Königreich Government-Cloud (G-Cloud)
 
@@ -41,7 +41,7 @@ Die Benennung von Microsoft-Dienste auf dem Digital Marketplace bedeutet, dass r
 
  [14 Cloud Security Controls for UK cloud using Microsoft Azure](https://azure.microsoft.com/resources/14-cloud-security-controls-for-uk-cloud-using-microsoft-azure/) provides customer strategies to move their services to Azure and help meet their UK obligations mandated by the CESG/NCSC. Das Whitepaper bietet Einen Einblick, wie Azure verwendet werden kann, um die in den Cloudsicherheitsprinzipalen beschriebenen 14 Steuerelemente zu adressieren, und beschreibt, wie Kunden schneller navigieren und mehr erreichen und gleichzeitig Geld sparen können, wenn sie Microsoft Azure Dienste einführen.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
 - Azure
 - Microsoft Cloud App Security
@@ -76,7 +76,7 @@ Um zu bestätigen, dass Microsoft-Clouddienste ihre Compliance mit G-Cloud-Verei
 - [Azure UK G Cloud-Restrisiko](https://go.microsoft.com/fwlink/?linkid=2099497)
 - [Intune UK G Cloud Security Cloud Assessment Summary](https://go.microsoft.com/fwlink/?linkid=2099703)
 
-### <a name="dynamics-365"></a>Dynamics 365
+### <a name="dynamics-365"></a>Dynamics 365
 
 - [Dynamics 365 UK G cloud Risk Environment](https://go.microsoft.com/fwlink/?linkid=2099702)
 

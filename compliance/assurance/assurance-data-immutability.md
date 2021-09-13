@@ -24,8 +24,8 @@ ms.openlocfilehash: e17685c7d927ab8188abe1ef4dae4d2cdf0f3764
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947063"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159250"
 ---
 # <a name="data-immutability-in-microsoft-365"></a>Unveränderbarkeit von Daten in Microsoft 365
 
@@ -63,4 +63,4 @@ Insbesondere gilt:
 - Die Archivierung in Microsoft 365 ermöglicht Es Benutzern, verschiedene Aufbewahrungsrichtlinien und Aufbewahrungsaktionen zu kombinieren, um granulare Aufbewahrungsrichtlinien zu erstellen. Diese Richtlinien definieren den Typ oder Speicherort der aufbewahrten Elemente und die Dauer der Aufbewahrung.
 - Mit dem Feature "Erhaltungssperre" können Benutzer auswählen, ob die Richtlinie zu einer restriktiven Richtlinie werden soll. Eine restriktive Richtlinie verhindert, dass jemand die Möglichkeit hat, die Aufbewahrungsrichtlinie zu entfernen, zu deaktivieren oder Änderungen daran vorzunehmen. Dies bedeutet, dass die Erhaltungssperre nicht deaktiviert werden kann und kein Mechanismus vorhanden ist, unter dem Daten von vorhandenen Verwahrern, die von den vorhandenen Aufbewahrungsrichtlinien erfasst wurden, während des Aufbewahrungszeitraums überschrieben, geändert, gelöscht oder gelöscht werden können. Darüber hinaus kann der durch die Erhaltungssperre festgelegte Aufbewahrungszeitraum nicht verkürzt oder verringert werden. Sie kann jedoch verlängert werden, wenn eine gesetzliche Anforderung besteht, die Aufbewahrung der gespeicherten Daten fortzusetzen, wie oben erwähnt. Die Erhaltungssperre stellt sicher, dass niemand, nicht einmal Administratoren oder Personen mit bestimmtem Kontrollzugriff, die Einstellungen ändern oder gespeicherte Daten überschreiben oder löschen kann, wodurch die Archivierung in Microsoft 365 gemäß den Richtlinien in der 2003-Version der SEC-Regel 17a-4 erfolgt.
 
-Um zu verstehen, wie Microsoft 365 Ihnen dabei hilft, behördliche Verpflichtungen zu erfüllen, insbesondere im Hinblick auf die Anforderungen von Regel 17a-4, finden Sie im [Whitepaper](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/2015/11/Microsoft-EOA-White-Paper.pdf) Exchange Online-Archivierung, SharePoint Online, OneDrive for Business und Skype for Business. Das Whitepaper bietet außerdem eine ausführliche Analyse der Microsoft 365 Archivierungsfunktionen und -funktionen für jede der Anforderungen gemäß SEC-Regel 17a-4 und veranschaulicht regulierten Kunden, wie Microsoft 365 Archivierung es ihnen ermöglichen kann, diese Anforderungen zu erfüllen.
+Informationen dazu, wie Microsoft 365 Ihnen dabei hilft, behördliche Verpflichtungen zu erfüllen, insbesondere im Hinblick auf die Anforderungen von Regel 17a-4, finden Sie im [Whitepaper](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/2015/11/Microsoft-EOA-White-Paper.pdf) zu Exchange Online-Archivierung, SharePoint Online, OneDrive for Business und Skype for Business. Das Whitepaper bietet außerdem eine ausführliche Analyse der Microsoft 365 Archivierungsfunktionen und -funktionen für jede der Anforderungen gemäß SEC-Regel 17a-4 und veranschaulicht regulierten Kunden, wie Microsoft 365 Archivierung es ihnen ermöglichen kann, diese Anforderungen zu erfüllen.

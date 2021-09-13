@@ -20,8 +20,8 @@ ms.openlocfilehash: 728050d20babd819c2153cd04b3eae849120eeee
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58948060"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159886"
 ---
 # <a name="us-section-508"></a>US Section 508
 
@@ -35,7 +35,7 @@ Microsoft ist ein wichtiger Software- und Cloud-Dienstanbieter für Us-Bundessta
 
 Die Berücksichtigung von Abschnitt 508 der USA bei der Entwicklung von Produkten und Diensten durch Microsoft verweist auf sein Engagement, Technologien und Daten für alle Kunden zugänglich zu machen.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
 - Azure und Azure Government
 - Azure DevOps Services

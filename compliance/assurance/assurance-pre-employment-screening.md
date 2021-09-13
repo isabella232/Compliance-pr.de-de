@@ -24,8 +24,8 @@ ms.openlocfilehash: 633873434620266d0fc9f24bbe7a3470554c35f3
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947123"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159759"
 ---
 # <a name="microsoft-pre-employment-screening"></a>Überprüfung vor der Einstellung durch Microsoft
 
@@ -69,7 +69,7 @@ Soweit dies nach dem lokalen Recht zulässig ist, umfassen lieferantenprüfungsp
 - Bestätigung des höchsten akademischen Abschlusses
 - Globale Sanktions- und Vollstreckungsüberprüfung
 
-In den Vereinigten Staaten führt der Lieferant vor jeder Platzierung jedes Lieferantenmitarbeiters, der für Microsoft tätig ist, eine Vorabplatzierung und für bestimmte Platzierungen eine regelmäßige Hintergrundüberprüfung durch, sofern dies nach lokalem Recht zulässig ist, und für bestimmte Platzierungen eine regelmäßige Hintergrundüberprüfung mithilfe des bevorzugten Anbieters von Hintergrundüberprüfungen von Microsoft, der Microsoft gegenüber bestätigt, dass das Screening den Microsoft-Standard erfüllt. 
+In den Vereinigten Staaten führt der Lieferant vor jeder Platzierung jedes Lieferantenmitarbeiters, der für Microsoft tätig ist, eine Vorabplatzierung und für bestimmte Platzierungen eine regelmäßige Hintergrundüberprüfung durch, sofern dies nach den lokalen Gesetzen zulässig ist, und für bestimmte Platzierungen eine regelmäßige Hintergrundüberprüfung mithilfe des bevorzugten Anbieters für die Hintergrundüberprüfung von Microsoft, der Microsoft gegenüber bestätigt, dass das Screening den Microsoft-Standard erfüllt. 
 
 International wird die entsprechende Anforderung bis September 2020 in allen Ländern implementiert, und wenn sie derzeit nicht implementiert ist, legt der Vertrag mit dem Drittanbieter die Anforderungen von Microsoft für die Überprüfung fest, die durchgeführt werden müssen, und der Lieferant ist dafür verantwortlich, Microsoft schriftlich zu bestätigen, dass die Hintergrundüberprüfung erfolgreich abgeschlossen wurde.
 

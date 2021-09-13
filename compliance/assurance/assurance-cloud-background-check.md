@@ -24,8 +24,8 @@ ms.openlocfilehash: c9fd9000f9c0b421514d42ae3534c9ae94d842c8
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947030"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159285"
 ---
 # <a name="microsoft-cloud-background-check"></a>Microsoft Cloud-Hintergrundprüfung
 
@@ -35,13 +35,13 @@ Soweit dies nach lokalem Recht zulässig ist, werden die folgenden Prüfungen im
 
 - Vereinigte Staaten: Sozialversicherungsnummer-Ablaufverfolgung
 - Die Strafrechtliche Verfolgung überprüft bis zu sieben Jahre auf Straftaten aufgrund von Straftaten aufgrund von Straftaten auf Bundesstaats-, Kreis- und lokaler Ebene sowie auf Bundesebene, sofern dies in den VEREINIGTEn Staaten angemessen ist. Für Bereiche außerhalb der VEREINIGTEn Staaten gilt eine internationale Überprüfung der Vorregisterregister (abhängig von den lokalen Gesetzen).
-- Globale Sanktions- und Durchsetzungsprüfungen, einschließlich Office der Liste der Ofac-Listen (Foreign Assets Control), der Liste des Bis-Büros (Bureau of Industry and Security) und Office der Liste "Debarred Persons (DDTC)"-Listenüberprüfungen (Defense Trade Controls Debarred Persons, DDTC).
+- Globale Sanktions- und Durchsetzungsprüfungen, einschließlich Office der Liste der Ofac-Listen (Foreign Assets Control), der Liste des Bis-Büros (Bureau of Industry and Security) und Office der Liste "Debarred Persons (DDTC)"-Listenüberprüfungen (Defense Trade Controls Debarred Persons).
 
 Die Ergebnisse der Microsoft Cloud-Hintergrundüberprüfung werden in unserer Mitarbeiterdatenbank gespeichert und mit unseren Zugriffssteuerungssystemen für Rechenzentren verbunden. Wenn die Microsoft Cloud-Hintergrundüberprüfung abläuft und der Mitarbeiter sie nicht erneuert, wird der Zugriff auf Microsoft-Dienste widerrufen und nicht mehr verfügbar, bis die Microsoft Cloud-Hintergrundüberprüfung abgeschlossen ist. Wenn die Anstellungsbeziehung mit Microsoft endet, wird der Zugriff auf das Rechenzentrum sofort widerrufen.
 
 Die Stadien der Vereinigten Staaten werden für alle Mitarbeiter mit physischem oder logischem Zugriff auf die Umgebungen überprüft, in denen Us-Regierungsdienste ausgeführt werden. Um die Stundschaft zu überprüfen, treffen sich Mitarbeiter und/oder Kandidaten für Neueinstellungen mit einem Stellvertreter der US-Stundschaft, der zum Überprüfen der Dokumentation zur Überprüfung der US-Stundung geschult ist. Mitarbeiter oder Kandidaten für Neueinstellungen müssen die erforderliche Dokumentation mit sich bringen und ein Nachweisformular bei einer Besprechung mit der Stellvertreterin für Dietschaft für ihre Region signieren. Die Besprechung muss persönlich erfolgen. Nachdem sich die Person mit dem Stellvertreter für die Stellvertreterin für die Stellvertreterschaft getroffen und die erforderlichen Dokumentationen und Signaturen bereitgestellt hat, leitet der Stellvertreter eine Kopie der Dokumente an Microsoft Staffing Operations weiter, die die Kopie an die Datensatzführung übermitteln.
 
-Mitarbeiter mit logischem Zugriff auf Microsoft-Onlinedienste für die USA Government Community Cloud sind verpflichtet, die Anforderungen der Bundesbehörden der [Strafverfolgungsbehörden](https://www.fbi.gov/services/cjis) der FBI zu erfüllen, einschließlich der Personalprüfung. Das CJIS-Screening zur Unterstützung des Microsoft 365 U.S. Government-Diensts umfasst eine Fingerabdruck-basierte Prüfung des strafrechtlichen Hintergrunds, die von der CJIS-Systemorganisation als Verwalter in Staaten bezeichnet wird, die sich für das CJIS-Supportprogramm von Microsoft Online Services [registriert haben.](https://blogs.office.com/2013/10/23/california-and-microsoft-sign-cjis-security-policy-agreement/)
+Mitarbeiter mit logischem Zugriff auf Microsoft-Onlinedienste für die USA Government Community Cloud sind verpflichtet, die Anforderungen der Bundesbehörden der [Strafverfolgungsbehörden](https://www.fbi.gov/services/cjis) des FBI zu erfüllen, einschließlich der Personalprüfung. Das CJIS-Screening zur Unterstützung des Microsoft 365 U.S. Government-Diensts umfasst eine Fingerabdruck-basierte Prüfung des strafrechtlichen Hintergrunds, die von der CJIS-Systemorganisation als Verwalter in Staaten bezeichnet wird, die sich für das CJIS-Supportprogramm von Microsoft Online Services [registriert haben.](https://blogs.office.com/2013/10/23/california-and-microsoft-sign-cjis-security-policy-agreement/)
 
 ## <a name="periodic-rescreening"></a>Regelmäßige erneute Überprüfung
 

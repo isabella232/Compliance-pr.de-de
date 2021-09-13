@@ -20,8 +20,8 @@ ms.openlocfilehash: e190a98a475d6170e793e92e8052012048cc3d7f
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947904"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159399"
 ---
 # <a name="defense-federal-acquisition-regulation-supplement-dfars"></a>Defense Federal Acquisition Regulation Supplement (DFARS)
 
@@ -33,7 +33,7 @@ Die endgültige DFARS-Klausel 252.204-7012 (Safeguarding Covered Defense Informa
 
 ## <a name="microsoft-and-dfars"></a>Microsoft und DFARS
 
-Microsoft Government Cloud Services helfen den Kunden der us-amerikanischen Defense Industrial Base und Defense-Kunden, die DFARS-Anforderungen zu erfüllen, wie in den DFARS-Klauseln vom 252.204-7012 aufgeführt, die für Clouddienstanbieter gelten. Wenn Vertragsnehmer der Verteidigung verpflichtet sind, dfars Klausel 252.204-7012 in Verträgen einzuhalten, kann Microsoft die Anforderungen unterstützen, die für Clouddienstanbieter für Azure Government und Office 365 US Government Defense Services gelten. Beide Dienste demonstrieren Unterstützung für die Funktionen, die Kunden benötigen, um die DFARS 7012-Klauseln durch ihre L5-Akkreditierung an den Security Requirements Guide des Department of Defense zu erfüllen.  
+Microsoft Government Cloud Services helfen den Kunden der us-amerikanischen Defense Industrial Base und Defense-Kunden, die DFARS-Anforderungen zu erfüllen, wie in den DFARS-Klauseln vom 252.204-7012 aufgeführt, die für Clouddienstanbieter gelten. Wenn Vertragsnehmer der Verteidigung verpflichtet sind, die DFARS-Klausel 252.204-7012 in Verträgen einzuhalten, kann Microsoft die Anforderungen unterstützen, die für Clouddienstanbieter für Azure Government und Office 365 U.S. Government Defense Services gelten. Beide Dienste demonstrieren Unterstützung für die Funktionen, die Kunden benötigen, um die DFARS 7012-Klauseln durch ihre L5-Akkreditierung an den Security Requirements Guide des Department of Defense zu erfüllen.  
 
 ## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
@@ -94,7 +94,7 @@ Die folgenden Microsoft Office 365 Clouddienste haben eine moderate FedRAMP-Auto
 
 Darüber hinaus werden Microsoft-Angebote außerhalb der FedRAMP-zertifizierten Grenze, die möglicherweise von DoD-Vertragsnehmern zum Verarbeiten, Speichern oder Übertragen von "abgedeckten Verteidigungsinformationen" verwendet werden könnten, einer Überprüfung unterzogen, um einen Compliance-Stichtag vom 31. Dezember 2017 einzuhalten. Microsoft arbeitet daran, zu dokumentieren, wie diese internen und kundenorientierten Dienste NIST SP 800-171 oder einer akzeptablen Sicherheitsentsprechung entsprechen, um die DFARS-relevanten Klauseln zu erfüllen.
 
-### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
+### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
 
 [Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center](/microsoft-365/compliance/microsoft-365-compliance-center), die Ihnen hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 

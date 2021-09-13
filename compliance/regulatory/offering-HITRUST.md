@@ -1,6 +1,6 @@
 ---
 title: Health Information Trust Alliance (HITRUST) Common Security Framework (CSF)
-description: Azure und Office 365 sind für das Health Information Trust Alliance (HITRUST) Common Security Framework (CSF) zertifiziert.
+description: Azure und Office 365 sind nach dem Health Information Trust Alliance (HITRUST) Common Security Framework (CSF) zertifiziert.
 keywords: Microsoft 365, Compliance, Angebote
 ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
@@ -20,8 +20,8 @@ ms.openlocfilehash: 97875374c58bf174090a9dd34f26d3e22b2b50b3
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58948012"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159381"
 ---
 # <a name="health-information-trust-alliance-hitrust-common-security-framework-csf"></a>Health Information Trust Alliance (HITRUST) Common Security Framework (CSF)
 
@@ -35,13 +35,13 @@ Das CSF ist in 19 verschiedene Domänen unterteilt, einschließlich Endpunktschu
 
 Health Information Trust Alliance (HITRUST) Common Security Framework (CSF)
 
-HITRUST bietet drei Zuverlässigkeitsgrade oder Bewertungsstufen: Selbstbewertung, CSF-validiert und CSF-zertifiziert. Jede Ebene baut mit zunehmender Strenge auf der ebene darunter auf. Eine Organisation mit der höchsten Stufe, CSF-zertifiziert, erfüllt alle Zertifizierungsanforderungen des CSF. Microsoft Azure und Office 365 sind die ersten Hyperscale-Clouddienste, die eine Zertifizierung für den HITRUST-CSF erhalten. Coalfire, ein HITRUST-Prüferunternehmen, führte die Bewertungen basierend darauf durch, wie Azure und Office 365 Sicherheits-, Datenschutz- und regulatorische Anforderungen zum Schutz vertraulicher Informationen implementieren. Microsoft unterstützt das HITRUST-Programm für gemeinsame Verantwortung.
+HITRUST bietet drei Zuverlässigkeitsgrade oder Bewertungsstufen: Selbstbewertung, CSF-validiert und CSF-zertifiziert. Jede Ebene baut mit zunehmender Strenge auf der ebene darunter auf. Eine Organisation mit der höchsten Stufe, CSF-zertifiziert, erfüllt alle Zertifizierungsanforderungen des CSF. Microsoft Azure und Office 365 sind die ersten Hyperscale-Clouddienste, die eine Zertifizierung für den HITRUST-CSF erhalten. Coalfire, ein HITRUST-Prüferunternehmen, führte die Bewertungen basierend darauf aus, wie Azure und Office 365 Sicherheits-, Datenschutz- und behördliche Anforderungen zum Schutz vertraulicher Informationen implementieren. Microsoft unterstützt das HITRUST-Programm für gemeinsame Verantwortung.
 
 Erfahren Sie, wie Sie Ihre HITRUST-Bereitstellung mit unserem Azure Security and Compliance Blueprint beschleunigen.
 
 [Herunterladen des Blueprints für die Microsoft Azure HITRUST Customer Responsibility Matrix (CRM) v9.0d](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=3ccde498-4761-4be0-be8b-cd8d379a3a4f&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_Healthcare_Blueprint)
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
 - Azure und Azure Government
 - Intune

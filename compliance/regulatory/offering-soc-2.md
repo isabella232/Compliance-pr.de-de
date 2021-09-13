@@ -20,8 +20,8 @@ ms.openlocfilehash: 92fb47f98e60eb655ee68b38cb747a7d2eb9d2ff
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58948054"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159939"
 ---
 # <a name="system-and-organization-controls-soc-2-type-2"></a>System- und Organisationskontrollen (System and Organization Controls, SOC) 2, Typ 2
 

@@ -24,8 +24,8 @@ ms.openlocfilehash: 6a26334b805be069298302d3ad1e8e5b9e728150
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947024"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159273"
 ---
 # <a name="data-bearing-device-destruction"></a>Zerstörung von Datenträgern
 

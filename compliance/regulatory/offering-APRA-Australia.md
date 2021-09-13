@@ -20,8 +20,8 @@ ms.openlocfilehash: e8e6ca43cbce4755ab29f3ef7cadc06a5dda7e32
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947824"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158945"
 ---
 # <a name="australian-prudential-regulation-authority-apra"></a>Australian Prudential Regulation Authority (APRA)
 
@@ -45,11 +45,11 @@ Um mehr über die Vorteile von APRA-konformen Finanzdienstleistungen in Azure zu
 
 Dieses Microsoft-Dokument enthält detaillierte Anleitungen für Finanzdienstleistungen mit einer detaillierten Antwort auf jedes Problem, das im APRA Information Paper [Outsourcing im Zusammenhang mit Cloud Computing-Diensten](https://www.apra.gov.au/sites/default/files/information_paper_-_outsourcing_involving_cloud_computing_services.pdf)aufgekommen ist. Die APRA-Richtlinien identifizieren drei Risikokategorien, in die die Cloudnutzung in der Regel fällt – niedriges, erhöhtes und extremes inhärentes Risiko – und heben wichtige Probleme hervor, die regulierte Entitäten im Rahmen ihrer Risikobewertung berücksichtigen müssen.
 
-Die Microsoft-Antwort konzentriert sich auf die beiden höchsten Risikokategorien. Clouddienste sind zwar nicht durch eine Risikokategorie verboten, aber APRA erwartet, dass Sie eine entsprechend höhere Stufe der Sorgfalt durchführen, und Sie sollten mit einer zunehmenden APRA-Prüfung rechnen, wenn Sie die Risikokategorien nach oben verschieben. APRA listet eine Reihe von Faktoren auf, die in der Regel auf ein hohes oder extremes inhärentes Risiko für Cloud-Outsourcing hindeuten. Microsoft geht ausführlich auf jeden dieser Faktoren ein und stellt Informationen und Tools bereit, mit denen Sie das Risiko einer Verschiebung Ihrer Daten und Workloads nach Azure bewerten und verwalten können.
+Die Microsoft-Antwort konzentriert sich auf die beiden höchsten Risikokategorien. Clouddienste sind zwar nicht durch eine Risikokategorie verboten, aber APRA erwartet, dass Sie eine entsprechend höhere Stufe der Sorgfalt durchführen, und Sie sollten mit einer zunehmenden APRA-Prüfung rechnen, wenn Sie die Risikokategorien nach oben verschieben. APRA listet eine Reihe von Faktoren auf, die in der Regel auf ein hohes oder extremes inhärentes Risiko für cloudbasiertes Outsourcing hindeuten. Microsoft geht ausführlich auf jeden dieser Faktoren ein und stellt Informationen und Tools bereit, mit denen Sie das Risiko einer Verschiebung Ihrer Daten und Workloads nach Azure bewerten und verwalten können.
 
-Microsoft befasst sich auch mit jeder Berücksichtigung des APRA-Risikomanagements: Strategie, Governance, Lösungsauswahlprozess, APRA-Zugriff und -Fähigkeit, Übergangsansatz, Risikobewertungen und Sicherheit, fortlaufende Überwachung, Geschäftsunterbrechungen sowie Audit und Zuverlässigkeit. Punkt für Punkt geben wir Ratschläge und bieten Tools an, die Ihnen bei der Reaktion auf jedes Problem bei der Bereitstellung von Azure helfen.
+Microsoft befasst sich auch mit jeder Berücksichtigung des APRA-Risikomanagements: Strategie, Governance, Lösungsauswahlprozess, APRA-Zugriff und -Fähigkeit, Übergangsansatz, Risikobewertungen und Sicherheit, fortlaufende Überwachung, Geschäftsunterbrechungen sowie Audit und Zusicherung. Punkt für Punkt geben wir Ratschläge und bieten Tools an, die Ihnen bei der Reaktion auf jedes Problem bei der Bereitstellung von Azure helfen.
 
-Erhalten Sie praktische Unterstützung für das Verschieben von Daten und Workloads nach Azure in Übereinstimmung mit den APRA-Bestimmungen: [Laden Sie die Microsoft-Antwort auf das APRA Information Paper on Cloud herunter.](https://aka.ms/navigatecloudaustralia)
+Erhalten Sie praktische Unterstützung für das Verschieben von Daten und Workloads nach Azure in Übereinstimmung mit den APRA-Bestimmungen: [Laden Sie die Microsoft-Antwort auf das APRA-Informationsdokument zur Cloud herunter.](https://aka.ms/navigatecloudaustralia)
 
 ## <a name="microsoft-response-to-the-apra-cps-234-on-information-security"></a>Antwort von Microsoft auf APRA CPS 234 zur Informationssicherheit
 
@@ -104,7 +104,7 @@ Wenn die Clouddienste darüber hinaus als "erhöhtes oder extremes inhärentes R
 
 Ja. Die allgemeinen Datenschutzbestimmungen (die für alle Sektoren gelten, nicht nur für Finanzinstitute) gestatten Unter bestimmten Bedingungen Übertragungen außerhalb Australiens. Microsoft stimmt den Vertragsbedingungen gemäß den australischen Datenschutzprinzipien zu, sodass Übertragungen von Daten außerhalb australiens zulässig sind, wenn Sie Microsoft-Clouddienste verwenden. Viele unserer Kunden für australische Finanzdienstleistungen nutzen jedoch die Clouddienste, die in unseren australischen Rechenzentren zur Verfügung stehen, für die wir spezifische vertragliche Verpflichtungen zum Speichern von kategorien ruhenden Daten in der australischen Geografie machen. Diese Verpflichtungen werden in der [Compliance-Checkliste](https://www.microsoft.com/cms/api/am/binary/RE3ez0C)weiter beschrieben.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
 
 [Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center](/microsoft-365/compliance/microsoft-365-compliance-center), die Ihnen hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 

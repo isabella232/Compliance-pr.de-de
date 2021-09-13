@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365 Exchange Online Löschen von Daten
-description: Erfahren Sie, wie vorläufige und endgültige Datenlöschungen für Postfächer und Elemente in Postfächern in Exchange Online behandelt werden.
+description: Erfahren Sie, wie vorläufige und feste Datenlöschungen für Postfächer und Elemente in Postfächern in Exchange Online behandelt werden.
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -24,12 +24,12 @@ ms.openlocfilehash: 9dd365e075226d8fdbfd1a9f9e371df2668f814d
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947078"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159058"
 ---
 # <a name="exchange-online-data-deletion-in-microsoft-365"></a>Exchange Online Löschen von Daten in Microsoft 365
 
-Innerhalb Exchange Online gibt es zwei Arten von Löschungen: vorläufige löschungen und endgültige Löschungen. Dies gilt sowohl für Postfächer als auch für Elemente innerhalb eines Postfachs.
+Innerhalb Exchange Online gibt es zwei Arten von Löschungen: vorläufige Löschungen und endgültige Löschungen. Dies gilt sowohl für Postfächer als auch für Elemente innerhalb eines Postfachs.
 
 ## <a name="soft-deleted-and-hard-deleted-mailboxes"></a>Vorläufig gelöschte und endgültig gelöschte Postfächer
 
@@ -42,7 +42,7 @@ Ein vorläufig gelöschtes Benutzerpostfach ist ein Postfach, das mit dem Micros
 Ein endgültig gelöschtes Benutzerpostfach ist ein Postfach, das auf eine der folgenden Arten gelöscht wurde:
 
 - Das Benutzerpostfach wurde für mehr als 30 Tage vorläufig gelöscht, und die zugeordnete Azure Active Directory Benutzer wurde endgültig gelöscht. Alle Postfachinhalte wie E-Mails, Kontakte und Dateien werden dauerhaft gelöscht.
-- Das dem Benutzerpostfach zugeordnete Benutzerkonto wurde aus dem Azure Active Directory endgültig gelöscht. Das Benutzerpostfach wird nun in Exchange Online vorläufig gelöscht und bleibt 30 Tage lang in einem vorläufig gelöschten Zustand. Wenn im Zeitraum von 30 Tagen ein neuer Azure Active Directory Benutzer vom ursprünglichen Empfängerkonto mit demselben **ExchangeGuid-** oder **ArchiveGuid-Konto** synchronisiert wird und dieses neue Konto für Exchange Online lizenziert ist, führt dies zu einem endgültigen Löschen des ursprünglichen Benutzerpostfachs. Alle Postfachinhalte wie E-Mails, Kontakte und Dateien werden dauerhaft gelöscht.
+- Das Benutzerkonto, das dem Benutzerpostfach zugeordnet ist, wurde aus dem Azure Active Directory endgültig gelöscht. Das Benutzerpostfach wird nun in Exchange Online vorläufig gelöscht und bleibt 30 Tage lang in einem vorläufig gelöschten Zustand. Wenn innerhalb von 30 Tagen ein neuer Azure Active Directory Benutzer vom ursprünglichen Empfängerkonto mit demselben **ExchangeGuid-** oder **ArchiveGuid-Konto** synchronisiert wird und dieses neue Konto für Exchange Online lizenziert ist, führt dies zu einer endgültigen Löschung des ursprünglichen Benutzerpostfachs. Alle Postfachinhalte wie E-Mails, Kontakte und Dateien werden dauerhaft gelöscht.
 - Ein vorläufig gelöschtes Postfach wird mit **remove-Mailbox -PermanentlyDelete** gelöscht.
 
 Bei den oben genannten Löschszenarien wird davon ausgegangen, dass sich das Benutzerpostfach nicht in einem der Haltestatus befindet, z. B. Beweissicherung für juristische Zwecke oder eDiscovery-Aufbewahrung. Wenn für das Postfach eine Aufbewahrungsart vorhanden ist, kann das Postfach nicht gelöscht werden. Für alle Empfängertypen von E-Mail-Benutzern werden alle [Aufbewahrungseinstellungen](https://support.office.com/article/manage-legal-investigations-in-office-365-2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e?ui=en-US&rs=en-US&ad=US) ignoriert und haben keine Auswirkungen auf endgültige Löschungen oder vorläufige Löschungen.

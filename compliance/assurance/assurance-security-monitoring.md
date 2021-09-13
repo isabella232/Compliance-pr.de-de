@@ -24,8 +24,8 @@ ms.openlocfilehash: 8ba736fbd6e72963badc3245e11cbed2292cba94
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947048"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159591"
 ---
 # <a name="security-monitoring-overview"></a>Überwachung der Sicherheit (Übersicht)
 

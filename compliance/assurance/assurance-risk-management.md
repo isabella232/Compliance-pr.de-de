@@ -24,8 +24,8 @@ ms.openlocfilehash: 8be83f6faa3d365e2cb91c996e2c87367797670f
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947174"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159621"
 ---
 # <a name="risk-management-overview"></a>Risikomanagement (Übersicht)
 

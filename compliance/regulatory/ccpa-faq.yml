@@ -19,8 +19,8 @@ metadata:
   ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 09/09/2021
-  ms.locfileid: "58947789"
+  ms.lasthandoff: 09/12/2021
+  ms.locfileid: "59159699"
 title: California Consumer Privacy Act (CCPA) – häufig gestellte Fragen
 summary: >
   > [!Note]
@@ -103,7 +103,7 @@ sections:
   - question: >
       Wie werden Daten unter dem CCPA "verkauft"?
     answer: >
-      Die Definition von "Verkaufen" im CCPA ist unglaublich breit, einschließlich der "Bereitstellung persönlicher Informationen für" einen Dritten für finanzielle oder andere wertvolle Überlegungen. Wenn sich ein Verbraucher für "Opt-out" entschieden hat, muss das Unternehmen den Fluss personenbezogener Informationen an Dritte deaktivieren.
+      Die Definition von "Verkaufen" im CCPA ist unglaublich breit, einschließlich der "Bereitstellung persönlicher Informationen für" einen Dritten für finanzielle oder andere wertvolle Überlegungen. Wenn sich ein Verbraucher für "Opt-Out" entschieden hat, muss das Unternehmen den Fluss personenbezogener Informationen an Dritte deaktivieren.
 
 
       Das CCPA bietet eine Reihe von Ausgliederungen für dieses "Sonderangebot"-Opt-Out-Steuerelement. Die drei primären Ausgliederungen sind Übertragungen (i) an einen Dienstanbieter, (ii) an eine "ausgenommene Entität" oder "Auftragnehmer" und (iii) auf Anweisung des Verbrauchers. Selbst wenn sich ein Verbraucher für "Opt-out" entschieden hat, können persönliche Informationen weiterhin an Dritte übertragen werden, die in diese Ausgliederungen passen.

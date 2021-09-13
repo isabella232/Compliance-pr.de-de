@@ -24,8 +24,8 @@ ms.openlocfilehash: 203adce9b4c7167315abbbfbebce0efdd604fefe
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947126"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159013"
 ---
 # <a name="incident-management-overview"></a>Verwaltung von Sicherheitsvorfällen (Übersicht)
 
@@ -81,4 +81,4 @@ Die Onlinedienste von Microsoft werden regelmäßig auf die Einhaltung externer 
 - [Onlinedienstbedingungen (Online Services Terms, OST)](https://www.microsoft.com/licensing/product-licensing/products)
 - [Datenschutz-Nachtrag](https://www.microsoft.com/licensing/product-licensing/products)
 - [Implementierungsleitfaden für Microsoft Cloud Incident Management für Azure und Office 365](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=a8a7cb87-9710-4d09-8748-0835b6754e95&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_FAQ_and_White_Papers)
-- [Office 365 – Bewertung der Sicherheitsrisikobewertung von Office 365 durch Drittanbieter – 2019](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=e85e478f-2491-435d-9c1b-2f0ad7ca8e56&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Pen_Test_and_Security_Assessments)
+- [Office 365 – Bewertung der Sicherheitsrisiken von Drittanbietern für Office 365 – 2019](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=e85e478f-2491-435d-9c1b-2f0ad7ca8e56&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Pen_Test_and_Security_Assessments)

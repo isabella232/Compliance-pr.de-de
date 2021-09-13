@@ -1,6 +1,6 @@
 ---
 title: Department of Defense (DoD) Impact Level 5 (IL5)
-description: Erfahren Sie, wie Microsoft die Standards der Stufe 5 (Il5) des Verteidigungsministeriums (Department of Defense, DoD) erfüllt.
+description: Erfahren Sie, wie Microsoft die Standards der Stufe 5 (IL5) des Verteidigungsministeriums (Department of Defense, DoD) erfüllt.
 keywords: Microsoft 365, Compliance, Angebote
 ms.localizationpriority: medium
 ms.prod: microsoft-365-enterprise
@@ -20,8 +20,8 @@ ms.openlocfilehash: c0c987dc5fbe2bee60508f0fab7dbdb8dce97857
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947896"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159784"
 ---
 # <a name="department-of-defense-dod-impact-level-5-il5"></a>Department of Defense (DoD) Impact Level 5 (IL5)
 
@@ -31,7 +31,7 @@ Die Defense Information Systems Agency (DISA) ist eine Agentur des US-Verteidigu
 
 DISA leitet DoD-Behörden und -Abteilungen bei der Planung und Autorisierung der Verwendung eines CSP. Darüber hinaus werden CSP-Angebote auf Die Einhaltung der SRG ausgewertet. Dabei handelt es sich um einen Autorisierungsprozess, bei dem CSPs Dokumentationen erstellen können, in denen ihre Einhaltung von DoD-Standards beschrieben wird. Es stellt gegebenenfalls vorläufige Genehmigungen (PAs) für DoD aus, sodass DoD-Behörden und unterstützende Organisationen Clouddienste nutzen können, ohne dass sie selbst einen vollständigen Genehmigungsprozess durchlaufen müssen, was Zeit und Mühe spart.
 
-Gemäß [SRG-Abschnitt 3.2](https://dl.dod.cyber.mil/wp-content/uploads/cloud/SRG/index.html#3.2InformationImpactLevels) *Information Impact Levels* deckt IL5-Informationen Folgendes ab:
+Gemäß [SRG-Abschnitt 3.2](https://dl.dod.cyber.mil/wp-content/uploads/cloud/SRG/index.html#3.2InformationImpactLevels) *Information Impact Levels* umfassen IL5-Informationen Folgendes:
 
 - Kontrollierte nicht klassifizierte Informationen (Unclassified Information, CUI), die ein höheres Schutzniveau erfordern als die von IL4 bereitgestellte
     - Die [CUI-Registrierung](https://www.archives.gov/cui) stellt bestimmte Kategorien von Informationen bereit, die vom Executive Branch geschützt werden, z. B. sind mehr als 20 Kategoriegruppierungen in der [CUI-Kategorieliste](https://www.archives.gov/cui/registry/category-list)enthalten.
@@ -51,7 +51,7 @@ Darüber hinaus müssen gemäß [SRG-Abschnitt 5.2.2.3](https://dl.dod.cyber.mil
 - Es ist eine physische Trennung von Nicht-DoD-/Nicht-Bundesverwaltungsmandanten (d. h. öffentliche Mandanten, Lokale/Landesverwaltungsmandanten) erforderlich.
 - Der CSP schränkt den potenziellen Zugriff auf DoD- und Community-Informationen auf CSP-Mitarbeiter ein, die US-Bürger sind.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
 - Azure
 - Dynamics 365-Kundendienst
@@ -82,9 +82,9 @@ Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Di
 
 ### <a name="attestation-documents"></a>Nachweisdokumente
 
-Kunden von US-Behörden können Office 365 FedRAMP-Dokumentation für us-regierungsbehörden direkt vom [FedRAMP Marketplace](https://marketplace.fedramp.gov/#!/products?sort=productName&productNameSearch=azure) anfordern, indem sie ein Paketzugriffsanforderungsformular übermitteln. Sie müssen über eine .gov- oder .mil-E-Mail-Adresse verfügen, um direkt über FedRAMP auf ein FedRAMP-Sicherheitspaket zugreifen zu können.
+Kunden von US-Behörden können Office 365 FedRAMP-Dokumentation für us-Regierungsbehörden direkt über den [FedRAMP Marketplace](https://marketplace.fedramp.gov/#!/products?sort=productName&productNameSearch=azure) anfordern, indem sie ein Paketzugriffsanforderungsformular übermitteln. Sie müssen über eine .gov- oder .mil-E-Mail-Adresse verfügen, um direkt über FedRAMP auf ein FedRAMP-Sicherheitspaket zugreifen zu können.
 
-Wählen Sie FedRAMP- und DoD-Dokumentation aus, einschließlich Systemsicherheitsplan (SSP), kontinuierlicher Überwachungsberichte, Aktionsplan und Meilensteine (POA \& M) usw., ist für Kunden unter NDA und ausstehende Zugriffsautorisierung im Abschnitt "Überwachungsberichte des Service Trust Portals [– FedRAMP-Berichte"](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3) verfügbar. Wenden Sie sich an Ihren Microsoft-Kontomitarbeiter, um Unterstützung zu erhalten.
+Wählen Sie FedRAMP- und DoD-Dokumentation aus, einschließlich Systemsicherheitsplan (SSP), kontinuierlicher Überwachungsberichte, Aktionsplan und Meilensteine (POA \& M) usw., ist für Kunden unter NDA und ausstehende Zugriffsautorisierung über den Abschnitt "Überwachungsberichte des Service Trust Portals [– FedRAMP-Berichte"](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3) verfügbar. Wenden Sie sich an Ihren Microsoft-Kontomitarbeiter, um Unterstützung zu erhalten.
 
 ### <a name="resources"></a>Ressourcen
 
@@ -92,7 +92,7 @@ Wählen Sie FedRAMP- und DoD-Dokumentation aus, einschließlich Systemsicherheit
 - [Leitfaden zu den Sicherheitsanforderungen für DoD Cloud Computing](https://dl.dod.cyber.mil/wp-content/uploads/cloud/SRG/index.html)
 - [FedRAMP-Dokumente](https://www.fedramp.gov/documents/)
 - [DoD Instruction 8510.01](https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/851001p.pdf) *DoD Risk Management Framework (RMF) für DoD Information Technology (IT)*
-- [NIST SP 800-37](https://csrc.nist.gov/publications/detail/sp/800-37/rev-2/final) *Risk Management Framework for Information Systems and Organizations: A System Life-Cycle Approach for Security and Privacy*
+- [NIST SP 800-37 Risk](https://csrc.nist.gov/publications/detail/sp/800-37/rev-2/final) *Management Framework for Information Systems and Organizations: A System Life-Cycle Approach for Security and Privacy*
 - [NIST SP 800-53](https://csrc.nist.gov/Projects/risk-management/sp800-53-controls/release-search#!/800-53) *Sicherheits- und Datenschutzkontrollen für Informationssysteme und Organisationen*
 - [NIST SP 800-59-Richtlinie](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-59.pdf) *zur Identifizierung eines Informationssystems als nationales Sicherheitssystem*
 - [CNSSI 1253](https://www.dcsa.mil/portals/91/documents/ctp/nao/CNSSI_No1253.pdf) *– Sicherheitskategorisierung und Steuerelementauswahl für nationale Sicherheitssysteme*

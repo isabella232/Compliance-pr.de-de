@@ -20,8 +20,8 @@ ms.openlocfilehash: 5d6f590a9035b8628645bdfa46f794c1dfbcd4fb
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947936"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159706"
 ---
 # <a name="food-and-drug-administration-cfr-title-21-part-11"></a>Cfr-Titel 21 Teil 11 der Verwaltung von Produkten und Suchtmitteln
 
@@ -47,7 +47,7 @@ Kunden können den Zugriff auf die Complianceberichte anfordern, sofern die Bedi
 
 Erfahren Sie, wie Sie Ihre CFR Title 21-Bereitstellung mit DEM TITEL 21 von FDA beschleunigen: [Herunterladen des Azure FDA 21-Qualifikationshandbuchs](https://go.microsoft.com/fwlink/p/?linkid=2086604)
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
 Obwohl es keine Zertifizierung für die Einhaltung von CFR-Titel 21 Teil 11 gibt, wurden die folgenden Microsoft Enterprise Cloud Services unabhängigen Audits von Drittanbietern unterzogen, die Kunden bei ihren Compliance-Bemühungen helfen können. Zu diesen Diensten gehören:
 
@@ -85,7 +85,7 @@ Ja. Die unabhängigen Complianceberichte von Drittanbietern der Standards IEC/IS
 
 Microsoft stellt sicher, dass seine Clouddienste für Unternehmen die in den geltenden [Onlinedienstbedingungen](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31) und den geltenden Vereinbarungen zum Servicelevel (Service Level Agreements, SLAs) definierten Bedingungen erfüllen. Diese Bedingungen definieren unsere Verantwortung für die Implementierung und Verwaltung von Kontrollen, die zum Sichern und Überwachen des Systems angemessen sind.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
 
 [Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center](/microsoft-365/compliance/microsoft-365-compliance-center), die Ihnen hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 

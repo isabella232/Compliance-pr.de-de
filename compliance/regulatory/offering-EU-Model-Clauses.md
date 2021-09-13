@@ -20,8 +20,8 @@ ms.openlocfilehash: e57b10527b5eb1bd1baefebb36c9a8f37a97f59e
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947944"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159711"
 ---
 # <a name="european-union-model-clauses"></a>Standardvertragsklauseln der Europäischen Union
 
@@ -94,5 +94,5 @@ Sie können eine Vereinbarung wie die [Nutzungsbedingungen für Onlinedienste](h
 - [EU-Datenschutzbehörde](https://edpb.europa.eu/)
 - [Häufig gestellte Fragen zu den EU-Standardvertragsklauseln für Dynamics 365 und Office 365](https://products.office.com/business/office-365-trust-center-eu-model-clauses-faq)
 - [Microsoft Common Controls Hub-Complianceframework](https://www.microsoft.com/trustcenter/common-controls-hub)
-- [Nutzungsbedingungen für Microsoft-Onlinedienste](https://aka.ms/Online-Services-Terms)
+- [Microsoft Online Services-Nutzungsbedingungen](https://aka.ms/Online-Services-Terms)
 - [Compliance im Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)

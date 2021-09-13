@@ -22,8 +22,8 @@ ms.openlocfilehash: 820197523e37958873853e00afdcff555408f423
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947843"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159501"
 ---
 # <a name="azure-data-subject-requests-for-the-gdpr-and-ccpa"></a>Anträge betroffener Personen für Azure im Rahmen der DSGVO und des CCPA
 

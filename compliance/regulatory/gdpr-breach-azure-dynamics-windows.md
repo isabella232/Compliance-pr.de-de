@@ -21,8 +21,8 @@ ms.openlocfilehash: 23d6b1ebb30f34fcb549e3e1f44c98a0c0e11b12
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58948065"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159724"
 ---
 # <a name="azure-dynamics-365-and-windows-breach-notification-under-the-gdpr"></a>Azure-, Dynamics 365- und Windows-Benachrichtigungen zu Sicherheitsverletzungen gemäß der DSGVO
 

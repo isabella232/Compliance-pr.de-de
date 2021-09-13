@@ -20,14 +20,14 @@ ms.openlocfilehash: bce6847fe4c0cd1541348b70aadacc9c13238c31
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58948030"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159417"
 ---
 # <a name="nist-sp-800-171"></a>NIST SP 800-171
 
 ## <a name="about-nist-sp-800-171"></a>Informationen zu NIST SP 800-171
 
-Das US National Institute of Standards and Technology (NIST) fördert und verwaltet Messstandards und Richtlinien zum Schutz der Informations- und Informationssysteme von Bundesbehörden. Als Reaktion auf die Executive Order 13556 zur Verwaltung kontrollierter nicht klassifizierter Informationen (NIST SP 800-171) zum *Schutz von kontrollierten nicht klassifizierten Informationen in nichtfederalen Informationssystemen und Organisationen* wurde [NIST SP 800-171](https://csrc.nist.gov/publications/detail/sp/800-171/rev-1/final)veröffentlicht. CUI wird als digitale und physische Informationen definiert, die von einer Regierung (oder einer Entität in ihrem Auftrag) erstellt werden, die zwar nicht klassifiziert, aber dennoch vertraulich ist und Schutz erfordert.
+Das US National Institute of Standards and Technology (NIST) fördert und verwaltet Messstandards und Richtlinien zum Schutz der Informations- und Informationssysteme von Bundesbehörden. Als Reaktion auf die Executive Order 13556 zur Verwaltung kontrollierter nicht klassifizierter Informationen (NIST SP 800-171) zum *Schutz von kontrollierten nicht klassifizierten Informationen in nichtfederalen Informationssystemen und Organisationen* wurde [NIST SP 800-171](https://csrc.nist.gov/publications/detail/sp/800-171/rev-1/final)veröffentlicht. CUI ist als digitale und physische Informationen definiert, die von einer Regierung (oder einer Entität in ihrem Auftrag) erstellt werden, die zwar nicht klassifiziert, aber dennoch vertraulich ist und Schutz erfordert.
 
 NIST SP 800-171 wurde ursprünglich im Juni 2015 veröffentlicht und wurde seitdem als Reaktion auf sich entwickelnde Cyberbedrohungen mehrmals aktualisiert. Es enthält Richtlinien dazu, wie auf CUI sicher zugegriffen, übertragen und in nichtfederischen Informationssystemen und Organisationen gespeichert werden sollte; Die Anforderungen lassen sich in vier Hauptkategorien unterteilen:
 
@@ -44,7 +44,7 @@ NIST SP 800-171-Anforderungen sind eine Teilmenge von NIST SP 800-53, dem von Fe
 
 Jede Organisation, die CUI der US-Regierung verarbeitet oder speichert – Forschungseinrichtungen, Beratungsunternehmen, Auftragnehmer der Fertigung – muss die strengen Anforderungen von NIST SP 800-171 erfüllen. Dieser Nachweis bedeutet, dass Microsoft-Clouddienste im Umfang Kunden, die CUI-Workloads bereitstellen möchten, mit der Gewissheit erfüllen können, dass Microsoft die vollständige Compliance erfüllt. Beispielsweise erfüllen alle DoD-Vertragsnehmer, die "erfasste Verteidigungsinformationen" mithilfe von Microsoft Cloud Services in ihren Informationssystemen verarbeiten, speichern oder übertragen, die DFARS-Klauseln des US-Verteidigungsministeriums, die die Einhaltung der Sicherheitsanforderungen von NIST SP 800-171 erfordern.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
 - Azure Commercial, Azure Government
 - Dynamics 365 U.S. Government
@@ -78,7 +78,7 @@ SharePoint Online, Skype for Business, Windows Ink |
 
 Ja. Microsoft-Kunden können die in den Berichten von unabhängigen Drittanbieterbewertungsorganisationen (3PAO) beschriebenen geprüften Kontrollen zu FedRAMP-Standards als Teil ihrer eigenen FedRAMP- und NIST-Risikobewertungen und Qualifizierungsaktivitäten verwenden. Diese Berichte belegen die Effektivität der Kontrollen, die Microsoft in seinen cloudbezogenen Diensten implementiert hat. Kunden sind dafür verantwortlich, sicherzustellen, dass ihre CUI-Workloads den NIST SP 800-171-Richtlinien entsprechen.
 
-### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
+### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
 
 [Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center](/microsoft-365/compliance/microsoft-365-compliance-center), die Ihnen hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 

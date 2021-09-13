@@ -20,8 +20,8 @@ ms.openlocfilehash: 61b15a095dec310aac74bac10b2d062eb1011750
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947837"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159849"
 ---
 # <a name="california-consumer-privacy-act-ccpa"></a>California Consumer Privacy Act (CCPA)
 
@@ -66,7 +66,7 @@ Hier sind einige Schritte, die Sie ausführen können, um sich auf das CCPA vorz
 
 Viele der Rechte des CCPA, die den Kaliforniern gewährt werden, ähneln den Rechten, die die DSGVO bereitstellt, einschließlich der Anträge auf Offenlegung und Datensubjektrechte (Data Subject Right, DSR), wie z. B. Zugriff, Löschung und Portabilität. Kunden können daher auf unsere bereits vorhandenen DSGVO-Lösungen zurückgreifen, um ihnen bei der CCPA-Compliance zu helfen.
 
-Um Ihre CCPA-Reise zu beginnen, sollten Sie sich auf die Ermittlung von Informationen konzentrieren, bestimmen, wie persönliche Informationen geteilt werden, wie sie verwendet werden, wie sie geschützt sind und ein formales Programm zur Reaktion auf Datenschutzverletzungen eingerichtet haben.
+Um Ihre CCPA-Reise zu beginnen, sollten Sie sich auf die Ermittlung von Informationen konzentrieren, bestimmen, wie personenbezogene Informationen geteilt werden, wie sie verwendet werden, wie sie geschützt sind und ein formales Programm zur Reaktion auf Datenschutzverletzungen eingerichtet haben.
 
 **Worin unterscheiden sich DSGVO und CCPA?**
 
@@ -84,7 +84,7 @@ Der größte Unterschied in CCPA ist die Kernanforderung, die es ermöglicht, de
 Das CCPA erfordert regulierte Unternehmen, die persönliche Informationen sammeln, übertragen und verkaufen, unter anderem:
 
 - Den Verbrauchern vor der Erfassung Informationen über die Kategorien und Zwecke der Erfassung zur Verfügung zu stellen.
-- Detailliertere Offenlegungen in einer Datenschutzrichtlinie in Bezug auf Quellen, Geschäftszwecke und Kategorien von personenbezogenen Informationen, die gesammelt werden, einschließlich der Art und Weise, wie diese Kategorien verkauft oder an andere Entitäten übertragen werden.
+- Detailliertere Offenlegungen in einer Datenschutzrichtlinie in Bezug auf die Quellen, Geschäftszwecke und Kategorien von personenbezogenen Informationen, die gesammelt werden, einschließlich der Art und Weise, wie diese Kategorien verkauft oder an andere Entitäten übertragen werden.
 - Aktivieren Sie die Rechte von Anträgen betroffener Personen auf Zugriff, Löschung und Portabilität für die spezifischen persönlichen Informationen, die von Ihnen erfasst wurden.
 - Aktivieren Sie ein Steuerelement, das es Verbrauchern ermöglicht, den Verkauf der Daten des Verbrauchers zu deaktivieren. Übertragungen an ausgenommene Entitäten, z. B. Dienstanbieter, sind jedoch zulässig.
 - Aktivieren Sie für Minderjährige unter 16 Jahren einen Teilnahmeprozess, sodass kein Verkauf der persönlichen Informationen des Minderjährigen erfolgen kann, ohne sich aktiv für den Verkauf zu entscheiden.
@@ -95,7 +95,7 @@ Das CCPA erfordert regulierte Unternehmen, die persönliche Informationen sammel
 - CCPA führt elterliche Zustimmungsverpflichtungen im Einklang mit dem Children's Online Privacy Protection Act (COPPA) für Kinder unter 13 Jahren ein.
 - Für Kinder zwischen 13 und 16 Jahren erlegt CCPA eine neue Verpflichtung auf, die Zustimmung des Kind einzuholen.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
 
 [Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center](/microsoft-365/compliance/microsoft-365-compliance-center), die Ihnen hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 

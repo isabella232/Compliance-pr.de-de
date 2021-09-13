@@ -20,8 +20,8 @@ ms.openlocfilehash: 94e032efec2fd10f1d352f4f1b610916abe23cf7
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947988"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159490"
 ---
 # <a name="us-internal-revenue-service-publication-1075"></a>US Internal Revenue Service Publication 1075
 
@@ -39,10 +39,10 @@ Diese Microsoft-Clouddienste für Behörden bieten eine Plattform, auf der Kunde
   
 Um Regierungsbehörden bei ihren Compliance-Anstrengungen zu unterstützen, microsoft:
 
-- Bietet detaillierte Anleitungen, die Behörden dabei helfen, ihre Zuständigkeiten zu verstehen und wie verschiedene IRS-Steuerelemente den Funktionen in Azure Government und Office 365 U.S. Government zugeordnet werden. Der IRS 1075 Safeguard Security Report (SSR) dokumentiert sorgfältig, wie Microsoft-Dienste die geltenden IRS-Kontrollen implementieren, und basiert auf den FedRAMP-Paketen von Azure Government und Office 365 U.S. Government. Da sowohl IRS 1075 als auch FedRAMP auf NIST 800-53 basieren, ist die Compliancegrenze für IRS 1075 identisch mit der FedRAMP-Autorisierung.
+- Bietet detaillierte Anleitungen, die Behörden dabei helfen, ihre Zuständigkeiten zu verstehen und wie verschiedene IRS-Steuerelemente funktionen in Azure Government und Office 365 U.S. Government zugeordnet werden. Der IRS 1075 Safeguard Security Report (SSR) dokumentiert sorgfältig, wie Microsoft-Dienste die geltenden IRS-Kontrollen implementieren, und basiert auf den FedRAMP-Paketen von Azure Government und Office 365 U.S. Government. Da sowohl IRS 1075 als auch FedRAMP auf NIST 800-53 basieren, ist die Compliancegrenze für IRS 1075 identisch mit der FedRAMP-Autorisierung.
 - Der IRS muss die Veröffentlichung von IRS-Sicherheitsdokumenten explizit genehmigen, damit nur Regierungskunden unter NDA den SSR überprüfen können.
 - Stellt Überwachungsberichte und Überwachungsinformationen zur Verfügung, die von unabhängigen Prüfern für ihre Clouddienste erstellt wurden.
-- Enthält informationen zu den Complianceüberlegungen für IRS Azure Government und Office 365 Complianceüberlegungen der US-Regierung, in denen beschrieben wird, wie eine Organisation Microsoft Cloud for Government-Dienste in einer Weise verwenden kann, die IRS 1075 entspricht. Behördenkunden unter NDA können diese Dokumente anfordern.
+- Enthält die Überlegungen zur IRS Azure Government Compliance und Office 365 Complianceüberlegungen der US-Regierung, in denen beschrieben wird, wie eine Organisation Microsoft Cloud for Government-Dienste in einer Weise verwenden kann, die IRS 1075 entspricht. Behördenkunden unter NDA können diese Dokumente anfordern.
 - Bietet Kunden die Möglichkeit (auf ihre Kosten), bei Bedarf mit Microsoft-Fachexperten oder externen Prüfern zu kommunizieren.
 
 ## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
@@ -94,7 +94,7 @@ Ja, wenn Ihre Organisation die Berechtigungsanforderungen für Azure Government 
 
 Nein. Die einzigen Umgebungen, in denen FTI gespeichert und verarbeitet werden kann, sind Azure Government oder Office 365 U.S. Government. Behördenkunden müssen die Berechtigungsanforderungen erfüllen, um diese Umgebungen zu verwenden.
 
-### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
+### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
 
 [Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center](/microsoft-365/compliance/microsoft-365-compliance-center), die Ihnen hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 

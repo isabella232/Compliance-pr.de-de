@@ -20,8 +20,8 @@ ms.openlocfilehash: 093ec578cd83dc6c52485101d232d9ccff88489e
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58948053"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159405"
 ---
 # <a name="russian-personal-data-localization-requirements"></a>Lokalisierungsanforderungen für personenbezogene Daten in Russisch
 
@@ -43,7 +43,7 @@ Microsoft lädt Kunden ein, das Abonnieren von Microsoft-Dienste in Betracht zu 
 
 Für Microsoft-Dienste wie Microsoft Azure, Microsoft 365, Dynamics 365 und Power Platform werden die Benutzerüberprüfung und die Zugriffsverwaltung über [Azure Active Directory (Azure Active Directory)](https://azure.microsoft.com/services/active-directory/)durchgeführt. In Fällen, in denen ein Microsoft-Kunde ein lokales Identifikationsverwaltungssystem für Microsoft-Clouddienste (z. B. das Windows Server Active Directory (AD) oder ein anderes ID-Verwaltungssystem verwendet, hat der Kunde die Möglichkeit, dieses System schnell in die Azure Active Directory (Azure Active Directory) über die Azure AD-Verbinden zu integrieren. Weitere Informationen finden Sie im [Azure AD-Verbinden.](/azure/active-directory/cloud-provisioning/) Microsoft-Kunden können auch die Verwendung von Anwendungen und Lösungen von Drittanbietern in Betracht ziehen, um ihre Benutzer zu verwalten und ihr lokales Identifikationssystem in Azure AD zu integrieren.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
 
 [Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center](/microsoft-365/compliance/microsoft-365-compliance-center), die Ihnen hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 
@@ -64,7 +64,7 @@ Technische Fragen und Abrechnungsfragen finden Sie unten in den Microsoft-Suppor
 - **Lokaler Anruf**: 499 922 8623
 - **Onlinesupport:** Senden von Abfragen über das [Admin Center](https://portal.office.com/)
 
-### <a name="dynamics-365"></a>Dynamics 365
+### <a name="dynamics-365"></a>Dynamics 365
 
 - **Gebührenfrei**: 8 10 800 2548 1044
 - **Lokaler Anruf**: 499 922 8623

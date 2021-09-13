@@ -20,8 +20,8 @@ ms.openlocfilehash: addcf3852fda46989e75b18bd323d86aa1981d4e
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947975"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159820"
 ---
 # <a name="financial-industry-regulatory-authority-finra-rule-4511c-united-states"></a>Financial Industry Regulatory Authority (FINRA) Rule 4511(c) United States
 
@@ -29,13 +29,13 @@ ms.locfileid: "58947975"
 
 Die [Financial Industry Regulatory Authority (FINRA)](https://www.finra.org/#/) ist die größte unabhängige Stelle für Wertpapierunternehmen mit Aufsicht über mehr als 4.500 Wertpapierunternehmen in den USA. Sie wurde vom US-Amerikanischen Industrieunternehmen autorisiert, "um die Amerikanischen Behörden zu schützen, indem sichergestellt wurde, dass die Broker-Händler-Branche fair und redlich arbeitet."
 
-Im Jahr 2011 genehmigte die US Security and Exchange Commission (SEC) die FINRA-Einführung von SEC-Regeln zur Aufbewahrung von Büchern und Aufzeichnungen auf elektronischen Speichermedien. [FINRA-Regel 4511(c)](https://www.finra.org/sites/default/files/NoticeDocument/p123548.pdf) legt fest, dass "alle Bücher und Aufzeichnungen, die gemäß den FINRA-Regeln erstellt werden müssen, in einem Format und Medien aufbewahrt werden, die der SEA -Regel 17a-4 (Securities Exchange Act) entsprechen."
+Im Jahr 2011 genehmigte die US Security and Exchange Commission (SEC) die FINRA-Einführung von SEC-Regeln zur Aufbewahrung von Büchern und Aufzeichnungen auf elektronischen Speichermedien. [Finra-Regel 4511(c)](https://www.finra.org/sites/default/files/NoticeDocument/p123548.pdf) legt fest, dass "alle Bücher und Aufzeichnungen, die gemäß den FINRA-Regeln vorgenommen werden müssen, in einem Format und Medien aufbewahrt werden, die der SEA -Regel 17a-4 (Securities Exchange Act) entsprechen."
 
 Darüber hinaus schreibt FINRA-Regel 4511(c) vor, dass Unternehmen diese Bücher und Aufzeichnungen, für die gemäß den geltenden FINRA- oder SEA-Regeln kein aufbewahrungszeitraum gilt, für einen Zeitraum von mindestens sechs Jahren aufbewahren müssen. Wenn sich die Bücher und Datensätze auf ein Konto beziehen, ist der Aufbewahrungszeitraum auf sechs Jahre nach dem Schließen des Kontos festgelegt. Andernfalls beträgt der Aufbewahrungszeitraum sechs Jahre, nachdem solche Bücher und Datensätze erstellt wurden.
 
 ## <a name="microsoft-and-finra-rule-4511c"></a>Microsoft und FINRA-Regel 4511(c)
 
-Finanzdienstleistungskunden, die eine der am stärksten regulierten Branchen der Welt darstellen, unterliegen komplexen Bestimmungen wie der Aufbewahrung von Finanztransaktionen und der damit verbundenen Kommunikation in einem nicht löschbaren und nicht veränderbaren Zustand. Darunter ist Regel 4511 der Finanzaufsichtsbehörde (FINANCIAL Industry Regulatory Authority, FINRA), die strenge Anforderungen für regulierte Entitäten festlegt, die entscheiden, Bücher und Aufzeichnungen auf elektronischen Speichermedien aufzubewahren. Gespeicherte Datensätze müssen manipulationssicher sein, ohne dass sie bis nach dem festgelegten Aufbewahrungszeitraum geändert oder gelöscht werden können.
+Finanzdienstleistungskunden, die eine der am stärksten regulierten Branchen der Welt darstellen, unterliegen komplexen Bestimmungen wie der Aufbewahrung von Finanztransaktionen und der damit verbundenen Kommunikation in einem nicht löschbaren und nicht veränderbaren Zustand. Darunter ist Regel 4511 der Finanzaufsichtsbehörde (Financial Industry Regulatory Authority, FINRA), die strenge Anforderungen für regulierte Unternehmen festlegt, die entscheiden, Bücher und Aufzeichnungen auf elektronischen Speichermedien aufzubewahren. Gespeicherte Datensätze müssen manipulationssicher sein, ohne dass sie bis nach dem festgelegten Aufbewahrungszeitraum geändert oder gelöscht werden können.
 
 Microsoft Azure Unveränderliche Blob-Storage mit Richtliniensperre und Microsoft Office 365 mit Erhaltungssperre können Finanzinstituten helfen, die unveränderlichen Speicheranforderungen der FINRA-Regel 4511(c) zu erfüllen.
 
@@ -49,7 +49,7 @@ Softwareanbieter und Partner mit vertraulichen Workloads können sich jetzt auf 
 
 ## <a name="microsoft-365"></a>Microsoft 365
 
-Im Hinblick auf [finra rule 4511(c)](/microsoft-365/compliance/retention-regulatory-requirements#sec-17a-4f-finra-4511c-and-cftc-131c-d) requirements, Cohasset validated that Microsoft 365 includes archiving features that enable regulated customers, including broker-händler, to store data in a manner that helps them comply with SEC requirements for records retention. Aufbewahrungsfeatures in Microsoft 365 dabei helfen, eine vielzahl von Daten zu erhalten, einschließlich E-Mail, Voicemail, freigegebene Dokumente, Chatnachrichten und Daten von Drittanbietern. Insbesondere die Archivierung in Microsoft 365 ermöglicht Es Kunden, globale oder granulare Aufbewahrungsrichtlinien für Messaging festzulegen, um Daten für einen definierten Zeitraum und darüber hinaus in einem nicht umschreibbaren, nicht löschbaren Format zu speichern.
+Für anforderungen der [FINRA-Regel 4511(c)](/microsoft-365/compliance/retention-regulatory-requirements#sec-17a-4f-finra-4511c-and-cftc-131c-d) überprüfte Cohasset, dass Microsoft 365 Archivierungsfunktionen umfasst, mit denen regulierte Kunden, einschließlich Broker-Händler, Daten auf eine Weise speichern können, die ihnen hilft, die SEC-Anforderungen für die Datensatzaufbewahrung einzuhalten. Aufbewahrungsfeatures in Microsoft 365 dabei helfen, eine vielzahl von Daten zu erhalten, einschließlich E-Mail, Voicemail, freigegebene Dokumente, Chatnachrichten und Daten von Drittanbietern. Insbesondere die Archivierung in Microsoft 365 ermöglicht Es Kunden, globale oder granulare Aufbewahrungsrichtlinien für Messaging festzulegen, um Daten für einen definierten Zeitraum und darüber hinaus in einem nicht umschreibbaren, nicht löschbaren Format zu speichern.
 
 ## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 

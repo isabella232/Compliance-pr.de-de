@@ -24,14 +24,14 @@ ms.openlocfilehash: 8e895308358853f2c59009503d079361dca84c49
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947168"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159340"
 ---
 # <a name="microsoft-365-risk-management-program"></a>Microsoft 365 Risikomanagementprogramm
 
-Der Zweck des Microsoft 365-Risikomanagementprogramms besteht darin, Risiken für Microsoft 365 zu identifizieren, zu bewerten und zu verwalten. Die oberste Priorität von Microsoft besteht darin, Risiken proaktiv zu identifizieren und zu beheben, die sich auf unsere Dienstinfrastruktur sowie unsere Kunden, ihre Daten und ihr Vertrauen auswirken könnten. Darüber hinaus ist ein robustes Risikomanagementprogramm erforderlich, um vertragliche Verpflichtungen zu erfüllen und öffentliche Akkreditierungen aufrechtzuerhalten, auf die sich unsere Kunden verlassen, um ihre eigenen Complianceanforderungen zu erfüllen. Das Microsoft 365-Risikomanagementprogramm funktioniert zwar unabhängig, richtet sich jedoch nach den Übergeordneten Richtlinien, Prioritäten und Methoden des ERM-Programms (Enterprise Risikomanagement). Die Arbeit mit dem ERM-Programm ermöglicht einen konsistenten Vergleich zwischen Geschäftsbereichen und Engineering-Gruppen und trägt zu einem einheitlicheren Ansatz für das Risikomanagement im gesamten Unternehmen bei.
+Der Zweck des Microsoft 365-Risikomanagementprogramms besteht darin, Risiken für Microsoft 365 zu identifizieren, zu bewerten und zu verwalten. Die oberste Priorität von Microsoft besteht darin, Risiken proaktiv zu identifizieren und zu beheben, die sich auf unsere Dienstinfrastruktur sowie unsere Kunden, ihre Daten und ihr Vertrauen auswirken könnten. Darüber hinaus ist ein robustes Risikomanagementprogramm erforderlich, um vertragliche Verpflichtungen zu erfüllen und öffentliche Akkreditierungen aufrechtzuerhalten, auf die sich unsere Kunden verlassen, um ihre eigenen Complianceanforderungen zu erfüllen. Das Microsoft 365-Risikomanagementprogramm funktioniert zwar unabhängig, richtet sich aber nach den Übergeordneten Richtlinien, Prioritäten und Methoden des ERM-Programms (Enterprise Risikomanagement). Die Arbeit mit dem ERM-Programm ermöglicht einen konsistenten Vergleich zwischen Geschäftsbereichen und Engineering-Gruppen und trägt zu einem einheitlicheren Ansatz für das Risikomanagement im gesamten Unternehmen bei.
 
-Das Microsoft 365 Trust-Team ist für die Verwaltung des Microsoft 365-Risikomanagementprogramms und die Durchführung der durch das ERM-Programm definierten Aktivitäten verantwortlich. Das Trust-Team konzentriert sich auf die Integration des Risikomanagement-Frameworks in vorhandene Microsoft 365 Engineering-, Service- und Compliance-Prozesse, um das Risikomanagementprogramm effektiver und effizienter zu gestalten.
+Das Microsoft 365 Trust-Team ist für die Verwaltung des Microsoft 365-Risikomanagementprogramms und die Durchführung der durch das ERM-Programm definierten Aktivitäten verantwortlich. Das Vertrauensteam konzentriert sich auf die Integration des Risikomanagement-Frameworks in vorhandene Microsoft 365 Engineering-, Service- und Compliance-Prozesse, um das Risikomanagementprogramm effektiver und effizienter zu gestalten.
 
 Das Vertrauensteam verwaltet auch das Microsoft 365 Controls Framework, eine Reihe rationalisierter Steuerelemente, die es Entwicklungsteams ermöglichen, wichtige Vorschriften und Zertifizierungen einzuhalten, wenn sie ordnungsgemäß mit unterstützenden Complianceaktivitäten implementiert werden. Dieses Framework wird basierend auf Feedback und Ergebnissen im Rahmen des Risikomanagementprozesses kontinuierlich aktualisiert.
 
@@ -55,7 +55,7 @@ Jedes identifizierte Risiko wird anhand von drei Metriken bewertet: Auswirkung, 
 - Wahrscheinlichkeit definiert die Wahrscheinlichkeit, mit der das potenzielle Risiko erkannt wird, und wird durch Analysieren der Wahrscheinlichkeit und Häufigkeit berechnet, mit der es eintritt.
 - Kontrollmangel misst die Effektivität der implementierten Kontrollen zur Risikominderung.
 
-Diese Metriken werden verwendet, um eine Risikobewertung zu berechnen, die den Schweregrad der einzelnen Risiken darstellt, wobei vorhandene Risikominderungsstrategien zu berücksichtigen sind. Die Risiken werden aggregiert und den wichtigsten Beteiligten von jedem Dienst präsentiert, um die Genauigkeit und Vollständigkeit des Risikostatus Microsoft 365 zu überprüfen.
+Diese Metriken werden verwendet, um eine Risikobewertung zu berechnen, die den Schweregrad der einzelnen Risiken darstellt, wobei vorhandene Risikominderungsstrategien zu berücksichtigen sind. Die Risiken werden aggregiert und den wichtigsten Beteiligten aus jedem Dienst präsentiert, um die Genauigkeit und Vollständigkeit des Risikostatus Microsoft 365 zu überprüfen.
 
 ## <a name="response"></a>Antwort
 

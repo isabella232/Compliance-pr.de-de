@@ -22,8 +22,8 @@ ms.openlocfilehash: ed23af0982dd5ce066c78963f108c2b7eaa2403a
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58948089"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59158964"
 ---
 # <a name="data-protection-impact-assessments-guidance-for-data-controllers-using-dynamics-365"></a>Datenschutz-Folgenabschätzung: Leitfaden für Datenverantwortliche, die Dynamics 365 verwenden
 
@@ -45,9 +45,9 @@ Artikel 35 der DSGVO legt fest, dass ein Datenverantwortlicher eine Datenschutz-
 | Eine systematische Überwachung eines öffentlich zugänglichen Bereichs in großem Umfang | Dynamics 365 dient nicht der Durchführung oder Ermöglichung einer solchen Überwachung. <br><br> Jedoch kann ein Datenverantwortlicher es verwenden, um die durch eine solche Überwachung gesammelten Daten zu verarbeiten. |
 
 >[!Note]
-><sup>1</sup> Bezüglich der Kriterien der umfassenden Verarbeitung von Daten wird in Absatz 91 der DSGVO Folgendes klar gestellt: „Die Verarbeitung personenbezogener Daten sollte nicht als umfangreich gelten, wenn die Verarbeitung personenbezogene Daten von Patienten oder von Mandanten betrifft und durch einen einzelnen Arzt, sonstigen Angehörigen eines Gesundheitsberufes oder Rechtsanwalt erfolgt. In diesen Fällen sollte eine Datenschutz-Folgenabschätzung nicht zwingend vorgeschrieben sein."
+><sup>1</sup> In Bezug auf die Kriterien, nach denen die Verarbeitung in großem Umfang erfolgen muss, stellt der 91 Artikel der DSGVO Folgendes fest: "Die Verarbeitung personenbezogener Daten sollte nicht als umfangreich gelten, wenn die Verarbeitung personenbezogene Daten von Patienten oder Kunden durch einen einzelnen Arzt, einen anderen Gesundheitsexperten oder einen Patienten betrifft. In solchen Fällen sollte eine Datenschutz-Folgenabschätzung nicht obligatorisch sein."
 
-## <a name="part-2-contents-of-a-dpia"></a>Teil 2: Inhalte einer Bewertung der Auswirkungen auf den Datenschutz (DPIA)
+## <a name="part-2-contents-of-a-dpia"></a>Teil 2: Inhalte einer DPIA
 
 Artikel 35(7) legt fest, dass eine Datenschutz-Folgenabschätzung die Zwecke der Verarbeitung und eine systematische Beschreibung der angestrebten Verarbeitung enthalten muss. Eine systematische Beschreibung einer vollständigen DPIA könnte Faktoren wie die Art der verarbeiteten Daten, die Speicherdauer der Daten, den Ort und das Übermittlungsziels der Daten und Informationen darüber, welche Dritten Zugriff auf die Daten haben könnten, enthalten. Außerdem muss die DPIA folgendes beinhalten:
 

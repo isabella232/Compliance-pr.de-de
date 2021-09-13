@@ -24,20 +24,20 @@ ms.openlocfilehash: 92da9e7bb2716f61088e02c244cb9905af142ead
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947156"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159783"
 ---
 # <a name="network-security-overview"></a>Netzwerksicherheit (Übersicht)
 
 ## <a name="how-do-microsoft-online-services-secure-the-network-boundary"></a>Wie sichern Microsoft-Onlinedienste die Netzwerkgrenze?
 
-Microsoft-Onlinedienste verwenden mehrere Strategien zum Sichern der Netzwerkgrenze, einschließlich der automatisierten Erkennung und Verhinderung von netzwerkbasierten Angriffen, spezialisierten Firewallgeräten und Exchange Online Protection (EOP) für Antispam- und Antischadsoftwareschutz. Darüber hinaus trennen Microsoft-Onlinedienste ihre Produktionsumgebungen in logisch isolierte Netzwerksegmente, wobei nur die erforderliche Kommunikation zwischen Segmenten zulässig ist. Der Netzwerkdatenverkehr wird mithilfe zusätzlicher Netzwerkfirewalls an Begrenzungspunkten gesichert, um Netzwerkangriffe zu erkennen, zu verhindern und zu mindern.
+Microsoft-Onlinedienste verwenden mehrere Strategien zum Schutz der Netzwerkgrenze, einschließlich der automatisierten Erkennung und Verhinderung von netzwerkbasierten Angriffen, spezialisierten Firewallgeräten und Exchange Online Protection (EOP) für Antispam- und Antischadsoftwareschutz. Darüber hinaus trennen Microsoft-Onlinedienste ihre Produktionsumgebungen in logisch isolierte Netzwerksegmente, wobei nur die erforderliche Kommunikation zwischen Segmenten zulässig ist. Der Netzwerkdatenverkehr wird mithilfe zusätzlicher Netzwerkfirewalls an Begrenzungspunkten gesichert, um Netzwerkangriffe zu erkennen, zu verhindern und zu mindern.
 
 ## <a name="how-do-microsoft-online-services-defend-against-ddos-attacks"></a>Wie schützen Microsoft-Onlinedienste vor DDoS-Angriffen?
 
-Die große Internetpräsenz von Microsoft schützt sie vor den negativen Auswirkungen vieler verteilter Denial-of-Service (DDoS)-Angriffe. Verteilte Instanzen jedes Microsoft-Onlinediensts und mehrere Routen zu jedem Dienst begrenzen die Auswirkungen von DDoS-Angriffen auf das System. Diese Redundanz verbessert die Fähigkeit von Microsoft-Onlinediensten, DDoS-Angriffe aufzufangen, und erhöht den Zeitaufwand, um DDoS-Angriffe zu erkennen und zu mindern, bevor sie sich auf die Dienstverfügbarkeit auswirken.
+Die große Internetpräsenz von Microsoft schützt sie vor den negativen Auswirkungen vieler verteilter Denial-of-Service (DDoS)-Angriffe. Verteilte Instanzen jedes Microsoft-Onlinediensts und mehrere Routen zu jedem Dienst begrenzen die Auswirkungen von DDoS-Angriffen auf das System. Diese Redundanz verbessert die Fähigkeit von Microsoft-Onlinediensten, DDoS-Angriffe aufzufangen, und erhöht die verfügbare Zeit zum Erkennen und Minimieren von DDoS-Angriffen, bevor sie sich auf die Dienstverfügbarkeit auswirken.
 
-Zusätzlich zur redundanten Systemarchitektur von Microsoft verwendet Microsoft komplexe Erkennungs- und Risikominderungstools, um auf DDoS-Angriffe zu reagieren. Spezielle Firewalls überwachen und löschen unerwünschten Datenverkehr, bevor sie die Grenze in das Netzwerk überschreiten, wodurch der Stress auf Systemen innerhalb der Netzwerkgrenze reduziert wird. Um unsere Clouddienste weiter zu schützen, verwendet Microsoft ein DDoS-Abwehrsystem, das als Teil Microsoft Azure bereitgestellt wird. Das Azure DDoS-Abwehrsystem wurde entwickelt, um Angriffe von außen und von anderen Azure-Mandanten zu verhindern.
+Zusätzlich zur redundanten Systemarchitektur von Microsoft verwendet Microsoft komplexe Erkennungs- und Risikominderungstools, um auf DDoS-Angriffe zu reagieren. Spezielle Firewalls überwachen und löschen unerwünschten Datenverkehr, bevor sie die Grenze in das Netzwerk überschreiten, wodurch der Stress auf Systemen innerhalb der Netzwerkgrenze reduziert wird. Um unsere Clouddienste weiter zu schützen, verwendet Microsoft ein DDoS-Abwehrsystem, das als Teil der Microsoft Azure bereitgestellt wird. Das Azure DDoS-Abwehrsystem wurde entwickelt, um Angriffe von außen und von anderen Azure-Mandanten zu verhindern.
 
 ## <a name="how-does-microsoft-protect-users-against-spam-and-malware-being-uploaded-or-sent-through-online-services"></a>Wie schützt Microsoft Benutzer vor Spam und Schadsoftware, die über Onlinedienste hochgeladen oder gesendet werden?
 

@@ -1,6 +1,6 @@
 ---
 title: SharePoint- und OneDrive-Datenresilienz in Microsoft 365
-description: Dieser Artikel bietet eine Übersicht über die SharePoint und OneDrive Datenresilienz in Microsoft 365.
+description: Dieser Artikel enthält eine Übersicht über die SharePoint und OneDrive Datenresilienz in Microsoft 365.
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -23,8 +23,8 @@ ms.openlocfilehash: 02df77f949cf1633017dd25f4cff17175c536d53
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947180"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159586"
 ---
 # <a name="sharepoint-and-onedrive-data-resiliency-in-microsoft-365"></a>SharePoint- und OneDrive-Datenresilienz in Microsoft 365
 
@@ -32,14 +32,14 @@ Innerhalb Microsoft 365 basiert OneDrive auf der SharePoint Dateiplattform. In d
 
 Es gibt zwei primäre Ressourcen, die den zentralen Inhaltsspeicher von SharePoint bilden:
 
-- **Metadaten:** Metadaten zu jeder Datei werden in Azure SQL-Datenbank gespeichert. Azure SQL bietet eine vollständige Geschäftskontinuität, die SharePoint verwendet und details weiter unten in diesem Artikel behandelt werden.
-- **Blobspeicher:** Benutzerinhalte, die in SharePoint hochgeladen werden, werden in Azure Storage gespeichert. SharePoint hat auf Azure Storage einen benutzerdefinierten Resilienzplan erstellt, um nahezu in Echtzeit duplizierte Benutzerinhalte und ein wirklich aktives/aktives System sicherzustellen.
+- **Metadaten:** Metadaten zu jeder Datei werden in Azure SQL-Datenbank gespeichert. Azure SQL bietet eine vollständige Geschäftskontinuität, die SharePoint verwendet und Details weiter unten in diesem Artikel behandelt werden.
+- **Blobspeicher:** Benutzerinhalte, die in SharePoint hochgeladen werden, werden in Azure Storage gespeichert. SharePoint hat auf Azure Storage einen benutzerdefinierten Resilienzplan erstellt, um eine nahezu in Echtzeit duplizierte Duplizierung von Benutzerinhalten und ein wirklich aktives/aktives System sicherzustellen.
 
 Der vollständige Satz von Steuerelementen zur Gewährleistung der Datenresilienz wird in weiteren Abschnitten erläutert.
 
 ## <a name="blob-storage-resilience"></a>Blobspeicherresilienz
 
-SharePoint verfügt über eine benutzerdefinierte Lösung zum Speichern von Kundendaten in Azure Storage. Jede Datei wird gleichzeitig in eine primäre und eine sekundäre Rechenzentrumsregion geschrieben. Wenn Schreibvorgänge in eine der Azure-Regionen fehlschlagen, schlägt das Speichern der Datei fehl. Nachdem der Inhalt in Azure Storage geschrieben wurde, werden Prüfsummen separat mit Metadaten gespeichert und verwendet, um sicherzustellen, dass der zugesicherte Schreibvorgang mit der ursprünglichen Datei identisch ist, die während aller zukünftigen Lesevorgänge an SharePoint gesendet wird. Dieses Verfahren wird in allen Workflows verwendet, um die Weitergabe von Beschädigungen zu verhindern, die auftreten sollten. Innerhalb jeder Region bietet Azure Lokal redundante Storage (LRS) ein hohes Maß an Zuverlässigkeit. Weitere Informationen finden Sie im Artikel [zu Azure Storage Redundanz.](/azure/storage/common/storage-redundancy-lrs)
+SharePoint verfügt über eine benutzerdefinierte Lösung zum Speichern von Kundendaten in Azure Storage. Jede Datei wird gleichzeitig in eine primäre und eine sekundäre Rechenzentrumsregion geschrieben. Wenn Schreibvorgänge in eine der Azure-Regionen fehlschlagen, schlägt das Speichern der Datei fehl. Nachdem der Inhalt in Azure Storage geschrieben wurde, werden Prüfsummen separat mit Metadaten gespeichert und werden verwendet, um sicherzustellen, dass der zugesicherte Schreibvorgang mit der ursprünglichen Datei identisch ist, die während aller zukünftigen Lesevorgänge an SharePoint gesendet wird. Dieses Verfahren wird in allen Workflows verwendet, um die Weitergabe von Beschädigungen zu verhindern, die auftreten sollten. Innerhalb jeder Region bietet Azure Lokal redundante Storage (LRS) ein hohes Maß an Zuverlässigkeit. Weitere Informationen finden Sie im Artikel [zu Azure Storage Redundanz.](/azure/storage/common/storage-redundancy-lrs)
 
 SharePoint verwendet Append-Only Speicher. Dadurch wird sichergestellt, dass Dateien nach einem anfänglichen Speichern nicht geändert oder beschädigt werden können, aber auch mithilfe der produktinternen Versionsverwaltung können alle früheren Versionen des Dateiinhalts abgerufen werden.
 
@@ -49,9 +49,9 @@ SharePoint Umgebungen in beiden Rechenzentren können auf Speichercontainer in b
 
 ## <a name="metadata-resilience"></a>Metadatenresilienz
 
-SharePoint Metadaten sind auch für den Zugriff auf Benutzerinhalte wichtig, da sie den Speicherort und die Zugriffstasten für die in Azure Storage gespeicherten Inhalte speichern. Diese Datenbanken werden in Azure SQL gespeichert, das über einen umfassenden [Geschäftskontinuitätsplan verfügt.](/azure/sql-database/sql-database-business-continuity)
+SharePoint Metadaten sind auch wichtig für den Zugriff auf Benutzerinhalte, da sie den Speicherort der in Azure Storage gespeicherten Inhalte und den Zugriffsschlüssel auf diese speichern. Diese Datenbanken werden in Azure SQL gespeichert, das über einen umfassenden [Geschäftskontinuitätsplan verfügt.](/azure/sql-database/sql-database-business-continuity)
 
-SharePoint verwendet das von Azure SQL bereitgestellte Replikationsmodell und hat eine proprietäre Automatisierungstechnologie entwickelt, um zu ermitteln, ob ein Failover erforderlich ist, und den Vorgang bei Bedarf zu initiieren. Daher fällt sie aus Sicht eines Azure-SQL in die Kategorie "Manuelles Datenbankfailover". Die neuesten Metriken für Azure SQL Datenbankwiederherstellung sind [hier](/azure/azure-sql/database/business-continuity-high-availability-disaster-recover-hadr-overview#recover-a-database-to-the-existing-server)verfügbar.
+SharePoint verwendet das von Azure SQL bereitgestellte Replikationsmodell und hat eine proprietäre Automatisierungstechnologie entwickelt, um zu ermitteln, ob ein Failover erforderlich ist, und den Vorgang bei Bedarf zu initiieren. Daher fällt sie aus Sicht von Azure SQL in die Kategorie "Manuelles Datenbankfailover". Die neuesten Metriken für Azure SQL Datenbankwiederherstellung sind [hier](/azure/azure-sql/database/business-continuity-high-availability-disaster-recover-hadr-overview#recover-a-database-to-the-existing-server)verfügbar.
 
 ![Metadatenresilienz.](../media/assurance-metadata-resiliency-diagram.png)
 
@@ -61,7 +61,7 @@ SharePoint verwendet das Sicherungssystem von Azure SQL, um Point-in-Time Restor
 
 SharePoint verwendet ein benutzerdefiniertes automatisiertes Failover, um die Auswirkungen auf die Kundenerfahrung zu minimieren, wenn ein standortspezifisches Ereignis auftritt. Die überwachungsgesteuerte Automatisierung, bei der ein Einzelner oder ein Mehrkomponentenfehler über bestimmte Schwellenwerte hinaus erkannt wird, führt zu einer automatischen Umleitung aller Benutzeraktivitäten aus der problematischen Umgebung und zu einer warm sekundären Umgebung. Ein Failover führt dazu, dass Metadaten und Computespeicher vollständig außerhalb des neuen Rechenzentrums bereitgestellt werden. Da blob storage immer vollständig aktiv/aktiv ausgeführt wird, ist für ein Failover keine Änderung erforderlich. Die Computeebene bevorzugt den nächstgelegenen Blobcontainer, verwendet jedoch jederzeit sowohl lokale als auch Remote-Blobspeicherorte, um die Verfügbarkeit sicherzustellen.
 
-SharePoint verwendet den Azure Front Door-Dienst, um das routinginterne Routing für das Microsoft-Netzwerk bereitzustellen. Diese Konfiguration ermöglicht eine dnsunabhängige Failoverumleitung und reduziert die Auswirkungen des Zwischenspeicherns auf lokale Computer. Die meisten Failovervorgänge sind für Endbenutzer transparent. Wenn ein Failover vorhanden ist, müssen Kunden keine Änderungen vornehmen, um den Zugriff auf den Dienst aufrechtzuerhalten.
+SharePoint verwendet den Azure Front Door-Dienst, um das interne Routing für das Microsoft-Netzwerk bereitzustellen. Diese Konfiguration ermöglicht eine dnsunabhängige Failoverumleitung und reduziert die Auswirkungen des Zwischenspeicherns auf lokale Computer. Die meisten Failovervorgänge sind für Endbenutzer transparent. Wenn ein Failover vorhanden ist, müssen Kunden keine Änderungen vornehmen, um den Zugriff auf den Dienst aufrechtzuerhalten.
 
 ## <a name="versioning-and-files-restore"></a>Versionsverwaltung und Dateiwiederherstellung
 
@@ -84,7 +84,7 @@ Gelöschte Elemente werden für einen bestimmten Zeitraum in Papierkorb aufbewah
 
 Dieser Prozess ist der Standardmäßige Löschvorgang und berücksichtigt keine Aufbewahrungsrichtlinien oder Bezeichnungen. Weitere Informationen finden Sie unter [Informationen zur Aufbewahrung für SharePoint und OneDrive.](/microsoft-365/compliance/retention-policies-sharepoint)
 
-Nach Abschluss der 93-tägigen Wiederverwendungspipeline erfolgt der Löschvorgang unabhängig für Metadaten und für Blob-Storage. Metadaten werden sofort aus der Datenbank entfernt, wodurch der Inhalt unlesbar wird, es sei denn, die Metadaten werden aus der Sicherung wiederhergestellt. SharePoint verwaltet Sicherungen von Metadaten für 14 Tage. Diese Sicherungen werden lokal in nahezu Echtzeit durchgeführt und dann in redundanten Azure Storage Containern in einem 5-10-Minuten-Zeitplan gespeichert, gemäß der [Dokumentation](/azure/sql-database/sql-database-automated-backups) zum Zeitpunkt dieser Veröffentlichung.
+Nach Abschluss der 93-tägigen Wiederverwendungspipeline erfolgt der Löschvorgang unabhängig für Metadaten und für Blob-Storage. Metadaten werden sofort aus der Datenbank entfernt, wodurch der Inhalt unlesbar wird, es sei denn, die Metadaten werden aus der Sicherung wiederhergestellt. SharePoint verwaltet Sicherungen von Metadaten für 14 Tage. Diese Sicherungen werden lokal in nahezu Echtzeit durchgeführt und dann in redundanten Azure Storage Containern in einem 5-10-Minuten-Zeitplan an den Speicher übertragen, gemäß der [Dokumentation](/azure/sql-database/sql-database-automated-backups) zum Zeitpunkt dieser Veröffentlichung.
 
 Beim Löschen von Blob-Storage-Inhalten verwendet SharePoint das Soft Delete-Feature für Azure Blob Storage, um sich vor versehentlichem oder böswilligem Löschen zu schützen. Bei Verwendung dieses Features haben wir insgesamt 14 Tage Zeit, um Inhalte wiederherzustellen, bevor sie endgültig gelöscht werden.
 

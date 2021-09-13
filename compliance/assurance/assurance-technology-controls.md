@@ -25,8 +25,8 @@ ms.openlocfilehash: 06d8f500a96c84bf961dc47f6b8d259e0fffe02d
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947192"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159543"
 ---
 # <a name="technology-controls-in-microsoft-365"></a>Technologiesteuerelemente in Microsoft 365 
 
@@ -56,7 +56,7 @@ Aktionen, die vom Supporttechniker ausgeführt werden, werden zu Überwachungszw
 
 Microsoft verwendet das JIT-Zugriffsprinzip (Just-in-Time) für Microsoft 365, um Risiken bei der Manipulation von Anmeldeinformationen und laterale Angriffe zu mindern. JIT entfernt beständigen administrativen Zugriff auf Dienste und ersetzt Berechtigungen durch die Möglichkeit, bei Bedarf in diese Rollen zu erhöhen. Durch das Entfernen persistenter Zugriffsrechte von Administratoren wird sichergestellt, dass Anmeldeinformationen nur verfügbar sind, wenn sie benötigt werden, und das Risiko des Diebstahls von Anmeldeinformationen wird reduziert.
 
-Das JIT-Zugriffsmodell erfordert, dass Techniker erhöhte Berechtigungen für einen begrenzten Zeitraum anfordern, um administrative Aufgaben auszuführen. Darüber hinaus verwenden Techniker temporäre Konten, die mit computergenerierten komplexen Kennwörtern erstellt wurden, und gewährten nur die Rollen, mit denen sie die erforderlichen Aufgaben ausführen können. Beispielsweise ist der von Lockbox gewährte administrative Zugriff zeitgebunden, und der gewährte Zeitzugriff hängt von der angeforderten Rolle ab. Ein Techniker gibt die Dauer des Zugriffs an, die in der Anforderung an das Lockbox-System benötigt wird. Das Lockbox-System lehnt Anforderungen ab, wenn die angeforderte Zeit die maximal zulässige Zeit für die Rechteerweiterung überschreitet. Nach Ablauf wird der Administratorzugriff entfernt, und das temporäre Konto läuft ab.
+Das JIT-Zugriffsmodell erfordert, dass Techniker erhöhte Berechtigungen für einen begrenzten Zeitraum anfordern, um administrative Aufgaben auszuführen. Darüber hinaus verwenden Techniker temporäre Konten, die mit computergenerierten komplexen Kennwörtern erstellt wurden, und gewährten nur die Rollen, mit denen sie die erforderlichen Aufgaben ausführen können. Beispielsweise ist der von Lockbox gewährte Administratorzugriff zeitgebunden, und der gewährte Zeitzugriff hängt von der angeforderten Rolle ab. Ein Techniker gibt die Dauer des Zugriffs an, die in der Anforderung an das Lockbox-System benötigt wird. Das Lockbox-System lehnt Anforderungen ab, wenn die angeforderte Zeit die maximal zulässige Zeit für die Rechteerweiterung überschreitet. Nach Ablauf wird der Administratorzugriff entfernt, und das temporäre Konto läuft ab.
 
 Wenn die Techniker autorisiert und für den Zugriff genehmigt wurden, erhalten sie ein einmaliges, vom Autorisierungssystem generiertes Administratives Kennwort. Jedes Mal, wenn eine Anforderung für erhöhten Zugriff genehmigt wird, werden neue Kennwörter generiert. Das Kennwort wird in einen kennwortsicheren Ordner kopiert, ist von den Anmeldeinformationen des Technikers für die Microsoft-Unternehmensumgebung getrennt und eignet sich nur für die genehmigte Sitzung mit erhöhten Zugriffen.
 
@@ -66,7 +66,7 @@ Techniker verwenden zwei Verwaltungsschnittstellen, um administrative Aufgaben a
 
 Microsoft 365 Server beschränken gleichzeitige Sitzungen auf eine Sitzung pro Dienstteamadministrator und pro Server. TSGs erlauben nur eine einzige gleichzeitige Sitzung für Benutzer und nicht mehrere Sitzungen. Mithilfe einer einzelnen Sitzung pro Server ermöglichen TSGs Microsoft 365 Serviceteamadministratoren, gleichzeitig eine Verbindung mit mehreren Servern herzustellen, damit Administratoren ihre Aufgaben effektiv ausführen können. Dienstteamadministratoren verfügen über keine Berechtigungen für die TSGs selbst. Die TSG wird nur verwendet, um mehrstufige Authentifizierung (Multi-Factor Authentication, MFA) und Verschlüsselungsanforderungen zu erzwingen. Sobald der Dienstteamadministrator über eine TSG eine Verbindung mit einem bestimmten Server herstellt, erzwingt der spezifische Server ein Sitzungslimit von 1 pro Administrator.
 
-Nutzungseinschränkungen und Verbindungs- und Konfigurationsanforderungen für Microsoft 365 Personal werden durch Active Directory-Gruppenrichtlinien festgelegt. Diese Richtlinien umfassen die folgenden Merkmale:
+Nutzungseinschränkungen und Verbindungs- und Konfigurationsanforderungen für Microsoft 365 Mitarbeiter werden durch Active Directory-Gruppenrichtlinien festgelegt. Diese Richtlinien umfassen die folgenden Merkmale:
 
 - TSGs verwenden nur [FIPS](https://www.microsoft.com/TrustCenter/Compliance/FIPS) 140-2-validierte Verschlüsselung.
 - TSG-Sitzungen werden nach 30 Minuten Inaktivität getrennt.
@@ -74,6 +74,6 @@ Nutzungseinschränkungen und Verbindungs- und Konfigurationsanforderungen für M
 
 Verbindungen mit TSGs erfordern auch eine MFA mit einer separaten physischen Smartcard und einem Konto, das von den Microsoft-Unternehmensanmeldeinformationen des Technikers getrennt ist. Techniker erhalten unterschiedliche Smartcards für verschiedene Plattformen und geheime Verwaltungsplattformen, um die sichere Speicherung von Anmeldeinformationen zu gewährleisten. TSGs verwenden Active Directory-Gruppenrichtlinien, um zu steuern, wer sich bei Remoteservern anmelden kann, wie viele Sitzungen zulässig sind und welche Timeout-Einstellungen im Leerlauf zulässig sind. Zusätzliche Richtlinien schränken den Zugriff auf zulässige Anwendungen und den Internetzugriff ein.
 
-Zusätzlich zum Remotezugriff mit speziell konfigurierten TSGs ermöglicht Exchange Online Benutzern mit der Rolle "Service Engineer Operations" den Zugriff auf bestimmte Administrative Funktionen auf Produktionsservern mithilfe von Remote PowerShell. Dazu muss der Benutzer für den schreibgeschützten Zugriff (Debuggen) auf die Microsoft 365 Produktionsumgebung autorisiert sein. Die Berechtigungseskalation wird auf die gleiche Weise aktiviert, wie sie für TSGs mithilfe des Lockbox-Prozesses aktiviert ist.
+Zusätzlich zum Remotezugriff mit speziell konfigurierten TSGs ermöglicht Exchange Online Benutzern mit der Rolle "Service Engineer Operations" den Zugriff auf bestimmte Administrative Funktionen auf Produktionsservern mithilfe von Remote PowerShell. Hierzu muss der Benutzer für den schreibgeschützten Zugriff (Debuggen) auf die Microsoft 365 Produktionsumgebung autorisiert sein. Die Berechtigungseskalation wird auf die gleiche Weise aktiviert, wie sie für TSGs mithilfe des Lockbox-Prozesses aktiviert ist.
 
 Für den Remotezugriff verfügt jedes Rechenzentrum über eine virtuelle IP mit Lastenausgleich, die als einzelner Zugriffspunkt dient. Die verfügbaren Remote-PowerShell-Cmdlets basieren auf der Berechtigungsstufe, die in dem Während der Authentifizierung abgerufenen Zugriffsanspruch angegeben ist. Diese Cmdlets bieten die einzige Verwaltungsfunktionalität, auf die Benutzer mit dieser Methode zugreifen können. Remote-PowerShell schränkt den Umfang der Befehle ein, die dem Techniker zur Verfügung stehen, und basiert auf der Zugriffsebene, die über den Lockbox-Prozess gewährt wird. In Exchange Online sind Get-Mailbox möglicherweise verfügbar, Set-Mailbox jedoch nicht.

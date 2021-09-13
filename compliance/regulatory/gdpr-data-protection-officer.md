@@ -22,8 +22,8 @@ ms.openlocfilehash: c5d5b994bfc48fb226e179b11b66a342c9f0a47e
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58948102"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159717"
 ---
 # <a name="microsofts-data-protection-officer"></a>Datenschutzbeauftragter von Microsoft
 

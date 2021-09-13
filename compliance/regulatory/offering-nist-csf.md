@@ -17,11 +17,11 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft Compliance
 ms.openlocfilehash: aef50dc21274c863708c5b5d774b401e91407114
-ms.sourcegitcommit: 4c00fd65d418065d7f53216c91f455ccb3891c77
+ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58480517"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159423"
 ---
 # <a name="national-institute-of-standards-and-technology-nist-cybersecurity-framework-csf"></a>National Institute of Standards and Technology (NIST) Cybersecurity Framework (CSF)
 
@@ -31,16 +31,16 @@ Das National Institute of Standards and Technology (NIST) fördert und verwaltet
 
 Die wichtigsten Prioritäten der FICIC waren die Festlegung einer Reihe von Standards und Methoden, die Organisationen dabei helfen, Cybersicherheitsrisiken zu verwalten und gleichzeitig die Effizienz des Unternehmens zu gewährleisten. Das NIST-Framework befasst sich mit Cybersicherheitsrisiken, ohne zusätzliche behördliche Anforderungen für Behörden und Organisationen des privaten Sektor zu erfüllen.
 
-Die FICIC verweist auf global anerkannten Standards, einschließlich NIST SP 800-53, die in Anhang A des NIST-Frameworks zur Verbesserung der [Cybersicherheit kritischer Infrastrukturen](https://www.nist.gov/publications/framework-improving-critical-infrastructure-cybersecurity-version-11)zu finden sind. Jedes Steuerelement im FICIC-Framework wird den entsprechenden NIST 800-53-Steuerelementen innerhalb der FedRAMP Moderate Baseline zugeordnet.
+Die FICIC verweist auf global erkannte Standards, einschließlich NIST SP 800-53, die in Anhang A des NIST-Frameworks zur Verbesserung der Cybersicherheit kritischer Infrastrukturen enthalten [sind.](https://www.nist.gov/publications/framework-improving-critical-infrastructure-cybersecurity-version-11) Jedes Steuerelement im FICIC-Framework wird den entsprechenden NIST 800-53-Steuerelementen innerhalb der FedRAMP Moderate Baseline zugeordnet.
 
 ## <a name="microsoft-and-the-nist-csf"></a>Microsoft und der NIST CSF
 
-Das NIST Cybersecurity Framework (CSF) ist ein freiwilligen Framework, das aus Standards, Richtlinien und bewährten Methoden zur Verwaltung von Risiken im Zusammenhang mit der Cybersicherheit besteht. Microsoft Cloud Services wurden unabhängigen FedRAMP Moderate- und High Baseline-Audits von Drittanbietern unterzogen und sind gemäß den FedRAMP-Standards zertifiziert. Darüber hinaus wird Office 365 durch eine von HITRUST, einer führenden Entwicklungs- und Akkreditierungsorganisation für Sicherheits- und Datenschutzstandards, durchgeführte validierte Bewertung gemäß den im NIST CSF angegebenen Zielen zertifiziert.
+NIST Cybersecurity Framework (CSF) ist ein freiwilligen Framework, das aus Standards, Richtlinien und bewährten Methoden zur Verwaltung von Risiken im Zusammenhang mit der Cybersicherheit besteht. Microsoft Cloud Services wurden unabhängigen FedRAMP Moderate- und High Baseline-Audits von Drittanbietern unterzogen und sind gemäß den FedRAMP-Standards zertifiziert. Durch eine von HITRUST, einer führenden Entwicklungs- und Akkreditierungsorganisation für Sicherheits- und Datenschutzstandards, durchgeführte validierte Bewertung wird Office 365 außerdem gemäß den im NIST CSF angegebenen Zielen zertifiziert.
 
 Erfahren Sie, wie Sie Ihre NIST Cybersecurity Framework-Bereitstellung mit der Compliancebewertung und unserem Azure Security and Compliance Blueprint beschleunigen:
 
 - [Übersicht über das NIST SP 800-53 R4-Blueprintbeispiel](/azure/governance/blueprints/samples/nist-sp-800-53-rev4/)
-- [Weitere Informationen zur NIST-CSF-Bewertung für Office 365 in der Compliancebewertung](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/New-NIST-CSF-and-CSA-CCM-assessments-available-in-Compliance/ba-p/218554)
+- [Weitere Informationen zur NIST CSF-Bewertung für Office 365 in der Compliancebewertung](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/New-NIST-CSF-and-CSA-CCM-assessments-available-in-Compliance/ba-p/218554)
 
 ## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
@@ -76,7 +76,7 @@ Die NIST CSF-Zertifizierung von Office 365 ist zwei Jahre gültig.
 
 **Hat ein unabhängiger Prüfer überprüft, dass Office 365 NIST CSF-Anforderungen unterstützt?**
 
-Ja, Office 365 im Juli 2019 [das NIST CSF-Zertifizierungsschreiben](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=2a472d92-7c3b-47e0-9ae7-0f539da31f42&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_GRC_Assessment_Reports) von HITRUST erhalten.
+Ja, Office 365 im Juli 2019 [das NIST CSF-Zertifizierungsschreiben von](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=2a472d92-7c3b-47e0-9ae7-0f539da31f42&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_GRC_Assessment_Reports) HITRUST erhalten.
 
 **Wie demonstrieren Microsoft Cloud Services die Einhaltung des Frameworks?**
 
@@ -98,7 +98,7 @@ Laut [Department of Healthcare Security](https://www.dhs.gov/critical-infrastruc
 
 Microsoft bietet im Vergleich zu anderen Clouddienstanbietern die umfassendsten Angebote. Um mit unseren umfassenden Complianceangeboten über Regionen und Branchen hinweg Schritt zu halten, umfassen wir Dienstleistungen im Rahmen unserer Assurance-Bemühungen basierend auf der Marktanforderung, dem Kundenfeedback und dem Produktlebenszyklus. Wenn ein Dienst nicht im aktuellen Umfang eines bestimmten Complianceangebots enthalten ist, hat Ihre Organisation die Verantwortung, die Risiken basierend auf Ihren Complianceverpflichtungen zu bewerten und die Art und Weise zu bestimmen, wie Sie Daten in diesem Dienst verarbeiten. Wir sammeln kontinuierlich Feedback von Kunden und arbeiten mit Regulierungsbehörden und Auditoren zusammen, um unsere Compliance-Abdeckung zu erweitern, um Ihre Sicherheits- und Complianceanforderungen zu erfüllen.
 
-### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
+### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
 
 [Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center](/microsoft-365/compliance/microsoft-365-compliance-center), die Ihnen hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 

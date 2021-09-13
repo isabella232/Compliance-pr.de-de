@@ -24,8 +24,8 @@ ms.openlocfilehash: be05c96c725f8d0e05bc27f410d7f19e4e5d9a23
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947039"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159345"
 ---
 # <a name="microsoft-365-reporting-features"></a>Microsoft 365-Berichterstellungsfeatures
 
@@ -33,7 +33,7 @@ Berichterstellungsfunktionen in Microsoft 365 bieten verschiedene Überwachungsb
 
 ## <a name="microsoft-365-reports-dashboard"></a>Microsoft 365 Dashboard "Berichte"
 
-Im Dashboard "Berichte" in der Microsoft 365 Admin Center Vorschau werden Nutzungsaktivitäten über Microsoft 365 hinweg angezeigt. Microsoft 365 globale Administratoren oder ein Exchange Online-, SharePoint Online- oder Skype for Business administrator können detaillierte Einblicke in die Nutzung dieses Diensts erhalten. Beispielsweise die Anzahl der Benutzer in einem bestimmten Microsoft 365 Dienst, die Anzahl der Benutzer, die Microsoft 365 Apps for Enterprise aktiviert haben (zuvor Office 365 ProPlus genannt), und die Anzahl der E-Mails, die durch die Organisation fließen. Berichte sind für die letzten 7, 30, 90 und 180 Tage verfügbar.
+Das Dashboard "Berichte" in der Microsoft 365 Admin Center Vorschau zeigt Nutzungsaktivitäten in Microsoft 365 an. Microsoft 365 globale Administratoren oder ein Exchange Online-, SharePoint-Online- oder Skype for Business-Administrator können detaillierte Einblicke in die Nutzung dieses Diensts erhalten. Beispielsweise die Anzahl der Benutzer in einem bestimmten Microsoft 365 Dienst, die Anzahl der Benutzer, die Microsoft 365 Apps for Enterprise aktiviert haben (zuvor Office 365 ProPlus genannt), und die Anzahl der E-Mails, die durch die Organisation fließen. Berichte sind für die letzten 7, 30, 90 und 180 Tage verfügbar.
 
 Die folgenden Berichte sind verfügbar:
 
@@ -42,7 +42,7 @@ Die folgenden Berichte sind verfügbar:
 - [SharePoint Bericht zur Nutzung von Onlinewebsites](https://support.office.com/article/Office-365-Reports-in-the-admin-center-preview--SharePoint-site-usage-4ecfb843-e5d5-464d-8bf6-7ed512a9b213)
 - [OneDrive for Business Nutzungsbericht](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Preview--OneDrive-for-Business-usage-0de3b312-c4e8-4e4b-a02d-32b2f726a680)
 - [Yammer-Aktivitätsbericht](https://support.office.com/article/View-the-Yammer-Activity-report-in-the-Office-365-admin-center-preview-c7c9f938-5b8e-4d52-b1a2-c7c32cb2312a)
-- [Skype for Business Aktivitätsbericht](/SkypeForBusiness/skype-for-business-online-reporting/activity-report)
+- [Skype for Business-Aktivitätsbericht](/SkypeForBusiness/skype-for-business-online-reporting/activity-report)
 - [Skype for Business Bericht über Peer-to-Peer-Aktivitäten](/SkypeForBusiness/skype-for-business-online-reporting/peer-to-peer-activity-report)
 - [Skype for Business Konferenzorganisatorbericht](/SkypeForBusiness/skype-for-business-online-reporting/conference-organizer-activity-report)
 - [Skype for Business Konferenzteilnehmeraktivitätsbericht](/SkypeForBusiness/skype-for-business-online-reporting/conference-participant-activity-report)
@@ -51,7 +51,7 @@ Weitere Informationen finden Sie [unter Aktivitätsberichte im Microsoft 365 Adm
 
 ## <a name="azure-ad-reports"></a>Azure AD-Berichte
 
-Microsoft 365 verwendet Azure AD für die Authentifizierung und Identitätsverwaltung. Microsoft 365 Administratoren verwenden von Azure generierte Berichte, um ungewöhnliche Aktivitäten und nicht autorisierten Zugriff auf ihre Daten zu identifizieren. Sie können Zugriffs- und Verwendungsberichte in Azure AD verwenden, um Einblicke in die Verzeichnisintegrität und -sicherheit für Ihre Organisation zu erhalten. Mit diesen Informationen können Sie mögliche Sicherheitsrisiken identifizieren und mindern.
+Microsoft 365 verwendet Azure AD für die Authentifizierung und Identitätsverwaltung. Microsoft 365 Administratoren von Azure generierte Berichte verwenden, um ungewöhnliche Aktivitäten und nicht autorisierten Zugriff auf ihre Daten zu identifizieren. Sie können Zugriffs- und Verwendungsberichte in Azure AD verwenden, um Einblicke in die Verzeichnisintegrität und -sicherheit für Ihre Organisation zu erhalten. Mit diesen Informationen können Sie mögliche Sicherheitsrisiken identifizieren und mindern.
 
 Azure AD-Berichte können in Microsoft Excel exportiert und mit anderen Daten aus Microsoft 365 korreliert werden. Beispielsweise können die Ergebnisse einer Überwachungsprotokollsuche Einblicke in Aktivitäten auf Zugriff, Authentifizierung und Anwendungsebene bieten. Erweiterte Anomalie- und Ressourcennutzungsberichte sind mit Azure AD Premium verfügbar. Diese erweiterten Berichte verbessern Ihren Sicherheitsstatus und helfen Ihnen, auf potenzielle Bedrohungen zu reagieren, indem Sie Analysen zum Gerätezugriff und zur Anwendungsnutzung anwenden. Weitere Informationen finden Sie unter [Azure Active Directory Berichterstellung.](/azure/active-directory/reports-monitoring/overview-reports/)
 
@@ -102,4 +102,4 @@ Die folgenden Daten können exportiert werden:
 | Admins.csv | Alle bestätigten Administratoren im Netzwerk |
 | Networks.csv | Alle Yammer externen Netzwerke |
 
-Yammer Enterprise Daten sind auch über die Microsoft 365 Aktivitätsberichte verfügbar. Darüber hinaus arbeitet Yammer aktiv daran, zusätzliche Protokollierung über die Microsoft 365-Verwaltungsaktivitäts-API verfügbar zu machen, und an der Möglichkeit, über Daten mithilfe von Power BI zu ermitteln. Weitere Informationen zu diesen Features finden Sie in der [roadmap für Office.](https://fasttrack.microsoft.com/roadmap?filters=yammer)
+Yammer Enterprise Daten sind auch über die Microsoft 365 Aktivitätsberichte verfügbar. Darüber hinaus arbeitet Yammer aktiv daran, zusätzliche Protokollierung über die Microsoft 365-Verwaltungsaktivitäts-API verfügbar zu machen und die Möglichkeit zu ermitteln, warum Daten mithilfe von Power BI verwendet werden. Weitere Informationen zu diesen Features finden Sie in der [Office Roadmap.](https://fasttrack.microsoft.com/roadmap?filters=yammer)

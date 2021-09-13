@@ -26,8 +26,8 @@ ms.openlocfilehash: c1a2cc9e770678683fb3823da73ed667de6d1f2b
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947033"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159286"
 ---
 # <a name="auditing-and-reporting-in-microsoft-cloud-services"></a>Überwachung und Berichterstellung in Microsoft Cloud Services
 

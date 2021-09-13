@@ -182,7 +182,7 @@ additionalContent:
         - title: Microsoft Azure
           summary: 'Azure Compliance bietet Ihnen Complianceangebote, Blueprints, Compliance-Leitfäden und Ressourcen, die Ihnen helfen, Ihre Compliance-Verpflichtungen zu erfüllen.'
           url: /azure/compliance/
-        - title: "Dynamics\_365"
+        - title: Dynamics 365
           summary: 'Business Central enthält Funktionen und basiert auf einer Plattform, die es Kunden erleichtert, compliance- und behördliche Vorschriften einzuhalten.'
           url: /dynamics365/business-central/compliance/compliance-overview
         - title: Microsoft 365

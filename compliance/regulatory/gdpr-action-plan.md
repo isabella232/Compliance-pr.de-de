@@ -22,8 +22,8 @@ ms.openlocfilehash: 45f75aa9155e7de9b70895187e36765da8cd8ced
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947800"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159753"
 ---
 # <a name="microsoft-365-gdpr-action-plan--top-priorities-for-your-first-30-days-90-days-and-beyond"></a>DSGVO-Aktionsplan für Microsoft 365: die wichtigsten Prioritäten für die ersten 30 Tage, 90 Tage und danach
 

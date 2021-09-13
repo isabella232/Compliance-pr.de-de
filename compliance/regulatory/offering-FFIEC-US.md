@@ -20,8 +20,8 @@ ms.openlocfilehash: 7cdc024d19ce0753d3d0c0e5cf45b6276939d6f2
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947961"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159940"
 ---
 # <a name="federal-financial-institutions-examination-council-ffiec"></a>Federal Financial Institutions Examination Council (FFIEC)
 
@@ -83,7 +83,7 @@ Siehe Office 365 SOC-Nachweisberichte.
 
 Um Ihnen bei der Erfüllung dieser Verpflichtungen zu helfen, stellt Microsoft die Einzelheiten zur Einhaltung von SOC-Standards bereit, wie oben beschrieben. Letztendlich liegt es jedoch an Ihnen, zu bestimmen, ob unsere Dienste den spezifischen Gesetzen und Bestimmungen entsprechen, die für Ihre Einrichtung gelten. Die FFIEC rät außerdem, dass "Benutzer von Überwachungsberichten oder Überprüfungen sich nicht ausschließlich auf die im Bericht enthaltenen Informationen verlassen sollten, um die interne Kontrollumgebung des TSP zu überprüfen. Sie sollten andere Überprüfungs- und Überwachungsverfahren verwenden, wie im [Outsourcing TechnologyBook](https://ithandbook.ffiec.gov/it-booklets/outsourcing-technology-services.aspx) des FFIEC IT-Prüfungshandbuchs ausführlicher erläutert.
 
-### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
+### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
 
 [Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center](/microsoft-365/compliance/microsoft-365-compliance-center), die Ihnen hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 

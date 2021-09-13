@@ -20,8 +20,8 @@ ms.openlocfilehash: 5f3a17ca4f06f61b62bcc13e44b74ad4d436a6da
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947912"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159466"
 ---
 # <a name="international-traffic-in-arms-regulations-itar"></a>International Traffic in Arms Regulations (ITAR)
 
@@ -41,7 +41,7 @@ Der ITAR hat spezifische Verpflichtungen zur Meldung von Verstößen, die bestim
   
 Kunden, die ITAR-regulierte Daten hosten möchten, sollten mit ihrem Microsoft-Konto und ihren Lizenzierungsteams zusammenarbeiten, um mehr zu erfahren, ordnungsgemäße Vereinbarungen zu erhalten und auf relevante Systemarchitekturinformationen zuzugreifen.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
 
 - Azure Government
 - Office 365 U.S. Government – High, Office 365 Defense

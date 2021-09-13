@@ -24,8 +24,8 @@ ms.openlocfilehash: 1cecf95d167e75f1c31360bca831184dee3e322e
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947114"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159021"
 ---
 # <a name="human-resources-overview"></a>Personalwesen (Übersicht)
 
@@ -44,7 +44,7 @@ Hintergrundüberprüfungen für Anstellungskandidaten umfassen in der Regel die 
 
 ## <a name="what-additional-checks-are-performed-for-employees-that-manage-cloud-services"></a>Welche zusätzlichen Überprüfungen werden für Mitarbeiter durchgeführt, die Clouddienste verwalten?
 
-Zusätzlich zur Überprüfung vor dem Anstellungsstatus müssen Microsoft-Mitarbeiter, die Microsoft-Onlinedienste in den VEREINIGTEn Staaten verwalten, eine Microsoft Cloud Background Check als Voraussetzung für den Zugriff auf Onlinedienstsysteme durchlaufen. Die Anforderungen der Hintergrundüberprüfung variieren, um die geltenden Gesetze und Dienstbereitstellungsmodelle einzuhalten. Die Ergebnisse der Microsoft Cloud-Hintergrundüberprüfung werden in unserer Mitarbeiterdatenbank gespeichert und müssen mindestens alle zwei Jahre verlängert werden. Wenn die Microsoft Cloud-Hintergrundüberprüfung abläuft und der Mitarbeiter sie nicht erneuert, wird der Zugriff auf Onlinedienste widerrufen und nicht mehr verfügbar, bis die Microsoft Cloud-Hintergrundüberprüfung abgeschlossen ist. Ebenso wird nach Dem Ende der Anstellungsbeziehung mit Microsoft der gesamte Zugriff sofort widerrufen.
+Zusätzlich zur Überprüfung vor der Einstellung müssen Microsoft-Mitarbeiter, die Microsoft-Onlinedienste in den VEREINIGTEn Staaten verwalten, eine Microsoft Cloud Background Check als Voraussetzung für den Zugriff auf Onlinedienstsysteme durchlaufen. Die Anforderungen der Hintergrundüberprüfung variieren, um die geltenden Gesetze und Dienstbereitstellungsmodelle einzuhalten. Die Ergebnisse der Microsoft Cloud-Hintergrundüberprüfung werden in unserer Mitarbeiterdatenbank gespeichert und müssen mindestens alle zwei Jahre verlängert werden. Wenn die Microsoft Cloud-Hintergrundüberprüfung abläuft und der Mitarbeiter sie nicht erneuert, wird der Zugriff auf Onlinedienste widerrufen und nicht mehr verfügbar, bis die Microsoft Cloud-Hintergrundüberprüfung abgeschlossen ist. Ebenso wird nach Dem Ende der Anstellungsbeziehung mit Microsoft der gesamte Zugriff sofort widerrufen.
 
 ## <a name="how-does-microsoft-ensure-employees-maintain-sufficient-skills-and-knowledge-to-perform-their-responsibilities-and-follow-microsoft-policies"></a>Wie stellt Microsoft sicher, dass Die Mitarbeiter über ausreichende Fähigkeiten und Kenntnisse verfügen, um ihre Aufgaben zu erfüllen und die Microsoft-Richtlinien zu befolgen?
 

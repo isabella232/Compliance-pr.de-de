@@ -20,8 +20,8 @@ ms.openlocfilehash: 5f51e0eb46550734a3906e6011a67323fe67fc78
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947987"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159435"
 ---
 # <a name="information-system-security-management-and-assessment-program-ismap"></a>Programm zur Verwaltung und Bewertung der Sicherheit von Informationssystemen (ISMAP, Information System Security Management and Assessment Program)
 

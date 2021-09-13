@@ -1,6 +1,6 @@
 ---
 title: Aufbewahrung, Löschung und Vernichtung von Daten in Microsoft 365
-description: Eine Übersicht über die Microsoft-Richtlinien für Microsoft 365 zur Aufbewahrung, Löschung und Vernichtung von Daten.
+description: Eine Übersicht über die Microsoft-Richtlinien für Microsoft 365 in Bezug auf die Aufbewahrung, Löschung und Vernichtung von Daten.
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -23,8 +23,8 @@ ms.openlocfilehash: c851b235a70104720457d08c51529ee7b25c65e4
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947075"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159237"
 ---
 # <a name="data-retention-deletion-and-destruction-in-microsoft-365"></a>Aufbewahrung, Löschung und Vernichtung von Daten in Microsoft 365
 

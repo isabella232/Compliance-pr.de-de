@@ -21,8 +21,8 @@ ms.openlocfilehash: 9b7a88bd84ccd39d0d4cd9572a250ba4a8a0a773
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58948090"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159513"
 ---
 # <a name="data-protection-impact-assessments-guidance-for-data-controllers-using-microsoft-office-365"></a>Datenschutz-Folgenabschätzung: Leitfaden für Datenverantwortliche, die Microsoft Office 365 verwenden 
 
@@ -44,7 +44,7 @@ Nach Artikel 35 der DSGVO muss ein für die Verarbeitung Verantwortlicher eine F
 |||
 
 >[!Note]
-><sup>1</sup> Bezüglich der Kriterien der "umfangreichen" Verarbeitung von Daten wird in Absatz 91 der DSGVO Folgendes klar gestellt: "Die Verarbeitung personenbezogener Daten sollte nicht als umfangreich gelten, wenn die Verarbeitung personenbezogene Daten von Patienten oder von Mandanten betrifft und durch einen einzelnen Arzt, sonstigen Angehörigen eines Gesundheitsberufes oder Rechtsanwalt erfolgt. In diesen Fällen sollte eine Datenschutz-Folgenabschätzung nicht zwingend vorgeschrieben sein."
+><sup>1</sup> Bezüglich der Kriterien der „umfassenden“ Verarbeitung von Daten wird im Erwägungsgrund 91 der DSGVO Folgendes klar gestellt: „Die Verarbeitung personenbezogener Daten sollte nicht als umfangreich gelten, wenn die Verarbeitung personenbezogene Daten von Patienten oder von Mandanten betrifft und durch einen einzelnen Arzt, sonstigen Angehörigen eines Gesundheitsberufes oder Rechtsanwalt erfolgt. In diesen Fällen sollte eine Datenschutz-Folgenabschätzung nicht zwingend vorgeschrieben sein.“
 
 ## <a name="part-2-contents-of-a-dpia"></a>Teil 2: Inhalte einer Bewertung der Auswirkungen auf den Datenschutz (DPIA)
 

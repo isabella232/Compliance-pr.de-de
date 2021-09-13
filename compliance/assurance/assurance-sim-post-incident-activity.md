@@ -23,8 +23,8 @@ ms.openlocfilehash: 820c912dc55d5cc98cedc38676b5039591cf5baa
 ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58947141"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59159573"
 ---
 # <a name="microsoft-security-incident-management-post-incident-activity"></a>Microsoft-Sicherheitsvorfallverwaltung: Aktivitäten nach dem Vorfall
 
