@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 81de800d437427d77c5004f20e0cdf672db3a533
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: 67830f9abd3fb81048fdcb327dd99c208d9fc713
+ms.sourcegitcommit: 0ba64300a1e172c84af37978bbf04514636b3acd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59159760"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "59438396"
 ---
 # <a name="multi-tier-cloud-security-mtcs-standard-for-singapore"></a>Multi-Tier Cloud Security (MTCS) Standard für Singapur
 
@@ -47,7 +47,7 @@ Microsoft Azure-Dienste (IaaS und PaaS), Microsoft Dynamics 365-Dienste (SaaS) u
 ## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
 
 - Azure
-- [Dynamics 365](https://aka.ms/d365-compliance-list)
+- Dynamics 365 Onlinedienste (Business Central, Commerce, Kundendienst, Außendienst, Finanzen, Betrugsschutz, Marketing, Vertrieb, Lieferkettenverwaltung)
 - Genomics
 - Intune
 - Microsoft Cloud App Security
