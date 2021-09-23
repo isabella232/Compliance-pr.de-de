@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e57b10527b5eb1bd1baefebb36c9a8f37a97f59e
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: 37b71715c49e543ad8bbf78f5e1821d91206fc14
+ms.sourcegitcommit: cb0b058800d3a8f04921066b4c59fb427eb9c268
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59159711"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59486372"
 ---
 # <a name="european-union-model-clauses"></a>Standardvertragsklauseln der Europäischen Union
 
@@ -61,7 +61,7 @@ Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Di
 
 | **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
 |:------------------|:----------------------|
-| **Kommerziell** | Advanced Threat Protection, Azure Active Directory, Azure Information Protection, Bookings, Compliance Manager, Delve, Exchange Online, Exchange Online Protection, Forms, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Graph, Microsoft Teams, Microsoft To Do für das Web, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Cloud App Security, Office 365-Gruppen, Office 365 Security & Compliance Center, Office 365 Video, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
+| **Kommerziell** | Advanced Threat Protection, Azure Active Directory, Azure Information Protection, Bookings, Compliance Manager, Delve, Exchange Online, Exchange Online Protection, Forms, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Graph, Microsoft Teams, Microsoft To Do für das Web, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Cloud App Security, Office 365-Gruppen, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
 
 ## <a name="audits-reports-and-certificates"></a>Prüfungen, Berichte und Zertifikate
 

@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 91735f08e93777a7ffa1a9c86d3a4776cc8cf1a0
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: af9568a2ecb3e2b2be1fe3086b48e82f95f0869d
+ms.sourcegitcommit: cb0b058800d3a8f04921066b4c59fb427eb9c268
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59159076"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59486227"
 ---
 # <a name="enisa-information-assurance-framework"></a>ENISA Information Assurance Framework
 
@@ -64,7 +64,7 @@ Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Di
 
 | **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
 |:------------------|:----------------------|
-| **Kommerziell** | Azure Active Directory, Azure Information Protection, Bookings, Compliance Manager, Delve, Exchange Online, Exchange Online Protection, Forms, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Defender für Office 365, Microsoft Graph, Microsoft Teams, Microsoft To Do für das Web, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Cloud App Security, Office 365-Gruppen, Office 365 Security & Compliance Center, Office 365 Video, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
+| **Kommerziell** | Azure Active Directory, Azure Information Protection, Bookings, Compliance Manager, Delve, Exchange Online, Exchange Online Protection, Forms, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Defender für Office 365, Microsoft Graph, Microsoft Teams, Microsoft To Do für das Web, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Cloud App Security, Office 365-Gruppen, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
 
 ### <a name="resources"></a>Ressourcen
 

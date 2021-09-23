@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e38e5f2c370692a60d07ac25491ae457e0ed34c0
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: a770f37d778d56116050adefa03f2b27a1241792
+ms.sourcegitcommit: cb0b058800d3a8f04921066b4c59fb427eb9c268
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59159321"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59486272"
 ---
 # <a name="my-number-act-japan"></a>„My Number“-Gesetz (Japan)
 
@@ -39,15 +39,15 @@ Die von der Personal Information Protection Commission (PPC) veröffentlichten [
 
 Microsoft Business Cloud Services behandeln diese Anforderungen in den [Microsoft Online Services-Nutzungsbedingungen](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31), die festlegen, dass der Besitz von und die Verantwortlichkeit für Kundendaten, die „My Number“-Daten umfassen, bei unseren Kunden liegen, nicht bei Microsoft. Der Kunde muss daher über geeignete vorhandene Kontrollmechanismen verfügen, um die in Kundendaten enthaltenen „My Number“-Daten zu schützen.
 
-Da Microsoft keinen ständigen Zugriff auf „My Number“-Daten hat, die in seinen Cloud Services gespeichert sind, ist ein „Outsourcing“-Vertrag über die Verarbeitung von „My Number“-Daten nicht erforderlich. Wenn ein Kunde wünscht, dass Microsoft Zugriff auf Kundendaten hat, die „My Number“-Daten umfassen, muss der Kunde für jeden Fall einen zusätzlichen Outsourcing-Vertrag mit Microsoft abschließen, bevor er einen solchen Antrag stellt.
+Da Microsoft keinen ständigen Zugriff auf „My Number“-Daten hat, die in seinen Cloud Services gespeichert sind, ist ein „Outsourcing“-Vertrag über die Verarbeitung von „My Number“-Daten nicht erforderlich. Wenn ein Kunde möchte, dass Microsoft auf Kundendaten zugreift, die „My Number“-Daten enthalten, muss der Kunde für jeden Fall einen weiteren Outsourcing-Vertrag mit Microsoft abschließen, bevor er eine solche Anfrage stellt.
 
 Die Klauseln besagen auch, dass Microsoft verpflichtet ist, Kundendaten nur für die Bereitstellung von Dienstleistungen an den Kunden – nicht zu Werbe- oder ähnlichen kommerziellen Zwecken – zu verwenden, und dass Microsoft zuverlässige Zugriffssteuerungssysteme zur Verfügung stehen.
 
 Im Hinblick auf Sicherheitsrisiken entsprechen die Microsoft Business Cloud Services dem [Cloud Security Mark (Gold)](offering-cs-mark-gold-japan.md)-Standard, der ersten Sicherheitsakkreditierung Japans für Cloud-Dienstanbieter.
 
-Microsoft Business Cloud Services unterstützt daher die Vorschriften des „My Number“-Gesetzes und ruft für Kunden keine zusätzlichen Verpflichtungen im Rahmen dieses Gesetzes hervor, wie z. B. die Zustimmung eines einzelnen Besitzers personenbezogener Daten.
+Daher unterstützen Microsoft-Clouddienste für Unternehmen die Anforderungen des „My Number“-Gesetzes und schaffen keine anderen Verpflichtungen aus dem Gesetz für Kunden, z. B. die Zustimmung eines einzelnen Besitzers personenbezogener Daten.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
 
 - Azure
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
@@ -66,7 +66,7 @@ Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Di
 
 | **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
 |:------------------|:----------------------|
-| **Kommerziell** | Azure Active Directory, Azure Information Protection, Bookings, Compliance Manager, Delve, Exchange Online, Exchange Online Protection, Forms, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Defender für Office 365, Microsoft Graph, Microsoft Teams, Microsoft To Do für das Web, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Cloud App Security, Office 365-Gruppen, Office 365 Security & Compliance Center, Office 365 Video, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
+| **Kommerziell** | Azure Active Directory, Azure Information Protection, Bookings, Compliance Manager, Delve, Exchange Online, Exchange Online Protection, Forms, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Defender für Office 365, Microsoft Graph, Microsoft Teams, Microsoft To Do für das Web, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Cloud App Security, Office 365-Gruppen, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
 
 ## <a name="how-to-implement"></a>Implementierung
 

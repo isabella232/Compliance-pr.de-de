@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 438780ab33c99bae410218bdb54265093105c16b
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: b43e882bc23523929a3bbcf7e0c9f667a2ab783f
+ms.sourcegitcommit: cb0b058800d3a8f04921066b4c59fb427eb9c268
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59159298"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59486262"
 ---
 # <a name="nen-7510"></a>NEN 7510
 
@@ -53,7 +53,7 @@ Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Di
 
 | **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
 |:------------------|:----------------------|
-| **Kommerziell** | Azure Information Protection, Bookings, Delve, Exchange Online, Exchange Online Protection, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Graph, Microsoft Teams, Microsoft To Do für das Web, MyAnalytics, Office 365 Cloud App Security, Office 365-Gruppen, Office 365 Video, OneDrive for Business, Planner, Power Apps, Power Automate, Power BI für Office 365, PowerApps, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
+| **Kommerziell** | Azure Information Protection, Bookings, Delve, Exchange Online, Exchange Online Protection, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Graph, Microsoft Teams, Microsoft To-Do für das Web, MyAnalytics, Office 365 Cloud App Security, Office 365-Gruppen, OneDrive for Business, Planner, Power Apps, Power Automate, Power BI für Office 365, PowerApps, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
 
 ## <a name="audits-reports-and-certificates"></a>Prüfungen, Berichte und Zertifikate
 
