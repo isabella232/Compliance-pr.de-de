@@ -16,18 +16,18 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 728050d20babd819c2153cd04b3eae849120eeee
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: 08e57873bb1664ce7cafc9aa1c193f6976651faf
+ms.sourcegitcommit: cb0b058800d3a8f04921066b4c59fb427eb9c268
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59159886"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59486452"
 ---
 # <a name="us-section-508"></a>US Section 508
 
 ## <a name="about-us-section-508"></a>Informationen zu Abschnitt 508 der USA
 
-Die UNITED STATES-Kommission änderte 1998 und 2000 das Zustände Act, um Bundesbehörden zu verlangen, dass ihre produkte für elektronische und Informationstechnologie (ELECTRONIC and Information Technology, DOPPELKLICK) wie Software, Hardware, elektronische Inhalte und Supportdokumentation für Menschen mit Behinderungen zugänglich sind. In Abschnitt 508 des United States Workforce Oder Act von 1973 (29 US Code §794d) in der geänderten Form ist es vorgeschrieben, dass Bundesbehörden SODASS in einer Weise beschaffen, verwalten und verwenden, die sicherstellt, dass Bundesmitarbeiter mit Behinderungen im Verhältnis zu anderen Bundesmitarbeitern über einen vergleichbaren Zugriff auf und eine vergleichbare Nutzung von Daten und XAML verfügen.
+Die UNITED STATES-Kommission änderte 1998 und 2000 das Zustände Act, um Bundesbehörden zu verlangen, dass ihre PRODUKTE für elektronische und Informationstechnologie (ELECTRONIC and Information Technology, DOPPELKLICK) wie Software, Hardware, elektronische Inhalte und Supportdokumentation für Menschen mit Behinderungen zugänglich sind. In Abschnitt 508 des United States Workforce Oder Act von 1973 (29 US Code §794d) in der geänderten Form ist es vorgeschrieben, dass Bundesbehörden SODASS in einer Weise beschaffen, verwalten und verwenden, die sicherstellt, dass Bundesmitarbeiter mit Behinderungen im Verhältnis zu anderen Bundesmitarbeitern über einen vergleichbaren Zugriff auf und eine vergleichbare Nutzung von Daten und XAML verfügen.
 
 Microsoft ist ein wichtiger Software- und Cloud-Dienstanbieter für Us-Bundesstaaten und Bundesstaaten.  Um Regierungskunden bei der Entscheidungsfindung bei der Beschaffung zu unterstützen, veröffentlicht Microsoft Konformitätsberichte zur Barrierefreiheit, in denen beschrieben wird, in welchem Umfang unsere Produkte und Dienste die Kriterien von Abschnitt 508 unterstützen.  Anhand dieser Informationen können Microsoft-Kunden ermitteln, ob ein bestimmtes Produkt oder eine bestimmte Dienstleistung den spezifischen Bedürfnissen gerecht wird.
 
@@ -35,7 +35,7 @@ Microsoft ist ein wichtiger Software- und Cloud-Dienstanbieter für Us-Bundessta
 
 Die Berücksichtigung von Abschnitt 508 der USA bei der Entwicklung von Produkten und Diensten durch Microsoft verweist auf sein Engagement, Technologien und Daten für alle Kunden zugänglich zu machen.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
 
 - Azure und Azure Government
 - Azure DevOps Services
@@ -56,10 +56,11 @@ Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Di
 
 | **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
 |:------------------|:----------------------|
-| **Kommerziell** | Access, Azure Active Directory, Bookings, Compliance Manager, Delve, Excel, Exchange Online, Forms, Kaizala, Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Verwaltungsportal für Android, Office 365 Verwaltungsportal für iOS, Office 365 Verwaltungsportal, Office 365 Advanced Compliance Add-On, Office 365 und Azure AD-Anmeldung, Office 365 Business Center, Office 365 Security & Compliance Center, Office 365 Video, Office 365 Web Suite, Office Configuration Tool, Office Lens, Office Online, Office Pro Plus, OneDrive for Business, OneDrive, OneNote, Outlook Groups, Outlook, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, SharePoint, Skype for Business, StaffHub , Stream, To-Do, Visio, Word, Yammer  |
-| **GCC** | Azure Active Directory, Compliance-Manager, Delve, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, Stream |
-| **GCC Hoch** | Azure Active Directory, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business |
-| **DoD** | Azure Active Directory, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, Power BI, SharePoint Online, Skype for Business |
+| **Client** | Access, Excel, Office 365-Verwaltungsportal für Android, Office 365 Verwaltungsportal für iOS, Office-Konfigurationstool, Office Lens, OneNote, Outlook, PowerPoint, Project, SharePoint, To-Do, Visio, Word |
+| **Kommerziell** | Azure Active Directory, Bookings, Compliance Manager, Delve, Exchange Online, Forms, Kaizala, Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance Add-On, Office 365 und Azure AD-Anmeldung, Office 365 Business Center, Office 365 Kundenportal, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, OneDrive, Outlook Gruppen, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, StaffHub, Stream, Yammer |
+| **GCC** | Azure Active Directory, Compliance-Manager, Delve, Exchange Online, Formulare, Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance Add-On, Office 365 Kundenportal, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, Skype for Business, Stream |
+| **GCC Hoch** | Azure Active Directory, Exchange Online, Formulare, Microsoft Defender für Office 365, Microsoft Teams, Office 365 Advanced Compliance-Add-On Office 365 Kundenportal , Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, Skype for Business |
+| **DoD** | Azure Active Directory, Exchange Online, Formulare, Microsoft Defender für Office 365, Microsoft Teams, Office 365 Advanced Compliance-Add-On Office 365 Kundenportal , Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, Power BI, Skype for Business |
 
 ### <a name="microsoft-accessibility-conformance-reports"></a>Microsoft Konformitätsberichte zur Barrierefreiheit
 

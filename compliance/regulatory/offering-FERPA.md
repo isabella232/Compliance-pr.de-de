@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 0ec79c5be17018f8b01eb3d938b65392b021ce77
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: df079bc4622d633918c1a44da9cd55ae20ebc5ea
+ms.sourcegitcommit: cb0b058800d3a8f04921066b4c59fb427eb9c268
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59159825"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59486362"
 ---
 # <a name="family-educational-rights-and-privacy-act-ferpa"></a>FERPA (Family Educational Rights and Privacy Act)
 
@@ -37,7 +37,7 @@ Sicherheit ist von zentraler Bedeutung für die Einhaltung von FERPA, was den Sc
 
 FERPA erfordert oder erkennt keine Audits oder andere Zertifizierungen an. Daher muss jede akademische Einrichtung, die FERPA unterliegt, selbst bewerten, ob und wie sich die Nutzung eines Clouddiensts auf die Fähigkeit zur Einhaltung von FERPA-Anforderungen auswirkt. In den Online services Terms [Data Protection Addendum](https://aka.ms/DPA) (DPA) stimmt Microsoft zu, als "Schulmitarbeiter" mit "legitimen Bildungs interessen" in Kundendaten gemäß FERPA festgelegt zu werden. Kundendaten umfassen alle Schülerdatensätze, die über die Verwendung von Azure durch eine Bildungseinrichtung bereitgestellt werden. Bei der Verarbeitung von Datensätzen für Schüler/Studenten stimmt Microsoft zu, die Einschränkungen und Anforderungen von 34 CFR 99.33(a) genau wie Schulmitarbeiter einzuhalten.  Microsoft hat eine Anleitungsdokumentation veröffentlicht, um Azure-Kunden bei der Erfüllung ihrer FERPA-Complianceanforderungen zu unterstützen.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
 
 Zu den Diensten, für die Microsoft zustimmt, als "Schulfunktionär" mit "berechtigten Bildungs interessen" in Kundendaten bezeichnet zu werden, gehören:
 
@@ -66,8 +66,8 @@ Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Di
 
 | **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
 |:------------------|:----------------------|
-| **Kommerziell** | Azure Active Directory, Azure Information Protection, Bookings, Compliance Manager, Delve, Exchange Online, Exchange Online Protection, Forms, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Defender für Office 365, Microsoft Graph, Microsoft Teams, Microsoft To Do für das Web, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Cloud App Security, Office 365-Gruppen, Office 365 Security & Compliance Center, Office 365 Video, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
-| **GCC** | Azure Active Directory, Compliance-Manager, Delve, Exchange Online, Formulare, Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, harePoint Online, Skype for Business, Stream |
+| **Kommerziell** | Azure Active Directory, Azure Information Protection, Bookings, Compliance Manager, Delve, Exchange Online, Exchange Online Protection, Formulare, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Defender für Office 365, Microsoft Graph, Microsoft Teams, Microsoft To-Do for Web, MyAnalytics, Office 365 Advanced Compliance Add-On, Office 365 Cloud App Security, Office 365 Groups, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
+| **GCC** | Azure Active Directory, Compliance-Manager, Delve, Exchange Online, Formulare, Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance add-on, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, harePoint Online, Skype for Business, Stream |
 | **GCC Hoch** | Azure Active Directory, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business |
 | **DoD** | Azure Active Directory, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, Power BI, SharePoint Online, Skype for Business |
 
@@ -85,7 +85,7 @@ Dieses US-Bundesgesetz schreibt den Schutz der Privatsphäre der Bildungsdatens�
 
 COPPA und CIPA sind zusätzliche Gesetze zum Schutz der Privatsphäre von Kinder; Sie gelten jedoch nicht direkt für Azure. Das Children's Online Privacy Protection Act (COPPA) ist ein US-Amerikanisches Bundesgesetz zum Schutz der Privatsphäre von Kinder unter 13 Jahren. Es wird von der Federal Trade Commission (FTC) verwaltet. COPPA gilt für Websites und Onlinedienste, die an Kinder gerichtet sind, und legt fest, dass für diese Websites und Dienste die Zustimmung der Eltern für die Sammlung und Verwendung von persönlichen Informationen erforderlich ist, die zu Kinder gehören. Das Children's Internet Protection Act (CIPA) wurde eingeführt, um Bedenken hinsichtlich des Zugriffs von Kinder auf schädliche Inhalte über das Internet zu beheben. Die Federal Communications Commission (FCC) hat Regeln zur Implementierung von CIPA und definierte Anforderungen für Schulen und Bibliotheken herausgegeben, die cipa unterliegen. Kunden, die sich im Zusammenhang mit der Azure-Einführung über COPPA und CIPA informieren, sollten den Abschnitt mit dem Titel "Bildungseinrichtungen" in den Onlinedienstbedingungen [(DPA)](https://aka.ms/DPA) lesen, in dem erläutert wird, dass Kunden für die Einholung der Zustimmung der Eltern für die Nutzung von Microsoft-Onlinediensten durch Endbenutzer verantwortlich sind.
 
-### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
+### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
 
 [Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center](/microsoft-365/compliance/microsoft-365-compliance-center), die Ihnen hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 

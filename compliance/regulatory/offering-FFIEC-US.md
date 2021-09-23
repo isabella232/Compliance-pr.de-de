@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 7cdc024d19ce0753d3d0c0e5cf45b6276939d6f2
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: 79d0f7bfff27f28b65d8f29c71f472024fbcd07e
+ms.sourcegitcommit: cb0b058800d3a8f04921066b4c59fb427eb9c268
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59159940"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59486352"
 ---
 # <a name="federal-financial-institutions-examination-council-ffiec"></a>Federal Financial Institutions Examination Council (FFIEC)
 
@@ -40,11 +40,11 @@ Microsoft Azure, Microsoft Power BI und Microsoft Office 365 sind so aufgebaut, 
 
 Der AICPA SSAE 18-Standard ersetzt SAS 70 und eignet sich für die Berichterstellung über Steuerelemente in einer Dienstorganisation, die für interne Kontrollen von Benutzerentitäten über die Finanzberichterstattung relevant sind. Dies ist die formale Prüfung, die Finanzinstitute für Drittanbieterüberprüfungen von Technologiedienstanbietern nutzen können, wenn sie ihre eigenen FFIEC-spezifischen Complianceverpflichtungen für in Azure bereitgestellte Ressourcen erfüllen. Sie enthält die Meinung des Prüfers zur Effektivität der Kontrollen, um die zugehörigen Kontrollziele während des angegebenen Überwachungszeitraums zu erreichen.
 
-Darüber hinaus hat Azure ein Excel-basiertes Cloudsicherheits-Diagnosetool entwickelt, mit dem eine Risikobewertung beschleunigt werden soll, die ein Finanzinstitut im Verhältnis zu Azure-Diensten durchführen möchte. Das Tool basiert auf einer Tabelle mit 19 separaten Domänen, die Anforderungen identifizieren, die in relevanten Standards und Vorschriften im Zusammenhang mit Finanzdienstleistungen, einschließlich der FFIEC IT-Prüfungshandbücher, festgelegt sind.  Das Tool zur Risikobewertung ist vorab mit Erläuterungen ausgefüllt, wie Azure die Für Cloud-Dienstanbieter geltenden Anforderungen erfüllt, und kann Kunden bei der Erfüllung ihrer eigenen FFIEC-Complianceanforderungen unterstützen.
+Darüber hinaus hat Azure ein Excel-basiertes Cloud-Sicherheitsdiagnosetool entwickelt, mit dem eine Risikobewertung beschleunigt werden soll, die ein Finanzinstitut im Verhältnis zu Azure-Diensten durchführen möchte. Das Tool basiert auf einer Tabelle mit 19 separaten Domänen, die Anforderungen identifizieren, die in relevanten Standards und Vorschriften im Zusammenhang mit Finanzdienstleistungen, einschließlich der FFIEC IT-Prüfungshandbücher, festgelegt sind.  Das Tool zur Risikobewertung ist vorab mit Erläuterungen ausgefüllt, wie Azure die Für Cloud-Dienstanbieter geltenden Anforderungen erfüllt, und kann Kunden bei der Erfüllung ihrer eigenen FFIEC-Complianceanforderungen unterstützen.
 
 Kunden steht auch der Azure FFIEC Cloud Security-Diagnosearbeitsmappen-Begleitmappe zur Verfügung, der Anleitungen zur Verwendung von Azure-Diensten und Überlegungen zur Einhaltung der FFIEC-Anforderungen durch den Kunden bietet.
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
 
 - Azure
 - Intune
@@ -70,7 +70,7 @@ Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Di
 
 | **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
 |:------------------|:----------------------|
-| **Kommerziell** | Azure Active Directory, Azure Information Protection, Bookings, Compliance Manager, Delve, Exchange Online, Exchange Online Protection, Forms, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Defender für Office 365, Microsoft Graph, Microsoft Teams, Microsoft To Do für das Web, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Cloud App Security, Office 365-Gruppen, Office 365 Security & Compliance Center, Office 365 Video, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
+| **Kommerziell** | Azure Active Directory, Azure Information Protection, Bookings, Compliance Manager, Delve, Exchange Online, Exchange Online Protection, Formulare, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Defender für Office 365, Microsoft Graph, Microsoft Teams, Microsoft To-Do for Web, MyAnalytics, Office 365 Advanced Compliance Add-On, Office 365 Cloud App Security, Office 365 Groups, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
 | **GCC** | Azure Active Directory, Compliance-Manager, Delve, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, Stream |
 
 ### <a name="office-365-audits-reports-and-certificates"></a>Office 365-Audits, -Berichte und -Zertifikate
@@ -83,7 +83,7 @@ Siehe Office 365 SOC-Nachweisberichte.
 
 Um Ihnen bei der Erfüllung dieser Verpflichtungen zu helfen, stellt Microsoft die Einzelheiten zur Einhaltung von SOC-Standards bereit, wie oben beschrieben. Letztendlich liegt es jedoch an Ihnen, zu bestimmen, ob unsere Dienste den spezifischen Gesetzen und Bestimmungen entsprechen, die für Ihre Einrichtung gelten. Die FFIEC rät außerdem, dass "Benutzer von Überwachungsberichten oder Überprüfungen sich nicht ausschließlich auf die im Bericht enthaltenen Informationen verlassen sollten, um die interne Kontrollumgebung des TSP zu überprüfen. Sie sollten andere Überprüfungs- und Überwachungsverfahren verwenden, wie im [Outsourcing TechnologyBook](https://ithandbook.ffiec.gov/it-booklets/outsourcing-technology-services.aspx) des FFIEC IT-Prüfungshandbuchs ausführlicher erläutert.
 
-### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
+### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
 
 [Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center](/microsoft-365/compliance/microsoft-365-compliance-center), die Ihnen hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 
