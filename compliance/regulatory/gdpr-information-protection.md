@@ -18,12 +18,12 @@ ms.collection:
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
 hideEdit: true
-ms.openlocfilehash: cf5ef95e9504ba2d63a56dc3d4f7d22398d61255
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: 4153c28a6e82829114abd51169dbdfa3220aa76c
+ms.sourcegitcommit: 0777355cfb73c07d2b7e11d95a5996be8913b2af
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59159705"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60050589"
 ---
 # <a name="information-protection-for-gdpr-with-microsoft-365-capabilities"></a>Schutz von Daten für die DSGVO mit Microsoft 365-Funktionen
 
@@ -60,7 +60,7 @@ Der Bedrohungsschutz ist in Microsoft 365-Diensten integriert. Nachfolgend finde
 
 - [Office 365-Sicherheits-Roadmap: Die obersten Prioritäten für die ersten 30 Tage, die 90 Tage und darüber hinaus](/microsoft-365/security/office-365-security/security-roadmap). Diese Roadmap enthält Empfehlungen für das Implementieren von Funktionen. 
 - [Schutz vor Bedrohungen in Office 365](/microsoft-365/security/office-365-security/protect-against-threats). Erfahren Sie mehr über Schutzaktionen, die Sie im Microsoft 365 Security Center ergreifen können.
-- [Windows-Bedrohungsschutz](/windows/security/threat-protection/). Erfahren Sie mehr über Microsoft Defender für Endpunkt und andere Funktionen in Windows 10.
+- [Windows-Bedrohungsschutz](/windows/security/threat-protection/). Erfahren Sie mehr über Microsoft Defender für Endpunkt und andere Funktionen in Windows 10 und Windows 11.
 
 ## <a name="learn-more"></a>Weitere Informationen
 

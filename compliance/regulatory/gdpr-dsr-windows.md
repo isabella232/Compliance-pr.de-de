@@ -18,17 +18,18 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 hideEdit: true
-ms.openlocfilehash: 202b8aa75d3dd6fc94025a1a30f922563fc73e7b
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: 52db464f30ac518cb60fcb62ad908e0fb3de31eb
+ms.sourcegitcommit: 0777355cfb73c07d2b7e11d95a5996be8913b2af
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59158952"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60050569"
 ---
 # <a name="windows-diagnostic-data-processor-configuration-data-subject-requests-for-the-gdpr-and-ccpa"></a>Anträge betroffener Personen zur Konfiguration zur Verarbeitung von Windows-Diagnosedaten im Rahmen der DSGVO und des CCPA
 
->[!NOTE]
->Dieses Thema bezieht sich auf Windows 10 Enterprise-, Pro- und Education-Editionen, Version 1809, mit dem Update von Juli 2021 und höher.
+**Gilt für:**
+-   Windows 10 Enterprise, Pro und Education Edition Version 1809 mit Update Juli 2021 und höher
+-   Windows 11 Enterprise, Pro und Education Edition
 
 ## <a name="introduction-to-data-subject-requests-dsrs"></a>Einführung in Anträge betroffener Personen
 
@@ -72,7 +73,7 @@ Microsoft bietet Ihnen die Möglichkeit, auf Windows-Diagnosedaten, die mit der 
 > Einige Windows-Diagnosedaten sind nur einem Gerätebezeichner und keinem bestimmten Benutzer zugeordnet. Diese Art von Daten auf Geräteebene wird nicht exportiert und innerhalb von 30 Tagen aus unseren Systemen gelöscht.<br><br>
 > Die Möglichkeit zur Berichtigung von Windows-Diagnosedaten wird nicht unterstützt. Windows-Diagnosedaten stellen tatsächliche Aktionen dar, die innerhalb von Windows durchgeführt wurden, und Änderungen an diesen Daten würden die historische Erfassung von Aktionen kompromittieren und das Sicherheitsrisiko erhöhen sowie die Zuverlässigkeit beschädigen.
 
-Der nächste Abschnitt enthält Schritte zum Ausführen eines Antrags einer betroffenen Person für Windows-Diagnosedaten, die einer Azure Active Directory (AAD)-Benutzer-ID zugeordnet ist. Weitere Informationen finden Sie unter [Windows 10 – Datenschutz und Compliance: Leitfaden für IT- und Complianceexperten](/windows/privacy/windows-10-and-privacy-compliance).
+Der nächste Abschnitt enthält Schritte zum Ausführen eines Antrags einer betroffenen Person für Windows-Diagnosedaten, die einer Azure Active Directory (AAD)-Benutzer-ID zugeordnet ist. Weitere Informationen finden Sie unter [Windows 10- und Windows 11-Datenschutzkonformität: Ein Leitfaden für IT- und Compliance-Experten](/windows/privacy/windows-10-and-privacy-compliance).
 
 ## <a name="executing-dsrs-against-windows-diagnostic-data"></a>Ausführen von Anträgen betroffener Personen für Windows-Diagnosedaten
 
@@ -97,7 +98,7 @@ Microsoft bietet zudem die Möglichkeit, Benutzer direkt über eine bereits vorh
 
 ### <a name="step-3-export"></a>Schritt 3: Export
 
-Der Mandantenadministrator ist die einzige Person in Ihrer Organisation, die auf Windows-Diagnosedaten im Zusammenhang mit der Verwendung eines Geräts durch einen bestimmten Benutzer, die bei aktivierter Konfiguration zur Verarbeitung von Windows-Diagnosedaten gesammelt werden, zugreifen kann. Die für einen Exportantrag abgerufenen Daten werden in einem maschinell lesbaren Format bereitgestellt und in Dateien bereitgestellt, durch die der Benutzer erkennen kann, welchen Geräten und Diensten die Daten zugeordnet sind. Die abgerufenen Daten enthalten keine Daten, welche die Sicherheit oder Stabilität des Windows-Geräts beeinträchtigen könnten. [Azure-DSR, Teil 2, Schritt 3: Export](/microsoft-365/compliance/gdpr-dsr-azure#step-3-export), beschreibt, wie eine DSR-Exportanforderung für Windows-Diagnosedaten über das Azure-Portal durchzuführen ist.
+Der Mandantenadministrator ist die einzige Person in Ihrer Organisation, die auf Windows-Diagnosedaten zugreifen kann, die mit der Verwendung eines Geräts durch einen bestimmten Benutzer verknüpft sind, das mit der Windows-Diagnosedatenprozessorkonfiguration aktiviert ist. Die für eine Exportanfrage abgerufenen Daten werden in einem maschinenlesbaren Format bereitgestellt und in Dateien bereitgestellt, die es dem Benutzer ermöglichen, zu erkennen, mit welchen Geräten und Diensten die Daten verknüpft sind. Wie bereits erwähnt, enthalten die abgerufenen Daten keine Daten, die die Sicherheit oder Stabilität des Windows-Geräts beeinträchtigen können. [Azure DSR, Teil 2, Schritt 3: Export](/microsoft-365/compliance/gdpr-dsr-azure#step-3-export), beschreibt, wie Sie eine DSR-Exportanforderung für Windows-Diagnosedaten über das Azure-Portal ausführen.
 
 Microsoft bietet zudem die Möglichkeit, Windows-Diagnosedaten direkt über eine bereits vorhandene Anwendungsprogrammierschnittstelle (API) zu exportieren. Details werden in der [Referenzdokumentation der API](/graph/api/user-exportpersonaldata) beschrieben.
 

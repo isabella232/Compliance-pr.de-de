@@ -18,12 +18,12 @@ ms.collection:
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
 hideEdit: true
-ms.openlocfilehash: d0016ed24cec4797ff515efa5614d8016fe7f1c1
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: 10f8253d9acbed535d4aec31734be1ee16dd2b3a
+ms.sourcegitcommit: 0777355cfb73c07d2b7e11d95a5996be8913b2af
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59159111"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60050579"
 ---
 # <a name="general-data-protection-regulation-summary"></a>Zusammenfassung Datenschutz-Grundverordnung
 
@@ -313,7 +313,7 @@ Wenn es berechtigte Gründe für eine weitere Verarbeitung und Datenspeicherung 
 
 **Befasst sich die DSGVO mit Verschlüsselung?**
 
-Die Verschlüsselung wird in der DSGVO als eine Schutzmaßnahme identifiziert, die personenbezogene Daten unverständlich macht, wenn sie von einer Verletzung betroffen sind. Daher kann sich die Frage, ob eine Verschlüsselung verwendet wird, auf die Anforderungen für die Benachrichtigung über eine Verletzung des Schutzes personenbezogener Daten auswirken. Die DSGVO weist auch auf die Verschlüsselung als eine geeignete technische oder organisatorische Maßnahme in einigen Fällen hin, je nach Risiko. Die Verschlüsselung ist auch eine Anforderung durch den Datensicherheitsstandard der Zahlungskartenindustrie und Teil der strengen Compliance-Richtlinien, die speziell für die Finanzdienstleistungsbranche gelten. Microsoft-Produkte und -Dienstleistungen wie Azure, Dynamics 365, Enterprise Mobility + Security, Office Microsoft 365, SQL Server/Azure SQL-Datenbank und Windows 10 bieten eine robuste Verschlüsselung der Daten während der Übertragung und der Daten im Ruhezustand.
+Die Verschlüsselung wird in der DSGVO als eine Schutzmaßnahme identifiziert, die personenbezogene Daten unverständlich macht, wenn sie von einer Verletzung betroffen sind. Daher kann sich die Frage, ob eine Verschlüsselung verwendet wird, auf die Anforderungen für die Benachrichtigung über eine Verletzung des Schutzes personenbezogener Daten auswirken. Die DSGVO weist auch auf die Verschlüsselung als eine geeignete technische oder organisatorische Maßnahme in einigen Fällen hin, je nach Risiko. Die Verschlüsselung ist auch eine Anforderung durch den Datensicherheitsstandard der Zahlungskartenindustrie und Teil der strengen Compliance-Richtlinien, die speziell für die Finanzdienstleistungsbranche gelten. Microsoft-Produkte und -Dienstleistungen wie Azure, Dynamics 365, Enterprise Mobility + Security, Office Microsoft 365, SQL Server/Azure SQL-Datenbank, Windows 10 und Windows 11 bieten eine robuste Verschlüsselung der Daten während der Übertragung und der Daten im Ruhezustand.
 
 **Wie verändert die DSGVO die Reaktion einer Organisation auf Verletzungen des Schutzes personenbezogener Daten?**
 
