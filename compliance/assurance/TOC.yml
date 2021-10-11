@@ -28,10 +28,18 @@
   items:
     - name: Sicherheit von Rechenzentren (Übersicht)
       href: assurance-datacenter-security.md
-    - name: TVRA in Rechenzentren
+    - name: Architektur und Infrastruktur von Rechenzentren
+      href: assurance-datacenter-architecture-infrastructure.md
+    - name: Risikomanagement von Rechenzentren
       href: assurance-threat-vulnerability-risk-assessment.md
+    - name: Maßnahmen für den Umweltschutz
+      href: assurance-datacenter-environmental-safeguards.md
+    - name: Physische Zugriffssicherheit
+      href: assurance-datacenter-physical-access-security.md
     - name: Zerstörung von Datenträgern
       href: assurance-data-bearing-device-destruction.md
+    - name: Geschäftskontinuität und Notfallwiederherstellung
+      href: assurance-datacenter-business-continuity-disaster-recovery.md
     - name: Sicherheit der Lieferkette
       href: /azure/security/fundamentals/firmware?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json
 - name: Verschlüsselung und Schlüsselverwaltung
