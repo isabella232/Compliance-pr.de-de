@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6ff20d9ac81562353a5971386d0d498b44edfd3b
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: 632c8c40348e155d4acefb0c2ed66f1e1a2500b1
+ms.sourcegitcommit: 963eeffcf34f2696a1530ef95154adc2fa3a1941
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59159453"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "60266705"
 ---
 # <a name="cloud-security-alliance-csa-star-self-assessment"></a>Cloud Security Alliance (CSA) STAR Selbsteinschätzung
 
@@ -80,11 +80,11 @@ Sie ermöglicht CSPs, ihre Compliance mit den von der CSA veröffentlichten bew�
 
 **Welche CSA STAR-Zuverlässigkeitsstufen hat Office 365 erreicht?**
 
-- **Stufe 1**: **CSA STAR-Selbstbewertung**: ein ergänzendes Angebot der Clouddienstanbieter, um ihre Sicherheitskontrollen zu dokumentieren und die Kunden beim Bewerten der Sicherheit des Diensts zu unterstützen.
+- **Stufe 1**: **CSA STAR-Selbstbewertung**: ein [ergänzendes Angebot](https://cloudsecurityalliance.org/star/registry/services/microsoft-office-365) von Clouddienstanbietern, um ihre Sicherheitskontrollen zu dokumentieren und die Kunden beim Bewerten der Sicherheit des Diensts zu unterstützen.
 
 ### <a name="office-365-resources"></a>Office 365-Ressourcen
 
-- [Cloud Security Alliance](https://cloudsecurityalliance.org/)
+- [Cloud Security Alliance – Microsoft 365](https://cloudsecurityalliance.org/star/registry/services/microsoft-office-365)
 - [Cloud Controls Matrix (CCM)](https://cloudsecurityalliance.org/group/cloud-controls-matrix/)
 - [Consensus Assessments Initiative Questionnaire (CAIQ)](https://cloudsecurityalliance.org/group/consensus-assessments/)
 - [CSA Security, Trust & Assurance Registry (STAR)](https://cloudsecurityalliance.org/star/)
