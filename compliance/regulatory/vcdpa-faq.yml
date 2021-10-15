@@ -1,0 +1,196 @@
+### YamlMime:FAQ
+metadata:
+  title: Häufig gestellte Fragen zum Verbraucherdatenschutzgesetz (VCDPA)
+  description: Häufig gestellte Fragen zu Microsoft-Dienste und dem Consumer Data Protection Act (VCDPA).
+  keywords: Microsoft 365, compliance, CCPA, GDPR, VCDPA
+  ms.localizationpriority: high
+  ms.service: O365-seccomp
+  ms.reviewer: ronandwa
+  ms.topic: article
+  f1.keywords:
+  - NOCSH
+  ms.author: robmazz
+  author: robmazz
+  manager: laurawi
+  audience: itpro
+  ms.collection:
+  - M365-security-compliance
+  - MS-Compliance
+  ms.openlocfilehash: e3574488ce3533de4e476f875351b301a96fe91f
+  ms.sourcegitcommit: 31fe1f7ed9b365f4a0253cfa10c39fda0b6bd55c
+  ms.translationtype: MT
+  ms.contentlocale: de-DE
+  ms.lasthandoff: 10/15/2021
+  ms.locfileid: "60366708"
+title: Häufig gestellte Fragen zum Verbraucherdatenschutzgesetz (VCDPA)
+summary: >
+  >[!Note]
+
+  >Dieser Artikel wird im „Istzustand“ bereitgestellt. Die in diesem Artikel enthaltenen Informationen und zum Ausdruck gebrachten Ansichten, auch URL- und andere Internet-Websitebezüge, können ohne vorherige Ankündigung geändert werden. Das Risiko der Produktnutzung liegt allein beim Nutzer. Dieser Artikel wurde als Leitfaden erstellt und sollte nicht als rechtlicher Ratschlag interpretiert werden. Sie sollten sich mit Ihren eigenen Rechtsexperten beraten. Dieser Artikel gewährt keine Rechte an dem geistigen Eigentum für Microsoft-Produkte. Er darf für interne Zwecke und als Referenz kopiert und verwendet werden.
+sections:
+- name: Kurze häufig gestellte Fragen
+  questions:
+  - question: Was sind die vier wichtigsten VCDPA-Fakten, die ich kennen sollte?
+    answer: >
+      1. Das Consumer Data Protection Act (VCDPA) ist ein umfassendes Datenschutzgesetz in den Vereinigten Staaten und **wird ab dem 1. Januar 2023 von der Generalstklägerin (AG) erzwungen.** Der Generalbundesanwalt kann **"für jeden Verstoß einen Schaden von bis zu 7.500 USD"** verlangen.
+
+      2. Das VCDPA bietet Den Verbrauchern eine **Vielzahl von Datenschutzrechten.** Unternehmen, die durch das VCDPA reguliert werden, haben viele Verpflichtungen gegenüber diesen Verbrauchern, einschließlich der Bereitstellung von Offenlegungen, der Reaktion auf Anträge betroffener Personen (DSRs) der Datenschutz-Grundverordnung (DSGVO) und der Einhaltung bestimmter Datenverarbeitungspflichten *(z.* B. Datenminimierung, angemessene Datenschutzpraktiken).
+
+      3. Während Unternehmen mit starken DSGVO-Complianceprogrammen möglicherweise einen Vorsprung bei der VCDPA-Compliance haben, **gibt es wichtige Unterschiede zwischen der DSGVO und VCDPA,** die berücksichtigt werden müssen. Compliance kann nicht über Nacht erfolgen; Es dauert einige Zeit, um die regulatorischen Feinheiten des VCDPA zu verstehen und interne Tools und Mechanismen zu implementieren, um sicherzustellen, dass die Datenstände VCDPA-Compliance bereit sind.
+
+      4. Wie im Abschnitt "Umfassende häufig gestellte Fragen" ausführlicher beschrieben, stellt Microsoft Produkte und Dienste bereit, die **Kunden dabei unterstützen, die VCDPA-Compliance** zu erreichen und **bestimmte grundlegende Tools bereitzustellen, um Kunden bei** der Einrichtung, Implementierung und Aufrechterhaltung "angemessener administrativer, technischer und physischer Datenschutzpraktiken zum Schutz der Vertraulichkeit, Integrität und Barrierefreiheit personenbezogener Daten" zu unterstützen, wie dies vom VCDPA gefordert wird.
+  - question: Gilt der VCDPA für meine Organisation?
+    answer: >
+      Das VCDPA gilt für gewinnorientierte Unternehmen, die personenbezogene Daten von Gebietsansässigen in größerem Umfang kontrollieren oder verarbeiten.
+
+
+      Genauer gesagt gilt der VCDPA für Organisationen, die "Geschäftlich in der Stadt Desaster durchführen oder Produkte oder Dienstleistungen herstellen, die für Dienser des Unternehmens bestimmt sind" und während des Geschäftsjahrs entweder: (1) personenbezogene Daten von mindestens 100.000 Gebietsansässigen kontrollieren oder verarbeiten oder (2) mehr als 50 % des Umsatzes aus dem Verkauf personenbezogener Daten ableiten (der VCDPA stellt nicht klar, ob der Umsatzschwellenwert nur für Mandanten gilt) und kontrolle oder verarbeitet personenbezogene Daten von mindestens 25.000 Hamburgern.
+
+
+      Beachten Sie, dass, obwohl der VCDPA nicht "Geschäftstätigkeit in Einerzingen" definiert, ein reguliertes Unternehmen davon ausgehen kann, dass das VCDPA auf sie angewendet wird, wenn es eine bestimmte wirtschaftliche Aktivität gibt, die eine Steuerpflicht oder persönliche Gerichtsbarkeit inZwenn auslöst.
+  - question: Ist es erforderlich, Microsoft-Verträge zur Einhaltung des VCDPA zu aktualisieren?
+    answer: Nein. Wie unter "Gibt es weitere Datenverarbeitungsbedingungen, die vorhanden sein müssen?" beschrieben? die Bedingungen des Nachtrags zum Datenschutz von Microsoft-Produkten und -Diensten entsprechen den Anforderungen des VCDPA.
+  - question: Wie wirkt sich der VCDPA auf mein Unternehmen aus?
+    answer: >
+      Viele der Rechte des VCDPA, die Den Verbrauchern gewährt werden, ähneln den Rechten, die die DSGVO bietet, einschließlich Verbraucherrechten wie den Rechten auf Zugriff, Löschung und Portabilität von personenbezogenen Daten. Daher kann ein reguliertes Unternehmen nach unseren vorhandenen DSGVO-Lösungen suchen, um sie bei ihren VCDPA-Compliance-Bemühungen zu unterstützen.
+
+
+      Je nach den einzigartigen Umständen Ihres Unternehmens und dem Ort, an dem Sie Ihr VCDPA-Datenschutzprogramm entwickeln, können Sie sich auf die folgenden fünf wichtigsten Schritte konzentrieren, um Ihre VCDPA-Reise zu beginnen:
+
+
+      - **Ermitteln:** Ermitteln Sie, welche personenbezogenen Daten Ihr Unternehmen hat und wo es sich befindet.
+
+      - **Zuordnung:** Bestimmen, wie Ihr Unternehmen personenbezogene Daten an Dritte weitergibt.
+
+      - **Verwalten:** Steuern, wie personenbezogene Daten verwendet und darauf zugegriffen wird.
+
+      - **Schützen**: Richten Sie Sicherheitskontrollen ein, um Schwachstellen und Datenschutzverletzungen zu verhindern, zu erkennen und darauf zu reagieren.
+
+      - **Dokument:** Dokumentieren eines Programms zur Reaktion auf Datenschutzverletzungen.
+
+
+      Darüber hinaus ist [Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ein Feature in der [Microsoft 365 Compliance Center,](/microsoft-365/compliance/microsoft-365-compliance-center) mit dem Sie den Compliancestatus Ihrer Organisation verstehen und Maßnahmen ergreifen können, um Risiken zu verringern. Die Vorlage für die Erstellung der Bewertung finden Sie auf der Seite **Bewertungsvorlagen** im Compliance Manager. Weitere Informationen finden Sie in den [Buildbewertungen im Compliance-Manager-Artikel.](/microsoft-365/compliance/compliance-manager-assessments)
+
+
+      Sie müssen verstehen, welche spezifischen Verpflichtungen Ihre Organisation im Rahmen von VCDPA hat und wie Sie diese erfüllen, obwohl Microsoft hier ist, um Sie auf Ihrem Weg zu unterstützen.
+- name: Umfassende häufig gestellte Fragen
+  questions:
+  - question: Wann wird der VCDPA wirksam?
+    answer: Der VCDPA wurde am 2. März 2021 gesetzlich verpflichtet. Die Erzwingung durch den Generalbundesanwalt wird jedoch erst am 1. Januar 2023 beginnen.
+  - question: Gibt es bestimmte Organisationen, die vom VCDPA ausgenommen sind?
+    answer: >
+      Bestimmte Organisationen sind vom VCDPA ausgenommen, darunter:
+
+
+      - Behörden der Bundesstaaten
+
+      - Finanzinstitute, die dem Gramm-Leach-Bliley Act unterliegen
+
+      - Erfasste Entitäten oder Geschäftspartner, die den Datenschutz-, Sicherheits- und Benachrichtigungsregeln unterliegen, die gemäß dem Health Insurance Portability and Accountability Act festgelegt wurden
+
+      - Gemeinnützige Organisationen; und Bildungseinrichtungen.
+  - question: Welche Verbraucherrechte müssen Unternehmen unter dem VCDPA aktivieren?
+    answer: >
+      Das VCDPA bietet auch Schutz vor Belästigung, wenn/wenn Verbraucher ihre Rechte ausüben möchten, und bietet Verbrauchern die Möglichkeit, den Verkauf ihrer personenbezogenen Daten, gezielte Werbung und bestimmte Profilerstellung abzulehnen. Weitere Informationen dazu, wie Sie Microsoft-Produkte, -Dienste und -Verwaltungstools nutzen können, um personenbezogene Daten zu finden und zu "verarbeiten", finden Sie in den [Anträgen betroffener Personen sowie in der DSGVO und im CCPA.](/compliance/regulatory/gdpr-data-subject-requests)
+
+
+      Das VCDPA setzt voraus, dass regulierte Unternehmen innerhalb von 45 Tagen auf Anträge zur Ausübung von Verbraucherrechten reagieren, und dieser Zeitraum kann um weitere 45 Tage verlängert werden, wenn dem anfordernden Verbraucher eine Benachrichtigung zur Erläuterung des Grunds für diese Verzögerung angezeigt wird. Das VCDPA bietet Den Verbrauchern auch das Recht, gegen die Ablehnung eines solchen Antrags durch ein vom Unternehmen bereitgestelltes Beschwerdeverfahren, das "auffallend verfügbar" sein muss, Beschwerde einzulegen. Ein Unternehmen muss innerhalb von 60 Tagen schriftlich auf eine Beschwerde reagieren; wenn die Beschwerde verweigert wird, muss das Unternehmen dem Verbraucher einen "Onlinemechanismus (sofern verfügbar) oder eine andere Methode" zur Verfügung stellen, über die ein Verbraucher eine Beanstandung bei der AG einreichen kann.
+  - question: Was sind die Datenverarbeitungsverpflichtungen im Rahmen des VCDPA?
+    answer: >
+      Zu den geschäftlichen Verpflichtungen im Rahmen des VCDPA gehören:
+
+
+      - **Datenminimierung:** Beschränken Sie die Sammlung personenbezogener Daten auf das, was angemessen, relevant und angemessen erforderlich ist (*z.* B. die angegebenen und ausdrücklichen Verarbeitungszwecke).
+
+      - **Zweckbeschränkung:** Verarbeitung personenbezogener Daten nur für Zwecke, die angemessen notwendig sind oder mit den dem Verbraucher offengelegten Zwecken kompatibel sind (*z.* B. in einem Datenschutzhinweis).
+
+      - **Sicherheitskontrollen:** Einrichten, Implementieren und Verwalten "angemessener administrativer, technischer und physischer Datenschutzpraktiken" zum Schutz der personenbezogenen Daten von Verbrauchern.
+
+      - **Nicht-Behandlung:** Personenbezogene Daten nicht auf eine Weise verarbeiten, die gegen die Antidiskriminierungsgesetze des Landes oder des Bundes verstößt. Darüber hinaus ist es Unternehmen nicht gestattet, einen Verbraucher wegen der Ausübung ihrer Rechte im Rahmen von VCDPA zu diskriminieren (mit einigen Ausnahmen, einschließlich für Bonusprogramme).
+
+      - **Zustimmung:** Einholen einer ausdrücklichen Zustimmung von Verbrauchern, wenn das Unternehmen (1) vertrauliche Daten verarbeitet, oder (2) von den Zwecken der Datenverarbeitung abweicht, die dem Verbraucher offengelegt werden (*z.* B. innerhalb der Datenschutzerklärung des Unternehmens).
+  - question: Was gilt ausdrücklich als "personenbezogene Daten" und "vertrauliche Daten"?
+    answer: "\"Personenbezogene Daten\" werden als alle Informationen definiert, die mit einer bestimmten oder identifizierbaren natürlichen Person verknüpft oder angemessen verknüpft sind, aber keine anonymisierten Daten oder öffentlich verfügbaren Informationen enthalten. Die VCDPA-Definition des Begriffs \"personenbezogene Daten\" entspricht in etwa \"personenbezogenen Daten\" im Rahmen der DSGVO.\n\n\"Vertrauliche Daten\" ist eine Kategorie von \"personenbezogenen Daten\", die Folgendes umfasst:\n\n- Personenbezogene Daten, die die rassische oder ethnische Herkunft, religiöse Überzeugungen, mentale oder physische Gesundheitsdiagnose, sexuelle Orientierung, Stheit oder Denkstatus offenlegen;\n- Die Verarbeitung von genetischen oder biometrischen Daten zur eindeutigen Identifizierung einer natürlichen Person;\n- Die von einem bekannten Kind gesammelten personenbezogenen Daten; Oder\n- Präzise Geolocation-Daten.\n\nWie oben erwähnt, erfordert der VCDPA vor der Verarbeitung von Daten unter bestimmten Umständen die \"Zustimmung\" des Verbrauchers, einschließlich vor der Verarbeitung der vertraulichen Daten eines Verbrauchers. \"Zustimmung\" wird als \"eindeutige bestätigende Maßnahme\" definiert, die die frei gegebene, spezifische, informierte und unzweideutige Zustimmung eines Verbrauchers zur Verarbeitung personenbezogener Daten über den Kunden darstellt und \"eine schriftliche Erklärung, einschließlich einer auf elektronischem Weg verfassten Erklärung, oder jede andere eindeutige bestätigende Aktion\" umfassen kann.\n"
+  - question: Gibt es vcdpa-erforderliche Offenlegungen von Datenschutzrichtlinien?
+    answer: >
+      Die folgenden Informationen müssen in einem angemessen zugänglichen, eindeutigen Datenschutzhinweis enthalten sein:
+
+
+      - Die Kategorien der verarbeiteten personenbezogenen Daten;
+
+      - Der Zweck der Verarbeitung personenbezogener Daten;
+
+      - Wie Verbraucher ihre Rechte in Bezug auf ihre personenbezogenen Daten (*z.* B. das Recht auf Berichtigung personenbezogener Informationen) ausüben können;
+
+      - Die Kategorien von personenbezogenen Daten, die für Dritte freigegeben werden (sofern vorhanden);
+
+      - Die Kategorien von Dritten, für die ein reguliertes Unternehmen personenbezogene Daten freigibt (sofern vorhanden).
+
+      - Die Tatsache, dass personenbezogene Daten an Dritte verkauft oder für gezielte Werbung verarbeitet werden und wie Sie sich abmelden können (diese Erklärung ist *nur* erforderlich, wenn ein Controller Daten für gezielte Werbung verkauft oder verarbeitet); Und
+
+      - Wie Verbraucher gegen eine Vom Unternehmen getroffene Entscheidung zur Anforderung von Rechten in Revision gehen können.
+  - question: Wie werden Daten unter dem VCDPA "verkauft"?
+    answer: >
+      Der "Verkauf personenbezogener Daten" wird als "Austausch personenbezogener Daten gegen finanzielle Berücksichtigung" durch ein Unternehmen an einen Dritten definiert. Der VCDPA bietet Verbrauchern das Recht, den Verkauf ihrer personenbezogenen Daten "abzumelden".
+
+
+      Beachten Sie, dass das VCDPA besagt, dass ein reguliertes Unternehmen in den folgenden Offenlegungen keine "Opt-Out"-Verkaufsanfragen berücksichtigen muss:
+
+
+      - (i) an einen Auftragsverarbeiter (*z.* B. eine Entität, die personenbezogene Daten im Auftrag des Unternehmens verarbeitet),
+
+      - (ii) für einen Dritten zur Bereitstellung eines von einem Verbraucher angeforderten Produkts oder einer von ihm angeforderten Dienstleistung,
+
+      - (iii) zu einem Partner,
+
+      - (iv) von Informationen, die ein Verbraucher absichtlich über einen Massenmedienkanal für die allgemein zugänglich gemacht hat und diese Informationen nicht auf eine bestimmte Zielgruppe beschränkt hat, und
+
+      - (v) im Rahmen einer Fusion, Übernahme usw., bei der ein Dritter die Kontrolle über das gesamte Oder einen Teil des Unternehmensvermögens übernimmt.
+  - question: Was ist eine Datenschutzbewertung (Data Protection Assessment, DPA)?
+    answer: >
+      Eine Datenschutzbehörde ist eine Bewertung, die die Vorteile gegenüber potenziellen Risiken für Verbraucher identifiziert und abwägt, die sich aus einer bestimmten Verarbeitung personenbezogener Daten ergeben. Unter VCDPA muss eine Datenschutzbehörde für die folgenden Aktivitäten durchgeführt werden: den Verkauf personenbezogener Daten, bei der Verarbeitung vertraulicher personenbezogener Daten, bei der Verarbeitung personenbezogener Daten für gezielte Werbung, bei der Verarbeitung personenbezogener Daten zu bestimmten Profilerstellungszwecken und in Fällen, in denen die Verarbeitung ein erhöhtes Risiko von Schäden für Verbraucher darstellt. Informationen zur Verwendung von Microsoft-Produkten, -Diensten und -Verwaltungstools zur Durchführung einer Datenschutz-Datenschutz-Folgenabschätzung [für die DSGVO.](/compliance/regulatory/gdpr-data-protection-impact-assessments)
+  - question: Gibt es Vertragsbedingungen für die Datenverarbeitung, die vorhanden sein müssen?
+    answer: >
+      Der VCDPA erfordert, dass ein Datenverantwortlicher (*z.* B. die Entität, die den Zweck und die Mittel der Verarbeitung personenbezogener Daten bestimmt) und ein Datenverarbeiter (*z.* B. eine Entität, die personenbezogene Daten im Auftrag des Verantwortlichen verarbeitet) eine Vereinbarung abschließen, die bestimmte Datenverarbeitungsbedingungen enthält. Die Bedingungen dieses Vertrags müssen bestimmte Bestimmungen enthalten, z. B.: Anweisungen zur Verarbeitung von Daten, Arten von betroffenen Personen, Art und Zweck der Verarbeitung, Dauer der Verarbeitung sowie Rechte und Pflichten beider Parteien. Darüber hinaus muss der Vertrag Verpflichtungen im Zusammenhang mit Unterauftragnehmern, Bewertungen, Vertraulichkeitspflicht, Löschung oder Rückgabe personenbezogener Daten umfassen und die Einhaltung des VCDPA durch einen Verarbeiter nachweisen.
+
+
+      Microsoft kann unter bestimmten Umständen als Datenverarbeiter betrachtet werden, wenn dienste für unsere Kunden bereitgestellt werden. Wenn dies der Fall ist, erfüllen die Bestimmungen des Nachtrags zum Datenschutz von Microsoft Products and Services (DPA) bereits die Anforderungen des VCDPA, da diese Anforderungen den vertraglichen Anforderungen der DSGVO ähneln; Es ist nicht erforderlich, den Vertrag Ihrer Organisation mit Microsoft zu aktualisieren. Wie in der Datenschutzbehörde festgelegt, hält Microsoft alle Gesetze und Bestimmungen ein, die für die Bereitstellung der Onlinedienste gelten, einschließlich der VCDPA.
+  - question: Wie hoch können die Strafen bei Nichteinhaltung sein?
+    answer: >
+      Der VCDPA gewährt der AG ausschließliche Autorität, ihre Bereitstellung zu erzwingen, wobei ein Zeitraum von 30 Tagen für etwaige verstöße gegen VCDPA gilt. Die AG kann für jeden Verstoß und alle "angemessenen Ausgaben, die bei der Untersuchung und Vorbereitung des Falls entstehen, einschließlich Anwaltsgebühren" eine vorläufige Abhilfe und Schäden von bis zu 7.500 US-Dollar beantragen.
+
+
+      Beachten Sie, dass der VCDPA den Verbrauchern kein privates Aktionsrecht gewährt.
+  - question: Was unternimmt Microsoft, um Sie beim Erreichen der VCDPA-Compliance zu unterstützen?
+    answer: "Microsoft hat unter anderem DSGVO-bezogene Anträge betroffener Personen global implementiert, sodass wir bereits in einer hervorragenden Position sind, um Ihnen zu helfen, ähnliche VCDPA-Anforderungen zu erfüllen. Wir haben auch unsere Vereinbarungen über die Gemeinsame Nutzung von Daten von Drittanbietern überprüft und Schritte unternommen, um sicherzustellen, dass die erforderlichen Vertragsbedingungen und Schutzbestimmungen vorhanden sind, um sicherzustellen, dass wir keine persönlichen Informationen \"verkaufen\".\n\nMicrosoft hilft Ihnen auch bei der Erfüllung Ihrer Verpflichtungen im Rahmen des VCDPA, indem es geeignete technische und organisatorische Maßnahmen implementiert, um Ihre Antworten auf Anträge betroffener Personen zu vereinfachen, technische Compliance-Tools/-Mechanismen bereitzustellen und Anweisungen zur Datenverarbeitung einzuhalten.\n\nAufgrund der Art des Cloud Computings arbeitet Microsoft unter einem Modell mit [gemeinsamer Verantwortung](/azure/security/fundamentals/shared-responsibility) für Onlinedienste. Gemeinsame Verantwortung ist ein wichtiges Thema, da sowohl Clouddienstanbieter als auch regulierte Unternehmen für Teile der Cloudsicherheit verantwortlich sind. Weitere Informationen zu unseren Sicherheits- und Datenschutzpraktiken finden Sie im [Microsoft Trust Center.](https://www.microsoft.com/trust-center/privacy) \n"
+  - question: Was sind einige Microsoft-Tools, die meiner Organisation helfen können, mit der Vorbereitung auf VCDPA zu beginnen?
+    answer: >
+      - Beginnen Sie mit der DSGVO-Bewertung im Compliance-Manager als Teil des VCDPA-Datenschutzprogramms Ihrer Organisation.
+
+      - Richten Sie einen Prozess ein, um effizient auf Verbraucherrechteanforderungen zu reagieren.
+
+      - Richten Sie Richtlinien ein, um vertrauliche Daten mit Microsoft Information Protection zu ermitteln, zu klassifizieren, zu kennzeichnen und zu schützen.
+
+      - Verwenden Sie E-Mail-Verschlüsselungsfunktionen, um vertrauliche Informationen weiter zu kontrollieren.
+  - question: Wie gilt der VCDPA für untergeordnete Elemente?
+    answer: >
+      Der VCDPA definiert ein untergeordnetes Kind als jede Person, die älter als 13 Jahre ist. Unternehmen, die die nachweisbaren Zustimmungsanforderungen unter der Online-Datenschutzregel für Kinder (COPPA) erfüllen, gelten als konform mit allen Verpflichtungen, die elternbezogene Zustimmung unter dem VCDPA einzuholen.
+
+
+      Der VCDPA sieht vor, dass die vertraulichen Daten eines Untergeordneten gemäß den [COPPA-Anforderungen](https://www.ftc.gov/enforcement/rules/rulemaking-regulatory-reform-proceedings/childrens-online-privacy-protection-rule) verarbeitet werden müssen.
+  - question: Wie sieht es mit personenbezogenen Daten der Mitarbeiter eines Unternehmens aus?
+    answer: VCDPA-Verpflichtungen gelten nicht für personenbezogene Daten, die in einem Anstellungskontext gesammelt und verwendet werden.
+  - question: Was sind die Unterschiede zwischen DSGVO und VCDPA?
+    answer: >-
+      Es gibt viele Unterschiede. Es ist einfacher, sich auf die Ähnlichkeiten zu konzentrieren, einschließlich:
+
+
+      - Transparenz- und Offenlegungspflichten.
+
+      - Verbraucherrechte auf Zugriff, Löschung und Korrektur ihrer personenbezogenen Daten.
+
+
+      VcDPA erfordert, dass Unternehmen es Verbrauchern ermöglichen, den Verkauf von Daten an Dritte, gezielte Werbung und bestimmte Profilerstellung zu deaktivieren. Dies sind schmaleere und spezifischere Verpflichtungen als das allgemeine DSGVO-Recht, der Verarbeitung zu widersprechen, das diese Arten von Offenlegungen umfasst, aber nicht speziell auf die Abdeckung dieser Offenlegungen beschränkt ist.
+
+
+      Darüber hinaus bietet der VCDPA Den Verbrauchern auch das Recht, gegen die Verweigerung eines Antrags einer betroffenen Person durch ein vom Unternehmen bereitgestelltes Beschwerdeverfahren, das "auffallend verfügbar" sein muss, Beschwerde einzulegen. Ein solcher Beschwerdeprozess ist von der DSGVO nicht erforderlich.
