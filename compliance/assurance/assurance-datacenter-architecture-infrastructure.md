@@ -1,5 +1,5 @@
 ---
-title: Rechenzentrumsarchitektur und -infrastruktur
+title: Architektur und Infrastruktur von Rechenzentren
 description: Eine Übersicht über die Architektur und Infrastruktur von Microsoft-Rechenzentren.
 ms.author: robmazz
 author: robmazz
@@ -19,24 +19,28 @@ f1.keywords:
 - NOCSH
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 44876abef95f269d454139fd721194ef3d48dcd4
-ms.sourcegitcommit: cf424cb1e7c12048120977f294f780b776119a96
+ms.openlocfilehash: 6d9304cd0099ba95da8c58432802a3b1c836b1d4
+ms.sourcegitcommit: 02b7aa81f950037d3c959a522336a7d7af579e86
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "60265119"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "60477950"
 ---
-# <a name="datacenter-architecture-and-infrastructure"></a>Rechenzentrumsarchitektur und -infrastruktur
+# <a name="datacenter-architecture-and-infrastructure"></a>Architektur und Infrastruktur von Rechenzentren
 
 Microsoft-Rechenzentren sind so konzipiert, dass sie eine Strategie der umfassenden Verteidigung implementieren, die mehrere Schutzebenen verwendet, um unsere Cloudarchitektur und unterstützende Infrastruktur zuverlässig zu schützen. Redundanz ist in alle Systeme auf mehreren Ebenen integriert, um die Verfügbarkeit von Rechenzentren zu unterstützen.
 
-Microsoft verfügt über hochgradig gesicherte Rechenzentren, die weltweit verteilt sind, und erstellt eine verteilte Rechenzentrumsinfrastruktur, die Tausende von Onlinediensten unterstützt. Diese global verteilte Infrastruktur wurde entwickelt, um Anwendungen den Benutzern näher zu bringen, die Datenaufbewahrung zu erhalten und umfassende Compliance- und Resilienzoptionen für Kunden zu bieten.
+Microsoft verfügt über hochgradig gesicherte Rechenzentren, die weltweit verteilt sind, und erstellt eine verteilte Rechenzentrumsinfrastruktur, die Tausende von Onlinediensten unterstützt. Diese global verteilte Infrastruktur wurde entwickelt, um Anwendungen näher an die Benutzer zu bringen, die Datenaufbewahrung zu erhalten und umfassende Compliance- und Resilienzoptionen für Kunden zu bieten.
 
 Regionen sind Gruppen von Rechenzentren, die über ein massives und robustes Netzwerk miteinander verbunden sind. Regionen sind in Regionen unterteilt. Kunden mit bestimmtem Datenaufbewahrungs- und Compliancestatus müssen in der Lage sein, ihre Daten und Anwendungen geschlossen zu halten. Dank der integrierten Fehlertoleranz können Regionen vollständige Regionsfehler über ihre Verbindung mit der dedizierten Netzwerkinfrastruktur mit hoher Kapazität beheben.
 
 Physisch getrennte Standorte innerhalb einer Region werden als Verfügbarkeitszonen bezeichnet, die jeweils aus einem oder mehreren Rechenzentren bestehen, die mit unabhängiger Energie, Energie und Netzwerk ausgestattet sind. Verfügbarkeitszonen ermöglichen die Ausführung unternehmenskritischer Anwendungen mit hoher Verfügbarkeit und Replikation mit geringer Latenz.
 
-Geografisch verteilte Rechenzentren ermöglichen Es Microsoft, Dienste kundennäher zu machen, die Netzwerklatenz zu reduzieren und georedundante Sicherung und Failover zu ermöglichen.
+Die folgende Abbildung zeigt, wie die globale Infrastruktur Regionen und Verfügbarkeitszonen innerhalb derselben Datenaufbewahrungsgrenze für hohe Verfügbarkeit, Notfallwiederherstellung und Sicherung paart.
+
+![Datenaufbewahrungsgrenzen.](../media/assurance-data-residency-boundary.png)
+
+Geografisch verteilte Rechenzentren ermöglichen Es Microsoft, Dienste kundennäher zu machen, die Netzwerklatenz zu reduzieren und georedundante Sicherungen und Failovers zu ermöglichen.
 
 ## <a name="availability"></a>Verfügbarkeit
 
@@ -46,7 +50,7 @@ Microsoft-Rechenzentren sind so konzipiert, dass sie eine Verfügbarkeit von 99,
 
 Microsoft hat über 15 Milliarden USD in den Aufbau unserer globalen Infrastruktur und über 9 Milliarden USD in Forschung und Entwicklung investiert, um die Effizienz zu steigern und Innovationen voranzutreiben. Daher entwickeln sich die Rechenzentren von Microsoft in einem schnelleren Tempo als viele Einrichtungen in der Branche und folgen daher nicht den gesetzlichen Anforderungen, die von herkömmlichen Rechenzentrumsstandards beschrieben werden. Zusätzlich zu den vielen betriebsbereiten Einblicken, die mit einem der weltweit größten Rechenzentrumsportfolios verbunden sind, verwendet Microsoft IEEE Gold Book-Daten und Zuverlässigkeitssimulationssoftware von Drittanbietern, um unsere Rechenzentrumsdesignstandards kontinuierlich zu verbessern. Microsoft-Rechenzentren werden im Rahmen mehrerer behördlicher Prüfungen, die im Compliance-Portfolio genannt werden, umfassend geprüft. Der Fälligkeitsgrad in Microsoft-Rechenzentren kann über das Compliance-Portfolio und insbesondere die ISO 22301-Zertifizierung zur Ausfallsicherheit ausgewertet werden.
 
-Während Microsoft Programme in Übereinstimmung mit der ANSI/TIA-942-Telekommunikationsinfrastruktur von Datacenters Standard betreibt, gelten Teile dieses Standards nicht für Microsoft oder stehen in Konflikt mit anderen gesetzlichen und/oder länderspezifischen Anforderungen. Darüber hinaus hat Microsoft einen leistungsbasierteren Ansatz gewählt, um die Kundenanforderungen zu erfüllen.
+Während Microsoft Programme in Übereinstimmung mit der ANSI/TIA-942-Telekommunikationsinfrastruktur von Datacenters Standard betreibt, gelten Teile dieses Standards nicht für Microsoft oder stehen in Konflikt mit anderen gesetzlichen und/oder länderspezifischen Anforderungen. Darüber hinaus hat Microsoft einen leistungsbasierten Ansatz gewählt, um die Kundenanforderungen zu erfüllen.
 
 ## <a name="data-and-network-redundancy"></a>Daten- und Netzwerkredundanz
 
@@ -83,7 +87,7 @@ Es gibt zwei Bestandsteams, die unterschiedliche Systemtypen verwalten:
 
 - **Websitedienste-Team:**
 
-    - Site Services ist das Team, das die Wartung von Microsoft-Onlinedienstressourcen im Microsoft-Rechenzentrum bereitstellt. Das DC Site Services-Team bietet einen intelligenten Hands/Break Fix-Dienst für Objekte, die zu Eigenschaften gehören, die Dienste aus dem Rechenzentrum bereitstellen. Beispielsweise könnten Ressourcen, die physische Wartung erfordern, smart hands Service vom DC Site Services-Team anfordern. Alle Websitedienste in Microsoft-Ressourcen werden in Arbeitstickets innerhalb des Workflowtickets geplant, ausgeführt, dokumentiert und überprüft, und ohne ein genehmigtes Arbeitsticket kann keine Arbeit ausgeführt werden.
+    - Site Services ist das Team, das die Wartung von Microsoft-Onlinedienstressourcen im Microsoft-Rechenzentrum bereitstellt. Das DC Site Services-Team bietet einen intelligenten Hands/Break Fix-Dienst für Objekte, die zu Eigenschaften gehören, die Dienste aus dem Rechenzentrum bereitstellen. Beispielsweise könnten Ressourcen, die physische Wartung erfordern, smart hands Service vom DC Site Services-Team anfordern. Alle Websitedienste in Microsoft-Ressourcen werden in Arbeitstickets im Workflowticketing-Tool geplant, ausgeführt, dokumentiert und überprüft, und ohne ein genehmigtes Arbeitsticket kann keine Arbeit ausgeführt werden.
     - Das Technical Program Manager (TPM) und das DCM-Team sind für alle Websitedienste verantwortlich, die im Rechenzentrum ausgeführt werden, sowie für Die Arbeit, die erfordert, dass die Ressource außerhalb des Standorts übertragen wird. Die Wartung der Websitedienste erfolgt in Bereichen des Rechenzentrums, die durch physische Sicherheitsmechanismen gesteuert und geschützt werden.
 
 Wenn CE-Komponenten aus der Einrichtung entfernt werden müssen, wird die Handhabung des Geräts von DCM genehmigt. In den meisten Fällen werden CE-Komponenten vor Ort gewartet und nicht aus der Einrichtung entfernt. Eigenschaftsobjekte (z. B. Netzwerkgeräte oder Server), die außerhalb des Standorts übertragen werden müssen, müssen über eine explizite Genehmigung des Objektbesitzers verfügen.
