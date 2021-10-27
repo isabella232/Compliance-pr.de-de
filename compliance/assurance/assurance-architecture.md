@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 97fe615296f03c8f72dbf23d886501988686b53a
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: 513fe8b9f9a4ed5db71606704738cb46a6af8ed1
+ms.sourcegitcommit: 1f30616328d7deb04e41dcbd44a330ea937fe94f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59159297"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60582668"
 ---
 # <a name="architecture-overview"></a>Architekturübersicht
 
@@ -47,13 +47,13 @@ Dynamics 365 ist eine Online-Business-Anwendungssuite, die die Crm-Funktionen (C
 
 Microsoft 365 ist die cloudbasierte, abonnementbasierte Version von Office, Windows 10, Enterprise Mobility + Security und Compliance. Microsoft 365 Kunden Clients wie Outlook und Windows erhalten, und sie profitieren auch von Diensten, die Microsoft in ihrem Auftrag hostet, z. B. Exchange Online, Microsoft Teams und SharePoint Online. Alle Komponenten des Diensts werden regelmäßig als Teil des Abonnementmodells aktualisiert, sodass unsere Kunden über ein "evergreen"-Produkt verfügen. Microsoft verwaltet die Dienstinfrastruktur im Auftrag von Kunden, was bedeutet, dass Microsoft für die Sicherung der Infrastruktur verantwortlich ist, in der Kundendaten gespeichert sind.
 
-Hinsichtlich der Skalierung verwendet Microsoft derzeit fast eine Million Computer, um Microsoft 365 Dienste zu unterstützen. Die Infrastruktur, die diese Dienste unterstützt, ist je nach dienstspezifischer Hardware und virtualisierten Umgebungen in Azure, Windows und Linux sowie auf mehreren Mandanten und dedizierten Plattformen sehr unterschiedlich. Microsoft 365 ist ein globales Unternehmen, und unsere Infrastruktur ist in Rechenzentren auf der ganzen Welt verteilt, so dass unsere Kunden die Anforderungen an die Datenspeicherung und Souveränität der Daten erfüllen können.
+Hinsichtlich der Skalierung verwendet Microsoft derzeit fast eine Million Computer, um Microsoft 365 Dienste zu unterstützen. Die Infrastruktur, die diese Dienste unterstützt, variiert je nach dienstspezifischer Hardware und virtualisierten Umgebungen in Azure, Windows und Linux sowie auf mehrinstanzenfähigen und dedizierten Plattformen. Microsoft 365 ist ein globales Unternehmen, und unsere Infrastruktur ist in Rechenzentren auf der ganzen Welt verteilt, so dass unsere Kunden die Anforderungen an die Datenspeicherung und Souveränität der Daten erfüllen können.
 
 ## <a name="how-do-microsoft-online-services-ensure-isolation-between-customer-tenants"></a>Wie stellen Microsoft-Onlinedienste die Isolierung zwischen Kundenmandanten sicher?
 
 Die Clouddienste von Microsoft basieren auf der Annahme, dass alle Mandanten potenziell ungern gegenüber allen anderen Mandanten sind. Um Mandanten ordnungsgemäß voneinander zu isolieren, implementiert Microsoft verschiedene Isolationstechnologien und -steuerelemente. Diese Steuerelemente dienen zum Schutz vor Informationslecks oder unbefugtem Zugriff auf Kundendaten über Mandanten hinweg und um zu verhindern, dass die Aktionen eines Mandanten den Dienst für einen anderen Mandanten beeinträchtigen.
 
-Kundeninhalte werden logisch innerhalb von Mandanten isoliert, indem Azure Active Directory (Azure AD) verwendet wird. Die Benutzerauthentifizierung in Microsoft-Onlinediensten überprüft nicht nur die Benutzeridentität, sondern auch die Mandantenidentität, zu der das Benutzerkonto gehört, und verhindert, dass Benutzer auf Daten außerhalb ihrer Mandantenumgebung zugreifen können. Um die logische Isolierung von Azure AD zu ergänzen, werden Kundeninhalte immer im Ruhezustand und während der Übertragung verschlüsselt. Einzelne Dienste können auch zusätzliche Ebenen der Mandantenisolation bereitstellen, z. B. SharePoint Onlineisolation von Mandantendaten in separaten, verschlüsselten Datenbanken.
+Kundeninhalte werden logisch innerhalb von Mandanten isoliert, indem Azure Active Directory (Azure AD) verwendet wird. Die Benutzerauthentifizierung in Microsoft-Onlinediensten überprüft nicht nur die Benutzeridentität, sondern auch die Mandantenidentität, zu der das Benutzerkonto gehört, und verhindert, dass Benutzer auf Daten außerhalb ihrer Mandantenumgebung zugreifen können. Um die logische Isolation von Azure AD zu ergänzen, werden Kundeninhalte immer im Ruhezustand und während der Übertragung verschlüsselt. Einzelne Dienste können auch zusätzliche Ebenen der Mandantenisolation bereitstellen, z. B. SharePoint Onlineisolation von Mandantendaten in separaten, verschlüsselten Datenbanken.
 
 ## <a name="how-do-microsoft-online-services-engineer-resilient-services-that-avoid-single-points-of-failure"></a>Wie entwickeln Microsoft-Onlinedienste ausfallsichere Dienste, die einzelne Fehlerquellen vermeiden?
 
@@ -86,6 +86,6 @@ Die Onlinedienste von Microsoft werden regelmäßig auf die Einhaltung externer 
 | **Externe Überwachungen** | **Section** | **Aktuelles Berichtsdatum** |
 |:--------------------|:------------|:-----------------------|
 | [FedRAMP](https://compliance.microsoft.com/compliancemanager) | AC-4: Erzwingung des Informationsflusses <br> CP-9: Sicherung des Informationssystems <br> PL-8: Informationssicherheitsarchitektur <br> SC-7: Grenzschutz <br> SC-22: Architektur und Bereitstellung | 24. September 2020 |
-| [ISO 27001/27002/27017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=8d625374-4f2d-49f8-9d37-a4281ba98222&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [Erklärung zur Anwendbarkeit](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.6: Organisation der Informationssicherheit <br> A.13.1: Verwaltung der Netzwerksicherheit <br> A.17.2: Redundanzen | 20. April 2021 |
+| [ISO 27001/27002/27017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=8d625374-4f2d-49f8-9d37-a4281ba98222&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [Erklärung zur Anwendbarkeit](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br> [Zertifizierung](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=1e84a14a-2468-45ac-9412-5e53250d57ec&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.6: Organisation der Informationssicherheit <br> A.13.1: Verwaltung der Netzwerksicherheit <br> A.17.2: Redundanzen | 20. April 2021 |
 | [SOC 1](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=90df3f9c-3aaf-4dbf-99d0-ca9f2991721b&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-37: Mandantenisolation <br> CA-49: Sicherungsrichtlinien <br> CA-51: Datenreplikation | 24. Dezember 2020 |
 | [SOC 2](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=a73c1738-7892-42b7-acd3-87b6371c53f6&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-05: Datenflussdiagramme <br> CA-37: Mandantenisolation <br> CA-49: Sicherungsrichtlinien <br> CA-51: Datenreplikation | 24. Dezember 2020 |

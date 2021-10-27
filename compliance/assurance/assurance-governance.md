@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 86885737bb3e6acd0a9503c240b09cb3349da7a8
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: 9014bc06d54f6d5c7e33a8cb316be51146439e41
+ms.sourcegitcommit: 1f30616328d7deb04e41dcbd44a330ea937fe94f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59159022"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60582628"
 ---
 # <a name="governance-overview"></a>Governance (Übersicht)
 
@@ -44,7 +44,7 @@ Microsoft 365 dokumentiert Sicherheitsimplementierungen in den Microsoft 365-Ric
 Die Informationssysteme umfassen die folgenden Komponenten, die durch die Microsoft 365 Informationssicherheitsrichtlinie (für Microsoft 365) und die Microsoft-Sicherheitsrichtlinie (für Azure und Dynamics 365) geregelt sind:
 
 - Infrastruktur: Die physischen und Hardwarekomponenten von Azure, Dynamics 365 und Microsoft 365 Systemen (Einrichtungen, Geräte und Netzwerke)
-- Software: Die Programme und Die Betriebssoftware von Azure, Dynamics 365 und Microsoft 365 Systemen (Systeme, Anwendungen und Dienstprogramme)
+- Software: Die Programme und die Betriebssoftware von Azure, Dynamics 365 und Microsoft 365 Systemen (Systeme, Anwendungen und Dienstprogramme)
 - Personen: Das Personal, das an dem Betrieb und der Verwendung von Azure-, Dynamics 365- und Microsoft 365-Systemen beteiligt ist (Entwickler, Operatoren, Benutzer und Vorgesetzte)
 - Verfahren: Die programmierten und manuellen Verfahren für den Betrieb von Azure-, Dynamics 365- und Microsoft 365-Systemen
 - Daten: Die von Azure, Dynamics 365 und Microsoft 365 Systemen generierten, gesammelten und verarbeiteten Informationen (Transaktionsdatenströme, Dateien, Datenbanken und Tabellen)
@@ -77,7 +77,7 @@ Die Onlinedienste von Microsoft werden regelmäßig auf die Einhaltung externer 
 | **Externe Überwachungen** | **Section** | **Aktuelles Berichtsdatum** |
 |:--------------------|:------------|:-----------------------|
 | [FedRAMP](https://compliance.microsoft.com/compliancemanager) | Ca-2: Sicherheitsbewertungen <br> PL-2: Systemsicherheitsplan | 24. September 2020 |
-| [ISO 27001/27002/27017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=8d625374-4f2d-49f8-9d37-a4281ba98222&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [Erklärung zur Anwendbarkeit](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.18.1: Einhaltung gesetzlicher und vertraglicher Anforderungen <br> A.18.2: Überprüfungen der Informationssicherheit | 20. April 2021 |
+| [ISO 27001/27002/27017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=8d625374-4f2d-49f8-9d37-a4281ba98222&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [Erklärung zur Anwendbarkeit](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br> [Zertifizierung](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=1e84a14a-2468-45ac-9412-5e53250d57ec&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.18.1: Einhaltung gesetzlicher und vertraglicher Anforderungen <br> A.18.2: Überprüfungen der Informationssicherheit | 20. April 2021 |
 | [SOC 2](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=a73c1738-7892-42b7-acd3-87b6371c53f6&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-11: Richtlinienframeworkupdates <br> CA-17: Microsoft-Sicherheitsrichtlinie <br> CA-25: Control Framework-Updates | 24. Dezember 2020 |
 
 ## <a name="resources"></a>Ressourcen
