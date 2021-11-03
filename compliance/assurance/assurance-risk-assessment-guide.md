@@ -1,5 +1,5 @@
 ---
-title: Leitfaden zur Risikobewertung für Microsoft Cloud
+title: Führungslinie zur Risikobewertung für Microsoft Cloud
 description: Erfahren Sie mehr über den Leitfaden zur Risikobewertung für Microsoft Cloud
 ms.author: robmazz
 author: robmazz
@@ -20,18 +20,18 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: a7b6e345afa49d82f96d9eb9e5c804fc7cbf5ffe
-ms.sourcegitcommit: 1f30616328d7deb04e41dcbd44a330ea937fe94f
+ms.openlocfilehash: df4b98f90c70bab3bd7f09e6312833d8a7ea768b
+ms.sourcegitcommit: 85b36ce8c79fb111980cc6462f2addb44a924065
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60584856"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60678432"
 ---
-# <a name="risk-assessment-guide-for-microsoft-cloud"></a>Leitfaden zur Risikobewertung für Microsoft Cloud
+# <a name="risk-assessment-guide-for-microsoft-cloud"></a>Führungslinie zur Risikobewertung für Microsoft Cloud
 
 Das Ziel einer Cloudrisikobewertung besteht darin, sicherzustellen, dass das System und die daten, die für die Migration in die Cloud berücksichtigt werden, kein neues oder nicht identifiziertes Risiko in die Organisation einführen. Der Schwerpunkt liegt auf der Gewährleistung der Vertraulichkeit, Integrität, Verfügbarkeit und Destität der Informationsverarbeitung sowie darauf, identifizierte Risiken unterhalb des zulässigen internen Risikoschwellenwerts zu halten.
 
-In einem Modell für gemeinsame Verantwortung ist der Clouddienstanbieter (Cloud Service Provider, CSP) für die Verwaltung der Sicherheit und Compliance *der Cloud* als Anbieter verantwortlich. Der Kunde bleibt für die Verwaltung und Konfiguration von Sicherheit und Compliance in der Cloud gemäß ihren Anforderungen und risikotoleranz verantwortlich.
+In einem Modell für gemeinsame Verantwortung ist der Clouddienstanbieter (Cloud Service Provider, CSP) für die Verwaltung der Sicherheit und Compliance *der Cloud* als Anbieter verantwortlich. Der Kunde bleibt für die Verwaltung und Konfiguration von Sicherheit und Compliance *in der Cloud* gemäß ihren Anforderungen und risikotoleranz verantwortlich.
 
 ![Modell für gemeinsame Verantwortung.](../media/assurance-shared-responsibility-model.png)
 
@@ -41,7 +41,7 @@ In diesem Leitfaden werden bewährte Methoden zur effizienten Bewertung von Lief
 
 Cloudbereitstellungen können als Infrastructure as a Service (IaaS), Platform as a Service (PaaS) oder Software as a Service (SaaS) kategorisiert werden. Je nach dem zutreffenden Clouddienstmodell wechselt die Verantwortung für die Sicherheitskontrollen der Lösungen zwischen dem CSP und dem Kunden. Bei einem herkömmlichen lokalen Modell ist der Kunde für den gesamten Stapel verantwortlich. Wenn Sie in die Cloud wechseln, werden alle physischen Sicherheitsaufgaben an den CSP übertragen. Abhängig vom Clouddienstmodell für Ihre Organisation wechseln zusätzliche Zuständigkeiten zum CSP. In den meisten Dienstmodellen bleibt Ihre Organisation jedoch für die Geräte verantwortlich, die für den Zugriff auf die Cloud, die Netzwerkkonnektivität, Ihre Konten und Identitäten und Ihre Daten verwendet werden. Microsoft investiert stark in die Erstellung von Diensten, mit denen Kunden während des gesamten Lebenszyklus die Kontrolle über ihre Daten behalten können.
 
-Microsoft Cloud arbeitet auf einer Hyperskala und basiert auf einer Kombination aus DevSecOps und Automatisierung, um Betriebsmodelle zu standardisieren. Das Microsoft-Betriebssystem ändert die Art und Weise, wie Risiken im Vergleich zu herkömmlichen lokalen Betriebsmodellen entwickelt werden, was zur Implementierung verschiedener und manchmal unbekannter Kontrollen zur Verwaltung von Risiken führt. Bedenken Sie bei der Durchführung Ihrer Cloud-Risikobewertung, dass microsofts Ziel darin besteht, sicherzustellen, dass alle Risiken berücksichtigt werden, aber nicht unbedingt die gleichen Kontrollen implementiert werden, die Ihre Organisation durchführt. Microsoft kann die gleichen Risiken mit einer anderen Gruppe von Steuerelementen behandeln, die in der Cloudrisikobewertung berücksichtigt werden sollten. Durch das Entwerfen und Implementieren starker präventiver Kontrollen kann ein Großteil der Von den Erkennungs- und Korrekturkontrollen benötigten Arbeit reduziert werden.
+Microsoft Cloud arbeitet auf einer Hyperskala und basiert auf einer Kombination aus DevSecOps und Automatisierung, um Betriebsmodelle zu standardisieren. Das Microsoft-Betriebssystem ändert die Art und Weise, wie Risiken im Vergleich zu herkömmlichen lokalen Betriebsmodellen entwickelt werden, was zur Implementierung verschiedener und manchmal unbekannter Kontrollen zur Verwaltung von Risiken führt. Bedenken Sie bei der Durchführung Ihrer Cloud-Risikobewertung, dass microsofts Ziel darin besteht, sicherzustellen, dass alle Risiken berücksichtigt werden, aber nicht unbedingt die gleichen Kontrollen implementiert werden, die Ihre Organisation durchführt. Microsoft kann die gleichen Risiken mit einer anderen Gruppe von Steuerelementen behandeln, die in der Cloudrisikobewertung berücksichtigt werden sollten. Durch das Entwerfen und Implementieren starker präventiver Kontrollen kann ein Großteil der Von den Erkennungs- und Korrekturkontrollen benötigten Arbeit reduziert werden. Ein Beispiel hierfür ist die Implementierung von [Zero Standing Access (ZSA)](assurance-microsoft-365-service-engineer-access-control.md)durch Microsoft.
 
 ## <a name="adopt-a-framework"></a>Einführen eines Frameworks
 
@@ -55,7 +55,7 @@ Während der Kunde für die Verwaltung und Konfiguration von Sicherheit und Comp
 
 Zusätzlich zu externen Prüfberichten empfiehlt Microsoft Kunden dringend, die folgenden Ressourcen zu nutzen, um zu verstehen, wie Microsoft im Detail arbeitet:
 
-- [On-Demand Learning Path: Die Learn-Plattform](/learn/roles/auditor)von Microsoft bietet Hunderte von Lernpfaden und Modulen zu verschiedenen Themen. Erfahren Sie unter anderem, [wie Microsoft Kundendaten schützt,](/learn/paths/audit-safeguard-customer-data/) um die grundlegenden Sicherheits- und Datenschutzpraktiken von Microsoft zu verstehen.
+- [On-Demand Learning Path:](/learn/roles/auditor)Die Lernplattform von Microsoft bietet Hunderte von Lernpfaden und Modulen zu verschiedenen Themen. Erfahren Sie unter anderem, [wie Microsoft Kundendaten schützt,](/learn/paths/audit-safeguard-customer-data/) um die grundlegenden Sicherheits- und Datenschutzpraktiken von Microsoft zu verstehen.
 
 - [Service Assurance zu Microsoft Compliance:](/compliance/#service-assurance)Artikel zu Microsoft-Praktiken sind zur einfacheren Überprüfung in 16 Domänen unterteilt. Jede Domäne enthält eine Übersicht, in der erfasst wird, wie Microsoft die mit den einzelnen Bereichen verbundenen Risiken verwaltet. Überwachungstabellen werden mit Links zu den zuletzt im Service Trust Portal gespeicherten Berichten, verwandten Abschnitten und dem Datum, an dem der Überwachungsbericht für Microsoft-Onlinedienste durchgeführt wurde, bereitgestellt. Falls verfügbar, werden Links zu Artefakten bereitgestellt, die die Implementierung der Steuerung demonstrieren, z. B. Sicherheitsrisikobewertungen von Drittanbietern und Überprüfungsberichte des Geschäftskontinuitätsplans. Wie Überwachungsberichte werden diese Artefakte auf STP gehostet und erfordern eine Authentifizierung für den Zugriff.
 

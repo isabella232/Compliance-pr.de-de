@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 313905ec68c7d730cd2372ebd4679943ff124993
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: 4b255918c3bb46757d5bd12ae33d907200dd37b0
+ms.sourcegitcommit: 85b36ce8c79fb111980cc6462f2addb44a924065
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59159772"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60678452"
 ---
 # <a name="criminal-justice-information-services-cjis-security-policy"></a>Security Policy (CJIS)-Sicherheitsrichtlinie für straffällige Strafverfolgungsdienste (CJIS)
 
@@ -33,22 +33,22 @@ Die CJIS-Sicherheitsrichtlinie integriert Strafverfolgungs- und FBI-Direktiven, 
 
 Die CJIS-Sicherheitsrichtlinie definiert 13 Bereiche, die private Vertragsnehmer wie Clouddienstanbieter auswerten müssen, um festzustellen, ob ihre Verwendung von Clouddiensten mit den CJIS-Anforderungen in Einklang stehen kann. Diese Bereiche entsprechen eng NIST 800-53, das auch die Basis für das [Federal Risk and Authorization Management Program (FedRAMP)](offering-FedRAMP.md)ist, ein Programm, unter dem Microsoft für seine Government Cloud-Angebote zertifiziert wurde.
 
-Darüber hinaus müssen alle privaten Auftragnehmer, die CJI verarbeiten, den CJIS-Sicherheits-Nachtrag unterzeichnen, einen einheitlichen Vertrag, der vom US-Generalbundesanwalt genehmigt wurde und die Sicherheit und Vertraulichkeit von CJI gewährleistet, die gemäß der Sicherheitsrichtlinie erforderlich ist. Sie verpflichtet sich außerdem, ein Sicherheitsprogramm zu verwalten, das mit den Bundesgesetzen, Vorschriften und Standards von Bund und Ländern konsistent ist, und beschränkt die Verwendung von CJI auf die Zwecke, für die es von einer Regierungsbehörde bereitgestellt wurde.
+Darüber hinaus müssen alle privaten Auftragnehmer, die CJI verarbeiten, den CJIS-Sicherheits-Nachtrag unterzeichnen, einen einheitlichen Vertrag, der vom US-Generalbundesanwalt genehmigt wurde und die Sicherheit und Vertraulichkeit von CJI gewährleistet, die gemäß der Sicherheitsrichtlinie erforderlich ist. Sie verpflichtet sich außerdem, ein Sicherheitsprogramm aufrechtzuerhalten, das den Gesetzen, Vorschriften und Standards des Bundes und der Länder entspricht, und beschränkt die Verwendung von CJI auf die Zwecke, für die es von einer Regierungsbehörde bereitgestellt wurde.
 
 ## <a name="microsoft-and-cjis-security-policy"></a>Microsoft- und CJIS-Sicherheitsrichtlinie
 
 Microsoft signiert den CJIS-Sicherheits-Nachtrag in Staaten mit CJIS-Informationsvereinbarungen. Diese informieren die für die Einhaltung der CJIS-Sicherheitsrichtlinie zuständigen Staatlichen Strafverfolgungsbehörden, wie die Cloudsicherheitskontrollen von Microsoft dazu beitragen, den gesamten Lebenszyklus von Daten zu schützen und eine geeignete Hintergrundprüfung des Betriebspersonals mit Zugriff auf CJI sicherzustellen. Microsoft arbeitet weiterhin mit Staatlichen Behörden, um CJIS-Informationsverträge abzuschließen.
 
-Microsoft hat die Betriebsrichtlinien und -verfahren von Microsoft Azure Government, Microsoft Office 365 U.S. Government und Microsoft Dynamics 365 U.S. Government bewertet und wird bestätigen, dass sie in den geltenden Servicevereinbarungen in der Lage sind, die FBI-Anforderungen für die Nutzung von In-Scope-Diensten zu erfüllen.
+Microsoft hat die betriebsbereiten Richtlinien und Verfahren von Microsoft Azure Government, Microsoft Office 365 U.S. Government und Microsoft Dynamics 365 U.S. Government bewertet und wird bestätigen, dass sie in den geltenden Servicevereinbarungen in der Lage sind, die FBI-Anforderungen für die Nutzung von In-Scope-Diensten zu erfüllen.
 
 Erfahren Sie mehr über die Vorteile der CJIS-Sicherheitsrichtlinie in der Microsoft Cloud: [Erfahren Sie, wie Genetec strafrechtliche Untersuchungen gelöscht hat.](https://customers.microsoft.com/story/genetec)
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
 
 - Azure Government
 - Dynamics 365 U.S. Government
 - Office 365 US-Regierungsbehörden
-- Power BI-Clouddienst als eigenständiger Dienst oder in einem firmenspezifischen Office 365-Plan oder einer -Anwendungssuite enthalten
+- Power BI-Clouddienst entweder als eigenständiger Dienst oder als Bestandteil eines Office 365 Markenplans oder einer Office 365 Suite
 
 ## <a name="azure-dynamics-365-and-cjis"></a>Azure, Dynamics 365 und CJIS
 
@@ -76,7 +76,7 @@ Das FBI bietet keine Zertifizierung der Microsoft-Compliance mit CJIS-Anforderun
 
 ### <a name="cjis-status-in-the-united-states-current-as-of-1152020"></a>CJIS-Status in den Vereinigten Staaten (aktuell ab dem 5.11.2020)
 
-Zu den 45 Bundesstaaten und dem Schulbezirk mit Verwaltungsvereinbarungen, die auf der Karte in Grün hervorgehoben sind, gehören:
+Zu den 44 Staaten und dem Schulbezirk (District of Canada) mit Verwaltungsvereinbarungen, die auf der Karte in Grün hervorgehoben sind, gehören:
 
 Arkansas, Arkansas, ( 2013) Kalifornien, Seattle, Seattle, Chicago, California, Georgia, Idaho, Idaho, Fox, Iowa, Islands, Islands, Maine, Massachusetts, Mary, Minnesota, Islands, Islands, Islands, Nebraska, Cook, New Jersey, New Jersey, New Mexico, New York, North Canada, North California, Mary, California, Californiae Island, South Fox, The California, Texa, Texan, Verdis, Kate, Washington, West(
 
