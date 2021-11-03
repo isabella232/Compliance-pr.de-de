@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 92fb47f98e60eb655ee68b38cb747a7d2eb9d2ff
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: 99144f348b74ffa15752dbd9ec80ff8fbf17e538
+ms.sourcegitcommit: 85b36ce8c79fb111980cc6462f2addb44a924065
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59159939"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60678442"
 ---
 # <a name="system-and-organization-controls-soc-2-type-2"></a>System- und Organisationskontrollen (System and Organization Controls, SOC) 2, Typ 2
 
@@ -44,7 +44,7 @@ Office 365 SOC 2-Bescheinigungen basieren auf strengen unabhängigen Prüfungen 
 Microsoft-Onlinedienste im Bereich werden im Azure SOC 2, Typ 2-Bescheinigungsbericht angezeigt:
 
 - Azure (ausführliche Erkenntnisse finden Sie unter [Microsoft Azure Compliance-Angebote](https://azure.microsoft.com/resources/microsoft-azure-compliance-offerings/) oder im Azure SOC 2, Typ 2-Bescheinigungsbericht)
-- Azure DevOps (siehe separaten Azure DevOps SOC 2, Typ 2-Bescheinigungsbericht)
+- Azure DevOps (siehe separate [Azure DevOps SOC 2 Typ 2 Attestation Report](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3))
 - Dynamics 365 (ausführliche Erkenntnisse finden Sie im Azure SOC 2, Typ 2-Bescheinigungsbericht)
 - Microsoft 365 Defender
 - Microsoft Cloud App Security (MCAS)
@@ -82,14 +82,14 @@ Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Di
 |:------------------|:----------------------|
 | **Kommerziell** | Compliance-Manager, Kunden-Lockbox, Delve, Exchange Online Protection, Exchange Online, Forms, Griffin, Identity Manager, Lockbox (Torus), Microsoft Teams, MyAnalytics, Office 365-Kundenportal, Office 365-Microservices (einschließlich, aber nicht beschränkt auf Kaizala, ObjectStore, Sway, PowerPoint Online-Dokumentdienst, Abfrage-Anmerkungsdienst, School Data Sync, Siphon, Speech, StaffHub, eXtensible-Anwendungsprogramm), Office Online, Office-Dienstleistungsinfrastruktur, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, Project Online, Dienstverschlüsselung mit Kundenschlüssel, SharePoint Online, Skype for Business |
 | **GCC** | Azure Active Directory, Compliance-Manager, Delve, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, Stream |
-| **GCC Hoch** | Azure Active Directory, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business |
+| **GCC High** | Azure Active Directory, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business |
 | **DoD** | Azure Active Directory, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, Power BI, SharePoint Online, Skype for Business |
 
 ### <a name="office-365-audit-reports"></a>Office 365-Prüfberichte
 
-- [Office 365-Kern – SSAE 18 SOC 2-Bericht](https://aka.ms/o365SOC-2)
-- [Office 365-Microservices T1-SSAE 18 SOC 2, Typ 1-Bericht](https://aka.ms/o365-MS-SOC-2-type1)
-- [Siehe Überbrückungsbriefe und zusätzliche Prüfberichte](https://aka.ms/auditreports)
+- [Office 365-Kern – SSAE 18 SOC 2-Bericht](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=a73c1738-7892-42b7-acd3-87b6371c53f6&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports)
+- [Office 365-Microservices T1-SSAE 18 SOC 2, Typ 1-Bericht](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=e2dd6942-e70d-4222-8013-960514742f19&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports)
+- [Siehe Überbrückungsbriefe und zusätzliche Prüfberichte](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports)
 
 Sie müssen über ein bestehendes Abonnement oder ein kostenloses Testkonto im Office 365 oder [Office](https://azure.microsoft.com/global-infrastructure/government/request/) 365 U.S. Government verfügen, um SOC 1- und SOC 2-Bescheinigungsberichte und ggf. Überbrückungsbriefe herunterzuladen.
 
