@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 933db3783c6672fa952f70f18c4815955bcedb21
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: d5983ce587aa515be68c462c49eee87d7709bb23
+ms.sourcegitcommit: 444a58b28f8611323e16d28b4c63a0f68eaaafa6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59159014"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60780031"
 ---
 # <a name="identity-and-access-management-overview"></a>Identitäts- und Zugriffsverwaltung (Übersicht)
 
@@ -44,7 +44,7 @@ JEA wird durch Berechtigungsberechtigungen und Lockbox-Rollen zum Zeitpunkt der 
 Serviceteamkonten gewähren keinen ständigen Administratorrechten oder Zugriff auf Kundeninhalte. JIT-Anforderungen für eingeschränkte Administratorrechte werden über Lockbox verwaltet. Lockbox verwendet RBAC, um die Arten von JIT-Rechteerweiterungsanforderungen einzuschränken, die Techniker ausführen können, und bietet eine zusätzliche Schutzebene, um die geringsten Rechte zu erzwingen. RBAC hilft auch bei der Durchsetzung der Aufgabentrennung, indem Serviceteamkonten auf die entsprechenden Rollen beschränkt werden.
 Technikern, die einen Dienst unterstützen, wird basierend auf ihrer Rolle die Mitgliedschaft in Sicherheitsgruppen gewährt. Die Mitgliedschaft in einer Sicherheitsgruppe gewährt keinen privilegierten Zugriff. Sicherheitsgruppen ermöglichen Es Entwicklern stattdessen, Lockbox zu verwenden, um JIT-Rechteerweiterung anzufordern, wenn dies für die Unterstützung des Systems erforderlich ist. Die spezifischen JIT-Anforderungen, die ein Techniker stellen kann, sind durch ihre Sicherheitsgruppenmitgliedschaften begrenzt.
 
-## <a name="how-do-microsoft-online-services-handle-remote-access-to-production-systems"></a>Wie verarbeiten Microsoft-Onlinedienste den Remotezugriff auf Produktionssysteme?
+## <a name="how-do-microsoft-online-services-handle-remote-access-to-production-systems"></a>Wie behandeln Microsoft-Onlinedienste den Remotezugriff auf Produktionssysteme?
 
 Microsoft Online Services-Systemkomponenten befinden sich in Rechenzentren, die geografisch von den Betriebsteams getrennt sind. Mitarbeiter von Rechenzentren haben keinen logischen Zugriff auf Microsoft-Onlinedienstsysteme. Daher verwalten Mitarbeiter des Microsoft-Serviceteams die Umgebung über den Remotezugriff. Serviceteammitarbeiter, die Remotezugriff benötigen, um Microsoft-Onlinedienste zu unterstützen, erhalten nur nach genehmigung durch einen autorisierten Vorgesetzten Remotezugriff. Für den Remotezugriff wird ausschließlich FIPS 140-2-kompatibles TLS für sichere Remoteverbindungen verwendet.
 
@@ -71,7 +71,7 @@ Die Onlinedienste von Microsoft werden regelmäßig auf die Einhaltung externer 
 | **Externe Überwachungen** | **Section** | **Aktuelles Berichtsdatum** |
 |:--------------------|:------------|:-----------------------|
 | [FedRAMP](https://compliance.microsoft.com/compliancemanager) | AC-2: Kontoverwaltung <br> AC-3: Zugriffserzwingung <br> AC-5: Aufgabentrennung <br> AC-6: Geringste Rechte <br> AC-17: Remotezugriff | 24. September 2020 |
-| [ISO 27001/27002/27017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=8d625374-4f2d-49f8-9d37-a4281ba98222&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [Erklärung zur Anwendbarkeit](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.9.1: Geschäftliche Anforderungen der Zugriffssteuerung <br> A.9.2: Verwaltung des Benutzerzugriffs <br> A.9.3: Verantwortlichkeiten des Benutzers <br> A.9.4: System- und Anwendungszugriffskontrolle <br> A.15.1: Informationssicherheit in Lieferantenbeziehungen | 20. April 2021 |
+| [ISO 27001/27002/27017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=08ce227f-d1d9-4c4c-b255-4f2e4ec8f941&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [Erklärung zur Anwendbarkeit](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.9.1: Geschäftliche Anforderungen der Zugriffssteuerung <br> A.9.2: Verwaltung des Benutzerzugriffs <br> A.9.3: Verantwortlichkeiten des Benutzers <br> A.9.4: System- und Anwendungszugriffskontrolle <br> A.15.1: Informationssicherheit in Lieferantenbeziehungen | 20. April 2021 |
 | [SOC 1](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=90df3f9c-3aaf-4dbf-99d0-ca9f2991721b&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-33: Kontoänderung <br> CA-34: Benutzerauthentifizierung <br> CA-35: Privilegierter Zugriff <br> CA-36: Remotezugriff <br> CA-57: Microsoft-Verwaltungsgenehmigung für Kunden-Lockbox <br> CA-58: Kunden-Lockbox-Serviceanfragen <br> CA-59: Kunden-Lockbox-Benachrichtigungen <br> CA-61: JIT-Überprüfung und -Genehmigung | 24. Dezember 2020 |
 | [SOC 2](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=a73c1738-7892-42b7-acd3-87b6371c53f6&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-32: Richtlinie für freigegebene Konten <br> CA-33: Kontoänderung <br> CA-34: Benutzerauthentifizierung <br> CA-35: Privilegierter Zugriff <br> CA-36: Remotezugriff <br> CA-53: Überwachung durch Drittanbieter <br> CA-56: Kunden-Lockbox-Kundengenehmigung <br> CA-57: Microsoft-Verwaltungsgenehmigung für Kunden-Lockbox <br> CA-58: Kunden-Lockbox-Serviceanfragen <br> CA-59: Kunden-Lockbox-Benachrichtigungen <br> CA-61: JIT-Überprüfung und -Genehmigung | 24. Dezember 2020 |
 | [SOC 3](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=274054e5-4968-48d2-bf94-9a8eda5d7a93&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CUEC-15: Kunden-Lockbox-Anforderungen | 24. Dezember 2020 |

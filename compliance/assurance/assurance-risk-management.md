@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: a357fe77336fc6939fd01d277c4fa7046f37cd4b
-ms.sourcegitcommit: 1f30616328d7deb04e41dcbd44a330ea937fe94f
+ms.openlocfilehash: 9aa271acb1381ce6a43af466fb2824ccf1b243e7
+ms.sourcegitcommit: 444a58b28f8611323e16d28b4c63a0f68eaaafa6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60582518"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60779981"
 ---
 # <a name="risk-management-overview"></a>Risikomanagement (Übersicht)
 
@@ -37,7 +37,7 @@ Das Risikomanagement von Microsoft richtet sich nach dem Enterprise-Risikomanage
 
 ![Struktur des Risikomanagements.](../media/assurance-risk-management-structure.png)
 
-Microsoft ERM ermöglicht allgemeine Grundsätze des Risikomanagements im gesamten Unternehmen, sodass Geschäftseinheiten unabhängig voneinander konsistente und vergleichende Risikobewertungen ermöglichen können. Diese Koordination ermöglicht Es Microsoft, Risikoinformationen für die Verwaltung konsolidiert zu aggregieren und zu melden. ERM stellt Geschäftsbereichen bei Microsoft gemeinsame Methoden, Tools und Ziele für den Risikomanagementprozess bereit. Microsoft 365 und andere Engineering-Gruppen und Geschäftseinheiten verwenden diese Tools, um individuelle Risikobewertungen im Rahmen ihrer eigenen Risikomanagementprogramme unter der Anleitung von ERM durchzuführen.
+Microsoft ERM ermöglicht allgemeine Grundsätze des Risikomanagements im gesamten Unternehmen, sodass Geschäftseinheiten unabhängig konsistente und vergleichende Risikobewertungen ermöglichen können. Diese Koordination ermöglicht Es Microsoft, Risikoinformationen für die Verwaltung konsolidiert zu aggregieren und zu melden. ERM stellt Geschäftsbereichen bei Microsoft gemeinsame Methoden, Tools und Ziele für den Risikomanagementprozess bereit. Microsoft 365 und andere Engineering-Gruppen und Geschäftseinheiten verwenden diese Tools, um individuelle Risikobewertungen im Rahmen ihrer eigenen Risikomanagementprogramme unter der Anleitung von ERM durchzuführen.
 
 ## <a name="how-do-microsoft-online-services-work-with-erm"></a>Wie funktionieren Microsoft-Onlinedienste mit ERM?
 
@@ -64,6 +64,6 @@ Die Onlinedienste von Microsoft werden regelmäßig auf die Einhaltung externer 
 | **Externe Überwachungen** | **Section** | **Aktuelles Berichtsdatum** |
 |:--------------------|:------------|:-----------------------|
 | [FedRAMP](https://compliance.microsoft.com/compliancemanager) | Ca-2: Sicherheitsbewertungen <br> CA-5: Aktionsplan und Meilensteine <br> RA-3: Risikobewertung | 24. September 2020 |
-| [ISO 27001/27002/27017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=8d625374-4f2d-49f8-9d37-a4281ba98222&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [Erklärung zur Anwendbarkeit](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br> [Zertifizierung](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=1e84a14a-2468-45ac-9412-5e53250d57ec&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.5: Informationssicherheitsrichtlinien | 20. April 2021 |
+| [ISO 27001/27002/27017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=08ce227f-d1d9-4c4c-b255-4f2e4ec8f941&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [Erklärung zur Anwendbarkeit](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br> [Zertifizierung](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=1e84a14a-2468-45ac-9412-5e53250d57ec&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.5: Informationssicherheitsrichtlinien | 20. April 2021 |
 | [SOC 1](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=90df3f9c-3aaf-4dbf-99d0-ca9f2991721b&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-03: Risikomanagement | 24. Dezember 2020 |
 | [SOC 2](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=a73c1738-7892-42b7-acd3-87b6371c53f6&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-02: Verantwortlichkeiten des Governance-, Risiko- und Complianceteams <br> CA-03: Risikomanagement <br> CA-17: Microsoft-Sicherheitsrichtlinie <br> CA-24: Interne Risikobewertung | 24. Dezember 2020 |

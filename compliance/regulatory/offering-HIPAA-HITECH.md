@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 31fcc11280e8026bc962136c271713cd5e26078b
-ms.sourcegitcommit: 997dd3f66f65686c2e38b7e30e67add426dce5f3
+ms.openlocfilehash: 373d9c36d67324a1d3792786c45731b3da21686a
+ms.sourcegitcommit: 444a58b28f8611323e16d28b4c63a0f68eaaafa6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59159639"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60780131"
 ---
 # <a name="health-insurance-portability-and-accountability-act-hipaa--health-information-technology-for-economic-and-clinical-health-hitech-act"></a>Health Insurance Portability and Accountability Act (HIPAA) & Health Information Technology for Economic and Clinical Health (HITECH) Act
 
@@ -41,20 +41,19 @@ Es gibt derzeit keinen Zertifizierungsstandard, der vom Department of Health and
 
 ## <a name="third-party-certifications"></a>Zertifizierungen von Drittanbietern
 
-Microsoft-Dienste unter den BAA fallen, wurden von akkreditierten unabhängigen Auditoren für die Zertifizierung nach Microsoft ISO/IEC 27001 und die HITRUST CSF-Zertifizierung durchgeführt.
+Microsoft-Dienste, die unter den BAA fallen, wurden von akkreditierten unabhängigen Auditoren für die Zertifizierung nach Microsoft ISO/IEC 27001 und die HITRUST CSF-Zertifizierung auditiert.
 
-Microsoft Enterprise Cloud-Dienste sind auch durch FedRAMP-Bewertungen abgedeckt. Microsoft Azure und Microsoft Azure Regierung eine vorläufige Behörde für die Arbeit vom gemeinsamen FedRAMP-Autorisierungsrat erhalten haben; Microsoft Dynamics 365 U.S. Government erhielt eine Agenturautorität zum Arbeiten vom US Department of Health and Western Development, ebenso wie Microsoft Office 365 U.S. Government aus dem US Department of Health and Human Services.
+Microsoft Enterprise Cloud-Dienste sind auch durch FedRAMP-Bewertungen abgedeckt. Microsoft Azure und Microsoft Azure Regierung erhielten eine vorläufige Behörde für die Arbeit vom FedRAMP Joint Authorization Board; Microsoft Dynamics 365 U.S. Government erhielt eine Agenturautorität zum Arbeiten vom US Department of Health and Coding Development, ebenso wie Microsoft Office 365 U.S. Government vom U.S. Department of Health and Human Services.
 
 Wenn Sie erfahren möchten, wie die Microsoft-Cloud Kunden dabei unterstützt, HIPAA und die HITECH-Anforderungen zu erfüllen, besuchen Sie die [Microsoft-Kundenreferenzen](https://customers.microsoft.com/).
 
-## <a name="microsoft-in-scope-cloud-platforms--services"></a>In Microsoft eingeschlossene Cloudplattformen und -Dienste
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Zu Microsoft gehörende Cloudplattformen und -dienste
 
 - Azure und Azure Government
 - Azure DevOps Services
 - Dynamics 365 und Dynamics 365 U.S. Government
 - Intune
 - Microsoft Cloud App Security
-- [Microsoft Cloud for Healthcare](https://aka.ms/MicrosoftCloudforHealthcareCompliance)
 - Microsoft Healthcare Bot Service
 - [Microsoft Managed Desktop](/microsoft-365/managed-desktop/intro/compliance)
 - Microsoft Professional Services: Premier und On-Premises für Azure, Dynamics 365, Intune und Medium Business- und Enterprise-Kunden von Microsoft 365 for Business
@@ -79,7 +78,7 @@ Verwenden Sie die folgende Tabelle, um die Anwendbarkeit für Ihre Office 365-Di
 
 | **Anwendbarkeit** | **Im Leistungsumfang enthaltene Dienste** |
 |:------------------|:----------------------|
-| **Kommerziell** | Access Online, Azure Active Directory, Azure Communications Service, Compliance-Manager, Kunden-Lockbox, Delve, Exchange Online, Formulare, Griffin, Identity Manager, Lockbox (Torus), Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Kundenportal, Office 365 Microservices (einschließlich, aber nicht beschränkt auf Kaizala, ObjectStore, Sway, Power Automate, PowerPoint Onlinedokumentdienst, Abfrageanmerkungsdienst, School Data Sync, Sifon, Speech, StaffHub, eXtensible Application Program), Office 365 Security & Compliance Center, Office Online, Office Pro Plus, Office Services Infrastructure, OneDrive for Business, Planner, PowerApps, Power BI, Project Online, Dienstverschlüsselung mit Kundenschlüssel, SharePoint Online, Skype for Business, Stream |
+| **Kommerziell** | Access Online, Azure Active Directory, Azure Communications Service, Compliance Manager, Customer Lockbox, Delve, Exchange Online, Forms, Griffin, Identity Manager, Lockbox (Torus), Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Kundenportal, Office 365 Microservices (einschließlich, aber nicht beschränkt auf Kaizala, ObjectStore, Sway, Power Automate, PowerPoint Onlinedokumentdienst, Abfrageanmerkung Service, School Data Sync, Sifon, Speech, StaffHub, eXtensible Application Program), Office 365 Security & Compliance Center, Office Online, Office Pro Plus, Office Services Infrastructure, OneDrive for Business, Planner, PowerApps, Power BI, Project Online, Dienstverschlüsselung mit Kundenschlüssel, SharePoint Online, Skype for Business, Stream |
 | **GCC** | Azure Active Directory, Azure Communications Service, Compliance-Manager, Delve, Exchange Online, Forms, Microsoft Defender für Office 365, Microsoft Teams, MyAnalytics, Office 365 Advanced Compliance-Add-On, Office 365 Security & Compliance Center, Office Online, Office Pro Plus, OneDrive for Business, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, Stream |
 
 ### <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
@@ -108,10 +107,10 @@ Das [Vertrauensstellungsportal](https://www.microsoft.com/trustcenter/STP/defaul
 
 Um Kunden bei dieser Aufgabe zu unterstützen, hat Microsoft die folgenden Leitfäden veröffentlicht:
 
-- Der HIPAA/HITECH Act-Implementierungsleitfaden für [Azure](/azure/governance/blueprints/samples/hipaa-hitrust-9-2/) für Datenschutz-, Sicherheits- und Compliance-Beauftragte und andere, die für die HIPAA- und HITECH Act-Implementierung verantwortlich sind, beschreibt konkrete Schritte, die Ihre Organisation unternehmen kann, um die Compliance aufrechtzuerhalten.
+- Der HIPAA/HITECH Act-Implementierungsleitfaden für [Azure](/azure/governance/blueprints/samples/hipaa-hitrust-9-2/) für Datenschutz-, Sicherheits- und Compliance-Beauftragte und andere, die für die HIPAA- und HITECH Act-Implementierung verantwortlich sind, beschreibt konkrete Schritte, die Ihre Organisation zur Einhaltung der Compliance ergreifen kann.
 - [Praktischer Leitfaden zum Entwerfen von sicheren Gesundheitslösungen mit Microsoft Azure](https://aka.ms/azureindustrysecurity) hilft Ihnen, besser zu verstehen, was für die erfolgreiche, sichere Einführung eines Clouddiensts nötig ist.
 
-### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden Sie den Microsoft Compliance Manager, um Ihr Risiko einzuschätzen
+### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Verwenden von Microsoft Compliance-Manager zur Einschätzung des Risikos
 
 [Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager) ist eine Funktion im [Microsoft 365 Compliance Center](/microsoft-365/compliance/microsoft-365-compliance-center), die Ihnen hilft, die Compliance-Position Ihres Unternehmens zu verstehen und Maßnahmen zu ergreifen, um Risiken zu reduzieren. Compliance Manager bietet eine Premiumvorlage für die Erstellung einer Bewertung für diese Verordnung. Suchen Sie die Vorlage auf der Seite **Bewertungsvorlagen** im Compliance Manager. Erfahren Sie, wie Sie [Bewertungen im Compliance-Manager erstellen](/microsoft-365/compliance/compliance-manager-assessments).
 

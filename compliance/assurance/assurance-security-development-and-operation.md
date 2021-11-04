@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 086ed5da087493b0e7950e4cb268eb9b3d231e33
-ms.sourcegitcommit: 1f30616328d7deb04e41dcbd44a330ea937fe94f
+ms.openlocfilehash: c7938e3468750a56fe8cc7c36a4d78b1eb51c014
+ms.sourcegitcommit: 444a58b28f8611323e16d28b4c63a0f68eaaafa6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60582499"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60780010"
 ---
 # <a name="security-development-and-operations-overview"></a>Übersicht über die Sicherheitsentwicklung und den Sicherheitsbetrieb
 
@@ -56,7 +56,7 @@ Microsoft hat eine allgemeine Strategie für die Verwaltung der Open Source-Sich
 - Ermitteln, ob diese Komponenten Sicherheitsrisiken aufweisen.
 - Bei ermittelten Sicherheitsrisiken, die sich auf diese Komponenten auswirken, angemessen zu reagieren.
 
-Microsoft-Entwicklungsteams sind für die Sicherheit aller Open Source-Software, die in einem Produkt oder Dienst enthalten ist, verantwortlich. Um diese Sicherheit in großem Umfang zu erreichen, hat Microsoft über Component Governance (CG) wesentliche Funktionen in Engineering-Systeme integriert, die die Open Source-Erkennung, gesetzliche Anforderungsworkflows und Warnungen für anfällige Komponenten automatisieren. Automatisierte CG-Tools überprüfen Builds bei Microsoft auf Open Source-Komponenten und zugehörige Sicherheitsrisiken oder rechtliche Verpflichtungen. Entdeckte Komponenten werden registriert und den zuständigen Teams für Business-und Security Reviews übermittelt. Diese Überprüfungen sind so ausgelegt, dass sie alle rechtlichen Verpflichtungen oder Sicherheitsrisiken auswerten, die mit Open Source-Komponenten verbunden sind, und diese beheben, bevor sie Komponenten für die Bereitstellung genehmigen.
+Microsoft-Entwicklungsteams sind für die Sicherheit aller Open Source-Software, die in einem Produkt oder Dienst enthalten ist, verantwortlich. Um diese Sicherheit im großen Maßstab zu erreichen, hat Microsoft über Component Governance (CG) wesentliche Funktionen in Engineering-Systeme integriert, die die Open Source-Erkennung, gesetzliche Anforderungsworkflows und Warnungen für anfällige Komponenten automatisieren. Automatisierte CG-Tools überprüfen Builds bei Microsoft auf Open Source-Komponenten und zugehörige Sicherheitsrisiken oder rechtliche Verpflichtungen. Entdeckte Komponenten werden registriert und den zuständigen Teams für Business-und Security Reviews übermittelt. Diese Überprüfungen sind so ausgelegt, dass sie alle rechtlichen Verpflichtungen oder Sicherheitsrisiken auswerten, die mit Open Source-Komponenten verbunden sind, und diese beheben, bevor sie Komponenten für die Bereitstellung genehmigen.
 
 ## <a name="related-external-regulations--certifications"></a>Verwandte externe Vorschriften & Zertifizierungen
 
@@ -75,7 +75,7 @@ Die Onlinedienste von Microsoft werden regelmäßig auf die Einhaltung externer 
 | **Externe Überwachungen** | **Section** | **Aktuelles Berichtsdatum** |
 |:--------------------|:------------|:-----------------------|
 | [FedRAMP](https://compliance.microsoft.com/compliancemanager) | SA-3: Lebenszyklus der Systementwicklung | 24. September 2020 |
-| [ISO 27001/27002/27017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=8d625374-4f2d-49f8-9d37-a4281ba98222&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [Erklärung zur Anwendbarkeit](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br> [Zertifizierung](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=1e84a14a-2468-45ac-9412-5e53250d57ec&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.12.1.2: Steuerelemente für die Änderungsverwaltung <br> A.14.2: Sicherheit in Entwicklungs- und Supportprozessen | 20. April 2021 |
+| [ISO 27001/27002/27017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=08ce227f-d1d9-4c4c-b255-4f2e4ec8f941&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [Erklärung zur Anwendbarkeit](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br> [Zertifizierung](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=1e84a14a-2468-45ac-9412-5e53250d57ec&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.12.1.2: Steuerelemente für die Änderungsverwaltung <br> A.14.2: Sicherheit in Entwicklungs- und Supportprozessen | 20. April 2021 |
 | [SOC 1](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=90df3f9c-3aaf-4dbf-99d0-ca9f2991721b&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) <br> [SOC 2](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=a73c1738-7892-42b7-acd3-87b6371c53f6&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-03: Risikomanagement <br> CA-18: Änderungsverwaltung <br> CA-19: Änderungsüberwachung <br> CA-21: Änderungstests <br> CA-38: Basiskonfigurationen <br> CA-46: Sicherheitsüberprüfung | 24. Dezember 2020 |
 
 ## <a name="resources"></a>Ressourcen

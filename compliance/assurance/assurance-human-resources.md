@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 95b1f2eedd9123ba9f6d2d8f8c175ed773bbd5ce
-ms.sourcegitcommit: 1f30616328d7deb04e41dcbd44a330ea937fe94f
+ms.openlocfilehash: f6dbc970e37b206df8cedf2adc986d0c3b7c3b55
+ms.sourcegitcommit: 444a58b28f8611323e16d28b4c63a0f68eaaafa6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60582648"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60780021"
 ---
 # <a name="human-resources-overview"></a>Personalwesen (Übersicht)
 
@@ -60,7 +60,7 @@ Wenn die Anstellung eines Serviceteambenutzers als beendet gekennzeichnet ist, w
 
 ## <a name="how-does-microsoft-ensure-third-party-suppliers-meet-the-same-personnel-requirements-as-microsoft-employees"></a>Wie stellt Microsoft sicher, dass Drittanbieter die gleichen Personalanforderungen erfüllen wie Microsoft-Mitarbeiter?
 
-Microsoft-Onlinedienste erfordern, dass Drittanbieter über einen signierten Master Supplier Services Agreement (MSSA) verfügen. Dieser Vertrag erfordert, dass der Lieferant die Microsoft-Richtlinien und -Verfahren, einschließlich der Personalsicherheitsrichtlinien und -verfahren, einhält. Microsoft überwacht die Einhaltung der Überprüfungsanforderungen für Mitarbeiter von Drittanbietern, indem das Ergebnis des Screenings direkt nachzuverfolgen. Microsoft verlangt von Lieferanten, dass sie Die Ergebnisse von Überprüfungen für Mitarbeiter von Drittanbietern direkt an Microsoft übermitteln.
+Microsoft-Onlinedienste erfordern, dass Drittanbieter über einen signierten Master Supplier Services Agreement (MSSA) verfügen. Dieser Vertrag erfordert, dass der Lieferant die Microsoft-Richtlinien und -Verfahren, einschließlich der Personalsicherheitsrichtlinien und -verfahren, einhält. Microsoft überwacht die Einhaltung der Überprüfungsanforderungen für Mitarbeiter von Drittanbietern, indem das Ergebnis des Screenings direkt nachzuverfolgen. Microsoft verlangt von Lieferanten, dass Sie Die Ergebnisse der Überprüfung für Mitarbeiter von Drittanbietern direkt an Microsoft übermitteln.
 
 ## <a name="related-external-regulations--certifications"></a>Verwandte externe Vorschriften & Zertifizierungen
 
@@ -80,6 +80,6 @@ Die Onlinedienste von Microsoft werden regelmäßig auf die Einhaltung externer 
 | **Externe Überwachungen** | **Section** | **Aktuelles Berichtsdatum** |
 |:--------------------|:------------|:-----------------------|  
 | [FedRAMP](https://compliance.microsoft.com/compliancemanager) | AT-2: Sicherheitsbewusstsein <br> AT-3: Rollenbasierte Sicherheitsschulung <br> AT-4: Aufzeichnungen von Sicherheitsschulungen <br> PS-3: Personalprüfung <br> PS-4: Beendigung des Personals <br> PS-5: Personalübertragung <br> PS-7: Sicherheit des Personals von Drittanbietern | 24. September 2020 |
-| [ISO 27001/27002/27017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=8d625374-4f2d-49f8-9d37-a4281ba98222&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [Erklärung zur Anwendbarkeit](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br> [Zertifizierung](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=1e84a14a-2468-45ac-9412-5e53250d57ec&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.7: Personalsicherheit | 20. April 2021 |
+| [ISO 27001/27002/27017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=08ce227f-d1d9-4c4c-b255-4f2e4ec8f941&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [Erklärung zur Anwendbarkeit](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0df4ce8-c77e-4183-84eb-c8688470d8b1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br> [Zertifizierung](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=1e84a14a-2468-45ac-9412-5e53250d57ec&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.7: Personalsicherheit | 20. April 2021 |
 | [SOC 1](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=90df3f9c-3aaf-4dbf-99d0-ca9f2991721b&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-08: Hintergrundüberprüfungen <br> CA-43: Kontosperrung | 24. Dezember 2020 |
 | [SOC 2](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=a73c1738-7892-42b7-acd3-87b6371c53f6&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-07: Standards of Business Conduct (SBC) <br> CA-08: Hintergrundüberprüfungen <br> CA-43: Kontosperrung <br> ELC-13.08.14: Arbeitsverträge | 24. Dezember 2020 |
